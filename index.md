@@ -293,6 +293,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[AI Pricing]] — Free JSON API for per-token AI model pricing across 19 providers. Agent-native, no auth
 - [[AgentsView]] — Local-first analytics dashboard for 24+ coding agents
 - [[Browser Use]] — AI browser automation with anti-detection and deterministic rerun
+- [[Chrome DevTools MCP — Debug Your Browser Session]] — Chrome M144's `--autoConnect` lets agents reuse authenticated browser sessions. Hybrid manual/AI debugging via permission-gated remote debugging
 - [[surf-cli]] — Browser automation for agents via CLI and Unix sockets. No MCP needed
 - [[DeepWiki]] — Cognition's instant codebase wiki: swap github.com for deepwiki.com, get AI-powered Q&A with line-level citations
 - [[graphify]] — Codebase to multimodal knowledge graph. Code, PDFs, screenshots, diagrams
