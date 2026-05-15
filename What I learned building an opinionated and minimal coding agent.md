@@ -36,6 +36,8 @@ Weak: the "full YOLO by default" stance is fine for a solo developer running in 
 
 This is the most important architectural argument in the coding agent space right now: does complexity serve capability, or has the ecosystem added complexity faster than it added value?
 
+The productized Pi is now documented at pi.dev. See [[Pi Coding Agent]] for the official docs, ecosystem, and SDK — and the tension between the original minimalist philosophy and the shipping product's extension surface.
+
 ---
-*Sources: [[raw/what-i-learned-building-minimal-coding-agent]]*
-*Last updated: 2026-05-14*
+*Sources: [[raw/what-i-learned-building-minimal-coding-agent]], [[Pi Coding Agent]]*
+*Last updated: 2026-05-15*
