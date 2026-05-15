@@ -208,6 +208,7 @@ Isolation, credentials, prompt injection defense, and agent safety.
 
 - [[A Deep Dive on Agent Sandboxes]] — How Codex sandboxes agent execution: Seatbelt, Landlock, seccomp
 - [[yolo-cage]] — Agents that can't exfiltrate secrets or merge their own PRs. Vagrant + egress proxy
+- [[Attack Review -- Claude Allowlisted-Egress Exfiltration]] — lhl's shisad framework vs. Claude Pirate and Cowork: four-stage kill chain analysis proving security is architecture, not patches
 - [[OpenSandbox]] — Alibaba's sandbox platform for AI: Docker, Kubernetes, gVisor, Firecracker
 - [[Navaris]] — Unified sandbox control plane: containers or microVMs, one API
 - [[Crabbox]] — Agent workspace control plane: lease throwaway cloud machines without sharing provider credentials. Brokered provisioning, 16 providers, warm reuse, PR evidence artifacts
