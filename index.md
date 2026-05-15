@@ -63,6 +63,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Cyborgs Will Kill the Corporation]] — AI agents as human exoskeleton: when transaction costs collapse, the firm decomposes into excorporations, plankton, and protocols
 - [[Claude Code Cheat Sheet]] — Comprehensive reference for Claude Code v2.1.140
 - [[The Claude Code Playbook]] — Five beginner-to-intermediate tips: MCPs, CLAUDE.md, plan mode, Max plan economics, IDE diagnostics
+- [[A Guide to Claude Code 2.0]] — Sankalp's deep tour of CC 2.0: sub-agents, skills, hooks, system reminders, and context engineering as a discipline
 - [[TextForge Case Study]] — Stannard's six-layer discipline for greenfield LLM development: planning, reference architectures, skills, PRDs, verification pipelines, snapshot testing
 - [[Claude Code on the Go]] — Mobile-first workflow: agents on a cloud VM, controlled from an iPhone
 - [[MobileVibe]] — Mobile app controlling coding agents on your own desktop: local execution, phone as terminal
