@@ -343,6 +343,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[Eye of the Master]] — AI as labour automation, not cognitive science. Pasquinelli's social history
 - [[Why We Fear AI]] — AI anxiety is really capitalism anxiety. Blix and Glimmer
 - [[The Future of Everything is Lies I Guess]] — Aphyr's 10-part treatise on LLM harms: chaotic dynamics, information ecology collapse, deskilling, and capital consolidation
+- [[MIT Funding and Talent Pipeline Crisis (Kornbluth)]] — MIT President quantifies the damage: 20% decline in federal research, ~500 fewer grad students, faculty cutting postdocs. A case study in how science policy cascades through institutions
 - [[Our Hunter-Gatherer Future]] — Agriculture was a step down; extreme climate change may end it
 - [[Life at Low Reynolds Numbers]] — Purcell's classic: physics at bacterial scale. A metre a week
 - [[Estimating Pi with a Coin]] — Toss until heads leads, record the fraction. Average approaches pi/4
