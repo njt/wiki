@@ -133,6 +133,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 
 Multi-agent systems, task graphs, kanban boards, and coordination patterns.
 
+- [[Parallel Coding Agents Guide]] — Peltz's field guide to running multiple agents simultaneously: worktree isolation, the review bottleneck, and agent selection
 - [[Cord]] — Dynamic task tree coordination with spawn/fork/ask primitives
 - [[Dorothy]] — MCP-first desktop app: 5 servers, 40+ tools, parallel agents, Kanban auto-assignment, event-driven automations from GitHub/JIRA
 - [[acpx]] — Headless CLI client for the Agent Client Protocol: one command surface wrapping 16+ coding agents with persistent sessions, prompt queueing, and a flow runtime
