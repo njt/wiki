@@ -342,6 +342,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[Creative Firewall]] — Sundar's framework for the boundary between authentic human prompting and AI-optimized output: Trojan Prompts as the creative differentiator
 - [[Eye of the Master]] — AI as labour automation, not cognitive science. Pasquinelli's social history
 - [[Why We Fear AI]] — AI anxiety is really capitalism anxiety. Blix and Glimmer
+- [[Retail 2026 From AI Pilots to Execution]] — iVendNext vendor pitch analyzed: data fragmentation kills retail AI, MCP server + Claude Desktop as product interface, the vendor omission checklist
 - [[The Future of Everything is Lies I Guess]] — Aphyr's 10-part treatise on LLM harms: chaotic dynamics, information ecology collapse, deskilling, and capital consolidation
 - [[Our Hunter-Gatherer Future]] — Agriculture was a step down; extreme climate change may end it
 - [[Life at Low Reynolds Numbers]] — Purcell's classic: physics at bacterial scale. A metre a week
