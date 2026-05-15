@@ -234,6 +234,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 - [[How HTML Changes in ePub]] — ePub is XHTML, not HTML5. Unlearn your web habits
 - [[Correct by Construction]] — Data quality as a whitelist: anchors, attributes, links, no NULLs
 - [[Anomaly Detection]] — Welford's algorithm + KV store. No ML, no config, just math
+- [[The Pragmatic Summit]] — Gergely Orosz's inaugural curated conference for senior engineers: 400 attendees, application-based, practitioner-only speaker lineup
 
 ## Databases & Data
 
