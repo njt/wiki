@@ -61,6 +61,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Two Kinds of User Are Emerging]] — Power users vs casual users; many power users are non-technical professionals
 - [[AI Killing B2B SaaS]] — Vibe coding threatens SaaS, but hastily-built solutions lack security and compliance
 - [[Cyborgs Will Kill the Corporation]] — AI agents as human exoskeleton: when transaction costs collapse, the firm decomposes into excorporations, plankton, and protocols
+- [[Claude Chic]] — Wes McKinney's alternative TUI for Claude Code with live roborev review sidebar, built on Textual + Claude Agent SDK
 - [[Claude Code Cheat Sheet]] — Comprehensive reference for Claude Code v2.1.140
 - [[The Claude Code Playbook]] — Five beginner-to-intermediate tips: MCPs, CLAUDE.md, plan mode, Max plan economics, IDE diagnostics
 - [[TextForge Case Study]] — Stannard's six-layer discipline for greenfield LLM development: planning, reference architectures, skills, PRDs, verification pipelines, snapshot testing
