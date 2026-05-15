@@ -34,6 +34,35 @@ The migration strategy: try each ALTER TABLE in sequence, silently catch failure
 
 ---
 
+## Source-Level Architecture
+
+Reading the full `app.js` (326 lines, 15 functions) reveals the two-DSL architecture in detail:
+
+**Layer 1 — `ui.dsl`**: An HTML generation DSL. `ui.page()`, `ui.form()`, `ui.input()`, `ui.select()`, `ui.div()`, `ui.h1()` etc. all return HTML strings. The entire page is one expression tree — no template files, no JSX, just nested function calls that compose into a complete document. The `ui.fragment()` call in card rendering shows this is a proper virtual DOM-like composition model, not string concatenation.
+
+```javascript
+return ui.page({ title: "Trail Notes: Cascade Loop" },
+  ui.link({ rel: "stylesheet", href: "/style.css" }),
+  ui.main({ class: "page" },
+    ui.header({ class: "hero" }, /* ... */),
+    board.render({ query: filters, session: req.session }),
+    ui.footer({ class: "footer" }, /* ... */)
+  )
+);
+```
+
+**Layer 2 — `kanban.dsl`**: A board composition DSL. The builder chain `.columns().data().features().render().actions().build()` is not just configuration — each stage receives a context object with access to the partially-built board. The `.data()` stage binds four callbacks (`cards`, `id`, `column`, `position`, `searchText`) that the framework calls at render time. The `.actions()` stage registers server-side handlers that return response objects like `{ ok: true, refresh: true, card: moved, toast: "Moved card" }` — the framework uses these to decide whether to re-render or just show a toast.
+
+**Session isolation by default.** Every query includes `WHERE session_id = ?`. The `sessionId()` function accepts a string, an object with `.id`, or falls back to `"default"`. This means the same SQLite database serves multiple independent users without any auth middleware — each user sees only their own cards. `seedIfEmpty()` is called on every `listCards()` invocation, which means the first read by any session populates 10 demo cards. Clever but fragile: a concurrent first read could double-seed.
+
+**Position management as a solved problem.** Cards are ordered at 10-point intervals (`(index + 1) * 10`). After every move, both source and destination columns are re-normalized — `normalizeColumn()` iterates every card in the column and rewrites its position. This is O(n) per move, which is correct for hundreds of cards. The `nextPosition()` function uses `COALESCE(MAX(position), 0) + 10` for inserts. The 10-point gap leaves room for manual position tweaks between existing cards, though the code never exploits this.
+
+**Migration as exception-swallowing.** `ignoreDuplicateColumn()` wraps each `ALTER TABLE` in try/catch, silently discarding errors. The comment says "older demo dbs may already have the column." This is a demo-appropriate pattern that would become a production liability — there's no way to distinguish "column already exists" from "table doesn't exist" from "database is corrupt." The honest function name (`ignoreDuplicateColumn`) is better documentation than most migration tools provide.
+
+**The CSS is a 52-line template literal.** Custom properties (`--ink`, `--paper`, `--soft`, `--muted`, `--line`) create a cohesive monospace aesthetic. Box shadows on borders (`box-shadow: 3px 3px 0 var(--line)`) and the `.mascot` rotation (`transform: rotate(-1deg)`) are the only visual flourishes on an otherwise brutalist design. Two responsive breakpoints (1100px and 680px) handle tablet and mobile. The `image-rendering: pixelated` + `filter: grayscale(1) contrast(1.2)` on card images is a deliberate stylistic choice — trail map sketches, not photos.
+
+**Five routes, no middleware.** The Express app registers: `GET /` (HTML page), `GET /style.css` (inline CSS served as `text/css; charset=utf-8`), `GET /favicon.ico` (204, because there isn't one), `GET /api/cards` (JSON list), and `POST /cards` (create + redirect). No auth, no validation beyond a title-required check, no CSRF protection. This is a demo, and it acts like one.
+
 ## Critical Analysis
 
 The DSL pattern here is genuinely interesting — not because DSLs are new, but because this particular flavor (JavaScript DSLs composing into a self-contained mounted component) solves a real coordination problem between framework and application code. Most web frameworks force you to spread your application across routes, templates, stylesheets, and client-side JS. goja-site lets you define the whole thing in one place and mount it. That's the right instinct.
@@ -48,5 +77,5 @@ Position normalization after every move (re-numbering all cards in a column at 1
 
 ---
 
-*Sources: [[raw/goja-site-kanban-example]]*
+*Sources: [[raw/goja-site-kanban-example]], [[raw/goja-site-kanban-app-js]]*
 *Last updated: 2026-05-15*
