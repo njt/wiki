@@ -117,6 +117,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Rowboat]] — Local-first AI coworker with persistent knowledge graph from email and docs
 - [[Swamp Club]] — Agent-first workflow framework: Zod-typed models, DAG execution, encrypted vaults, immutable versioned data. From System Initiative
 - [[Optimise Anything]] — Universal API: if it serializes to a string and quality is measurable, optimize it
+- [[DSL-Driven Kanban Boards (Goja-Site)]] — Chainable JavaScript DSLs compose an entire kanban app declaratively: board, rendering, drag-drop, search, and DB — then mount on a router
 - [[DAB]] — Microsoft's Data API Builder: REST, GraphQL, and MCP over any database
 - [[Semantic Kernel]] — Microsoft's agent middleware SDK: function-calling plumbing for C#, Python, Java enterprise codebases
 - [[Data Engineering for Large Models]] — Open-source textbook: complete LLM data pipeline, 28 chapters
