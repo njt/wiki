@@ -64,6 +64,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Claude Code Cheat Sheet]] — Comprehensive reference for Claude Code v2.1.140
 - [[The Claude Code Playbook]] — Five beginner-to-intermediate tips: MCPs, CLAUDE.md, plan mode, Max plan economics, IDE diagnostics
 - [[TextForge Case Study]] — Stannard's six-layer discipline for greenfield LLM development: planning, reference architectures, skills, PRDs, verification pipelines, snapshot testing
+- [[There Is No Spoon]] — ML primer built on physical analogies (neurons as polarizing filters, depth as paper folding), conversationally constructed with Claude, designed for interactive AI-aided exploration
 - [[Claude Code on the Go]] — Mobile-first workflow: agents on a cloud VM, controlled from an iPhone
 - [[MobileVibe]] — Mobile app controlling coding agents on your own desktop: local execution, phone as terminal
 - [[CLAUDE.md (Universal)]] — Six token-efficient rules for making Claude behave sensibly
