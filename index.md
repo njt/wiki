@@ -265,6 +265,7 @@ Isolation, credentials, prompt injection defense, and agent safety.
 - [[You Dont Want Long-Lived Keys]] — Ephemeral credentials sidestep the rotation problem entirely
 - [[VTcode]] — Rust coding agent with OS-native sandboxing and comprehensive audit trails
 - [[agentsh]] — Execution-layer security gateway: redirect instead of deny, FUSE+eBPF+seccomp, MCP-native security controls
+- [[AI Cybersecurity After Mythos — The Jagged Frontier]] — Fort tests Mythos's claims against cheap open-weights models: 8/8 detect the flagship exploit. The moat is the scaffold, not the model
 - [[Cybersecurity Is Proof of Work Now]] — Security is a compute economics problem: outspend your attacker or stay vulnerable. Breunig's proof-of-work framing for the Mythos era
 - [[An Illustrated Guide to OAuth]] — Visual explainer of the authorization code flow: every piece of OAuth's complexity closes a specific attack vector
 - [[Hostnames and Usernames to Reserve]] — Which names to block on any user-registration platform: hostnames, emails, and URL paths that break protocol trust assumptions
