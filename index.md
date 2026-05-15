@@ -264,6 +264,7 @@ Isolation, credentials, prompt injection defense, and agent safety.
 - [[Cybersecurity Is Proof of Work Now]] — Security is a compute economics problem: outspend your attacker or stay vulnerable. Breunig's proof-of-work framing for the Mythos era
 - [[An Illustrated Guide to OAuth]] — Visual explainer of the authorization code flow: every piece of OAuth's complexity closes a specific attack vector
 - [[Hostnames and Usernames to Reserve]] — Which names to block on any user-registration platform: hostnames, emails, and URL paths that break protocol trust assumptions
+- [[Supply Chain Security for Software Developers]] — The 7-day rule and layered defenses against package attacks after TeamPCP's March-April 2026 campaign
 
 ## Software Engineering
 
