@@ -214,6 +214,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 - [[14 More lessons from 14 years at Google]] — Osmani on organizational dynamics: meetings, reliability as product, team interfaces
 - [[Better Error Messages]] — Say what happened, say why, reassure, give a way out, help fix it
 - [[Designing a Passively Safe API]] — After any failure: complete exactly once, or land in a visible terminal state
+- [[Idempotency Is Easy Until the Second Request Is Different]] — The hard cases: concurrent retries, partial failures, key reuse, recovery. 409 Conflict on same-key-different-command
 - [[Good API Design]] — Goedecke's practitioner's guide: boring over clever, immutability over versioning, product over interface
 - [[Elements of Code]] — Rules for comprehensible software. "Wrong in correctable ways"
 - [[Patterns.dev]] — The definitive modern reference for web design, rendering, and performance patterns across vanilla JS, React, and Vue
