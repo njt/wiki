@@ -122,6 +122,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[MimiClaw]] — AI assistant on a $5 ESP32 microcontroller. Pure C, Telegram, ReAct loop
 - [[Rowboat]] — Local-first AI coworker with persistent knowledge graph from email and docs
 - [[Swamp Club]] — Agent-first workflow framework: Zod-typed models, DAG execution, encrypted vaults, immutable versioned data. From System Initiative
+- [[OpenViktor]] — 48-hour AI employee platform that hit #3 on Product Hunt, then was killed and rebuilt as Jared. Blog post is password-protected; reconstructed from secondary sources
 - [[Optimise Anything]] — Universal API: if it serializes to a string and quality is measurable, optimize it
 - [[DSL-Driven Kanban Boards (Goja-Site)]] — Chainable JavaScript DSLs compose an entire kanban app declaratively: board, rendering, drag-drop, search, and DB — then mount on a router
 - [[DAB]] — Microsoft's Data API Builder: REST, GraphQL, and MCP over any database
