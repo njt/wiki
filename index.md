@@ -384,3 +384,4 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[Vibe Maths and the Erdős Breakthrough]] — Amateur + ChatGPT cracks a 60-year-old conjecture. AI's superpower is innocence, not intelligence: it doesn't know which approaches the field ruled out
 - [[One Year of Keeping a Tada List]] — Daily to-done lists: the hidden chain of effort behind finished work, and the artifact that outlasts the practice
 - [[1000 Players Simulate Civilization]] — A Minecraft social experiment that became 2025's best film; emergent storytelling and the economics of taste
+- [[ytx How to Write Interesting Chord Progressions]] — Michael Keithson's radial model of harmony: seven independent strands radiating from a key centre, with practical shortcuts for improvisers
