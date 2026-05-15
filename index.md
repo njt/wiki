@@ -39,6 +39,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[2389 Plugin Marketplace]] — 26 plugins and 4 MCP servers from 2389 Research: the largest third-party Claude Code plugin collection, and a bet on marketplaces as the distribution model for agent capabilities
 - [[Simmer Skill]] — 2389 Research's iterative artifact refinement skill: judge-generator loops that self-hone via meta-iteration, converging in 3-5 rounds by leveraging pretrained competence plus targeted feedback
 - [[How to Write a Good Spec for Agents]] — Five principles for specs that make agents productive
+- [[Automatic Programming]] — antirez draws a bright line: AI-assisted programming with human vision vs. vibe coding as abdication. "Programming is now automatic, vision is not (yet)"
 - [[The Plan Is the Program]] — Tyler Angert's aphorism unpacked: when tools collapse intent and execution, the plan becomes the atomic unit of work
 - [[Spec-Driven Development]] — Specs, tests, and code form a triangle, not a pipeline
 - [[Code Field]] — Resist the urge to over-specify; let the code emerge smaller than your first instinct
