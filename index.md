@@ -361,6 +361,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[Archive.today DDoSed a Critic's Blog]] — An OSINT investigation sat quiet for 2.5 years, then the anonymous operator retaliated with client-side DDoS and escalating threats
 - [[The Mundanity of Excellence]] — Excellence is qualitatively different choices, not quantitatively more effort
 - [[Happiest I've Ever Been]] — Happiness from coaching kids, not moving rectangles
+- [[Not-Knowing (Vaughn Tan)]] — Four-type diagnostic framework for uncertainty: risk tools produce false confidence when misapplied to genuine unknowns. Diagnosis before action
 - [[Things You're Allowed to Do]] — Catalogue of overlooked opportunities. Most constraints are self-imposed
 - [[Computer Use is 45x More Expensive Than Structured APIs]] — Vision agents: 551k tokens/17min vs API agents: 12k tokens/20sec. The gap is architectural, not model-dependent
 - [[Creative Firewall]] — Sundar's framework for the boundary between authentic human prompting and AI-optimized output: Trojan Prompts as the creative differentiator
