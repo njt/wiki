@@ -363,6 +363,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[Happiest I've Ever Been]] — Happiness from coaching kids, not moving rectangles
 - [[Things You're Allowed to Do]] — Catalogue of overlooked opportunities. Most constraints are self-imposed
 - [[Computer Use is 45x More Expensive Than Structured APIs]] — Vision agents: 551k tokens/17min vs API agents: 12k tokens/20sec. The gap is architectural, not model-dependent
+- [[Why Does AI Write Like That]] — Sam Kriss's taxonomy of AI prose tics: overfitting as style, how "delve" and em dashes became class markers, and the flattening of early GPT's surreal humor into insipid eagerness
 - [[Creative Firewall]] — Sundar's framework for the boundary between authentic human prompting and AI-optimized output: Trojan Prompts as the creative differentiator
 - [[Eye of the Master]] — AI as labour automation, not cognitive science. Pasquinelli's social history
 - [[Why We Fear AI]] — AI anxiety is really capitalism anxiety. Blix and Glimmer
