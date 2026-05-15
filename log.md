@@ -1,5 +1,6 @@
 ## 2026-05-15
 
+- 2026-05-15: Ingested [How AI Agent Memory Works](https://memory.cobanov.dev/) → raw/how-ai-agent-memory-works.md, How AI Agent Memory Works.md. Cross-links: [[Memory Mechanism]], [[Agent Memory and Context]], [[Context Rot]], [[NornicDB]], [[mira-OSS]], [[Three Tier Memory]], [[napkin]], [[How Hightouch Built Their Long-Running Agent Harness]], [[robot.wtf]]
 - 2026-05-15: Ingested [MobileVibe](https://mobilevibe.com/) → raw/mobilevibe.md, MobileVibe.md. Cross-links: [[Claude Code on the Go]], [[happy]], [[Agent Coding Workflow]], [[ThoughtWorks Future of Software Engineering Retreat]], [[Agent of Empires]], [[Compound Engineering]], [[Building Agents for Production Systems with MCP]], [[Ralph]], [[Security and Sandboxing]]
 - 2026-05-15: Ingested [Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)](https://news.ycombinator.com/item?id=47899844) → raw/wuphf-karpathy-style-llm-wiki.md, Wuphf — Karpathy-Style Agent Wiki.md. Cross-links: [[LLM Wiki]], [[robot.wtf]], [[jibrain Knowledge Architecture]], [[Cosmo's Blog]], [[QMD]], [[napkin]], [[Claude-Mem]], [[Planning With Files]], [[Three Tier Memory]], [[Write Only Code]], [[Feedback Loop is All You Need]], [[Guardrails and Feedback Loops]], [[CodeMira]], [[Agent Memory and Context]], [[Reality Check]], [[Harness Engineering]]
 
