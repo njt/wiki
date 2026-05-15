@@ -32,6 +32,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[How Intercom Uses Claude Code]] — 13 plugins, 100+ skills, hooks, and OpenTelemetry observability: the most comprehensive enterprise Claude Code deployment published
 - [[Inside the AI Workflows of Every's Six Engineers]] — Six engineers, same company, six radically different AI stacks converging on planning-first, multi-model, guardrail-heavy workflows
 - [[Minions — Stripe's One-Shot Coding Agents]] — 1,000+ unattended PRs/week on hundreds of millions of LOC. Forked Goose, 400 MCP tools, two CI rounds max
+- [[Inside OpenAI's In-House Data Agent]] — Codex agents autonomously run OpenAI's 600PB data platform. The hard problem isn't model intelligence — it's making the company's data reality legible to the agent
 - [[2389 Plugin Marketplace]] — 26 plugins and 4 MCP servers from 2389 Research: the largest third-party Claude Code plugin collection, and a bet on marketplaces as the distribution model for agent capabilities
 - [[How to Write a Good Spec for Agents]] — Five principles for specs that make agents productive
 - [[The Plan Is the Program]] — Tyler Angert's aphorism unpacked: when tools collapse intent and execution, the plan becomes the atomic unit of work
