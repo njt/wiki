@@ -1,3 +1,5 @@
+- 2026-05-15: Ingested [@HedgieMarkets tweet on AI livestream factories](https://xcancel.com/hedgiemarkets/status/2013417027713548718) → raw/hedgiemarkets-ai-livestream-factories.md, AI Livestream Factories.md. URL/fetch unavailable (all mirrors 503/403, X.com 402); content reconstructed from Twitter oEmbed API + web search. Cross-links: [[The Dark Factory is a DOT File]], [[Don't Fear the Dark Factory]], [[Retail 2026 From AI Pilots to Execution]], [[AI Killing B2B SaaS]], [[Computer Use is 45x More Expensive Than Structured APIs]], [[How to Buy Cheap Claude Tokens in China]], [[Cyborgs Will Kill the Corporation]], [[The Future of Everything is Lies I Guess]], [[Creative Firewall]]
+
 ## 2026-05-15
 
 - 2026-05-15: Re-ingested [Xano](https://www.xano.com/) — no material changes from prior ingest. Wiki page and raw source already current.
