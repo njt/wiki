@@ -68,6 +68,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[MobileVibe]] — Mobile app controlling coding agents on your own desktop: local execution, phone as terminal
 - [[CLAUDE.md (Universal)]] — Six token-efficient rules for making Claude behave sensibly
 - [[Writing a Good CLAUDE.md]] — HumanLayer's guide: short, universal, hand-crafted, linters-not-prompts. The instruction-budget case for brevity
+- [[Anatomy of the .claude/ Folder]] — Avi Chawla's structural reference: every directory and file in .claude/, from CLAUDE.md to agents/, with a five-step setup progression
 - [[claude-code-config (Trail of Bits)]] — Security-conscious Claude Code defaults from Trail of Bits
 - [[claude-ctrl]] — Enforcement via hooks and SQLite, not prompts. "An instruction in context is not a constraint"
 - [[Collaborator]] — Infinite canvas desktop app: agents, terminals, and context files side by side
