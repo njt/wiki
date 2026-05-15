@@ -86,6 +86,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Designing Agentic Loops]] — Simon Willison names the meta-skill: choosing tools, guardrails, and success criteria so YOLO-mode agents converge. Shell commands beat MCP, tests are the force multiplier
 - [[Don't Fear the Dark Factory]] — Matt Wynne's conversion narrative: the dark factory is a validation problem, not a generation problem. Simple loop + good harness, and the TDD parallel
 - [[If AI Is Doing the Investigation, Version the Investigation]] — Fletcher's Cases pattern: commit the AI session transcript next to the code so the investigation survives the session
+- [[Probabilistic Engineering and the 24-7 Employee]] — Tim Davis: the deterministic contract is broken, validation doesn't scale with generation, and the overnight agent fleet creates a training crisis where craft atrophies
 - [[0xSero]] — Agent infrastructure practitioner: REAP-pruned models calibrated for agentic coding, ai-data-extraction toolkit, BYOK long-running autonomous workflows
 
 ## Agent Design & Architecture
