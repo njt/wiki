@@ -217,6 +217,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 - [[Better Error Messages]] — Say what happened, say why, reassure, give a way out, help fix it
 - [[Designing a Passively Safe API]] — After any failure: complete exactly once, or land in a visible terminal state
 - [[Good API Design]] — Goedecke's practitioner's guide: boring over clever, immutability over versioning, product over interface
+- [[What You NEED to Know Before Touching a Video File]] — Video encoding craft guide: quality as fidelity-to-source, remuxing vs. reencoding, sharp opinions earned through mechanism understanding
 - [[Elements of Code]] — Rules for comprehensible software. "Wrong in correctable ways"
 - [[Patterns.dev]] — The definitive modern reference for web design, rendering, and performance patterns across vanilla JS, React, and Vue
 - [[The Future of Software Engineering is SRE]] — AI makes code trivial; operations becomes the differentiator
