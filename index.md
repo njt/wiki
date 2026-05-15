@@ -149,6 +149,7 @@ Multi-agent systems, task graphs, kanban boards, and coordination patterns.
 - [[weft]] — Cloudflare-hosted task board where agents work and humans approve
 - [[workgraph]] — Persistent task graph: agents come and go, the graph remains. JSONL on disk
 - [[poietic]] — Human-machine collaboration via shared dependency graphs with claims and handoffs
+- [[Gas Town's Agent Patterns]] — Appleton dissects Yegge's unhinged agent orchestrator: vibe design is the real danger, hierarchical roles and ephemeral sessions are the patterns worth keeping
 - [[Zero Alignment]] — Team alignment is the new bottleneck. One dev with 24 agents produces chaos
 - [[Loomkin]] — Multi-agent platform on Erlang/OTP: spawn in 500ms, PubSub in microseconds
 - [[Process-Based Concurrency BEAM OTP]] — BEAM's actor model is what agent frameworks keep reinventing
