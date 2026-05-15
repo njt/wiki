@@ -50,5 +50,5 @@ This pairs with [[The Next Two Years of Software Engineering]] for the employmen
 
 ---
 
-*Sources: [[raw/2026-global-intelligence-crisis]], web search results, QIIA analysis (Zhao Yuqi / Huang Ping)*
+*Sources: [[raw/2026-global-intelligence-crisis]] (full primary source captured via browser automation)*
 *Last updated: 2026-05-15*
