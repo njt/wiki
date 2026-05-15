@@ -203,6 +203,7 @@ Persistence, retrieval, knowledge management, and context engineering for agents
 - [[Wuphf — Karpathy-Style Agent Wiki]] — Markdown+git wiki substrate for agent teams. BM25+SQLite, draft-to-promote flow, daily lint cron. The HN thread (115 comments) is an accidental focus group on whether agent-generated knowledge is knowledge at all
 - [[Claude Memory Extractor Research]] — 15-agent experiment finds agents dangerously overconfident on ambiguous cases: 100% convergence, zero epistemic humility. Multi-dimensional extraction beats single-pass, but only with structural safeguards
 - [[Immaculate Knowledge Graph]] — Harper Reed's lazy-first recipe: 600 meeting transcripts + Claude Code + Obsidian = a personal knowledge graph. The pipeline over the taxonomy
+- [[Memory Is a Mistake]] — Manthan Gupta's architectural teardown of OpenClaw memory and his essay arguing most AI products shouldn't ship memory. Six concrete failure modes, retrieval policy as the hard problem, legible state over implicit memory
 
 ## Quality & Guardrails
 

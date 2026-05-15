@@ -534,6 +534,9 @@ Source: https://forward.com/culture/422492/so-why-on-that-night-of-all-other-nig
 ## [2026-05-15] ingest | Tech Writers and AI (HN Discussion)
 
 Source: https://news.ycombinator.com/item?id=46629474 — 266-comment HN thread on replacing tech writers with AI. Standout comment by nicbou: empathy, observation, and first-hand data gathering as the real job, not word-arrangement. Key themes: the banana bread problem (machines can't curate human experiences), traceable vs untraceable errors in management, AI as adequate for compliance docs nobody reads, the printing press quality/access tradeoff, and human upscaling as the hidden cost. Created `raw/hn-tech-writers-ai.md` and wiki page `Tech Writers and AI (HN Discussion).md`. Added to index under Ideas & Culture. Cross-linked to [[The Future of Everything is Lies I Guess]] (LLMs performing empathy without meaning), [[Cognitive Debt]] (velocity without comprehension), [[Write Only Code]] (diffuse costs, delayed impact).
+## [2026-05-15] ingest | Memory Is a Mistake (Manthan Gupta)
+
+Source: https://xcancel.com/manthanguptaa/status/2015780646770323543 + https://manthanguptaa.in/posts/memory_is_a_mistake/ — Original tweet unfetchable (xcancel 503, Nitter blank); content reconstructed from the referenced Supermemory blog post and Manthan's full essay. Tweet broke down OpenClaw's memory architecture; essay expanded into a four-system comparison and argued most AI products shouldn't ship memory. Created `raw/manthanguptaa-memory-is-a-mistake.md` and wiki page `Memory Is a Mistake.md`. Added to index under Memory & Context. Cross-linked to [[clawdBot]], [[Hermes]], [[Agent Memory and Context]], [[Memory Mechanism]], [[Context Rot]], [[Agent Identity]], [[How AI Agent Memory Works]], [[Engineering the Substrate]], [[napkin]], [[robot.wtf]].
 
 ## [2026-05-14] ingest | AI Coding Tools Create More Bugs Than They Fix (Darryl K. Taft, The New Stack)
 
