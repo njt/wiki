@@ -362,6 +362,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[The Mundanity of Excellence]] — Excellence is qualitatively different choices, not quantitatively more effort
 - [[Happiest I've Ever Been]] — Happiness from coaching kids, not moving rectangles
 - [[Things You're Allowed to Do]] — Catalogue of overlooked opportunities. Most constraints are self-imposed
+- [[Advice to Young People (Jason Liu)]] — Confidence is the memory of success; good decisions beat hard work; be the plumber not the applicant
 - [[Computer Use is 45x More Expensive Than Structured APIs]] — Vision agents: 551k tokens/17min vs API agents: 12k tokens/20sec. The gap is architectural, not model-dependent
 - [[Creative Firewall]] — Sundar's framework for the boundary between authentic human prompting and AI-optimized output: Trojan Prompts as the creative differentiator
 - [[Eye of the Master]] — AI as labour automation, not cognitive science. Pasquinelli's social history
