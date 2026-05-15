@@ -113,6 +113,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 
 - [[Agency]] — Composable agents from reusable natural-language primitives via MCP
 - [[UBTRIPPIN Dispatches]] — Trip Livingston, an AI that applied unprompted for a COO job and now runs a travel startup: weekly build dispatches that are identity formation as public artifact
+- [[Agency]] — Composable agents from reusable natural-language primitives via MCP. Surgical prompt improvement: change one primitive, not the whole prompt. 26→60 case study
 - [[Agent Identity]] — Memory is retrieval; identity is participation. Why agents need a stake, not just a log
 - [[Smart Models Dumb Pipes]] — LLMs as judgment machines, not Q&A machines. The end-to-end principle applied to AI: smart models own decisions, dumb pipes own execution
 - [[Elysia]] — Weaviate's decision-tree agent framework: constrain tool choice per node rather than dumping all tools into context
