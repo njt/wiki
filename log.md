@@ -1,5 +1,7 @@
 ## 2026-05-15
 
+- 2026-05-15: Ingested [Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)](https://news.ycombinator.com/item?id=47899844) → raw/wuphf-karpathy-style-llm-wiki.md, Wuphf — Karpathy-Style Agent Wiki.md. Cross-links: [[LLM Wiki]], [[robot.wtf]], [[jibrain Knowledge Architecture]], [[Cosmo's Blog]], [[QMD]], [[napkin]], [[Claude-Mem]], [[Planning With Files]], [[Three Tier Memory]], [[Write Only Code]], [[Feedback Loop is All You Need]], [[Guardrails and Feedback Loops]], [[CodeMira]], [[Agent Memory and Context]], [[Reality Check]], [[Harness Engineering]]
+
 - 2026-05-15: Index reconciliation — added 8 missing pages from new-format dscldy ingests: Building an AI Agent in Rails (Ionescu), Designing Agentic Loops, From AI Studio to AI Forge, If AI Is Doing the Investigation Version the Investigation, One Year of Keeping a Tada List, ProofEditor, TDD Coordinator (Corazonn), Vibe Coding and the Maker Movement
 
 ## 2026-05-14

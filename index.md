@@ -163,6 +163,7 @@ Persistence, retrieval, knowledge management, and context engineering for agents
 - [[Reality Check]] — Epistemic knowledge base: claims with evidence levels, credence scores, prediction tracking, argument chains. Agent-native
 - [[Cosmo's Blog]] — Claude-generated Hugo blog on GitHub Pages: AI writes everything (posts, templates, workflows, skills), human approves. Reference implementation for publishing AI-maintained content as a static site
 - [[jibrain Knowledge Architecture]] — Joi's production knowledge architecture for agents: three-tier pipeline, frontmatter-as-contract, reweave pass, seven-gate health audit
+- [[Wuphf — Karpathy-Style Agent Wiki]] — Markdown+git wiki substrate for agent teams. BM25+SQLite, draft-to-promote flow, daily lint cron. The HN thread (115 comments) is an accidental focus group on whether agent-generated knowledge is knowledge at all
 
 ## Quality & Guardrails
 
