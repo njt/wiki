@@ -183,6 +183,7 @@ Persistence, retrieval, knowledge management, and context engineering for agents
 Evals, testing, linting, feedback loops, and keeping agent output trustworthy.
 
 - [[Feedback Loop is All You Need]] — Linters beat prompts. Your CLAUDE.md is a suggestion; your linter isn't
+- [[AI Needs to Think Before Giving Feedback]] — G-E-RG loop (Generate→Evaluate→Re-Generate) for AI feedback quality; the system that checks the generation is where the engineering lives
 - [[Harness Engineering]] — Böckeler's framework: feedforward vs. feedback, computational vs. inferential. The engineering theory behind "linters beat prompts"
 - [[Pre-Commit Lint Checks]] — Lint config is production infrastructure. Immutable by default
 - [[Demystifying Evals for AI Agents]] — Anthropic's definitive guide to rigorous, repeatable agent evaluation
