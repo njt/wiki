@@ -2,7 +2,7 @@
 url: https://www.xano.com/
 title: "Xano — The Scalable No-Code Backend Platform"
 author: Xano
-date_fetched: 2026-05-15
+date_fetched: 2026-05-15 (re-fetched, no material changes)
 date_published: unknown
 ---
 
