@@ -177,6 +177,7 @@ Persistence, retrieval, knowledge management, and context engineering for agents
 - [[jibrain Knowledge Architecture]] — Joi's production knowledge architecture for agents: three-tier pipeline, frontmatter-as-contract, reweave pass, seven-gate health audit
 - [[Wuphf — Karpathy-Style Agent Wiki]] — Markdown+git wiki substrate for agent teams. BM25+SQLite, draft-to-promote flow, daily lint cron. The HN thread (115 comments) is an accidental focus group on whether agent-generated knowledge is knowledge at all
 - [[Immaculate Knowledge Graph]] — Harper Reed's lazy-first recipe: 600 meeting transcripts + Claude Code + Obsidian = a personal knowledge graph. The pipeline over the taxonomy
+- [[Memory Is a Mistake]] — Manthan Gupta's architectural teardown of OpenClaw memory and his essay arguing most AI products shouldn't ship memory. Six concrete failure modes, retrieval policy as the hard problem, legible state over implicit memory
 
 ## Quality & Guardrails
 
