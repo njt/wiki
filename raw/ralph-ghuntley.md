@@ -3,7 +3,7 @@ title: "Ralph (Ghuntley's Technique)"
 url: https://ghuntley.com/ralph/
 author: Geoffrey Huntley
 date_published: 2025-07-14
-date_fetched: 2026-05-14
+date_fetched: 2026-05-15
 ---
 
 # Ralph - Geoffrey Huntley
@@ -186,7 +186,32 @@ The author argues: "If models and tools remain as they are now, we are in post-A
 
 "LLMs are mirrors of operator skill." Success depends on the human operator's ability to craft effective prompts, interpret failures, and guide the system -- not the model's raw capability.
 
+## The Signposting Metaphor
+
+Huntley uses a playground analogy to explain how Ralph is tuned:
+
+"Ralph is very good at making playgrounds, but he comes home bruised because he fell off the slide, so one then tunes Ralph by adding a sign next to the slide."
+
+Signs are prompt instructions that nudge behavior in the right direction. Over time, signs accumulate. Eventually "all Ralph thinks about is the signs" — at which point you reset and start fresh with a clean prompt.
+
+## Embracing and Resolving Defects
+
+"any problem created by AI can be resolved through a different series of prompts."
+
+Huntley describes waking up to broken codebases, using `git reset --hard`, or feeding compilation errors into Gemini to generate rescue plans that Ralph then executes.
+
+## Additional Notable Quotes
+
+- "All you need are tokens; these models yearn for tokens, so throw them at them."
+- "When I hear that argument, I question 'by whom'? By humans? Why are humans the frame for maintainability?"
+- "The models know what a compiler is better than I do. I just ask it."
+- "Ralph has three states. Under baked, baked, or baked with unspecified latent behaviours (which are sometimes quite nice!)."
+
+## Y Combinator Hackathon Result
+
+A YC hackathon team ran a coding agent in a while loop and "It Shipped 6 Repos Overnight" — this became the RepoMirror project.
+
 ## Associated Resources
 
 - GitHub: repomirrorhq/repomirror
-- Related articles by author: "Deliberate Intentional Practice," "LLMs are Mirrors of Operator Skill," "From Design Doc to Code," "Autoregressive Queens of Failure"
+- Related articles by author: "Deliberate Intentional Practice," "LLMs are Mirrors of Operator Skill," "From Design Doc to Code," "Autoregressive Queens of Failure," "I dream about AI subagents," "from Luddites to AI: the Overton Window of disruption"
