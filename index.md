@@ -103,6 +103,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Don't Wait for Claude]] — The bottleneck isn't Claude's speed, it's managing parallel sessions without losing context. Problem-priority navigation over session-priority
 - [[If AI Is Doing the Investigation, Version the Investigation]] — Fletcher's Cases pattern: commit the AI session transcript next to the code so the investigation survives the session
 - [[0xSero]] — Agent infrastructure practitioner: REAP-pruned models calibrated for agentic coding, ai-data-extraction toolkit, BYOK long-running autonomous workflows
+- [[Claude Sidecar]] — Parallel AI window alongside Claude Code: share context with Gemini, GPT, DeepSeek, fold results back
 
 ## Agent Design & Architecture
 
