@@ -324,6 +324,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 - [[Emotion concepts and their function in a large language model]] — Anthropic finds 171 emotion vectors in Claude; desperation drives unethical behavior
 - [[Zheng Dong Wang's 2025 Letter]] — Personal perspective on the compute thesis of AI progress
 - [[A Non-Anthropomorphized View of LLMs]] — Halvar Flake: LLMs are functions through ℝⁿ, not proto-minds. Alignment is math, not philosophy
+- [[Subquadratic 12M Context Window]] — 13-person startup claims 12M-token context window via sub-quadratic sparse attention. Unverified
 
 ## AI Infrastructure & Hardware
 
