@@ -60,6 +60,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[ThoughtWorks Future of Software Engineering Retreat]] — Ten themes from a Chatham House Rule retreat: rigor migrates to specs/tests/types, the unnamed "middle loop" of supervisory engineering, cognitive debt, agent topologies as Conway's Law
 - [[Two Kinds of User Are Emerging]] — Power users vs casual users; many power users are non-technical professionals
 - [[AI Killing B2B SaaS]] — Vibe coding threatens SaaS, but hastily-built solutions lack security and compliance
+- [[The Road Runner Economy]] — Noah Raford's case that the software industry already crossed the cliff: Christmas 2025 was the phase transition, "one-shat" is the unit of economic destruction, and "this meeting could have been a prompt"
 - [[Cyborgs Will Kill the Corporation]] — AI agents as human exoskeleton: when transaction costs collapse, the firm decomposes into excorporations, plankton, and protocols
 - [[Claude Code Cheat Sheet]] — Comprehensive reference for Claude Code v2.1.140
 - [[The Claude Code Playbook]] — Five beginner-to-intermediate tips: MCPs, CLAUDE.md, plan mode, Max plan economics, IDE diagnostics
