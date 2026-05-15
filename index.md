@@ -46,6 +46,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[The Mythical Agent-Month]] — Agents attack accidental complexity but generate new accidental complexity
 - [[acceleration-flow]] — AI-assisted coding as slot machine gambling: near-misses create dopamine loops
 - [[Five Levels from Spicy Autocomplete to the Dark Software Factory]] — Five-level framework for AI-assisted development, echoing NHTSA driving automation
+- [[The Cult of Vibe Coding Is Insane]] — Bram Cohen torches the "never look at code" extremists: pure vibe coding is a myth, the framework IS the engineering
 - [[Refactor Legacy Code with Copilot]] — Copilot prompt patterns for legacy modernization across four languages; shallow on the hard problems
 - [[A Practical Guide to Brownfield AI Development]] — Pupius's field guide to making agents productive in legacy codebases: tests as system boundaries, docs as context, compromise as strategy. The best brownfield AI piece in the wiki
 - [[On a Year of Multi-Model Development]] — Hoffman's field report on Claude+Codex+Gemini via shared MCP: construction-trade model taxonomy, 25-71x acceleration, specification as bottleneck
