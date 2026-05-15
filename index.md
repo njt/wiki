@@ -1,6 +1,6 @@
 # Wiki Index
 
-201 individual pages + 11 synthesis pages from Nat's 2026 Technical Link Pile.
+202 individual pages + 11 synthesis pages from Nat's 2026 Technical Link Pile.
 
 ## Synthesis
 
@@ -247,6 +247,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 - [[The Coming Need for Formal Specification]] — AI makes code cheap, review lags, and formal methods become the systematic answer to the mismatch
 
 - [[Systems Ideas That Sound Good]] — Sinofsky's eight engineering patterns that fail 9 out of 10 times
+- [[Microservices for the Benefits, Not the Hustle]] — Microservices are about changeability, not scalability; hard repo boundaries enforce cohesion that monoliths allow to erode
 - [[Nobody Knows How Large Software Projects Work]] — Complexity is inherent at scale; the team's value is answering questions
 - [[How I've Run Major Projects]] — Ben Kuhn: focus, detailed planning, fast OODA loops, overcommunication
 - [[When the Target Keeps Moving]] — Track discovery-to-delivery ratio to know if you're converging or diverging
