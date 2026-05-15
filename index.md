@@ -130,6 +130,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Semantic Kernel]] — Microsoft's agent middleware SDK: function-calling plumbing for C#, Python, Java enterprise codebases
 - [[Data Engineering for Large Models]] — Open-source textbook: complete LLM data pipeline, 28 chapters
 - [[OpenAI Structured Outputs]] — Guaranteed JSON schema adherence from the API: protocol-level constraint beats prompt-level pleading
+- [[Moltbook]] — Simon Willison on the AI-only social network bootstrapped via OpenClaw skills: heartbeat-driven agents, the lethal trifecta in production, and whether we can build a safe version
 
 ## Agent Orchestration & Coordination
 
