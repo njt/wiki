@@ -1,6 +1,6 @@
 # Serf
 
-A non-interactive coding agent from Prime Radiant (Jesse's company). Give it a task, it does the work -- file operations, command execution, code search -- in a structured loop until the objective is met. Go-based, multi-provider (OpenAI, Anthropic, Google, OpenRouter, Ollama), with persistent sessions and a web hub for concurrent management.
+A non-interactive coding agent from [[Prime Radiant (Company)]] (Jesse Vincent's company). Give it a task, it does the work -- file operations, command execution, code search -- in a structured loop until the objective is met. Go-based, multi-provider (OpenAI, Anthropic, Google, OpenRouter, Ollama), with persistent sessions and a web hub for concurrent management.
 
 ---
 

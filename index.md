@@ -429,6 +429,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[AI Coding Weekly]] — Weekly digest of AI development tools and trends
 - [[Tech Writers and AI (HN Discussion)]] — HN thread as oral history of what tech writing actually is: empathy, observation, and the untraceable cost of bad docs
 - [[Spicy Takes Feed]] — 28 tech writers aggregated by heat. Skeptical, infrastructure-heavy
+- [[Prime Radiant (Company)]] — Jesse Vincent's AI company: incorporated late 2025, ships open-source agent tools while building a stealth AI product
 - [[Awesome Vibez]] — Curated project list from Nat's WhatsApp coding community
 - [[Vibe Coding and the Maker Movement]] — "Evaluative anesthesia": the dopamine of making eclipses the ability to judge. Maker Movement parallels
 - [[Vibe Maths and the Erdős Breakthrough]] — Amateur + ChatGPT cracks a 60-year-old conjecture. AI's superpower is innocence, not intelligence: it doesn't know which approaches the field ruled out

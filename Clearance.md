@@ -1,6 +1,6 @@
 # Clearance
 
-A native macOS Markdown viewer and editor from Prime Radiant (the company behind [[Serf]]). Swift-native, fully local at runtime, with first-class YAML frontmatter support. 178 stars, Apache-2.0. The repo is structured as a monorepo with a placeholder Tauri app for future cross-platform expansion.
+A native macOS Markdown viewer and editor from [[Prime Radiant (Company)]] (the company behind [[Serf]]). Swift-native, fully local at runtime, with first-class YAML frontmatter support. 178 stars, Apache-2.0. The repo is structured as a monorepo with a placeholder Tauri app for future cross-platform expansion.
 
 ---
 
