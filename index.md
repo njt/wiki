@@ -108,6 +108,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Don't Fear the Dark Factory]] — Matt Wynne's conversion narrative: the dark factory is a validation problem, not a generation problem. Simple loop + good harness, and the TDD parallel
 - [[Don't Wait for Claude]] — The bottleneck isn't Claude's speed, it's managing parallel sessions without losing context. Problem-priority navigation over session-priority
 - [[If AI Is Doing the Investigation, Version the Investigation]] — Fletcher's Cases pattern: commit the AI session transcript next to the code so the investigation survives the session
+- [[Probabilistic Engineering and the 24-7 Employee]] — Tim Davis: the deterministic contract is broken, validation doesn't scale with generation, and the overnight agent fleet creates a training crisis where craft atrophies
 - [[0xSero]] — Agent infrastructure practitioner: REAP-pruned models calibrated for agentic coding, ai-data-extraction toolkit, BYOK long-running autonomous workflows
 - [[Claude Sidecar]] — Parallel AI window alongside Claude Code: share context with Gemini, GPT, DeepSeek, fold results back
 - [[How to Effectively Write Quality Code with AI]] — Heidenstedt's twelve principles: every decision you don't document, the AI will make for you — usually badly
