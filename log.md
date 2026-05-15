@@ -1,5 +1,6 @@
 ## 2026-05-15
 
+- 2026-05-15: Ingested [The Lazarus effect — America is experiencing a productivity miracle](https://bsky.app/profile/razorgirl.diy/post/3mawdd6yu7c2n) (The Economist, via razorgirl on Bluesky) → raw/economist-lazarus-effect.md, The Lazarus Effect — America's Productivity Miracle.md. Cross-links: [[2026 Global Intelligence Crisis]], [[How AI Labs Are Solving the Power Crisis]], [[Cyborgs Will Kill the Corporation]]
 - 2026-05-15: Ingested [How to build a `git diff` driver](https://www.jvt.me/posts/2026/04/11/how-git-diff-driver/) → raw/jvt-me-git-diff-driver.md, Git Diff Drivers.md. Cross-links: [[Before Reading Code]], [[Assorted less(1) Tips]], [[Software Engineering Craft]], [[Elements of Code]], [[Dolt]], [[sem]]
 - 2026-05-15: Re-ingested [lat.md](https://github.com/1st1/lat.md) (via programmerweekly.com referral) → raw/lat-md.md (updated), lat.md.md (updated). No material changes from 2026-05-14 ingest. Added cross-links: [[CLAUDE.md (Universal)]], [[Planning With Files]]
 
