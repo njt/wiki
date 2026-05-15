@@ -335,6 +335,7 @@ Datacenters, power, chips, and the physical layer of AI.
 
 Books, essays, geopolitics, math, medicine, and interesting oddities.
 
+- [[Archive.today DDoSed a Critic's Blog]] — An OSINT investigation sat quiet for 2.5 years, then the anonymous operator retaliated with client-side DDoS and escalating threats
 - [[The Mundanity of Excellence]] — Excellence is qualitatively different choices, not quantitatively more effort
 - [[Happiest I've Ever Been]] — Happiness from coaching kids, not moving rectangles
 - [[Things You're Allowed to Do]] — Catalogue of overlooked opportunities. Most constraints are self-imposed
