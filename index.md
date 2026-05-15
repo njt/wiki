@@ -264,6 +264,7 @@ Storage engines, query patterns, data quality, and vector/graph databases.
 - [[SiftRank]] — LLM-based document ranking with pairwise comparisons and inflection detection
 - [[Materialized Views Are Obviously Useful]] — Sophie Alpert: incremental view maintenance is obviously useful; databases should handle derived data, not application code
 - [[Long Live Systems of Record]] — Jamin Ball: agents don't kill systems of record, they raise the bar. "Where does the truth live" is the only question that matters
+- [[PgDog]] — PostgreSQL proxy combining connection pooling, load balancing, and sharding in one binary with zero application code changes
 - [[Postgres CDC in ClickHouse, A Year in Review]] — Field report on PeerDB's first year inside ClickHouse: 400+ customers, 200 TB/month, and the surprising complexity of making CDC feel boring
 
 ## Developer Tools
