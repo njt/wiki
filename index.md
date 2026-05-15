@@ -164,6 +164,7 @@ Multi-agent systems, task graphs, kanban boards, and coordination patterns.
 - [[TDD Coordinator (Corazonn)]] — Claude Code `/go` slash command orchestrating subagents through TDD cycles with a mandatory Rule of Two quality gate
 - [[Scaling Long-Running Agents]] — Cursor's finding: flat self-coordination fails; planner/worker/judge works
 - [[speedrift-ecosystem]] — Autonomous dark-factory control plane supervising agent work across repos
+- [[What Ralph Wiggum Loops Are Missing]] — The graduation path from bash loops to structured dependency management: why freeform markdown tracking breaks under multi-agent load
 - [[Managing Agents via Kanban Boards]] — Task status transitions as the signaling mechanism between humans and agents
 - [[ralph-ban]] — TUI kanban board for agents. Five columns, vim nav, SQLite, real-time sync
 - [[vibe-kanban]] — Kanban boards for assigning work to coding agents with inline diff review
