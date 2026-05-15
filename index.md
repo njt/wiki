@@ -358,7 +358,6 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[Life at Low Reynolds Numbers]] — Purcell's classic: physics at bacterial scale. A metre a week
 - [[Estimating Pi with a Coin]] — Toss until heads leads, record the fraction. Average approaches pi/4
 - [[Goeckerman Regimen]] — Century-old psoriasis treatment that outperforms modern biologics
-- [[1000 Players Simulate Civilization]] — Ish's 1,000-player Minecraft social experiment: emergent governments, a propaganda newspaper, and a merchant mafia from asymmetric starting conditions
 - [[Third Gulf War]] — LLM-powered hypothesis tracking for geopolitical analysis
 - [[World Monitor]] — Real-time global intelligence dashboard. 500+ feeds, 65+ data sources
 - [[How to Buy Cheap Claude Tokens in China]] — Grey market transfer stations: three-tier supply chain, model swapping, log harvesting, biometric trafficking
