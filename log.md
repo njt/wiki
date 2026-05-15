@@ -1,5 +1,7 @@
 ## 2026-05-15
 
+- 2026-05-15: Ingested [MobileVibe](https://mobilevibe.com/) → raw/mobilevibe.md, MobileVibe.md. Cross-links: [[Claude Code on the Go]], [[happy]], [[Agent Coding Workflow]], [[ThoughtWorks Future of Software Engineering Retreat]], [[Agent of Empires]], [[Compound Engineering]], [[Building Agents for Production Systems with MCP]], [[Ralph]], [[Security and Sandboxing]]
+
 - 2026-05-15: Index reconciliation — added 8 missing pages from new-format dscldy ingests: Building an AI Agent in Rails (Ionescu), Designing Agentic Loops, From AI Studio to AI Forge, If AI Is Doing the Investigation Version the Investigation, One Year of Keeping a Tada List, ProofEditor, TDD Coordinator (Corazonn), Vibe Coding and the Maker Movement
 
 ## 2026-05-14
