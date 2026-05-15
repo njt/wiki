@@ -67,6 +67,7 @@
 - 2026-05-15: Ingested [Microscale Thermite Reaction](https://sciencedemonstrations.fas.harvard.edu/presentations/microscale-thermite-reaction) → raw/microscale-thermite-reaction.md, Microscale Thermite Reaction.md. Cross-links: [[Life at Low Reynolds Numbers]], [[Estimating Pi with a Coin]], [[The Mundanity of Excellence]], [[Things You're Allowed to Do]]
 
 - 2026-05-15: Index reconciliation — added 8 missing pages from new-format dscldy ingests: Building an AI Agent in Rails (Ionescu), Designing Agentic Loops, From AI Studio to AI Forge, If AI Is Doing the Investigation Version the Investigation, One Year of Keeping a Tada List, ProofEditor, TDD Coordinator (Corazonn), Vibe Coding and the Maker Movement
+- 2026-05-15: Ingested [Don't Wait for Claude](https://jeapostrophe.github.io/tech/jc-workflow/) → raw/jc-workflow.md, Don't Wait for Claude.md. Cross-links: [[Agent Coding Workflow]], [[How Boris Uses Claude Code]], [[Agent Orchestration]], [[Agent Memory and Context]], [[Agent of Empires]], [[Cognitive Debt]], [[Slowing the Fuck Down]], [[Collaborator]], [[acpx]], [[Claude Lamp]], [[Managing Agents via Kanban Boards]], [[Designing Agentic Loops]], [[Compound Engineering]], [[napkin]]
 
 ## 2026-05-14
 
