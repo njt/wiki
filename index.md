@@ -160,6 +160,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[DAB]] — Microsoft's Data API Builder: REST, GraphQL, and MCP over any database
 - [[Xano]] — No-code backend platform: AI-generated Postgres, APIs, auth, and logic with visual transparency as governance. Enterprise case studies at €22M/month scale
 - [[Semantic Kernel]] — Microsoft's agent middleware SDK: function-calling plumbing for C#, Python, Java enterprise codebases
+- [[All Your Agents Are Going Async]] — HTTP is the wrong transport for agents that outlive connections; durable state is only half the problem
 - [[Data Engineering for Large Models]] — Open-source textbook: complete LLM data pipeline, 28 chapters
 - [[OpenAI Structured Outputs]] — Guaranteed JSON schema adherence from the API: protocol-level constraint beats prompt-level pleading
 - [[Moltbook]] — Simon Willison on the AI-only social network bootstrapped via OpenClaw skills: heartbeat-driven agents, the lethal trifecta in production, and whether we can build a safe version
