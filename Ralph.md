@@ -45,16 +45,26 @@ Each loop iteration gets one task. The LLM picks what to work on from fix_plan.m
 
 Huntley runs up to 500 parallel subagents for search, exploration, and planning -- but restricts build/test validation to a single subagent to avoid backpressure failures. This preserves the primary context window for orchestration.
 
+### The Signposting Metaphor
+
+Huntley describes tuning Ralph through a playground analogy:
+
+> "Ralph is very good at making playgrounds, but he comes home bruised because he fell off the slide, so one then tunes Ralph by adding a sign next to the slide."
+
+Signs are prompt instructions that nudge behavior. They accumulate over time as you discover failure modes. The trap: eventually "all Ralph thinks about is the signs" — over-constrained, you reset the prompt to a clean slate. This is prompt engineering as gardening, not architecture.
+
 ### Prompt Engineering Details
 
 The prompt for his CURSED compiler project mandates:
 - Search the codebase before implementing (ripgrep false negatives cause duplicate code)
-- No placeholder implementations ("DO IT OR I WILL YELL AT YOU")
+- No placeholder implementations — uses priority-weighted numbering (9999999999) to overpower the model's bias toward minimal implementations
 - Tests must document *why* they exist, so future iterations can distinguish real bugs from obsolete tests
 - Run tests after every change
+- Auto-commit and git-tag on passing tests
 
 ### Real-World Results
 
+- A YC hackathon team ran a coding agent in a while loop and "It Shipped 6 Repos Overnight" — this became [[RepoMirror]]
 - A $50k outsourcing contract replicated for $297 (~168:1 cost reduction)
 - Building CURSED, a new programming language + compiler (lexer, parser, LLVM codegen, self-hosting stdlib) — a language that doesn't exist in Claude's training data
 
@@ -63,7 +73,8 @@ The prompt for his CURSED compiler project mandates:
 - **Greenfield only.** "There's no way in heck would I use Ralph in an existing code base."
 - **Targets ~90% completion.** The last 10% still needs human work.
 - **Requires senior guidance.** "Engineers are still needed. There is no way this is possible without senior expertise guiding Ralph."
-- **Eventual consistency mindset.** You must accept chaos during construction and trust that more iterations resolve it.
+- **Eventual consistency mindset.** You must accept chaos during construction and trust that more iterations resolve it. "any problem created by AI can be resolved through a different series of prompts."
+- **Three states of output:** "Under baked, baked, or baked with unspecified latent behaviours (which are sometimes quite nice!)" — the third state is the scariest because it passes tests but contains behaviors you didn't ask for.
 
 ### Broader Claims
 
@@ -84,8 +95,8 @@ Both validate the same core insight: fresh context per iteration plus a ratchet 
 
 ## Cross-References
 
-Connects to [[Cord]] (dynamic task decomposition at runtime vs. Ralph's static decomposition), [[Serf]] (non-interactive task completion), [[Planning With Files]] (fix_plan.md and progress.txt as filesystem-as-memory), [[Feedback Loop is All You Need]] (validation as the real work), [[Compound Engineering]] (backpressure phase as compound loop), [[Specifications as the Product]] (Huntley's specs-as-steering aligns with the synthesis), [[Building low-level software with only coding agents]] (Pixo's similar cost economics), [[Agent Coding Workflow]] (Ralph sits at the "dark factory" end of the maturity spectrum), [[Scaling Long-Running Agents]] (fresh context per iteration as an alternative to planner/worker/judge), [[napkin]] (AGENT.md is napkin by another name), [[ralph-ban]] (kanban board for agent task management).
+Connects to [[Cord]] (dynamic task decomposition at runtime vs. Ralph's static decomposition), [[Serf]] (non-interactive task completion), [[Planning With Files]] (fix_plan.md and progress.txt as filesystem-as-memory), [[Feedback Loop is All You Need]] (validation as the real work), [[Compound Engineering]] (backpressure phase as compound loop), [[Specifications as the Product]] (Huntley's specs-as-steering aligns with the synthesis), [[Building low-level software with only coding agents]] (Pixo's similar cost economics), [[Agent Coding Workflow]] (Ralph sits at the "dark factory" end of the maturity spectrum), [[Scaling Long-Running Agents]] (fresh context per iteration as an alternative to planner/worker/judge), [[napkin]] (AGENT.md is napkin by another name), [[ralph-ban]] (kanban board for agent task management), [[RepoMirror]] (YC hackathon that validated the while-loop pattern overnight), [[Don't Fear the Dark Factory]] (Wynne's same insight: the loop is simple, the harness is the work), [[Designing Agentic Loops]] (Willison on the meta-skill of loop design).
 
 ---
-*Sources: [[raw/ralph]], [[raw/ralph-ghuntley]]*
-*Last updated: 2026-05-14*
+*Sources: [[raw/ralph-ghuntley]]*
+*Last updated: 2026-05-15*
