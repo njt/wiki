@@ -204,6 +204,7 @@ Isolation, credentials, prompt injection defense, and agent safety.
 - [[yolo-cage]] — Agents that can't exfiltrate secrets or merge their own PRs. Vagrant + egress proxy
 - [[OpenSandbox]] — Alibaba's sandbox platform for AI: Docker, Kubernetes, gVisor, Firecracker
 - [[Navaris]] — Unified sandbox control plane: containers or microVMs, one API
+- [[Crabbox]] — Agent workspace control plane: lease throwaway cloud machines without sharing provider credentials. Brokered provisioning, 16 providers, warm reuse, PR evidence artifacts
 - [[LLM Guard]] — 35 scanners for prompt injection, data leakage, and toxicity
 - [[OneCLI]] — Credential vault for agents: transparent proxy injection, no real keys exposed
 - [[HackAPrompt Dataset]] — 100K+ prompt injection attempts from a global hacking competition
