@@ -367,6 +367,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[The Future of Everything is Lies I Guess]] — Aphyr's 10-part treatise on LLM harms: chaotic dynamics, information ecology collapse, deskilling, and capital consolidation
 - [[Our Hunter-Gatherer Future]] — Agriculture was a step down; extreme climate change may end it
 - [[Life at Low Reynolds Numbers]] — Purcell's classic: physics at bacterial scale. A metre a week
+- [[Misha Glenny]] — Journalist and author tracing hidden power networks: Balkan wars, organized crime, cybercrime, rare earths. New host of In Our Time
 - [[Estimating Pi with a Coin]] — Toss until heads leads, record the fraction. Average approaches pi/4
 - [[Goeckerman Regimen]] — Century-old psoriasis treatment that outperforms modern biologics
 - [[Third Gulf War]] — LLM-powered hypothesis tracking for geopolitical analysis
