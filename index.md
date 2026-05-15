@@ -206,6 +206,7 @@ Evals, testing, linting, feedback loops, and keeping agent output trustworthy.
 - [[Ratchets in Software Development]] — qntm's dirt-simple lint-time ratchet: count deprecated patterns, error if the count goes up. The ur-pattern behind deterministic enforcement
 - [[Feedback Loop is All You Need]] — Linters beat prompts. Your CLAUDE.md is a suggestion; your linter isn't
 - [[Harness Engineering]] — Böckeler's framework: feedforward vs. feedback, computational vs. inferential. The engineering theory behind "linters beat prompts"
+- [[Harness Engineering (OpenAI)]] — The original experiment: Lopopolo's team shipped 1M lines with zero handwritten code. 12 concrete practices, Symphony orchestrator, and the field report Böckeler responded to
 - [[Pre-Commit Lint Checks]] — Lint config is production infrastructure. Immutable by default
 - [[Demystifying Evals for AI Agents]] — Anthropic's definitive guide to rigorous, repeatable agent evaluation
 - [[LLM Evals]] — Hamel Husain: evals consume 60-80% of your time if you're doing it right
