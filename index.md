@@ -347,6 +347,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 - [[Subquadratic 12M Context Window]] — 13-person startup claims 12M-token context window via sub-quadratic sparse attention. Unverified
 - [[Grok 4.3 (HN Discussion)]] — 529-comment HN thread that accidentally mapped the LLM landscape: tone registers, the alignment tax's real victims, why users disable memory, and recursive training contamination
 - [[Interfaze (Model Architecture)]] — Hybrid DNN+transformer architecture routing deterministic tasks (OCR, STT, object detection) through specialized subnetworks via task tags; launch-day HN field test with real latency and accuracy data
+- [[Muse Spark and the Rough Edges Admission]] — Wang ships Meta's first superintelligence model to 3.5B users, admits "rough edges," pivots from open source. The "rough edges" line isn't the story; the bet on distribution over capability is
 
 ## AI Infrastructure & Hardware
 
