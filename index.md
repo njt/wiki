@@ -326,6 +326,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 
 - [[Git Diff Drivers]] — git's external diff driver interface: the 7-argument contract, `/dev/null` lifecycle sentinels, and a worked `oasdiff` example
 - [[Google Workspace CLI]] — One Rust CLI for all Google Workspace APIs. Dynamic command surface
+- [[Google Workspace CLI Skills]] — Structured skill catalog: 19 services, 25 helpers, 10 personas, 40 recipes. A designed taxonomy for agent-tooling
 - [[VHS]] — Terminal GIF recorder from Charm. Write recordings as scripted .tape files
 - [[Portless]] — Named .localhost URLs for local development. For humans and agents
 - [[QuickEmu]] — QEMU wrapper that auto-configures VMs. Nearly 1000 OS editions
