@@ -1,5 +1,7 @@
 ## 2026-05-15
 
+- 2026-05-15: Ingested [PgDog](https://pgdog.dev/) → raw/pgdog.md, PgDog.md. Cross-links: [[Dolt]], [[Write Snapshot Isolation]], [[Postgres CDC in ClickHouse, A Year in Review]], [[AliSQL]], [[DAB]], [[Materialized Views Are Obviously Useful]], [[Long Live Systems of Record]], [[Graft]], [[Dapper Performance Trap]]
+
 - 2026-05-15: Ingested [MobileVibe](https://mobilevibe.com/) → raw/mobilevibe.md, MobileVibe.md. Cross-links: [[Claude Code on the Go]], [[happy]], [[Agent Coding Workflow]], [[ThoughtWorks Future of Software Engineering Retreat]], [[Agent of Empires]], [[Compound Engineering]], [[Building Agents for Production Systems with MCP]], [[Ralph]], [[Security and Sandboxing]]
 - 2026-05-15: Ingested [Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)](https://news.ycombinator.com/item?id=47899844) → raw/wuphf-karpathy-style-llm-wiki.md, Wuphf — Karpathy-Style Agent Wiki.md. Cross-links: [[LLM Wiki]], [[robot.wtf]], [[jibrain Knowledge Architecture]], [[Cosmo's Blog]], [[QMD]], [[napkin]], [[Claude-Mem]], [[Planning With Files]], [[Three Tier Memory]], [[Write Only Code]], [[Feedback Loop is All You Need]], [[Guardrails and Feedback Loops]], [[CodeMira]], [[Agent Memory and Context]], [[Reality Check]], [[Harness Engineering]]
 
