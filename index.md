@@ -239,6 +239,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 
 - [[Systems Ideas That Sound Good]] — Sinofsky's eight engineering patterns that fail 9 out of 10 times
 - [[Nobody Knows How Large Software Projects Work]] — Complexity is inherent at scale; the team's value is answering questions
+- [[Capturing Why Engineering Decisions]] — HN thread on documenting decision rationale: docs survive next to code, ADRs as point-in-time RFCs, LLMs invert the economics of documentation
 - [[How I've Run Major Projects]] — Ben Kuhn: focus, detailed planning, fast OODA loops, overcommunication
 - [[When the Target Keeps Moving]] — Track discovery-to-delivery ratio to know if you're converging or diverging
 - [[Before Reading Code]] — Five git commands to diagnose codebase health before reading a single line
