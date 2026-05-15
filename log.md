@@ -1,5 +1,7 @@
 ## 2026-05-15
 
+- 2026-05-15: Ingested [goja-site kanban app.js](https://github.com/wesen/2026-05-03--goja-hosting-site/blob/main/examples/kanban/scripts/app.js) (source code, fetched via surf browser automation) → raw/goja-site-kanban-app-js.md. Enriched DSL-Driven Kanban Boards (Goja-Site).md with source-level architecture (15 functions, two-DSL breakdown, session isolation, position management, migration pattern, CSS analysis, route audit). Cross-links: unchanged from existing page.
+
 - 2026-05-15: Ingested [How to build a `git diff` driver](https://www.jvt.me/posts/2026/04/11/how-git-diff-driver/) → raw/jvt-me-git-diff-driver.md, Git Diff Drivers.md. Cross-links: [[Before Reading Code]], [[Assorted less(1) Tips]], [[Software Engineering Craft]], [[Elements of Code]], [[Dolt]], [[sem]]
 - 2026-05-15: Re-ingested [lat.md](https://github.com/1st1/lat.md) (via programmerweekly.com referral) → raw/lat-md.md (updated), lat.md.md (updated). No material changes from 2026-05-14 ingest. Added cross-links: [[CLAUDE.md (Universal)]], [[Planning With Files]]
 
