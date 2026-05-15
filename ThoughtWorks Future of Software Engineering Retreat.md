@@ -1,6 +1,6 @@
 # ThoughtWorks Future of Software Engineering Retreat
 
-A February 2026 retreat bringing senior engineering practitioners from major technology companies together under Chatham House Rule to confront AI's reshaping of software development. ThoughtWorks synthesized the cross-cutting themes into ten findings, organized by time horizon. The central question: if AI handles the code, where does the engineering actually go?
+A February 2026 retreat at Deer Valley, Utah bringing ~50 senior engineering practitioners together under Chatham House Rule to confront AI's reshaping of software development. Hosted by Martin Fowler and ThoughtWorks to mark the 25th anniversary of the Agile Manifesto. Open Space "unconference" format — participants shaped the sessions rather than attending scheduled talks. ThoughtWorks synthesized the cross-cutting themes into ten findings, organized by time horizon. The central question: if AI handles the code, where does the engineering actually go?
 
 ---
 
@@ -13,6 +13,10 @@ A February 2026 retreat bringing senior engineering practitioners from major tec
 > "We optimized the software delivery process for humans. Now that it's not just humans, we have to ask what organizing actually means."
 
 > "The retreat didn't produce a roadmap. It produced a shared understanding that the map is being redrawn."
+
+> "I walked into that room expecting to learn from people who were further ahead. Some of the sharpest minds in the software industry… And nobody has it all figured out. We walked away with more questions than answers, but at least we now have a shared understanding of the sorts of questions we should be asking." — Annie Vella
+
+> "AI is a funhouse mirror — an accelerator of what you already have. If foundational delivery practices aren't in place, velocity becomes a debt accelerator." — Rachel Laycock, CTO ThoughtWorks
 
 ## Ten Themes
 
@@ -44,6 +48,16 @@ A February 2026 retreat bringing senior engineering practitioners from major tec
 
 **Programming languages for agents.** "What is good for AI is good for humans." Languages that make incorrect code unrepresentable help both. Source code may become transient -- generated on demand, never stored. But deterministic validation needs a stable artifact.
 
+**The "Gas Town" identity crisis.** Steve Yegge's concept of appgen engines outrunning dev teams provoked real anxiety about professional identity. If AI does people's work, "who am I and what the heck am I going to do" — echoing [[Opus 4.5 Changes Everything]]'s ambivalence about craft.
+
+**Cost blind spot.** One instance burned $300,000 in API calls to Claude to generate an application that generates applications. The group's response: costs will fall, quality will rise. But no one had current economics modelled. The energy debate was dismissed with "we'll build more nuclear reactors."
+
+**Just because you can doesn't mean you're ready to.** Forrester's Ted Schadler: the retreat surfaced a persistent tension between capability and readiness. AI can do more each month; organizational capacity to absorb, govern, and trust the output grows on a much slower curve. The gap between them is where damage happens.
+
+**Adam Tornhill's data.** LLMs produce 30% more defects in unhealthy codebases, and the relationship is almost certainly non-linear on legacy code. AI amplifies what's already there — a "funhouse mirror" for your engineering practices.
+
+**AI/works platform.** ThoughtWorks demonstrated an "agentic delivery platform" synchronizing AI agents across discovery, delivery, and operations. Not open source, not publicly available — but signals where ThoughtWorks is placing its commercial bets.
+
 ## Key Themes
 
 - Rigor migration: specs, tests, types, risk tiers, comprehension #concept
@@ -65,7 +79,11 @@ The weaknesses: the report is studiously balanced in a way that softens some har
 
 The Chatham House Rule is both the report's strength and weakness. It allows candour but prevents verification. We're trusting ThoughtWorks' synthesis of anonymous practitioners from unnamed companies. The insights ring true against this wiki's evidence base, but the provenance is deliberately opaque.
 
-Most notable absence: cost. Not a single mention of what any of this costs to run. The economics of agent-assisted development -- token spend, infrastructure, the [[How to Buy Cheap Claude Tokens in China]] grey market -- are completely absent from what claims to be a strategic planning document.
+Most notable absence: cost. The $300K anecdote surfaced in Forrester's coverage, not in ThoughtWorks' own report. The group's dismissal of the energy economics question with "we'll build more nuclear reactors" is telling — these are software people, not infrastructure people, and it shows. The economics of agent-assisted development — token spend, infrastructure, the [[How to Buy Cheap Claude Tokens in China]] grey market — are completely absent from what claims to be a strategic planning document. When you're burning six figures on API calls and your answer is "costs will fall," you're not doing strategy — you're doing faith.
+
+The "Gas Town" identity crisis is the emotional undercurrent the report's measured tone conceals. Steve Yegge's framing (appgen engines outrunning dev teams) and Nolan Lawson's mourning-of-craft essay are the lived experience behind the "middle loop." The retreat participants felt this personally but the report intellectualizes it into a new job category. That's useful for planning but dodges the human cost. [[Opus 4.5 Changes Everything]] is more honest about the grief.
+
+Forrester's Schadler closes with the right binary: "We can let the AI tell us what to do. Or we can tell the leaders of AI companies what to do." The retreat chose door number three: let the practitioners define the questions and trust that shared understanding will produce better answers than either submission or regulation. Whether that's wisdom or wishful thinking depends on whether the retreat's participants actually have the leverage they think they do.
 
 ## Cross-Links
 
@@ -90,7 +108,11 @@ Most notable absence: cost. Not a single mention of what any of this costs to ru
 - [[Feedback Loop is All You Need]] -- test suites as first-class artifacts is the linter-beat-prompts thesis applied to TDD
 - [[Write Only Code]] -- AI-generated code nobody reads is the retreat's cognitive debt at the code level
 - [[Compound Engineering]] -- the retreat's verification-proportional-to-risk maps to compound engineering's "add a system, not manual review"
+- [[Opus 4.5 Changes Everything]] -- Holland's grief about craft is the emotional reality behind the "Gas Town" identity crisis the retreat intellectualizes
+- [[AI Coding Tools Create More Bugs Than They Fix]] -- Tornhill's 30% defect increase data is the empirical backing for the "funhouse mirror" thesis
+- [[Simplicity in the Age of AI-Assisted]] -- AI accelerates what you already have; the retreat's "costs will fall" handwave vs. actual economics of rebuilding
+- [[How to Buy Cheap Claude Tokens in China]] -- the grey market the retreat's cost-blind analysis ignores entirely
 
 ---
-*Sources: [[raw/tw-future-of-software-development-retreat-key-takeaways]]*
-*Last updated: 2026-05-14*
+*Sources: [[raw/tw-future-of-software-development-retreat-key-takeaways]], Martin Fowler's [bliki](https://martinfowler.com/bliki/FutureOfSoftwareDevelopment.html), Forrester [analysis](https://www.forrester.com/blogs/takeaways-from-the-future-of-software-development-retreat-just-because-you-can-doesnt-mean-youre-ready-to/), IT Brief [coverage](https://itbrief.com.au/story/thoughtworks-retreat-explores-ai-s-agile-software-future)*
+*Last updated: 2026-05-15*
