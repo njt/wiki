@@ -357,3 +357,4 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[Awesome Vibez]] — Curated project list from Nat's WhatsApp coding community
 - [[Vibe Coding and the Maker Movement]] — "Evaluative anesthesia": the dopamine of making eclipses the ability to judge. Maker Movement parallels
 - [[One Year of Keeping a Tada List]] — Daily to-done lists: the hidden chain of effort behind finished work, and the artifact that outlasts the practice
+- [[1000 Players Simulate Civilization]] — A Minecraft social experiment that became 2025's best film; emergent storytelling and the economics of taste
