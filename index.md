@@ -253,6 +253,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 - [[14 More lessons from 14 years at Google]] — Osmani on organizational dynamics: meetings, reliability as product, team interfaces
 - [[Assorted less(1) Tips]] — Tim Chase's 17 less tricks plus HN's crowd-sourced addendum: a masterclass in deep tool knowledge, security footguns, and the pager as interactive programming environment
 - [[Better Error Messages]] — Say what happened, say why, reassure, give a way out, help fix it
+- [[Git Rebase for the Terrified]] — The rebase fear is irrational: your local clone is disposable, and the nuclear option costs nothing
 - [[Designing a Passively Safe API]] — After any failure: complete exactly once, or land in a visible terminal state
 - [[Idempotency Is Easy Until the Second Request Is Different]] — The hard cases: concurrent retries, partial failures, key reuse, recovery. 409 Conflict on same-key-different-command
 - [[Good API Design]] — Goedecke's practitioner's guide: boring over clever, immutability over versioning, product over interface
