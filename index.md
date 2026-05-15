@@ -93,6 +93,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Elysia]] — Weaviate's decision-tree agent framework: constrain tool choice per node rather than dumping all tools into context
 - [[Elements of Agentic Systems Design]] — Ten-element taxonomy: Context, Memory, Agency, Reasoning, Coordination, and more
 - [[Components of a Coding Agent]] — The harness matters more than the model. Six core components identified
+- [[Honey I Shrunk the Coding Agent]] — 9B local model jumps from 19% to 46% on Aider Polyglot by redesigning the scaffold around the model's behavioral profile. Empirical proof that the harness matters more than the model
 - [[Building an AI Agent in Rails (Ionescu)]] — Field report: bolting an AI agent onto a 7-year-old Rails monolith with Pundit-scoped tool calling
 - [[From AI Studio to AI Forge]] — McCormick's five-plane stack for agent autonomy: "human changes altitude" as the cleanest framing of supervisory control
 - [[ProofEditor]] — Agent-first collaborative document editor from Every: agents suggest edits, humans review, provenance-tracked attribution
