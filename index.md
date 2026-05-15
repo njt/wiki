@@ -57,7 +57,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Building 200+ Integrations with OpenCode]] — 200 API integrations in 15 minutes for under $20
 - [[Simplicity in the Age of AI-Assisted]] — LLMs make it cheap to rebuild without inherited complexity
 - [[The Next Two Years of Software Engineering]] — Junior employment drops 9-10% after AI adoption; senior roles hold steady
-- [[ThoughtWorks Future of Software Engineering Retreat]] — Ten themes from a Chatham House Rule retreat: rigor migrates to specs/tests/types, the unnamed "middle loop" of supervisory engineering, cognitive debt, agent topologies as Conway's Law
+- [[ThoughtWorks Future of Software Engineering Retreat]] — 50 practitioners at Deer Valley for Agile's 25th: ten time-horizoned themes, the "middle loop" of supervisory engineering, cognitive debt, agent topologies as Conway's Law, and a $300K cost blind spot
 - [[Two Kinds of User Are Emerging]] — Power users vs casual users; many power users are non-technical professionals
 - [[AI Killing B2B SaaS]] — Vibe coding threatens SaaS, but hastily-built solutions lack security and compliance
 - [[Cyborgs Will Kill the Corporation]] — AI agents as human exoskeleton: when transaction costs collapse, the firm decomposes into excorporations, plankton, and protocols
