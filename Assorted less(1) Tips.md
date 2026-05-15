@@ -18,13 +18,39 @@ The plus-command syntax is the secret handshake of pager power users. `+F` for f
 
 This is the insight that makes `less` more than a viewer: it's an interactive exploration tool. Pipe a 50MB logfile in, filter to only ERROR lines, then unfilter when you need context. The workflow is iterative in a way that `grep | less` isn't. (Caveat: the regex engine is unreasonably slow on large files, per HN's jemfinch — so pipe through grep first for big logs.)
 
+> "Less provides an alternative of `<C-x>` to stop following, but that is intercepted by most shells." — CBLT (HN)
+
+The dark pattern of terminal control: `<C-c>` stops following but also kills the source process in a pipeline (`kubectl logs | less +F`). `<C-x>` is the correct escape but most shells eat it. A design flaw fossilized by decades of backward compatibility. mananaysiempre adds the system-programming deep cut: terminal job control is kernel-level (`stty susp`), not shell-level — the shell just handles the aftermath of SIGTSTP via `waitpid()`.
+
+> "Press `s` to save data from a pipe to a file rather than manually copy pasting." — btdmaster (HN)
+
+The workflow upgrade you didn't know you needed: pipe a long-running process into `less`, inspect the output, and only save it to disk if it's useful. No `tee`, no pre-commitment to disk. osmsucks confirms this is their daily driver for uncertain output.
+
 > "If you want security, unset LESSOPEN." — anthk (HN)
 
 Six words that encode a security worldview. `LESSOPEN` is a preprocessor that runs arbitrary commands on your input before displaying it — a feature most people don't know exists and didn't ask for. The comment is a reminder that Unix tools accumulate features for decades, and the safe subset is almost always smaller than the default one. See also: `LESSSECURE=1`.
 
-> "I can disable things like this by setting LESSSECURE=1." — jmholla (HN)
+> "The `!` lets you invoke an external command. Also useful for privilege escalation — if a script running as root uses less, just do `!bash` and you have a root shell." — GuB-42 (HN)
 
-The escape hatch. If `less` is ever invoked by a privileged process (sudo, root scripts), the `!` command is a privilege escalation vector. `LESSSECURE` turns off `!`, `|`, and other external-command features. Most distros don't ship with this compiled in, which tells you something about how seriously we take this class of attack.
+Matter-of-fact about what is arguably the scariest single sentence in the thread. `!` is a feature, not a bug, but in privileged contexts it's a backdoor. `LESSSECURE=1` disables it, but as jmholla notes, most distros don't compile with that support.
+
+---
+
+## The Full Thread's Additional Gems
+
+What the HN crowd added beyond the blog post, in rough order of obscurity:
+
+- **`<C-x>` vs `<C-c>` for follow mode**: In pipelines, `<C-c>` kills the source. `<C-x>` is correct but most shells intercept it. Gnome Console works.
+- **`s` to save pipe data**: No pre-commitment to disk. Inspect first, save if useful.
+- **`-X` / `--no-init` / `--redraw-on-quit`**: Don't clear the screen on exit. ilyagr's `lesskey` trick binds `^q` to quit-without-clear and `q` to quit-and-clear, giving you both behaviors.
+- **`-L` to skip preprocessing**: Rotated log files named `logfile.1`, `logfile.2` get mistaken for man page source on some distros. `-L` skips nroff.
+- **`Ctrl-R` as first character of search**: Literal string search, not regex. No escaping metacharacters.
+- **Mark + pipe region**: `ma` to mark, navigate, `|a` to pipe the region to an external command. obezyian uses this for interactive git-log — detect the commit at the top line, pipe to a script.
+- **`lesskey` for custom bindings**: jez binds `s` to back-scroll (adjacent to `d`). macOS's default less doesn't support it — install via Homebrew.
+- **lima/lesspipe**: Syntax highlighting and file rendering (PDF, markdown) inside less. Use with `-R`.
+- **`lnav`**: A purpose-built log navigator that polls files, auto-scrolls, and highlights search matches in new data. Better than less for structured logs.
+- **Slow regex**: jemfinch's main complaint — pipe through grep/ripgrep first for large files.
+- **Alternative pagers**: `ov`, `moor`/`moar`, `most` — all mentioned as modern successors.
 
 ---
 
@@ -73,6 +99,6 @@ The craft of deep tool knowledge connects to broader themes in this wiki:
 
 ---
 
-*Sources: [[raw/assorted-less-tips]]*
+*Sources: [[raw/assorted-less-tips]], [[raw/hn-assorted-less-tips]]*
 *HN thread: 238 points, 55 comments*
 *Last updated: 2026-05-15*
