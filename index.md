@@ -64,6 +64,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Coding Agents and Complexity Budgets]] — Lee Robinson's $260 weekend migration of cursor.com off a headless CMS: agents need grep, not GUIs
 - [[RepoMirror]] — While-loop agent porting: 6 codebases, 1,100 commits, $800, one night. Simple prompts beat complex ones
 - [[Building 200+ Integrations with OpenCode]] — 200 API integrations in 15 minutes for under $20
+- [[Slowing Down in the Age of Coding Agents]] — Odendahl's third in the series: e-ink annotation cycles, vocabulary drift detection, and why the bottleneck is now thinking, not typing
 - [[Simplicity in the Age of AI-Assisted]] — LLMs make it cheap to rebuild without inherited complexity
 - [[The Next Two Years of Software Engineering]] — Junior employment drops 9-10% after AI adoption; senior roles hold steady
 - [[ThoughtWorks Future of Software Engineering Retreat]] — 50 practitioners at Deer Valley for Agile's 25th: ten time-horizoned themes, the "middle loop" of supervisory engineering, cognitive debt, agent topologies as Conway's Law, and a $300K cost blind spot
