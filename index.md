@@ -389,6 +389,7 @@ Tools that run on your own machines: voice, hardware, local inference, knowledge
 - [[Upwelling]] — Ink & Switch editor: branching and merging for writers, not just programmers
 - [[Claude's System Prompt]] — Leaked Claude Opus 4.6 system prompt, read as a catalog of solved failure modes
 - [[Headscale]] — Open-source, self-hosted Tailscale control server. WireGuard mesh networking without the cloud. 38.4k stars
+- [[Locker]] — Open-source self-hostable Dropbox/Google Drive alternative: multi-store backends, AI knowledge base, plugin system, virtual bash shell
 
 ## AI Research & Models
 
