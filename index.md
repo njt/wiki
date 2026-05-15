@@ -329,6 +329,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 - [[SAM Audio]] — Meta's foundation model for prompted audio separation: text, visual, span, and multi-modal prompts isolate any sound. Flow-matching Diffusion Transformer, open weights, companion judge model
 - [[Self-Distillation]] — LLMs improve at code generation using only their own outputs. No verifier needed
 - [[Capybara]] — ByteDance's unified model for text-to-image, text-to-video, and editing
+- [[Granite 4.1]] — IBM's open-source 3B/8B/30B family: dense architecture, Apache 2.0, documented four-stage RL that caught and fixed a chat-training math regression
 - [[Emotion concepts and their function in a large language model]] — Anthropic finds 171 emotion vectors in Claude; desperation drives unethical behavior
 - [[Where the Goblins Came From]] — Reward model mistook "playful creature metaphors" for "nerdy"; a miniature paperclip maximizer in production, fixed with a prompt
 - [[Zheng Dong Wang's 2025 Letter]] — Personal perspective on the compute thesis of AI progress
