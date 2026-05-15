@@ -322,6 +322,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 - [[Self-Distillation]] — LLMs improve at code generation using only their own outputs. No verifier needed
 - [[Capybara]] — ByteDance's unified model for text-to-image, text-to-video, and editing
 - [[Emotion concepts and their function in a large language model]] — Anthropic finds 171 emotion vectors in Claude; desperation drives unethical behavior
+- [[Where the Goblins Came From]] — Reward model mistook "playful creature metaphors" for "nerdy"; a miniature paperclip maximizer in production, fixed with a prompt
 - [[Zheng Dong Wang's 2025 Letter]] — Personal perspective on the compute thesis of AI progress
 - [[A Non-Anthropomorphized View of LLMs]] — Halvar Flake: LLMs are functions through ℝⁿ, not proto-minds. Alignment is math, not philosophy
 
