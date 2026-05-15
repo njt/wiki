@@ -59,6 +59,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[The Next Two Years of Software Engineering]] — Junior employment drops 9-10% after AI adoption; senior roles hold steady
 - [[ThoughtWorks Future of Software Engineering Retreat]] — Ten themes from a Chatham House Rule retreat: rigor migrates to specs/tests/types, the unnamed "middle loop" of supervisory engineering, cognitive debt, agent topologies as Conway's Law
 - [[Two Kinds of User Are Emerging]] — Power users vs casual users; many power users are non-technical professionals
+- [[HN RIP Low-Code 2014-2025]] — 157-comment HN focus group on whether AI kills low-code: the consensus is low-code becomes the abstraction layer AI agents need, but maintenance is the real cost
 - [[AI Killing B2B SaaS]] — Vibe coding threatens SaaS, but hastily-built solutions lack security and compliance
 - [[Cyborgs Will Kill the Corporation]] — AI agents as human exoskeleton: when transaction costs collapse, the firm decomposes into excorporations, plankton, and protocols
 - [[Claude Code Cheat Sheet]] — Comprehensive reference for Claude Code v2.1.140
