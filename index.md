@@ -213,6 +213,7 @@ Isolation, credentials, prompt injection defense, and agent safety.
 - [[Crabbox]] — Agent workspace control plane: lease throwaway cloud machines without sharing provider credentials. Brokered provisioning, 16 providers, warm reuse, PR evidence artifacts
 - [[LLM Guard]] — 35 scanners for prompt injection, data leakage, and toxicity
 - [[OneCLI]] — Credential vault for agents: transparent proxy injection, no real keys exposed
+- [[Stockyard]] — Jesse Vincent's Firecracker micro-VM orchestrator for coding agents: ZFS snapshots via vsock, Tailscale networking, 1Password-backed secrets
 - [[HackAPrompt Dataset]] — 100K+ prompt injection attempts from a global hacking competition
 - [[You Dont Want Long-Lived Keys]] — Ephemeral credentials sidestep the rotation problem entirely
 - [[VTcode]] — Rust coding agent with OS-native sandboxing and comprehensive audit trails
