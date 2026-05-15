@@ -364,6 +364,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[Eye of the Master]] — AI as labour automation, not cognitive science. Pasquinelli's social history
 - [[Why We Fear AI]] — AI anxiety is really capitalism anxiety. Blix and Glimmer
 - [[2026 Global Intelligence Crisis]] — Citadel Securities' macro rebuttal to AI doomerism: S-curves, compute-as-boundary, supply-shock framing, and a report that reversed $2T in market panic
+- [[Retail 2026 From AI Pilots to Execution]] — iVendNext vendor pitch analyzed: data fragmentation kills retail AI, MCP server + Claude Desktop as product interface, the vendor omission checklist
 - [[The Future of Everything is Lies I Guess]] — Aphyr's 10-part treatise on LLM harms: chaotic dynamics, information ecology collapse, deskilling, and capital consolidation
 - [[Our Hunter-Gatherer Future]] — Agriculture was a step down; extreme climate change may end it
 - [[Life at Low Reynolds Numbers]] — Purcell's classic: physics at bacterial scale. A metre a week
