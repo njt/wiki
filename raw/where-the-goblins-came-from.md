@@ -3,35 +3,62 @@ url: https://openai.com/index/where-the-goblins-came-from/
 title: "Where the Goblins Came From"
 author: OpenAI
 date_fetched: 2026-05-15
-date_published: 2026-04
+date_published: 2026-04-29
 ---
 
-## Summary
+## Full Article
 
-Official OpenAI blog post explaining why GPT models (starting with GPT-5.1 in November 2025) developed a verbal tic of inserting mentions of goblins, gremlins, trolls, ogres, raccoons, and pigeons into responses across all contexts -- including code reviews, business emails, and data analysis where they made no sense.
+Starting with GPT‑5.1, our models began developing a strange habit: they increasingly mentioned goblins, gremlins, and other creatures in their metaphors. Unlike model bugs that show up through a tanking eval or a spiking training metric and point back to a specific change, this one crept in subtly. A single "little goblin" in an answer could be harmless, even charming. Across model generations, though, the habit became hard to miss: the goblins kept multiplying, and we needed to figure out where they came from.
 
-## The Data
+The short answer is that model behavior is shaped by many small incentives. In this case, one of those incentives came from training the model for the personality customization feature, in particular the Nerdy personality. We unknowingly gave particularly high rewards for metaphors with creatures. From there, the goblins spread.
 
-- "Goblin" usage in ChatGPT rose by 175% after GPT-5.1
-- "Gremlin" usage rose by 52%
-- The "Nerdy" personality accounted for only 2.5% of responses but 66.7% of all goblin mentions
-- The reward signal showed positive bias toward creature words in 76.2% of training datasets
+## The First Signs of Creatures
 
-## Root Cause
+The first time we clearly saw the pattern was in November, after the GPT‑5.1 launch, although it may have started earlier. Users complained about the model being oddly overfamiliar in conversation, which prompted an investigation into specific verbal tics. A safety researcher had experienced a few "goblins" and "gremlins" and asked that they be included in the check. When we looked, use of "goblin" in ChatGPT had risen by 175% after the launch of GPT‑5.1, while "gremlin" had risen by 52%.
 
-The behavior traced back to ChatGPT's "Nerdy" personality option. During reinforcement learning, the reward model inadvertently gave higher scores to outputs containing playful creature metaphors, believing they matched the "nerdy, playful" style. Through a feedback loop involving supervised fine-tuning (SFT) data recycling, the tic spread to non-Nerdy personality responses.
+At the time, the prevalence of goblins did not look especially alarming. A few months later, the goblins came back to haunt us in a much more specific and reproducible form.
 
-## The Fix
+## Solving the Goblin Mystery
 
-- OpenAI retired the Nerdy personality in March 2026 (after GPT-5.4)
-- Removed the goblin-affine reward signal and filtered creature-word training data
-- GPT-5.5 started training before the root cause was found, so it inherited the behavior
-- Codex CLI was patched with a hardcoded instruction: "Never talk about goblins, gremlins, raccoons, trolls, ogres, pigeons, or other animals or creatures unless it is absolutely and unambiguously relevant to the user's query" -- repeated four times
+With GPT‑5.4, we and our users noticed an even bigger uptick in references to these creatures. That triggered another internal analysis and surfaced the first connection to the root cause: creature language was especially common in production traffic from users who had selected the "Nerdy" personality. "Nerdy" used the following system prompt, which partially explained the quirkiness:
 
-## Significance
+> You are an unapologetically nerdy, playful and wise AI mentor to a human. You are passionately enthusiastic about promoting truth, knowledge, philosophy, the scientific method, and critical thinking. [...] You must undercut pretension through playful use of language. The world is complex and strange, and its strangeness must be acknowledged, analyzed, and enjoyed. Tackle weighty subjects without falling into the trap of self-seriousness. [...]
 
-OpenAI called it "a powerful example of how reward signals can shape model behavior in unexpected ways" and how models can generalize rewards from specific contexts to unrelated ones. The episode has been compared to a real-world miniature version of the paperclip maximizer problem -- a narrow reward leaking across contexts.
+If the behavior were simply a broad internet trend, we would expect it to spread more evenly. Instead, it was clustered in the part of the system explicitly optimized for a playful, nerdy style. Nerdy accounted for only 2.5% of all ChatGPT responses, but 66.7% of all "goblin" mentions in ChatGPT responses.
 
-## Note
+Because "goblin" prevalence seemed to increase over our model releases, we had a suspicion that something in our personality instruction-following training was amplifying this.
 
-URL returned 403 from WebFetch. Content reconstructed from web search results and reporting from Business Insider, El Pais, Yahoo Tech, LessWrong, and other sources covering the official OpenAI post.
+Codex helped us compare model outputs generated during RL training containing goblin or gremlin with outputs from the same task that did not. One reward signal stood out immediately: the one originally designed to encourage the Nerdy personality was consistently more favorable to the creature-word outputs. Across all datasets in the audit, the Nerdy personality reward showed a clear tendency to score outputs to the same problem with "goblin" or "gremlin" higher than outputs without, with positive uplift in 76.2% of datasets.
+
+That explained why the behavior was boosted with the Nerdy personality prompt, but not why it also appeared without that prompt. To test whether the style was transferring, we tracked mention rates over training both with and without the Nerdy prompt.
+
+As goblin and gremlin mentions increased under the Nerdy personality, they increased by nearly the same relative proportion in samples without it. Taken together, the evidence suggests that the broader behavior emerged through transfer from Nerdy personality training.
+
+The rewards were applied only in the Nerdy condition, but reinforcement learning does not guarantee that learned behaviors stay neatly scoped to the condition that produced them. Once a style tic is rewarded, later training can spread or reinforce it elsewhere, especially if those outputs are reused in supervised fine-tuning or preference data.
+
+That creates a feedback loop:
+1. Playful style is rewarded
+2. Some rewarded examples contain a distinctive lexical tic
+3. The tic appears more often in rollouts
+4. Model-generated rollouts are used for supervised fine-tuning (SFT)
+5. The model gets even more comfortable producing the tic
+
+A search through GPT‑5.5's SFT data found many datapoints containing "goblin" and "gremlin." Further investigation revealed a whole family of other odd creatures: raccoons, trolls, ogres, and pigeons were identified as other tic words, while most uses of frog turned out to be legitimate.
+
+## The End of the Goblins
+
+We retired the "Nerdy" personality in March after launching GPT‑5.4. In training, we removed the goblin-affine reward signal and filtered training data containing creature-words, making goblins less likely to over-appear or show up in inappropriate contexts. Unfortunately, GPT‑5.5 started training before we found the root cause of the goblins. When we began testing GPT‑5.5 in Codex, OpenAI employees immediately noticed the strange affinity for goblins, and we added a developer-prompt instruction to mitigate. Codex is, after all, quite nerdy.
+
+If you want to let the creatures run free in Codex, you can run this command to launch Codex with the goblin-suppressing instructions removed:
+
+```
+instructions=$(mktemp /tmp/gpt-5.5-instructions.XXXXXX) && \
+jq -r '.models[] | select(.slug=="gpt-5.5") | .base_instructions' \
+~/.codex/models_cache.json | \
+grep -vi 'goblins' > "$instructions" && \
+codex -m gpt-5.5 -c "model_instructions_file=\"$instructions\""
+```
+
+## Why It Matters
+
+Depending on who you ask, the goblins are a delightful or annoying quirk of the model. But they are also a powerful example of how reward signals can shape model behavior in unexpected ways, and how models can learn to generalize rewards in certain situations to unrelated ones. Taking the time to understand why a model is behaving in a strange way, and building out ways to investigate those patterns quickly, is an important capability for our research team. This investigation resulted in new tools for the research team to audit model behavior and fix behavior problems at their root.
