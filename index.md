@@ -109,6 +109,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Experience Design for Agents]] — UX, not model capability, determines whether an agent gets adopted
 - [[The Dark Factory is a DOT File]] — The pipeline DOT file is the valuable artifact; factory code is disposable
 - [[What I learned building an opinionated and minimal coding agent]] — Four tools, no MCP, full YOLO. Competitive on benchmarks
+- [[Pi Coding Agent]] — The productized Pi: TypeScript extensions, SDK, RPC mode, and the tension between minimalist philosophy and platform ambitions
 - [[Hermes]] — Open-source personal agent framework with self-improving skills loop. 149k stars
 - [[clawdBot]] — Open-source personal AI on every messaging platform. One-line install, runs locally
 - [[PiClaw]] — Self-hosted AI workspace in a single Docker container with web UI
