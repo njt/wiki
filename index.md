@@ -59,6 +59,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[ThoughtWorks Future of Software Engineering Retreat]] — Ten themes from a Chatham House Rule retreat: rigor migrates to specs/tests/types, the unnamed "middle loop" of supervisory engineering, cognitive debt, agent topologies as Conway's Law
 - [[Two Kinds of User Are Emerging]] — Power users vs casual users; many power users are non-technical professionals
 - [[AI Killing B2B SaaS]] — Vibe coding threatens SaaS, but hastily-built solutions lack security and compliance
+- [[Cyborgs Will Kill the Corporation]] — AI agents as human exoskeleton: when transaction costs collapse, the firm decomposes into excorporations, plankton, and protocols
 - [[Claude Code Cheat Sheet]] — Comprehensive reference for Claude Code v2.1.140
 - [[The Claude Code Playbook]] — Five beginner-to-intermediate tips: MCPs, CLAUDE.md, plan mode, Max plan economics, IDE diagnostics
 - [[TextForge Case Study]] — Stannard's six-layer discipline for greenfield LLM development: planning, reference architectures, skills, PRDs, verification pipelines, snapshot testing
