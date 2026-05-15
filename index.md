@@ -357,3 +357,4 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[Awesome Vibez]] — Curated project list from Nat's WhatsApp coding community
 - [[Vibe Coding and the Maker Movement]] — "Evaluative anesthesia": the dopamine of making eclipses the ability to judge. Maker Movement parallels
 - [[One Year of Keeping a Tada List]] — Daily to-done lists: the hidden chain of effort behind finished work, and the artifact that outlasts the practice
+- [[Ben Vereen on Questlove Supreme]] — QLS 232: what happens when a celebrity interview combusts into oral history — Vereen traces identity through ancestry with his daughter in the room
