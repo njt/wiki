@@ -4,7 +4,7 @@ A 2.5-hour Minecraft social experiment by ish that became one of 2025's most acc
 
 1,000 Minecraft players, two islands. Island 2 is paradise: lush, resource-rich, no threats. Island 1 is a barren wasteland with a volcano, boiling water, and one tree shared among 500 people. The premise is blunt: simulate global economic inequality and see what happens.
 
-No script. Players selected for roleplay commitment, not PvP skill. The result was 154 minutes of emergent drama that drew 34 million views and reviews calling it "the best YouTube video of 2025" and "better than the actual Minecraft movie."
+No script. Players selected for roleplay commitment, not PvP skill. The result was 154 minutes of emergent drama that drew 44 million views (and counting) and reviews calling it "the best YouTube video of 2025" and "better than the actual Minecraft movie."
 
 ## Key Quotes
 
@@ -51,5 +51,5 @@ The **economics framing** matters. The video isn't abstract about inequality —
 - [[Radical Accountability]] — Taste as the only remaining differentiator when production cost collapses.
 
 ---
-*Sources: [[raw/razorgirl-1000-players-civilization]]*
+*Sources: [[raw/razorgirl-1000-players-civilization]], [[raw/ish-1000-players-civilization-youtube]]*
 *Last updated: 2026-05-15*
