@@ -92,7 +92,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 
 How to build agents: frameworks, runtimes, design patterns, and production concerns.
 
-- [[Agency]] — Composable agents from reusable natural-language primitives via MCP
+- [[Agency]] — Composable agents from reusable natural-language primitives via MCP. Surgical prompt improvement: change one primitive, not the whole prompt. 26→60 case study
 - [[Agent Identity]] — Memory is retrieval; identity is participation. Why agents need a stake, not just a log
 - [[Smart Models Dumb Pipes]] — LLMs as judgment machines, not Q&A machines. The end-to-end principle applied to AI: smart models own decisions, dumb pipes own execution
 - [[Elysia]] — Weaviate's decision-tree agent framework: constrain tool choice per node rather than dumping all tools into context
