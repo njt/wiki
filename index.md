@@ -34,6 +34,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Inside the AI Workflows of Every's Six Engineers]] — Six engineers, same company, six radically different AI stacks converging on planning-first, multi-model, guardrail-heavy workflows
 - [[Minions — Stripe's One-Shot Coding Agents]] — 1,000+ unattended PRs/week on hundreds of millions of LOC. Forked Goose, 400 MCP tools, two CI rounds max
 - [[Inside OpenAI's In-House Data Agent]] — Codex agents autonomously run OpenAI's 600PB data platform. The hard problem isn't model intelligence — it's making the company's data reality legible to the agent
+- [[Trading Ideas — Claude Equity Research Plugin]] — One-slash-command equity research: structured prompt as institutional analyst, marketplace as distribution, form-over-substance danger
 - [[2389 Plugin Marketplace]] — 26 plugins and 4 MCP servers from 2389 Research: the largest third-party Claude Code plugin collection, and a bet on marketplaces as the distribution model for agent capabilities
 - [[Simmer Skill]] — 2389 Research's iterative artifact refinement skill: judge-generator loops that self-hone via meta-iteration, converging in 3-5 rounds by leveraging pretrained competence plus targeted feedback
 - [[How to Write a Good Spec for Agents]] — Five principles for specs that make agents productive
