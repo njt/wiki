@@ -72,6 +72,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[AI Killing B2B SaaS]] — Vibe coding threatens SaaS, but hastily-built solutions lack security and compliance
 - [[The Road Runner Economy]] — Noah Raford's case that the software industry already crossed the cliff: Christmas 2025 was the phase transition, "one-shat" is the unit of economic destruction, and "this meeting could have been a prompt"
 - [[Cyborgs Will Kill the Corporation]] — AI agents as human exoskeleton: when transaction costs collapse, the firm decomposes into excorporations, plankton, and protocols
+- [[Claude Chic]] — Wes McKinney's alternative TUI for Claude Code with live roborev review sidebar, built on Textual + Claude Agent SDK
 - [[Claude Code Cheat Sheet]] — Comprehensive reference for Claude Code v2.1.140
 - [[The Claude Code Playbook]] — Five beginner-to-intermediate tips: MCPs, CLAUDE.md, plan mode, Max plan economics, IDE diagnostics
 - [[A Guide to Claude Code 2.0]] — Sankalp's deep tour of CC 2.0: sub-agents, skills, hooks, system reminders, and context engineering as a discipline
