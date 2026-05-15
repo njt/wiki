@@ -104,6 +104,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[If AI Is Doing the Investigation, Version the Investigation]] — Fletcher's Cases pattern: commit the AI session transcript next to the code so the investigation survives the session
 - [[0xSero]] — Agent infrastructure practitioner: REAP-pruned models calibrated for agentic coding, ai-data-extraction toolkit, BYOK long-running autonomous workflows
 - [[Claude Sidecar]] — Parallel AI window alongside Claude Code: share context with Gemini, GPT, DeepSeek, fold results back
+- [[How to Effectively Write Quality Code with AI]] — Heidenstedt's twelve principles: every decision you don't document, the AI will make for you — usually badly
 
 ## Agent Design & Architecture
 
