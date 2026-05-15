@@ -434,6 +434,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[Misha Glenny]] — Journalist and author tracing hidden power networks: Balkan wars, organized crime, cybercrime, rare earths. New host of In Our Time
 - [[Microscale Thermite Reaction]] — Harvard demo: smash two rusty iron balls together, trigger 2200°C thermite reaction with nothing but a glancing blow
 - [[Estimating Pi with a Coin]] — Toss until heads leads, record the fraction. Average approaches pi/4
+- [[Thinking Hard Burns Almost No Calories]] — Mental fatigue doesn't drain energy — it hijacks perceived exertion via adenosine. Schedule hard training before cognitive work, not after
 - [[Goeckerman Regimen]] — Century-old psoriasis treatment that outperforms modern biologics
 - [[Prediction Markets and Perverse Incentives]] — HN's accidental taxonomy of prediction market harms: perverse incentives, regulatory capture, and why the signal IS the weapon
 - [[Welcome to the American Winter]] — Robert F. Worth's Atlantic reportage: 65,000 ordinary Minnesotans, decentralized coordination, and the resistance that forced federal withdrawal
