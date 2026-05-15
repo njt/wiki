@@ -425,6 +425,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[Estimating Pi with a Coin]] — Toss until heads leads, record the fraction. Average approaches pi/4
 - [[Goeckerman Regimen]] — Century-old psoriasis treatment that outperforms modern biologics
 - [[Prediction Markets and Perverse Incentives]] — HN's accidental taxonomy of prediction market harms: perverse incentives, regulatory capture, and why the signal IS the weapon
+- [[Welcome to the American Winter]] — Robert F. Worth's Atlantic reportage: 65,000 ordinary Minnesotans, decentralized coordination, and the resistance that forced federal withdrawal
 - [[Third Gulf War]] — LLM-powered hypothesis tracking for geopolitical analysis
 - [[World Monitor]] — Real-time global intelligence dashboard. 500+ feeds, 65+ data sources
 - [[How to Buy Cheap Claude Tokens in China]] — Grey market transfer stations: three-tier supply chain, model swapping, log harvesting, biometric trafficking
