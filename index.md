@@ -272,6 +272,7 @@ Storage engines, query patterns, data quality, and vector/graph databases.
 
 CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 
+- [[Git Diff Drivers]] — git's external diff driver interface: the 7-argument contract, `/dev/null` lifecycle sentinels, and a worked `oasdiff` example
 - [[Google Workspace CLI]] — One Rust CLI for all Google Workspace APIs. Dynamic command surface
 - [[VHS]] — Terminal GIF recorder from Charm. Write recordings as scripted .tape files
 - [[Portless]] — Named .localhost URLs for local development. For humans and agents
