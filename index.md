@@ -41,6 +41,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[How to Write a Good Spec for Agents]] — Five principles for specs that make agents productive
 - [[Automatic Programming]] — antirez draws a bright line: AI-assisted programming with human vision vs. vibe coding as abdication. "Programming is now automatic, vision is not (yet)"
 - [[The Plan Is the Program]] — Tyler Angert's aphorism unpacked: when tools collapse intent and execution, the plan becomes the atomic unit of work
+- [[The Lifecycle of a Swamp Issue]] — Five-phase state machine for agent-driven development: triage, planning, adversarial review, iteration, implementation. The agent physically cannot skip steps
 - [[Spec-Driven Development]] — Specs, tests, and code form a triangle, not a pipeline
 - [[Code Field]] — Resist the urge to over-specify; let the code emerge smaller than your first instinct
 - [[Compound Engineering]] — When you can't trust the output, add a system, not manual review
