@@ -1,6 +1,6 @@
 # Wiki Index
 
-201 individual pages + 11 synthesis pages from Nat's 2026 Technical Link Pile.
+202 individual pages + 11 synthesis pages from Nat's 2026 Technical Link Pile.
 
 ## Synthesis
 
@@ -97,6 +97,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Smart Models Dumb Pipes]] — LLMs as judgment machines, not Q&A machines. The end-to-end principle applied to AI: smart models own decisions, dumb pipes own execution
 - [[Elysia]] — Weaviate's decision-tree agent framework: constrain tool choice per node rather than dumping all tools into context
 - [[Elements of Agentic Systems Design]] — Ten-element taxonomy: Context, Memory, Agency, Reasoning, Coordination, and more
+- [[Agent-Native Architectures (Every)]] — Every's definitive design guide: five principles (parity, granularity, composability, emergent capability, improvement over time), files as universal interface, anti-patterns, and mobile resilience patterns
 - [[Components of a Coding Agent]] — The harness matters more than the model. Six core components identified
 - [[Honey I Shrunk the Coding Agent]] — 9B local model jumps from 19% to 46% on Aider Polyglot by redesigning the scaffold around the model's behavioral profile. Empirical proof that the harness matters more than the model
 - [[Building an AI Agent in Rails (Ionescu)]] — Field report: bolting an AI agent onto a 7-year-old Rails monolith with Pundit-scoped tool calling
