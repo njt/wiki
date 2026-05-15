@@ -168,6 +168,7 @@ Multi-agent systems, task graphs, kanban boards, and coordination patterns.
 - [[workgraph]] — Persistent task graph: agents come and go, the graph remains. JSONL on disk
 - [[poietic]] — Human-machine collaboration via shared dependency graphs with claims and handoffs
 - [[Mission Control — Bhanu's 10-Agent Squad on OpenClaw]] — 10 specialized agents, file-based memory, heartbeat loops, Convex-backed Kanban: the best published production multi-agent reference architecture
+- [[Gas Town's Agent Patterns]] — Appleton dissects Yegge's unhinged agent orchestrator: vibe design is the real danger, hierarchical roles and ephemeral sessions are the patterns worth keeping
 - [[Zero Alignment]] — Team alignment is the new bottleneck. One dev with 24 agents produces chaos
 - [[Loomkin]] — Multi-agent platform on Erlang/OTP: spawn in 500ms, PubSub in microseconds
 - [[Process-Based Concurrency BEAM OTP]] — BEAM's actor model is what agent frameworks keep reinventing
