@@ -1,5 +1,7 @@
 ## 2026-05-15
 
+- 2026-05-15: Re-ingested [A Practical Guide to Brownfield AI Development](https://thegeneralpartnership.substack.com/p/a-practical-guide-to-brownfield-ai) (Daniel Pupius) → raw/a-practical-guide-to-brownfield-ai.md (rewritten with full article text via surf browser grab). Wiki page confirmed complete and unchanged — already the best brownfield AI piece in the wiki. Cross-links verified: [[Refactor Legacy Code with Copilot]], [[Scaling LLMs to Larger Codebases]], [[Building an AI Agent in Rails (Ionescu)]], [[Guardrails and Feedback Loops]], [[Harness Engineering]], [[Feedback Loop is All You Need]], [[Compound Engineering]], [[CLAUDE.md (Universal)]], [[Writing a Good CLAUDE.md]], [[Make the Easy Change Hard]], [[Slowing the Fuck Down]], [[Cognitive Debt]], [[Simplicity in the Age of AI-Assisted]], [[The Mythical Agent-Month]], [[Agent Coding Workflow]], [[Agent Memory and Context]], [[Designing Agentic Loops]], [[Write Only Code]]
+
 - 2026-05-15: Ingested [How to build a `git diff` driver](https://www.jvt.me/posts/2026/04/11/how-git-diff-driver/) → raw/jvt-me-git-diff-driver.md, Git Diff Drivers.md. Cross-links: [[Before Reading Code]], [[Assorted less(1) Tips]], [[Software Engineering Craft]], [[Elements of Code]], [[Dolt]], [[sem]]
 - 2026-05-15: Re-ingested [lat.md](https://github.com/1st1/lat.md) (via programmerweekly.com referral) → raw/lat-md.md (updated), lat.md.md (updated). No material changes from 2026-05-14 ingest. Added cross-links: [[CLAUDE.md (Universal)]], [[Planning With Files]]
 
