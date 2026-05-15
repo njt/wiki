@@ -18,6 +18,8 @@ The core problem: you want agents powerful enough to be useful but constrained e
 
 **Agent-native sandboxing.** [[VTcode]] (Rust) adds tree-sitter-based command validation on top of OS-level sandboxing -- parsing bash commands syntactically before deciding whether to allow execution. Deeper than pure filesystem/network controls because it understands what the command does, not just where it executes. [[Zeroclaw]] (31.3k stars, Rust) bakes supervised autonomy into the runtime: medium-risk = approval required, high-risk = blocked, with cryptographic tool receipts documenting every action.
 
+**Execution-layer (syscall-level) enforcement.** [[agentsh]] sits *under* the agent at the syscall boundary (FUSE + eBPF + seccomp on Linux), governing not just the top-level command but every subprocess. Its distinguishing feature is `redirect` as a policy primitive: instead of denying and triggering retry loops, it transparently swaps commands, file paths, signals, DNS responses, and TCP connections. Includes an embedded LLM proxy with DLP, MCP-native security controls (tool whitelisting, version pinning, cross-server exfiltration blocking), and a profile-then-lock policy generation workflow. macOS support degrades because ESF doesn't support transparent file interception — redirect becomes "deny + guidance" which is semantically different.
+
 ### Credential Management
 
 [[OneCLI]] is the cleanest solution: an HTTP gateway that intercepts outbound requests and transparently injects real credentials. Agents use placeholder keys and never touch secrets. AES-256-GCM at rest, host + path scoped, multi-agent support. "Like 1Password but for agents."
@@ -50,7 +52,7 @@ The core problem: you want agents powerful enough to be useful but constrained e
 
 ## What's Missing
 
-**Network-level agent firewalls.** OS sandboxing gives all-or-nothing network control. Nobody has built the agent-aware network proxy that allows specific API endpoints (npm registry, GitHub) while blocking everything else, with semantic understanding of what the agent is trying to do.
+**Network-level agent firewalls.** OS sandboxing gives all-or-nothing network control. [[agentsh]] partially addresses this with DNS and TCP connect redirect — transparently rerouting network traffic at the syscall level — but it's Linux-first and the feature set degrades on macOS.
 
 **Cross-sandbox agent protocols.** If Agent A in Sandbox 1 needs to share a result with Agent B in Sandbox 2, how do they communicate securely? [[Navaris]] and [[OpenSandbox]] manage individual sandboxes but don't address inter-sandbox communication.
 
@@ -58,10 +60,12 @@ The core problem: you want agents powerful enough to be useful but constrained e
 
 **Security evaluation frameworks.** [[Demystifying Evals for AI Agents]] covers functional evals. Security-specific evals -- can the agent be tricked into exfiltrating secrets? Can it be prompted to bypass its own constraints? -- are ad hoc at best. [[HackAPrompt Dataset]] is a starting point but targets the model, not the agent system.
 
+**MCP-native security.** [[agentsh]] is the first tool with MCP-specific security controls: tool whitelisting, version pinning for rug-pull detection, cross-server exfiltration blocking, and token bucket rate limiting. This addresses a gap that most sandboxing solutions don't even acknowledge, since MCP servers run with ambient trust.
+
 ## Key Themes
 
 #sandboxing #credentials #prompt-injection #defense-in-depth #enforcement
 
 ---
-*Synthesis of: [[A Deep Dive on Agent Sandboxes]], [[yolo-cage]], [[OpenSandbox]], [[Navaris]], [[LLM Guard]], [[OneCLI]], [[HackAPrompt Dataset]], [[You Dont Want Long-Lived Keys]], [[VTcode]], [[claude-code-config (Trail of Bits)]], [[claude-ctrl]], [[Zeroclaw]], [[Benchmark Exploitation]]*
-*Last updated: 2026-05-14*
+*Synthesis of: [[A Deep Dive on Agent Sandboxes]], [[yolo-cage]], [[OpenSandbox]], [[Navaris]], [[LLM Guard]], [[OneCLI]], [[HackAPrompt Dataset]], [[You Dont Want Long-Lived Keys]], [[VTcode]], [[claude-code-config (Trail of Bits)]], [[claude-ctrl]], [[Zeroclaw]], [[Benchmark Exploitation]], [[agentsh]]*
+*Last updated: 2026-05-15*
