@@ -26,6 +26,8 @@ The structured exit codes (0-5 for success, API error, auth error, validation er
 
 For agent workflows specifically, this competes with MCP-based Google integrations. The CLI approach (invoke via terminal) is simpler to deploy but lacks the persistent connection and structured input/output of MCP. Both approaches work; the choice depends on your agent framework.
 
+See also: [[Google Workspace CLI Skills]] — the structured skill catalog (services, helpers, recipes, personas)
+
 ---
 *Sources: [[raw/googleworkspacecli]]*
-*Last updated: 2026-05-14*
+*Last updated: 2026-05-15*
