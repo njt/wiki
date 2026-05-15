@@ -99,6 +99,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[life-system]] — Personal life OS on plain-text markdown with Claude Code as accountability partner
 - [[Scaling LLMs to Larger Codebases]] — Gill's guidance/oversight framework for where to invest engineering resources: prompt libraries and codebase health as feedforward, automated enforcement and verification as feedback
 - [[Designing Agentic Loops]] — Simon Willison names the meta-skill: choosing tools, guardrails, and success criteria so YOLO-mode agents converge. Shell commands beat MCP, tests are the force multiplier
+- [[MCP Is Dead; Long Live MCP]] — Chen's rebuttal to the CLI-everything pendulum: local MCP is often unnecessary, but HTTP MCP is transformative for orgs. The local/remote split is the missing variable in the debate
 - [[Don't Fear the Dark Factory]] — Matt Wynne's conversion narrative: the dark factory is a validation problem, not a generation problem. Simple loop + good harness, and the TDD parallel
 - [[Don't Wait for Claude]] — The bottleneck isn't Claude's speed, it's managing parallel sessions without losing context. Problem-priority navigation over session-priority
 - [[If AI Is Doing the Investigation, Version the Investigation]] — Fletcher's Cases pattern: commit the AI session transcript next to the code so the investigation survives the session
