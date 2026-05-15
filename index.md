@@ -458,3 +458,4 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[All of Me Jazz Standard Analysis]] — Chord-scale dissection of a 1931 standard: the radial model applied to a real tune. Secondary dominants, bebop scales, and the gap between knowing theory and applying it
 - [[AGI Is Here (Robin Sloan)]] — Sloan declares AGI arrived with GPT-3 in 2020, argues the reluctance is strategic, and asks the PC revolution's dangling question: "what now?"
 - [[Ben Vereen on Questlove Supreme]] — QLS 232: what happens when a celebrity interview combusts into oral history — Vereen traces identity through ancestry with his daughter in the room
+- [[How to Remove Mould from Clothing]] — Materials science meets domestic advice: the ink-in-a-sponge model for why some mouldy clothes can't be saved, and how prevention is systems design not housekeeping
