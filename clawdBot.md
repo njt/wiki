@@ -29,5 +29,8 @@ The rebrand from clawdBot to OpenClaw suggests legal or branding pressure (the o
 Compared to the other personal agent frameworks in this batch, OpenClaw is the most consumer-friendly and the least technically ambitious. That's not a criticism -- there's a huge gap between what developers use and what everyone else can access.
 
 ---
+See also: [[Moltbook]] (social network for OpenClaw agents, built on the skills system)
+
+---
 *Sources: [[raw/clawdbot]]*
-*Last updated: 2026-05-14*
+*Last updated: 2026-05-15*

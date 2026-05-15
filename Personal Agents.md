@@ -70,5 +70,5 @@ The pattern: nearly everyone builds tools *around* agents rather than agents the
 #personal-agents #self-hosted #community #messaging #autonomy #infrastructure-spectrum
 
 ---
-*Synthesis of: [[Hermes]], [[clawdBot]], [[PiClaw]], [[Rowboat]], [[life-system]], [[mira-OSS]], [[Serf]], [[Chief of Staff]], [[Claude Code on the Go]], [[happy]], [[MimiClaw]], [[Awesome Vibez]], [[Kata]], [[Ralph]]*
-*Last updated: 2026-05-14*
+*Synthesis of: [[Hermes]], [[clawdBot]], [[PiClaw]], [[Rowboat]], [[life-system]], [[mira-OSS]], [[Serf]], [[Chief of Staff]], [[Claude Code on the Go]], [[happy]], [[MimiClaw]], [[Awesome Vibez]], [[Kata]], [[Ralph]], [[Moltbook]]*
+*Last updated: 2026-05-15*

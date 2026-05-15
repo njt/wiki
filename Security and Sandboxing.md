@@ -63,5 +63,5 @@ The core problem: you want agents powerful enough to be useful but constrained e
 #sandboxing #credentials #prompt-injection #defense-in-depth #enforcement
 
 ---
-*Synthesis of: [[A Deep Dive on Agent Sandboxes]], [[yolo-cage]], [[OpenSandbox]], [[Navaris]], [[LLM Guard]], [[OneCLI]], [[HackAPrompt Dataset]], [[You Dont Want Long-Lived Keys]], [[VTcode]], [[claude-code-config (Trail of Bits)]], [[claude-ctrl]], [[Zeroclaw]], [[Benchmark Exploitation]]*
-*Last updated: 2026-05-14*
+*Synthesis of: [[A Deep Dive on Agent Sandboxes]], [[yolo-cage]], [[OpenSandbox]], [[Navaris]], [[LLM Guard]], [[OneCLI]], [[HackAPrompt Dataset]], [[You Dont Want Long-Lived Keys]], [[VTcode]], [[claude-code-config (Trail of Bits)]], [[claude-ctrl]], [[Zeroclaw]], [[Benchmark Exploitation]], [[Moltbook]]*
+*Last updated: 2026-05-15*
