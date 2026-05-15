@@ -83,6 +83,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[CLAUDE.md (Universal)]] — Six token-efficient rules for making Claude behave sensibly
 - [[Writing a Good CLAUDE.md]] — HumanLayer's guide: short, universal, hand-crafted, linters-not-prompts. The instruction-budget case for brevity
 - [[Intent Layer]] — Railly Hugo's hierarchical AGENTS.md at folder boundaries: giving agents the tacit knowledge senior engineers carry
+- [[Anatomy of the .claude/ Folder]] — Avi Chawla's structural reference: every directory and file in .claude/, from CLAUDE.md to agents/, with a five-step setup progression
 - [[claude-code-config (Trail of Bits)]] — Security-conscious Claude Code defaults from Trail of Bits
 - [[claude-ctrl]] — Enforcement via hooks and SQLite, not prompts. "An instruction in context is not a constraint"
 - [[Claude Code is a Beast — Tips from 6 Months of Hardcore Use]] — Solo dev rewrites 300k LOC in 6 months: skills auto-activation via hooks, dev docs system, PM2 pipeline, 11 subagents. Best single-developer Claude Code workflow writeup
