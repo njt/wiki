@@ -26,6 +26,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Addy Osmani's Workflow]] — Start with spec.md, work in focused chunks, review like a senior engineer
 - [[AI for Product Management]] — Three-layer prompt architecture for LLMs as skeptical PM sparring partners, grounded by MCP
 - [[AI Zealotry]] — Senior engineers should embrace AI tools; high-level thinking is now the differentiator
+- [[Opus 4.5 Changes Everything]] — Burke Holland builds four apps with Opus 4.5, shares his AI-first prompt, and confesses ambivalence about the craft he spent a lifetime learning
 - [[How Boris Uses Claude Code]] — The creator of Claude Code on how he actually uses it
 - [[How Intercom Uses Claude Code]] — 13 plugins, 100+ skills, hooks, and OpenTelemetry observability: the most comprehensive enterprise Claude Code deployment published
 - [[Inside the AI Workflows of Every's Six Engineers]] — Six engineers, same company, six radically different AI stacks converging on planning-first, multi-model, guardrail-heavy workflows
