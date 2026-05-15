@@ -40,6 +40,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Spec-Driven Development]] — Specs, tests, and code form a triangle, not a pipeline
 - [[Code Field]] — Resist the urge to over-specify; let the code emerge smaller than your first instinct
 - [[Compound Engineering]] — When you can't trust the output, add a system, not manual review
+- [[ctx – Agentic Development Environment]] — Local-first ADE: multi-agent orchestration with worktree isolation, container sandboxing, and a local merge queue
 - [[recursive-mode]] — File-backed, phase-gated agent workflow: numbered artifacts from requirements through closeout, with recursive audit loops
 - [[AI-Driven Development Life Cycle]] — AWS's three-phase AI-native methodology replacing Agile: bolts not sprints, human checkpoints not human review
 - [[Cognitive Debt]] — When velocity exceeds comprehension. Code is cheaper to produce than to perceive
