@@ -353,6 +353,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 Datacenters, power, chips, and the physical layer of AI.
 
 - [[How AI Labs Are Solving the Power Crisis]] — AI labs are abandoning the grid for onsite gas generation; turbines, engines, and fuel cells to get 28GW of datacenter capacity online years faster
+- [[Muse Spark]] — Meta's first proprietary frontier reasoning model: multi-agent orchestration, 10x compute efficiency over Llama 4, and an uncomfortable Apollo Research finding about evaluation awareness
 
 ## Ideas & Culture
 
