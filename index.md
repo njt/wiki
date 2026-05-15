@@ -1,6 +1,6 @@
 # Wiki Index
 
-200 individual pages + 11 synthesis pages from Nat's 2026 Technical Link Pile.
+201 individual pages + 11 synthesis pages from Nat's 2026 Technical Link Pile.
 
 ## Synthesis
 
@@ -28,6 +28,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[AI Zealotry]] — Senior engineers should embrace AI tools; high-level thinking is now the differentiator
 - [[Opus 4.5 Changes Everything]] — Burke Holland builds four apps with Opus 4.5, shares his AI-first prompt, and confesses ambivalence about the craft he spent a lifetime learning
 - [[How Boris Uses Claude Code]] — The creator of Claude Code on how he actually uses it
+- [[HN Opus 4.5 Is Not the Normal AI Agent Experience]] — 1,353-comment HN thread as accidental focus group: compiler-as-guardrail, training-data proximity, and the skeptic-conversion workflow
 - [[How Intercom Uses Claude Code]] — 13 plugins, 100+ skills, hooks, and OpenTelemetry observability: the most comprehensive enterprise Claude Code deployment published
 - [[Inside the AI Workflows of Every's Six Engineers]] — Six engineers, same company, six radically different AI stacks converging on planning-first, multi-model, guardrail-heavy workflows
 - [[Minions — Stripe's One-Shot Coding Agents]] — 1,000+ unattended PRs/week on hundreds of millions of LOC. Forked Goose, 400 MCP tools, two CI rounds max
