@@ -4,6 +4,22 @@ Jani Patokallio's OSINT investigation into archive.today sat quietly for 2.5 yea
 
 ---
 
+## The 2023 Investigation
+
+The archive.today story starts with a 2023 Patokallio blog post — an OSINT curiosity-driven investigation of who runs the service and how.
+
+**The operator** is likely a single person, "a Russian of considerable talent and access to Europe," registered under the likely-alias "Denis Petrov" from Prague. Identity breadcrumbs point to "Masha Rabinovich" in Berlin (LinkedIn photo match, F-Secure forum complaint, Wikipedia edits to Russian/Belarusian passport pages) and a GitHub account "volth" (fluent Russian, NixOS contributor — the OS archive.today uses).
+
+**Infrastructure** runs on Apache Hadoop + Accumulo on HDFS, triple-replicated across two European datacenters (OVH hosting), consuming ~1,000 TB for ~500M archived pages. Costs escalated from €300/mo in 2012 to ~$4,000/mo by 2016. The scraper uses a modified Chrome browser cycling through a botnet of IP addresses to evade blocking — paywall access via logins "secured by unclear means."
+
+**Funding is the mystery.** As of 2021, ads and donations covered under 20% of expenses. PayPal cut them off around 2022 (implying the operator is in Russia). The operator is skeptical of crypto. The gap between stated costs and stated revenue implies a second, "likely somewhat sketchy" income source. The bus factor is one; the site is "doomed to die."
+
+> "A one-man battle against entropy" — Patokallio's closing characterization of the operator
+
+The investigation gathered ~10,000 views and mild HN discussion, then went dormant for 2.5 years.
+
+---
+
 ## The Attack
 
 > "archive.today is embedding JavaScript in their CAPTCHA that fires off ~3 requests/second to my blog from every browser that has the page open."
@@ -65,5 +81,5 @@ Had the operator done nothing, the investigation would have continued its quiet 
 
 ---
 
-*Sources: [[raw/archive-today-ddos-gyrovague]]*
+*Sources: [[raw/archive-today-guerrilla-archivist]], [[raw/archive-today-ddos-gyrovague]]*
 *Last updated: 2026-05-15*
