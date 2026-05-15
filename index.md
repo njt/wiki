@@ -45,6 +45,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[acceleration-flow]] — AI-assisted coding as slot machine gambling: near-misses create dopamine loops
 - [[Five Levels from Spicy Autocomplete to the Dark Software Factory]] — Five-level framework for AI-assisted development, echoing NHTSA driving automation
 - [[Refactor Legacy Code with Copilot]] — Copilot prompt patterns for legacy modernization across four languages; shallow on the hard problems
+- [[A Practical Guide to Brownfield AI Development]] — Pupius's field guide to making agents productive in legacy codebases: tests as system boundaries, docs as context, compromise as strategy. The best brownfield AI piece in the wiki
 - [[On a Year of Multi-Model Development]] — Hoffman's field report on Claude+Codex+Gemini via shared MCP: construction-trade model taxonomy, 25-71x acceleration, specification as bottleneck
 - [[Talking to Transformers]] — Four pillars for effective LLM prompting: attention as budget, domain language as compression
 - [[The Claude C Compiler]] — Lattner's verdict: AI implements known abstractions well but invents nothing new
