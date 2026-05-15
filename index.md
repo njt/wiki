@@ -160,6 +160,7 @@ Persistence, retrieval, knowledge management, and context engineering for agents
 - [[CodeMira]] — Mira OS memory architecture adapted for coding: SQLite + hnswlib + FTS5
 - [[Context Rot]] — RAG quality degrades over time; Wilson scoring + dynamic weighting fixes it
 - [[Memory Mechanism]] — xAI's five memory types and five-layer hierarchy. Best taxonomy I've seen
+- [[How AI Agent Memory Works]] — Cobanov's interactive essay: the best single-page intro to agent memory architecture with production details, HyDE, RRF, and governance
 - [[Three Tier Memory]] — Hot constitution, 19 domain experts in warm tier, cold archive. 108K-line system
 - [[napkin]] — Per-repo markdown scratchpad where the agent logs its mistakes and learns
 - [[Planning With Files]] — Persistent markdown planning: context window is RAM, filesystem is disk
