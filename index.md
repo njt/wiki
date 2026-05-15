@@ -375,6 +375,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[Misha Glenny]] — Journalist and author tracing hidden power networks: Balkan wars, organized crime, cybercrime, rare earths. New host of In Our Time
 - [[Microscale Thermite Reaction]] — Harvard demo: smash two rusty iron balls together, trigger 2200°C thermite reaction with nothing but a glancing blow
 - [[Estimating Pi with a Coin]] — Toss until heads leads, record the fraction. Average approaches pi/4
+- [[Thinking Hard Burns Almost No Calories]] — Mental fatigue doesn't drain energy — it hijacks perceived exertion via adenosine. Schedule hard training before cognitive work, not after
 - [[Goeckerman Regimen]] — Century-old psoriasis treatment that outperforms modern biologics
 - [[Third Gulf War]] — LLM-powered hypothesis tracking for geopolitical analysis
 - [[World Monitor]] — Real-time global intelligence dashboard. 500+ feeds, 65+ data sources
