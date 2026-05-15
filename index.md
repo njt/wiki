@@ -159,6 +159,7 @@ Persistence, retrieval, knowledge management, and context engineering for agents
 
 - [[Claude-Mem]] — Captures everything Claude does, compresses it, injects context into future sessions
 - [[CodeMira]] — Mira OS memory architecture adapted for coding: SQLite + hnswlib + FTS5
+- [[Context Is Not Learning]] — Jayendran: context is software, weights are hardware. Longer context windows can't substitute for new computational pathways
 - [[Context Rot]] — RAG quality degrades over time; Wilson scoring + dynamic weighting fixes it
 - [[Memory Mechanism]] — xAI's five memory types and five-layer hierarchy. Best taxonomy I've seen
 - [[How AI Agent Memory Works]] — Cobanov's interactive essay: the best single-page intro to agent memory architecture with production details, HyDE, RRF, and governance
