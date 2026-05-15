@@ -282,6 +282,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Dev Containers]] — VS Code's infrastructure-as-code for dev environments: container as the source of truth, Features as composable toolchain components, pre-built images as self-describing specs
 - [[Container-Maker]] — Solo dev's ambitious CLI wrapping devcontainer.json into a standalone platform with AI config generation and cloud GPU provisioning. Vision document, not a recommendation
 - [[Installing VS Compilers From Commandline]] — msvcup: skip Visual Studio, install just the compiler and SDK
+- [[Introducing git-wt — Worktrees Simplified]] — Bash wrapper smoothing git worktree's sharp edges: auto-fetch, upstream tracking, orphan cleanup, fzf switching
 - [[bcc]] — BPF Compiler Collection: kernel-level tracing for Linux performance analysis
 - [[floci]] — Free local AWS emulator replacing LocalStack. 47 services, 24ms startup
 - [[sem]] — Semantic version control: entity-level diff, blame, and impact analysis
