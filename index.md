@@ -42,6 +42,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[AI-Driven Development Life Cycle]] — AWS's three-phase AI-native methodology replacing Agile: bolts not sprints, human checkpoints not human review
 - [[Cognitive Debt]] — When velocity exceeds comprehension. Code is cheaper to produce than to perceive
 - [[Slowing the Fuck Down]] — Deliberate friction in AI-assisted development is a feature, not a bug
+- [[I Don't Want Your PRs Anymore]] — LLMs invert open-source economics: maintainers generate code faster than they can review stranger PRs. The fork as preferred outcome
 - [[Radical Accountability]] — AI eliminates the excuse of insufficient engineering time. Taste is all that's left
 - [[The Mythical Agent-Month]] — Agents attack accidental complexity but generate new accidental complexity
 - [[acceleration-flow]] — AI-assisted coding as slot machine gambling: near-misses create dopamine loops
