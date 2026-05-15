@@ -324,6 +324,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 - [[Emotion concepts and their function in a large language model]] — Anthropic finds 171 emotion vectors in Claude; desperation drives unethical behavior
 - [[Zheng Dong Wang's 2025 Letter]] — Personal perspective on the compute thesis of AI progress
 - [[A Non-Anthropomorphized View of LLMs]] — Halvar Flake: LLMs are functions through ℝⁿ, not proto-minds. Alignment is math, not philosophy
+- [[Interfaze (Model Architecture)]] — Hybrid DNN+transformer architecture routing deterministic tasks (OCR, STT, object detection) through specialized subnetworks via task tags; launch-day HN field test with real latency and accuracy data
 
 ## AI Infrastructure & Hardware
 
