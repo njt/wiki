@@ -133,6 +133,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Intent Is the Interface]] — The screen was a constraint we mistook for the product. Design capabilities and intents, derive interfaces from context
 - [[The Dark Factory is a DOT File]] — The pipeline DOT file is the valuable artifact; factory code is disposable
 - [[TradingGoose Bear Researcher]] — Production reference: position-aware AI prompting, multi-round agent debate, coordinator-worker orchestration in a Supabase Edge Function
+- [[StrongDM Factory Techniques]] — Six named patterns from the dark factory floor: DTU, Gene Transfusion, Filesystem-as-memory, Shift Work, Semport, Pyramid Summaries. Code as opaque weights, validated by harness not review
 - [[What I learned building an opinionated and minimal coding agent]] — Four tools, no MCP, full YOLO. Competitive on benchmarks
 - [[Pi Coding Agent]] — The productized Pi: TypeScript extensions, SDK, RPC mode, and the tension between minimalist philosophy and platform ambitions
 - [[Hermes]] — Open-source personal agent framework with self-improving skills loop. 149k stars
