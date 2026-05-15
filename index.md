@@ -416,6 +416,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[Eye of the Master]] — AI as labour automation, not cognitive science. Pasquinelli's social history
 - [[The Education of the Broligarchy]] — Blake Smith reads the Silicon Valley canon as worldview-formation for arrested adolescents. Jobs bios + *Atlas Shrugged* = the broligarchy's intellectual toolkit, frozen at 15
 - [[Why We Fear AI]] — AI anxiety is really capitalism anxiety. Blix and Glimmer
+- [[We (As a Society) Peaked in the 90s]] — Blog post + 125-comment HN thread on whether the 90s were a genuine balance point between technology and humanity, or just what getting older feels like
 - [[2026 Global Intelligence Crisis]] — Citadel Securities' macro rebuttal to AI doomerism: S-curves, compute-as-boundary, supply-shock framing, and a report that reversed $2T in market panic
 - [[Retail 2026 From AI Pilots to Execution]] — iVendNext vendor pitch analyzed: data fragmentation kills retail AI, MCP server + Claude Desktop as product interface, the vendor omission checklist
 - [[AI Livestream Factories]] — Rows of PCs running AI avatars selling 24/7 in China. The dark factory for attention: $100/hr/stream, no humans on screen
