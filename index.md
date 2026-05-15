@@ -411,6 +411,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[1lib]] — Digital library and book search engine, similar to Anna's Archive
 - [[stupidmeter]] — AI model benchmarking tool with a deliberately retro UI
 - [[AI Coding Weekly]] — Weekly digest of AI development tools and trends
+- [[Tech Writers and AI (HN Discussion)]] — HN thread as oral history of what tech writing actually is: empathy, observation, and the untraceable cost of bad docs
 - [[Spicy Takes Feed]] — 28 tech writers aggregated by heat. Skeptical, infrastructure-heavy
 - [[Awesome Vibez]] — Curated project list from Nat's WhatsApp coding community
 - [[Vibe Coding and the Maker Movement]] — "Evaluative anesthesia": the dopamine of making eclipses the ability to judge. Maker Movement parallels
