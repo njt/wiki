@@ -1,6 +1,6 @@
 # Subquadratic 12M Context Window
 
-A 13-person Miami startup claims to have broken the Transformer's quadratic bottleneck with a sparse attention architecture that scales linearly to 12 million tokens at 5% the cost of Claude Opus. If real, it's a paradigm shift. The evidence is thin: no paper, no open weights, self-reported benchmarks.
+A 13-person Miami startup ($29M seed, ~$500M valuation) claims to have broken the Transformer's quadratic bottleneck with a sparse attention architecture that scales linearly to 12 million tokens at 5% the cost of Claude Opus and 52x faster than FlashAttention-2 at 1M tokens. If real, it's a paradigm shift. The evidence is thin: no paper, no open weights, self-reported benchmarks.
 
 ---
 
@@ -39,7 +39,7 @@ The RULER cost comparison is the number they lead with. SWE-Bench and MRCR tell 
 
 ## Products
 
-- **SubQ API** — full 12M-token context window
+- **SubQ API** — full 12M-token context window, 150 t/s decoding
 - **SubQ Code** — CLI coding agent that loads an entire codebase in one pass, removing the need for retrieval, chunking, or multi-agent coordination
 - **SubQ Search** — deep research tool, initially free (land-and-expand play)
 
@@ -51,7 +51,7 @@ SubQ Code is the most interesting product thesis. If it works, it eliminates [[C
 
 ## Critical Analysis
 
-**The good case.** Sparse attention is a real research direction. The team's PhDs are from Meta, Google, Oxford, Cambridge, Adobe — not randos. The backers include early Anthropic and OpenAI investors who know what due diligence means. If linear attention works at scale, the economics of long-context AI invert: RAG becomes a legacy pattern, not a fundamental requirement.
+**The good case.** Sparse attention is a real research direction. The team's PhDs are from Meta, Google, Oxford, Cambridge, Adobe — not randos. The backers include early Anthropic and OpenAI investors who know what due diligence means. If linear attention works at scale (the 52x-over-FlashAttention-2 claim at 1M tokens is the number to verify), the economics of long-context AI invert: RAG becomes a legacy pattern, not a fundamental requirement.
 
 **The bad case.** This is a 13-person company with no published paper, no open-source code, and all benchmarks self-reported. The 300x cost comparison on RULER is a cherry-picked number — on SWE-Bench the margin is 6 points behind Opus 4.7, and on MRCR (which actually tests reasoning across long context) SubQ scores 12 points lower than Opus 4.6. The @ 128K on RULER is also doing work: at 128K tokens, Frontier models aren't even in their weak-scaling regime yet. Show me the numbers at 1M+ tokens where quadratic attention actually hurts.
 
