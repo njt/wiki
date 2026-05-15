@@ -1,6 +1,6 @@
 # Wiki Index
 
-201 individual pages + 11 synthesis pages from Nat's 2026 Technical Link Pile.
+202 individual pages + 11 synthesis pages from Nat's 2026 Technical Link Pile.
 
 ## Synthesis
 
@@ -358,6 +358,7 @@ Datacenters, power, chips, and the physical layer of AI.
 
 Books, essays, geopolitics, math, medicine, and interesting oddities.
 
+- [[America Is Slow-Walking Into a Polymarket Disaster]] — Desai's Atlantic polemic on the media's embrace of prediction markets: manipulation, insider trading, and the gamblification of civic life
 - [[Archive.today DDoSed a Critic's Blog]] — An OSINT investigation sat quiet for 2.5 years, then the anonymous operator retaliated with client-side DDoS and escalating threats
 - [[The Mundanity of Excellence]] — Excellence is qualitatively different choices, not quantitatively more effort
 - [[Happiest I've Ever Been]] — Happiness from coaching kids, not moving rectangles
