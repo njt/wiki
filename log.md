@@ -400,6 +400,10 @@ Source: https://sophiebits.com/2025/08/22/materialized-views-are-obviously-usefu
 
 ## [2026-05-14] ingest | Patterns.dev (Lydia Hallie, Addy Osmani)
 
+## [2026-05-15] ingest | I started a company! (Jesse Vincent / Prime Radiant)
+
+Source: https://blog.fsck.com/2026/01/13/I-started-a-company/ — Jesse Vincent announces he founded Prime Radiant, an AI company incorporated late December 2025. First employee joined the week of Jan 13, 2026. Working on undisclosed AI product; continuing to release open-source agent tools (Serf, Clearance, engineering-notebook) as infrastructure spillover. Notable for naming the hiring-in-the-age-of-agents problem: "an unending torrent of agentic job applications." Created `raw/i-started-a-company.md` and wiki page `Prime Radiant (Company).md`. Added to index under Ideas & Culture (before Awesome Vibez). Cross-linked to [[Serf]], [[Clearance]], [[engineering-notebook]], [[Personal Agents]], [[Awesome Vibez]], [[Windows in Docker]], [[Verbose Deployment]], [[Trycycle]].
+
 Source: https://www.patterns.dev/ — Hallie and Osmani's free online catalog of modern web design, rendering, and performance patterns. Covers vanilla JS (singleton, proxy, observer, module, factory, and more), React/Next.js (container/presentational, HOC, hooks, compound, CSR/SSR/SSG/ISR, progressive hydration, streaming SSR, RSC), and Vue.js (composables, provide/inject, renderless components). Fetched homepage and about page via WebFetch. Created `raw/patterns-dev.md` and wiki page `Patterns.dev.md`. Added to index under Software Engineering (after Elements of Code). Cross-linked to [[Addy Osmani's Workflow]] (co-creator's AI workflow), [[Awesome Agentic Patterns]] (parallel pattern catalog for agents), [[Software Engineering Craft]] (synthesis), [[Elements of Code]] (comprehensibility patterns), [[Simplicity in the Age of AI-Assisted]] (rebuilding without inherited patterns), [[The Claude C Compiler]] (AI implements known patterns well), [[Cognitive Debt]] (patterns as guard), [[14 More lessons from 14 years at Google]] (co-creator's organizational thinking).
 
 ## [2026-05-14] ingest | A Non-Anthropomorphized View of LLMs (halvar.flake)
