@@ -36,8 +36,8 @@ Multi-language support (Rust, Go, C, TypeScript), agent integration (Codex, Curs
 
 The semantic search dependency on OpenAI/Vercel AI Gateway is a lock-in vector worth noting. If you're already using those providers it's fine, but if you're running local models via [[maclocal-api]] or [[Self-Hosted LLMs]], semantic search is gated behind a cloud API key.
 
-See also [[Specifications as the Product]], [[Feedback Loop is All You Need]], [[napkin]], [[graphify]], [[docmason]], [[sem]], and [[Agent Memory and Context]].
+See also [[Specifications as the Product]], [[Feedback Loop is All You Need]], [[napkin]], [[graphify]], [[docmason]], [[sem]], [[Agent Memory and Context]], [[CLAUDE.md (Universal)]], and [[Planning With Files]].
 
 ---
 *Source: [lat.md](https://www.lat.md/) | [GitHub](https://github.com/1st1/lat.md)*
-*Fetched: 2026-05-14*
+*Fetched: 2026-05-15*
