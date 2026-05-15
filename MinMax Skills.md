@@ -22,4 +22,5 @@ Available for Claude Code, Cursor, Codex, and OpenCode -- the multi-platform sup
 
 ---
 *Sources: [[raw/minimax-skills]]*
+*Related: [[MiniMax Models]]*
 *Last updated: 2026-05-14*
