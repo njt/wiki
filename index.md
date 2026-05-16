@@ -356,6 +356,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Browser Use]] — AI browser automation with anti-detection and deterministic rerun
 - [[Chrome DevTools MCP — Debug Your Browser Session]] — Chrome M144's `--autoConnect` lets agents reuse authenticated browser sessions. Hybrid manual/AI debugging via permission-gated remote debugging
 - [[surf-cli]] — Browser automation for agents via CLI and Unix sockets. No MCP needed
+- [[sx]] — Team package manager for AI coding assistant assets: skills, MCP configs, commands, hooks. Manifest-and-lock pattern, scoped install
 - [[DeepWiki]] — Cognition's instant codebase wiki: swap github.com for deepwiki.com, get AI-powered Q&A with line-level citations
 - [[graphify]] — Codebase to multimodal knowledge graph. Code, PDFs, screenshots, diagrams
 - [[lat.md]] — Knowledge graph for codebases in markdown with validation against drift
