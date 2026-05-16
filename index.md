@@ -313,6 +313,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 Storage engines, query patterns, data quality, and vector/graph databases.
 
 - [[AliSQL]] — Alibaba's MySQL fork: DuckDB columnar OLAP + native vector search. 200x speedup
+- [[Radicle]] — P2P sovereign code forge built on Git. Cryptographic identity, gossip protocol, no central server. The most serious decentralized GitHub alternative
 - [[Dolt]] — SQL database you can fork, clone, branch, merge. Git + MySQL
 - [[Graft]] — SQLite replicated to the edge via object storage
 - [[Write Snapshot Isolation]] — SI checks stale writes; WSI checks stale reads. Serializability in one fix
