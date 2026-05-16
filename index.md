@@ -390,6 +390,7 @@ Tools that run on your own machines: voice, hardware, local inference, knowledge
 - [[Thunderbolt]] — Mozilla/MZLA's open-source cross-platform AI client pivoting to enterprise: sovereign cloud, air-gapped deployments, ACP+MCP protocol support, deepset/Haystack partnership
 - [[Introduction to Obsidian]] — Practitioner's field report on Obsidian: file-over-app philosophy, plugin minimalism, honest graph-view skepticism
 - [[Lemonade (Local AI Server)]] — AMD-backed local multimodal AI server: chat, vision, image gen, speech behind an OpenAI-compatible API. Embeddable <10MB binary is the sleeper feature
+- [[A Few Words on DS4]] — antirez's DS4 crosses the local inference threshold: he now uses a local model instead of Claude/GPT for serious work. Model-agnostic shell, expert variants, distributed inference ambitions
 - [[tolaria]] — Open-source Obsidian alternative: files-first, git-first, AI-agent compatible
 - [[Upwelling]] — Ink & Switch editor: branching and merging for writers, not just programmers
 - [[Claude's System Prompt]] — Leaked Claude Opus 4.6 system prompt, read as a catalog of solved failure modes
