@@ -28,6 +28,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[AI Zealotry]] — Senior engineers should embrace AI tools; high-level thinking is now the differentiator
 - [[Opus 4.5 Changes Everything]] — Burke Holland builds four apps with Opus 4.5, shares his AI-first prompt, and confesses ambivalence about the craft he spent a lifetime learning
 - [[How Boris Uses Claude Code]] — The creator of Claude Code on how he actually uses it
+- [[How Claude Code Works in Large Codebases]] — Anthropic's official guide: seven harness components, three configuration patterns, and the case that setup matters more than the model
 - [[Gas Town After 10,000 Hours of Claude Code]] — Hartcher rejects Gas Town's delegation model for pair-programming agency; beads pollute git, token speed kills the experience
 - [[HN Opus 4.5 Is Not the Normal AI Agent Experience]] — 1,353-comment HN thread as accidental focus group: compiler-as-guardrail, training-data proximity, and the skeptic-conversion workflow
 - [[HN Don't Fall Into the Anti-AI Hype]] — 1,631-comment HN thread as accidental debate on what LLMs are: entropy/convergence theory, lossy compression vs. learned relations, and the conditions under which LLMs actually work
