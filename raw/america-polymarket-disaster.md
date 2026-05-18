@@ -2,63 +2,35 @@
 url: https://www.theatlantic.com/technology/2026/01/america-polymarket-disaster/685662/
 title: America Is Slow-Walking Into a Polymarket Disaster
 author: Saahil Desai
-date_fetched: 2026-05-15
-date_published: 2026-01
-publication: The Atlantic (syndicated on MSN)
+date_fetched: 2026-05-18
+date_published: 2026-01-17
+publication: The Atlantic
 ---
 
 # America Is Slow-Walking Into a Polymarket Disaster
 
-By Saahil Desai, The Atlantic, January 2026.
+By Saahil Desai, The Atlantic, January 17, 2026.
 
-## Summary
+For the past week, I've found myself playing the same 23-second CNN clip on repeat. I've watched it in bed, during my commute to work, at the office, midway through making carrot soup, and while brushing my teeth. In the video, Harry Enten, the network's chief data analyst, stares into the camera and breathlessly tells his audience about the gambling odds that Donald Trump will buy any of Greenland. "The people who are putting their money where their mouth is—they are absolutely taking this seriously," Enten says. He taps the giant touch screen behind him and pulls up a made-for-TV graphic: Based on how people were betting online at the time, there was a 36 percent chance that the president would annex Greenland. "Whoa, way up there!" Enten yells, slapping his hands together. "My goodness gracious!" The ticker at the bottom of the screen speeds through other odds: Will Gavin Newsom win the next presidential election? 19 percent chance. Will Viktor Orban be out as the leader of Hungary before the end of the year? 48 percent chance.
 
-The article critiques the rapid mainstreaming of prediction markets like Polymarket and Kalshi, focusing on CNN's deal with Kalshi to integrate betting odds into broadcasts. Desai argues America is sleepwalking into a dangerous future where politics, geopolitics, and tragedy are reduced to speculative gambling theater.
+These odds were pulled from Kalshi, which hilariously claims not to be a gambling platform: It's a "prediction market." People go to sites such as Kalshi and Polymarket—another big prediction market—in order to put money down on a given news event. Nobody would bet on something that they didn't believe would happen, the thinking goes, and so the markets are meant to forecast the likelihood of a given outcome.
 
-## Key Content
+Prediction markets let you wager on basically anything. Will Elon Musk father another baby by June 30? Will Jesus return this year? Will Israel strike Gaza tomorrow? Will the longevity guru Bryan Johnson's next functional sperm count be greater than "20.0 M/ejac"? These sites have recently boomed in popularity—particularly among terminally online young men who trade meme stocks and siphon from their 401(k)s to buy up bitcoin. But now prediction markets are creeping into the mainstream. CNN announced a deal with Kalshi last month to integrate the site's data into its broadcasts, which has led to betting odds showing up in segments about Democrats possibly retaking the House, credit-card interest rates, and Federal Reserve Chair Jerome Powell. At least twice in the past two weeks, Enten has told viewers about the value of data from people who are "putting their money where their mouth is."
 
-### Media Mainstreaming
+On January 7, the media giant Dow Jones announced its own collaboration with Polymarket and said that it will begin integrating the site's odds across its publications, including The Wall Street Journal. CNBC has a prediction-market deal, as does Yahoo Finance, Sports Illustrated, and Time. Last week, MoviePass announced that it will begin testing a betting platform. On Sunday, the Golden Globes featured Polymarket's forecasts throughout the broadcast—because apparently Americans wanted to know whether online gamblers favored Amy Poehler or Dax Shepard to win Best Podcast.
 
-- CNN data analyst Harry Enten repeatedly cited Kalshi betting odds on-air: 36% chance Trump would "buy or annex Greenland," 19% odds for Gavin Newsom's presidential chances, 48% odds on Viktor Orban's political fate
-- CNN struck a formal deal with Kalshi to integrate its data into broadcasts
-- CNBC, Fox News, and Dow Jones (Wall Street Journal) have also partnered with prediction markets
-- Polymarket has deals with Substack and X (Twitter)
+Media is a ruthless, unstable business, and revenue streams are drying up; if you squint, you can see why CNN or Dow Jones might sign a contract that, after all, provides its audience with some kind of data. On air, Enten cites Kalshi odds alongside Gallup polls and Google searches—what's the difference? "The data featured through our partnership with Kalshi is just one of many sources used to provide context around the stories or topics we are covering and has no impact on editorial judgment," Brian Poliakoff, a CNN spokesperson, told me in a statement. Nolly Evans, the Journal's digital general manager, told me that Polymarket provides the newspaper's journalists with "another way to quantify collective expectations—especially around financial or geopolitical events." In an email, Jack Suh, a Kalshi spokesperson, told me that the company's partnerships are designed to inform the public, not to encourage more trading. Polymarket declined to comment.
 
-### Reliability Claims vs. Evidence
+The problem is that prediction markets are ushering in a world in which news becomes as much about gambling as about the event itself. This kind of thing has already happened to sports, where the language of "parlays" and "covering the spread" has infiltrated every inch of commentary. ESPN partners with DraftKings to bring its odds to SportsCenter and Monday Night Football; CBS Sports has a betting vertical; FanDuel runs its own streaming network. But the stakes of Greenland's future are more consequential than the NFL playoffs.
 
-- Polymarket CEO Shayne Coplan claims his site is "the most accurate thing we have as mankind right now"
-- One study found Polymarket's pre-2024 election forecasts were "not much better than chance"
-- Coplan boasted of predicting 26 of 28 Golden Globe winners, but Hollywood awards are inherently predictable
-- The "wisdom of crowds" premise ignores cascading self-referential dynamics where traders bet on what others will bet, not reality
+The more that prediction markets are treated like news, especially heading into another election, the more every dip and swing in the odds may end up wildly misleading people about what might happen, or influencing what happens in the real world. Yet it's unclear whether these sites are meaningful predictors of anything. After the Golden Globes, Polymarket CEO Shayne Coplan excitedly posted that his site had correctly predicted 26 of 28 winners, which seems impressive—but Hollywood awards shows are generally predictable. One recent study found that Polymarket's forecasts in the weeks before the 2024 election were not much better than chance.
 
-### Manipulation and Insider Trading
+These markets are also manipulable. In 2012, one bettor on the now-defunct prediction market Intrade placed a series of huge wagers on Mitt Romney in the two weeks preceding the election, generating a betting line indicative of a tight race. The bettor did not seem motivated by financial gain, according to two researchers who examined the trades. "More plausibly, this trader could have been attempting to manipulate beliefs about the odds of victory in an attempt to boost fundraising, campaign morale, and turnout," they wrote. The trader lost at least $4 million but might have shaped media attention of the race for less than the price of a prime-time ad, they concluded.
 
-- 2012 Intrade scandal: a single trader placed huge pro-Romney wagers, losing at least $4 million, likely shaping media narratives for less than the cost of a prime-time ad
-- A Polymarket user won ~$400,000 from suspiciously well-timed bets just before Nicolas Maduro's capture in Venezuela
-- Israeli authorities charged two people with using classified information to bet on military operations on Polymarket
-- An anonymous trader made over $550,000 betting on the timing of U.S./Israeli strikes on Iran
-- A U.S. Army Special Forces soldier was arrested for using classified information to make over $400,000 betting on the Maduro operation
+A billionaire congressional candidate can't just send a check to Quinnipiac University and suddenly find himself as the polling front-runner, but he can place enormous Polymarket bets on himself that move the odds in his favor. Or consider this hypothetical laid out by the Stanford political scientist Andrew Hall: What if, a month before the 2028 presidential election, the race is dead even between J. D. Vance and Mark Cuban? Inexplicably, Vance's odds of winning surge on Kalshi, possibly linked to shady overseas bets. CNN airs segment after segment about the spike, turning it into an all-consuming national news story. Democrats and Republicans point fingers at each other, and no one knows what's really going on. Such a scenario is "plausible—maybe even likely—in the coming years," Hall writes. It doesn't help that the Trump Media and Technology Group, the owner of the president's social-media platform, Truth Social, is set to launch its own platform, Truth Predict. (Donald Trump Jr. is an adviser to both Kalshi and Polymarket.)
 
-### The Gamblification Parallel
+The irony of prediction markets is that they are supposed to be a more trustworthy way of gleaning the future than internet clickbait and half-baked punditry, but they risk shredding whatever shared trust we still have left. The suspiciously well-timed bets that one Polymarket user placed right before the capture of Nicolas Maduro may have been just a stroke of phenomenal luck that netted a roughly $400,000 payout. Or maybe someone with inside information was looking for easy money. Last week, when White House Press Secretary Karoline Leavitt abruptly ended her briefing after 64 minutes and 30 seconds, many traders were outraged, because they had predicted (with 98 percent odds) that the briefing would run past 65 minutes. Some suspected, with no evidence, that Leavitt had deliberately stopped before the 65-minute mark to turn a profit. (When I asked the White House about this, the spokesperson Davis Ingle told me in a statement, "This is a 100% Fake News narrative.")
 
-- Desai draws a parallel to sports betting, where DraftKings, FanDuel, and ESPN partnerships have saturated commentary with the language of "parlays" and "covering the spread"
-- Viral X post: "Got a buddy who is praying for World War 3 so he can win $390 on Polymarket"
+Unintentionally or not, this is what happens when media outlets normalize treating every piece of news and entertainment as something to wager on. As Tarek Mansour, Kalshi's CEO, has said, his long-term goal is to "financialize everything and create a tradable asset out of any difference in opinion." (Kalshi means "everything" in Arabic.) What could go wrong? As one viral post on X recently put it, "Got a buddy who is praying for world war 3 so he can win $390 on Polymarket." It's a joke. I think.
 
-### Kalshi's Ambition
-
-- Kalshi CEO Tarek Mansour's long-term goal: "financialize everything and create a tradable asset out of any difference in opinion"
-- "Kalshi" means "everything" in Arabic
-
-## Related Atlantic Coverage
-
-- "A Technology for a Low-Trust Society" (March 2026) — follow-up piece arguing prediction markets are "the perfect technology for a low-trust society"
-- McKay Coppins' cover story "Sucker: My Year As A Degenerate Gambler"
-
-## Slashdot Discussion
-
-The article was widely discussed on Slashdot. Overwhelmingly skeptical sentiment. Key themes:
-- "It's not a prediction market it's gambling" (rsilvergun, top comment)
-- Historical precedent: IG Index Brexit odds showed strong Remain despite neck-and-neck polling, causing "financial chaos"
-- DARPA's failed Policy Analysis Market ("terrorism futures market") recalled as precedent
-- Concern about feedback loops: betting odds affecting voter turnout, political fundraising, and real-world outcomes
-- "If you trust the markets at all, I have AI to sell you" (jhoegl)
+About the Author: Saahil Desai is a senior editor at The Atlantic.
