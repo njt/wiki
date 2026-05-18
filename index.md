@@ -309,6 +309,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 - [[Before Reading Code]] — Five git commands to diagnose codebase health before reading a single line
 - [[Common Diagram Mistakes]] — Seven anti-patterns in architecture diagrams. Most diagram failures are communication failures
 - [[Make the Easy Change Hard]] — Invert Beck's maxim: refactor the architecture first, then the easy feature writes itself. Async Rust war story
+- [[WebRTC Is the Problem]] — Ex-Twitch/Discord WebRTC engineer: the protocol is wrong for voice AI. QUIC fixes this. Eight RTTs to one, port-binding to connection migration, Redis-backed load balancers to stateless routing
 - [[Frozen Test Fixtures]] — Test the property, not the data: assertion patterns that survive fixture evolution
 - [[How HTML Changes in ePub]] — ePub is XHTML, not HTML5. Unlearn your web habits
 - [[Correct by Construction]] — Data quality as a whitelist: anchors, attributes, links, no NULLs
