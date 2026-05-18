@@ -16,10 +16,8 @@ Need subscription, login, or password to access.
 
 | URL | Wiki Page | Failure | Date |
 |-----|-----------|---------|------|
-| https://www.nytimes.com/2025/12/03/magazine/chatbot-writing-style.html | Why Does AI Write Like That | NYT paywall | 2026-05-15 |
-| https://www.theatlantic.com/technology/2026/01/america-polymarket-disaster/685662/ | America Is Slow-Walking Into a Polymarket Disaster | Atlantic paywall | 2026-05-15 |
 | https://matijacniacki.com/blog/openviktor | OpenViktor | password-protected | 2026-05-15 |
-| https://www.sciencedirect.com/science/article/pii/S0016328719303507 | (unknown — check raw) | ScienceDirect paywall | 2026-05-14 |
+| https://www.sciencedirect.com/science/article/pii/S0016328719303507 | Our Hunter-Gatherer Future | Open access but Cloudflare-blocked; raw has abstract/highlights | 2026-05-14 |
 
 ## Dead / unreachable
 
@@ -30,9 +28,8 @@ Domain down, 404, or cert errors. Low chance of recovery.
 | https://1lib.sk/ | 1lib | ECONNREFUSED | 2026-05-14 |
 | https://designsystems.igorschwarzmann.com/ | Igor Schwarzmann Design Systems | ECONNREFUSED / dead | 2026-05-15 |
 | https://www.getseer.dev/blogs/pre-commit-linting-vibe-coding | Pre-Commit Lint Checks | domain repurposed | 2026-05-14 |
-| https://benchling.engineering/fragmentation-to-framework-spec-first-development-at-benchling-9b97302bddcf | Spec-First Development at Benchling | bad TLS cert | 2026-05-14 |
-| https://www.damtp.cam.ac.uk/user/tong/fluids/lowreynolds.pdf | (fluid dynamics PDF) | cert error | 2026-05-14 |
-| https://github.com/harperreed/dotfiles/blob/master/.claude/skills/summarize-meetings/SKILL.md | (Harper Reed SKILL.md) | GitHub 404, possibly moved | 2026-05-14 |
+| https://benchling.engineering/fragmentation-to-framework-spec-first-development-at-benchling-9b97302bddcf | Spec-First Development at Benchling | bad TLS cert — user trying manually 2026-05-18 | 2026-05-14 |
+| https://www.damtp.cam.ac.uk/user/tong/fluids/lowreynolds.pdf | Life at Low Reynolds Numbers | cert error — user trying manually 2026-05-18 | 2026-05-14 |
 
 ## Tweets (mirror failures)
 
