@@ -255,6 +255,7 @@ Evals, testing, linting, feedback loops, and keeping agent output trustworthy.
 
 Isolation, credentials, prompt injection defense, and agent safety.
 
+- [[matrix3]] — Tavis Ormandy's uMatrix successor for MV3: declarative content policy via CSP, proving the linter-not-prompts pattern in browser security
 - [[A Deep Dive on Agent Sandboxes]] — How Codex sandboxes agent execution: Seatbelt, Landlock, seccomp
 - [[yolo-cage]] — Agents that can't exfiltrate secrets or merge their own PRs. Vagrant + egress proxy
 - [[Attack Review -- Claude Allowlisted-Egress Exfiltration]] — lhl's shisad framework vs. Claude Pirate and Cowork: four-stage kill chain analysis proving security is architecture, not patches
