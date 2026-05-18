@@ -1,58 +1,79 @@
 # Inside OpenAI's In-House Data Agent
 
-OpenAI's internal data platform — 600+ petabytes, ~70,000 datasets, 3,500+ users — is now run autonomously by Codex-powered agents built on GPT-5.2. Emma Tang (data platform lead) and Venkat Venkataramani (VP of App Infrastructure) describe how agents monitor pipelines, trace anomalies, generate fixes, and validate them in production. The core insight: a data agent's context isn't a repo — it's the company's entire "data foundation" (metadata, lineage, permissions, dashboards, query history, operational knowledge). Making that legible to the agent is the hard problem.
+OpenAI built a bespoke internal data agent powered by GPT-5.2 that lets 3,500+ employees query 600PB across 70k datasets using natural language. Written by Bonnie Xu, Aravind Suresh, and Emma Tang (January 2026), this is the definitive engineering post on how they did it. The agent is not a product — it's an internal tool built on the same APIs (Codex, GPT-5, Evals, Embeddings) that OpenAI sells to developers. The most interesting claim: the hard problem isn't model intelligence, it's making the company's data reality legible enough for an agent to navigate.
 
 ---
 
 ## Key Quotes
 
-> "It can draw on table definitions, ownership, documentation, query history, lineage, dashboards, permissions and the production code that generates the data."
+> "We have a lot of tables that are fairly similar, and I spend tons of time trying to figure out how they're different and which to use. Some include logged-out users, some don't. Some have overlapping fields; it's hard to tell what is what."
 
-This is the best one-sentence description I've seen of what a data agent actually consumes. Compare this to a coding agent, which mostly needs the repo. The data agent needs to reconstruct how the company thinks about itself. Tang's unified platform treats "the lake, metadata, lineage, code, permissions, query execution, dashboards and notebooks as one connected system" — that's the prerequisite, not the feature.
+The user quote that motivates the entire project. This is the data platform version of "I can't find the right file." At 70k datasets, table discovery is the bottleneck, not query writing.
 
-> "The hard part is making the company's data reality legible to the agent."
+> "Metadata alone isn't enough. To really tell tables apart, you need to understand how they were created and where they originate."
 
-Every enterprise AI demo assumes clean data. Tang admits the real world: "missing metadata, pipeline definitions missing from code, siloed data across systems." The agent inherits the limits of the foundation. This is the same insight as [[Guardrails and Feedback Loops]] applied to data: garbage in, garbage out, no matter how smart the model.
+This is the justification for Layer #3 (Codex Enrichment) and it's the most transferable insight in the post. Schemas tell you column names. Code tells you what the data actually means. The agent crawls the codebase with Codex to understand pipeline logic — freshness guarantees, filtering assumptions, business intent — that never surfaces in SQL or metadata. This is also their Lesson #3: "Meaning Lives in Code."
 
-> "Codex becoming an oral tradition with a better UI — where nobody knows why the workflow works or when it is stale."
+> "Rather than following a fixed script, the agent evaluates its own progress. If an intermediate result looks wrong (e.g., if it has zero rows due to an incorrect join or filter), the agent investigates what went wrong, adjusts its approach, and tries again."
 
-Venkataramani's sharpest warning. When agents automate ops work, the institutional knowledge that lived in runbooks and Slack threads evaporates. The goal should be that "Codex can reliably find, execute and update the source of truth" — not that it becomes a more convenient way to not write things down.
+The self-correcting loop. This is the closed-loop reasoning that shifts iteration from the user into the agent. Combined with memory (Layer #5), it means the agent doesn't just fix mistakes — it remembers the fix for next time.
 
-> "A system can be effective and still become dangerous if humans can no longer reason about it."
+> "While many questions share a general analytical shape, the details vary enough that rigid instructions often pushed the agent down incorrect paths."
 
-He's careful to note this predates AI — hyperscalers already have decade-old codebases where no single person can debug every failure. The answer is making automation legible: diffs, logs, decision traces, rollback points, post-mortems. This directly echoes the [[If AI Is Doing the Investigation, Version the Investigation]] pattern.
+From Lesson #2: "Guide the Goal, Not the Path." Highly prescriptive prompting degraded results. Switching to higher-level guidance and trusting GPT-5's reasoning to choose execution paths made the agent more robust. This is the same insight as the [[Designing Agentic Loops]] meta-skill: choose guardrails and success criteria, don't micromanage the loop.
 
-> "The risk is real only if teams treat agents as answer machines instead of reasoning partners."
+## The Six-Layer Context Architecture
 
-Tang's framing of the human role. The automated parts are "mostly the mundane parts." What's left for humans: asking better questions and deciding what to do next. This is the same thesis as [[Radical Accountability]] — AI eliminates the excuse of insufficient time; taste is all that's left.
+This is the architectural heart of the post and the most directly useful part for anyone building something similar. Each layer addresses a different failure mode:
 
-## Key Themes
+1. **Table Usage** — Schema metadata, column names/types, table lineage, historical query patterns. The basics.
+2. **Human Annotations** — Curated table/column descriptions from domain experts. Captures intent, semantics, business meaning, and known caveats.
+3. **Codex Enrichment** — Crawls the codebase to derive code-level definitions of tables. Understands what data actually contains, not just its schema. Distinguishes between lookalike tables (e.g., "does this include logged-out users?"). Auto-refreshed.
+4. **Institutional Knowledge** — Slack, Google Docs, Notion. Captures launches, incidents, internal codenames, canonical metric definitions. Embedded with metadata and permissions.
+5. **Memory** — Stores non-obvious corrections, filters, and constraints from user interactions. Scoped at global and personal levels. User-editable. Prevents the agent from repeatedly hitting the same gotchas.
+6. **Runtime Context** — Live queries to the data warehouse when existing context is missing or stale. Can also talk to metadata services, Airflow, Spark.
 
-#case-study #data-agents #autonomous-operations #codex #enterprise-ai
+A daily offline pipeline aggregates layers 1-3 into embeddings via the Embeddings API. At query time, RAG pulls only the most relevant context. Runtime queries fire live as needed.
 
-**The data agent is a different species from the coding agent.** Tang explicitly contrasts them: a coding agent's context is bounded (the repo); a data agent's context is the entire company's data foundation. This has implications for how you design the platform. You cannot just point an agent at a database and expect useful answers — you need unified metadata, lineage, permissions, and query history. The platform work is the product work.
+The layering is smart because each layer addresses a different information gap: schemas (what), annotations (why), code (how), docs (context), memory (gotchas), runtime (validation). No single layer is sufficient. Together they approximate what an experienced data engineer carries in their head.
 
-**Legibility is the bottleneck, not intelligence.** Tang's most interesting claim: "The hard part is making the company's data reality legible to the agent." GPT-5.2 is smart enough. The limit is whether the company's data estate is organized enough for an agent to navigate. This inverts the usual AI adoption framing — it's not about model capability, it's about data discipline. [[Long Live Systems of Record]] makes the same argument: "where does the truth live" is the only question that matters.
+## Built Like a Teammate, Not a Tool
 
-**Memory as operational learning.** The data agent stores "non-obvious corrections" so it improves over time and avoids repeated mistakes. This is a production instance of the [[Agent Memory and Context]] pattern — not general memory, but domain-specific correction memory. Compare to [[napkin]]'s per-repo scratchpad approach: same idea, different scope.
+The agent is designed for conversation, not one-shot Q&A. Specific design choices:
 
-**The oral tradition risk is real.** Venkataramani's warning about Codex as "an oral tradition with a better UI" is the most underappreciated risk in agent adoption. When agents automate away the toil, they also automate away the institutional knowledge embedded in that toil. The countermeasure is documented context — but that requires discipline that the automation itself undermines. [[Compound Engineering]] identified this same dynamic: when you cannot trust the output, add a system, not manual review. But the system itself creates new opacity.
+- **Full context carryover across turns** — follow-ups, direction changes, refinements without restating
+- **Interruptible mid-analysis** — users can redirect it like a human collaborator
+- **Proactive clarifying questions** — asks when instructions are unclear
+- **Sensible defaults** — if no date range specified, assumes last 7 or 30 days
+- **Available everywhere** — Slack, web, IDE, Codex CLI via MCP, internal ChatGPT via MCP
+- **Workflows** — recurring analyses packaged as reusable instruction sets (weekly reports, table validations)
 
-**Self-validation against golden sources.** The agents check outputs against "trusted 'golden' sources like verified dashboards." This is a concrete implementation of [[Harness Engineering]]'s feedback loop — not "trust the model," but "verify against a known-good reference." The difference is that these golden sources are artifacts the organization already maintains, not bespoke eval suites.
+The teammate framing is not just vibes. It's a specific product philosophy: the agent should be non-blocking (defaults keep it moving) but not presumptuous (asks when it matters). Compare to [[Experience Design for Agents]] — the UX matters more than model capability for adoption.
+
+## Continuous Evaluation as Trust Infrastructure
+
+The Evals API runs continuously during development and as production canaries. Each eval pairs a natural language question with a manually authored "golden" SQL query. The grader compares both generated SQL and resulting data, not just string matching — it accounts for syntactic variation and extra columns that don't affect the answer.
+
+This is the production implementation of the feedback loop in [[Guardrails and Feedback Loops]]: deterministic enforcement through automated comparison, not prompt-level pleading.
 
 ## Critical Analysis
 
-The article is a company blog post wearing a Forbes byline, and it shows. The competitive framing (Terminal-Bench scores, SWE-bench rankings, "OpenAI leads in deterministic logic") is PR, not analysis. The more interesting question — what happens when the agents that run the data platform are also the agents generating the data that flows through it — goes unasked.
+The six-layer context architecture is the most valuable part of this post, and the most honest. Each layer addresses a real failure mode they encountered. The fact that they needed all six — that schemas alone produce wrong answers, that annotations drift, that only code reveals true table semantics — is a sobering data point for anyone building an enterprise data agent. You cannot skip the platform work.
 
-The legibility thesis is genuinely important but underspecified. Tang says the platform must be "one connected system" where lake, metadata, lineage, code, and permissions are unified. That is a decade of data engineering work for most enterprises. OpenAI could do it because they built the platform alongside the models. For everyone else, this is the [[A Practical Guide to Brownfield AI Development]] problem applied to data infrastructure: the agent inherits every legacy decision, every undocumented pipeline, every orphaned table.
+The "Less is More" lesson (Lesson #1) is underappreciated. They found that exposing the full tool set to the agent caused confusion from overlapping functionality. Consolidating tools improved reliability. This directly contradicts the "more tools = more capable" assumption behind most MCP server design. Compare to [[Elysia]]'s decision-tree approach of constraining tools per node.
 
-Venkataramani's oral tradition warning is the most valuable idea in the piece, and the most likely to be ignored. The instinct when agents work is to speed up — more automation, less human intervention. But the long-term cost of that speed is a system nobody understands. His prescription (diffs, logs, decision traces, rollback points) is correct but incomplete. What's missing is a culture that treats those artifacts as first-class products, not afterthoughts. [[Specifications as the Product]] argues the same for code; Venkataramani extends it to operations.
+"Meaning Lives in Code" (Lesson #3) is the most transferable idea. The agent crawls the codebase with Codex to understand what tables actually contain — pipeline logic, freshness guarantees, business intent. This is a concrete implementation of something the [[Agent Memory and Context]] synthesis discusses in theory: the codebase as ground truth for data semantics.
 
-The three named agents (Release, On-Call, Dev Environment) map cleanly onto the planner/worker/judge pattern from [[Scaling Long-Running Agents]] and [[Agent Orchestration]], but Tang doesn't frame them that way. The On-Call Assistant retrieving context from past incidents is effectively a RAG-powered judge evaluating novel situations against historical patterns. The Release Agent is a planner executing gradual rollouts with verification gates. The pattern is there even if the naming isn't.
+What's conspicuously absent:
 
-The real unspoken tension: OpenAI is using Codex agents to run the infrastructure that trains the models that power Codex agents. That's a feedback loop with no obvious circuit breaker. If the agents degrade the data quality, the models degrade, the agents get worse, the data gets worse. Venkataramani's call for legibility is partly about this recursive risk — you need to be able to trace degradation back to its source before the loop tightens.
+- **No mention of hallucinated SQL.** For a post about data agents, the complete silence on whether the agent ever produces wrong-but-plausible-looking results is notable. The Evals section addresses quality drift but not the fundamental failure mode of confident wrong answers.
+- **No cost discussion.** 600PB, 70k datasets, daily embedding pipelines, GPT-5.2 inference — the compute bill must be substantial. Not mentioned.
+- **No latency numbers.** "Minutes, not days" is the only timing claim.
+- **The recursive feedback loop is unexamined.** OpenAI uses Codex agents to run the data infrastructure that trains the models that power Codex agents. If the agents degrade data quality, the models degrade, the agents get worse. The Evals API is a circuit breaker but the authors don't frame it that way.
+
+The post is a company blog, not independent analysis, and it shows in the omission pattern. But the architectural detail — six context layers, teammate design philosophy, the three lessons — is genuine engineering content, not marketing. The most useful read is as a reference architecture for anyone building an agent that needs to reason over a large, messy data estate. The message is: the platform work IS the product work, and it's a lot more work than the model.
 
 ---
 
-*Sources: [[raw/inside-our-in-house-data-agent]], Forbes/Yahoo Tech (Victor Dey, April 17 2026), Digital Watch Observatory (Feb 2 2026)*
-*Last updated: 2026-05-15*
+*Sources: [[raw/inside-our-in-house-data-agent]]*
+*Last updated: 2026-05-18*
