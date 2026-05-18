@@ -1,6 +1,6 @@
 # Wiki Index
 
-202 individual pages + 11 synthesis pages from Nat's 2026 Technical Link Pile.
+203 individual pages + 11 synthesis pages from Nat's 2026 Technical Link Pile.
 
 ## Synthesis
 
@@ -165,6 +165,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Semantic Kernel]] — Microsoft's agent middleware SDK: function-calling plumbing for C#, Python, Java enterprise codebases
 - [[All Your Agents Are Going Async]] — HTTP is the wrong transport for agents that outlive connections; durable state is only half the problem
 - [[Data Engineering for Large Models]] — Open-source textbook: complete LLM data pipeline, 28 chapters
+- [[Open Design]] — Local-first design workspace with 16-agent runtime abstraction, skill pipeline, and five-panelist critique jury that auto-converges on quality thresholds
 - [[OpenAI Structured Outputs]] — Guaranteed JSON schema adherence from the API: protocol-level constraint beats prompt-level pleading
 - [[Moltbook]] — Simon Willison on the AI-only social network bootstrapped via OpenClaw skills: heartbeat-driven agents, the lethal trifecta in production, and whether we can build a safe version
 
