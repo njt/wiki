@@ -1,95 +1,121 @@
 # Harness Engineering (OpenAI)
 
-OpenAI's original five-month experiment in zero-handwritten-code development, and the article that launched the term. Ryan Lopopolo's team of 3-7 engineers shipped a real product to real users (~1M lines, ~1,500 PRs) by building a *harness* — lint rules, architectural constraints, garbage-collection agents, and an Elixir orchestrator called Symphony — instead of writing code. The article is practice, not theory: concrete techniques from a team that actually did it, not speculation about what might work. #concept #person
+OpenAI's five-month experiment: building and shipping a real software product with zero manually-written code. Ryan Lopopolo's team of 3-7 engineers produced ~1M lines, ~1,500 PRs, at 3.5 PRs/engineer/day — not by writing code, but by building the environment, guardrails, and feedback loops that let Codex agents write it reliably. The article is a field report from a team that actually did it, not speculation about what might work. The title says it: the discipline shifts from producing code to engineering the harness around the agent. #concept #person
 
 ---
 
 ## Key Quotes
 
+> "Humans steer. Agents execute."
+
+The thesis compressed into four words. The engineer's job shifts from producing output to designing environments, specifying intent, and building feedback loops. This is [[Harness Engineering]] (Böckeler) rendered as practice rather than theory.
+
 > "If you can articulate what it is about the code you don't like, the next step is to write that down."
 
-The thesis compressed into a sentence. The engineer's job shifts from *producing* code to *encoding judgment* into machine-readable rules. Every time you catch yourself thinking "that's wrong," you've identified a harness gap. This is [[Feedback Loop is All You Need]] rendered as engineering practice rather than rallying cry.
+Every time you catch yourself thinking "that's wrong," you've identified a harness gap. The fix isn't to manually correct the code — it's to encode the judgment into a lint rule, a structural test, or a documentation update. This is [[Feedback Loop is All You Need]] as engineering discipline.
 
 > "From the agent's point of view, anything it can't access in-context while running effectively doesn't exist."
 
-The strongest argument for repo-native documentation ever made. Not "documentation is good practice" — documentation in Slack, Google Docs, or people's heads literally *does not exist* for the entity doing the work. This reframes docs from a nice-to-have to an existential prerequisite. It's the same insight as [[Components of a Coding Agent]]'s finding that context quality beats model quality, stated from the infrastructure side.
+The strongest argument for repo-native documentation ever made. Slack threads, Google Docs, oral tradition — literally invisible to the entity doing the work. This reframes docs from nice-to-have to existential prerequisite. Same insight as [[Components of a Coding Agent]]'s finding that context quality beats model quality, stated from the infrastructure side.
 
-> "Each one is able to reduce slop in a unique way. But because everyone is invested in putting that knowledge into the codebase, everyone else's coding agents have the best guts of everyone on the team."
+> "Give Codex a map, not a 1,000-page instruction manual."
 
-The compounding mechanism explained. One engineer writes a custom lint rule → every other engineer's agent immediately benefits. Expertise becomes infrastructure. This is [[Compound Engineering]]'s thesis — "add a system, not manual review" — demonstrated at team scale rather than individual scale.
+The AGENTS.md philosophy. The team tried the maximalist approach and it failed in predictable ways: context dilution, stale rules, unverifiability. Their solution: ~100 lines pointing to a structured `docs/` directory with progressive disclosure. This aligns with [[Writing a Good CLAUDE.md]] and [[CLAUDE.md (Universal)]] but contradicts the elaborate CLAUDE.md culture in tools like [[How Intercom Uses Claude Code]].
 
-> "It's super easy to add leverage to your codebase by vibing up some new lints."
+> "In a human-first workflow, these rules might feel pedantic or constraining. With agents, they become multipliers: once encoded, they apply everywhere at once."
 
-Deliberately casual framing for the most important practice in the piece. Lint rules are cheap to create (agents write them), instantly enforced, and compound across the team. The word "vibing" is strategic — it lowers the perceived bar for entry. You don't need a formal process; just write the damn rule.
+The case for custom lint rules and structural tests. Agents are most effective in environments with strict boundaries and predictable structure. [[Pre-Commit Lint Checks]] is the closest wiki page; [[claude-ctrl]] implements it as enforcement.
 
-> "The worker at the steam engine didn't disappear when the centrifugal governor was invented. He moved from turning the valve to designing better governors."
+> "This is the kind of architecture you usually postpone until you have hundreds of engineers. With coding agents, it's an early prerequisite: the constraints are what allows speed without decay or architectural drift."
 
-The control-theory framing in one metaphor. Engineers aren't being automated away — they're moving up a level of abstraction. The question isn't "will AI replace developers" but "can developers adapt to designing control systems instead of producing output." This is the same intellectual tradition Böckeler draws on in [[Harness Engineering]].
+The most counterintuitive claim in the piece. Rigid architecture doesn't slow you down when agents are writing the code — it speeds you up by reducing the context they need to reason about.
 
-## Key Themes
+> "We regularly see single Codex runs work on a single task for upwards of six hours (often while the humans are sleeping)."
 
-### The Harness Definition
+The overnight agent fleet, confirmed from inside OpenAI. This is [[Probabilistic Engineering and the 24-7 Employee]] made operational.
 
-Agent = Model + Harness. The harness is everything except the model: AGENTS.md, lint rules, test infrastructure, build system, observability, orchestration, garbage collection. Lopopolo claims harness design determines ~80% of agent reliability; model improvements account for ~10-15%. If true, the implication is that model competition is overrated and harness competition is underrated. #concept
+> "Technical debt is like a high-interest loan: it's almost always better to pay it down continuously in small increments than to let it compound and tackle it in painful bursts."
 
-### Twelve Practices
+The garbage collection philosophy. Recurring background agents scan for deviations and open targeted cleanup PRs. Replaced "Slop Fridays" (20% of the week lost to manual cleanup). [[Cognitive Debt]] made operational — not just diagnosing the problem, building the solution.
 
-1. **AGENTS.md as index, not encyclopedia** — ~100 lines pointing to structured docs/. The maximalist approach failed: context dilution, stale rules. This aligns with [[Writing a Good CLAUDE.md]]'s brevity argument but contradicts the elaborate CLAUDE.md culture in tools like [[How Intercom Uses Claude Code]].
+## Architecture & Practices
 
-2. **Custom lint rules as encoded taste** — "Vibing up some new lints" is the highest-leverage activity. Agents write the rules themselves. [[Pre-Commit Lint Checks]] is the closest existing wiki page.
+### The Layered Architecture Model
 
-3. **Repo-native context** — All decisions, standards, and context must live in the repo. [[claude-ctrl]] implements this as enforcement.
+Each business domain is structured as a fixed pipeline with strictly validated dependency directions:
 
-4. **≤1 minute builds** — Build speed as harness constraint. Slow builds break agent flow. Most teams ignore this entirely.
+**Types → Config → Repo → Service → Runtime → UI**
 
-5. **Post-merge human review** — Pre-merge review eliminated. Humans sample post-merge, identify patterns, encode fixes. Review agents handle the rest with a merge bias. This is the most radical practice and the least defended.
+Cross-cutting concerns (auth, connectors, telemetry, feature flags) enter through a single explicit interface: **Providers**. Everything else is disallowed and enforced mechanically via custom linters and structural tests — themselves written by Codex.
 
-6. **Agent-first observability** — Vector, VictoriaMetrics, Grafana, distributed tracing, CDP for UI inspection. Agents debug themselves.
+This is the "10,000-engineer architecture" for a 7-person team. The constraints are what allow agent speed without decay.
 
-7. **Garbage collection agents** — Recurring background tasks that scan for violations and open cleanup PRs. Replaced "Slop Fridays." This is [[Cognitive Debt]] made operational — not just diagnosing the problem, building the solution.
+### Repository Knowledge as System of Record
 
-8. **Symphony (Elixir/BEAM)** — Multi-agent orchestrator. GenServers per task, supervision trees for fault tolerance. Binary merge decision. [[Process-Based Concurrency BEAM OTP]] covers why BEAM fits.
+The docs/ directory is structured and indexed. AGENTS.md (~100 lines) serves as a map, not an encyclopedia. The directory layout:
 
-9. **Minimal skills (~6)** — Not proliferating skills, maximizing leverage per skill. A `$land` skill handles the full PR lifecycle. Contradicts the plugin/skill explosion seen in [[How Intercom Uses Claude Code]] and [[2389 Plugin Marketplace]].
+```
+AGENTS.md → ARCHITECTURE.md → docs/
+  ├── design-docs/     (indexed, includes "core beliefs")
+  ├── exec-plans/      (active, completed, tech debt tracker)
+  ├── generated/       (db-schema.md)
+  ├── product-specs/
+  ├── references/      (design system, tool references)
+  └── (DESIGN.md, FRONTEND.md, QUALITY_SCORE.md, etc.)
+```
 
-10. **Architecture as prerequisite** — "10,000-engineer architecture" for 7 people. Rigid patterns reduce context requirements. [[Smart Models Dumb Pipes]] is the theoretical framing.
+Plans are first-class versioned artifacts checked into the repo. A doc-gardening agent scans for staleness. CI validates cross-links and structure. [[Scaling LLMs to Larger Codebases]] is the theoretical counterpart.
 
-11. **Ghost libraries** — Spec-driven distribution. Agents inline-rewrite low-complexity dependencies. Brett Taylor: "Software dependencies are going away."
+### Agent Legibility Through Infrastructure
 
-12. **Daily standups** — Higher velocity requires MORE human coordination. [[Zero Alignment]]'s thesis confirmed from the other direction.
+Three concrete investments:
 
-### Agent Legibility Score
+1. **Per-worktree bootable app** — Codex launches and drives one instance per change
+2. **Chrome DevTools Protocol access** — DOM snapshots, screenshots, navigation; Codex reproduces bugs and validates fixes
+3. **Ephemeral observability per worktree** — LogQL and PromQL access to logs, metrics, traces; torn down when the task completes
 
-Charlie Guo's seven-metric scoring system: bootstrap self-sufficiency, task entry points, validation harness, linting/formatting, codebase map, doc structure, decision records. OpenAI's own Symfony repo scored a B. This is the first attempt I've seen to quantify "how agent-friendly is this codebase" — and it's more honest than most vendor frameworks since it scored their own work imperfectly. #tool
+This is what makes prompts like "ensure startup in under 800ms" tractable. [[Chrome DevTools MCP — Debug Your Browser Session]] and [[surf-cli]] are the tool-level equivalents.
 
-### The Control Theory Lineage
+### The End-to-End Autonomous Feature Loop
 
-Lopopolo explicitly frames harness engineering through cybernetics (Greek *kybernetes* = steersman). The engineer becomes a designer of control systems. This connects directly to Böckeler's feedforward/feedback framework and Ashby's Law of Requisite Variety in [[Harness Engineering]]. Both articles independently arrived at control theory as the intellectual foundation — strong convergence evidence. #concept
+Given a single prompt, Codex can now: validate codebase state → reproduce bug → record failure video → implement fix → validate fix → record resolution video → open PR → respond to agent/human feedback → detect and fix build failures → escalate only when judgment required → merge.
+
+Lopopolo caveats this heavily: "depends heavily on the specific structure and tooling of this repository and should not be assumed to generalize without similar investment — at least, not yet."
+
+### Throughput Changes the Merge Philosophy
+
+Minimal blocking merge gates. Short-lived PRs. Test flakes addressed with follow-up runs rather than blocking progress. Corrections are cheap, waiting is expensive. Humans *may* review PRs but aren't required to — review effort pushed almost entirely to agent-to-agent.
+
+### Concrete Example: map-with-concurrency
+
+Rather than pulling in a generic p-limit-style package, the team implemented their own helper — tightly integrated with OpenTelemetry instrumentation, 100% test coverage, behaves exactly as the runtime expects. Technologies described as "boring" tend to be easier for agents to model due to composability, API stability, and representation in the training set.
 
 ## Critical Analysis
 
-This is the most important primary source on agentic development published in 2026. Where Böckeler's [[Harness Engineering]] provides the *theory*, Lopopolo provides the *field report*. The article's authority comes from the fact that they actually shipped — this isn't a thought piece, it's an after-action report.
+This is one of the most important primary sources on agentic development published in 2026. Where Böckeler's [[Harness Engineering]] provides the *theory*, Lopopolo provides the *field report*. The article's authority comes from the fact that they actually shipped to real users — this isn't a thought piece, it's an after-action report.
 
-**The "zero code" framing is a stunt that obscures the real insight.** The harness IS code — lint rules, build configs, test infrastructure, the Symphony orchestrator itself. Saying "no code was written" is like saying "no bricks were laid" while building a brick-laying machine. The important claim isn't zero code — it's that the *nature* of the code changed from product logic to meta-engineering. Every lint rule, every architectural constraint, every garbage-collection agent is software. It's just software at a higher level of abstraction.
+**The "zero code" framing is a stunt that obscures the real insight.** The harness IS code — lint rules, build configs, test infrastructure, architectural constraints, garbage-collection agents. Saying "no code was written" is like saying "no bricks were laid" while building a brick-laying machine. The important claim isn't zero code — it's that the *nature* of the code changed from product logic to meta-engineering. Every lint rule, every architectural constraint is software at a higher level of abstraction.
 
-**The post-merge review model is radical and under-defended.** "Review agents biased toward merging, nothing above P2 priority surfaced" — this is either evidence that the harness works exceptionally well, or evidence that they're not looking hard enough. The article doesn't tell us which. The product was an internal beta application, not a payments system or healthcare platform. The stakes matter enormously, and Lopopolo doesn't address them.
+**The post-merge review model is radical and under-defended.** "Review agents biased toward merging, nothing above P2 priority surfaced" — this is either evidence the harness works exceptionally well, or evidence they're not looking hard enough. The article doesn't tell us which. The product was an internal beta application, not a payments system or healthcare platform. The stakes matter enormously.
 
-**The daily standup survival is the most honest detail in the piece.** If extreme AI velocity requires *more* synchronous human coordination, not less, then the "dark factory" vision where humans disappear is wrong. Humans don't vanish — they move up a level. But the coordination overhead doesn't necessarily decrease. [[Zero Alignment]]'s warning ("one dev with 24 agents produces chaos") is confirmed here from the other direction: even a team that's doing everything right still needs daily syncs.
+**The daily standup survival is the most honest detail.** If extreme AI velocity requires *more* synchronous human coordination, not less, then the "dark factory" vision where humans disappear is wrong. Humans don't vanish — they move up a level. But coordination overhead doesn't necessarily decrease. [[Zero Alignment]]'s warning is confirmed from the other direction: even a team doing everything right still needs daily syncs.
 
-**The AGENTS.md finding contradicts the elaborate CLAUDE.md culture.** OpenAI tried the maximalist approach (one giant file with all rules) and it failed. Their conclusion (~100 lines, progressive disclosure) aligns with [[Writing a Good CLAUDE.md]] and [[CLAUDE.md (Universal)]] but contradicts the plugin/skill explosion in tools like [[How Intercom Uses Claude Code]] (100+ skills). There's a genuine tension here that neither side has resolved: is the right answer six skills or a hundred? The data suggests it depends on team size, but nobody has articulated the scaling law.
+**The AGENTS.md finding contradicts the elaborate CLAUDE.md culture.** OpenAI tried the maximalist approach and it failed. Their conclusion (~100 lines, progressive disclosure) aligns with [[Writing a Good CLAUDE.md]] but contradicts the skill explosion in [[How Intercom Uses Claude Code]] (100+ skills). There's a genuine tension neither side has resolved: is the right answer six skills or a hundred? Probably depends on team size, but nobody has articulated the scaling law.
 
-**The ghost libraries claim is provocative but probably bounded.** "Software dependencies are going away" is true for left-pad. It's not true for Postgres, Kubernetes, or React. The interesting question is where the boundary lies — which dependencies are simple enough to inline-rewrite and which are too complex? Lopopolo doesn't draw this line, and the omission matters.
+**The convergence with Böckeler is striking.** Both articles independently arrived at control theory as the intellectual foundation, both emphasize feedforward + feedback, both identify garbage collection as essential, both conclude that architecture constrains the agent's output space. When two independent teams at different organizations reach identical conclusions, it's not fashion — it's a real pattern.
 
-**The 1-minute build ceiling is the most underrated practice.** Most teams obsessing over model quality have 5-15 minute CI pipelines. Build speed is a hard multiplier on agent effectiveness — every second of build time is a second the agent can't iterate. This is the kind of boring infrastructure constraint that separates teams that make agents work from teams that don't.
+**The dependencies claim deserves skepticism.** The map-with-concurrency example works for left-pad. It doesn't work for Postgres, Kubernetes, or React. The interesting question is where the boundary lies — which dependencies are simple enough to inline-rewrite and which are too complex? Lopopolo doesn't draw this line.
 
-**The convergence with Böckeler is striking.** Both articles independently arrived at control theory (cybernetics) as the intellectual foundation, both emphasize feedforward + feedback, both identify garbage collection as essential, both conclude that architecture constrains the agent's output space. When two independent teams at different organizations reach identical conclusions, it's not fashion — it's a real pattern.
+**The ≤1-minute build ceiling is the most underrated practice.** Most teams obsessing over model quality have 5-15 minute CI pipelines. Build speed is a hard multiplier on agent effectiveness. This is the boring infrastructure constraint that separates teams that make agents work from teams that don't.
 
-Compared to [[Minions — Stripe's One-Shot Coding Agents]]: Stripe focuses on volume (1,000+ unattended PRs/week), OpenAI focuses on reliability (encoding judgment into the harness). These are complementary strategies at different scales. Stripe's approach is breadth-first (many simple PRs), OpenAI's is depth-first (fewer, more reliable PRs). The synthesis is probably: use Stripe's volume for mechanical changes, OpenAI's harness for architectural decisions.
+**The overnight agent claim is both exciting and unverified.** "Six hours while humans sleep" is a compelling vision, but the article provides no data on what percentage of those runs succeed, what the failure modes are, or how often humans need to clean up the aftermath. [[Probabilistic Engineering and the 24-7 Employee]] raises the training-crisis concern: if agents work while you sleep, when do you learn to do the work yourself?
 
-The biggest gap in the article: nothing about how to teach this. Lopopolo's team learned harness engineering through five months of trial and error. There's no curriculum, no playbook, no training program. Every team adopting these practices is rediscovering them from scratch. [[A Practical Guide to Brownfield AI Development]] is the closest thing we have, but it's for legacy codebases, not greenfield harness construction.
+Compared to [[Minions — Stripe's One-Shot Coding Agents]]: Stripe focuses on volume (1,000+ unattended PRs/week), OpenAI focuses on reliability (encoding judgment into the harness). Complementary strategies at different scales. Stripe is breadth-first (many simple PRs), OpenAI is depth-first (fewer, more reliable PRs). The synthesis: use Stripe's volume for mechanical changes, OpenAI's harness for architectural decisions.
+
+The biggest gap in the article: nothing about how to teach this. Lopopolo's team learned harness engineering through five months of trial and error. There's no curriculum, no playbook. Every team adopting these practices is rediscovering them from scratch. [[A Practical Guide to Brownfield AI Development]] is the closest thing, but it's for legacy codebases, not greenfield harness construction.
 
 ---
 
 *Sources: [[raw/harness-engineering-openai]]*
-*Note: openai.com returned 403; page reconstructed from The Neuron's detailed summary, ZenML LLMOps Database, and multiple web search results, all published March-April 2026.*
-*Last updated: 2026-05-15*
+*Note: Previously built from secondary sources (The Neuron, ZenML) due to openai.com 403. Updated 2026-05-18 from primary source fetched via surf browser automation.*
+*Last updated: 2026-05-18*
