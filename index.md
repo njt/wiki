@@ -115,7 +115,6 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Claude Sidecar]] — Parallel AI window alongside Claude Code: share context with Gemini, GPT, DeepSeek, fold results back
 - [[How to Effectively Write Quality Code with AI]] — Heidenstedt's twelve principles: every decision you don't document, the AI will make for you — usually badly
 - [[Codex-maxxing]] — Jason Liu's field report on pushing Codex beyond coding: durable threads, voice input, steering, Heartbeat automations, and an Obsidian vault as agent memory
-
 ## Agent Design & Architecture
 
 How to build agents: frameworks, runtimes, design patterns, and production concerns.
@@ -127,6 +126,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Smart Models Dumb Pipes]] — LLMs as judgment machines, not Q&A machines. The end-to-end principle applied to AI: smart models own decisions, dumb pipes own execution
 - [[Elysia]] — Weaviate's decision-tree agent framework: constrain tool choice per node rather than dumping all tools into context
 - [[Elements of Agentic Systems Design]] — Ten-element taxonomy: Context, Memory, Agency, Reasoning, Coordination, and more
+- [[Mirage (VFS)]] — Unified virtual filesystem mounting 27+ services (S3, Slack, GitHub, Postgres, etc.) behind a single POSIX tree so agents use bash instead of per-service SDKs
 - [[Components of a Coding Agent]] — The harness matters more than the model. Six components, precise taxonomy (LLM/reasoning-model/agent/harness), mini-coding-agent reference implementation
 - [[Agent-Native Architectures (Every)]] — Every's definitive design guide: five principles (parity, granularity, composability, emergent capability, improvement over time), files as universal interface, anti-patterns, and mobile resilience patterns
 - [[Components of a Coding Agent]] — The harness matters more than the model. Six core components identified
