@@ -114,6 +114,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[0xSero]] — Agent infrastructure practitioner: REAP-pruned models calibrated for agentic coding, ai-data-extraction toolkit, BYOK long-running autonomous workflows
 - [[Claude Sidecar]] — Parallel AI window alongside Claude Code: share context with Gemini, GPT, DeepSeek, fold results back
 - [[How to Effectively Write Quality Code with AI]] — Heidenstedt's twelve principles: every decision you don't document, the AI will make for you — usually badly
+- [[Codex-maxxing]] — Jason Liu's field report on pushing Codex beyond coding: durable threads, voice input, steering, Heartbeat automations, and an Obsidian vault as agent memory
 
 ## Agent Design & Architecture
 
