@@ -645,3 +645,14 @@ Source: https://antirez.com/news/165 — antirez reflects on the explosive launc
 ## [2026-05-18] ingest (retry) | Inside OpenAI's In-House Data Agent (OpenAI Blog)
 
 Source: https://openai.com/index/inside-our-in-house-data-agent/ — Retry ingest with primary source captured via browser automation (surf). Previous version was built from Forbes/Yahoo Tech, Digital Watch Observatory, and CDP Institute summaries because the URL returned 403. The primary source reveals: actual authors are Bonnie Xu, Aravind Suresh, and Emma Tang (not Tang + Venkataramani), publish date is 2026-01-29 (not April 17), and the content is an engineering blog post about the internal data agent's architecture — not a Forbes article. Updated `raw/inside-our-in-house-data-agent.md` with full primary source text and corrected frontmatter. Rewrote wiki page with accurate quotes, the six-layer context architecture, the three lessons learned, and corrected analysis. Removed secondary-source content (Venkataramani quotes, specific named agents from Forbes, competitive benchmark scores). Deleted `raw/_surf_grab.txt`.
+## [2026-05-18] retry-ingest | The Pragmatic Summit (primary source update)
+
+Source: https://www.pragmaticsummit.com/ — fetched via browser automation (surf). This was a retry ingest: wiki page and raw file already existed, built from secondary sources. Primary source (the actual conference site, captured in post-conference state with all recordings available) confirmed most details were correct. Updates made:
+
+- Raw file updated with exact session description quotes from the site, source typos noted ("d0 agent", "Ubi", "exlusive", "Pricipal"), and "Powered by Statsig" + "world's most-read engineering newsletter" language
+- Wiki page enhanced with direct session description quotes for all 11 sessions
+- Added Marcos Arribas (VP Engineering, Statsig) as Simon Willison's co-presenter — missing from prior version
+- Added Ramp engineers' specific names and titles: Nik Koblov (EVP), Ian Tracey (Staff SE), Veeral Patel (Director), Will Koh (Staff Engineer)
+- Noted "d0 agent" typo/possible early name for v0 in Vercel session description
+- Confirmed Thomas Dohmke's "former CEO of GitHub" and "world's next developer platform" language from official copy
+- Updated date on both raw file and wiki page to 2026-05-18

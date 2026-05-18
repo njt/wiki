@@ -1,8 +1,10 @@
 # The Pragmatic Summit
 
-Gergely Orosz's inaugural one-day curated conference for senior engineers and engineering leaders, held February 11, 2026 in San Francisco. Application-based admission, ~400 attendees, $499. Single-track main stage with three parallel breakout tracks. 28 speakers — every one a practitioner building real products, not a thought leader or vendor evangelist. Sponsored by Statsig and Linear.
+Gergely Orosz's inaugural one-day curated conference for senior engineers and engineering leaders, held February 11, 2026 in San Francisco. Application-based admission, ~400 attendees, $499. Single-track main stage with three parallel breakout tracks. 28 speakers — every one a practitioner building real products, not a thought leader or vendor evangelist. Powered by Statsig (and likely Linear, whose co-founder Tuomas Artman spoke). All sessions available as video recordings post-conference.
 
 The conference is structured around one question: what actually changes when AI enters the engineering org? The program splits into main-stage keynotes on reshaping craft, data vs. hype, and org design, then three breakout tracks: Lessons from Building (Cursor, Vercel, Ramp), Frameworks for (Fowler & Beck, Simon Willison, Chip Huyen), and Leading (product engineering, high-performing teams, Uber's agentic shift).
+
+The site copy frames The Pragmatic Engineer as "the world's most-read engineering newsletter" — a claim that contextualizes why Statsig partnered to create the summit, and why 28 practitioners said yes to speaking at a first-year conference.
 
 ---
 
@@ -12,37 +14,37 @@ The main stage carries the editorial argument. Each session is a thesis statemen
 
 ### Main Stage
 
-**How AI is Reshaping the Craft of Building Software** — Vijaye Raji (OpenAI CTO Applications), Tibo Sottiaux (Codex Head of Engineering), Gergely Orosz. The anchor session: a grounded conversation on AI coding tools and agent workflows. Raji brings the model-builder's perspective, Sottiaux the agent-harness perspective, Orosz the practitioner's. The inclusion of Codex (not just OpenAI) signals that the agent layer — not the model — is where craft is being reshaped.
+**How AI is Reshaping the Craft of Building Software** — Vijaye Raji (OpenAI CTO Applications), Tibo Sottiaux (Codex Head of Engineering), Gergely Orosz. The anchor session. The site describes it as "a grounded conversation on how AI coding tools are impacting developer workflows, and what building software with AI agents will look like for product and engineering teams." Raji brings the model-builder's perspective, Sottiaux the agent-harness perspective, Orosz the practitioner's. The inclusion of Codex (not just OpenAI) signals that the agent layer — not the model — is where craft is being reshaped.
 
-**Data vs. Hype: How Orgs Actually Win with AI** — Laura Tacho (CTO, DX). The "show me the numbers" slot. Tacho runs the company that measures developer productivity across organizations. The talk description itself is a thesis: "why outcomes vary so widely across companies." Implicit argument — the variance isn't in tool access, it's in how teams integrate AI into their workflow.
+**Data vs. Hype: How Orgs Actually Win with AI** — Laura Tacho (CTO, DX). The "show me the numbers" slot. Site copy: "An in-depth look at how software engineering teams are using AI coding tools today. What the data reveals about adoption versus transformation, and why outcomes vary so widely across companies." Tacho runs the company that measures developer productivity across organizations. The implicit argument — the variance isn't in tool access, it's in how teams integrate AI into their workflow.
 
-**Building World-Class Engineering Orgs in the Age of AI** — Rajeev Rajan (CTO, Atlassian), Thomas Dohmke (CEO, Entire), Gergely Orosz. The org-design session. The framing is precise: "what changes when the bottleneck shifts from writing code to intent, review, and verification." This echoes the [[Specifications as the Product]] thesis — code generation stops being the constraint, and everything upstream (intent, design) and downstream (review, verification) becomes the new engineering surface.
+**Building World-Class Engineering Orgs in the Age of AI** — Rajeev Rajan (CTO, Atlassian), Thomas Dohmke (CEO, Entire), Gergely Orosz. The org-design session. Site copy: "A fireside chat on what 'AI-native' orgs look like in practice: how teams are structured, how roles blur across PM/design/engineering, and what changes when the bottleneck shifts from writing code to intent, review, and verification." This echoes the [[Specifications as the Product]] thesis — code generation stops being the constraint, and everything upstream (intent, design) and downstream (review, verification) becomes the new engineering surface.
 
-**Closing Thoughts: Thomas Dohmke on Entire.io** — The exclusive reveal. Dohmke left GitHub's CEO seat to found Entire.io, described as "the world's next developer platform." The summit was his first public discussion of the company, team, and plans. Significant: a former GitHub CEO doesn't build another Git host — he builds something post-GitHub. Worth watching.
+**Closing Thoughts: Thomas Dohmke on Entire.io** — The exclusive reveal. The site frames it directly: "Thomas Dohmke (former CEO of GitHub) founded Entire.io to build the world's next developer platform. In this exclusive first, Thomas talks about his company, team and plans — and Gergely closes the summit." A former GitHub CEO doesn't build another Git host — he builds something post-GitHub. Worth watching.
 
 ### Breakouts: Lessons from Building
 
-**Cursor** — Sualeh Asif (Cursor co-founder) interviewed by Alex Xu and Sahn Lam (ByteByteGo). System design and engineering decisions behind the leading AI code editor. Pairs with [[Scaling Long-Running Agents]] for Cursor's published architecture insights.
+**Cursor** — Sualeh Asif (Cursor co-founder) interviewed by Alex Xu and Sahn Lam (ByteByteGo). Site copy: "The creators of ByteByteGo sit down with Sualeh to discuss the system design and engineering decisions behind building Cursor." Pairs with [[Scaling Long-Running Agents]] for Cursor's published architecture insights.
 
-**Vercel** — Malte Ubl (CTO) on the evolution of v0 and the engineering of the v0 agent. Ubl is one of the deepest thinkers on agent-native interfaces — see [[json-render]]. Steve Huynh interviews, bringing the practitioner lens.
+**Vercel** — Malte Ubl (CTO) on the evolution of v0 and the engineering of the v0 agent. Site copy describes it as "the engineering story behind building the d0 agent" — the "d0" is likely a typo for v0, but possibly an early internal name. Ubl is one of the deepest thinkers on agent-native interfaces — see [[json-render]]. Steve Huynh (A Life Engineered) interviews, bringing the practitioner lens.
 
-**Ramp's Policy Agent** — Four Ramp engineers walk through turning an internal AI experiment into a production product. The arc from prototype to production-ready is the hardest part of applied AI; this is the field report. Parallels [[Minions — Stripe's One-Shot Coding Agents]] as a fintech company's internal agent story.
+**Ramp's Policy Agent** — Four Ramp engineers walk through turning an internal AI experiment into a production product. The site names them: Nik Koblov (EVP of Engineering), Ian Tracey (Staff Software Engineer, Applied AI), Veeral Patel (Director, Applied AI & Spend), and Will Koh (Staff Engineer, Applied AI). Site copy: "How Ramp turned an internal experiment into its Policy Agent, and what it took to make it production ready." The arc from prototype to production-ready is the hardest part of applied AI; this is the field report. Parallels [[Minions — Stripe's One-Shot Coding Agents]] as a fintech company's internal agent story.
 
 ### Breakouts: Frameworks for
 
-**Martin Fowler & Kent Beck** on "Reinventing Software — Again and Again." The two most influential methodologists in software engineering, on the mistakes engineers keep repeating across every step change. Gergely moderates. This is the historical-pattern-recognition session: AI isn't the first transformation, and the failure modes are predictable.
+**Martin Fowler & Kent Beck** on "Reinventing Software — Again and Again." Site copy: "Martin and Kent revisit past step changes in software engineering, and the mistakes engineers keep repeating today." The two most influential methodologists in software engineering, on the predictable failure modes. Gergely moderates. AI isn't the first transformation, and the mistakes are recognizable.
 
-**Simon Willison** on "Engineering Practices that Make Coding Agents Work." The most prominent open-source developer in the AI-tooling space, explaining his hands-on workflow with coding agents. Pairs directly with [[Designing Agentic Loops]], where Willison names the meta-skill of agent wrangling.
+**Simon Willison** on "Engineering Practices that Make Coding Agents Work" — with Marcos Arribas (VP of Engineering, Statsig). Site copy: "Simon explains how he works with coding agents, grounded in hands-on experience." The most prominent open-source developer in the AI-tooling space, on his actual workflow. Pairs directly with [[Designing Agentic Loops]], where Willison names the meta-skill of agent wrangling. Arribas's presence adds the platform-builder's perspective on what tooling should look like.
 
-**Chip Huyen** on "Building When It Feels Like There's Nothing Left to Build" — moving from AI product decisions to running AI systems in production. Huyen's focus on the infra/ops side of AI is the counterweight to the "agents write all the code" narrative.
+**Chip Huyen** on "Building When It Feels Like There's Nothing Left to Build." Site copy: "Chip walks through how to move from AI product decisions to building and running AI systems in production." Huyen's focus on the infra/ops side of AI is the counterweight to the "agents write all the code" narrative.
 
 ### Breakouts: Leading
 
-**Product Engineering Teams in an AI-native World** — Panel with Michelle Lim (Flint co-founder), Tuomas Artman (Linear co-founder), Drew Hoskins (Temporal), Margaret-Ann Seger (Statsig VP Product). The thesis: product engineering matters MORE with AI, not less. Skills leaders should look for shift. Artman's presence connects to [[Managing Agents via Kanban Boards]] — Linear is both tool and philosophy.
+**Product Engineering Teams in an AI-native World** — Panel with Michelle Lim (Flint co-founder), Tuomas Artman (Linear co-founder), Drew Hoskins (Temporal), Margaret-Ann Seger (Statsig VP Product). Site copy: "Why product engineering matters more today, and which skills leaders should look for in an AI-native world." The thesis: product engineering matters MORE with AI, not less. Artman's presence connects to [[Managing Agents via Kanban Boards]] — Linear is both tool and philosophy.
 
-**Nicole Forsgren** on high-performing engineering teams in the age of AI. Forsgren wrote the book (literally, *Accelerate*) on measuring engineering effectiveness. The question: do the conditions for high performance change when AI enters the workflow?
+**Nicole Forsgren** on high-performing engineering teams in the age of AI. Site copy: "Nicole discusses what enables high-performing engineering teams, and how those conditions shift as AI enters everyday workflows." Forsgren wrote the book (literally, *Accelerate*) on measuring engineering effectiveness. The question: do the conditions for high performance change when AI enters the workflow?
 
-**Uber's Agentic Shift: From Tools to Culture** — Ty Smith (Principal Engineer) and Anshu Chadha (Director of Engineering) on building agentic culture across Uber's engineering org. The "from tools to culture" framing is the most honest: tool adoption is the easy part. Culture change is the actual work.
+**Uber's Agentic Shift: From Tools to Culture** — Ty Smith (Principal Engineer) and Anshu Chadha (Director of Engineering). Site copy: "How Uber is building an agentic culture across its engineering organization." The "from tools to culture" framing is the most honest: tool adoption is the easy part. Culture change is the actual work.
 
 ---
 
@@ -99,4 +101,4 @@ The curation bet — application-based, 400 people — either scales or it doesn
 ---
 
 *Source: [[raw/pragmatic-summit-2026]]*
-*Last updated: 2026-05-15*
+*Last updated: 2026-05-18*
