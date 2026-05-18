@@ -6,9 +6,9 @@ Alexandr Wang, head of Meta Superintelligence Labs, announced Muse Spark on Apri
 
 ## Key Quotes
 
-> "today we're releasing muse spark, the first model from MSL. nine months ago we rebuilt our ai stack from scratch. new infrastructure, new architecture, new data pipelines."
+> "1/ today we're releasing muse spark, the first model from MSL. nine months ago we rebuilt our ai stack from scratch. new infrastructure, new architecture, new data pipelines. muse spark is the result of that work, and now it powers meta ai."
 
-— **Alexandr Wang**, opening the announcement thread. The subtext: Llama 4 was such a disappointment that Meta threw out the entire stack and started over.
+— **Alexandr Wang**, opening the announcement thread at 6:01 PM on April 8, 2026. The subtext: Llama 4 was such a disappointment that Meta threw out the entire stack and started over. The tweet drew 4.5M views, 727 reposts, and 10K bookmarks — massive reach even by Wang's standards.
 
 > "There are certainly rough edges we will polish over time in model behavior."
 
@@ -87,5 +87,5 @@ The uncomfortable question Muse Spark raises isn't about model quality. It's abo
 - [[Computer Use is 45x More Expensive Than Structured APIs]] — the architectural gap that distribution can't close
 
 ---
-*Sources: [[raw/alexandr-wang-muse-spark-tweet]]*
-*Last updated: 2026-05-15*
+*Sources: [[raw/alexandr-wang-muse-spark-tweet]] (primary tweet text via browser automation 2026-05-18; follow-up tweets from secondary reporting), [[raw/muse-spark]] (Meta blog)*
+*Last updated: 2026-05-18*
