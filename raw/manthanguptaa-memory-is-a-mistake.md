@@ -1,50 +1,140 @@
 ---
-title: "Memory Is a Mistake"
-url: https://xcancel.com/manthanguptaa/status/2015780646770323543
+title: "How Clawdbot Remembers Everything"
+url: https://x.com/manthanguptaa/status/2015780646770323543
 author: Manthan Gupta (@manthanguptaa)
-date_fetched: 2026-05-15
-date_published: 2026-01
+date_fetched: 2026-05-18
+date_published: 2026-01-26
 section: "Memory & Context"
 ---
 
-# Memory Is a Mistake — Manthan Gupta
+# How Clawdbot Remembers Everything — Manthan Gupta
 
-Full analysis at: https://manthanguptaa.in/posts/memory_is_a_mistake/
+Full blog post at manthanguptaa.in, published 2026-01-26. 1.9M views, 135K likes, 6,294 reposts, 4.1K bookmarks.
 
-Original tweet thread breaking down Clawdbot/OpenClaw memory architecture: https://xcancel.com/manthanguptaa/status/2015780646770323543
+Clawdbot (also called OpenClaw/Moltbot) is an open-source personal AI assistant (MIT licensed) created by Peter Steinberger with 32,600+ GitHub stars. It runs locally and integrates with Discord, WhatsApp, Telegram, and more. The piece is a detailed architectural walkthrough of its memory system.
 
-## Tweet Context
+## How Context Is Built
 
-Manthan Gupta broke down the Clawdbot/Moltbot/OpenClaw memory architecture in a viral tweet thread. His key finding: the bot heavily relies on tools to reference memory, but models aren't trained to use those tools consistently. This observation led to a comprehensive blog post comparing memory architectures across ChatGPT, Claude, OpenClaw, and Hermes.
+The model sees on each request:
+1. System Prompt (static + conditional instructions)
+2. Project Context (bootstrap files: AGENTS.md, SOUL.md, etc.)
+3. Conversation History (messages, tool calls, compaction summaries)
+4. Current Message
 
-## The Core Thesis
+Project Context includes user-editable Markdown files injected into every request, living in the agent's workspace alongside memory files.
 
-"Most AI products do not need better memory. They need better product design."
+## Context vs Memory
 
-The storage side is not the hard part. The critical, overlooked component is the retrieval policy — the heuristic deciding which remembered thing gets pulled into which future prompt.
+**Context** = System Prompt + Conversation History + Tool Results + Attachments. Ephemeral, bounded by context window, expensive (every token counts toward API costs).
 
-## Four-System Comparison
+**Memory** = MEMORY.md + memory/*.md + Session Transcripts. Persistent, unbounded, cheap (no API cost to store), searchable (indexed for semantic retrieval).
 
-1. **ChatGPT** — injected profile approach. Always injects memory block. Simplest, most brittle.
-2. **Claude** — on-demand retrieval. Model decides when to search. Tools: conversation_search, recent_chats.
-3. **OpenClaw** — Markdown workspace with hybrid search. Agent issues semantic + keyword search.
-4. **Hermes** — hot/cold split with explicit tiers. Best design per the author.
+## The Memory Tools
 
-## Hermes Design Principles (the "cure")
+Two specialized tools:
 
-- Separate hot memory from cold recall — always-injected tier capped strictly
-- Prompt stability as first-class constraint — memory frozen at session start
-- Memory is plural — facts, episodes, skills are distinct retrieval problems
+**memory_search**: Semantic search across all memory files. Returns ranked results with path, line range, score, and snippet. Uses OpenAI text-embedding-3-small by default.
 
-## Six Failure Modes
+**memory_get**: Read specific lines from a memory file after searching.
 
-1. Output quality degradation — memory bleeds into unrelated contexts
-2. Debugging difficulty — two pipelines (request + memory) with only one logged
-3. Context rot — accuracy drops well before the window fills (as early as 32k tokens)
-4. Privacy issues — CIMemories: right domain, wrong granularity
-5. Attack surface — persistent prompt injection via memory (Unit 42 PoC)
-6. Personality drift — 97% sycophancy rate in long-term-memory systems (PersistBench)
+There is no dedicated `memory_write` tool — the agent writes to memory using standard write and edit tools. Since memory is plain Markdown, users can manually edit files too (they auto-reindex).
 
-## Pre-Shipment Checklist
+## Two-Layer Memory Storage
 
-Five questions teams must answer before shipping memory. If mostly no, ship visible settings, scoped project state, and explicit task briefs instead — citing Cursor's .cursorrules, Claude Projects, Zed's .rules, ChatGPT Custom Instructions, and Linear task context as examples that work because they are "legible, editable, and scoped."
+```
+~/clawd/
+├── MEMORY.md          — Layer 2: Long-term curated knowledge
+└── memory/
+    ├── 2026-01-26.md  — Layer 1: Today's notes
+    ├── 2026-01-25.md  — Yesterday's notes
+    └── ...
+```
+
+**Layer 1 (Daily Logs)**: Append-only daily notes the agent writes throughout the day.
+
+**Layer 2 (MEMORY.md)**: Curated, persistent knowledge — user preferences, important decisions, key contacts.
+
+## How the Agent Knows to Read Memory
+
+AGENTS.md instructions:
+1. Read SOUL.md
+2. Read USER.md
+3. Read memory/YYYY-MM-DD.md (today and yesterday)
+4. If in MAIN SESSION, also read MEMORY.md
+
+## Indexing Pipeline
+
+1. File saved → Chokidar detects change (1.5s debounce)
+2. Chunked into ~400 token chunks with 80 token overlap
+3. Each chunk embedded via OpenAI/Gemini/Local → 1536-dimension vector
+4. Stored in `~/.clawdbot/memory/<agentId>.sqlite`:
+   - `chunks` table (id, path, start_line, end_line, text, hash)
+   - `chunks_vec` table (id, embedding) via sqlite-vec extension
+   - `chunks_fts` table (text) via FTS5 full-text search
+   - `embedding_cache` table (hash, vector) to avoid re-embedding
+
+sqlite-vec enables vector similarity search directly in SQLite — no external vector database.
+
+## Hybrid Search
+
+Two strategies run in parallel:
+- **Vector search** (semantic): finds content that means the same thing
+- **BM25 search** (keyword): finds content with exact tokens (via FTS5)
+
+Combined: `finalScore = (0.7 * vectorScore) + (0.3 * textScore)`
+
+Results below minScore threshold (default 0.35) are filtered out. All values configurable.
+
+## Multi-Agent Memory
+
+Each agent gets complete memory isolation:
+- `~/clawd/` — "main" agent workspace files
+- `~/clawd-work/` — "work" agent workspace files
+- `~/.clawdbot/memory/main.sqlite` — main agent index
+- `~/.clawdbot/memory/work.sqlite` — work agent index
+
+Markdown files (source of truth) live in each workspace. SQLite indexes (derived data) live in state directory. No cross-agent memory search by default, though workspaces are soft sandboxes.
+
+## Compaction
+
+When context approaches the model's limit, older conversation is summarized into a compact entry while recent messages stay intact. The summary persists to the session's JSONL transcript file, so future sessions start with compacted history.
+
+**Automatic**: Triggers when approaching context limit. The original request retries with compacted context.
+
+**Manual**: `/compact` command — "Focus on decisions and open questions."
+
+## Pre-Compaction Memory Flush
+
+LLM compaction is lossy. Before compaction triggers, a silent flush turn fires:
+- System tells agent: "Store durable memories now (use memory/YYYY-MM-DD.md). If nothing to store, reply with NO_REPLY."
+- Agent reviews conversation, writes key decisions/facts to memory
+- Agent replies NO_REPLY (user sees nothing)
+- Compaction proceeds safely
+
+Configurable via clawdbot.yaml: reserveTokensFloor, softThresholdTokens, custom system prompt.
+
+## Pruning
+
+Tool results can be huge (50,000+ chars of logs). Pruning trims old outputs without rewriting history:
+- **Soft trim**: Keep head + tail chars, truncate middle
+- **Hard clear**: Replace old results with placeholder text
+- JSONL on disk is unchanged (full outputs preserved)
+
+## Cache-TTL Pruning
+
+Anthropic caches prompt prefixes for ~5 minutes. When cache expires, the next request pays full "cache write" pricing. Cache-TTL pruning detects expired cache and trims old tool results before the next request, reducing re-cache cost.
+
+## Session Lifecycle
+
+Sessions reset based on configurable rules (default: daily). On `/new`, the session memory hook auto-saves context: extracts last 15 messages, generates descriptive slug via LLM, saves to `~/clawd/memory/YYYY-MM-DD-<slug>.md`.
+
+## Design Principles
+
+1. **Transparency over black boxes**: Memory is plain Markdown — readable, editable, version-controllable
+2. **Search over injection**: Agent searches for what's relevant rather than stuffing everything into context
+3. **Persistence over session**: Important information survives in files, not just conversation history
+4. **Hybrid over pure**: Vector + keyword search together
+
+## Related Essay
+
+Gupta also wrote a companion essay "Memory Is a Mistake" at manthanguptaa.in/posts/memory_is_a_mistake/, arguing most AI products should not ship memory. Six concrete failure modes, retrieval policy as the hard problem, legible state over implicit memory.
