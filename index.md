@@ -383,6 +383,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Zed]] — Rust-native code editor from the Atom/Electron/Tree-sitter team: AI as first-class substrate, not a bolt-on
 - [[Dolphin]] — ByteDance's universal document parsing model. Digital and photographed docs
 - [[QR Generator (delphi.tools)]] — Indie web QR code tool with live preview and deep customization. "No logins. No tracking. Long live the handmade web"
+- [[Building the deployment tool I wish I had]] — Deptool: Git-backed deployment with atomic symlink swaps, auto-rollback, and a static binary agent that needs only SSH+coreutils
 
 ## Local & Personal Computing
 
