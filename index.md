@@ -297,6 +297,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 - [[Patterns.dev]] — The definitive modern reference for web design, rendering, and performance patterns across vanilla JS, React, and Vue
 - [[Igor Schwarzmann Design Systems]] — A dead reference site, worth remembering for who built it: design systems as organizational strategy, not component libraries
 - [[The Future of Software Engineering is SRE]] — AI makes code trivial; operations becomes the differentiator
+- [[Platform Engineering End-to-End]] — Cavallin's full-lifecycle field guide: team composition, product management, operations, migrations, stakeholder politics, and the priority order for starting from zero
 - [[Spec-First Development at Benchling]] — Define each object once; let platform capabilities consume the schema
 - [[The Coming Need for Formal Specification]] — AI makes code cheap, review lags, and formal methods become the systematic answer to the mismatch
 
