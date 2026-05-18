@@ -378,6 +378,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Micasa]] — TUI for home maintenance, projects, and vendor quotes. Pure Go, vim-style
 - [[Zed]] — Rust-native code editor from the Atom/Electron/Tree-sitter team: AI as first-class substrate, not a bolt-on
 - [[Dolphin]] — ByteDance's universal document parsing model. Digital and photographed docs
+- [[QR Generator (delphi.tools)]] — Indie web QR code tool with live preview and deep customization. "No logins. No tracking. Long live the handmade web"
 
 ## Local & Personal Computing
 
