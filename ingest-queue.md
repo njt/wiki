@@ -17,7 +17,6 @@ Need subscription, login, or password to access.
 | URL | Wiki Page | Failure | Date |
 |-----|-----------|---------|------|
 | https://matijacniacki.com/blog/openviktor | OpenViktor | password-protected | 2026-05-15 |
-| https://www.sciencedirect.com/science/article/pii/S0016328719303507 | Our Hunter-Gatherer Future | Open access but Cloudflare-blocked; raw has abstract/highlights | 2026-05-14 |
 
 ## Dead / unreachable
 
@@ -28,8 +27,6 @@ Domain down, 404, or cert errors. Low chance of recovery.
 | https://1lib.sk/ | 1lib | ECONNREFUSED | 2026-05-14 |
 | https://designsystems.igorschwarzmann.com/ | Igor Schwarzmann Design Systems | ECONNREFUSED / dead | 2026-05-15 |
 | https://www.getseer.dev/blogs/pre-commit-linting-vibe-coding | Pre-Commit Lint Checks | domain repurposed | 2026-05-14 |
-| https://benchling.engineering/fragmentation-to-framework-spec-first-development-at-benchling-9b97302bddcf | Spec-First Development at Benchling | bad TLS cert — user trying manually 2026-05-18 | 2026-05-14 |
-| https://www.damtp.cam.ac.uk/user/tong/fluids/lowreynolds.pdf | Life at Low Reynolds Numbers | cert error — user trying manually 2026-05-18 | 2026-05-14 |
 
 ## Tweets (mirror failures)
 
@@ -45,4 +42,4 @@ Content exists but can't be text-extracted.
 
 | URL | Wiki Page | Failure | Date |
 |-----|-----------|---------|------|
-| https://www.thoughtworks.com/content/dam/thoughtworks/documents/report/tw_future%20_of_software_development_retreat_%20key_takeaways.pdf | ThoughtWorks Future of Software Engineering Retreat | image-based PDF | 2026-05-15 |
+| (empty — ThoughtWorks resolved via pdftotext on 2026-05-18; was misclassified as image PDF) | | | |
