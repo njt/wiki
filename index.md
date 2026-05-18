@@ -371,6 +371,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[lat.md]] — Knowledge graph for codebases in markdown with validation against drift
 - [[docmason]] — Local knowledge base from office documents with citations and source tracing
 - [[Trailmark]] — Trail of Bits: source code as a queryable graph for security analysis
+- [[Understand-Anything]] — Claude Code plugin: builds persistent knowledge graphs from codebases with tree-sitter + LLM pipeline, incremental git-hook updates, and interactive dashboard
 - [[Clearance]] — Native macOS Markdown viewer/editor from Prime Radiant. Swift, local-first, YAML frontmatter support
 - [[MarkText]] — Open-source GUI Markdown editor. WYSIWYG, cross-platform
 - [[Mist]] — Google Docs for Markdown. Real-time collaboration, no accounts
