@@ -632,3 +632,15 @@ Source: https://thenewstack.io/subquadratic-12-million-context-window/ — Frede
 ## [2026-05-16] ingest | A Few Words on DS4 (antirez)
 
 Source: https://antirez.com/news/165 — antirez reflects on the explosive launch week of DwarfStar 4 (DS4), his local AI shell wrapping the best available open-weights model. First time he's used a local model instead of Claude/GPT for serious work. Model-agnostic architecture, expert variants (coding/legal/medical), vector steering for "more freedom," and ambitions for distributed inference. 14-hour days for a week — same intensity as early Redis. Created `raw/antirez-ds4.md` and wiki page `A Few Words on DS4.md`. Added to index under Local & Personal Computing. Cross-linked to [[Automatic Programming]] (same author, prior philosophy), [[Local and Open Source Inference]] (the threshold crossing), [[maclocal-api]], [[Self-Hosted LLMs]], [[Lemonade (Local AI Server)]], [[Simplicity in the Age of AI-Assisted]], [[Personal Agents]], [[2025 in LLMs]].
+
+## [2026-05-18] retry-ingest | The Pragmatic Summit (primary source update)
+
+Source: https://www.pragmaticsummit.com/ — fetched via browser automation (surf). This was a retry ingest: wiki page and raw file already existed, built from secondary sources. Primary source (the actual conference site, captured in post-conference state with all recordings available) confirmed most details were correct. Updates made:
+
+- Raw file updated with exact session description quotes from the site, source typos noted ("d0 agent", "Ubi", "exlusive", "Pricipal"), and "Powered by Statsig" + "world's most-read engineering newsletter" language
+- Wiki page enhanced with direct session description quotes for all 11 sessions
+- Added Marcos Arribas (VP Engineering, Statsig) as Simon Willison's co-presenter — missing from prior version
+- Added Ramp engineers' specific names and titles: Nik Koblov (EVP), Ian Tracey (Staff SE), Veeral Patel (Director), Will Koh (Staff Engineer)
+- Noted "d0 agent" typo/possible early name for v0 in Vercel session description
+- Confirmed Thomas Dohmke's "former CEO of GitHub" and "world's next developer platform" language from official copy
+- Updated date on both raw file and wiki page to 2026-05-18
