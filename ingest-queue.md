@@ -24,9 +24,7 @@ Domain down, 404, or cert errors. Low chance of recovery.
 
 | URL | Wiki Page | Failure | Date |
 |-----|-----------|---------|------|
-| https://1lib.sk/ | 1lib | ECONNREFUSED | 2026-05-14 |
-| https://designsystems.igorschwarzmann.com/ | Igor Schwarzmann Design Systems | ECONNREFUSED / dead | 2026-05-15 |
-| https://www.getseer.dev/blogs/pre-commit-linting-vibe-coding | Pre-Commit Lint Checks | domain repurposed | 2026-05-14 |
+| (empty — all 3 removed 2026-05-18, domains dead) | | | |
 
 ## Tweets (mirror failures)
 
