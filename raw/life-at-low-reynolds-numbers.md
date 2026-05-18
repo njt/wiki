@@ -1,9 +1,9 @@
 ---
 title: "Life at Low Reynolds Numbers"
-url: https://www.damtp.cam.ac.uk/user/tong/fluids/lowreynolds.pdf
-date_fetched: 2026-05-14
-fetched_via: "web.archive.org PDF (https://web.archive.org/web/20251013061917/https://www.damtp.cam.ac.uk/user/tong/fluids/lowreynolds.pdf)"
-section: "Random"
+url: https://davidtong.org/pdfs/teaching/fluid-mechanics/lowreynolds.pdf
+date_fetched: 2026-05-18
+fetched_via: "surf PDF grab"
+section: "Physics"
 ---
 
 # Life at Low Reynolds Numbers

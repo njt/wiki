@@ -459,7 +459,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[MIT Funding and Talent Pipeline Crisis (Kornbluth)]] — MIT President quantifies the damage: 20% decline in federal research, ~500 fewer grad students, faculty cutting postdocs. A case study in how science policy cascades through institutions
 - [[Our Hunter-Gatherer Future]] — Agriculture was a step down; extreme climate change may end it
 - [[Fruit Jelly Slices]] — How Passover dietary law accidentally preserved a candy that should have gone extinct, and what that reveals about tradition as path dependence, not design
-- [[Life at Low Reynolds Numbers]] — Purcell's classic: physics at bacterial scale. A metre a week
+- [[Life at Low Reynolds Numbers]] — Purcell's classic 1977 talk: viscosity-dominant physics at bacterial scale, the scallop theorem, and why stirring is futile when you're a micron long
 - [[Misha Glenny]] — Journalist and author tracing hidden power networks: Balkan wars, organized crime, cybercrime, rare earths. New host of In Our Time
 - [[Microscale Thermite Reaction]] — Harvard demo: smash two rusty iron balls together, trigger 2200°C thermite reaction with nothing but a glancing blow
 - [[Estimating Pi with a Coin]] — Toss until heads leads, record the fraction. Average approaches pi/4
