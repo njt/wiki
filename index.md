@@ -400,6 +400,7 @@ Tools that run on your own machines: voice, hardware, local inference, knowledge
 - [[Introduction to Obsidian]] — Practitioner's field report on Obsidian: file-over-app philosophy, plugin minimalism, honest graph-view skepticism
 - [[Lemonade (Local AI Server)]] — AMD-backed local multimodal AI server: chat, vision, image gen, speech behind an OpenAI-compatible API. Embeddable <10MB binary is the sleeper feature
 - [[A Few Words on DS4]] — antirez's DS4 crosses the local inference threshold: he now uses a local model instead of Claude/GPT for serious work. Model-agnostic shell, expert variants, distributed inference ambitions
+- [[DS4 (DwarfStar 4)]] — The C inference engine behind DS4: 65K lines, Metal/CUDA, mmap-loaded GGUF, asymmetric quantization, disk KV cache, OpenAI+Anthropic+Responses API, built in 1 week with GPT 5.5
 - [[tolaria]] — Open-source Obsidian alternative: files-first, git-first, AI-agent compatible
 - [[Upwelling]] — Ink & Switch editor: branching and merging for writers, not just programmers
 - [[Claude's System Prompt]] — Leaked Claude Opus 4.6 system prompt, read as a catalog of solved failure modes
