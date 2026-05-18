@@ -36,13 +36,11 @@ Domain down, 404, or cert errors. Low chance of recovery.
 
 ## Tweets (mirror failures)
 
-X.com blocked, xcancel.com also failing.
+X.com blocked, xcancel.com also failing. Resolved via personal Chrome profile + surf.
 
 | URL | Wiki Page | Failure | Date |
 |-----|-----------|---------|------|
-| https://xcancel.com/hedgiemarkets/status/2013417027713548718 | AI Livestream Factories | all mirrors 503/403 | 2026-05-15 |
-| https://xcancel.com/alexandr_wang/status/2041909376508985381 | Muse Spark and the Rough Edges Admission | xcancel 503 | 2026-05-15 |
-| https://xcancel.com/manthanguptaa/status/2015780646770323543 | Memory Is a Mistake | xcancel 503 | 2026-05-15 |
+| (empty — all 3 resolved via surf/x.com on 2026-05-18) | | | |
 
 ## Structural
 
