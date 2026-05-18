@@ -443,7 +443,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[The Behavioral Cost of Personalized Pricing]] — Behavioral price discrimination turns sincere customers into performers; the sincerity tax and the coming arms race of digital reputation management
 - [[Creative Firewall]] — Sundar's framework for the boundary between authentic human prompting and AI-optimized output: Trojan Prompts as the creative differentiator
 - [[Eye of the Master]] — AI as labour automation, not cognitive science. Pasquinelli's social history
-- [[The Education of the Broligarchy]] — Blake Smith reads the Silicon Valley canon as worldview-formation for arrested adolescents. Jobs bios + *Atlas Shrugged* = the broligarchy's intellectual toolkit, frozen at 15
+- [[The Education of the Broligarchy]] — Blake Smith on the Silicon Valley canon as tradition's self-education: ambition vs. systems-thinking, adolescence frozen into ideology, and the Aella/Yarvin court. The best essay on what tech elites read and why it matters
 - [[Why We Fear AI]] — AI anxiety is really capitalism anxiety. Blix and Glimmer
 - [[We (As a Society) Peaked in the 90s]] — Blog post + 125-comment HN thread on whether the 90s were a genuine balance point between technology and humanity, or just what getting older feels like
 - [[2026 Global Intelligence Crisis]] — Citadel Securities' macro rebuttal to AI doomerism: S-curves, compute-as-boundary, supply-shock framing, and a report that reversed $2T in market panic
