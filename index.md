@@ -70,7 +70,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Slowing Down in the Age of Coding Agents]] — Odendahl's third in the series: e-ink annotation cycles, vocabulary drift detection, and why the bottleneck is now thinking, not typing
 - [[Simplicity in the Age of AI-Assisted]] — LLMs make it cheap to rebuild without inherited complexity
 - [[The Next Two Years of Software Engineering]] — Junior employment drops 9-10% after AI adoption; senior roles hold steady
-- [[ThoughtWorks Future of Software Engineering Retreat]] — 50 practitioners at Deer Valley for Agile's 25th: ten time-horizoned themes, the "middle loop" of supervisory engineering, cognitive debt, agent topologies as Conway's Law, and a $300K cost blind spot
+- [[ThoughtWorks Future of Software Engineering Retreat]] — Senior practitioners under Chatham House Rule: ten time-horizoned themes, the "middle loop" of supervisory engineering, cognitive debt, agent topologies as Conway's Law extension, TDD as prompt engineering
 - [[Two Kinds of User Are Emerging]] — Power users vs casual users; many power users are non-technical professionals
 - [[HN RIP Low-Code 2014-2025]] — 157-comment HN focus group on whether AI kills low-code: the consensus is low-code becomes the abstraction layer AI agents need, but maintenance is the real cost
 - [[AI Killing B2B SaaS]] — Vibe coding threatens SaaS, but hastily-built solutions lack security and compliance

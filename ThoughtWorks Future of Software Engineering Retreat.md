@@ -1,6 +1,6 @@
 # ThoughtWorks Future of Software Engineering Retreat
 
-A February 2026 retreat at Deer Valley, Utah bringing ~50 senior engineering practitioners together under Chatham House Rule to confront AI's reshaping of software development. Hosted by Martin Fowler and ThoughtWorks to mark the 25th anniversary of the Agile Manifesto. Open Space "unconference" format — participants shaped the sessions rather than attending scheduled talks. ThoughtWorks synthesized the cross-cutting themes into ten findings, organized by time horizon. The central question: if AI handles the code, where does the engineering actually go?
+A February 2026 retreat bringing senior engineering practitioners from major technology companies together under Chatham House Rule to confront AI's reshaping of software development. More than twenty topics across breakout sessions, but the most significant insights surfaced at the intersections — the same concerns kept appearing in different conversations, framed by different people solving different problems. ThoughtWorks synthesized the cross-cutting themes into ten findings organized by time horizon. The central question: if AI handles the code, where does the engineering actually go? The retreat didn't produce a unified vision — it produced a map of the fault lines where current practices are breaking and new ones are forming.
 
 ---
 
@@ -18,10 +18,16 @@ A February 2026 retreat at Deer Valley, Utah bringing ~50 senior engineering pra
 
 > "AI is a funhouse mirror — an accelerator of what you already have. If foundational delivery practices aren't in place, velocity becomes a debt accelerator." — Rachel Laycock, CTO ThoughtWorks
 
+> "Paired programming solves all of this. If it's important to understand the system, then do it all the time. You don't do it in little phases where you have your code review. Constantly trying to understand what this code is doing."
+
+The retreat drew a parallel to the history of computer graphics. In 1992, engineers hand-coded polygon rendering algorithms. Two years later, that work had been pushed into hardware, and the job became animation and lighting. Today, it's custom physics and game worlds. Each time the abstraction layer rose, engineers who insisted they were hired to render polygons were left behind. The same dynamic is playing out now with code production.
+
+On the linter front: an agent with access to a linter enforcing a 500-line file limit responded by making individual lines longer — technically satisfying the rule while violating the principle. When multiple agents make different prioritization decisions, the system oscillates rather than converges.
+
 ## Ten Themes
 
 **Now:**
-1. **Where does the rigor go?** Engineering quality migrates to five destinations: specification review, test suites as first-class artifacts, type systems and constraints, risk mapping (blast radius tiering), and continuous comprehension. TDD reframed as prompt engineering -- deterministic validation for non-deterministic generation.
+1. **Where does the rigor go?** Engineering quality migrates to five destinations: specification review (teams adopting EARS, state machines, decision tables — old techniques rediscovered because they give AI enough precision), test suites as first-class artifacts, type systems and constraints (separating specifications from constraints — what should change vs. the bounded contexts where change is allowed), risk mapping (blast radius tiering: "what is the blast radius if this code is wrong, and is our verification proportional to that risk?"), and continuous comprehension. TDD reframed as prompt engineering — deterministic validation for non-deterministic generation. "Bad specs produce bad code at scale."
 2. **Code review unbundled.** Code review served four functions (mentorship, consistency, correctness, trust) that each need a new home. Risk tiering replaces the craft model of reviewing every line.
 3. **Productivity/experience paradox.** Developer productivity and developer experience are decoupling. Sharp reframe: call it "agent experience" instead -- wallets open faster, and the overlap with human needs is nearly complete.
 4. **Security is dangerously behind.** Low attendance at the security session mirrors the industry. Email access alone enables full account takeover. Platform engineering must make safe behaviour the default.
@@ -32,21 +38,21 @@ A February 2026 retreat at Deer Valley, Utah bringing ~50 senior engineering pra
 
 **1-3 years:**
 7. **Agent topologies.** Conway's Law applies to agents. Agents burn through backlogs then hit human-speed organizational dependencies. Agent drift mirrors team-specific norms on an accelerated timeline. Decision fatigue becomes the new bottleneck.
-8. **Knowledge graphs and semantic layers.** Decades-old technologies suddenly relevant as the grounding layer for domain-aware agents. A telecom's entire domain ontology in 286 concepts. LLMs auto-generating event storming artifacts, humans validating.
-9. **Role convergence.** PM, developer, and designer converging. Staff engineers are more effective agent supervisors but spend time on coordination instead. Juniors more profitable than ever -- AI gets them past net-negative faster. Mid-level engineers from the hiring boom are the real concern.
+8. **Knowledge graphs and semantic layers.** Decades-old technologies suddenly relevant as the grounding layer for domain-aware agents. A large telecom's entire domain ontology captured in roughly 286 concepts — making the work feel achievable, not impossibly ambitious. LLMs auto-generating event storming artifacts (commands, events, aggregates, policies) from code; humans validate and correct, compressing weeks of workshops into days.
+9. **Role convergence.** PM, developer, and designer converging. One large tech company is researching whether the PM role needs a new name; another is training all PMs to work in Markdown inside developer tools. Staff engineers are more effective agent supervisors but spend time on coordination instead — the retreat argued they should become "friction killers." Juniors more profitable than ever — AI gets them past net-negative faster, they're better at AI tools than seniors (no habits to unlearn). Mid-level engineers from the decade-long hiring boom are the real concern. University of Waterloo's co-op program highlighted as a model: deep theory + 2.5 years of industry internships across six rotations.
 
 **2-5 years:**
-10. **Self-healing systems.** Requires an "agent subconscious" -- knowledge graphs from post-mortems. Need "angry agents" to challenge dominant hypotheses. Multiple agents fixing the same issue create oscillating feedback loops.
+10. **Self-healing systems.** Requires an "agent subconscious" — knowledge graphs from post-mortems. Need "angry agents" to challenge dominant hypotheses (LLMs default to agreement; incident command requires challenge). Multiple agents fixing the same issue create oscillating feedback loops. "Code changes should be the last resort for incident remediation" — the path runs through better rollback, feature flags, and observability before it runs through agents rewriting production code.
 
 ## Additional Findings
 
 **Agile is evolving, not dying.** XP practices (pairing, ensemble, CI) rediscovered because tight feedback loops are what agent-assisted work requires. But AI-driven large batch sizes are reversing a decade of DORA research on stability. This is an active regression.
 
-**Agent swarms.** The barrier is mental, not technical. Sequential thinkers can't conceptualize parallel agent work. Collective convergence matters more than individual accuracy. But most enterprise agent orchestration is "patrol workers on loops" -- ETL, data quality, monitoring.
+**Agent swarms.** The barrier is mental, not technical. Sequential thinkers can't conceptualize parallel agent work — "this mental model actively blocks learning." Collective convergence matters more than individual accuracy — a swarm of imperfect agents can produce valuable outcomes if the architecture guides convergence. Some frontier models have structural weaknesses for swarm scenarios; organizations should test specifically for multi-agent coordination, not just single-agent capability. But most enterprise agent orchestration is "patrol workers on loops" — ETL, data quality, monitoring. Organizations with strong, well-designed APIs are significantly better positioned than those without.
 
 **The agentic operating system.** Work ledger as core primitive (analogous to blockchain): searchable, auditable, enabling agents to discover and bid for work. Agent identity includes its work history, not just persona.
 
-**Programming languages for agents.** "What is good for AI is good for humans." Languages that make incorrect code unrepresentable help both. Source code may become transient -- generated on demand, never stored. But deterministic validation needs a stable artifact.
+**Programming languages for agents.** Every language in existence was designed with humans as the primary user. The retreat converged on a principle: "What is good for AI is good for humans." Languages that make incorrect code unrepresentable (strong types, restricted computation models, formal constraints) help agents produce correct output and help humans verify it. The more radical possibility: source code as a transient artifact, generated on demand and never stored. The retreat was divided — some see code disappearing within a decade; others argue deterministic validation always needs a stable artifact.
 
 **The "Gas Town" identity crisis.** Steve Yegge's concept of appgen engines outrunning dev teams provoked real anxiety about professional identity. If AI does people's work, "who am I and what the heck am I going to do" — echoing [[Opus 4.5 Changes Everything]]'s ambivalence about craft.
 
@@ -114,5 +120,5 @@ Forrester's Schadler closes with the right binary: "We can let the AI tell us wh
 - [[How to Buy Cheap Claude Tokens in China]] -- the grey market the retreat's cost-blind analysis ignores entirely
 
 ---
-*Sources: [[raw/tw-future-of-software-development-retreat-key-takeaways]], Martin Fowler's [bliki](https://martinfowler.com/bliki/FutureOfSoftwareDevelopment.html), Forrester [analysis](https://www.forrester.com/blogs/takeaways-from-the-future-of-software-development-retreat-just-because-you-can-doesnt-mean-youre-ready-to/), IT Brief [coverage](https://itbrief.com.au/story/thoughtworks-retreat-explores-ai-s-agile-software-future)*
-*Last updated: 2026-05-15*
+*Sources: [[raw/tw-future-of-software-development-retreat-key-takeaways]] (primary — full ThoughtWorks PDF), Martin Fowler's [bliki](https://martinfowler.com/bliki/FutureOfSoftwareDevelopment.html), Forrester [analysis](https://www.forrester.com/blogs/takeaways-from-the-future-of-software-development-retreat-just-because-you-can-doesnt-mean-youre-ready-to/)*
+*Last updated: 2026-05-18*
