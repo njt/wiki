@@ -8,15 +8,7 @@ Sites that returned 403/Cloudflare blocks — browser automation may succeed.
 
 | URL | Wiki Page | Failure | Date |
 |-----|-----------|---------|------|
-| https://www.jazzguitar.be/blog/all-of-me/ | All of Me Jazz Standard Analysis | Cloudflare 403 | 2026-05-15 |
-| https://colossus.com/article/education-broligarchy-silicon-valley-canon/ | The Education of the Broligarchy | 403 | 2026-05-15 |
-| https://openai.com/index/inside-our-in-house-data-agent/ | Inside OpenAI's In-House Data Agent | 403 | 2026-05-15 |
-| https://openai.com/index/harness-engineering/ | Harness Engineering (OpenAI) | 403 | 2026-05-15 |
-| https://blog.dochia.dev/blog/idempotency/ | Idempotency Is Easy Until the Second Request Is Different | 403 | 2026-05-15 |
-| https://wesmckinney.com/blog/mythical-agent-month/ | The Mythical Agent-Month | 403 | 2026-05-14 |
-| https://selfhostllm.org/ | Self-Hosted LLMs | 403 | 2026-05-14 |
-| https://consultwithgriff.com/dapper-nvarchar-implicit-conversion-performance-trap | Dapper Performance Trap | timeout | 2026-05-14 |
-| https://www.pragmaticsummit.com/ | The Pragmatic Summit | JS-heavy | 2026-05-15 |
+| (empty — all 9 resolved via surf on 2026-05-18) | | | |
 
 ## Paywall / auth required
 
