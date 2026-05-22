@@ -412,6 +412,7 @@ Tools that run on your own machines: voice, hardware, local inference, knowledge
 - [[AI Brain for Flipper]] — Voice-controlled AI for Flipper Zero hardware
 - [[RedGridLink]] — Offline MGRS navigation + BLE team sync for 2-8 people. No cell service
 - [[Thunderbolt]] — Mozilla/MZLA's open-source cross-platform AI client pivoting to enterprise: sovereign cloud, air-gapped deployments, ACP+MCP protocol support, deepset/Haystack partnership
+- [[SuperStation One]] — Affordable FPGA PS1 recreation on MiSTer-compatible Cyclone V hardware. Open-source from day 1 as competitive strategy against Analogue's proprietary premium pricing
 - [[Introduction to Obsidian]] — Practitioner's field report on Obsidian: file-over-app philosophy, plugin minimalism, honest graph-view skepticism
 - [[Lemonade (Local AI Server)]] — AMD-backed local multimodal AI server: chat, vision, image gen, speech behind an OpenAI-compatible API. Embeddable <10MB binary is the sleeper feature
 - [[A Few Words on DS4]] — antirez's DS4 crosses the local inference threshold: he now uses a local model instead of Claude/GPT for serious work. Model-agnostic shell, expert variants, distributed inference ambitions
