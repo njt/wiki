@@ -344,6 +344,7 @@ Storage engines, query patterns, data quality, and vector/graph databases.
 - [[Postgres CDC in ClickHouse, A Year in Review]] — Field report on PeerDB's first year inside ClickHouse: 400+ customers, 200 TB/month, and the surprising complexity of making CDC feel boring
 - [[Metrics SQL]] — Rill Data's SQL dialect for querying a YAML-defined metrics layer. Transpiles to engine-native SQL with inferred GROUP BY, parameterized literals, and MCP server for AI agents
 - [[DocDB — Stripe's Zero-Downtime Database]] — Stripe's internal MongoDB-based DBaaS: 2,000+ shards at 5M QPS. Zero-downtime data movement as platform primitive — resharding, version upgrades, and tenancy migrations are all the same operation
+- [[SQL Fraud Patterns (Fixel Smith)]] — Six composable SQL patterns for transaction fraud detection: velocity, impossible travel, amount anomalies, suspicious merchants, off-hours, and window-function primitives. Fraud rules as WHERE clauses, not ML models
 
 ## Developer Tools
 
