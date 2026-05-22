@@ -11,7 +11,7 @@ section: "Management/Business"
 
 **Problem Selection & Prioritization:** "Every yes is an implicit no to something else."
 
-**Decision Clarity:** Start meetings with explicit asks: "approve, choose, unblock, or inform."
+**Decision Clarity:** Start meetings with explicit asks: "approve, choose, unblock, or inform.”
 
 **Specificity Over Intention:** Not "we should improve onboarding" but "On Tuesday, Sarah will run three user sessions."
 
