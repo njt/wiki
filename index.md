@@ -398,6 +398,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Dolphin]] — ByteDance's universal document parsing model. Digital and photographed docs
 - [[QR Generator (delphi.tools)]] — Indie web QR code tool with live preview and deep customization. "No logins. No tracking. Long live the handmade web"
 - [[Building the deployment tool I wish I had]] — Deptool: Git-backed deployment with atomic symlink swaps, auto-rollback, and a static binary agent that needs only SSH+coreutils
+- [[Gova]] — Declarative reactive GUI framework for Go: SwiftUI-inspired API, call-site state identity via runtime.Caller, Fyne bridge stays internal, hot-reload dev server
 
 ## Local & Personal Computing
 
