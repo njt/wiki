@@ -172,6 +172,8 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[OpenAI Structured Outputs]] — Guaranteed JSON schema adherence from the API: protocol-level constraint beats prompt-level pleading
 - [[Moltbook]] — Simon Willison on the AI-only social network bootstrapped via OpenClaw skills: heartbeat-driven agents, the lethal trifecta in production, and whether we can build a safe version
 
+- [[Resident — ESP32 Lua Sandbox with Agent Skills]] — Sandboxed Lua runtime for ESP32 with hot-reload. AI agents write and push apps to physical devices via Claude Code plugin
+
 ## Agent Orchestration & Coordination
 
 Multi-agent systems, task graphs, kanban boards, and coordination patterns.
