@@ -22,6 +22,12 @@ Through platform migrations and tooling changes, code comments survive. Jira tic
 
 al_borland uses template code comments for "why" information: "This previously used X, but moved to Y because Z" or "This is ugly because the clean way doesn't work due to W." Not glamorous, but it survives.
 
+### Write it for yourself, not for posterity
+
+> "I do it mostly for me because I find it invaluable as I prefer writing shit down instead of relying on my flaky memory." — hysan
+
+hysan writes lengthy PR descriptions with collapsed sections — not for the team, but for their future self. This is the thread's most underrated insight: documentation survives when the author is the primary beneficiary. Altruistic documentation ("write this for the next person") dies. Self-interested documentation ("write this so I can search it later") lives. The same dynamic explains why al_borland's code comment templates and physicles's rude Q&A doc actually get maintained.
+
 ### Busy engineers will do the easiest thing
 
 > "a busy engineer trying to hit a deadline is just going to do the easiest thing" — hermitcrab
@@ -48,6 +54,14 @@ Multiple commenters converged on this: ADRs are RFCs, not wiki pages. They captu
 
 This is a [[Fresh Eyes]] argument applied to documentation: the person who just struggled through the gaps is best positioned to fill them. But it only works if the culture rewards it (lwhsiao: "hire people that value writing").
 
+### Chesterton's Fence and the danger of removal
+
+> sdeframond: sometimes the way to understand a fence is to remove it and see what happens
+
+> 4star3star: "it's a lot harder to notice when valid data DISAPPEARS" than when erroneous data appears
+
+The Chesterton's Fence exchange is one of the thread's best micro-debates. sdeframond argues that many decisions have no real reason and you can just test by removal. 4star3star counters that the failure mode of removing something without understanding it is subtle — data silently vanishing — and much harder to catch than a crash or an error. Both are right. The takeaway isn't "never remove things" but "when you remove something you don't understand, write a test for the property you think doesn't matter."
+
 ### Sometimes there is no good reason
 
 > wesselbindt: "the dev had a hammer and the codebase was starting to look an awful lot like a nail"
@@ -55,6 +69,14 @@ This is a [[Fresh Eyes]] argument applied to documentation: the person who just 
 > rich_sasha: "many decisions happen for no good reason, by accident, or for outdated reasons"
 
 The thread's most honest contribution. Not every decision has a satisfying rationale. Sometimes Redis was chosen because the dev wanted Redis on their resume. Documenting the *absence* of a reason is itself valuable — it tells the next person "you can change this."
+
+### LLMs can extract rationale from what already exists
+
+> iSnow: built an agentic framework that distills ADRs from transcribed Teams meetings, "recording the WHY without someone having to do the job." Works "surprisingly well."
+
+> andrewf: LLMs might be good at answering questions from an unorganized mass of timestamped data — "all the stuff that exists anyway without any extra continuous effort"
+
+Multiple commenters are already building the OP's product idea, and some report it works. The key insight: the conversation that led to the decision already happened — in Slack, in PR comments, in meeting transcripts. The problem isn't capturing new information; it's extracting structure from existing information that's already scattered across platforms. This is a fundamentally different problem than "get engineers to write more prose," and LLMs are good at it.
 
 ---
 
@@ -79,6 +101,10 @@ The thread is better than its framing. The OP's post is a transparent setup for 
 
 **The LLM inversion is real but dangerous:** physicles is right that LLMs make good docs valuable in a new way, but this also creates a perverse incentive to write documentation *for the LLM* rather than for humans. If docs become LLM training data first and human reference second, you get the [[Creative Firewall]] problem in reverse — optimized for the machine, degraded for the person.
 
+**The self-interest insight:** hysan's comment reveals a dynamic the OP's product framing misses entirely. When documentation's primary beneficiary is the author (future-self search), it gets written. When it's altruistic (the next hire), it doesn't. Tooling should design for the self-interested case first.
+
+**The NASA point:** actionfromafar notes this whole approach only works when "why" is an actual required deliverable. In organizations where decisions are tracked as compliance artifacts (NASA, nuclear, medical devices), rationale documentation already exists. For everyone else, the question is whether LLM extraction can make it cheap enough to become *de facto* required.
+
 **The thread's blind spot:** Nobody discusses what happens when the rationale is "we made a bad call." Engineering cultures that can't admit mistakes produce documentation that lies. The first requirement for capturing real *why* is psychological safety, and no git hook provides that.
 
 **What actually works**, synthesized from the thread:
@@ -88,11 +114,13 @@ The thread is better than its framing. The OP's post is a transparent setup for 
 3. New hires document their onboarding discoveries (soniclettuce, physicles)
 4. LLMs as documentation linters and enforcers (lowenbjer)
 5. Culture of writing as a hiring filter (lwhsiao)
-6. Commit messages as breadcrumb trails (hammadfauz, moltar, Willamin)
+6. Commit messages as breadcrumb trails (hammadfauz, Willamin)
+7. LLM extraction from existing artifacts — meetings, Slack, PR comments (iSnow, andrewf, pxue)
+8. Self-interested documentation: write for your future self, not for posterity (hysan, al_borland)
 
-What doesn't work: any system that requires someone to voluntarily open a separate tool and write prose.
+What doesn't work: any system that requires someone to voluntarily open a separate tool and write prose for an audience they'll never meet.
 
 ---
 
 *Sources: [[raw/hn-capturing-why-engineering-decisions]]*
-*Last updated: 2026-05-15*
+*Last updated: 2026-05-22*
