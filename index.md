@@ -477,6 +477,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[The Behavioral Cost of Personalized Pricing]] — Behavioral price discrimination turns sincere customers into performers; the sincerity tax and the coming arms race of digital reputation management
 - [[Creative Firewall]] — Sundar's framework for the boundary between authentic human prompting and AI-optimized output: Trojan Prompts as the creative differentiator
 - [[Eye of the Master]] — AI as labour automation, not cognitive science. Pasquinelli's social history
+- [[Why Agents Matter More Than Other AI]] — Seven structural advantages agents have over human employees: replication, 24/7 operation, no management overhead, tax efficiency. The CFO's case for replacing labor with compute
 - [[The Education of the Broligarchy]] — Blake Smith on the Silicon Valley canon as tradition's self-education: ambition vs. systems-thinking, adolescence frozen into ideology, and the Aella/Yarvin court. The best essay on what tech elites read and why it matters
 - [[Why We Fear AI]] — AI anxiety is really capitalism anxiety. Blix and Glimmer
 - [[We (As a Society) Peaked in the 90s]] — Blog post + 125-comment HN thread on whether the 90s were a genuine balance point between technology and humanity, or just what getting older feels like
