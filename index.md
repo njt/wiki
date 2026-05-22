@@ -217,6 +217,7 @@ Persistence, retrieval, knowledge management, and context engineering for agents
 - [[Planning With Files]] — Persistent markdown planning: context window is RAM, filesystem is disk
 - [[GraphRAG]] — Microsoft's structured RAG: knowledge graphs and community hierarchies
 - [[NornicDB]] — Graph + vector + temporal DB with built-in memory decay for agent memory
+- [[Stash]] — Self-hosted persistent memory for AI agents. MCP-native, 8-stage cognitive consolidation pipeline: episodes→facts→relationships→patterns, with contradiction detection, hypothesis verification, causal tracing, and confidence decay
 - [[robot.wtf]] — Git-backed wiki with MCP support where humans and agents share memory
 - [[LLM Wiki]] — Karpathy's pattern for AI-maintained personal knowledge bases. This wiki's model
 - [[mira-OSS]] — Persistent agent framework: one conversation forever, first-person narrative memory
