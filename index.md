@@ -85,6 +85,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[There Is No Spoon]] — ML primer built on physical analogies (neurons as polarizing filters, depth as paper folding), conversationally constructed with Claude, designed for interactive AI-aided exploration
 - [[Claude Code on the Go]] — Mobile-first workflow: agents on a cloud VM, controlled from an iPhone
 - [[MobileVibe]] — Mobile app controlling coding agents on your own desktop: local execution, phone as terminal
+- [[Agent Flywheel]] — Jeffrey Emanuel's one-command VPS installer + planning-first Flywheel Methodology for coordinating 10+ agents. Idempotent, 30-min setup, $440-656/month all-in
 - [[CLAUDE.md (Universal)]] — Six token-efficient rules for making Claude behave sensibly
 - [[Writing a Good CLAUDE.md]] — HumanLayer's guide: short, universal, hand-crafted, linters-not-prompts. The instruction-budget case for brevity
 - [[Intent Layer]] — Railly Hugo's hierarchical AGENTS.md at folder boundaries: giving agents the tacit knowledge senior engineers carry
