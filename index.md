@@ -357,6 +357,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Installing VS Compilers From Commandline]] — msvcup: skip Visual Studio, install just the compiler and SDK
 - [[Introducing git-wt — Worktrees Simplified]] — Bash wrapper smoothing git worktree's sharp edges: auto-fetch, upstream tracking, orphan cleanup, fzf switching
 - [[bcc]] — BPF Compiler Collection: kernel-level tracing for Linux performance analysis
+- [[Tmux Resurrect]] — Persists and restores complete tmux environments via tab-delimited flat file serialization; idempotent, zero-config, mini DSL for process matching
 - [[floci]] — Free local AWS emulator replacing LocalStack. 47 services, 24ms startup
 - [[sem]] — Semantic version control: entity-level diff, blame, and impact analysis
 - [[markitdown]] — Microsoft's office-docs-to-Markdown converter for LLM pipelines
