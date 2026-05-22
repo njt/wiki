@@ -267,6 +267,7 @@ Isolation, credentials, prompt injection defense, and agent safety.
 - [[OpenSandbox]] — Alibaba's sandbox platform for AI: Docker, Kubernetes, gVisor, Firecracker
 - [[Navaris]] — Unified sandbox control plane: containers or microVMs, one API
 - [[Crabbox]] — Agent workspace control plane: lease throwaway cloud machines without sharing provider credentials. Brokered provisioning, 16 providers, warm reuse, PR evidence artifacts
+- [[Resident (ESP32 Sandbox)]] — Lua sandbox runtime for ESP32 devices built for AI agents. Inverts the sandbox metaphor: sandbox as host, not cage. Hermit crab architecture for agents inhabiting physical hardware
 - [[LLM Guard]] — 35 scanners for prompt injection, data leakage, and toxicity
 - [[OneCLI]] — Credential vault for agents: transparent proxy injection, no real keys exposed
 - [[Stockyard]] — Jesse Vincent's Firecracker micro-VM orchestrator for coding agents: ZFS snapshots via vsock, Tailscale networking, 1Password-backed secrets
