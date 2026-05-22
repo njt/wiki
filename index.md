@@ -234,6 +234,7 @@ Persistence, retrieval, knowledge management, and context engineering for agents
 
 Evals, testing, linting, feedback loops, and keeping agent output trustworthy.
 
+- [[Structural Backpressure Beats Smarter Agents]] — Brooks's taxonomy: behavioral gates (prompts) vs. structural gates (type systems). Deterministic gates beat smarter models for enforcing invariants in AI-generated code
 - [[Ratchets in Software Development]] — qntm's dirt-simple lint-time ratchet: count deprecated patterns, error if the count goes up. The ur-pattern behind deterministic enforcement
 - [[Feedback Loop is All You Need]] — Linters beat prompts. Your CLAUDE.md is a suggestion; your linter isn't
 - [[AI Needs to Think Before Giving Feedback]] — G-E-RG loop (Generate→Evaluate→Re-Generate) for AI feedback quality; the system that checks the generation is where the engineering lives
