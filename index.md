@@ -190,6 +190,7 @@ Multi-agent systems, task graphs, kanban boards, and coordination patterns.
 - [[Scaling Long-Running Agents]] — Cursor's finding: flat self-coordination fails; planner/worker/judge works
 - [[speedrift-ecosystem]] — Autonomous dark-factory control plane supervising agent work across repos
 - [[What Ralph Wiggum Loops Are Missing]] — The graduation path from bash loops to structured dependency management: why freeform markdown tracking breaks under multi-agent load
+- [[Fleet of Agents (sermakarevich)]] — Five-step tutorial from single agent to parallel fleet with atomic claiming and Q&A blocking. The Ralph Wiggum graduation path made explicit and teachable
 - [[Managing Agents via Kanban Boards]] — Task status transitions as the signaling mechanism between humans and agents
 - [[ralph-ban]] — TUI kanban board for agents. Five columns, vim nav, SQLite, real-time sync
 - [[vibe-kanban]] — Kanban boards for assigning work to coding agents with inline diff review
