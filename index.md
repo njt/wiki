@@ -428,6 +428,7 @@ Tools that run on your own machines: voice, hardware, local inference, knowledge
 Papers, model capabilities, training techniques, and the state of the field.
 
 - [[2025 in LLMs]] — Simon Willison's annual survey of the LLM landscape
+- [[Recent Developments in LLM Architectures]] — Raschka surveys Gemma 4, Laguna XS.2, ZAYA1-8B, and DeepSeek V4: four different attacks on long-context inference cost through KV sharing, attention budgeting, compressed attention, and constrained residual streams
 - [[SAM Audio]] — Meta's foundation model for prompted audio separation: text, visual, span, and multi-modal prompts isolate any sound. Flow-matching Diffusion Transformer, open weights, companion judge model
 - [[Self-Distillation]] — LLMs improve at code generation using only their own outputs. No verifier needed
 - [[Capybara]] — ByteDance's unified model for text-to-image, text-to-video, and editing
