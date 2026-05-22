@@ -347,6 +347,7 @@ Storage engines, query patterns, data quality, and vector/graph databases.
 - [[Metrics SQL]] — Rill Data's SQL dialect for querying a YAML-defined metrics layer. Transpiles to engine-native SQL with inferred GROUP BY, parameterized literals, and MCP server for AI agents
 - [[DocDB — Stripe's Zero-Downtime Database]] — Stripe's internal MongoDB-based DBaaS: 2,000+ shards at 5M QPS. Zero-downtime data movement as platform primitive — resharding, version upgrades, and tenancy migrations are all the same operation
 - [[SQL Fraud Patterns (Fixel Smith)]] — Six composable SQL patterns for transaction fraud detection: velocity, impossible travel, amount anomalies, suspicious merchants, off-hours, and window-function primitives. Fraud rules as WHERE clauses, not ML models
+- [[BEAVER]] — First enterprise text-to-SQL benchmark from real private data warehouses. GPT-5.2 gets 10.8%; with all oracle hints, 30.1%. The gap between BIRD (82%) and enterprise reality is a chasm
 
 ## Developer Tools
 
