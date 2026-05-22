@@ -374,6 +374,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[floci]] — Free local AWS emulator replacing LocalStack. 47 services, 24ms startup
 - [[sem]] — Semantic version control: entity-level diff, blame, and impact analysis
 - [[markitdown]] — Microsoft's office-docs-to-Markdown converter for LLM pipelines
+- [[Klangio Transcription Studio]] — Browser-based AI polyphonic music transcription to sheet music, MIDI, and TABs. 4M+ transcriptions
 - [[Kreuzberg]] — Polyglot document intelligence: 97+ formats, Rust core, MCP server
 - [[claude-replay]] — Agent sessions as self-contained embeddable HTML replays
 - [[engineering-notebook]] — Automatic engineering diary from Claude Code and Codex sessions
