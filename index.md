@@ -481,6 +481,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[Why Does AI Write Like That]] — Sam Kriss's taxonomy of AI prose tics: overfitting as style, how "delve" and em dashes became class markers, and the flattening of early GPT's surreal humor into insipid eagerness
 - [[The Behavioral Cost of Personalized Pricing]] — Behavioral price discrimination turns sincere customers into performers; the sincerity tax and the coming arms race of digital reputation management
 - [[Creative Firewall]] — Sundar's framework for the boundary between authentic human prompting and AI-optimized output: Trojan Prompts as the creative differentiator
+- [[You Can Just Say It]] — Caleb Gross: stop defending human value by what AI can't do. AI slop = form without discernible intent. Just send the prompt
 - [[Eye of the Master]] — AI as labour automation, not cognitive science. Pasquinelli's social history
 - [[Why Agents Matter More Than Other AI]] — Seven structural advantages agents have over human employees: replication, 24/7 operation, no management overhead, tax efficiency. The CFO's case for replacing labor with compute
 - [[The Education of the Broligarchy]] — Blake Smith on the Silicon Valley canon as tradition's self-education: ambition vs. systems-thinking, adolescence frozen into ideology, and the Aella/Yarvin court. The best essay on what tech elites read and why it matters
