@@ -330,6 +330,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 - [[Anomaly Detection]] — Welford's algorithm + KV store. No ML, no config, just math
 - [[The Pragmatic Summit]] — Gergely Orosz's inaugural curated conference: 28 practitioner speakers, 3 tracks (Build/Frame/Lead), Thomas Dohmke's Entire.io reveal
 - [[A Field Guide to Bugs]] — Stephen Diehl's poetic taxonomy of 30+ bug species from Bohrbug to Omega Bug: half CS folklore, half literary performance, and the sharpest diagnosis of LLM-era failure modes in print
+- [[Book OCR Project Report — Structured Workflow Runtime and Manual PDF Repair]] — Manuel's full-arc project report: 202-page scanned book OCR, custom Go workflow runtime, structured JSON boundaries, and a day-long manual PDF repair loop that found five distinct failure classes. A masterclass in model-output engineering
 
 ## Databases & Data
 
