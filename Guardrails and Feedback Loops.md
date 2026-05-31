@@ -54,6 +54,31 @@ The tools form a clear hierarchy from soft to hard:
 
 #guardrails #feedback-loops #enforcement #evals #linting #mechanical-constraints
 
----
-*Synthesis of: [[Feedback Loop is All You Need]], [[Pre-Commit Lint Checks]], [[claude-ctrl]], [[claude-code-config (Trail of Bits)]], [[Compound Engineering]], [[Demystifying Evals for AI Agents]], [[LLM Evals]], [[Benchmark Exploitation]], [[Gambit]], [[Woodshed]], [[Fresh Eyes]], [[AI PR Reviewer]], [[Learn from PRs Skill]], [[dotnet Slopwatch]], [[Awesome Agentic Patterns]], [[agent-pr-replay]], [[Trycycle]], [[Verbose Deployment]], [[CLAUDE.md (Universal)]], [[Code Field]], [[Talking to Transformers]], [[Write Only Code]]*
-*Last updated: 2026-05-14*
+## Pages
+
+- [[Structural Backpressure Beats Smarter Agents]] — Brooks's taxonomy: behavioral gates (prompts) vs. structural gates (type systems). Deterministic gates beat smarter models for enforcing invariants in AI-generated code
+- [[Ratchets in Software Development]] — qntm's dirt-simple lint-time ratchet: count deprecated patterns, error if the count goes up. The ur-pattern behind deterministic enforcement
+- [[Feedback Loop is All You Need]] — Linters beat prompts. Your CLAUDE.md is a suggestion; your linter isn't
+- [[AI Needs to Think Before Giving Feedback]] — G-E-RG loop (Generate→Evaluate→Re-Generate) for AI feedback quality; the system that checks the generation is where the engineering lives
+- [[Harness Engineering]] — Böckeler's framework: feedforward vs. feedback, computational vs. inferential. The engineering theory behind "linters beat prompts"
+- [[Harness Engineering (OpenAI)]] — The original experiment: Lopopolo's team shipped 1M lines with zero handwritten code. 12 concrete practices, Symphony orchestrator, and the field report Böckeler responded to
+- [[Pre-Commit Lint Checks]] — Lint config is production infrastructure. Immutable by default
+- [[Demystifying Evals for AI Agents]] — Anthropic's definitive guide to rigorous, repeatable agent evaluation
+- [[LLM Evals]] — Hamel Husain: evals consume 60-80% of your time if you're doing it right
+- [[Benchmark Exploitation]] — Eight major agent benchmarks gamed to 100% without solving actual tasks
+- [[Gambit]] — Agent eval framework: synthetic scenarios, trace grading, regression suites
+- [[Woodshed]] — Evals for Claude skills: create variants, run against fixtures, iterate
+- [[Fresh Eyes]] — Send code to a different AI model for review, addressing same-model blind spots
+- [[AI PR Reviewer]] — GitHub Action: Claude reviews PRs for $0.003-$0.02 each
+- [[Learn from PRs Skill]] — Turn review comments into preventive rules. Feedback loop closes automatically
+- [[dotnet Slopwatch]] — LLM anti-cheat for .NET: catches disabled tests, empty catches, reward hacking
+- [[Trycycle]] — Hill-climbing skill: plan-strengthen-review with fresh agents at every stage
+- [[Verbose Deployment]] — 10-phase composable deployment pipeline as Claude Code skills
+- [[Prefix Effects]] — Early naming decisions create gravity that shapes all subsequent AI-generated code
+- [[Write Only Code]] — AI-generated code nobody reads. Slop Radius as the key safety metric
+- [[Awesome Agentic Patterns]] — Catalogue of 169+ production-ready patterns from Sourcegraph's experience
+- [[AI Coding Tools Create More Bugs Than They Fix]] — 40% of vibe-coded apps expose user data; AI assistants introduce vulnerabilities then falsely claim to have secured them
+- [[Citations for Accurate Long Form Content]] — One-sentence prompt fix: citation callouts let subagents fact-check claims locally instead of re-deriving everything from scratch
+- [[Agentic Manual Testing]] — Simon Willison on making agents verify their own output via execution: `python -c`, `curl`, Playwright/Rodney/Showboat. Automated tests aren't enough
+- [[Getting Claude to QA Its Own Work]] — Skyvern's MCP server + Claude Code skills for diff-driven browser QA. 30%→70% PR success rate, narrow-scope CI to avoid flaky E2E sprawl
+- [[Teaching Claude to QA a Mobile App]] — Android QA in 90 min via CDP; iOS in 6+ hours of workarounds. Plus a cautionary tale of agent worktree escape

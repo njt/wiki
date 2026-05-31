@@ -68,6 +68,32 @@ The most interesting development is kanban boards as the human-agent coordinatio
 
 #orchestration #planner-worker-judge #kanban #task-graphs #coordination #alignment
 
----
-*Synthesis of: [[Cord]], [[Dorothy]], [[Agent of Empires]], [[klaw.sh]], [[maestro]], [[Orchestrator - Worker Skill]], [[Scaling Long-Running Agents]], [[speedrift-ecosystem]], [[Managing Agents via Kanban Boards]], [[ralph-ban]], [[vibe-kanban]], [[weft]], [[workgraph]], [[poietic]], [[Zero Alignment]], [[Loomkin]], [[Process-Based Concurrency BEAM OTP]], [[Ralph]], [[How Hightouch Built Their Long-Running Agent Harness]]*
-*Last updated: 2026-05-14*
+## Pages
+
+- [[Parallel Coding Agents Guide]] — Peltz's field guide to running multiple agents simultaneously: worktree isolation, the review bottleneck, and agent selection
+- [[Cord]] — Dynamic task tree coordination with spawn/fork/ask primitives
+- [[Tracker]] — Pipeline orchestration engine for multi-agent LLM workflows: static DAG with conditional routing, three backends, sentinel-protected audit trail, ~67K lines of production Go
+- [[Dorothy]] — MCP-first desktop app: 5 servers, 40+ tools, parallel agents, Kanban auto-assignment, event-driven automations from GitHub/JIRA
+- [[acpx]] — Headless CLI client for the Agent Client Protocol: one command surface wrapping 16+ coding agents with persistent sessions, prompt queueing, and a flow runtime
+- [[Agent of Empires]] — Session manager for parallel agents in Rust with git worktree integration
+- [[klaw.sh]] — kubectl for AI agents: Kubernetes-style lifecycle, namespace isolation, cron
+- [[maestro]] — Multi-agent team: PM interviews, Architect specs, Coders pull from a queue
+- [[Orchestrator - Worker Skill]] — Single skill combining orchestrator and worker roles
+- [[TDD Coordinator (Corazonn)]] — Claude Code `/go` slash command orchestrating subagents through TDD cycles with a mandatory Rule of Two quality gate
+- [[Scaling Long-Running Agents]] — Cursor's finding: flat self-coordination fails; planner/worker/judge works
+- [[speedrift-ecosystem]] — Autonomous dark-factory control plane supervising agent work across repos
+- [[What Ralph Wiggum Loops Are Missing]] — The graduation path from bash loops to structured dependency management: why freeform markdown tracking breaks under multi-agent load
+- [[Fleet of Agents (sermakarevich)]] — Five-step tutorial from single agent to parallel fleet with atomic claiming and Q&A blocking. The Ralph Wiggum graduation path made explicit and teachable
+- [[Managing Agents via Kanban Boards]] — Task status transitions as the signaling mechanism between humans and agents
+- [[ralph-ban]] — TUI kanban board for agents. Five columns, vim nav, SQLite, real-time sync
+- [[vibe-kanban]] — Kanban boards for assigning work to coding agents with inline diff review
+- [[weft]] — Cloudflare-hosted task board where agents work and humans approve
+- [[workgraph]] — Persistent task graph: agents come and go, the graph remains. JSONL on disk
+- [[poietic]] — Human-machine collaboration via shared dependency graphs with claims and handoffs
+- [[Mission Control — Bhanu's 10-Agent Squad on OpenClaw]] — 10 specialized agents, file-based memory, heartbeat loops, Convex-backed Kanban: the best published production multi-agent reference architecture
+- [[Gas Town's Agent Patterns]] — Appleton dissects Yegge's unhinged agent orchestrator: vibe design is the real danger, hierarchical roles and ephemeral sessions are the patterns worth keeping
+- [[Agent Orchestration for the Timid]] — Ferree tests five orchestration tools after a bad Gas Town experience, concludes Claude-native skills and slash commands beat all of them
+- [[Zero Alignment]] — Team alignment is the new bottleneck. One dev with 24 agents produces chaos
+- [[barnstormer]] — 2389 Research's agentic spec builder: AI swarm builds living product specs as kanban cards, event sourcing, phase-gated workflow, portable DOT/Markdown/YAML artifacts
+- [[Loomkin]] — Multi-agent platform on Erlang/OTP: spawn in 500ms, PubSub in microseconds
+- [[Process-Based Concurrency BEAM OTP]] — BEAM's actor model is what agent frameworks keep reinventing

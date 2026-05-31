@@ -1,6 +1,6 @@
 # Wiki Index
 
-204 individual pages + 11 synthesis pages from Nat's 2026 Technical Link Pile.
+469 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -20,111 +20,13 @@ Cross-cutting analysis that pulls threads across individual pages.
 
 ## Agentic Development
 
-Practices, workflows, and opinions about building software with AI coding agents.
+Practices, workflows, and opinions about building software with AI coding agents. **Hub: [[Agent Coding Workflow]]**
 
-- [[Agentic Software Engineering (Hassan)]] — The canonical text: full-stack engineering discipline for trustworthy software from stochastic AI teammates. SE 1.0→3.0, four trust disciplines, McDonald's layered verification, Ferrari vs. donkey
-- [[Addy Osmani's Workflow]] — Start with spec.md, work in focused chunks, review like a senior engineer
-- [[AI for Product Management]] — Three-layer prompt architecture for LLMs as skeptical PM sparring partners, grounded by MCP
-- [[AI Zealotry]] — Senior engineers should embrace AI tools; high-level thinking is now the differentiator
-- [[Opus 4.5 Changes Everything]] — Burke Holland builds four apps with Opus 4.5, shares his AI-first prompt, and confesses ambivalence about the craft he spent a lifetime learning
-- [[How Boris Uses Claude Code]] — The creator of Claude Code on how he actually uses it
-- [[How Claude Code Works in Large Codebases]] — Anthropic's official guide: seven harness components, three configuration patterns, and the case that setup matters more than the model
-- [[Gas Town After 10,000 Hours of Claude Code]] — Hartcher rejects Gas Town's delegation model for pair-programming agency; beads pollute git, token speed kills the experience
-- [[HN Opus 4.5 Is Not the Normal AI Agent Experience]] — 1,353-comment HN thread as accidental focus group: compiler-as-guardrail, training-data proximity, and the skeptic-conversion workflow
-- [[HN Don't Fall Into the Anti-AI Hype]] — 1,631-comment HN thread as accidental debate on what LLMs are: entropy/convergence theory, lossy compression vs. learned relations, and the conditions under which LLMs actually work
-- [[How Intercom Uses Claude Code]] — 13 plugins, 100+ skills, hooks, and OpenTelemetry observability: the most comprehensive enterprise Claude Code deployment published
-- [[Inside the AI Workflows of Every's Six Engineers]] — Six engineers, same company, six radically different AI stacks converging on planning-first, multi-model, guardrail-heavy workflows
-- [[Minions — Stripe's One-Shot Coding Agents]] — 1,000+ unattended PRs/week on hundreds of millions of LOC. Forked Goose, 400 MCP tools, two CI rounds max
-- [[Inside OpenAI's In-House Data Agent]] — Codex agents autonomously run OpenAI's 600PB data platform. The hard problem isn't model intelligence — it's making the company's data reality legible to the agent
-- [[Trading Ideas — Claude Equity Research Plugin]] — One-slash-command equity research: structured prompt as institutional analyst, marketplace as distribution, form-over-substance danger
-- [[2389 Plugin Marketplace]] — 26 plugins and 4 MCP servers from 2389 Research: the largest third-party Claude Code plugin collection, and a bet on marketplaces as the distribution model for agent capabilities
-- [[Simmer Skill]] — 2389 Research's iterative artifact refinement skill: judge-generator loops that self-hone via meta-iteration, converging in 3-5 rounds by leveraging pretrained competence plus targeted feedback
-- [[How to Write a Good Spec for Agents]] — Five principles for specs that make agents productive
-- [[Automatic Programming]] — antirez draws a bright line: AI-assisted programming with human vision vs. vibe coding as abdication. "Programming is now automatic, vision is not (yet)"
-- [[The Plan Is the Program]] — Tyler Angert's aphorism unpacked: when tools collapse intent and execution, the plan becomes the atomic unit of work
-- [[The Lifecycle of a Swamp Issue]] — Five-phase state machine for agent-driven development: triage, planning, adversarial review, iteration, implementation. The agent physically cannot skip steps
-- [[Structured-Prompt-Driven Development]] — SPDD: prompts as version-controlled delivery artifacts via a 7-part REASONS Canvas and 6-step workflow
-- [[Spec-Driven Development]] — Specs, tests, and code form a triangle, not a pipeline
-- [[Code Field]] — Resist the urge to over-specify; let the code emerge smaller than your first instinct
-- [[Compound Engineering]] — When you can't trust the output, add a system, not manual review
-- [[ctx – Agentic Development Environment]] — Local-first ADE: multi-agent orchestration with worktree isolation, container sandboxing, and a local merge queue
-- [[recursive-mode]] — File-backed, phase-gated agent workflow: numbered artifacts from requirements through closeout, with recursive audit loops
-- [[AI-Driven Development Life Cycle]] — AWS's three-phase AI-native methodology replacing Agile: bolts not sprints, human checkpoints not human review
-- [[Cognitive Debt]] — When velocity exceeds comprehension. Code is cheaper to produce than to perceive
-- [[Slowing the Fuck Down]] — Deliberate friction in AI-assisted development is a feature, not a bug
-- [[I Don't Want Your PRs Anymore]] — LLMs invert open-source economics: maintainers generate code faster than they can review stranger PRs. The fork as preferred outcome
-- [[Radical Accountability]] — AI eliminates the excuse of insufficient engineering time. Taste is all that's left
-- [[The Mythical Agent-Month]] — Agents attack accidental complexity but generate new accidental complexity
-- [[acceleration-flow]] — AI-assisted coding as slot machine gambling: near-misses create dopamine loops
-- [[Breaking the Spell of Vibe Coding]] — Rachel Thomas diagnoses vibe coding as gambling addiction: dark flow, LDW dopamine hits, and the 40% productivity perception gap
-- [[Five Levels from Spicy Autocomplete to the Dark Software Factory]] — Five-level framework for AI-assisted development, echoing NHTSA driving automation
-- [[The Cult of Vibe Coding Is Insane]] — Bram Cohen torches the "never look at code" extremists: pure vibe coding is a myth, the framework IS the engineering
-- [[Refactor Legacy Code with Copilot]] — Copilot prompt patterns for legacy modernization across four languages; shallow on the hard problems
-- [[A Practical Guide to Brownfield AI Development]] — Pupius's field guide to making agents productive in legacy codebases: tests as system boundaries, docs as context, compromise as strategy. The best brownfield AI piece in the wiki
-- [[On a Year of Multi-Model Development]] — Hoffman's field report on Claude+Codex+Gemini via shared MCP: construction-trade model taxonomy, 25-71x acceleration, specification as bottleneck
-- [[Talking to Transformers]] — Four pillars for effective LLM prompting: attention as budget, domain language as compression
-- [[The Claude C Compiler]] — Lattner's verdict: AI implements known abstractions well but invents nothing new
-- [[Building low-level software with only coding agents]] — Pixo: 38K lines of Rust, 900+ tests, zero hand-written code, $2,871
-- [[Coding Agents and Complexity Budgets]] — Lee Robinson's $260 weekend migration of cursor.com off a headless CMS: agents need grep, not GUIs
-- [[RepoMirror]] — While-loop agent porting: 6 codebases, 1,100 commits, $800, one night. Simple prompts beat complex ones
-- [[Building 200+ Integrations with OpenCode]] — 200 API integrations in 15 minutes for under $20
-- [[Slowing Down in the Age of Coding Agents]] — Odendahl's third in the series: e-ink annotation cycles, vocabulary drift detection, and why the bottleneck is now thinking, not typing
-- [[Simplicity in the Age of AI-Assisted]] — LLMs make it cheap to rebuild without inherited complexity
-- [[The Next Two Years of Software Engineering]] — Junior employment drops 9-10% after AI adoption; senior roles hold steady
-- [[ThoughtWorks Future of Software Engineering Retreat]] — Senior practitioners under Chatham House Rule: ten time-horizoned themes, the "middle loop" of supervisory engineering, cognitive debt, agent topologies as Conway's Law extension, TDD as prompt engineering
-- [[Two Kinds of User Are Emerging]] — Power users vs casual users; many power users are non-technical professionals
-- [[HN RIP Low-Code 2014-2025]] — 157-comment HN focus group on whether AI kills low-code: the consensus is low-code becomes the abstraction layer AI agents need, but maintenance is the real cost
-- [[AI Killing B2B SaaS]] — Vibe coding threatens SaaS, but hastily-built solutions lack security and compliance
-- [[The Road Runner Economy]] — Noah Raford's case that the software industry already crossed the cliff: Christmas 2025 was the phase transition, "one-shat" is the unit of economic destruction, and "this meeting could have been a prompt"
-- [[Cyborgs Will Kill the Corporation]] — AI agents as human exoskeleton: when transaction costs collapse, the firm decomposes into excorporations, plankton, and protocols
-- [[Claude Chic]] — Wes McKinney's alternative TUI for Claude Code with live roborev review sidebar, built on Textual + Claude Agent SDK
-- [[Claude Code Cheat Sheet]] — Comprehensive reference for Claude Code v2.1.140
-- [[The Claude Code Playbook]] — Five beginner-to-intermediate tips: MCPs, CLAUDE.md, plan mode, Max plan economics, IDE diagnostics
-- [[A Guide to Claude Code 2.0]] — Sankalp's deep tour of CC 2.0: sub-agents, skills, hooks, system reminders, and context engineering as a discipline
-- [[TextForge Case Study]] — Stannard's six-layer discipline for greenfield LLM development: planning, reference architectures, skills, PRDs, verification pipelines, snapshot testing
-- [[There Is No Spoon]] — ML primer built on physical analogies (neurons as polarizing filters, depth as paper folding), conversationally constructed with Claude, designed for interactive AI-aided exploration
-- [[Claude Code on the Go]] — Mobile-first workflow: agents on a cloud VM, controlled from an iPhone
-- [[MobileVibe]] — Mobile app controlling coding agents on your own desktop: local execution, phone as terminal
-- [[Agent Flywheel]] — Jeffrey Emanuel's one-command VPS installer + planning-first Flywheel Methodology for coordinating 10+ agents. Idempotent, 30-min setup, $440-656/month all-in
-- [[CLAUDE.md (Universal)]] — Six token-efficient rules for making Claude behave sensibly
-- [[Writing a Good CLAUDE.md]] — HumanLayer's guide: short, universal, hand-crafted, linters-not-prompts. The instruction-budget case for brevity
-- [[Benchmarking AGENTS.md Changes]] — Stet ran Codex through 8 AGENTS.md iterations against real PRs; the best candidate still regressed on a holdout. AGENTS.md inversion and the case for empirical instruction engineering
-- [[Intent Layer]] — Railly Hugo's hierarchical AGENTS.md at folder boundaries: giving agents the tacit knowledge senior engineers carry
-- [[Anatomy of the .claude/ Folder]] — Avi Chawla's structural reference: every directory and file in .claude/, from CLAUDE.md to agents/, with a five-step setup progression
-- [[claude-code-config (Trail of Bits)]] — Security-conscious Claude Code defaults from Trail of Bits
-- [[claude-ctrl]] — Enforcement via hooks and SQLite, not prompts. "An instruction in context is not a constraint"
-- [[Claude Code is a Beast — Tips from 6 Months of Hardcore Use]] — Solo dev rewrites 300k LOC in 6 months: skills auto-activation via hooks, dev docs system, PM2 pipeline, 11 subagents. Best single-developer Claude Code workflow writeup
-- [[Collaborator]] — Infinite canvas desktop app: agents, terminals, and context files side by side
-- [[Pencil]] — MCP-native design canvas inside your IDE. Agent-driven, open format, Git-versioned design files
-- [[MinMax Skills]] — Development skills library for coding agents: frontend, mobile, Flutter, media
-- [[Binary RE]] — Binary reverse engineering skills for Claude Code
-- [[OpenSpec]] — Spec-driven planning layer with spec deltas for intent-based review
-- [[Specsmaxxing]] — YAML-based acceptance criteria with stable IDs (ACIDs) threading specs through code, tests, and a review dashboard
-- [[Summarize Meetings Skill]] — Meeting transcript processing expressed as a DOT digraph
-- [[Kata]] — Local-first issue tracker for AI-assisted work. Agent CLI + human TUI, SQLite
-- [[agent-pr-replay]] — Replay merged PRs with Claude Code and compare agent vs human output
-- [[happy]] — Mobile and web client for Claude Code with realtime voice and encryption
-- [[vibes-cli]] — GUI framework for Claude Code designed for non-coders. Single-file HTML apps
-- [[life-system]] — Personal life OS on plain-text markdown with Claude Code as accountability partner
-- [[Scaling LLMs to Larger Codebases]] — Gill's guidance/oversight framework for where to invest engineering resources: prompt libraries and codebase health as feedforward, automated enforcement and verification as feedback
-- [[Designing Agentic Loops]] — Simon Willison names the meta-skill: choosing tools, guardrails, and success criteria so YOLO-mode agents converge. Shell commands beat MCP, tests are the force multiplier
-- [[Simon Willison — Engineering Practices That Make Coding Agents Work]] — Willison's Pragmatic Summit talk: the adoption ladder's newest rung (don't read the code), TDD as the agent unlock, conformance-driven development, the lethal trifecta, and why cognitive exhaustion might save our careers
-- [[MCP Is Dead; Long Live MCP]] — Chen's rebuttal to the CLI-everything pendulum: local MCP is often unnecessary, but HTTP MCP is transformative for orgs. The local/remote split is the missing variable in the debate
-- [[Don't Fear the Dark Factory]] — Matt Wynne's conversion narrative: the dark factory is a validation problem, not a generation problem. Simple loop + good harness, and the TDD parallel
-- [[Don't Wait for Claude]] — The bottleneck isn't Claude's speed, it's managing parallel sessions without losing context. Problem-priority navigation over session-priority
-- [[If AI Is Doing the Investigation, Version the Investigation]] — Fletcher's Cases pattern: commit the AI session transcript next to the code so the investigation survives the session
-- [[Probabilistic Engineering and the 24-7 Employee]] — Tim Davis: the deterministic contract is broken, validation doesn't scale with generation, and the overnight agent fleet creates a training crisis where craft atrophies
-- [[0xSero]] — Agent infrastructure practitioner: REAP-pruned models calibrated for agentic coding, ai-data-extraction toolkit, BYOK long-running autonomous workflows
-- [[Claude Sidecar]] — Parallel AI window alongside Claude Code: share context with Gemini, GPT, DeepSeek, fold results back
-- [[How to Effectively Write Quality Code with AI]] — Heidenstedt's twelve principles: every decision you don't document, the AI will make for you — usually badly
-- [[Codex-maxxing]] — Jason Liu's field report on pushing Codex beyond coding: durable threads, voice input, steering, Heartbeat automations, and an Obsidian vault as agent memory
 ## Agent Design & Architecture
 
 How to build agents: frameworks, runtimes, design patterns, and production concerns.
 
-- [[Agency]] — Composable agents from reusable natural-language primitives via MCP
 - [[UBTRIPPIN Dispatches]] — Trip Livingston, an AI that applied unprompted for a COO job and now runs a travel startup: weekly build dispatches that are identity formation as public artifact
-- [[Agency]] — Composable agents from reusable natural-language primitives via MCP. Surgical prompt improvement: change one primitive, not the whole prompt. 26→60 case study
 - [[Agent Identity]] — Memory is retrieval; identity is participation. Why agents need a stake, not just a log
 - [[Smart Models Dumb Pipes]] — LLMs as judgment machines, not Q&A machines. The end-to-end principle applied to AI: smart models own decisions, dumb pipes own execution
 - [[Elysia]] — Weaviate's decision-tree agent framework: constrain tool choice per node rather than dumping all tools into context
@@ -132,7 +34,6 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Mirage (VFS)]] — Unified virtual filesystem mounting 27+ services (S3, Slack, GitHub, Postgres, etc.) behind a single POSIX tree so agents use bash instead of per-service SDKs
 - [[Components of a Coding Agent]] — The harness matters more than the model. Six components, precise taxonomy (LLM/reasoning-model/agent/harness), mini-coding-agent reference implementation
 - [[Agent-Native Architectures (Every)]] — Every's definitive design guide: five principles (parity, granularity, composability, emergent capability, improvement over time), files as universal interface, anti-patterns, and mobile resilience patterns
-- [[Components of a Coding Agent]] — The harness matters more than the model. Six core components identified
 - [[Honey I Shrunk the Coding Agent]] — 9B local model jumps from 19% to 46% on Aider Polyglot by redesigning the scaffold around the model's behavioral profile. Empirical proof that the harness matters more than the model
 - [[Building an AI Agent in Rails (Ionescu)]] — Field report: bolting an AI agent onto a 7-year-old Rails monolith with Pundit-scoped tool calling
 - [[From AI Studio to AI Forge]] — McCormick's five-plane stack for agent autonomy: "human changes altitude" as the cleanest framing of supervisory control
@@ -174,199 +75,32 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Open Design]] — Local-first design workspace with 16-agent runtime abstraction, skill pipeline, and five-panelist critique jury that auto-converges on quality thresholds
 - [[OpenAI Structured Outputs]] — Guaranteed JSON schema adherence from the API: protocol-level constraint beats prompt-level pleading
 - [[Moltbook]] — Simon Willison on the AI-only social network bootstrapped via OpenClaw skills: heartbeat-driven agents, the lethal trifecta in production, and whether we can build a safe version
-
 - [[Resident — ESP32 Lua Sandbox with Agent Skills]] — Sandboxed Lua runtime for ESP32 with hot-reload. AI agents write and push apps to physical devices via Claude Code plugin
 - [[Golem Covenant]] — v0.1 spec framework for bounded, answerable, revocable agents: five-organ taxonomy (Mouth/Purse/Seal/Key/Sword), default-deny, tested return-to-dust before launch
 
 ## Agent Orchestration & Coordination
 
-Multi-agent systems, task graphs, kanban boards, and coordination patterns.
-
-- [[Parallel Coding Agents Guide]] — Peltz's field guide to running multiple agents simultaneously: worktree isolation, the review bottleneck, and agent selection
-- [[Cord]] — Dynamic task tree coordination with spawn/fork/ask primitives
-- [[Tracker]] — Pipeline orchestration engine for multi-agent LLM workflows: static DAG with conditional routing, three backends, sentinel-protected audit trail, ~67K lines of production Go
-- [[Dorothy]] — MCP-first desktop app: 5 servers, 40+ tools, parallel agents, Kanban auto-assignment, event-driven automations from GitHub/JIRA
-- [[acpx]] — Headless CLI client for the Agent Client Protocol: one command surface wrapping 16+ coding agents with persistent sessions, prompt queueing, and a flow runtime
-- [[Agent of Empires]] — Session manager for parallel agents in Rust with git worktree integration
-- [[klaw.sh]] — kubectl for AI agents: Kubernetes-style lifecycle, namespace isolation, cron
-- [[maestro]] — Multi-agent team: PM interviews, Architect specs, Coders pull from a queue
-- [[Orchestrator - Worker Skill]] — Single skill combining orchestrator and worker roles
-- [[TDD Coordinator (Corazonn)]] — Claude Code `/go` slash command orchestrating subagents through TDD cycles with a mandatory Rule of Two quality gate
-- [[Scaling Long-Running Agents]] — Cursor's finding: flat self-coordination fails; planner/worker/judge works
-- [[speedrift-ecosystem]] — Autonomous dark-factory control plane supervising agent work across repos
-- [[What Ralph Wiggum Loops Are Missing]] — The graduation path from bash loops to structured dependency management: why freeform markdown tracking breaks under multi-agent load
-- [[Fleet of Agents (sermakarevich)]] — Five-step tutorial from single agent to parallel fleet with atomic claiming and Q&A blocking. The Ralph Wiggum graduation path made explicit and teachable
-- [[Managing Agents via Kanban Boards]] — Task status transitions as the signaling mechanism between humans and agents
-- [[ralph-ban]] — TUI kanban board for agents. Five columns, vim nav, SQLite, real-time sync
-- [[vibe-kanban]] — Kanban boards for assigning work to coding agents with inline diff review
-- [[weft]] — Cloudflare-hosted task board where agents work and humans approve
-- [[workgraph]] — Persistent task graph: agents come and go, the graph remains. JSONL on disk
-- [[poietic]] — Human-machine collaboration via shared dependency graphs with claims and handoffs
-- [[Mission Control — Bhanu's 10-Agent Squad on OpenClaw]] — 10 specialized agents, file-based memory, heartbeat loops, Convex-backed Kanban: the best published production multi-agent reference architecture
-- [[Gas Town's Agent Patterns]] — Appleton dissects Yegge's unhinged agent orchestrator: vibe design is the real danger, hierarchical roles and ephemeral sessions are the patterns worth keeping
-- [[Agent Orchestration for the Timid]] — Ferree tests five orchestration tools after a bad Gas Town experience, concludes Claude-native skills and slash commands beat all of them
-- [[Zero Alignment]] — Team alignment is the new bottleneck. One dev with 24 agents produces chaos
-- [[barnstormer]] — 2389 Research's agentic spec builder: AI swarm builds living product specs as kanban cards, event sourcing, phase-gated workflow, portable DOT/Markdown/YAML artifacts
-- [[Loomkin]] — Multi-agent platform on Erlang/OTP: spawn in 500ms, PubSub in microseconds
-- [[Process-Based Concurrency BEAM OTP]] — BEAM's actor model is what agent frameworks keep reinventing
+Multi-agent systems, task graphs, kanban boards, and coordination patterns. **Hub: [[Agent Orchestration]]**
 
 ## Memory & Context
 
-Persistence, retrieval, knowledge management, and context engineering for agents.
-
-- [[Claude-Mem]] — Captures everything Claude does, compresses it, injects context into future sessions
-- [[CodeMira]] — Mira OS memory architecture adapted for coding: SQLite + hnswlib + FTS5
-- [[Context Is Not Learning]] — Jayendran: context is software, weights are hardware. Longer context windows can't substitute for new computational pathways
-- [[Context Rot]] — RAG quality degrades over time; Wilson scoring + dynamic weighting fixes it
-- [[Memory Mechanism]] — xAI's five memory types and five-layer hierarchy. Best taxonomy I've seen
-- [[How AI Agent Memory Works]] — Cobanov's interactive essay: the best single-page intro to agent memory architecture with production details, HyDE, RRF, and governance
-- [[Three Tier Memory]] — Hot constitution, 19 domain experts in warm tier, cold archive. 108K-line system
-- [[napkin]] — Per-repo markdown scratchpad where the agent logs its mistakes and learns
-- [[Planning With Files]] — Persistent markdown planning: context window is RAM, filesystem is disk
-- [[GraphRAG]] — Microsoft's structured RAG: knowledge graphs and community hierarchies
-- [[NornicDB]] — Graph + vector + temporal DB with built-in memory decay for agent memory
-- [[Stash]] — Self-hosted persistent memory for AI agents. MCP-native, 8-stage cognitive consolidation pipeline: episodes→facts→relationships→patterns, with contradiction detection, hypothesis verification, causal tracing, and confidence decay
-- [[robot.wtf]] — Git-backed wiki with MCP support where humans and agents share memory
-- [[LLM Wiki]] — Karpathy's pattern for AI-maintained personal knowledge bases. This wiki's model
-- [[mira-OSS]] — Persistent agent framework: one conversation forever, first-person narrative memory
-- [[Engineering the Substrate]] — Mira's first-person account: subcortical memory vs RAG, attention-head instrumentation, RLHF counter-measures, the Siphon State
-- [[AI Agents with Human-Like Collaborative Tools]] — Journaling and social media tools improve agent problem-solving 15-40%
-- [[Reality Check]] — Epistemic knowledge base: claims with evidence levels, credence scores, prediction tracking, argument chains. Agent-native
-- [[Cosmo's Blog]] — Claude-generated Hugo blog on GitHub Pages: AI writes everything (posts, templates, workflows, skills), human approves. Reference implementation for publishing AI-maintained content as a static site
-- [[jibrain Knowledge Architecture]] — Joi's production knowledge architecture for agents: three-tier pipeline, frontmatter-as-contract, reweave pass, seven-gate health audit
-- [[Wuphf — Karpathy-Style Agent Wiki]] — Markdown+git wiki substrate for agent teams. BM25+SQLite, draft-to-promote flow, daily lint cron. The HN thread (115 comments) is an accidental focus group on whether agent-generated knowledge is knowledge at all
-- [[Claude Memory Extractor Research]] — 15-agent experiment finds agents dangerously overconfident on ambiguous cases: 100% convergence, zero epistemic humility. Multi-dimensional extraction beats single-pass, but only with structural safeguards
-- [[Immaculate Knowledge Graph]] — Harper Reed's lazy-first recipe: 600 meeting transcripts + Claude Code + Obsidian = a personal knowledge graph. The pipeline over the taxonomy
-- [[Memory Is a Mistake]] — Manthan Gupta's architectural teardown of OpenClaw memory and his essay arguing most AI products shouldn't ship memory. Six concrete failure modes, retrieval policy as the hard problem, legible state over implicit memory
+Persistence, retrieval, knowledge management, and context engineering for agents. **Hub: [[Agent Memory and Context]]**
 
 ## Quality & Guardrails
 
-Evals, testing, linting, feedback loops, and keeping agent output trustworthy.
-
-- [[Structural Backpressure Beats Smarter Agents]] — Brooks's taxonomy: behavioral gates (prompts) vs. structural gates (type systems). Deterministic gates beat smarter models for enforcing invariants in AI-generated code
-- [[Ratchets in Software Development]] — qntm's dirt-simple lint-time ratchet: count deprecated patterns, error if the count goes up. The ur-pattern behind deterministic enforcement
-- [[Feedback Loop is All You Need]] — Linters beat prompts. Your CLAUDE.md is a suggestion; your linter isn't
-- [[AI Needs to Think Before Giving Feedback]] — G-E-RG loop (Generate→Evaluate→Re-Generate) for AI feedback quality; the system that checks the generation is where the engineering lives
-- [[Harness Engineering]] — Böckeler's framework: feedforward vs. feedback, computational vs. inferential. The engineering theory behind "linters beat prompts"
-- [[Harness Engineering (OpenAI)]] — The original experiment: Lopopolo's team shipped 1M lines with zero handwritten code. 12 concrete practices, Symphony orchestrator, and the field report Böckeler responded to
-- [[Pre-Commit Lint Checks]] — Lint config is production infrastructure. Immutable by default
-- [[Demystifying Evals for AI Agents]] — Anthropic's definitive guide to rigorous, repeatable agent evaluation
-- [[LLM Evals]] — Hamel Husain: evals consume 60-80% of your time if you're doing it right
-- [[Benchmark Exploitation]] — Eight major agent benchmarks gamed to 100% without solving actual tasks
-- [[Gambit]] — Agent eval framework: synthetic scenarios, trace grading, regression suites
-- [[Woodshed]] — Evals for Claude skills: create variants, run against fixtures, iterate
-- [[Fresh Eyes]] — Send code to a different AI model for review, addressing same-model blind spots
-- [[AI PR Reviewer]] — GitHub Action: Claude reviews PRs for $0.003-$0.02 each
-- [[Learn from PRs Skill]] — Turn review comments into preventive rules. Feedback loop closes automatically
-- [[dotnet Slopwatch]] — LLM anti-cheat for .NET: catches disabled tests, empty catches, reward hacking
-- [[Trycycle]] — Hill-climbing skill: plan-strengthen-review with fresh agents at every stage
-- [[Verbose Deployment]] — 10-phase composable deployment pipeline as Claude Code skills
-- [[Prefix Effects]] — Early naming decisions create gravity that shapes all subsequent AI-generated code
-- [[Write Only Code]] — AI-generated code nobody reads. Slop Radius as the key safety metric
-- [[Awesome Agentic Patterns]] — Catalogue of 169+ production-ready patterns from Sourcegraph's experience
-- [[AI Coding Tools Create More Bugs Than They Fix]] — 40% of vibe-coded apps expose user data; AI assistants introduce vulnerabilities then falsely claim to have secured them
-- [[Citations for Accurate Long Form Content]] — One-sentence prompt fix: citation callouts let subagents fact-check claims locally instead of re-deriving everything from scratch
-- [[Agentic Manual Testing]] — Simon Willison on making agents verify their own output via execution: `python -c`, `curl`, Playwright/Rodney/Showboat. Automated tests aren't enough
-- [[Getting Claude to QA Its Own Work]] — Skyvern's MCP server + Claude Code skills for diff-driven browser QA. 30%→70% PR success rate, narrow-scope CI to avoid flaky E2E sprawl
-- [[Teaching Claude to QA a Mobile App]] — Android QA in 90 min via CDP; iOS in 6+ hours of workarounds. Plus a cautionary tale of agent worktree escape
+Evals, testing, linting, feedback loops, and keeping agent output trustworthy. **Hub: [[Guardrails and Feedback Loops]]**
 
 ## Security & Sandboxing
 
-Isolation, credentials, prompt injection defense, and agent safety.
-
-- [[matrix3]] — Tavis Ormandy's uMatrix successor for MV3: declarative content policy via CSP, proving the linter-not-prompts pattern in browser security
-- [[A Deep Dive on Agent Sandboxes]] — How Codex sandboxes agent execution: Seatbelt, Landlock, seccomp
-- [[yolo-cage]] — Agents that can't exfiltrate secrets or merge their own PRs. Vagrant + egress proxy
-- [[Attack Review -- Claude Allowlisted-Egress Exfiltration]] — lhl's shisad framework vs. Claude Pirate and Cowork: four-stage kill chain analysis proving security is architecture, not patches
-- [[OpenSandbox]] — Alibaba's sandbox platform for AI: Docker, Kubernetes, gVisor, Firecracker
-- [[Navaris]] — Unified sandbox control plane: containers or microVMs, one API
-- [[Crabbox]] — Agent workspace control plane: lease throwaway cloud machines without sharing provider credentials. Brokered provisioning, 16 providers, warm reuse, PR evidence artifacts
-- [[Resident (ESP32 Sandbox)]] — Lua sandbox runtime for ESP32 devices built for AI agents. Inverts the sandbox metaphor: sandbox as host, not cage. Hermit crab architecture for agents inhabiting physical hardware
-- [[LLM Guard]] — 35 scanners for prompt injection, data leakage, and toxicity
-- [[OneCLI]] — Credential vault for agents: transparent proxy injection, no real keys exposed
-- [[Stockyard]] — Jesse Vincent's Firecracker micro-VM orchestrator for coding agents: ZFS snapshots via vsock, Tailscale networking, 1Password-backed secrets
-- [[HackAPrompt Dataset]] — 100K+ prompt injection attempts from a global hacking competition
-- [[You Dont Want Long-Lived Keys]] — Ephemeral credentials sidestep the rotation problem entirely
-- [[VTcode]] — Rust coding agent with OS-native sandboxing and comprehensive audit trails
-- [[Clawpatrol]] — Deno's transparent L3 firewall for agents: WireGuard/Tailscale tunneling, protocol-aware CEL rules (SQL/K8s/SSH/HTTPS), credential injection at the wire, human+LLM approval chains. Single Go binary, SQLite-backed
-- [[agentsh]] — Execution-layer security gateway: redirect instead of deny, FUSE+eBPF+seccomp, MCP-native security controls
-- [[Project Glasswing — Mythos at Cloudflare]] — Cloudflare's nine-stage vuln discovery harness on 50+ repos: exploit chain stitching, adversarial review, and why patching faster is a trap
-- [[audit (evilsocket)]] — Runnable MIT-licensed implementation of Cloudflare's Glasswing pipeline using Claude Code Agent SDK: 8 stages, 8 prompts, 9 schemas, SQLite state, concurrent agents
-- [[AI Cybersecurity After Mythos — The Jagged Frontier]] — Fort tests Mythos's claims against cheap open-weights models: 8/8 detect the flagship exploit. The moat is the scaffold, not the model
-- [[Cybersecurity Is Proof of Work Now]] — Security is a compute economics problem: outspend your attacker or stay vulnerable. Breunig's proof-of-work framing for the Mythos era
-- [[An Illustrated Guide to OAuth]] — Visual explainer of the authorization code flow: every piece of OAuth's complexity closes a specific attack vector
-- [[Hostnames and Usernames to Reserve]] — Which names to block on any user-registration platform: hostnames, emails, and URL paths that break protocol trust assumptions
-- [[Supply Chain Security for Software Developers]] — The 7-day rule and layered defenses against package attacks after TeamPCP's March-April 2026 campaign
-- [[You Should Not Update Your Dependencies in 2026]] — Olivier Gambier's case that dependency updates are now untrusted code contributions, Dependabot is an attack vector, and AI-in-CI is the only viable reviewer at scale
-- [[Zero Trust for AI Agents]] — Anthropic's definitive security framework: three-tier maturity model across eight capability domains. The "impossible vs. tedious" design test, Least Agency, and why rotating API keys is security theater
-- [[You Should Not Update Your Dependencies in 2026]] — Olivier Gambier: every dependency update is an untrusted contribution. Dependabot auto-merge is now an attack vector; programmatic AI review in CI is the only viable defense at scale
+Isolation, credentials, prompt injection defense, and agent safety. **Hub: [[Security and Sandboxing]]**
 
 ## Software Engineering
 
-Craft beyond agents: simplicity, error handling, reliability, specs, and project management.
-
-- [[14 More lessons from 14 years at Google]] — Osmani on organizational dynamics: meetings, reliability as product, team interfaces
-- [[Assorted less(1) Tips]] — Tim Chase's 17 less tricks plus HN's crowd-sourced addendum: a masterclass in deep tool knowledge, security footguns, and the pager as interactive programming environment
-- [[Better Error Messages]] — Say what happened, say why, reassure, give a way out, help fix it
-- [[Git Rebase for the Terrified]] — The rebase fear is irrational: your local clone is disposable, and the nuclear option costs nothing
-- [[Designing a Passively Safe API]] — After any failure: complete exactly once, or land in a visible terminal state
-- [[Idempotency Is Easy Until the Second Request Is Different]] — The hard cases: concurrent retries, partial failures, key reuse, recovery. 409 Conflict on same-key-different-command
-- [[Cashpoints Partners API]] — NZ loyalty-points POS API: two-phase commit via lock-then-commit, field warnings as scar tissue, and the refund clawback problem
-- [[Good API Design]] — Goedecke's practitioner's guide: boring over clever, immutability over versioning, product over interface
-- [[Having a Creative Practice as a Programmer]] — Programming as artistic practice: the parallel track of daily creative work that sustains craft over a career, separate from productive output
-- [[What You NEED to Know Before Touching a Video File]] — Video encoding craft guide: quality as fidelity-to-source, remuxing vs. reencoding, sharp opinions earned through mechanism understanding
-- [[Elements of Code]] — Rules for comprehensible software. "Wrong in correctable ways"
-- [[Patterns.dev]] — The definitive modern reference for web design, rendering, and performance patterns across vanilla JS, React, and Vue
-- [[Igor Schwarzmann Design Systems]] — A dead reference site, worth remembering for who built it: design systems as organizational strategy, not component libraries
-- [[The Future of Software Engineering is SRE]] — AI makes code trivial; operations becomes the differentiator
-- [[Platform Engineering End-to-End]] — Cavallin's full-lifecycle field guide: team composition, product management, operations, migrations, stakeholder politics, and the priority order for starting from zero
-- [[Spec-First Development at Benchling]] — Define each object once; let platform capabilities consume the schema
-- [[The Coming Need for Formal Specification]] — AI makes code cheap, review lags, and formal methods become the systematic answer to the mismatch
-
-- [[Systems Ideas That Sound Good]] — Sinofsky's eight engineering patterns that fail 9 out of 10 times
-- [[Microservices for the Benefits, Not the Hustle]] — Microservices are about changeability, not scalability; hard repo boundaries enforce cohesion that monoliths allow to erode
-- [[Nobody Knows How Large Software Projects Work]] — Complexity is inherent at scale; the team's value is answering questions
-- [[Capturing Why Engineering Decisions]] — HN thread on documenting decision rationale: docs survive next to code, ADRs as point-in-time RFCs, LLMs invert the economics of documentation
-- [[How I've Run Major Projects]] — Ben Kuhn: focus, detailed planning, fast OODA loops, overcommunication
-- [[When the Target Keeps Moving]] — Track discovery-to-delivery ratio to know if you're converging or diverging
-- [[Before Reading Code]] — Five git commands to diagnose codebase health before reading a single line
-- [[Common Diagram Mistakes]] — Seven anti-patterns in architecture diagrams. Most diagram failures are communication failures
-- [[Make the Easy Change Hard]] — Invert Beck's maxim: refactor the architecture first, then the easy feature writes itself. Async Rust war story
-- [[WebRTC Is the Problem]] — Ex-Twitch/Discord WebRTC engineer: the protocol is wrong for voice AI. QUIC fixes this. Eight RTTs to one, port-binding to connection migration, Redis-backed load balancers to stateless routing
-- [[Frozen Test Fixtures]] — Test the property, not the data: assertion patterns that survive fixture evolution
-- [[How HTML Changes in ePub]] — ePub is XHTML, not HTML5. Unlearn your web habits
-- [[Correct by Construction]] — Data quality as a whitelist: anchors, attributes, links, no NULLs
-- [[Anomaly Detection]] — Welford's algorithm + KV store. No ML, no config, just math
-- [[The Pragmatic Summit]] — Gergely Orosz's inaugural curated conference: 28 practitioner speakers, 3 tracks (Build/Frame/Lead), Thomas Dohmke's Entire.io reveal
-- [[A Field Guide to Bugs]] — Stephen Diehl's poetic taxonomy of 30+ bug species from Bohrbug to Omega Bug: half CS folklore, half literary performance, and the sharpest diagnosis of LLM-era failure modes in print
-- [[Book OCR Project Report — Structured Workflow Runtime and Manual PDF Repair]] — Manuel's full-arc project report: 202-page scanned book OCR, custom Go workflow runtime, structured JSON boundaries, and a day-long manual PDF repair loop that found five distinct failure classes. A masterclass in model-output engineering
+Craft beyond agents: simplicity, error handling, reliability, specs, and project management. **Hub: [[Software Engineering Craft]]**
 
 ## Databases & Data
 
-Storage engines, query patterns, data quality, and vector/graph databases.
-
-- [[AliSQL]] — Alibaba's MySQL fork: DuckDB columnar OLAP + native vector search. 200x speedup
-- [[Radicle]] — P2P sovereign code forge built on Git. Cryptographic identity, gossip protocol, no central server. The most serious decentralized GitHub alternative
-- [[Dolt]] — SQL database you can fork, clone, branch, merge. Git + MySQL
-- [[bucketvcs]] — Git server backed directly by cloud object storage: single Go binary, the bucket IS the repository, no database holds Git objects
-- [[Graft]] — SQLite replicated to the edge via object storage
-- [[SQLite is All You Need for Durable Workflows]] — SQLite + Litestream is the right default for agent workflow state; Postgres is the upgrade path, not the starting line
-- [[Write Snapshot Isolation]] — SI checks stale writes; WSI checks stale reads. Serializability in one fix
-- [[Dapper Performance Trap]] — NVARCHAR vs VARCHAR implicit conversion defeats indexes. Quiet perf killer
-- [[zvec]] — Alibaba's in-process vector DB. Billions of vectors, milliseconds, pip install
-- [[Shaper]] — SQL-driven dashboards powered by DuckDB. Chart types via casting syntax
-- [[sql-crack]] — VS Code extension: SQL queries as interactive execution flow diagrams
-- [[SiftRank]] — LLM-based document ranking with pairwise comparisons and inflection detection
-- [[Materialized Views Are Obviously Useful]] — Sophie Alpert: incremental view maintenance is obviously useful; databases should handle derived data, not application code
-- [[Long Live Systems of Record]] — Jamin Ball: agents don't kill systems of record, they raise the bar. "Where does the truth live" is the only question that matters
-- [[PgDog]] — PostgreSQL proxy combining connection pooling, load balancing, and sharding in one binary with zero application code changes
-- [[Postgres CDC in ClickHouse, A Year in Review]] — Field report on PeerDB's first year inside ClickHouse: 400+ customers, 200 TB/month, and the surprising complexity of making CDC feel boring
-- [[Metrics SQL]] — Rill Data's SQL dialect for querying a YAML-defined metrics layer. Transpiles to engine-native SQL with inferred GROUP BY, parameterized literals, and MCP server for AI agents
-- [[We Replaced Redis with MySQL for Inventory Reservations]] — Shopify's move from Redis to MySQL for inventory reservations: one-row-per-unit, SKIP LOCKED, and the case that connection pool pressure is the real bottleneck
-- [[DocDB — Stripe's Zero-Downtime Database]] — Stripe's internal MongoDB-based DBaaS: 2,000+ shards at 5M QPS. Zero-downtime data movement as platform primitive — resharding, version upgrades, and tenancy migrations are all the same operation
-- [[SQL Fraud Patterns (Fixel Smith)]] — Six composable SQL patterns for transaction fraud detection: velocity, impossible travel, amount anomalies, suspicious merchants, off-hours, and window-function primitives. Fraud rules as WHERE clauses, not ML models
-- [[BEAVER]] — First enterprise text-to-SQL benchmark from real private data warehouses. GPT-5.2 gets 10.8%; with all oracle hints, 30.1%. The gap between BIRD (82%) and enterprise reality is a chasm
-- [[KTX Context Layer for Data Agents]] — Open-source context layer for data agents: git-versioned wiki + executable semantic layer, ingested from dbt/Looker/Metabase, served via 11 MCP tools. Pre-merge validation gates on all agent writes
+Storage engines, query patterns, data quality, and vector/graph databases. **Hub: [[Databases and Data]]**
 
 ## Developer Tools
 
@@ -434,28 +168,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 
 ## Local & Personal Computing
 
-Tools that run on your own machines: voice, hardware, local inference, knowledge apps.
-
-- [[Doing]] — Fast local voice transcription for Mac. $49, no cloud, 150x realtime
-- [[Handy]] — Free open-source speech-to-text. Press shortcut, speak, release, pasted
-- [[Pocket TTS]] — 100M parameter text-to-speech with voice cloning. Runs on CPU, no GPU
-- [[Talon]] — Hands-free computer control: voice, mouth-sound clicks, eye tracking, Python scripts. Patreon-funded, local-first
-- [[Gemma Gem]] — Google's Gemma 4 running locally in Chrome via WebGPU. No cloud, no API keys
-- [[maclocal-api]] — Apple Silicon local inference: Foundation + MLX models, OpenAI-compatible API
-- [[Self-Hosted LLMs]] — Calculator: map your hardware to LLM performance and inference speed
-- [[AI Brain for Flipper]] — Voice-controlled AI for Flipper Zero hardware
-- [[RedGridLink]] — Offline MGRS navigation + BLE team sync for 2-8 people. No cell service
-- [[Thunderbolt]] — Mozilla/MZLA's open-source cross-platform AI client pivoting to enterprise: sovereign cloud, air-gapped deployments, ACP+MCP protocol support, deepset/Haystack partnership
-- [[SuperStation One]] — Affordable FPGA PS1 recreation on MiSTer-compatible Cyclone V hardware. Open-source from day 1 as competitive strategy against Analogue's proprietary premium pricing
-- [[Introduction to Obsidian]] — Practitioner's field report on Obsidian: file-over-app philosophy, plugin minimalism, honest graph-view skepticism
-- [[Lemonade (Local AI Server)]] — AMD-backed local multimodal AI server: chat, vision, image gen, speech behind an OpenAI-compatible API. Embeddable <10MB binary is the sleeper feature
-- [[A Few Words on DS4]] — antirez's DS4 crosses the local inference threshold: he now uses a local model instead of Claude/GPT for serious work. Model-agnostic shell, expert variants, distributed inference ambitions
-- [[DS4 (DwarfStar 4)]] — The C inference engine behind DS4: 65K lines, Metal/CUDA, mmap-loaded GGUF, asymmetric quantization, disk KV cache, OpenAI+Anthropic+Responses API, built in 1 week with GPT 5.5
-- [[tolaria]] — Open-source Obsidian alternative: files-first, git-first, AI-agent compatible
-- [[Upwelling]] — Ink & Switch editor: branching and merging for writers, not just programmers
-- [[Claude's System Prompt]] — Leaked Claude Opus 4.6 system prompt, read as a catalog of solved failure modes
-- [[Headscale]] — Open-source, self-hosted Tailscale control server. WireGuard mesh networking without the cloud. 38.4k stars
-- [[Locker]] — Open-source self-hostable Dropbox/Google Drive alternative: multi-store backends, AI knowledge base, plugin system, virtual bash shell
+Tools that run on your own machines: voice, hardware, local inference, knowledge apps. **Hub: [[Local and Open Source Inference]]**
 
 ## AI Research & Models
 
@@ -553,3 +266,4 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[Ben Vereen on Questlove Supreme]] — QLS 232: what happens when a celebrity interview combusts into oral history — Vereen traces identity through ancestry with his daughter in the room
 - [[How to Remove Mould from Clothing]] — Materials science meets domestic advice: the ink-in-a-sponge model for why some mouldy clothes can't be saved, and how prevention is systems design not housekeeping
 - [[Finding a Family — A Categorization of Enjoyable Emotions]] — First systematic taxonomy of 28 positive emotions into 8 families; the "hazardous emotions" category forces the distinction between feels-good and is-good
+- [[Vibe Maths and the Erdős Breakthrough]] — Amateur + ChatGPT cracks a 60-year-old conjecture; AI's superpower is innocence, not intelligence

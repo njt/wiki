@@ -64,6 +64,25 @@ The key insight from [[Doing]]: "LLMs know what you mean, even when your words a
 
 #local-inference #privacy #voice #document-parsing #hardware #apple-silicon
 
----
-*Synthesis of: [[maclocal-api]], [[Gemma Gem]], [[Self-Hosted LLMs]], [[Pocket TTS]], [[Doing]], [[Handy]], [[Dolphin]], [[Capybara]], [[AI Brain for Flipper]], [[tolaria]], [[QMD]], [[Data Engineering for Large Models]], [[MimiClaw]]*
-*Last updated: 2026-05-14*
+## Pages
+
+- [[Doing]] — Fast local voice transcription for Mac. $49, no cloud, 150x realtime
+- [[Handy]] — Free open-source speech-to-text. Press shortcut, speak, release, pasted
+- [[Pocket TTS]] — 100M parameter text-to-speech with voice cloning. Runs on CPU, no GPU
+- [[Talon]] — Hands-free computer control: voice, mouth-sound clicks, eye tracking, Python scripts. Patreon-funded, local-first
+- [[Gemma Gem]] — Google's Gemma 4 running locally in Chrome via WebGPU. No cloud, no API keys
+- [[maclocal-api]] — Apple Silicon local inference: Foundation + MLX models, OpenAI-compatible API
+- [[Self-Hosted LLMs]] — Calculator: map your hardware to LLM performance and inference speed
+- [[AI Brain for Flipper]] — Voice-controlled AI for Flipper Zero hardware
+- [[RedGridLink]] — Offline MGRS navigation + BLE team sync for 2-8 people. No cell service
+- [[Thunderbolt]] — Mozilla/MZLA's open-source cross-platform AI client pivoting to enterprise: sovereign cloud, air-gapped deployments, ACP+MCP protocol support, deepset/Haystack partnership
+- [[SuperStation One]] — Affordable FPGA PS1 recreation on MiSTer-compatible Cyclone V hardware. Open-source from day 1 as competitive strategy against Analogue's proprietary premium pricing
+- [[Introduction to Obsidian]] — Practitioner's field report on Obsidian: file-over-app philosophy, plugin minimalism, honest graph-view skepticism
+- [[Lemonade (Local AI Server)]] — AMD-backed local multimodal AI server: chat, vision, image gen, speech behind an OpenAI-compatible API. Embeddable <10MB binary is the sleeper feature
+- [[A Few Words on DS4]] — antirez's DS4 crosses the local inference threshold: he now uses a local model instead of Claude/GPT for serious work. Model-agnostic shell, expert variants, distributed inference ambitions
+- [[DS4 (DwarfStar 4)]] — The C inference engine behind DS4: 65K lines, Metal/CUDA, mmap-loaded GGUF, asymmetric quantization, disk KV cache, OpenAI+Anthropic+Responses API, built in 1 week with GPT 5.5
+- [[tolaria]] — Open-source Obsidian alternative: files-first, git-first, AI-agent compatible
+- [[Upwelling]] — Ink & Switch editor: branching and merging for writers, not just programmers
+- [[Claude's System Prompt]] — Leaked Claude Opus 4.6 system prompt, read as a catalog of solved failure modes
+- [[Headscale]] — Open-source, self-hosted Tailscale control server. WireGuard mesh networking without the cloud. 38.4k stars
+- [[Locker]] — Open-source self-hostable Dropbox/Google Drive alternative: multi-store backends, AI knowledge base, plugin system, virtual bash shell

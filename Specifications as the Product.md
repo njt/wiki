@@ -57,7 +57,3 @@ The traditional model: specs flow into code, code is the deliverable. The new mo
 ## Key Themes
 
 #spec-driven #disposable-code #intent-review #naming-as-alignment #pipeline-specs
-
----
-*Synthesis of: [[Spec-Driven Development]], [[OpenSpec]], [[Specsmaxxing]], [[The Dark Factory is a DOT File]], [[Spec-First Development at Benchling]], [[How to Write a Good Spec for Agents]], [[Trycycle]], [[Verbose Deployment]], [[Prefix Effects]], [[Write Only Code]], [[Simplicity in the Age of AI-Assisted]], [[The Claude C Compiler]]*
-*Last updated: 2026-05-14*

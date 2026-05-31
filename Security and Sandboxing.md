@@ -66,6 +66,30 @@ The core problem: you want agents powerful enough to be useful but constrained e
 
 #sandboxing #credentials #prompt-injection #defense-in-depth #enforcement
 
----
-*Synthesis of: [[A Deep Dive on Agent Sandboxes]], [[yolo-cage]], [[OpenSandbox]], [[Navaris]], [[LLM Guard]], [[OneCLI]], [[HackAPrompt Dataset]], [[You Dont Want Long-Lived Keys]], [[VTcode]], [[claude-code-config (Trail of Bits)]], [[claude-ctrl]], [[Zeroclaw]], [[Benchmark Exploitation]], [[Moltbook]], [[agentsh]]*
-*Last updated: 2026-05-15*
+## Pages
+
+- [[matrix3]] — Tavis Ormandy's uMatrix successor for MV3: declarative content policy via CSP, proving the linter-not-prompts pattern in browser security
+- [[A Deep Dive on Agent Sandboxes]] — How Codex sandboxes agent execution: Seatbelt, Landlock, seccomp
+- [[yolo-cage]] — Agents that can't exfiltrate secrets or merge their own PRs. Vagrant + egress proxy
+- [[Attack Review -- Claude Allowlisted-Egress Exfiltration]] — lhl's shisad framework vs. Claude Pirate and Cowork: four-stage kill chain analysis proving security is architecture, not patches
+- [[OpenSandbox]] — Alibaba's sandbox platform for AI: Docker, Kubernetes, gVisor, Firecracker
+- [[Navaris]] — Unified sandbox control plane: containers or microVMs, one API
+- [[Crabbox]] — Agent workspace control plane: lease throwaway cloud machines without sharing provider credentials. Brokered provisioning, 16 providers, warm reuse, PR evidence artifacts
+- [[Resident (ESP32 Sandbox)]] — Lua sandbox runtime for ESP32 devices built for AI agents. Inverts the sandbox metaphor: sandbox as host, not cage. Hermit crab architecture for agents inhabiting physical hardware
+- [[LLM Guard]] — 35 scanners for prompt injection, data leakage, and toxicity
+- [[OneCLI]] — Credential vault for agents: transparent proxy injection, no real keys exposed
+- [[Stockyard]] — Jesse Vincent's Firecracker micro-VM orchestrator for coding agents: ZFS snapshots via vsock, Tailscale networking, 1Password-backed secrets
+- [[HackAPrompt Dataset]] — 100K+ prompt injection attempts from a global hacking competition
+- [[You Dont Want Long-Lived Keys]] — Ephemeral credentials sidestep the rotation problem entirely
+- [[VTcode]] — Rust coding agent with OS-native sandboxing and comprehensive audit trails
+- [[Clawpatrol]] — Deno's transparent L3 firewall for agents: WireGuard/Tailscale tunneling, protocol-aware CEL rules (SQL/K8s/SSH/HTTPS), credential injection at the wire, human+LLM approval chains. Single Go binary, SQLite-backed
+- [[agentsh]] — Execution-layer security gateway: redirect instead of deny, FUSE+eBPF+seccomp, MCP-native security controls
+- [[Project Glasswing — Mythos at Cloudflare]] — Cloudflare's nine-stage vuln discovery harness on 50+ repos: exploit chain stitching, adversarial review, and why patching faster is a trap
+- [[audit (evilsocket)]] — Runnable MIT-licensed implementation of Cloudflare's Glasswing pipeline using Claude Code Agent SDK: 8 stages, 8 prompts, 9 schemas, SQLite state, concurrent agents
+- [[AI Cybersecurity After Mythos — The Jagged Frontier]] — Fort tests Mythos's claims against cheap open-weights models: 8/8 detect the flagship exploit. The moat is the scaffold, not the model
+- [[Cybersecurity Is Proof of Work Now]] — Security is a compute economics problem: outspend your attacker or stay vulnerable. Breunig's proof-of-work framing for the Mythos era
+- [[An Illustrated Guide to OAuth]] — Visual explainer of the authorization code flow: every piece of OAuth's complexity closes a specific attack vector
+- [[Hostnames and Usernames to Reserve]] — Which names to block on any user-registration platform: hostnames, emails, and URL paths that break protocol trust assumptions
+- [[Supply Chain Security for Software Developers]] — The 7-day rule and layered defenses against package attacks after TeamPCP's March-April 2026 campaign
+- [[You Should Not Update Your Dependencies in 2026]] — Olivier Gambier's case that dependency updates are now untrusted code contributions, Dependabot is an attack vector, and AI-in-CI is the only viable reviewer at scale
+- [[Zero Trust for AI Agents]] — Anthropic's definitive security framework: three-tier maturity model across eight capability domains. The "impossible vs. tedious" design test, Least Agency, and why rotating API keys is security theater

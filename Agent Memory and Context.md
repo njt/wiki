@@ -66,6 +66,29 @@ Context management is the real engineering challenge, not model ability. Every t
 
 #context-engineering #memory #retrieval #persistence #articulation #decay
 
----
-*Synthesis of: [[Memory Mechanism]], [[Three Tier Memory]], [[Context Rot]], [[Claude-Mem]], [[CodeMira]], [[napkin]], [[Planning With Files]], [[GraphRAG]], [[NornicDB]], [[robot.wtf]], [[LLM Wiki]], [[mira-OSS]], [[AI Agents with Human-Like Collaborative Tools]], [[How Hightouch Built Their Long-Running Agent Harness]], [[engineering-notebook]], [[Rowboat]]*
-*Last updated: 2026-05-14*
+## Pages
+
+- [[Claude-Mem]] — Captures everything Claude does, compresses it, injects context into future sessions
+- [[CodeMira]] — Mira OS memory architecture adapted for coding: SQLite + hnswlib + FTS5
+- [[Context Is Not Learning]] — Jayendran: context is software, weights are hardware. Longer context windows can't substitute for new computational pathways
+- [[Context Rot]] — RAG quality degrades over time; Wilson scoring + dynamic weighting fixes it
+- [[Memory Mechanism]] — xAI's five memory types and five-layer hierarchy. Best taxonomy I've seen
+- [[How AI Agent Memory Works]] — Cobanov's interactive essay: the best single-page intro to agent memory architecture with production details, HyDE, RRF, and governance
+- [[Three Tier Memory]] — Hot constitution, 19 domain experts in warm tier, cold archive. 108K-line system
+- [[napkin]] — Per-repo markdown scratchpad where the agent logs its mistakes and learns
+- [[Planning With Files]] — Persistent markdown planning: context window is RAM, filesystem is disk
+- [[GraphRAG]] — Microsoft's structured RAG: knowledge graphs and community hierarchies
+- [[NornicDB]] — Graph + vector + temporal DB with built-in memory decay for agent memory
+- [[Stash]] — Self-hosted persistent memory for AI agents. MCP-native, 8-stage cognitive consolidation pipeline: episodes→facts→relationships→patterns, with contradiction detection, hypothesis verification, causal tracing, and confidence decay
+- [[robot.wtf]] — Git-backed wiki with MCP support where humans and agents share memory
+- [[LLM Wiki]] — Karpathy's pattern for AI-maintained personal knowledge bases. This wiki's model
+- [[mira-OSS]] — Persistent agent framework: one conversation forever, first-person narrative memory
+- [[Engineering the Substrate]] — Mira's first-person account: subcortical memory vs RAG, attention-head instrumentation, RLHF counter-measures, the Siphon State
+- [[AI Agents with Human-Like Collaborative Tools]] — Journaling and social media tools improve agent problem-solving 15-40%
+- [[Reality Check]] — Epistemic knowledge base: claims with evidence levels, credence scores, prediction tracking, argument chains. Agent-native
+- [[Cosmo's Blog]] — Claude-generated Hugo blog on GitHub Pages: AI writes everything (posts, templates, workflows, skills), human approves. Reference implementation for publishing AI-maintained content as a static site
+- [[jibrain Knowledge Architecture]] — Joi's production knowledge architecture for agents: three-tier pipeline, frontmatter-as-contract, reweave pass, seven-gate health audit
+- [[Wuphf — Karpathy-Style Agent Wiki]] — Markdown+git wiki substrate for agent teams. BM25+SQLite, draft-to-promote flow, daily lint cron. The HN thread (115 comments) is an accidental focus group on whether agent-generated knowledge is knowledge at all
+- [[Claude Memory Extractor Research]] — 15-agent experiment finds agents dangerously overconfident on ambiguous cases: 100% convergence, zero epistemic humility. Multi-dimensional extraction beats single-pass, but only with structural safeguards
+- [[Immaculate Knowledge Graph]] — Harper Reed's lazy-first recipe: 600 meeting transcripts + Claude Code + Obsidian = a personal knowledge graph. The pipeline over the taxonomy
+- [[Memory Is a Mistake]] — Manthan Gupta's architectural teardown of OpenClaw memory and his essay arguing most AI products shouldn't ship memory. Six concrete failure modes, retrieval policy as the hard problem, legible state over implicit memory

@@ -70,6 +70,39 @@ This is an area to grow. The wiki has 197 pages and only 3 cover C#/.NET specifi
 
 #software-craft #error-handling #api-design #sre #simplicity #project-management
 
----
-*Synthesis of: [[Better Error Messages]], [[Designing a Passively Safe API]], [[Good API Design]], [[Elements of Code]], [[The Future of Software Engineering is SRE]], [[Systems Ideas That Sound Good]], [[Nobody Knows How Large Software Projects Work]], [[How I've Run Major Projects]], [[When the Target Keeps Moving]], [[Before Reading Code]], [[Correct by Construction]], [[Anomaly Detection]], [[14 More lessons from 14 years at Google]], [[The Next Two Years of Software Engineering]], [[Dapper Performance Trap]], [[Installing VS Compilers From Commandline]], [[dotnet Slopwatch]], [[Simplicity in the Age of AI-Assisted]], [[Cognitive Debt]]*
-*Last updated: 2026-05-14*
+## Pages
+
+- [[14 More lessons from 14 years at Google]] — Osmani on organizational dynamics: meetings, reliability as product, team interfaces
+- [[Assorted less(1) Tips]] — Tim Chase's 17 less tricks plus HN's crowd-sourced addendum: a masterclass in deep tool knowledge, security footguns, and the pager as interactive programming environment
+- [[Better Error Messages]] — Say what happened, say why, reassure, give a way out, help fix it
+- [[Git Rebase for the Terrified]] — The rebase fear is irrational: your local clone is disposable, and the nuclear option costs nothing
+- [[Designing a Passively Safe API]] — After any failure: complete exactly once, or land in a visible terminal state
+- [[Idempotency Is Easy Until the Second Request Is Different]] — The hard cases: concurrent retries, partial failures, key reuse, recovery. 409 Conflict on same-key-different-command
+- [[Cashpoints Partners API]] — NZ loyalty-points POS API: two-phase commit via lock-then-commit, field warnings as scar tissue, and the refund clawback problem
+- [[Good API Design]] — Goedecke's practitioner's guide: boring over clever, immutability over versioning, product over interface
+- [[Having a Creative Practice as a Programmer]] — Programming as artistic practice: the parallel track of daily creative work that sustains craft over a career, separate from productive output
+- [[What You NEED to Know Before Touching a Video File]] — Video encoding craft guide: quality as fidelity-to-source, remuxing vs. reencoding, sharp opinions earned through mechanism understanding
+- [[Elements of Code]] — Rules for comprehensible software. "Wrong in correctable ways"
+- [[Patterns.dev]] — The definitive modern reference for web design, rendering, and performance patterns across vanilla JS, React, and Vue
+- [[Igor Schwarzmann Design Systems]] — A dead reference site, worth remembering for who built it: design systems as organizational strategy, not component libraries
+- [[The Future of Software Engineering is SRE]] — AI makes code trivial; operations becomes the differentiator
+- [[Platform Engineering End-to-End]] — Cavallin's full-lifecycle field guide: team composition, product management, operations, migrations, stakeholder politics, and the priority order for starting from zero
+- [[Spec-First Development at Benchling]] — Define each object once; let platform capabilities consume the schema
+- [[The Coming Need for Formal Specification]] — AI makes code cheap, review lags, and formal methods become the systematic answer to the mismatch
+- [[Systems Ideas That Sound Good]] — Sinofsky's eight engineering patterns that fail 9 out of 10 times
+- [[Microservices for the Benefits, Not the Hustle]] — Microservices are about changeability, not scalability; hard repo boundaries enforce cohesion that monoliths allow to erode
+- [[Nobody Knows How Large Software Projects Work]] — Complexity is inherent at scale; the team's value is answering questions
+- [[Capturing Why Engineering Decisions]] — HN thread on documenting decision rationale: docs survive next to code, ADRs as point-in-time RFCs, LLMs invert the economics of documentation
+- [[How I've Run Major Projects]] — Ben Kuhn: focus, detailed planning, fast OODA loops, overcommunication
+- [[When the Target Keeps Moving]] — Track discovery-to-delivery ratio to know if you're converging or diverging
+- [[Before Reading Code]] — Five git commands to diagnose codebase health before reading a single line
+- [[Common Diagram Mistakes]] — Seven anti-patterns in architecture diagrams. Most diagram failures are communication failures
+- [[Make the Easy Change Hard]] — Invert Beck's maxim: refactor the architecture first, then the easy feature writes itself. Async Rust war story
+- [[WebRTC Is the Problem]] — Ex-Twitch/Discord WebRTC engineer: the protocol is wrong for voice AI. QUIC fixes this. Eight RTTs to one, port-binding to connection migration, Redis-backed load balancers to stateless routing
+- [[Frozen Test Fixtures]] — Test the property, not the data: assertion patterns that survive fixture evolution
+- [[How HTML Changes in ePub]] — ePub is XHTML, not HTML5. Unlearn your web habits
+- [[Correct by Construction]] — Data quality as a whitelist: anchors, attributes, links, no NULLs
+- [[Anomaly Detection]] — Welford's algorithm + KV store. No ML, no config, just math
+- [[The Pragmatic Summit]] — Gergely Orosz's inaugural curated conference: 28 practitioner speakers, 3 tracks (Build/Frame/Lead), Thomas Dohmke's Entire.io reveal
+- [[A Field Guide to Bugs]] — Stephen Diehl's poetic taxonomy of 30+ bug species from Bohrbug to Omega Bug: half CS folklore, half literary performance, and the sharpest diagnosis of LLM-era failure modes in print
+- [[Book OCR Project Report — Structured Workflow Runtime and Manual PDF Repair]] — Manuel's full-arc project report: 202-page scanned book OCR, custom Go workflow runtime, structured JSON boundaries, and a day-long manual PDF repair loop that found five distinct failure classes. A masterclass in model-output engineering

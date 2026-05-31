@@ -72,6 +72,27 @@ Storage is a design problem, not a commodity service. The pages in this wiki rev
 
 #databases #convergence #data-quality #version-control #vector-search #agent-data
 
----
-*Synthesis of: [[AliSQL]], [[Dolt]], [[Graft]], [[Write Snapshot Isolation]], [[zvec]], [[Shaper]], [[sql-crack]], [[SiftRank]], [[Dapper Performance Trap]], [[Correct by Construction]], [[Anomaly Detection]], [[GraphRAG]], [[NornicDB]], [[Data Engineering for Large Models]], [[DAB]]*
-*Last updated: 2026-05-14*
+## Pages
+
+- [[AliSQL]] — Alibaba's MySQL fork: DuckDB columnar OLAP + native vector search. 200x speedup
+- [[Radicle]] — P2P sovereign code forge built on Git. Cryptographic identity, gossip protocol, no central server. The most serious decentralized GitHub alternative
+- [[Dolt]] — SQL database you can fork, clone, branch, merge. Git + MySQL
+- [[bucketvcs]] — Git server backed directly by cloud object storage: single Go binary, the bucket IS the repository, no database holds Git objects
+- [[Graft]] — SQLite replicated to the edge via object storage
+- [[SQLite is All You Need for Durable Workflows]] — SQLite + Litestream is the right default for agent workflow state; Postgres is the upgrade path, not the starting line
+- [[Write Snapshot Isolation]] — SI checks stale writes; WSI checks stale reads. Serializability in one fix
+- [[Dapper Performance Trap]] — NVARCHAR vs VARCHAR implicit conversion defeats indexes. Quiet perf killer
+- [[zvec]] — Alibaba's in-process vector DB. Billions of vectors, milliseconds, pip install
+- [[Shaper]] — SQL-driven dashboards powered by DuckDB. Chart types via casting syntax
+- [[sql-crack]] — VS Code extension: SQL queries as interactive execution flow diagrams
+- [[SiftRank]] — LLM-based document ranking with pairwise comparisons and inflection detection
+- [[Materialized Views Are Obviously Useful]] — Sophie Alpert: incremental view maintenance is obviously useful; databases should handle derived data, not application code
+- [[Long Live Systems of Record]] — Jamin Ball: agents don't kill systems of record, they raise the bar. "Where does the truth live" is the only question that matters
+- [[PgDog]] — PostgreSQL proxy combining connection pooling, load balancing, and sharding in one binary with zero application code changes
+- [[Postgres CDC in ClickHouse, A Year in Review]] — Field report on PeerDB's first year inside ClickHouse: 400+ customers, 200 TB/month, and the surprising complexity of making CDC feel boring
+- [[Metrics SQL]] — Rill Data's SQL dialect for querying a YAML-defined metrics layer. Transpiles to engine-native SQL with inferred GROUP BY, parameterized literals, and MCP server for AI agents
+- [[We Replaced Redis with MySQL for Inventory Reservations]] — Shopify's move from Redis to MySQL for inventory reservations: one-row-per-unit, SKIP LOCKED, and the case that connection pool pressure is the real bottleneck
+- [[DocDB — Stripe's Zero-Downtime Database]] — Stripe's internal MongoDB-based DBaaS: 2,000+ shards at 5M QPS. Zero-downtime data movement as platform primitive — resharding, version upgrades, and tenancy migrations are all the same operation
+- [[SQL Fraud Patterns (Fixel Smith)]] — Six composable SQL patterns for transaction fraud detection: velocity, impossible travel, amount anomalies, suspicious merchants, off-hours, and window-function primitives. Fraud rules as WHERE clauses, not ML models
+- [[BEAVER]] — First enterprise text-to-SQL benchmark from real private data warehouses. GPT-5.2 gets 10.8%; with all oracle hints, 30.1%. The gap between BIRD (82%) and enterprise reality is a chasm
+- [[KTX Context Layer for Data Agents]] — Open-source context layer for data agents: git-versioned wiki + executable semantic layer, ingested from dbt/Looker/Metabase, served via 11 MCP tools. Pre-merge validation gates on all agent writes

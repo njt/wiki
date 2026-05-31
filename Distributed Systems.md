@@ -55,7 +55,3 @@ This section needs to be honest about the gaps, because they're large.
 ## Key Themes
 
 #distributed-systems #BEAM #consensus #coordination #fault-tolerance #agent-orchestration
-
----
-*Synthesis of: [[Process-Based Concurrency BEAM OTP]], [[Loomkin]], [[Graft]], [[Write Snapshot Isolation]], [[Scaling Long-Running Agents]], [[klaw.sh]], [[Zeroclaw]], [[Cord]], [[workgraph]], [[Zero Alignment]], [[Designing a Passively Safe API]]*
-*Last updated: 2026-05-14*
