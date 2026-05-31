@@ -1,61 +1,50 @@
 ---
 url: https://broomy.org/
-title: Broomy — Command Center for AI Coding Agents
-author: Broomy (broomy-ai)
+title: "Broomy — Your command center for AI coding agents"
+author: broomy-ai
 date_fetched: 2026-05-31
 date_published: unknown
 ---
 
-# Broomy — Command Center for AI Coding Agents
+Broomy is an MIT-licensed Electron desktop app (TypeScript + React) that runs multiple terminal-based AI coding agents side-by-side in a single window. It combines a session dashboard, AI-guided code review, and a built-in IDE (file editing, git). Mac-only Public Preview. Works with Claude Code, Codex, Gemini CLI, and any terminal-based agent.
 
-## Source Content (fetched 2026-05-31 from broomy.org)
+## Landing Page Content (surf grab)
 
-### What Is It?
+**Tagline:** Your command center for AI coding agents. Lead a team of agents and see when each needs help. Let an AI help you review code. Fully open source and extensible.
 
-Broomy is a free, open-source (MIT-licensed) native desktop app built with TypeScript, React, and Electron. It serves as a unified window for managing multiple AI coding agents simultaneously.
+**Status:** Public Preview — stable enough for daily use, but you may run into issues. MIT License. TypeScript + React + Electron.
 
-### Who Made It?
+**Problem statement:** If you use AI coding agents, you know the pain. Terminal tabs everywhere. Which agent finished? Which one needs input? What branch is it on? What files did it change? Broomy gives you a single window to manage all of it — and since it's open source, you can extend it to fit exactly how you work.
 
-The project lives at github.com/broomy-ai/broomy under the Broomy organization. No individual creators are named on the page.
+### Sessions
+Run many agents at once. Run Claude Code on your backend, Aider on your frontend, and keep a terminal open for your docs — all in one window. Broomy watches each agent and shows you who's working, who's idle, and who just finished and needs your attention. When an agent completes a task, you get a notification so nothing slips through.
 
-### What Problem Does It Solve?
+### Review
+AI-guided code review. AI agents write code fast — but someone still needs to review it. Broomy uses AI to help you understand what changed and why, highlights potential issues, and lets you click through to diffs. It's not about rubber-stamping AI output — it's about keeping you in the loop so the codebase stays healthy even as agents move fast.
 
-AI coding agents create chaos: "Terminal tabs everywhere. Which agent finished? Which one needs input? What branch is it on? What files did it change?" Broomy consolidates all of that into a single window with visibility into each agent's status.
+### IDE
+A real IDE, not just a chat window. Edit files, browse your repo, check git status, stage changes, and commit — without switching windows. You're not forced to hand everything to the AI. When you need to step in and fix something yourself, the tools are right there.
 
-### How It Works
+### Agents
+Works with every agent. Broomy doesn't lock you into one AI provider. It works with any terminal-based coding agent, and adding support for new ones is trivial. Claude Code, Codex, Gemini CLI, + any agent.
 
-It runs terminal-based coding agents (like Claude Code, Aider, Codex, Gemini CLI — or any other) side by side. Broomy monitors each session, displaying who is working, who is idle, and who needs attention — with notifications when tasks complete.
+### Built to be extended
+Broomy is a native desktop app built on well-understood technology. The codebase is designed to be readable, hackable, and easy to contribute to.
 
-### Key Features
+### Actually open source
+MIT licensed. No telemetry. No paid tier. No "open core" bait-and-switch. Every line of code is on GitHub — read it, fork it, change it, ship your own version.
 
-1. **Multi-agent session management** — Run different agents on different parts of a project (e.g., "Claude Code on your backend, Aider on your frontend") all in one window.
+- Fork & modify: Don't like something? Change it. Add your own panels, agents, or workflows.
+- Contribute back: Open an issue, send a PR, or start a discussion. The project grows from community input.
+- Runs locally: No cloud. No accounts. Your code and sessions stay on your machine.
 
-2. **AI-guided code review** — Uses AI to summarize changes, highlight potential issues, and link to diffs. The page notes it's "not about rubber-stamping AI output" but about keeping humans in the loop so the codebase stays healthy.
+### Get started
+```bash
+git clone https://github.com/broomy-ai/broomy.git
+cd broomy
+pnpm install
+pnpm dev
+```
+Requires pnpm and Node.js. Also available as pre-built Mac download. Windows and Linux coming soon.
 
-3. **Built-in IDE** — File editing, repo browsing, git status, staging, and committing — no need to switch windows. The philosophy: "You're not forced to hand everything to the AI."
-
-4. **Agent-agnostic** — Works with any terminal-based coding agent, and adding new ones is described as trivial.
-
-5. **Local-only** — "No cloud. No accounts. Your code and sessions stay on your machine."
-
-### Design Philosophy & Interesting Aspects
-
-- **Actually open source**: "No telemetry. No paid tier. No 'open core' bait-and-switch." Every line is on GitHub to read, fork, change, or ship a custom version.
-- **Extensibility emphasized**: Users are encouraged to fork and modify or contribute back via issues, PRs, or discussions.
-- **Current status**: Public Preview — "stable enough for daily use, but you may run into issues."
-- **Platform**: Mac-only release currently; Windows and Linux are "coming soon."
-- **Tech stack**: Electron + React + TypeScript. Setup requires pnpm and Node.js — clone the repo, run `pnpm install && pnpm dev`.
-
-### Relevant Quotes from the Landing Page
-
-> "Terminal tabs everywhere. Which agent finished? Which one needs input? What branch is it on? What files did it change?"
-
-> "Not about rubber-stamping AI output" — on the code review feature
-
-> "You're not forced to hand everything to the AI."
-
-> "No cloud. No accounts. Your code and sessions stay on your machine."
-
-> "No telemetry. No paid tier. No 'open core' bait-and-switch."
-
-GitHub: https://github.com/broomy-ai/broomy
+Source: https://broomy.org/ (fetched via surf browser automation)

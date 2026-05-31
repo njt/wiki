@@ -1,6 +1,6 @@
 # Broomy
 
-A free, MIT-licensed Electron desktop app that runs multiple terminal-based AI coding agents side-by-side in a single window, with built-in IDE features (file editing, git, code review). Broomy is the answer to "which terminal tab is Claude Code in?" — agent-agnostic, local-only, no accounts.
+A free, MIT-licensed Electron desktop app (TypeScript + React) that runs multiple terminal-based AI coding agents side-by-side in a single window, with built-in IDE features (file editing, git, code review) and session notifications. Broomy is the answer to "which terminal tab is Claude Code in?" — agent-agnostic, local-only, no accounts, no telemetry.
 
 ---
 
@@ -34,13 +34,15 @@ Rare and refreshing. In a space filling up with "free for now" tools, this is a 
 
 Broomy wraps terminal-based coding agents (Claude Code, Aider, Codex, Gemini CLI — anything that runs in a terminal) in an Electron shell with three integrated capabilities:
 
-1. **Session dashboard** — See all active agents, their status (working/idle/needs-input), and notifications when tasks complete. Each agent gets a dedicated terminal session.
+1. **Session dashboard** — See all active agents, their status (working/idle/needs-input/finished), and desktop notifications when tasks complete so nothing slips through. Each agent gets a dedicated terminal session. The pitch: "Run Claude Code on your backend, Aider on your frontend, and keep a terminal open for your docs — all in one window."
 
 2. **AI-guided code review** — Summarizes diffs, flags potential issues, links to changes. The stated goal is keeping humans in the loop, not automating approval.
 
 3. **Built-in IDE** — File tree, editor, git status/staging/committing. The pitch is that you don't need to switch to VS Code or terminal to review and commit agent output.
 
-Tech stack: Electron + React + TypeScript, pnpm + Node.js. Currently Mac-only; Windows/Linux "coming soon." Status: Public Preview ("stable enough for daily use, but you may run into issues").
+Tech stack: TypeScript + React + Electron, pnpm + Node.js. Currently Mac-only; Windows/Linux "coming soon." Status: Public Preview ("stable enough for daily use, but you may run into issues").
+
+Explicitly supports Claude Code, Codex, Gemini CLI, and any terminal-based agent. Adding support for new agents is described as trivial — Broomy treats agents as opaque terminal processes.
 
 ---
 
@@ -60,7 +62,7 @@ Tech stack: Electron + React + TypeScript, pnpm + Node.js. Currently Mac-only; W
 
 **What's good:**
 
-The pain point diagnosis is precise. Anyone running multiple agent sessions knows the tab-hunting problem. Broomy identifies it cleanly and proposes a contained solution — it doesn't try to be a platform, doesn't add MCP servers, doesn't introduce a task queue. Just windows, terminals, and a code editor.
+The pain point diagnosis is precise. Anyone running multiple agent sessions knows the tab-hunting problem. Broomy identifies it cleanly and proposes a contained solution — it doesn't try to be a platform, doesn't add MCP servers, doesn't introduce a task queue. Just windows, terminals, and a code editor. The desktop notification for completed tasks is a small but high-leverage feature — the difference between "I wonder if Claude finished" and being pulled back at the right moment.
 
 The code review feature, if implemented well, addresses a real gap. Most multi-agent tools focus on *running* agents; few help you *review* their output. The "not rubber-stamping" language suggests they understand the difference between review and approval.
 
@@ -102,4 +104,4 @@ The tool it most resembles is [[Collaborator]] — both are Electron desktop app
 
 ---
 *Sources: [[raw/broomy]]*
-*Last updated: 2026-05-31*
+*Last updated: 2026-05-31 (re-ingested with surf browser content)*
