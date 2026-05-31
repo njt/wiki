@@ -184,6 +184,7 @@ Multi-agent systems, task graphs, kanban boards, and coordination patterns.
 
 - [[Parallel Coding Agents Guide]] — Peltz's field guide to running multiple agents simultaneously: worktree isolation, the review bottleneck, and agent selection
 - [[Cord]] — Dynamic task tree coordination with spawn/fork/ask primitives
+- [[Tracker]] — Pipeline orchestration engine for multi-agent LLM workflows: static DAG with conditional routing, three backends, sentinel-protected audit trail, ~67K lines of production Go
 - [[Dorothy]] — MCP-first desktop app: 5 servers, 40+ tools, parallel agents, Kanban auto-assignment, event-driven automations from GitHub/JIRA
 - [[acpx]] — Headless CLI client for the Agent Client Protocol: one command surface wrapping 16+ coding agents with persistent sessions, prompt queueing, and a flow runtime
 - [[Agent of Empires]] — Session manager for parallel agents in Rust with git worktree integration
