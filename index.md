@@ -342,6 +342,7 @@ Storage engines, query patterns, data quality, and vector/graph databases.
 - [[Radicle]] — P2P sovereign code forge built on Git. Cryptographic identity, gossip protocol, no central server. The most serious decentralized GitHub alternative
 - [[Dolt]] — SQL database you can fork, clone, branch, merge. Git + MySQL
 - [[Graft]] — SQLite replicated to the edge via object storage
+- [[SQLite is All You Need for Durable Workflows]] — SQLite + Litestream is the right default for agent workflow state; Postgres is the upgrade path, not the starting line
 - [[Write Snapshot Isolation]] — SI checks stale writes; WSI checks stale reads. Serializability in one fix
 - [[Dapper Performance Trap]] — NVARCHAR vs VARCHAR implicit conversion defeats indexes. Quiet perf killer
 - [[zvec]] — Alibaba's in-process vector DB. Billions of vectors, milliseconds, pip install
