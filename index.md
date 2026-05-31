@@ -423,6 +423,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Dolphin]] — ByteDance's universal document parsing model. Digital and photographed docs
 - [[QR Generator (delphi.tools)]] — Indie web QR code tool with live preview and deep customization. "No logins. No tracking. Long live the handmade web"
 - [[HeidiSQL]] — Free open-source database GUI for 7 engines, maintained solo since 2002. Delphi/FreePascal, cross-platform, no pricing page
+- [[Ratty]] — GPU-rendered terminal emulator with inline 3D graphics via custom Ratty Graphics Protocol. Bevy game engine as terminal substrate, terminal surface as deformable 3D geometry
 - [[Building the deployment tool I wish I had]] — Deptool: Git-backed deployment with atomic symlink swaps, auto-rollback, and a static binary agent that needs only SSH+coreutils
 - [[Gova]] — Declarative reactive GUI framework for Go: SwiftUI-inspired API, call-site state identity via runtime.Caller, Fyne bridge stays internal, hot-reload dev server
 
