@@ -1,95 +1,66 @@
 # You Should Not Update Your Dependencies in 2026
 
-Olivier Gambier's case that dependency updates have crossed the line from maintenance to threat vector — and that the only viable response is treating every version bump as an untrusted code contribution reviewed by AI agents in CI.
-
----
-
-## The Argument
-
-Gambier traces a clear arc: 1990s sysadmin culture (manually vet a dozen known vendors), through the Dependabot era (automate the boring stuff because you trust the registries), to 2026 (registries are compromised, maintainers are burned out, AI is flooding the supply chain with code, and Dependabot is now an attack vector).
-
-The core reframe is sharp: **every dependency update should be treated like a PR from an unknown external contributor.** You wouldn't auto-merge a stranger's code. Why do you auto-merge a `package-lock.json` change that pulls in 47 transitive dependencies you've never read?
-
-The provocateur's title ("you should not update") is bait — the real argument is that the *default* of auto-merging dependency bumps is what's broken. You should update, but only after review.
+Olivier Gambier (Mendral, ex-Docker distribution team lead) argues that every dependency update should be treated like a PR from an unknown external contributor. Dependabot auto-merge — once the right call — is now an attack vector: registries are compromised, maintainers are burned out, and AI coding agents are flooding the supply chain with unreviewed code. The fix isn't going back to manual review (impossible at scale) but programmatic AI-assisted review inside CI that mechanically examines every dep diff, checks for typo-squatting, evaluates CVE reachability, and flags behavioral drift. The sharpest reframe: *dependency updates are untrusted contributions.* Adopt that mental model and you don't need Gambier's product — just stop auto-merging Dependabot PRs and start treating every lockfile change as a code review event.
 
 ---
 
 ## Key Quotes
 
-> "open-source maintainers are not just free labor, they are also overworked, under-equipped, wildly understaffed"
+> "Open-source maintainers are not just free labor, they are also overworked, under-equipped, wildly understaffed"
 
-This isn't a complaint about fairness — it's a threat model claim. When the person who owns the publish button is exhausted and under-resourced, their credentials are the weakest link in your supply chain. The TeamPCP campaign proved this: compromised maintainer accounts, not technical exploits, were the entry point.
+The economics of open source have always been broken, but Gambier connects this directly to supply chain security: burned-out maintainers with no funding are the upstream attack surface. This isn't a labor-rights argument dressed as security advice — it's a genuine structural diagnosis. When the people who control your dependencies can't afford to secure them, you inherit that risk.
 
-> "Dependabot and siblings were a genuine and major progress five to ten years ago. Now they are just harmful."
+> "Blind installation and blind updating dependencies continuously (a-la dependabot)... became the number one vector of distribution for highly publicized supply chain compromises in the past 12 months."
 
-A tool designed for a trust model that no longer exists is worse than no tool — it creates the illusion of maintenance. The auto-merge of a Dependabot PR looks like diligence but is actually a blind pass-through. This is the same pattern as [[Supply Chain Security for Software Developers]]'s finding that OIDC + legacy token coexistence creates the *appearance* of security without the reality.
+This is the claim that makes the piece controversial. Dependabot was sold as the responsible thing — "always be up to date" — and Gambier is calling it the primary attack vector. The parallel to [[I Don't Want Your PRs Anymore]] is striking: tools designed to increase contribution velocity (Dependabot for deps, LLMs for PRs) have become threat surfaces because they outpace review capacity.
 
 > "Dependency updates must be considered as untrusted code contributions."
 
-This one sentence does more work than the rest of the article combined. It reframes the entire practice of dependency management. If this became conventional wisdom, it would restructure how every CI pipeline in the industry works.
+The single best line in the piece. It's a mental-model shift, not a tool recommendation. If you internalize this, everything else follows: you review dep changes like code changes, you gate them on the same CI checks, and you never merge them on green build alone.
 
 > "Going back is not a strategy."
 
-Aimed at the reactionary impulse to fork everything, pin everything, and refuse to update. Gambier's point is that industry velocity makes this a losing strategy — your frozen dependencies will drift from the ecosystem while the attacks evolve around them.
+Gambier dismisses the reactionary impulse — private forks, multi-month cooldowns, registry proxying — as the modern equivalent of "the sysadmin clutching Apache 1.3 config and going down with the righteous ship." This is where his argument converges with [[Probabilistic Engineering and the 24-7 Employee]]: the volume problem is real and won't be solved by slowing down. The only viable response is automation that matches the threat's speed.
 
-> "The institution of the last standing, already frail, human safety guardrail, the good old code review, has been trampled"
+> "Humans can no longer be in charge of the modern software supply chain security."
 
-This is the most pessimistic line in the piece. It's not just that automation is dangerous — it's that the human review process that was supposed to catch problems was already failing *before* AI made it impossible. The supply chain grew faster than our capacity to read it.
+Provocative but defensible. The volume of dependency updates, the sophistication of supply chain attacks, and the asymmetry (attacker needs one success, defender needs zero failures) make human-only review structurally inadequate. The question isn't whether to automate — it's whether the automation is programmatic verification (Gambier's argument) or blind trust (the current default).
 
-> "AI is not a magic wand and (at least for now) cannot outperform the best humans."
+> "AI cannot outperform the best humans" — but it excels at "the mechanical, repetitive, volume-bound work" of reading every diff, checking changelogs against actual changes, and cross-referencing against known compromise patterns.
 
-Gambier is careful here. He's selling an AI product but refuses to oversell the AI. The claim is narrower: AI can do the *mechanical* review work at scale — pattern matching, diff inspection, behavioral comparison — freeing the few humans who are actually qualified to focus on the ambiguous cases. This is honest vendor positioning, which is rarer than it should be.
+A useful honesty. Gambier isn't selling AI as magic. He's making the case that supply chain review is exactly the kind of work AI is good at: pattern matching at scale, across every update, on every repo, without fatigue or boredom. The [[Harness Engineering]] parallel: computational verification beats inferential review when the problem is volume, not judgment.
 
 ---
 
 ## Key Themes
 
-#concept — **Dependency updates as untrusted contributions**: the central reframe. Every version bump is a PR from a stranger. Review it or don't merge it.
+#concept — **Dependency updates as untrusted contributions.** The central reframe. Every lockfile change is a PR from a stranger. Treat it accordingly.
 
-#pattern — **AI-in-CI as supply chain gate**: mechanical review of every dependency change — typo-squatting detection, known-bad-version blocking, behavioral drift analysis, CVE reachability evaluation — all inside the CI pipeline rather than as a separate security scanning step.
+#concept — **Supply chain compromise vs. supply chain vulnerability.** A distinction the industry has been sloppy about. Vulnerabilities are passive (bugs exist). Compromises are active (attackers ship weaponized code through the distribution channel). Different threat models, different defenses.
 
-#concept — **Version age as heuristic**: packages less than 7 days old get heightened scrutiny; less than 72 hours gets max scrutiny. This echoes the 7-day cooldown in [[Supply Chain Security for Software Developers]] but operationalizes it as a continuous variable rather than a binary gate.
+#pattern — **Programmatic CI review of dependency changes.** The mechanical-verification approach: typo-squatting checks, age gating (<7 days raises scrutiny, <72 hours maxes it out), behavioral sandbox inspection, CVE reachability analysis, posture auditing. Each check is automatable. Combined, they form a [[Supply Chain Security for Software Developers]]-style layered defense.
 
-#tool — **Mendral**: the AI DevOps Engineer platform Gambier is building. The article is part manifesto, part product pitch — but the manifesto is strong enough to stand alone.
+#tool — **Mendral** (Gambier's company): CI-native agent that treats dep updates as untrusted contributions, runs a suite of programmatic checks, and comments/approves/blocks on PRs.
 
-#person — **Olivier Gambier**: ex-Docker distribution team lead (2014, rebuilt image distribution on content-addressability). Co-founder with Sam Alba and Andrea Luzzardi (both ex-Docker/Dagger). Deep supply chain credibility.
+#person — **Olivier Gambier**, ex-Docker distribution team lead. Deep credibility on supply chain from years inside the container/supply chain intersection. Now building Mendral.
 
 ---
 
 ## Critical Analysis
 
-**The article gets the diagnosis exactly right and the prescription mostly right.** The diagnosis: we built an industry on trust assumptions that were valid in 2010 and are catastrophic in 2026. The prescription: automated review of every dependency change. Where it gets interesting is what Gambier *doesn't* say.
+**The strongest insight isn't about AI — it's the reframe.** *Dependency updates are untrusted contributions.* Adopt that mental model and you don't need Gambier's product. Just stop auto-merging Dependabot PRs and start treating every lockfile change as a code review event. The AI reviewer is optimization of a process most teams haven't even started doing manually. This is the [[Feedback Loop is All You Need]] pattern applied to dependencies: the gate matters more than how you enforce it.
 
-**The economic tension is real and unaddressed.** If every dependency update requires CI-level review, the latency of updates becomes a function of your CI queue depth. For a monorepo with hundreds of dependencies and a CI pipeline that already takes 20 minutes, adding sandboxed behavioral analysis per update is a meaningful cost. Gambier handwaves this with "it runs in CI" but CI time is money, and the trade-off between security latency and deploy velocity is the actual decision most teams face.
+**The 7-day age gate is already canon.** The [[Supply Chain Security for Software Developers]] gist made this case in the aftermath of TeamPCP, and Gambier integrates it into a broader CI pipeline. What's new here is the scrutiny-maxing at <72 hours and the behavioral sandbox inspection — going beyond age-gating into active compromise detection. The complementary relationship between these two sources is strong: one gives you the config, the other gives you the pipeline.
 
-**The 7-day rule is a heuristic, not a solution.** Both this article and [[Supply Chain Security for Software Developers]] converge on "wait a week before adopting new versions." This works against smash-and-grab attacks but is useless against long-compromised maintainer accounts, slow-burn implants, or targeted attacks that wait out the cooldown. Gambier acknowledges this but the product pitch glosses over the hardest case: the patient adversary.
+**What the article glosses over matters.** Three gaps: (1) The patient adversary who waits out the 7-day cooldown — Gambier's behavioral sandbox partially addresses this but he doesn't model the attacker who ships clean at t=0 and activates at t=14 days via a time-bombed conditional. (2) CI latency cost — sandboxed behavioral analysis per dependency update isn't free, and teams with 50+ weekly Dependabot PRs will feel the queue. (3) Whether AI can really spot a one-line behavioral change buried in a 2,000-line diff — this is the same trust problem as AI code review generally, and Gambier's "it can't outperform the best humans" admission is doing a lot of work there.
 
-**The comparison to code review is illuminating but incomplete.** Code review works (when it works) because the reviewer understands the codebase's intent and can spot when a change violates it. A dependency update reviewer needs to understand the dependency's intent *and* the calling code's expectations *and* whether the diff between versions represents legitimate evolution or compromise. That's a harder problem, and AI hasn't solved it — it's doing pattern matching against known-bad, which is valuable but narrower than "review."
+**The "going back is not a strategy" argument is right but undersells the cooldown approach.** The piece lumps registry proxying and multi-month cooldowns in with "reactionary" responses, but the 7-day rule is itself a cooldown — just a programmatic one. The boundary between "smart automation" (Gambier's position) and "sensible friction" (the [[Supply Chain Security for Software Developers]] position) is blurrier than the piece admits. Both are saying: *don't consume dependencies the moment they're published.* One does it with an age gate, the other with an AI reviewer. They're complementary, not opposed.
 
-**What's missing: the social dimension.** The most dangerous dependency updates aren't random malicious packages — they're legitimate packages whose maintainers were compromised. The AI reviewer can spot a new post-install script, but can it spot a one-line behavioral change buried in a 2,000-line diff? Gambier's architecture says yes (behavioral drift analysis) but the evidence for this working at scale isn't in the article.
+**The AI skeptic's rejoinder: who reviews the reviewer?** If Mendral's agent says "LGTM, no compromise markers found," the overworked human reviewer will click merge with the same blind trust they currently give Dependabot's green checkmark. The failure mode shifts from "I didn't look at the dep update" to "the AI said it was fine." This is the [[Compound Engineering]] problem — you've added a system, but you haven't added trustworthiness unless the system's verdicts are themselves verifiable. Gambier doesn't address this, and it's the hardest problem in the space.
 
-**The strongest insight isn't about AI at all.** It's the reframe: dependency updates are untrusted contributions. If you adopt nothing else from this article, adopt that mental model. It doesn't require AI. It requires changing your CI config to stop auto-merging Dependabot PRs and start treating every `package.json` change as a code review event. The AI part is optimization of a process that most teams haven't even started doing manually.
-
----
-
-## Related Pages
-
-- [[Supply Chain Security for Software Developers]] — The practical companion piece: configuration recipes for the 7-day rule, pinning, and script blocking. Gambier provides the argument; lhl's gist provides the config.
-- [[Cybersecurity Is Proof of Work Now]] — The economic framing: security is a compute economics problem. Gambier's AI reviewer is a bet that compute can outspend the attacker.
-- [[Security and Sandboxing]] — The broader security landscape: sandboxing, credential management, prompt injection defense.
-- [[Harness Engineering]] — Böckeler's framework for feedforward vs. feedback controls. Gambier's AI reviewer is a feedback control: detect problems after the fact rather than prevent them structurally.
-- [[Harness Engineering (OpenAI)]] — The OpenAI team shipped 1M lines with zero handwritten code. The same harness engineering patterns apply to dependency review: deterministic gates where possible, AI judgment where necessary.
-- [[Compound Engineering]] — When you can't trust the output, add a system. Gambier is proposing a system for the specific case of dependency updates.
-- [[Guardrails and Feedback Loops]] — Linters beat prompts. An AI reviewer in CI is a guardrail, not a suggestion.
-- [[Feedback Loop is All You Need]] — The self-tightening loop. Every caught compromise feeds back into the detection patterns.
-- [[I Don't Want Your PRs Anymore]] — The inversion where the maintainer generates code faster than they can review contributions. Gambier's dependency problem is the same dynamic: the ecosystem generates updates faster than anyone can review them.
-- [[You Dont Want Long-Lived Keys]] — The credential hygiene dimension. Most supply chain compromises start with a stolen token.
-- [[Smart Models Dumb Pipes]] — AI as judgment machine, not Q&A machine. The AI reviewer is a judgment engine, not a chatbot.
-- [[AI Coding Tools Create More Bugs Than They Fix]] — The counterpoint: AI introduces vulnerabilities. Gambier's proposal is AI as defense, but AI as threat is the other side of the same coin.
-- [[Scaling Long-Running Agents]] — The CI-based agent architecture Gambier describes has the same coordination challenges.
-- [[Radical Accountability]] — Taste is the last differentiator when automation handles everything. The human reviewer's role shrinks to the ambiguous cases that AI flags but can't resolve.
+**The most honest line is buried: "AI cannot outperform the best humans."** This constrains the ambition appropriately. The goal isn't a superhuman supply chain auditor. It's replacing the *current* baseline — which for most teams is zero review — with something systematically better than nothing. That's a low bar, and hitting it reliably is genuinely valuable. The question is whether "better than nothing" creates a false sense of security that's worse than honest neglect.
 
 ---
 
-*Sources: [[raw/you-should-not-update]]*
+*Sources: [[raw/you-should-not-update-dependencies]]*
 *Last updated: 2026-05-31*

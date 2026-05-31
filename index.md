@@ -292,6 +292,7 @@ Isolation, credentials, prompt injection defense, and agent safety.
 - [[Hostnames and Usernames to Reserve]] — Which names to block on any user-registration platform: hostnames, emails, and URL paths that break protocol trust assumptions
 - [[Supply Chain Security for Software Developers]] — The 7-day rule and layered defenses against package attacks after TeamPCP's March-April 2026 campaign
 - [[You Should Not Update Your Dependencies in 2026]] — Olivier Gambier's case that dependency updates are now untrusted code contributions, Dependabot is an attack vector, and AI-in-CI is the only viable reviewer at scale
+- [[You Should Not Update Your Dependencies in 2026]] — Olivier Gambier: every dependency update is an untrusted contribution. Dependabot auto-merge is now an attack vector; programmatic AI review in CI is the only viable defense at scale
 
 ## Software Engineering
 
