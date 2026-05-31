@@ -364,6 +364,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Portless]] — Named .localhost URLs for local development. For humans and agents
 - [[QuickEmu]] — QEMU wrapper that auto-configures VMs. Nearly 1000 OS editions
 - [[Maestro (UI Testing)]] — End-to-end UI testing for mobile and web. YAML DSL, visual inspector, enterprise cloud
+- [[FlaUInspect]] — Windows UI Automation inspector for browsing UIA trees. Open-source Inspect.exe replacement with UIA2/UIA3 backends, overlay highlighting, and XML export
 - [[Sampo]] — Changelog and release automation across monorepos and registries
 - [[Windows in Docker]] — Headless Windows 11 in Docker over SSH. No GUI, just Claude Code on Windows
 - [[Dev Containers]] — VS Code's infrastructure-as-code for dev environments: container as the source of truth, Features as composable toolchain components, pre-built images as self-describing specs
