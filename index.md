@@ -88,6 +88,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Agent Flywheel]] — Jeffrey Emanuel's one-command VPS installer + planning-first Flywheel Methodology for coordinating 10+ agents. Idempotent, 30-min setup, $440-656/month all-in
 - [[CLAUDE.md (Universal)]] — Six token-efficient rules for making Claude behave sensibly
 - [[Writing a Good CLAUDE.md]] — HumanLayer's guide: short, universal, hand-crafted, linters-not-prompts. The instruction-budget case for brevity
+- [[Benchmarking AGENTS.md Changes]] — Stet ran Codex through 8 AGENTS.md iterations against real PRs; the best candidate still regressed on a holdout. AGENTS.md inversion and the case for empirical instruction engineering
 - [[Intent Layer]] — Railly Hugo's hierarchical AGENTS.md at folder boundaries: giving agents the tacit knowledge senior engineers carry
 - [[Anatomy of the .claude/ Folder]] — Avi Chawla's structural reference: every directory and file in .claude/, from CLAUDE.md to agents/, with a five-step setup progression
 - [[claude-code-config (Trail of Bits)]] — Security-conscious Claude Code defaults from Trail of Bits
