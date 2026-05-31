@@ -147,6 +147,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Experience Design for Agents]] — UX, not model capability, determines whether an agent gets adopted
 - [[Intent Is the Interface]] — The screen was a constraint we mistook for the product. Design capabilities and intents, derive interfaces from context
 - [[The Dark Factory is a DOT File]] — The pipeline DOT file is the valuable artifact; factory code is disposable
+- [[Dippin (Language)]] — Indentation-sensitive DSL for AI agent workflows: compiler pipeline with IR, 24 CLI tools, LSP, simulator, cost estimator, and bundle format. Language separate from runtime
 - [[TradingGoose Bear Researcher]] — Production reference: position-aware AI prompting, multi-round agent debate, coordinator-worker orchestration in a Supabase Edge Function
 - [[StrongDM Factory Techniques]] — Six named patterns from the dark factory floor: DTU, Gene Transfusion, Filesystem-as-memory, Shift Work, Semport, Pyramid Summaries. Code as opaque weights, validated by harness not review
 - [[What I learned building an opinionated and minimal coding agent]] — Four tools, no MCP, full YOLO. Competitive on benchmarks
