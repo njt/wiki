@@ -383,6 +383,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[AI Pricing]] — Free JSON API for per-token AI model pricing across 19 providers. Agent-native, no auth
 - [[AgentsView]] — Local-first analytics dashboard for 24+ coding agents
 - [[Browser Use]] — AI browser automation with anti-detection and deterministic rerun
+- [[Webwright]] — Microsoft Research: turns coding models into SOTA browser agents via terminal + Playwright. Code-as-action, self-verifying, ~1.5K LoC
 - [[Chrome DevTools MCP — Debug Your Browser Session]] — Chrome M144's `--autoConnect` lets agents reuse authenticated browser sessions. Hybrid manual/AI debugging via permission-gated remote debugging
 - [[surf-cli]] — Browser automation for agents via CLI and Unix sockets. No MCP needed
 - [[Claude Artifact Server]] — 22 Claude-generated retro-Mac interactive artifacts produced in a single day: generation-at-scale showcase, not a product
