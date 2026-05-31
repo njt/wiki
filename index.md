@@ -1,6 +1,6 @@
 # Wiki Index
 
-203 individual pages + 11 synthesis pages from Nat's 2026 Technical Link Pile.
+204 individual pages + 11 synthesis pages from Nat's 2026 Technical Link Pile.
 
 ## Synthesis
 
@@ -370,6 +370,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Container-Maker]] — Solo dev's ambitious CLI wrapping devcontainer.json into a standalone platform with AI config generation and cloud GPU provisioning. Vision document, not a recommendation
 - [[Installing VS Compilers From Commandline]] — msvcup: skip Visual Studio, install just the compiler and SDK
 - [[Introducing git-wt — Worktrees Simplified]] — Bash wrapper smoothing git worktree's sharp edges: auto-fetch, upstream tracking, orphan cleanup, fzf switching
+- [[Code Storage]] — API-first Git infrastructure for machines: programmable repo creation, warm/cold tiering, custom-domain endpoints. The bet that agent-created repos will outnumber human-created ones
 - [[bcc]] — BPF Compiler Collection: kernel-level tracing for Linux performance analysis
 - [[Tmux Resurrect]] — Persists and restores complete tmux environments via tab-delimited flat file serialization; idempotent, zero-config, mini DSL for process matching
 - [[floci]] — Free local AWS emulator replacing LocalStack. 47 services, 24ms startup
