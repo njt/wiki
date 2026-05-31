@@ -204,6 +204,7 @@ Multi-agent systems, task graphs, kanban boards, and coordination patterns.
 - [[Gas Town's Agent Patterns]] — Appleton dissects Yegge's unhinged agent orchestrator: vibe design is the real danger, hierarchical roles and ephemeral sessions are the patterns worth keeping
 - [[Agent Orchestration for the Timid]] — Ferree tests five orchestration tools after a bad Gas Town experience, concludes Claude-native skills and slash commands beat all of them
 - [[Zero Alignment]] — Team alignment is the new bottleneck. One dev with 24 agents produces chaos
+- [[barnstormer]] — 2389 Research's agentic spec builder: AI swarm builds living product specs as kanban cards, event sourcing, phase-gated workflow, portable DOT/Markdown/YAML artifacts
 - [[Loomkin]] — Multi-agent platform on Erlang/OTP: spawn in 500ms, PubSub in microseconds
 - [[Process-Based Concurrency BEAM OTP]] — BEAM's actor model is what agent frameworks keep reinventing
 
