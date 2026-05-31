@@ -1,6 +1,6 @@
 # Wiki Index
 
-203 individual pages + 11 synthesis pages from Nat's 2026 Technical Link Pile.
+204 individual pages + 11 synthesis pages from Nat's 2026 Technical Link Pile.
 
 ## Synthesis
 
@@ -174,6 +174,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Moltbook]] — Simon Willison on the AI-only social network bootstrapped via OpenClaw skills: heartbeat-driven agents, the lethal trifecta in production, and whether we can build a safe version
 
 - [[Resident — ESP32 Lua Sandbox with Agent Skills]] — Sandboxed Lua runtime for ESP32 with hot-reload. AI agents write and push apps to physical devices via Claude Code plugin
+- [[Golem Covenant]] — v0.1 spec framework for bounded, answerable, revocable agents: five-organ taxonomy (Mouth/Purse/Seal/Key/Sword), default-deny, tested return-to-dust before launch
 
 ## Agent Orchestration & Coordination
 
