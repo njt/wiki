@@ -418,6 +418,7 @@ Tools that run on your own machines: voice, hardware, local inference, knowledge
 - [[Doing]] — Fast local voice transcription for Mac. $49, no cloud, 150x realtime
 - [[Handy]] — Free open-source speech-to-text. Press shortcut, speak, release, pasted
 - [[Pocket TTS]] — 100M parameter text-to-speech with voice cloning. Runs on CPU, no GPU
+- [[Talon]] — Hands-free computer control: voice, mouth-sound clicks, eye tracking, Python scripts. Patreon-funded, local-first
 - [[Gemma Gem]] — Google's Gemma 4 running locally in Chrome via WebGPU. No cloud, no API keys
 - [[maclocal-api]] — Apple Silicon local inference: Foundation + MLX models, OpenAI-compatible API
 - [[Self-Hosted LLMs]] — Calculator: map your hardware to LLM performance and inference speed
