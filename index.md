@@ -383,6 +383,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[session-analysis]] — Analyze agent session JSONL for wall time, tokens, and cost
 - [[AI Pricing]] — Free JSON API for per-token AI model pricing across 19 providers. Agent-native, no auth
 - [[AgentsView]] — Local-first analytics dashboard for 24+ coding agents
+- [[Broomy]] — MIT-licensed Electron desktop app running multiple coding agents side-by-side with built-in IDE and code review
 - [[Browser Use]] — AI browser automation with anti-detection and deterministic rerun
 - [[Chrome DevTools MCP — Debug Your Browser Session]] — Chrome M144's `--autoConnect` lets agents reuse authenticated browser sessions. Hybrid manual/AI debugging via permission-gated remote debugging
 - [[surf-cli]] — Browser automation for agents via CLI and Unix sockets. No MCP needed
