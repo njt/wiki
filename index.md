@@ -155,6 +155,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[json-render]] — Vercel Labs' generative UI framework: LLM outputs JSON constrained to a Zod component catalog, rendered progressively. 15k stars
 - [[QMD]] — Local CLI search engine: hybrid BM25 + vector + LLM re-ranking
 - [[Claude Lamp]] — LED lamp controlled by Claude Code's state via Bluetooth
+- [[Muxcard]] — Credit card-sized computer (~1mm thick): ESP32-C3, e-paper display, NFC reader/writer, strain-isolated flex PCB
 - [[Pretext]] — Pure JS/TS text measurement and layout without DOM reflow. 46.9k stars
 - [[n8n]] — Visual workflow automation with 400+ integrations, AI nodes via LangChain, fair-code licensed. 188k stars
 - [[Micasa]] — TUI for home maintenance, projects, and vendor quotes. Pure Go, vim-style
