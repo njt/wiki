@@ -1,9 +1,12 @@
 ---
 url: https://agentcookie.dev/
-title: "agentcookie — your agent's session state, synced"
+title: "agentcookie - session state sync for the agent on your second Mac"
+og_title: "agentcookie — your agent's session state, synced"
+og_description: "Cookies and per-CLI secrets, replicated continuously from your laptop to the Mac your agent runs on. Encrypted over Tailscale, zero per-site auth ceremony."
 author: Matt Van Horn (@mvanhorn)
 date_fetched: 2026-06-02
 date_published: unknown
+surf_verified: true
 ---
 
 # Agentcookie
