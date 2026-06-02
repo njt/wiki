@@ -171,6 +171,8 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 
 Tools that run on your own machines: voice, hardware, local inference, knowledge apps. **Hub: [[Local and Open Source Inference]]**
 
+- [[Datacenter GPU in a Gaming PC]] — £200 eBay V100 in a gaming rig: hardware hacking, NixOS driver archaeology, and Qwen3.6-27B at 32 tok/s
+
 ## AI Research & Models
 
 Papers, model capabilities, training techniques, and the state of the field.
