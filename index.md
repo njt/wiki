@@ -41,6 +41,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Building Agents for Production Systems with MCP]] — Anthropic's guide: MCP as the standard agent-to-production integration layer
 - [[10 Principles for Agent-Native CLIs]] — Trevin Chow's two-tier framework: Table Stakes (don't break the agent) and Compounding (make the CLI better the more agents use it). Design for agents first, humans benefit
 - [[Printing Press]] — Matt Van Horn's CLI generator turning API specs into agent-native CLIs + skills + MCP servers. 165 community CLIs, SQLite mirror pattern, compound commands over round trips
+- [[Agentcookie]] — Matt Van Horn's session state sync: continuously replicate cookies and API tokens from your primary Mac to your agent Mac over encrypted Tailscale. Zero per-site auth ceremony
 - [[Control Plane MCP Server]] — Most complete vendor MCP implementation: 80+ tools, virtual resources as embedded docs, AI Plugin as safety curation layer
 - [[How Hightouch Built Their Long-Running Agent Harness]] — Context management, not model ability, is the real engineering challenge
 - [[Building Production-Ready Voice Agents]] — 50% of effort goes to the admin portal, not the voice agent
