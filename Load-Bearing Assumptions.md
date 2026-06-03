@@ -4,6 +4,20 @@ A Claude Code/Codex skill that surfaces and verifies the falsifiable, unproven c
 
 ---
 
+## Key Quotes
+
+> "Plans don't fail on the things you know are risky. They fail on things you were sure of but never checked."
+
+> "The cheapest place to catch a wrong assumption is before the first line of code."
+
+> "Completeness matters more than precision — a missed critical assumption is costlier than a few extra checks."
+
+On the validation preference hierarchy:
+> "Run code, observe output... Inspect code + static analysis... Official documentation... Broader internet. Override this default by weighing feasibility, safety, and question type."
+
+On the stateful/stateless split:
+> "Finder and strategist are stateful — you send feedback and they refine, not re-derive. Validators are stateless and parallel — fresh context each, independent, no contamination."
+
 ## Architecture
 
 The skill defines a five-phase verification workflow with three human-in-the-loop checkpoints. All logic lives in two files: `load-bearing-assumptions/SKILL.md` (workflow + when to use) and `references/subagent-prompts.md` (copy-paste prompts for the three subagent roles).
@@ -107,4 +121,5 @@ Still: this is the first skill that treats assumption verification as a first-cl
 ---
 *Sources: [[raw/skill-load-bearing]]*
 *Related: [[Agent Coding Workflow]], [[Components of a Coding Agent]], [[Orchestrator - Worker Skill]], [[StrongDM Factory Techniques]], [[Guardrails and Feedback Loops]], [[Structural Backpressure Beats Smarter Agents]], [[Agent Orchestration]]*
+*Tags: #tool #project #agents #skills #verification*
 *Last updated: 2026-06-03*
