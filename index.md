@@ -52,6 +52,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Dippin (Language)]] — Indentation-sensitive DSL for AI agent workflows: compiler pipeline with IR, 24 CLI tools, LSP, simulator, cost estimator, and bundle format. Language separate from runtime
 - [[TradingGoose Bear Researcher]] — Production reference: position-aware AI prompting, multi-round agent debate, coordinator-worker orchestration in a Supabase Edge Function
 - [[StrongDM Factory Techniques]] — Six named patterns from the dark factory floor: DTU, Gene Transfusion, Filesystem-as-memory, Shift Work, Semport, Pyramid Summaries. Code as opaque weights, validated by harness not review
+- [[Load-Bearing Assumptions]] — Claude Code skill: surface and verify the falsifiable, unproven claims a code plan depends on. Multi-agent workflow (finder → strategist → parallel validators) with late-falsification cost matrix
 - [[What I learned building an opinionated and minimal coding agent]] — Four tools, no MCP, full YOLO. Competitive on benchmarks
 - [[Pi Coding Agent]] — The productized Pi: TypeScript extensions, SDK, RPC mode, and the tension between minimalist philosophy and platform ambitions
 - [[Hermes]] — Open-source personal agent framework with self-improving skills loop. 149k stars
