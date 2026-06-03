@@ -64,6 +64,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Ralph]] — Two flavours of the Wiggum loop: snarktank's PRD-driven tool and Huntley's bare bash technique for greenfield projects
 - [[Zeroclaw]] — Rust agent runtime: trait-based, 30+ channels, OS-level sandboxing. 31k stars
 - [[MimiClaw]] — AI assistant on a $5 ESP32 microcontroller. Pure C, Telegram, ReAct loop
+- [[Mnemo]] — Local-first AI memory sidecar: knowledge graph from conversations via LLM extraction, SQLite + petgraph, no embeddings required
 - [[Rowboat]] — Local-first AI coworker with persistent knowledge graph from email and docs
 - [[Swamp Club]] — Agent-first workflow framework: Zod-typed models, DAG execution, encrypted vaults, immutable versioned data. From System Initiative
 - [[OpenViktor]] — 48-hour AI employee platform that hit #3 on Product Hunt, then was killed and rebuilt as Jared. Blog post is password-protected; reconstructed from secondary sources
