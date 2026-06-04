@@ -93,3 +93,4 @@ The core problem: you want agents powerful enough to be useful but constrained e
 - [[Supply Chain Security for Software Developers]] — The 7-day rule and layered defenses against package attacks after TeamPCP's March-April 2026 campaign
 - [[You Should Not Update Your Dependencies in 2026]] — Olivier Gambier's case that dependency updates are now untrusted code contributions, Dependabot is an attack vector, and AI-in-CI is the only viable reviewer at scale
 - [[Zero Trust for AI Agents]] — Anthropic's definitive security framework: three-tier maturity model across eight capability domains. The "impossible vs. tedious" design test, Least Agency, and why rotating API keys is security theater
+- [[AI Agents Are Installing Packages No One Owns]] — Hallucinated package names spreading through agent skill files into 237+ repos; the accountability gap when AI agents install deps no human approved
