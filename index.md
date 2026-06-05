@@ -59,6 +59,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Hermes]] — Open-source personal agent framework with self-improving skills loop. 149k stars
 - [[clawdBot]] — Open-source personal AI on every messaging platform. One-line install, runs locally
 - [[PiClaw]] — Self-hosted AI workspace in a single Docker container with web UI
+- [[Odysseus]] — Self-hosted AI workspace with agents, email, calendar, documents, and model serving. Dual tool execution (fenced blocks + native calling), 50+ tools
 - [[Slate]] — Thread-and-episode architecture for long-horizon agent tasks. Context routing as the core primitive, not model intelligence
 - [[Serf]] — Non-interactive coding agent from Prime Radiant. Give it a task, it works
 - [[Ralph]] — Two flavours of the Wiggum loop: snarktank's PRD-driven tool and Huntley's bare bash technique for greenfield projects
