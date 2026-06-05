@@ -232,6 +232,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[America Is Slow-Walking Into a Polymarket Disaster]] — Desai's Atlantic polemic on the media's embrace of prediction markets: manipulation, insider trading, and the gamblification of civic life
 - [[Archive.today DDoSed a Critic's Blog]] — An OSINT investigation sat quiet for 2.5 years, then the anonymous operator retaliated with client-side DDoS and escalating threats
 - [[The Mundanity of Excellence]] — Excellence is qualitatively different choices, not quantitatively more effort
+- [[They're Made Out of Weights]] — Leiter's Bisson-homage dialogue: LLMs are "just weights" all the way down, and we've agreed not to care
 - [[Happiest I've Ever Been]] — Happiness from coaching kids, not moving rectangles
 - [[Not-Knowing (Vaughn Tan)]] — Four-type diagnostic framework for uncertainty: risk tools produce false confidence when misapplied to genuine unknowns. Diagnosis before action
 - [[Things You're Allowed to Do]] — Catalogue of overlooked opportunities. Most constraints are self-imposed
