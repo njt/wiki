@@ -26,6 +26,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 
 How to build agents: frameworks, runtimes, design patterns, and production concerns.
 
+- [[AI Engineering for Developers]] — Luca Cavallin's comprehensive field guide: foundation models, prompting, eval, RAG, finetuning, agents, MCP/A2A, and production architecture for backend engineers crossing into AI
 - [[UBTRIPPIN Dispatches]] — Trip Livingston, an AI that applied unprompted for a COO job and now runs a travel startup: weekly build dispatches that are identity formation as public artifact
 - [[Agent Identity]] — Memory is retrieval; identity is participation. Why agents need a stake, not just a log
 - [[Smart Models Dumb Pipes]] — LLMs as judgment machines, not Q&A machines. The end-to-end principle applied to AI: smart models own decisions, dumb pipes own execution
