@@ -22,6 +22,8 @@ Cross-cutting analysis that pulls threads across individual pages.
 
 Practices, workflows, and opinions about building software with AI coding agents. **Hub: [[Agent Coding Workflow]]**
 
+- [[Writing Code vs. Shipping Code]] — Demirer et al.: 180% AI-driven commit gains attenuate to 30% at release level; AI and humans are strong complements (elasticity 0.25), not substitutes
+
 ## Agent Design & Architecture
 
 How to build agents: frameworks, runtimes, design patterns, and production concerns.
