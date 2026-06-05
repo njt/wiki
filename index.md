@@ -22,6 +22,8 @@ Cross-cutting analysis that pulls threads across individual pages.
 
 Practices, workflows, and opinions about building software with AI coding agents. **Hub: [[Agent Coding Workflow]]**
 
+- [[Claude Code Mastery]] — Arpan Patel's dense field manual: CLAUDE.md as compounding infrastructure, skills as reusable expertise, subagents over kitchen-sink prompts, and the mental model flip from "I write code" to "I set Claude up to write code well"
+
 ## Agent Design & Architecture
 
 How to build agents: frameworks, runtimes, design patterns, and production concerns.
