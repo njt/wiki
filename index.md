@@ -202,6 +202,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 - [[Interfaze (Model Architecture)]] — Hybrid DNN+transformer architecture routing deterministic tasks (OCR, STT, object detection) through specialized subnetworks via task tags; launch-day HN field test with real latency and accuracy data
 - [[MiniMax Models]] — Full model lineup: text (M2.7), speech (40 languages), video (Hailuo), and music. Three-layer API compatibility strategy with local MLX deployment
 - [[Notes from the AI Now Summit by Mistral]] — Van Gilst's field report from Mistral's Paris summit: full-stack pivot, specialized small models, on-prem sovereignty as moat, and the "model alone isn't enough" thesis
+- [[Open models lag state-of-the-art closed models by 4 months]] — Epoch AI quantifies the open-closed capability gap: ~4 months and 8 ECI points behind, probably an undercount due to benchmark overfitting and unreleased models
 - [[Step 3.7 Flash]] — StepFun's 196B multimodal agentic Flash model: 97% of Opus 4.6 coding performance at 1/9th the cost via Advisor Mode, emergent compositional tool use, per-harness benchmarking across six agent scaffolds
 - [[Muse Spark and the Rough Edges Admission]] — Wang ships Meta's first superintelligence model to 3.5B users, admits "rough edges," pivots from open source. The "rough edges" line isn't the story; the bet on distribution over capability is
 
