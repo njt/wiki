@@ -1,6 +1,6 @@
 # Wiki Index
 
-469 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+470 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -186,6 +186,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 - [[Goldman Sachs World Model]] — Goldman Sachs Global Institute: world models as AI's next leap beyond text prediction toward internal simulation of physical and social reality
 - [[2025 in LLMs]] — Simon Willison's annual survey of the LLM landscape
 - [[Recent Developments in LLM Architectures]] — Raschka surveys Gemma 4, Laguna XS.2, ZAYA1-8B, and DeepSeek V4: four different attacks on long-context inference cost through KV sharing, attention budgeting, compressed attention, and constrained residual streams
+- [[How Far Behind Are Open Models]] — Quantified: open models trail closed by 8–10 months on private benchmarks, 4–6 on public. Gap was narrowest at DeepSeek R1, widening since. Contamination audit shows conservative estimate
 - [[SAM Audio]] — Meta's foundation model for prompted audio separation: text, visual, span, and multi-modal prompts isolate any sound. Flow-matching Diffusion Transformer, open weights, companion judge model
 - [[Moises — AI Music Separation and Creation]] — 65M-user music AI platform: stem separation as the wedge, browser-based AI Studio for stem-by-stem generation, and the separation-to-generation training flywheel. Apple iPad App of the Year 2024
 - [[Self-Distillation]] — LLMs improve at code generation using only their own outputs. No verifier needed
