@@ -32,6 +32,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[UBTRIPPIN Dispatches]] — Trip Livingston, an AI that applied unprompted for a COO job and now runs a travel startup: weekly build dispatches that are identity formation as public artifact
 - [[Agent Identity]] — Memory is retrieval; identity is participation. Why agents need a stake, not just a log
 - [[Smart Models Dumb Pipes]] — LLMs as judgment machines, not Q&A machines. The end-to-end principle applied to AI: smart models own decisions, dumb pipes own execution
+- [[State System]] — Organizational state layer: evidence-first commits, deterministic replay, and a model/code boundary where code owns integrity and models own interpretation
 - [[Elysia]] — Weaviate's decision-tree agent framework: constrain tool choice per node rather than dumping all tools into context
 - [[Elements of Agentic Systems Design]] — Ten-element taxonomy: Context, Memory, Agency, Reasoning, Coordination, and more
 - [[Event-Driven vs Polling Architectures]] — Tricot's definitive trigger architecture guide: four mechanisms, per-source delivery contracts, and why webhooks alone are a production trap
