@@ -91,6 +91,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Resident — ESP32 Lua Sandbox with Agent Skills]] — Sandboxed Lua runtime for ESP32 with hot-reload. AI agents write and push apps to physical devices via Claude Code plugin
 - [[Golem Covenant]] — v0.1 spec framework for bounded, answerable, revocable agents: five-organ taxonomy (Mouth/Purse/Seal/Key/Sword), default-deny, tested return-to-dust before launch
 - [[Your Coding Agent Should Do AI System Engineering]] — Ben Burtenshaw's three-level agent autonomy ladder (kernel writing → fine-tuning → auto-research lab), skills as few-shot context, and the case for open primitives over abstracted APIs
+- [[xa11y — Desktop Automation via Accessibility APIs]] — Playwright-style desktop automation via accessibility trees on Windows/macOS/Linux: the structured alternative to vision-based computer use agents
 
 ## Agent Orchestration & Coordination
 
