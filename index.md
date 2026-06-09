@@ -288,3 +288,4 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[How to Remove Mould from Clothing]] — Materials science meets domestic advice: the ink-in-a-sponge model for why some mouldy clothes can't be saved, and how prevention is systems design not housekeeping
 - [[Finding a Family — A Categorization of Enjoyable Emotions]] — First systematic taxonomy of 28 positive emotions into 8 families; the "hazardous emotions" category forces the distinction between feels-good and is-good
 - [[Vibe Maths and the Erdős Breakthrough]] — Amateur + ChatGPT cracks a 60-year-old conjecture; AI's superpower is innocence, not intelligence
+- [[Public Domain Image Archive]] — 10,000 hand-curated public domain images with three co-equal discovery modes: catalogue, Infinite View (360° spatial browsing), and shuffle serendipity. A masterclass in discovery-over-retrieval UX and curation as craft
