@@ -29,6 +29,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 
 How to build agents: frameworks, runtimes, design patterns, and production concerns.
 
+- [[The Agentic Product Standard v2.0]] — The field-tested canonical standard: autonomy ladder, 5 composition patterns, 8-layer harness, eval pyramid, and Claude Code skills that operationalize it
 - [[AI Engineering for Developers]] — Luca Cavallin's comprehensive field guide: foundation models, prompting, eval, RAG, finetuning, agents, MCP/A2A, and production architecture for backend engineers crossing into AI
 - [[UBTRIPPIN Dispatches]] — Trip Livingston, an AI that applied unprompted for a COO job and now runs a travel startup: weekly build dispatches that are identity formation as public artifact
 - [[Agent Identity]] — Memory is retrieval; identity is participation. Why agents need a stake, not just a log
