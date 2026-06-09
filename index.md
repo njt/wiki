@@ -187,6 +187,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 Tools that run on your own machines: voice, hardware, local inference, knowledge apps. **Hub: [[Local and Open Source Inference]]**
 
 - [[Datacenter GPU in a Gaming PC]] — £200 eBay V100 in a gaming rig: hardware hacking, NixOS driver archaeology, and Qwen3.6-27B at 32 tok/s
+- [[LocalAI]] — Open-source drop-in replacement for the entire cloud AI stack: inference engine, agent runtime, and memory service in a composable gRPC backend architecture. 40k stars, MIT licensed
 
 ## AI Research & Models
 
