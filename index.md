@@ -1,6 +1,6 @@
 # Wiki Index
 
-470 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+471 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
