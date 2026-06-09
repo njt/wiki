@@ -67,6 +67,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[PiClaw]] — Self-hosted AI workspace in a single Docker container with web UI
 - [[Odysseus]] — Self-hosted AI workspace with agents, email, calendar, documents, and model serving. Dual tool execution (fenced blocks + native calling), 50+ tools
 - [[Slate]] — Thread-and-episode architecture for long-horizon agent tasks. Context routing as the core primitive, not model intelligence
+- [[Coding Agents Continuity Not Memory]] — Santi (oldskultxo): "bigger memory" is the wrong framing. The real primitive is continuity — preserving the operational thread across session boundaries via repo-local, evidence-weighted state with a resume-work-finalize lifecycle
 - [[Serf]] — Non-interactive coding agent from Prime Radiant. Give it a task, it works
 - [[Ralph]] — Two flavours of the Wiggum loop: snarktank's PRD-driven tool and Huntley's bare bash technique for greenfield projects
 - [[Zeroclaw]] — Rust agent runtime: trait-based, 30+ channels, OS-level sandboxing. 31k stars
