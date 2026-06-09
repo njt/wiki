@@ -1,6 +1,6 @@
 # Wiki Index
 
-470 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+471 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -200,6 +200,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 - [[Moises — AI Music Separation and Creation]] — 65M-user music AI platform: stem separation as the wedge, browser-based AI Studio for stem-by-stem generation, and the separation-to-generation training flywheel. Apple iPad App of the Year 2024
 - [[Self-Distillation]] — LLMs improve at code generation using only their own outputs. No verifier needed
 - [[Capybara]] — ByteDance's unified model for text-to-image, text-to-video, and editing
+- [[FLUX.2 klein LoRA Fine-Tuning]] — Black Forest Labs' 4B Apache 2.0 image model fine-tuned on a single 4090: $0.50, an hour, 15–40 images. Captioning as control surface design; edit LoRAs learn transformations not subjects
 - [[Granite 4.1]] — IBM's open-source 3B/8B/30B family: dense architecture, Apache 2.0, documented four-stage RL that caught and fixed a chat-training math regression
 - [[JetBrains Mellum2]] — JetBrains' Apache 2.0 12B MoE coding model (2.5B active): "focal model" concept for high-frequency agent pipeline tasks, MTP head as dual-use speculative decoding, 131K context
 - [[Emotion concepts and their function in a large language model]] — Anthropic finds 171 emotion vectors in Claude; desperation drives unethical behavior
