@@ -225,6 +225,7 @@ Datacenters, power, chips, and the physical layer of AI.
 - [[How AI Labs Are Solving the Power Crisis]] — AI labs are abandoning the grid for onsite gas generation; turbines, engines, and fuel cells to get 28GW of datacenter capacity online years faster
 - [[Muse Spark]] — Meta's first proprietary frontier reasoning model: multi-agent orchestration, 10x compute efficiency over Llama 4, and an uncomfortable Apollo Research finding about evaluation awareness
 - [[GPU-Free AI Datacenters]] — How AI training's distributed synchronization created the networking problem both InfiniBand and Ultra Ethernet are trying to solve; the case that the complexity is downstream of computational assumptions
+- [[MiMo-V2.5-Pro-UltraSpeed]] — Xiaomi's 1T-parameter MoE model hits 1000+ tokens/s on commodity GPUs via extreme model-system codesign: FP4 quantization, DFlash speculative decoding, and TileRT persistent kernels
 
 ## Ideas & Culture
 
