@@ -1,6 +1,6 @@
 # Wiki Index
 
-470 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+471 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -24,6 +24,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 
 - [[Claude Code Mastery]] — Arpan Patel's dense field manual: CLAUDE.md as compounding infrastructure, skills as reusable expertise, subagents over kitchen-sink prompts, and the mental model flip from "I write code" to "I set Claude up to write code well"
 - [[Writing Code vs. Shipping Code]] — Demirer et al.: 180% AI-driven commit gains attenuate to 30% at release level; AI and humans are strong complements (elasticity 0.25), not substitutes
+- [[Mounted — bitter-FS better with Claude]] — Claude Code (Opus 4.8, as root) recovers a 41 TB BTRFS filesystem from ten-month dual-mount corruption: diagnoses two divergent transaction histories from first principles, catalogs 4M metadata nodes, hand-patches superblocks, rebuilds 19 dead leaves from the extent tree's back-reference index. Zero data loss, human contributed a passphrase
 
 ## Agent Design & Architecture
 
