@@ -223,6 +223,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 - [[Open models lag state-of-the-art closed models by 4 months]] — Epoch AI quantifies the open-closed capability gap: ~4 months and 8 ECI points behind, probably an undercount due to benchmark overfitting and unreleased models
 - [[Step 3.7 Flash]] — StepFun's 196B multimodal agentic Flash model: 97% of Opus 4.6 coding performance at 1/9th the cost via Advisor Mode, emergent compositional tool use, per-harness benchmarking across six agent scaffolds
 - [[Muse Spark and the Rough Edges Admission]] — Wang ships Meta's first superintelligence model to 3.5B users, admits "rough edges," pivots from open source. The "rough edges" line isn't the story; the bet on distribution over capability is
+- [[Playing with Vision Embeddings]] — Preston Jensen reverse-engineers DINOv3's 384-dim vision embedding space: SAEs, feature visualization, superposition, and what feature arithmetic reveals about how vision transformers actually see
 
 ## AI Infrastructure & Hardware
 
