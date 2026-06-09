@@ -121,6 +121,8 @@ Isolation, credentials, prompt injection defense, and agent safety. **Hub: [[Sec
 
 Craft beyond agents: simplicity, error handling, reliability, specs, and project management. **Hub: [[Software Engineering Craft]]**
 
+- [[Your Backend Is Full of Hidden Workflows]] — How backend codebases quietly accrete coordination logic across services, queues, and handlers until teams are managing workflows they can't see. The three costs: expensive changes, painful debugging, eroded trust
+
 ## Databases & Data
 
 Storage engines, query patterns, data quality, and vector/graph databases. **Hub: [[Databases and Data]]**
