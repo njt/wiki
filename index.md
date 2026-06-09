@@ -164,6 +164,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Clearance]] — Native macOS Markdown viewer/editor from Prime Radiant. Swift, local-first, YAML frontmatter support
 - [[MarkText]] — Open-source GUI Markdown editor. WYSIWYG, cross-platform
 - [[Mist]] — Google Docs for Markdown. Real-time collaboration, no accounts
+- [[Music Decoy]] — macOS utility that stops Music.app from auto-launching by impersonating its bundle ID. Zero CPU, zero work
 - [[magika]] — Google's AI file type detection: 200+ types in 5ms, deployed at Gmail scale
 - [[smui]] — Terminal-aesthetic theme for shadcn/ui. Nord palette, monospace, zero radius
 - [[json-render]] — Vercel Labs' generative UI framework: LLM outputs JSON constrained to a Zod component catalog, rendered progressively. 15k stars
