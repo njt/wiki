@@ -50,6 +50,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Agentcookie]] — Matt Van Horn's session state sync: continuously replicate cookies and API tokens from your primary Mac to your agent Mac over encrypted Tailscale. Zero per-site auth ceremony
 - [[Control Plane MCP Server]] — Most complete vendor MCP implementation: 80+ tools, virtual resources as embedded docs, AI Plugin as safety curation layer
 - [[How Hightouch Built Their Long-Running Agent Harness]] — Context management, not model ability, is the real engineering challenge
+- [[Maybe Coding Agents Don't Need a Bigger Memory]] — Santi (oldskultxo): context ≠ continuity. Bigger context windows don't solve cold starts; repo-local, evidence-weighted continuity records do. Resume → work → finalize lifecycle, failure memory, execution contracts
 - [[Building Production-Ready Voice Agents]] — 50% of effort goes to the admin portal, not the voice agent
 - [[Chief of Staff]] — AI chief of staff: rule-based scanning + daily LLM classification cut costs 80%
 - [[Experience Design for Agents]] — UX, not model capability, determines whether an agent gets adopted
