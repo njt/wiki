@@ -251,6 +251,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[Computer Use is 45x More Expensive Than Structured APIs]] — Vision agents: 551k tokens/17min vs API agents: 12k tokens/20sec. The gap is architectural, not model-dependent
 - [[Why Does AI Write Like That]] — Sam Kriss's taxonomy of AI prose tics: overfitting as style, how "delve" and em dashes became class markers, and the flattening of early GPT's surreal humor into insipid eagerness
 - [[Various LLM Smells]] — Shiv's field guide to recognizing AI artifacts in your own writing after months of LLM use: punchline density, structural tics, and visual design convergence. The user-side companion to Kriss
+- [[Performative UI]] — Nathaniel J. Smith's satirical React component library cataloguing AI startup landing page tropes as installable npm packages. The visual-design parallel to Kriss and Shiv: 27 components where each description states the quiet part out loud
 - [[The Behavioral Cost of Personalized Pricing]] — Behavioral price discrimination turns sincere customers into performers; the sincerity tax and the coming arms race of digital reputation management
 - [[Creative Firewall]] — Sundar's framework for the boundary between authentic human prompting and AI-optimized output: Trojan Prompts as the creative differentiator
 - [[You Can Just Say It]] — Caleb Gross: stop defending human value by what AI can't do. AI slop = form without discernible intent. Just send the prompt
