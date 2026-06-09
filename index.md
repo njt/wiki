@@ -106,6 +106,8 @@ Evals, testing, linting, feedback loops, and keeping agent output trustworthy. *
 
 Isolation, credentials, prompt injection defense, and agent safety. **Hub: [[Security and Sandboxing]]**
 
+- [[Akmon]] — Tamper-evident evidence layer for AI agents: content-addressed, cryptographically signed session records verifiable offline with openssl. 95K LoC Rust workspace, 14 crates, built-in coding agent as reference producer
+
 ## Software Engineering
 
 Craft beyond agents: simplicity, error handling, reliability, specs, and project management. **Hub: [[Software Engineering Craft]]**
