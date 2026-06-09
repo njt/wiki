@@ -155,6 +155,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[claude-replay]] — Agent sessions as self-contained embeddable HTML replays
 - [[engineering-notebook]] — Automatic engineering diary from Claude Code and Codex sessions
 - [[session-analysis]] — Analyze agent session JSONL for wall time, tokens, and cost
+- [[atifact]] — Zero-dependency CLI converting HAR files, Claude Code, Copilot CLI, and Codex CLI logs to ATIF v1.7 trajectory JSON
 - [[AI Pricing]] — Free JSON API for per-token AI model pricing across 19 providers. Agent-native, no auth
 - [[AgentsView]] — Local-first analytics dashboard for 24+ coding agents
 - [[Broomy]] — MIT-licensed Electron desktop app running multiple coding agents side-by-side with built-in IDE and code review
