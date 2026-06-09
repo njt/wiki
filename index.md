@@ -122,6 +122,7 @@ Isolation, credentials, prompt injection defense, and agent safety. **Hub: [[Sec
 Craft beyond agents: simplicity, error handling, reliability, specs, and project management. **Hub: [[Software Engineering Craft]]**
 
 - [[Lessons for Reusable Web Components]] — Daniel De Pietro's five field-tested rules for web components: namespace everything, CSS variables as the public API, trust modern platform features, publish over paste, document or it didn't happen
+- [[Your Backend Is Full of Hidden Workflows]] — How backend codebases quietly accrete coordination logic across services, queues, and handlers until teams are managing workflows they can't see. The three costs: expensive changes, painful debugging, eroded trust
 
 ## Databases & Data
 
