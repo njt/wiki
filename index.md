@@ -172,6 +172,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Claude Lamp]] — LED lamp controlled by Claude Code's state via Bluetooth
 - [[Muxcard]] — Credit card-sized computer (~1mm thick): ESP32-C3, e-paper display, NFC reader/writer, strain-isolated flex PCB
 - [[Pretext]] — Pure JS/TS text measurement and layout without DOM reflow. 46.9k stars
+- [[Process Flow]] — Choreography-as-a-service: each HTTP stage designates its successor, no central workflow DAG
 - [[n8n]] — Visual workflow automation with 400+ integrations, AI nodes via LangChain, fair-code licensed. 188k stars
 - [[Micasa]] — TUI for home maintenance, projects, and vendor quotes. Pure Go, vim-style
 - [[Zed]] — Rust-native code editor from the Atom/Electron/Tree-sitter team: AI as first-class substrate, not a bolt-on
