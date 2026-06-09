@@ -1,6 +1,6 @@
 # Wiki Index
 
-472 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+473 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -226,6 +226,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 - [[Subquadratic 12M Context Window]] — 13-person startup claims 12M-token context window via sub-quadratic sparse attention. Unverified
 - [[The Car Wash Question]] — 949-comment HN thread on why LLMs fail at obvious inferences: the frame problem lives, clarifying questions are suppressed by product choice not capability, and the gap between generation and pondering
 - [[Grok 4.3 (HN Discussion)]] — 529-comment HN thread that accidentally mapped the LLM landscape: tone registers, the alignment tax's real victims, why users disable memory, and recursive training contamination
+- [[DeepSeek Reverse Engineers TeamSpeak Licensing]] — First public field report of LLM binary RE: DeepSeek cracked TeamSpeak 3.13.8 for $3.88, while Claude/Grok/GLM all refused; safety-through-refusal is a temporary filter
 - [[Interfaze (Model Architecture)]] — Hybrid DNN+transformer architecture routing deterministic tasks (OCR, STT, object detection) through specialized subnetworks via task tags; launch-day HN field test with real latency and accuracy data
 - [[MiniMax Models]] — Full model lineup: text (M2.7), speech (40 languages), video (Hailuo), and music. Three-layer API compatibility strategy with local MLX deployment
 - [[Notes from the AI Now Summit by Mistral]] — Van Gilst's field report from Mistral's Paris summit: full-stack pivot, specialized small models, on-prem sovereignty as moat, and the "model alone isn't enough" thesis
