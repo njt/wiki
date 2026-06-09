@@ -1,6 +1,6 @@
 # MiMo-V2.5-Pro-UltraSpeed
 
-Xiaomi's MiMo team and TileRT jointly announce a 1-trillion-parameter MoE model running at 1000+ tokens/s on a single 8-GPU commodity node — achieved not through specialized hardware (Cerebras/Groq) but through extreme model-system codesign: selective FP4 quantization of MoE Experts, DFlash block-level speculative decoding, and TileRT's persistent-kernel inference engine.
+Xiaomi's MiMo team and TileRT jointly announce a 1-trillion-parameter MoE model running at 1000+ tokens/s on a single 8-GPU commodity node — achieved not through specialized hardware (Cerebras/Groq) but through extreme model-system codesign: selective FP4 quantization of MoE Experts, DFlash block-level speculative decoding, and TileRT's persistent-kernel inference engine. Launched June 8, 2026 with a limited two-week application-based trial (June 9–23). Open-source FP4-DFlash checkpoint available on HuggingFace.
 
 ---
 
@@ -22,6 +22,10 @@ The "commodity GPU" claim is the headline here. Cerebras and Groq have done extr
 
 A concise diagnosis of why traditional inference stacks can't just be "sped up" — at microsecond timescales, the framework overhead becomes the bottleneck, not the compute. TileRT's solution (persistent kernels, warp specialization) is effectively building a real-time OS for GPU inference.
 
+> "When this power is brought to surgical assistance and medical imaging analysis in life-or-death situations, AI speed is no longer just a metric of efficiency — it becomes a chip in the race against death. On the operating table, every second AI saves in completing lesion analysis and risk prediction gives the surgeon one more degree of freedom."
+
+This is the most emotionally effective passage in the announcement. The "race against death" framing connects a technical metric (tokens/s) to a human stakes argument without feeling like marketing. It's also strategically smart: it positions inference speed as a *safety* and *healthcare* concern, not just a developer convenience. That's how you justify premium pricing to enterprise buyers.
+
 ## Key Themes
 
 - **#concept** — Model-system codesign as methodology: the model and inference stack are co-designed, not layered
@@ -30,6 +34,19 @@ A concise diagnosis of why traditional inference stacks can't just be "sped up" 
 - **#tool** — DFlash: block-level masked parallel prediction for speculative decoding
 - **#concept** — FP4 (MXFP4) quantization of MoE Experts only, preserving original precision for attention/routing
 - **#pattern** — Speed → Intelligence: using excess inference speed as a budget for parallel reasoning chains
+
+## Demos
+
+- **Snake game** — built from scratch in ~10 seconds
+- **MacOS interface** — recreated in ~1 minute
+
+These aren't just parlor tricks. The Snake demo in particular demonstrates the coding agent thesis: at 1000 tps, the feedback loop between "write code" and "see it run" collapses to near-zero. That's the qualitative shift from "AI as code generator" to "AI as real-time programming partner."
+
+## Open Source
+
+The **MiMo-V2.5-Pro-FP4-DFlash** checkpoint is on HuggingFace at [huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro-FP4-DFlash](https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro-FP4-DFlash) — FP4 quantized weights plus DFlash model parameters. UltraSpeed support for the base MiMo-V2.5 model is "on the way."
+
+The DFlash paper is at [arxiv.org/abs/2602.06036](https://arxiv.org/abs/2602.06036). The OCP MXFP4 spec: [opencompute.org](https://www.opencompute.org/documents/ocp-microscaling-formats-mx-v1-0-spec-final-pdf).
 
 ## Critical Analysis
 
@@ -57,5 +74,5 @@ A concise diagnosis of why traditional inference stacks can't just be "sped up" 
 - [[2025 in LLMs]] — Simon Willison's annual survey; MiMo is one of the new entrants worth tracking
 
 ---
-*Sources: [[raw/mimo-tilert-1000tps]], [tilert.ai/blog/breaking-1000-tps.html](https://www.tilert.ai/blog/breaking-1000-tps.html)*
+*Sources: [[raw/mimo-tilert-1000tps]], [MiMo-V2.5-Pro-FP4-DFlash on HuggingFace](https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro-FP4-DFlash), [DFlash paper (arXiv:2602.06036)](https://arxiv.org/abs/2602.06036), [TileRT technical details](https://www.tilert.ai/blog/breaking-1000-tps.html)*
 *Last updated: 2026-06-09*
