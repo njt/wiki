@@ -41,3 +41,4 @@ Content exists but can't be text-extracted.
 | URL | Wiki Page | Failure | Date |
 |-----|-----------|---------|------|
 | (empty — ThoughtWorks resolved via pdftotext on 2026-05-18; was misclassified as image PDF) | | | |
+- https://localai.io/ — surf grab too sparse (2.7KB), needs manual or retry with longer wait
