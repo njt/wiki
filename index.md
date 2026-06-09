@@ -98,6 +98,8 @@ Multi-agent systems, task graphs, kanban boards, and coordination patterns. **Hu
 
 Persistence, retrieval, knowledge management, and context engineering for agents. **Hub: [[Agent Memory and Context]]**
 
+- [[Sawtooth Memory]] — Async non-blocking hierarchical memory middleware: 4-tier stack (L0 system / L1 working / L1.5 entity ledger / L2 archival) with background asyncio compression that eliminates main-thread latency and guarantees deterministic fact retention. Dual-extraction compression prompt, local Ollama default with cloud provider adapters
+
 ## Quality & Guardrails
 
 Evals, testing, linting, feedback loops, and keeping agent output trustworthy. **Hub: [[Guardrails and Feedback Loops]]**
