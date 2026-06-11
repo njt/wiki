@@ -1,6 +1,6 @@
 # Wiki Index
 
-474 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+475 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -42,6 +42,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Event-Driven vs Polling Architectures]] — Tricot's definitive trigger architecture guide: four mechanisms, per-source delivery contracts, and why webhooks alone are a production trap
 - [[Mirage (VFS)]] — Unified virtual filesystem mounting 27+ services (S3, Slack, GitHub, Postgres, etc.) behind a single POSIX tree so agents use bash instead of per-service SDKs
 - [[Components of a Coding Agent]] — The harness matters more than the model. Six components, precise taxonomy (LLM/reasoning-model/agent/harness), mini-coding-agent reference implementation
+- [[MiMo Code]] — Xiaomi's coding agent architected for long-horizon tasks: independent writer subagent for memory extraction, early checkpointing at 20/45/70%, Dynamic Workflow (code-based orchestration), and Dream/Distill for cross-session learning. Ties Claude Code under 200 steps, wins 65%+ beyond
 - [[Agent-Native Architectures (Every)]] — Every's definitive design guide: five principles (parity, granularity, composability, emergent capability, improvement over time), files as universal interface, anti-patterns, and mobile resilience patterns
 - [[Honey I Shrunk the Coding Agent]] — 9B local model jumps from 19% to 46% on Aider Polyglot by redesigning the scaffold around the model's behavioral profile. Empirical proof that the harness matters more than the model
 - [[Apache Burr]] — Apache-incubating Python framework for AI agents as explicit state machines: decorators on plain functions, built-in observability UI, persistence and replay as first-class features. The un-LangChain
