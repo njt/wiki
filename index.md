@@ -129,6 +129,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 Storage engines, query patterns, data quality, and vector/graph databases. **Hub: [[Databases and Data]]**
 
 - [[Streambed]] — Postgres-to-Iceberg CDC in a single Go binary: WAL streaming, Parquet+S3, embedded DuckDB query server with psql-wire. Jepsen-style simulation testing, no Kafka/JVM/Spark needed
+- [[Artie]] — Managed CDC replication: sub-minute latency from Postgres/MySQL/MongoDB to Snowflake/Databricks/BigQuery. Zero data retention, no Kafka required. The "buy vs. build" alternative to self-managed Debezium pipelines
 
 ## Developer Tools
 
