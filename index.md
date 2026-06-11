@@ -1,6 +1,6 @@
 # Wiki Index
 
-473 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+474 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -266,6 +266,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[Performative UI]] — Nathaniel J. Smith's satirical React component library cataloguing AI startup landing page tropes as installable npm packages. The visual-design parallel to Kriss and Shiv: 27 components where each description states the quiet part out loud
 - [[The Behavioral Cost of Personalized Pricing]] — Behavioral price discrimination turns sincere customers into performers; the sincerity tax and the coming arms race of digital reputation management
 - [[Creative Firewall]] — Sundar's framework for the boundary between authentic human prompting and AI-optimized output: Trojan Prompts as the creative differentiator
+- [[TRIZ]] — Soviet systematic innovation methodology: 40 principles, contradiction matrix, and the meta-insight that invention has structure you can learn. Intel $212.5M ROI, Samsung 50 patents/year
 - [[You Can Just Say It]] — Caleb Gross: stop defending human value by what AI can't do. AI slop = form without discernible intent. Just send the prompt
 - [[Eye of the Master]] — AI as labour automation, not cognitive science. Pasquinelli's social history
 - [[Why Agents Matter More Than Other AI]] — Seven structural advantages agents have over human employees: replication, 24/7 operation, no management overhead, tax efficiency. The CFO's case for replacing labor with compute
