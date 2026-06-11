@@ -1,6 +1,6 @@
 # Wiki Index
 
-473 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+474 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -183,6 +183,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[magika]] — Google's AI file type detection: 200+ types in 5ms, deployed at Gmail scale
 - [[smui]] — Terminal-aesthetic theme for shadcn/ui. Nord palette, monospace, zero radius
 - [[json-render]] — Vercel Labs' generative UI framework: LLM outputs JSON constrained to a Zod component catalog, rendered progressively. 15k stars
+- [[Extend UI]] — Open source React component library for document apps: PDF/DOCX/XLSX viewers, bounding box citations, e-signing, schema builder. 560 stars, targets agent-built document UIs
 - [[QMD]] — Local CLI search engine: hybrid BM25 + vector + LLM re-ranking
 - [[Claude Lamp]] — LED lamp controlled by Claude Code's state via Bluetooth
 - [[Muxcard]] — Credit card-sized computer (~1mm thick): ESP32-C3, e-paper display, NFC reader/writer, strain-isolated flex PCB
