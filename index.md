@@ -289,6 +289,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[Fruit Jelly Slices]] — How Passover dietary law accidentally preserved a candy that should have gone extinct, and what that reveals about tradition as path dependence, not design
 - [[Life at Low Reynolds Numbers]] — Purcell's classic 1977 talk: viscosity-dominant physics at bacterial scale, the scallop theorem, and why stirring is futile when you're a micron long
 - [[Science and Statistics (Box)]] — George Box's 1976 Fisher Memorial Lecture: "all models are wrong," theory-practice iteration as the engine of science, and why mathematistry and cookbookery are the twin diseases of closed-loop research
+- [[Man-Computer Symbiosis]] — J.C.R. Licklider's 1960 ur-text of interactive computing: goal-oriented programming, graphical displays, speech interfaces, and networked thinking centers, all telegraphed before the mouse existed
 - [[Misha Glenny]] — Journalist and author tracing hidden power networks: Balkan wars, organized crime, cybercrime, rare earths. New host of In Our Time
 - [[Microscale Thermite Reaction]] — Harvard demo: smash two rusty iron balls together, trigger 2200°C thermite reaction with nothing but a glancing blow
 - [[Estimating Pi with a Coin]] — Toss until heads leads, record the fraction. Average approaches pi/4
