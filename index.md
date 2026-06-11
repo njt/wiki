@@ -137,6 +137,7 @@ Storage engines, query patterns, data quality, and vector/graph databases. **Hub
 
 CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 
+- [[Component Model 1.0]] — Bytecode Alliance's roadmap to a stable Wasm Component Model: lazy ABI, browser native support via jco telemetry, spec simplification, and the WIT expressivity gaps that remain
 - [[Git Diff Drivers]] — git's external diff driver interface: the 7-argument contract, `/dev/null` lifecycle sentinels, and a worked `oasdiff` example
 - [[Google Workspace CLI]] — One Rust CLI for all Google Workspace APIs. Dynamic command surface
 - [[Google Workspace CLI Skills]] — Structured skill catalog: 19 services, 25 helpers, 10 personas, 40 recipes. A designed taxonomy for agent-tooling
