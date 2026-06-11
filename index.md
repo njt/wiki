@@ -1,6 +1,6 @@
 # Wiki Index
 
-473 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+474 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -123,6 +123,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 
 - [[Lessons for Reusable Web Components]] — Daniel De Pietro's five field-tested rules for web components: namespace everything, CSS variables as the public API, trust modern platform features, publish over paste, document or it didn't happen
 - [[Your Backend Is Full of Hidden Workflows]] — How backend codebases quietly accrete coordination logic across services, queues, and handlers until teams are managing workflows they can't see. The three costs: expensive changes, painful debugging, eroded trust
+- [[99 Bottles of OOP]] — Sandi Metz's practical workbook: OO design as line-by-line decision-making, the Flocking Rules as structured refactoring, and "programming aesthetic" as the antidote to evaluative anesthesia
 
 ## Databases & Data
 
