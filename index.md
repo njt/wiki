@@ -199,6 +199,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[n8n]] — Visual workflow automation with 400+ integrations, AI nodes via LangChain, fair-code licensed. 188k stars
 - [[Micasa]] — TUI for home maintenance, projects, and vendor quotes. Pure Go, vim-style
 - [[Zed]] — Rust-native code editor from the Atom/Electron/Tree-sitter team: AI as first-class substrate, not a bolt-on
+- [[DeltaDB]] — Zed's version control for the agent era: deltas replace commits, every line of code is bidirectionally linked to the conversation that produced it, CRDT-backed worktrees for concurrent human+agent editing
 - [[Dolphin]] — ByteDance's universal document parsing model. Digital and photographed docs
 - [[QR Generator (delphi.tools)]] — Indie web QR code tool with live preview and deep customization. "No logins. No tracking. Long live the handmade web"
 - [[HeidiSQL]] — Free open-source database GUI for 7 engines, maintained solo since 2002. Delphi/FreePascal, cross-platform, no pricing page
