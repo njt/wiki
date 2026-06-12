@@ -113,6 +113,8 @@ Persistence, retrieval, knowledge management, and context engineering for agents
 
 Evals, testing, linting, feedback loops, and keeping agent output trustworthy. **Hub: [[Guardrails and Feedback Loops]]**
 
+- [[FrontierCode]] — Cognition's mergeability benchmark: 36 repos, 20+ maintainers, measures whether a PR would actually be accepted by a human tech lead. Opus 4.8 leads at 13.4% Diamond
+
 ## Security & Sandboxing
 
 Isolation, credentials, prompt injection defense, and agent safety. **Hub: [[Security and Sandboxing]]**
