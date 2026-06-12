@@ -115,6 +115,7 @@ Persistence, retrieval, knowledge management, and context engineering for agents
 Evals, testing, linting, feedback loops, and keeping agent output trustworthy. **Hub: [[Guardrails and Feedback Loops]]**
 
 - [[OpenCodeReview]] — Alibaba's open-source AI code review CLI: hybrid deterministic+agent architecture with per-file concurrent subagents, dual-threshold context compression, and a comment filter pass. Battle-tested across tens of thousands of developers
+- [[FrontierCode]] — Cognition's mergeability benchmark: 36 repos, 20+ maintainers, measures whether a PR would actually be accepted by a human tech lead. Opus 4.8 leads at 13.4% Diamond
 
 ## Security & Sandboxing
 
