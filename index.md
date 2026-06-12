@@ -113,6 +113,8 @@ Persistence, retrieval, knowledge management, and context engineering for agents
 
 Evals, testing, linting, feedback loops, and keeping agent output trustworthy. **Hub: [[Guardrails and Feedback Loops]]**
 
+- [[A New Era for Software Testing]] — antirez on agentic QA: give an LLM a markdown checklist, let it inspect recent commits, and run targeted integration/regression/UX tests; automatic QA as compensation for lower-quality AI-generated code
+
 ## Security & Sandboxing
 
 Isolation, credentials, prompt injection defense, and agent safety. **Hub: [[Security and Sandboxing]]**
