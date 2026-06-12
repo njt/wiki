@@ -66,6 +66,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[TradingGoose Bear Researcher]] — Production reference: position-aware AI prompting, multi-round agent debate, coordinator-worker orchestration in a Supabase Edge Function
 - [[StrongDM Factory Techniques]] — Six named patterns from the dark factory floor: DTU, Gene Transfusion, Filesystem-as-memory, Shift Work, Semport, Pyramid Summaries. Code as opaque weights, validated by harness not review
 - [[Load-Bearing Assumptions]] — Claude Code skill: surface and verify the falsifiable, unproven claims a code plan depends on. Multi-agent workflow (finder → strategist → parallel validators) with late-falsification cost matrix
+- [[Lathe]] — LLM-powered hands-on tutorial generator: Go CLI owns state, six skills do model work, strict handoff boundary. The pedagogical inversion: LLMs teach you, don't think for you
 - [[Thought Refiner Skill]] — 15-line Claude Code skill that turns vague input into sharp questions. Part of a three-skill suite (thought_refiner/sharpener/expander). A masterclass in defining what a skill *won't* do
 - [[What I learned building an opinionated and minimal coding agent]] — Four tools, no MCP, full YOLO. Competitive on benchmarks
 - [[Pi Coding Agent]] — The productized Pi: TypeScript extensions, SDK, RPC mode, and the tension between minimalist philosophy and platform ambitions
