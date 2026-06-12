@@ -157,7 +157,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[bcc]] — BPF Compiler Collection: kernel-level tracing for Linux performance analysis
 - [[Tmux Resurrect]] — Persists and restores complete tmux environments via tab-delimited flat file serialization; idempotent, zero-config, mini DSL for process matching
 - [[floci]] — Free local AWS emulator replacing LocalStack. 47 services, 24ms startup
-- [[sem]] — Semantic version control: entity-level diff, blame, and impact analysis
+- [[sem]] — Semantic version control: entity-level diff via tree-sitter across 31 languages, 5-phase entity matching with structural hashing, scope-aware reference resolution, and agent-native JSON/MCP output
 - [[markitdown]] — Microsoft's office-docs-to-Markdown converter for LLM pipelines
 - [[Klangio Transcription Studio]] — Browser-based AI polyphonic music transcription to sheet music, MIDI, and TABs. 4M+ transcriptions
 - [[Kreuzberg]] — Polyglot document intelligence: 97+ formats, Rust core, MCP server
