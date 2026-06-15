@@ -1,6 +1,6 @@
 # Wiki Index
 
-475 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+476 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -124,6 +124,7 @@ Evals, testing, linting, feedback loops, and keeping agent output trustworthy. *
 Isolation, credentials, prompt injection defense, and agent safety. **Hub: [[Security and Sandboxing]]**
 
 - [[Akmon]] — Tamper-evident evidence layer for AI agents: content-addressed, cryptographically signed session records verifiable offline with openssl. 95K LoC Rust workspace, 14 crates, built-in coding agent as reference producer
+- [[How We Contain Claude]] — Anthropic's own containment engineering postmortem: three isolation patterns (gVisor, OS sandbox, sealed VM) and the incidents they didn't anticipate. The user-as-injection-vector problem, the 93% permission approval rate, and why custom code is always the failure point
 
 ## Software Engineering
 
