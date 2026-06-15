@@ -59,6 +59,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Printing Press]] — Matt Van Horn's CLI generator turning API specs into agent-native CLIs + skills + MCP servers. 165 community CLIs, SQLite mirror pattern, compound commands over round trips
 - [[Agentcookie]] — Matt Van Horn's session state sync: continuously replicate cookies and API tokens from your primary Mac to your agent Mac over encrypted Tailscale. Zero per-site auth ceremony
 - [[Control Plane MCP Server]] — Most complete vendor MCP implementation: 80+ tools, virtual resources as embedded docs, AI Plugin as safety curation layer
+- [[Cua — Computer Use Agent Platform]] — ~245K-line multi-language monorepo: Python/TS/Swift SDK, native macOS driver, macOS VM orchestrator, and cloud sandboxes for building computer-use agents against any VLM
 - [[How Hightouch Built Their Long-Running Agent Harness]] — Context management, not model ability, is the real engineering challenge
 - [[Maybe Coding Agents Don't Need a Bigger Memory]] — Santi (oldskultxo): context ≠ continuity. Bigger context windows don't solve cold starts; repo-local, evidence-weighted continuity records do. Resume → work → finalize lifecycle, failure memory, execution contracts
 - [[Building Production-Ready Voice Agents]] — 50% of effort goes to the admin portal, not the voice agent
