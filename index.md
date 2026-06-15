@@ -1,6 +1,6 @@
 # Wiki Index
 
-477 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+478 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -28,6 +28,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Writing Code vs. Shipping Code]] — Demirer et al.: 180% AI-driven commit gains attenuate to 30% at release level; AI and humans are strong complements (elasticity 0.25), not substitutes
 - [[Mounted — bitter-FS better with Claude]] — Claude Code (Opus 4.8, as root) recovers a 41 TB BTRFS filesystem from ten-month dual-mount corruption: diagnoses two divergent transaction histories from first principles, catalogs 4M metadata nodes, hand-patches superblocks, rebuilds 19 dead leaves from the extent tree's back-reference index. Zero data loss, human contributed a passphrase
 - [[Running an AI-Native Engineering Org]] — Fiona Fung's field report from leading Claude Code engineering: JIT planning, bottleneck migration from coding to verification, dogfooding as cultural foundation, and the process ossification that AI exposes
+- [[SDDW (Spec-Driven Development Workflow)]] — sermakarevich's Claude Code plugin: 7-step pipeline (requirements → design → taskify → implement → verify → self-improve) with modular command/instructions/questionnaire/specs architecture, hybrid task files that reference rather than duplicate cross-cutting design, 4-rule deviation handling, FR-ID traceability chain, and self-improving workflow that evolves with every feature
 
 ## Agent Design & Architecture
 
