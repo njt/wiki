@@ -199,6 +199,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[smui]] — Terminal-aesthetic theme for shadcn/ui. Nord palette, monospace, zero radius
 - [[json-render]] — Vercel Labs' generative UI framework: LLM outputs JSON constrained to a Zod component catalog, rendered progressively. 15k stars
 - [[Extend UI]] — Open source React component library for document apps: PDF/DOCX/XLSX viewers, bounding box citations, e-signing, schema builder. 560 stars, targets agent-built document UIs
+- [[Phoenix LiveView]] — Server-rendered real-time UI without JavaScript: each view is a BEAM process, state changes push HTML diffs over WebSocket. The UI layer of the concurrency model agents keep reinventing
 - [[QMD]] — Local CLI search engine: hybrid BM25 + vector + LLM re-ranking
 - [[Claude Lamp]] — LED lamp controlled by Claude Code's state via Bluetooth
 - [[Muxcard]] — Credit card-sized computer (~1mm thick): ESP32-C3, e-paper display, NFC reader/writer, strain-isolated flex PCB
