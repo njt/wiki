@@ -64,6 +64,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Building Production-Ready Voice Agents]] — 50% of effort goes to the admin portal, not the voice agent
 - [[Chief of Staff]] — AI chief of staff: rule-based scanning + daily LLM classification cut costs 80%
 - [[Experience Design for Agents]] — UX, not model capability, determines whether an agent gets adopted
+- [[Fleet Supervisor (sermakarevich)]] — Production Python supervisor for parallel coding agents: pluggable coder backends (Claude/agy/codex/opencode), atomic beads queue, web UI, Telegram HITL, MCP question broker, context-pressure auto-termination
 - [[Intent Is the Interface]] — The screen was a constraint we mistook for the product. Design capabilities and intents, derive interfaces from context
 - [[The Dark Factory is a DOT File]] — The pipeline DOT file is the valuable artifact; factory code is disposable
 - [[Dippin (Language)]] — Indentation-sensitive DSL for AI agent workflows: compiler pipeline with IR, 24 CLI tools, LSP, simulator, cost estimator, and bundle format. Language separate from runtime

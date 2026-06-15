@@ -1,6 +1,6 @@
 # Fleet of Agents (sermakarevich)
 
-A five-step tutorial that builds from a single Claude Code agent writing work to disk all the way to a fleet of parallel agents sharing a queue and asking questions when stuck. Each step is self-contained and independently useful — you can stop at any point with a working setup. The progression is the best explicit walkthrough of the Ralph Wiggum loop graduation path I've seen: it makes teachable what other practitioners describe anecdotally.
+A five-step tutorial that builds from a single Claude Code agent writing work to disk all the way to a fleet of parallel agents sharing a queue and asking questions when stuck. The tutorial's concepts were later productionized as [[Fleet Supervisor (sermakarevich)]], a full Python supervisor with web UI, Telegram integration, and MCP-based human-in-the-loop. Each step is self-contained and independently useful — you can stop at any point with a working setup. The progression is the best explicit walkthrough of the Ralph Wiggum loop graduation path I've seen: it makes teachable what other practitioners describe anecdotally.
 
 ---
 

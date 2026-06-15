@@ -84,6 +84,7 @@ The most interesting development is kanban boards as the human-agent coordinatio
 - [[speedrift-ecosystem]] — Autonomous dark-factory control plane supervising agent work across repos
 - [[What Ralph Wiggum Loops Are Missing]] — The graduation path from bash loops to structured dependency management: why freeform markdown tracking breaks under multi-agent load
 - [[Fleet of Agents (sermakarevich)]] — Five-step tutorial from single agent to parallel fleet with atomic claiming and Q&A blocking. The Ralph Wiggum graduation path made explicit and teachable
+- [[Fleet Supervisor (sermakarevich)]] — The production implementation of the fleet pattern: Python supervisor with pluggable coders, web UI, Telegram HITL, MCP question broker. The tutorial graduated to a real tool
 - [[Managing Agents via Kanban Boards]] — Task status transitions as the signaling mechanism between humans and agents
 - [[ralph-ban]] — TUI kanban board for agents. Five columns, vim nav, SQLite, real-time sync
 - [[vibe-kanban]] — Kanban boards for assigning work to coding agents with inline diff review
