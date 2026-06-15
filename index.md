@@ -226,6 +226,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Gova]] — Declarative reactive GUI framework for Go: SwiftUI-inspired API, call-site state identity via runtime.Caller, Fyne bridge stays internal, hot-reload dev server
 - [[Stash — Conflict-Free Folder Sync]] — TypeScript CLI syncing any folder via GitHub: three-way text merge with diff-match-patch, dual drift detection, OS-level background daemon
 - [[Textverified]] — Temporary US phone numbers for SMS/voice verification: carrier SIMs (non-VoIP), 900+ services, API + crypto payments, from $0.25/use
+- [[zeroserve]] — Linux HTTPS server that serves from tarballs and runs eBPF scripts JIT-compiled in-process with a branchless pointer cage sandbox. Compiles Caddyfiles to eBPF middleware
 
 ## Local & Personal Computing
 
