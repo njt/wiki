@@ -186,6 +186,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Broomy]] — MIT-licensed Electron desktop app running multiple coding agents side-by-side with built-in IDE and code review
 - [[Browser Use]] — AI browser automation with anti-detection and deterministic rerun
 - [[Webwright]] — Microsoft Research: turns coding models into SOTA browser agents via terminal + Playwright. Code-as-action, self-verifying, ~1.5K LoC
+- [[Chunker (Document Chunking Tool)]] — Python CLI that builds navigable knowledge trees from documents: LLM-mediated semantic chunking + bottom-up hierarchical summaries for progressive disclosure
 - [[Chrome DevTools MCP — Debug Your Browser Session]] — Chrome M144's `--autoConnect` lets agents reuse authenticated browser sessions. Hybrid manual/AI debugging via permission-gated remote debugging
 - [[surf-cli]] — Browser automation for agents via CLI and Unix sockets. No MCP needed
 - [[Claude Artifact Server]] — 22 Claude-generated retro-Mac interactive artifacts produced in a single day: generation-at-scale showcase, not a product
