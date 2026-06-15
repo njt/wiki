@@ -17,6 +17,7 @@ Cross-cutting analysis that pulls threads across individual pages.
 - [[Software Engineering Craft]] — Fundamentals that don't change: error handling, API design, SRE, project management
 - [[Databases and Data]] — Storage as a design problem. Git-for-databases, vector search, data quality, convergent database architectures
 - [[Distributed Systems]] — Agent orchestration IS distributed systems. BEAM/OTP as the model. Honest about what's missing
+- [[The Oracle Is the Asset]] — Sam Ruby's Drucker inversion: the test suite is the durable asset, not the compiler. Frameworks will become transpilers, and you'll own the spec the compiler answers to
 
 ## Agentic Development
 
