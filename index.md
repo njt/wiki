@@ -239,6 +239,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 - [[FLUX.2 klein LoRA Fine-Tuning]] — Black Forest Labs' 4B Apache 2.0 image model fine-tuned on a single 4090: $0.50, an hour, 15–40 images. Captioning as control surface design; edit LoRAs learn transformations not subjects
 - [[Granite 4.1]] — IBM's open-source 3B/8B/30B family: dense architecture, Apache 2.0, documented four-stage RL that caught and fixed a chat-training math regression
 - [[JetBrains Mellum2]] — JetBrains' Apache 2.0 12B MoE coding model (2.5B active): "focal model" concept for high-frequency agent pipeline tasks, MTP head as dual-use speculative decoding, 131K context
+- [[Cohere North Mini Code]] — Cohere's first open-source agentic coding model: 30B MoE (3B active), Apache 2.0, runs on a single H100. 2.8× throughput of Devstral Small 2, sovereign-developer play
 - [[Emotion concepts and their function in a large language model]] — Anthropic finds 171 emotion vectors in Claude; desperation drives unethical behavior
 - [[Where the Goblins Came From]] — Reward model mistook "playful creature metaphors" for "nerdy"; a miniature paperclip maximizer in production, fixed with a prompt
 - [[Zheng Dong Wang's 2025 Letter]] — Personal perspective on the compute thesis of AI progress
