@@ -221,6 +221,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Building the deployment tool I wish I had]] — Deptool: Git-backed deployment with atomic symlink swaps, auto-rollback, and a static binary agent that needs only SSH+coreutils
 - [[Gova]] — Declarative reactive GUI framework for Go: SwiftUI-inspired API, call-site state identity via runtime.Caller, Fyne bridge stays internal, hot-reload dev server
 - [[Stash — Conflict-Free Folder Sync]] — TypeScript CLI syncing any folder via GitHub: three-way text merge with diff-match-patch, dual drift detection, OS-level background daemon
+- [[Textverified]] — Temporary US phone numbers for SMS/voice verification: carrier SIMs (non-VoIP), 900+ services, API + crypto payments, from $0.25/use
 
 ## Local & Personal Computing
 
