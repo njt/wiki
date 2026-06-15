@@ -1,6 +1,6 @@
 # Wiki Index
 
-477 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+478 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -114,6 +114,7 @@ Multi-agent systems, task graphs, kanban boards, and coordination patterns. **Hu
 Persistence, retrieval, knowledge management, and context engineering for agents. **Hub: [[Agent Memory and Context]]**
 
 - [[Sawtooth Memory]] — Async non-blocking hierarchical memory middleware: 4-tier stack (L0 system / L1 working / L1.5 entity ledger / L2 archival) with background asyncio compression that eliminates main-thread latency and guarantees deterministic fact retention. Dual-extraction compression prompt, local Ollama default with cloud provider adapters
+- [[MELT]] — Shisa AI's benchmark harness for evaluating long-lived agent memory: tests lifecycle dynamics (correction, contradiction, decay, as-of recall, consolidation) not just static retrieval. Zero-dependency Python, pluggable SUT adapter contract, 4 built-in suites including native lifecycle benchmark
 
 ## Quality & Guardrails
 
