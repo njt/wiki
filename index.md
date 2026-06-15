@@ -124,6 +124,7 @@ Evals, testing, linting, feedback loops, and keeping agent output trustworthy. *
 - [[OpenCodeReview]] — Alibaba's open-source AI code review CLI: hybrid deterministic+agent architecture with per-file concurrent subagents, dual-threshold context compression, and a comment filter pass. Battle-tested across tens of thousands of developers
 - [[FrontierCode]] — Cognition's mergeability benchmark: 36 repos, 20+ maintainers, measures whether a PR would actually be accepted by a human tech lead. Opus 4.8 leads at 13.4% Diamond
 - [[A New Era for Software Testing]] — antirez on agentic QA: give an LLM a markdown checklist, let it inspect recent commits, and run targeted integration/regression/UX tests; automatic QA as compensation for lower-quality AI-generated code
+- [[Accordant]] — Microsoft's model-based testing framework for .NET: write an executable spec (behavioral contract), and Accordant generates, executes, and validates hundreds of tests including sequential, concurrent, and async workflow coverage. The spec IS the oracle
 
 ## Security & Sandboxing
 
