@@ -116,6 +116,8 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 
 Multi-agent systems, task graphs, kanban boards, and coordination patterns. **Hub: [[Agent Orchestration]]**
 
+- [[Paca]] — Self-hosted AI-native project management where agents are first-class Scrum teammates. WASM plugin sandbox, Docker-sandboxed agent execution, MCP throughout. Apache 2.0
+
 ## Memory & Context
 
 Persistence, retrieval, knowledge management, and context engineering for agents. **Hub: [[Agent Memory and Context]]**
