@@ -1,6 +1,6 @@
 # Wiki Index
 
-478 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+479 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -200,6 +200,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Claude Artifact Server]] — 22 Claude-generated retro-Mac interactive artifacts produced in a single day: generation-at-scale showcase, not a product
 - [[OpenRewrite Supported Languages]] — Capability catalog: 5 languages, 7 data formats, 3 build tools, 4 frameworks. OSS/commercial split where JVM is free and polyglot is paywalled
 - [[TriadJS]] — TypeScript API framework: write schemas once, derive types, OpenAPI, BDD tests, DB schemas, frontend hooks, and WebSocket clients from a single source of truth. AI-first design with Claude Code plugin
+- [[Ponytail]] — Multi-platform AI coding agent plugin: "lazy senior dev" persona forces YAGNI → stdlib → native → one-line before writing code. Cuts 54% LOC without dropping safety. 14+ host adapters
 - [[sx]] — Team package manager for AI coding assistant assets: skills, MCP configs, commands, hooks. Manifest-and-lock pattern, scoped install
 - [[DeepWiki]] — Cognition's instant codebase wiki: swap github.com for deepwiki.com, get AI-powered Q&A with line-level citations
 - [[graphify]] — Codebase to multimodal knowledge graph. Code, PDFs, screenshots, diagrams
