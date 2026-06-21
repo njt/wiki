@@ -209,6 +209,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Trailmark]] — Trail of Bits: source code as a queryable graph for security analysis
 - [[Understand-Anything]] — Claude Code plugin: builds persistent knowledge graphs from codebases with tree-sitter + LLM pipeline, incremental git-hook updates, and interactive dashboard
 - [[Clipfan]] — Fleet-wide clipboard sync over SSH with headless image paste for Claude Code and Codex CLI. Three-layer dedup, AES-GCM encryption, tmux integration. From Prime Radiant
+- [[cmux]] — macOS-native terminal built on libghostty, designed for managing multiple AI coding agent sessions. Notification rings flag panes that need human attention. Free, by Manaflow
 - [[Clearance]] — Native macOS Markdown viewer/editor from Prime Radiant. Swift, local-first, YAML frontmatter support
 - [[MarkText]] — Open-source GUI Markdown editor. WYSIWYG, cross-platform
 - [[Mist]] — Google Docs for Markdown. Real-time collaboration, no accounts
