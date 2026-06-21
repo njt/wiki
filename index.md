@@ -1,6 +1,6 @@
 # Wiki Index
 
-478 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+479 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -30,6 +30,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Mounted — bitter-FS better with Claude]] — Claude Code (Opus 4.8, as root) recovers a 41 TB BTRFS filesystem from ten-month dual-mount corruption: diagnoses two divergent transaction histories from first principles, catalogs 4M metadata nodes, hand-patches superblocks, rebuilds 19 dead leaves from the extent tree's back-reference index. Zero data loss, human contributed a passphrase
 - [[Running an AI-Native Engineering Org]] — Fiona Fung's field report from leading Claude Code engineering: JIT planning, bottleneck migration from coding to verification, dogfooding as cultural foundation, and the process ossification that AI exposes
 - [[SDDW (Spec-Driven Development Workflow)]] — sermakarevich's Claude Code plugin: 7-step pipeline (requirements → design → taskify → implement → verify → self-improve) with modular command/instructions/questionnaire/specs architecture, hybrid task files that reference rather than duplicate cross-cutting design, 4-rule deviation handling, FR-ID traceability chain, and self-improving workflow that evolves with every feature
+- [[The Founder's Playbook]] — Anthropic's 4-stage field manual (Idea→MVP→Launch→Scale) for AI-native startups: names the new failure modes AI introduces (confirmation bias with a research engine, agentic technical debt that compounds, zero-friction scope creep) and maps Claude Chat/Cowork/Code to each stage
 
 ## Agent Design & Architecture
 
