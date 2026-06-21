@@ -137,6 +137,7 @@ Evals, testing, linting, feedback loops, and keeping agent output trustworthy. *
 Isolation, credentials, prompt injection defense, and agent safety. **Hub: [[Security and Sandboxing]]**
 
 - [[Akmon]] — Tamper-evident evidence layer for AI agents: content-addressed, cryptographically signed session records verifiable offline with openssl. 95K LoC Rust workspace, 14 crates, built-in coding agent as reference producer
+- [[Enterprise-Managed MCP Authorization]] — Centralized MCP connector auth via Okta: provision once, zero-touch for users. The open MCP extension that turns auth from adoption blocker to invisible infrastructure
 - [[How We Contain Claude]] — Anthropic's own containment engineering postmortem: three isolation patterns (gVisor, OS sandbox, sealed VM) and the incidents they didn't anticipate. The user-as-injection-vector problem, the 93% permission approval rate, and why custom code is always the failure point
 - [[Tessera]] — Consent-gated remote access broker: 5K lines of Go, three binaries, human-approve-at-terminal flow with mTLS, end-to-end encryption, and append-only audit log. MIT-licensed alternative to Teleport for small-team just-in-time access
 
