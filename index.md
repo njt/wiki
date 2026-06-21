@@ -231,6 +231,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Pretext]] — Pure JS/TS text measurement and layout without DOM reflow. 46.9k stars
 - [[Process Flow]] — Choreography-as-a-service: each HTTP stage designates its successor, no central workflow DAG
 - [[n8n]] — Visual workflow automation with 400+ integrations, AI nodes via LangChain, fair-code licensed. 188k stars
+- [[Budibase]] — Open-source low-code platform: Svelte visual builder, CouchDB data engine, 12+ datasource adapters, Bull/Redis automation engine. Full-stack app builder for internal tools. GPL-3.0
 - [[Micasa]] — TUI for home maintenance, projects, and vendor quotes. Pure Go, vim-style
 - [[Zed]] — Rust-native code editor from the Atom/Electron/Tree-sitter team: AI as first-class substrate, not a bolt-on
 - [[DeltaDB]] — Zed's version control for the agent era: deltas replace commits, every line of code is bidirectionally linked to the conversation that produced it, CRDT-backed worktrees for concurrent human+agent editing
