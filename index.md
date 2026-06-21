@@ -149,6 +149,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 - [[99 Bottles of OOP]] — Sandi Metz's practical workbook: OO design as line-by-line decision-making, the Flocking Rules as structured refactoring, and "programming aesthetic" as the antidote to evaluative anesthesia
 - [[Queues Don't Fix Overload]] — Fred Hebert's 2014 classic on why queues treat symptoms not causes: identify the bottleneck, then back-pressure or load-shed; everything else makes failures rarer but more catastrophic
 - [[21 Years and Counting of Eight Fallacies of Distributed Computing]] — The canonical list of network lies developers tell themselves, born at Sun Microsystems, still sharper after 21 years of Internet evolution
+- [[Signals — The Push-Pull Algorithm]] — Willy Brauner builds the push-pull reactive algorithm in ~80 lines of TypeScript: eager invalidation + lazy re-evaluation + global-stack dependency tracking, the pattern behind Solid, Vue, Preact, Angular, and Svelte
 
 ## Databases & Data
 
