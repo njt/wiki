@@ -1,6 +1,6 @@
 # Wiki Index
 
-478 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+479 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -322,6 +322,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[The Education of the Broligarchy]] — Blake Smith on the Silicon Valley canon as tradition's self-education: ambition vs. systems-thinking, adolescence frozen into ideology, and the Aella/Yarvin court. The best essay on what tech elites read and why it matters
 - [[The Dead Economy Theory]] — Owen McGrann extends dead internet theory to the economy: productive capacity without human participation, the AI Layoff Trap, and the Camusian case that present people are the unit of account
 - [[Why We Fear AI]] — AI anxiety is really capitalism anxiety. Blix and Glimmer
+- [[The Market for Doom]] — Partridge on why every generation predicts technological unemployment and every generation is wrong: static vs. dynamic reasoning, horses as the only species that couldn't retrain, economics as the real optimism
 - [[We (As a Society) Peaked in the 90s]] — Blog post + 125-comment HN thread on whether the 90s were a genuine balance point between technology and humanity, or just what getting older feels like
 - [[2026 Global Intelligence Crisis]] — Citadel Securities' macro rebuttal to AI doomerism: S-curves, compute-as-boundary, supply-shock framing, and a report that reversed $2T in market panic
 - [[Retail 2026 From AI Pilots to Execution]] — iVendNext vendor pitch analyzed: data fragmentation kills retail AI, MCP server + Claude Desktop as product interface, the vendor omission checklist
