@@ -38,6 +38,8 @@ Storage is a design problem, not a commodity service. The pages in this wiki rev
 
 [[DAB]] (Microsoft) auto-generates REST, GraphQL, and MCP endpoints over any database. The MCP server lets AI agents query databases through the Model Context Protocol with custom tool configuration. The "give agents database access safely" problem solved as middleware.
 
+[[Replace Athena with DuckDB (Lambda)]] demonstrates DuckDB-on-Lambda as a 75-86% cheaper alternative to Athena for S3 Parquet analytics. The cost-model inversion: Lambda charges per GB-second of compute, Athena charges $5/TB scanned. DuckDB's httpfs extension reads only relevant Parquet columns via HTTP range requests, so Lambda execution time grows sub-linearly with data volume while Athena's scan cost grows linearly.
+
 [[Dapper Performance Trap]] is a cautionary tale: NVARCHAR vs VARCHAR implicit conversion defeats indexes silently -- 176x slower on a million-row table. AI-generated Dapper code will produce this default every time because that's what the docs show.
 
 ### The LLM Data Pipeline
