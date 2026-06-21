@@ -132,6 +132,7 @@ Evals, testing, linting, feedback loops, and keeping agent output trustworthy. *
 - [[FrontierCode]] — Cognition's mergeability benchmark: 36 repos, 20+ maintainers, measures whether a PR would actually be accepted by a human tech lead. Opus 4.8 leads at 13.4% Diamond
 - [[A New Era for Software Testing]] — antirez on agentic QA: give an LLM a markdown checklist, let it inspect recent commits, and run targeted integration/regression/UX tests; automatic QA as compensation for lower-quality AI-generated code
 - [[Accordant]] — Microsoft's model-based testing framework for .NET: write an executable spec (behavioral contract), and Accordant generates, executes, and validates hundreds of tests including sequential, concurrent, and async workflow coverage. The spec IS the oracle
+- [[Agentic Testing]] — Slack Engineering's 200-run empirical study: MCP outperforms CLI by 12–20pp, generated tests fail 48% on complex flows, $15–30/run cost dominated by context accumulation. Agentic testing as exploratory layer atop deterministic E2E, not a replacement
 
 ## Security & Sandboxing
 
