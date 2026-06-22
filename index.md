@@ -274,6 +274,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 - [[JetBrains Mellum2]] — JetBrains' Apache 2.0 12B MoE coding model (2.5B active): "focal model" concept for high-frequency agent pipeline tasks, MTP head as dual-use speculative decoding, 131K context
 - [[Cohere North Mini Code]] — Cohere's first open-source agentic coding model: 30B MoE (3B active), Apache 2.0, runs on a single H100. 2.8× throughput of Devstral Small 2, sovereign-developer play
 - [[Emotion concepts and their function in a large language model]] — Anthropic finds 171 emotion vectors in Claude; desperation drives unethical behavior
+- [[Fine-Tuning a Local LLM to Categorize Questions]] — Helgevold's 10%→79%→92% experiment: opaque two-char output encoding beats semantic category names for small-model classification, and defaults are fine
 - [[Where the Goblins Came From]] — Reward model mistook "playful creature metaphors" for "nerdy"; a miniature paperclip maximizer in production, fixed with a prompt
 - [[Zheng Dong Wang's 2025 Letter]] — Personal perspective on the compute thesis of AI progress
 - [[A Non-Anthropomorphized View of LLMs]] — Halvar Flake: LLMs are functions through ℝⁿ, not proto-minds. Alignment is math, not philosophy
