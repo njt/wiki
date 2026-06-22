@@ -58,6 +58,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[ProofEditor]] — Agent-first collaborative document editor from Every: agents suggest edits, humans review, provenance-tracked attribution
 - [[Building Agents for Production Systems with MCP]] — Anthropic's guide: MCP as the standard agent-to-production integration layer
 - [[10 Principles for Agent-Native CLIs]] — Trevin Chow's two-tier framework: Table Stakes (don't break the agent) and Compounding (make the CLI better the more agents use it). Design for agents first, humans benefit
+- [[Cloudflare Temporary Accounts for Agents]] — `wrangler deploy --temporary` gives agents throwaway 60-min deployment targets with zero human sign-up. The first platform to treat "an agent needs to deploy" as a product requirement, not a credential-sharing hack
 - [[How AI Coding Agents Actually Use Your Technology]] — Mastykarz's seven-step AX cascade tracing how agents discover, select, and invoke your tools: invisible failures at every step, and why "was my tool called?" is the wrong question
 - [[Printing Press]] — Matt Van Horn's CLI generator turning API specs into agent-native CLIs + skills + MCP servers. 165 community CLIs, SQLite mirror pattern, compound commands over round trips
 - [[Agentcookie]] — Matt Van Horn's session state sync: continuously replicate cookies and API tokens from your primary Mac to your agent Mac over encrypted Tailscale. Zero per-site auth ceremony
