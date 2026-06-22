@@ -1,6 +1,6 @@
 # Wiki Index
 
-479 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+480 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -115,6 +115,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Golem Covenant]] — v0.1 spec framework for bounded, answerable, revocable agents: five-organ taxonomy (Mouth/Purse/Seal/Key/Sword), default-deny, tested return-to-dust before launch
 - [[Your Coding Agent Should Do AI System Engineering]] — Ben Burtenshaw's three-level agent autonomy ladder (kernel writing → fine-tuning → auto-research lab), skills as few-shot context, and the case for open primitives over abstracted APIs
 - [[xa11y — Desktop Automation via Accessibility APIs]] — Playwright-style desktop automation via accessibility trees on Windows/macOS/Linux: the structured alternative to vision-based computer use agents
+- [[The Case Against Building Your Own Agent Platform]] — Pete Johnson's sharp build-vs-buy triage for agent infrastructure: four underestimated components (memory, governance, eval, orchestration), five diagnostic questions, and the case that building *agents* on platforms is smart but building the *platform* isn't
 
 ## Agent Orchestration & Coordination
 
