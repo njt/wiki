@@ -309,6 +309,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[Archive.today DDoSed a Critic's Blog]] — An OSINT investigation sat quiet for 2.5 years, then the anonymous operator retaliated with client-side DDoS and escalating threats
 - [[The solution might be cancelling my AI subscription (Wilson)]] — David Wilson's confessional: 70 AI-built projects, none worth keeping. Friction isn't a bug — it's the mechanism that ensures commitment and quality. Also: [[The solution might be cancelling my AI subscription (Willison)]] for Simon Willison's maintenance-bottleneck response
 - [[The solution might be cancelling my AI subscription (Willison)]] — Simon Willison on Wilson's essay: even good AI-generated code creates maintenance obligations faster than you can meet them. Discipline is the missing middleware
+- [[The Flat Curve Society]] — Steve Yegge on the AI plateau: dangerous models locked down like nukes, the discernment horizon, token literacy as the 2026-2027 culture challenge, and SaaS roaring back
 - [[The Mundanity of Excellence]] — Excellence is qualitatively different choices, not quantitatively more effort
 - [[They're Made Out of Weights]] — Leiter's Bisson-homage dialogue: LLMs are "just weights" all the way down, and we've agreed not to care
 - [[Happiest I've Ever Been]] — Happiness from coaching kids, not moving rectangles
