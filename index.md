@@ -32,6 +32,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[SDDW (Spec-Driven Development Workflow)]] — sermakarevich's Claude Code plugin: 7-step pipeline (requirements → design → taskify → implement → verify → self-improve) with modular command/instructions/questionnaire/specs architecture, hybrid task files that reference rather than duplicate cross-cutting design, 4-rule deviation handling, FR-ID traceability chain, and self-improving workflow that evolves with every feature
 - [[Vibe Coding as a Team Sport]] — Jon Udell's bram tool layers a two-gate approval workflow (To-Apply, To-Commit) over Claude Code and Codex, with plan documents as durable artifacts. The Kasparov insight applied to software: "weak human + machine + better process" beats either alone. Voice input, cross-agent review, and "just enough ceremony" as the constructive answer to vibe coding chaos
 - [[The Founder's Playbook]] — Anthropic's 4-stage field manual (Idea→MVP→Launch→Scale) for AI-native startups: names the new failure modes AI introduces (confirmation bias with a research engine, agentic technical debt that compounds, zero-friction scope creep) and maps Claude Chat/Cowork/Code to each stage
+- [[Introducing Claude Tag]] — Anthropic's team AI product: Claude joins Slack channels as a teammate, learns context passively, works async across hours/days. 65% of Anthropic's product code already comes through internal Claude Tag
 
 ## Agent Design & Architecture
 
