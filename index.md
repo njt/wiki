@@ -353,6 +353,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[Man-Computer Symbiosis]] — J.C.R. Licklider's 1960 ur-text of interactive computing: goal-oriented programming, graphical displays, speech interfaces, and networked thinking centers, all telegraphed before the mouse existed
 - [[Misha Glenny]] — Journalist and author tracing hidden power networks: Balkan wars, organized crime, cybercrime, rare earths. New host of In Our Time
 - [[Microscale Thermite Reaction]] — Harvard demo: smash two rusty iron balls together, trigger 2200°C thermite reaction with nothing but a glancing blow
+- [[Solving Wordle Using Information Theory]] — Shannon entropy as Wordle strategy: "tares" is the optimal opener, >99% win rate, and why greedy info-max beats letter-frequency heuristics
 - [[Estimating Pi with a Coin]] — Toss until heads leads, record the fraction. Average approaches pi/4
 - [[Thinking Hard Burns Almost No Calories]] — Mental fatigue doesn't drain energy — it hijacks perceived exertion via adenosine. Schedule hard training before cognitive work, not after
 - [[Goeckerman Regimen]] — Century-old psoriasis treatment that outperforms modern biologics
