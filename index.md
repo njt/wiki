@@ -37,6 +37,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 
 How to build agents: frameworks, runtimes, design patterns, and production concerns.
 
+- [[Who Does What — Team Topologies for the Agentic Platform]] — Wulveryck extends Team Topologies to the agentic era: cognitive load becomes anticipation burden, the platform absorbs it, developers shift from apps to platform
 - [[Bram]] — Tauri desktop shell for AI-assisted development: hash-verified worklist lifecycle with PreToolUse hook enforcement across Claude Code and Codex CLI. Jon Udell's answer to "vibe coding as a team sport"
 - [[The Agentic Product Standard v2.0]] — The field-tested canonical standard: autonomy ladder, 5 composition patterns, 8-layer harness, eval pyramid, and Claude Code skills that operationalize it
 - [[The PM's Playbook for Shipping AI Features]] — Gaurav Savla's production engineering playbook for PMs: latency budgets, four-level fallback hierarchy, quality pyramids, A/B testing traps for nondeterministic systems, and why "we'll harden it later" kills features
