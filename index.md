@@ -1,6 +1,6 @@
 # Wiki Index
 
-480 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+481 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -199,6 +199,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[floci]] — Free local AWS emulator replacing LocalStack. 47 services, 24ms startup
 - [[sem]] — Semantic version control: entity-level diff via tree-sitter across 31 languages, 5-phase entity matching with structural hashing, scope-aware reference resolution, and agent-native JSON/MCP output
 - [[markitdown]] — Microsoft's office-docs-to-Markdown converter for LLM pipelines
+- [[Kiso]] — OKF-to-static-site publishing engine that generates agent-friendly output with llms.txt and source backlinks
 - [[Klangio Transcription Studio]] — Browser-based AI polyphonic music transcription to sheet music, MIDI, and TABs. 4M+ transcriptions
 - [[Kreuzberg]] — Polyglot document intelligence: 97+ formats, Rust core, MCP server
 - [[claude-replay]] — Agent sessions as self-contained embeddable HTML replays
