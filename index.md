@@ -256,6 +256,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Stash — Conflict-Free Folder Sync]] — TypeScript CLI syncing any folder via GitHub: three-way text merge with diff-match-patch, dual drift detection, OS-level background daemon
 - [[Textverified]] — Temporary US phone numbers for SMS/voice verification: carrier SIMs (non-VoIP), 900+ services, API + crypto payments, from $0.25/use
 - [[zeroserve]] — Linux HTTPS server that serves from tarballs and runs eBPF scripts JIT-compiled in-process with a branchless pointer cage sandbox. Compiles Caddyfiles to eBPF middleware
+- [[Cloudflare OAuth for All]] — Zero-downtime Hydra migration (132M rows, -45% P95 latency) to open self-managed OAuth to all Cloudflare customers; queue-based revocation replay during blue-green cutover
 
 ## Local & Personal Computing
 
