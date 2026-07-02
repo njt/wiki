@@ -120,6 +120,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Your Coding Agent Should Do AI System Engineering]] — Ben Burtenshaw's three-level agent autonomy ladder (kernel writing → fine-tuning → auto-research lab), skills as few-shot context, and the case for open primitives over abstracted APIs
 - [[xa11y — Desktop Automation via Accessibility APIs]] — Playwright-style desktop automation via accessibility trees on Windows/macOS/Linux: the structured alternative to vision-based computer use agents
 - [[The Case Against Building Your Own Agent Platform]] — Pete Johnson's sharp build-vs-buy triage for agent infrastructure: four underestimated components (memory, governance, eval, orchestration), five diagnostic questions, and the case that building *agents* on platforms is smart but building the *platform* isn't
+- [[Giving Your Agent Eyes with Game Boy Hacking]] — Ian Langworth wires Gearboy + Ghidra + MCP so Claude can RE old ROMs; the real finding is that giving an agent a feedback loop to observe its own progress unlocks surprising behavior
 
 ## Agent Orchestration & Coordination
 
