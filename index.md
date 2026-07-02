@@ -230,6 +230,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[sx]] — Team package manager for AI coding assistant assets: skills, MCP configs, commands, hooks. Manifest-and-lock pattern, scoped install
 - [[DeepWiki]] — Cognition's instant codebase wiki: swap github.com for deepwiki.com, get AI-powered Q&A with line-level citations
 - [[graphify]] — Codebase to multimodal knowledge graph. Code, PDFs, screenshots, diagrams
+- [[hblog-ng]] — Obsidian vault-to-website static site generator with canvas-rendered knowledge graph, PGP-signed posts, and triple-feed syndication
 - [[lat.md]] — Knowledge graph for codebases in markdown with validation against drift
 - [[docmason]] — Local knowledge base from office documents with citations and source tracing
 - [[Trailmark]] — Trail of Bits: source code as a queryable graph for security analysis
