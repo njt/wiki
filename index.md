@@ -303,6 +303,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 - [[Muse Spark and the Rough Edges Admission]] — Wang ships Meta's first superintelligence model to 3.5B users, admits "rough edges," pivots from open source. The "rough edges" line isn't the story; the bet on distribution over capability is
 - [[Playing with Vision Embeddings]] — Preston Jensen reverse-engineers DINOv3's 384-dim vision embedding space: SAEs, feature visualization, superposition, and what feature arithmetic reveals about how vision transformers actually see
 - [[StoryScope]] — Russell et al.: 304 narrative features across 10 dimensions distinguish human from AI fiction at 93.2% F1, survive stylistic editing. AI over-explains themes, renders emotion through bodies, converges on shared narrative space. Per-model fingerprints: Claude's flat escalation, GPT's gossip, Gemini's bleakness
+- [[Waveloop]] — neynt's music visualizer built in two days with Fable 5. The Terry Davis code-voice observation: frontier models have aesthetic style, not just capability. A eulogy for a model that was taken away after a week
 
 ## AI Infrastructure & Hardware
 
