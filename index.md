@@ -173,6 +173,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 - [[The Cost YAGNI Was Never About]] — Kent Beck reframes YAGNI as options pricing + NPV, not thrift: cheap AI generation amplifies the trap, not the escape
 - [[The Minimum Viable Unit of Saleable Software]] — Brandur's buy-vs-build economics in the LLM era: Jira's 37-month break-even, the zone of viability, and why "cheap != zero" when humans still cost $96/hour
 - [[The Joy and Power of Understanding]] — Igor Roztropiński's compact manifesto: LLMs are force multipliers but you must have force first, struggle is necessary for mastery, and understanding is both the pragmatic path and the intrinsic reward
+- [[How to Write an Effective Software Design Document]] — Michael Lynch's 23-component design doc checklist from Google/Microsoft/startup experience, anchored on one question: "what's the penalty for being wrong?"
 
 ## Databases & Data
 
