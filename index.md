@@ -269,6 +269,7 @@ Tools that run on your own machines: voice, hardware, local inference, knowledge
 
 Papers, model capabilities, training techniques, and the state of the field.
 
+- [[Proxy-KD — Knowledge Distillation of Black-Box LLMs]] — Proxy-mediated distillation from GPT-4 to 7B students: beats white-box KD by approximating closed-source probability distributions through DPO-aligned intermediate models
 - [[Learn AI Layer by Layer]] — Rob Ennals' interactive tutorial explaining AI from numbers to transformers with browser playgrounds and Colab notebooks. Best free AI foundations resource available, built for his 11-year-old son
 - [[Goldman Sachs World Model]] — Goldman Sachs Global Institute: world models as AI's next leap beyond text prediction toward internal simulation of physical and social reality
 - [[2025 in LLMs]] — Simon Willison's annual survey of the LLM landscape
