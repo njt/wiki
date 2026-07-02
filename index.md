@@ -86,6 +86,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Loop Engineering]] — Addy Osmani names the meta-skill: designing systems that prompt agents (automations + worktrees + skills + connectors + sub-agents + state) instead of prompting agents yourself. The five-component taxonomy and three warning flags (verification debt, comprehension debt, cognitive surrender)
 - [[Lathe]] — LLM-powered hands-on tutorial generator: Go CLI owns state, six skills do model work, strict handoff boundary. The pedagogical inversion: LLMs teach you, don't think for you
 - [[Thought Refiner Skill]] — 15-line Claude Code skill that turns vague input into sharp questions. Part of a three-skill suite (thought_refiner/sharpener/expander). A masterclass in defining what a skill *won't* do
+- [[Decision Framework Skill]] — Claude Code skill turning 37signals' 38-question decision framework into adaptive coaching: asks only the relevant subset, phases analysis from recommendation, treats restraint as a feature
 - [[What I learned building an opinionated and minimal coding agent]] — Four tools, no MCP, full YOLO. Competitive on benchmarks
 - [[Pi Coding Agent]] — The productized Pi: TypeScript extensions, SDK, RPC mode, and the tension between minimalist philosophy and platform ambitions
 - [[Hermes]] — Open-source personal agent framework with self-improving skills loop. 149k stars
