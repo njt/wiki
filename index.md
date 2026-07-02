@@ -165,6 +165,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 - [[Queues Don't Fix Overload]] — Fred Hebert's 2014 classic on why queues treat symptoms not causes: identify the bottleneck, then back-pressure or load-shed; everything else makes failures rarer but more catastrophic
 - [[21 Years and Counting of Eight Fallacies of Distributed Computing]] — The canonical list of network lies developers tell themselves, born at Sun Microsystems, still sharper after 21 years of Internet evolution
 - [[Signals — The Push-Pull Algorithm]] — Willy Brauner builds the push-pull reactive algorithm in ~80 lines of TypeScript: eager invalidation + lazy re-evaluation + global-stack dependency tracking, the pattern behind Solid, Vue, Preact, Angular, and Svelte
+- [[The Cost YAGNI Was Never About]] — Kent Beck reframes YAGNI as options pricing + NPV, not thrift: cheap AI generation amplifies the trap, not the escape
 - [[The Minimum Viable Unit of Saleable Software]] — Brandur's buy-vs-build economics in the LLM era: Jira's 37-month break-even, the zone of viability, and why "cheap != zero" when humans still cost $96/hour
 
 ## Databases & Data
