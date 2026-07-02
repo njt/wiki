@@ -301,6 +301,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 - [[Muse Spark and the Rough Edges Admission]] — Wang ships Meta's first superintelligence model to 3.5B users, admits "rough edges," pivots from open source. The "rough edges" line isn't the story; the bet on distribution over capability is
 - [[Playing with Vision Embeddings]] — Preston Jensen reverse-engineers DINOv3's 384-dim vision embedding space: SAEs, feature visualization, superposition, and what feature arithmetic reveals about how vision transformers actually see
 - [[StoryScope]] — Russell et al.: 304 narrative features across 10 dimensions distinguish human from AI fiction at 93.2% F1, survive stylistic editing. AI over-explains themes, renders emotion through bodies, converges on shared narrative space. Per-model fingerprints: Claude's flat escalation, GPT's gossip, Gemini's bleakness
+- [[TimesFM]] — Google Research's decoder-only foundation model for time-series forecasting: 200M params, 16K context, patch-based tokenization, flip invariance at inference time, deployed in BigQuery ML and Google Sheets
 
 ## AI Infrastructure & Hardware
 
