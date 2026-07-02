@@ -286,6 +286,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 - [[Recent Developments in LLM Architectures]] — Raschka surveys Gemma 4, Laguna XS.2, ZAYA1-8B, and DeepSeek V4: four different attacks on long-context inference cost through KV sharing, attention budgeting, compressed attention, and constrained residual streams
 - [[How Far Behind Are Open Models]] — Quantified: open models trail closed by 8–10 months on private benchmarks, 4–6 on public. Gap was narrowest at DeepSeek R1, widening since. Contamination audit shows conservative estimate
 - [[SAM Audio]] — Meta's foundation model for prompted audio separation: text, visual, span, and multi-modal prompts isolate any sound. Flow-matching Diffusion Transformer, open weights, companion judge model
+- [[TabFM (Tabular Foundation Model)]] — Google Research's foundation model for tabular data: 3-stage transformer (Fourier cell embedding → Set Transformer columns → decoder ICL) with zero-shot in-context classification and regression, sklearn-compatible
 - [[Moises — AI Music Separation and Creation]] — 65M-user music AI platform: stem separation as the wedge, browser-based AI Studio for stem-by-stem generation, and the separation-to-generation training flywheel. Apple iPad App of the Year 2024
 - [[Self-Distillation]] — LLMs improve at code generation using only their own outputs. No verifier needed
 - [[Capybara]] — ByteDance's unified model for text-to-image, text-to-video, and editing
