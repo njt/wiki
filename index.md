@@ -1,6 +1,6 @@
 # Wiki Index
 
-482 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+483 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -130,6 +130,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[xa11y — Desktop Automation via Accessibility APIs]] — Playwright-style desktop automation via accessibility trees on Windows/macOS/Linux: the structured alternative to vision-based computer use agents
 - [[The Case Against Building Your Own Agent Platform]] — Pete Johnson's sharp build-vs-buy triage for agent infrastructure: four underestimated components (memory, governance, eval, orchestration), five diagnostic questions, and the case that building *agents* on platforms is smart but building the *platform* isn't
 - [[Giving Your Agent Eyes with Game Boy Hacking]] — Ian Langworth wires Gearboy + Ghidra + MCP so Claude can RE old ROMs; the real finding is that giving an agent a feedback loop to observe its own progress unlocks surprising behavior
+- [[Lessons from Building Vercel v0 and the d0 Agent]] — Malte Ubl on Dzero's two-tool architecture (bash + SQL, ~50 lines), V0's four-stage evolution driven by model leaps, the "make it look like coding" pattern, optimistic locking for shipping, and why teams make things go slower
 
 ## Agent Orchestration & Coordination
 
