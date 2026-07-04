@@ -1037,3 +1037,18 @@ Source: https://github.com/hyhmrright/brooks-lint — Full repo clone and deep a
 - [[Agent Coding Workflow]], [[Writing Code vs. Shipping Code]], [[The End of Code Review]], [[Running an AI-Native Engineering Org]], [[Automating Myself Out of Development]], [[All Your Agents Are Going Async]], [[The Advisor Strategy]], [[Thrifty (Tiered Delegation for Claude Code)]], [[Smart Models Dumb Pipes]], [[The Case Against Building Your Own Agent Platform]], [[Who Does What — Team Topologies for the Agentic Platform]], [[Software Engineering at the Tipping Point]], [[Experience Design for Agents]], [[Loop Engineering]], [[Why Agents Matter More Than Other AI]], [[StrongDM Factory Techniques]]
 
 **Index:** Added to Agentic Development section
+
+## 2026-07-04 — Ingest: Ramp — Lessons from Building a New AI Product
+
+**Source:** https://gist.github.com/93839a006849961f384afc60b1dcbf9f (ytx gist by njt)
+**Original:** https://www.youtube.com/watch?v=NMs8C2_3M0w (The Pragmatic Engineer, 36m 45s)
+**Speakers:** Nick, Veral, Will, Ian (Ramp)
+
+**Files created:**
+- `raw/ramp-lessons-building-ai-product.md` — Full summary with key points, quotes, tools, practices, and unanswered questions
+- `Ramp — Lessons from Building a New AI Product.md` — Wiki synthesis: single-agent-many-tools architecture, evals from day one, internal tool catalog, Ramp Inspect (50%+ merged PRs), Team A vs. Team B cultural divide, autonomy slider, and the judgment premium
+
+**Cross-links made:**
+- [[Agent Orchestration]], [[Guardrails and Feedback Loops]], [[Agent Coding Workflow]], [[Agent-Native Architectures (Every)]], [[The Agentic Product Standard v2.0]], [[Smart Models Dumb Pipes]], [[Software Engineering at the Tipping Point]], [[Running an AI-Native Engineering Org]], [[Product-Minded Engineers in an AI-Native World]], [[The End of Code Review]], [[Fleet Supervisor (sermakarevich)]], [[Components of a Coding Agent]], [[The PM's Playbook for Shipping AI Features]], [[Loop Engineering]], [[Uber — Agentic Engineering Shift]], [[Mirage (VFS)]], [[OpenCodeReview]]
+
+**Index:** Added to Agent Design & Architecture section
