@@ -37,6 +37,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Introducing Claude Tag]] — Anthropic's team AI product: Claude joins Slack channels as a teammate, learns context passively, works async across hours/days. 65% of Anthropic's product code already comes through internal Claude Tag
 - [[Nicole Forsgren on AI and Developer Productivity]] — Why shipping hasn't gotten faster despite AI coding: the bottleneck shifted from inner loop to outer loop, cognitive load is the new constraint, and agents that always agree with you can't replace honest human feedback
 - [[Matt Pocock — Grill Me, Then Go AFK]] — The smart zone/dumb zone model of LLM context, the grill me alignment skill, and a full pipeline from Socratic planning through AFK agent implementation to manual QA
+- [[Building When It Feels Like There's Nothing Left to Build]] — Chip Huyen on the existential question: when AI can build anything describable, why build at all? Evaporating moats, long-tail problem targeting, local human preference as the last defensible advantage, and building for joy as the answer that survives
 
 ## Agent Design & Architecture
 
