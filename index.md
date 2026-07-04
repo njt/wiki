@@ -177,6 +177,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 - [[The Minimum Viable Unit of Saleable Software]] — Brandur's buy-vs-build economics in the LLM era: Jira's 37-month break-even, the zone of viability, and why "cheap != zero" when humans still cost $96/hour
 - [[The Joy and Power of Understanding]] — Igor Roztropiński's compact manifesto: LLMs are force multipliers but you must have force first, struggle is necessary for mastery, and understanding is both the pragmatic path and the intrinsic reward
 - [[How to Write an Effective Software Design Document]] — Michael Lynch's 23-component design doc checklist from Google/Microsoft/startup experience, anchored on one question: "what's the penalty for being wrong?"
+- [[Software Engineering at the Tipping Point]] — Adam Bender's 2026 Google talk: AI is a 10× amplifier, not a directed solution. Software ecology as a framework, shared fate, and why every node in your developer ecosystem breaks at 10× scale
 
 ## Databases & Data
 
