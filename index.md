@@ -39,6 +39,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Matt Pocock — Grill Me, Then Go AFK]] — The smart zone/dumb zone model of LLM context, the grill me alignment skill, and a full pipeline from Socratic planning through AFK agent implementation to manual QA
 - [[Building When It Feels Like There's Nothing Left to Build]] — Chip Huyen on the existential question: when AI can build anything describable, why build at all? Evaporating moats, long-tail problem targeting, local human preference as the last defensible advantage, and building for joy as the answer that survives
 - [[Lessons from Building Cursor]] — Unnamed Cursor engineer on ByteByteGo: RL as the only path to tool-use, 100M+ CPU hours for sandbox training, context windows solved through incentives not prompts, "coding got solved in six months," self-driving codebases, and the devex-for-AI problem
+- [[Building World-Class Engineering Teams in the Age of AI]] — Rajeev Rajan (CTO Atlassian) and Thomas Dohmke (former CEO GitHub) at The Pragmatic Summit: AI-native mindset, bottleneck migration left and right of code, role collapse, the teamwork graph as context moat, 89% more PRs, "don't be a manager," token cost inversion, and the Homer Simpson car warning
 
 ## Agent Design & Architecture
 
