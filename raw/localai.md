@@ -2,7 +2,7 @@
 url: https://localai.io/
 title: LocalAI
 author: Ettore Di Giacinto
-date_fetched: 2026-06-09
+date_fetched: 2026-07-04
 date_published: 2026-06-02
 ---
 
@@ -63,7 +63,41 @@ local-ai run ollama://gemma:2b
 
 LangChain integration available via `langchain_community`. Marketplace of compatible apps including Claude Code, AnythingLLM, Dify, n8n, Open WebUI, OpenHands, and more.
 
-## Source Content (from localai.io homepage, fetched via curl)
+## Features Page (localai.io/features/, fetched via surf 2025-04-03)
+
+The features page provides a detailed catalog of LocalAI's capabilities:
+
+### Core Features
+- **Text Generation** — GPT-compatible models using various backends
+- **Image Generation** — Stable Diffusion and other diffusion models
+- **Audio Processing** — Transcribe audio to text and generate speech from text
+- **Text to Audio** — TTS models
+- **Sound Generation** — Music and sound effects from text descriptions
+- **Voice Activity Detection** — Detect speech segments in audio data
+- **Video Generation** — Generate videos from text prompts and reference images
+- **Embeddings** — Vector embeddings for semantic search and RAG applications
+- **GPT Vision** — Analyze and understand images with vision-language models
+
+### Advanced Features
+- **OpenAI Functions** — Function calling and tools API with local models
+- **Realtime API** — Low-latency multi-modal conversations (voice+text) over WebSocket
+- **Constrained Grammars** — Control model output format with BNF grammars
+- **GPU Acceleration** — Optimize performance with GPU support
+- **Distribution** — Scale inference across multiple nodes (P2P federation or production distributed mode)
+- **P2P API** — Monitor and manage P2P worker and federated nodes
+- **Model Context Protocol (MCP)** — Enable agentic capabilities with MCP integration
+- **Agents** — Autonomous AI agents with tools, knowledge base, and skills
+
+### Specialized Features
+- **Object Detection** — Detect and locate objects in images
+- **Reranker** — Improve retrieval accuracy with cross-encoder models
+- **Stores** — Vector similarity search for embeddings
+- **Model Gallery** — Browse and install pre-configured models
+- **Backends** — Learn about available backends and how to manage them
+- **Backend Monitor** — Monitor backend status and resource usage
+- **Runtime Settings** — Configure application settings via web UI without restarting
+
+## Source Content (from localai.io homepage, fetched via surf)
 
 The site is built with Hugo + Relearn theme. Last modified June 2, 2026.
 

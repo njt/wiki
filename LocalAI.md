@@ -42,13 +42,31 @@ The MCP support is notable. LocalAI isn't just an inference server — it's posi
 
 **Backend model**: gRPC microservices packaged as OCI images. The core binary (`local-ai`) is the orchestrator; each backend (llama.cpp, vLLM, whisper.cpp, diffusers, MLX, etc.) runs as an isolated process communicating over gRPC. Backends are pulled on first use, not bundled.
 
-**API surface**: OpenAI-compatible REST API at `localhost:8080`. Also emulates Anthropic and ElevenLabs APIs. Any client that speaks OpenAI can point at LocalAI by changing the base URL — same strategy as [[maclocal-api]] and [[Lemonade (Local AI Server)]].
+**API surface**: OpenAI-compatible REST API at `localhost:8080`. Also emulates Anthropic and ElevenLabs APIs. Any client that speaks OpenAI can point at LocalAI by changing the base URL — same strategy as [[maclocal-api]] and [[Lemonade (Local AI Server)]]. New addition: a **Realtime API** over WebSocket for low-latency multi-modal conversations (voice+text), mirroring OpenAI's Realtime API.
 
 **Multi-tenancy**: API key authentication, per-user quotas, role-based access control. This is unusual for local inference tools (most assume single-user) and signals an ambition beyond hobbyist use. If you're running a team's local inference server, you want auth.
 
 **Hardware**: NVIDIA CUDA, AMD ROCm, Intel oneAPI, Apple Silicon Metal, Vulkan, or pure CPU. The "no GPU required" claim is honest — you can run on CPU, you'll just be slow.
 
-**Web UI**: Built-in interface for chat, model management, and monitoring. Not a killer feature, but removes the "how do I interact with this?" barrier for non-technical users.
+**Web UI**: Built-in interface for chat, model management, and monitoring. Not a killer feature, but removes the "how do I interact with this?" barrier for non-technical users. Includes a **Runtime Settings** panel for live configuration changes without restart.
+
+**Distribution / Federation**: Scale inference across multiple nodes via P2P federation or production distributed mode. A P2P API provides monitoring and management of federated workers. This is unique among local inference tools — most are single-node by design. For teams outgrowing a single machine but not ready to move to the cloud, this bridges the gap.
+
+## Expanded Feature Set
+
+The features page reveals LocalAI's scope is broader than the homepage implies. Beyond the core LLM/image/audio pipeline, it includes:
+
+- **Video Generation** — text-to-video and reference-image-to-video
+- **Voice Activity Detection** — detect speech segments in audio streams
+- **Sound Generation** — music and sound effects from text descriptions
+- **Constrained Grammars** — BNF grammar enforcement for structured model output (the pre-[[OpenAI Structured Outputs]] approach to schema adherence)
+- **Object Detection** — locate and identify objects in images
+- **Reranker** — cross-encoder models to improve retrieval accuracy for RAG pipelines
+- **Stores** — built-in vector similarity search for embeddings
+- **Model Gallery** — browse and install pre-configured models
+- **Backend Monitor** — observe backend status and resource usage at runtime
+
+This reads less like an inference server adding features and more like a **local AI operating system** — a single binary that provides every modality and every infrastructure concern. Whether that's focus or sprawl depends on execution quality for each feature.
 
 ## Key Themes
 
@@ -70,7 +88,11 @@ The MCP support is notable. LocalAI isn't just an inference server — it's posi
 
 **The privacy story is table stakes now.** When [[Lemonade (Local AI Server)]], [[maclocal-api]], Ollama, and LocalAI all say "your data stays local," it stops being a differentiator and becomes the baseline expectation. The differentiator becomes *what you can do* with that local data — and LocalAI's agent + memory stack is the most complete answer to that question.
 
-**What's missing.** No published benchmarks comparing LocalAI's inference throughput to bare llama.cpp or Ollama. The gRPC backend architecture adds a communication layer that must have some overhead — how much? Without numbers, the "composable" story risks being perceived as "slower." Also: the model discovery experience is weaker than Ollama's. `ollama pull llama3` is a known quantity; LocalAI's model loading is more flexible but less discoverable.
+**The P2P distribution story is genuinely novel.** No other local inference tool offers federation across multiple nodes. If the implementation is solid, this changes the scaling story: start on one machine, add nodes as you outgrow it, never rewrite your integration. The question is whether the P2P protocol is production-grade or proof-of-concept — the docs don't make this clear.
+
+**The Realtime API over WebSocket is smart positioning.** OpenAI's Realtime API is the most cloud-locked part of their stack — voice conversations over WebSocket with sub-second latency. Offering a local equivalent that speaks the same protocol means apps built for OpenAI's Realtime API can go local without code changes. This is the same strategy that worked for the REST API compatibility layer.
+
+**What's missing.** No published benchmarks comparing LocalAI's inference throughput to bare llama.cpp or Ollama. The gRPC backend architecture adds a communication layer that must have some overhead — how much? Without numbers, the "composable" story risks being perceived as "slower." Also: the model discovery experience is weaker than Ollama's. `ollama pull llama3` is a known quantity; LocalAI's model loading is more flexible but less discoverable. And the feature breadth raises an execution question: when a single project claims to do text, image, audio, video, voice detection, sound generation, object detection, reranking, vector search, agent orchestration, P2P federation, and realtime WebSocket — how many of those are genuinely production-ready vs. checkbox features?
 
 **The bet to watch.** LocalAI is betting that local inference becomes the default, not the fallback. If that bet pays off, the project that owns the full local stack (inference + agents + memory) wins the platform. If cloud stays dominant, LocalAI is a very capable local fallback — useful but not world-changing. The same bet underlies [[Lemonade (Local AI Server)]], [[DS4 (DwarfStar 4)]], and the entire [[Local and Open Source Inference]] ecosystem.
 
@@ -93,4 +115,4 @@ The MCP support is notable. LocalAI isn't just an inference server — it's posi
 
 ---
 *Sources: [[raw/localai]], https://localai.io/, https://github.com/mudler/LocalAI*
-*Last updated: 2026-06-09*
+*Last updated: 2026-07-04*
