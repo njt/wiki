@@ -38,6 +38,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Nicole Forsgren on AI and Developer Productivity]] — Why shipping hasn't gotten faster despite AI coding: the bottleneck shifted from inner loop to outer loop, cognitive load is the new constraint, and agents that always agree with you can't replace honest human feedback
 - [[Matt Pocock — Grill Me, Then Go AFK]] — The smart zone/dumb zone model of LLM context, the grill me alignment skill, and a full pipeline from Socratic planning through AFK agent implementation to manual QA
 - [[Building When It Feels Like There's Nothing Left to Build]] — Chip Huyen on the existential question: when AI can build anything describable, why build at all? Evaporating moats, long-tail problem targeting, local human preference as the last defensible advantage, and building for joy as the answer that survives
+- [[Lessons from Building Cursor]] — Unnamed Cursor engineer on ByteByteGo: RL as the only path to tool-use, 100M+ CPU hours for sandbox training, context windows solved through incentives not prompts, "coding got solved in six months," self-driving codebases, and the devex-for-AI problem
 
 ## Agent Design & Architecture
 
