@@ -35,6 +35,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Vibe Coding as a Team Sport]] — Jon Udell's bram tool layers a two-gate approval workflow (To-Apply, To-Commit) over Claude Code and Codex, with plan documents as durable artifacts. The Kasparov insight applied to software: "weak human + machine + better process" beats either alone. Voice input, cross-agent review, and "just enough ceremony" as the constructive answer to vibe coding chaos
 - [[The Founder's Playbook]] — Anthropic's 4-stage field manual (Idea→MVP→Launch→Scale) for AI-native startups: names the new failure modes AI introduces (confirmation bias with a research engine, agentic technical debt that compounds, zero-friction scope creep) and maps Claude Chat/Cowork/Code to each stage
 - [[Introducing Claude Tag]] — Anthropic's team AI product: Claude joins Slack channels as a teammate, learns context passively, works async across hours/days. 65% of Anthropic's product code already comes through internal Claude Tag
+- [[Nicole Forsgren on AI and Developer Productivity]] — Why shipping hasn't gotten faster despite AI coding: the bottleneck shifted from inner loop to outer loop, cognitive load is the new constraint, and agents that always agree with you can't replace honest human feedback
 - [[Matt Pocock — Grill Me, Then Go AFK]] — The smart zone/dumb zone model of LLM context, the grill me alignment skill, and a full pipeline from Socratic planning through AFK agent implementation to manual QA
 
 ## Agent Design & Architecture
