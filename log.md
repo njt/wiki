@@ -1062,3 +1062,18 @@ Source: https://github.com/hyhmrright/brooks-lint — Full repo clone and deep a
 - [[Agent Orchestration]], [[Guardrails and Feedback Loops]], [[Agent Coding Workflow]], [[Agent-Native Architectures (Every)]], [[The Agentic Product Standard v2.0]], [[Smart Models Dumb Pipes]], [[Software Engineering at the Tipping Point]], [[Running an AI-Native Engineering Org]], [[Product-Minded Engineers in an AI-Native World]], [[The End of Code Review]], [[Fleet Supervisor (sermakarevich)]], [[Components of a Coding Agent]], [[The PM's Playbook for Shipping AI Features]], [[Loop Engineering]], [[Uber — Agentic Engineering Shift]], [[Mirage (VFS)]], [[OpenCodeReview]]
 
 **Index:** Added to Agent Design & Architecture section
+
+## 2026-07-04 — Ingest: Context Engineering at the Frontier (Linus Lee)
+
+**Source:** https://gist.github.com/9e94fbdabe3777afd51dfea384f5c37f (ytx gist by njt)
+**Original:** https://www.youtube.com/watch?v=JMA9D8J9EyI (AI Council, 16m 48s)
+**Speaker:** Linus Lee (Head of AI, Thrive Capital, formerly Notion)
+
+**Files created:**
+- `raw/ytx-linus-lee-context-engineering.md` — Full summary with key points, quotes, tools/methodologies, and unanswered questions
+- `Context Engineering at the Frontier (Linus Lee).md` — Wiki synthesis: composability over monoliths, retrieval as a gradient not a binary, context engineering as search, write-time pre-structuring, semantic observability gap
+
+**Cross-links made:**
+- [[Agent Memory and Context]], [[Building Reliable Agentic AI Systems]], [[Maybe Coding Agents Don't Need a Bigger Memory]], [[Coding Agents Continuity Not Memory]], [[How Hightouch Built Their Long-Running Agent Harness]], [[Slate]], [[Loop Engineering]], [[StrongDM Factory Techniques]], [[Smart Models Dumb Pipes]], [[Elements of Agentic Systems Design]], [[The Advisor Strategy]], [[Thrifty (Tiered Delegation for Claude Code)]], [[Guardrails and Feedback Loops]], [[Sawtooth Memory]], [[MELT]], [[Components of a Coding Agent]], [[Honey I Shrunk the Coding Agent]], [[Context Rot]]
+
+**Index:** Added to Memory & Context section
