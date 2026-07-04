@@ -1015,3 +1015,18 @@ Source: https://github.com/hyhmrright/brooks-lint — Full repo clone and deep a
 - **Section:** AI Research & Models
 - **Cross-links:** [[Self-Distillation]], [[Granite Libraries and Project Granite Switch]], [[Fine-Tuning a Local LLM to Categorize Questions]], [[How Far Behind Are Open Models]], [[Data Engineering for Large Models]], [[Recent Developments in LLM Architectures]]
 - 2026-07-03: Ingested [Quadrangular Holes Govern Path Multiplicity](https://www.researchsquare.com/article/rs-9970227/v1) (Jun Wu, Ye Deng, Xin Lu, Petter Holme, Daqing Li, Zengru Di, Guanrong Chen, Jürgen Kurths, Research Square preprint rs-9970227, 2026-06-19) — Abstract-only ingest (PDF returned 403). Network science preprint: chordless 4-cycles (quadrangular holes) are the microscopic mechanism governing path multiplicity in complex networks, validated across 140 empirical networks and 8 synthetic models with target-oriented optimization and theoretical derivations. → raw/quadrangular-holes-path-multiplicity.md, [[Quadrangular Holes Govern Path Multiplicity]]. Cross-links: [[Distributed Systems]], [[SDPD — Systems Design Police Department]], [[21 Years and Counting of Eight Fallacies of Distributed Computing]], [[Queues Don't Fix Overload]].
+
+## 2026-07-04 — Ingest: Uber — Agentic Engineering Shift
+
+**Source:** https://gist.github.com/njt/2e5b37628d8aa8c6153d7fea2eb6ed63 (ytx gist by njt)
+**Original:** https://www.youtube.com/watch?v=i1tZN41VKcE (The Pragmatic Engineer, 37m 39s)
+**Speakers:** Anshu (Dev Platform Lead, Uber), Ty (Principal Engineer, Uber)
+
+**Files created:**
+- `raw/ytx-uber-agentic-shift.md` — Full summary with key points, quotes, tools, and omissions
+- `Uber — Agentic Engineering Shift.md` — Wiki synthesis: peer programming model, toil-first strategy, platform architecture, cost explosion, adoption reality check, and the unresolved measurement gap
+
+**Cross-links made:**
+- [[Agent Coding Workflow]], [[Writing Code vs. Shipping Code]], [[The End of Code Review]], [[Running an AI-Native Engineering Org]], [[Automating Myself Out of Development]], [[All Your Agents Are Going Async]], [[The Advisor Strategy]], [[Thrifty (Tiered Delegation for Claude Code)]], [[Smart Models Dumb Pipes]], [[The Case Against Building Your Own Agent Platform]], [[Who Does What — Team Topologies for the Agentic Platform]], [[Software Engineering at the Tipping Point]], [[Experience Design for Agents]], [[Loop Engineering]], [[Why Agents Matter More Than Other AI]], [[StrongDM Factory Techniques]]
+
+**Index:** Added to Agentic Development section
