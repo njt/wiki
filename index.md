@@ -178,6 +178,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 - [[The Joy and Power of Understanding]] — Igor Roztropiński's compact manifesto: LLMs are force multipliers but you must have force first, struggle is necessary for mastery, and understanding is both the pragmatic path and the intrinsic reward
 - [[How to Write an Effective Software Design Document]] — Michael Lynch's 23-component design doc checklist from Google/Microsoft/startup experience, anchored on one question: "what's the penalty for being wrong?"
 - [[Software Engineering at the Tipping Point]] — Adam Bender's 2026 Google talk: AI is a 10× amplifier, not a directed solution. Software ecology as a framework, shared fate, and why every node in your developer ecosystem breaks at 10× scale
+- [[Product-Minded Engineers in an AI-Native World]] — Thomas Pauls (Linear), Drew, and Michelle (Flint) on product engineering as motivation not role, taste as trainable craft, Quality Wednesdays, and AI as product-skill multiplier
 
 ## Databases & Data
 
