@@ -141,6 +141,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Ramp — Lessons from Building a New AI Product]] — Four Ramp engineers on shipping AI-native finance: single agent with thousands of tools, evals from day one, tool catalogs as shared infrastructure, and why Team A (impact-obsessed) beats Team B (performative code quality) when AI is a 10× amplifier
 - [[Guiding Opus 4.8 Back to Sanity]] — valis diagnoses Opus 4.8's pedantic pushback as structural: obligation-voiced agentic layers overwhelm permission-voiced conversational guidance. The fix: an Object Floor that defines structural invalidity rather than prescribing virtues
 - [[Sherlock Agent Eval]] — Alex Weil's detective board-game benchmark surfaces two LLM agent failure modes (fabrication-under-retrieval and the decoy trap) and a Theorist-Explorer split that breaks the trap even with weaker models. Topology beats model size
+- [[Best Infrastructure Platforms for Coding Agents in 2026]] — Modal's vendor-biased survey of 7 sandbox platforms (Modal, E2B, Daytona, Blaxel, Together, Vercel, Cloudflare): CPU sandboxing is the primary workload, GPU is secondary, and the Firecracker convergence is real
 
 ## Agent Orchestration & Coordination
 
