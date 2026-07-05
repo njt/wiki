@@ -1,6 +1,6 @@
 # Wiki Index
 
-486 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+487 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -362,6 +362,12 @@ Datacenters, power, chips, and the physical layer of AI.
 - [[MiMo-V2.5-Pro-UltraSpeed]] — Xiaomi's 1T-parameter MoE model hits 1000+ tokens/s on commodity GPUs via extreme model-system codesign
 - [[Inference Cost Napkin Math]] — Napkin math for LLM serving economics: memory bandwidth is the real bottleneck (compute sits idle 98% of the time), KV-cache hit rate IS your margin, and duty cycle is the 5x multiplier nobody measures: FP4 quantization, DFlash speculative decoding, and TileRT persistent kernels
 - [[Well-Read Students Learn Better]] — Turc et al. (2019): the overlooked baseline that just pre-training compact models works as well as elaborate compression; Pre-trained Distillation and the surprising compound effect
+
+## Energy & Hardware
+
+EVs, batteries, power systems, and physical products.
+
+- [[Tesla V2L Discharger]] — NZ$3,095 adapter from Drive EV that turns CCS-equipped Teslas into 5KW generators; adversarial compatibility with a manufacturer that doesn't want you using your car's battery for anything but driving
 
 ## Ideas & Culture
 
