@@ -136,6 +136,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Giving Your Agent Eyes with Game Boy Hacking]] — Ian Langworth wires Gearboy + Ghidra + MCP so Claude can RE old ROMs; the real finding is that giving an agent a feedback loop to observe its own progress unlocks surprising behavior
 - [[Lessons from Building Vercel v0 and the d0 Agent]] — Malte Ubl on Dzero's two-tool architecture (bash + SQL, ~50 lines), V0's four-stage evolution driven by model leaps, the "make it look like coding" pattern, optimistic locking for shipping, and why teams make things go slower
 - [[Ramp — Lessons from Building a New AI Product]] — Four Ramp engineers on shipping AI-native finance: single agent with thousands of tools, evals from day one, tool catalogs as shared infrastructure, and why Team A (impact-obsessed) beats Team B (performative code quality) when AI is a 10× amplifier
+- [[Guiding Opus 4.8 Back to Sanity]] — valis diagnoses Opus 4.8's pedantic pushback as structural: obligation-voiced agentic layers overwhelm permission-voiced conversational guidance. The fix: an Object Floor that defines structural invalidity rather than prescribing virtues
 
 ## Agent Orchestration & Coordination
 
