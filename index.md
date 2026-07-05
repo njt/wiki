@@ -185,6 +185,7 @@ Isolation, credentials, prompt injection defense, and agent safety. **Hub: [[Sec
 - [[How We Contain Claude]] — Anthropic's own containment engineering postmortem: three isolation patterns (gVisor, OS sandbox, sealed VM) and the incidents they didn't anticipate. The user-as-injection-vector problem, the 93% permission approval rate, and why custom code is always the failure point
 - [[cco]] — Zero-dependency bash wrapper that sandboxes Claude Code and other AI coding agents via macOS Seatbelt, Linux bubblewrap, or Docker. Agent-agnostic, cross-platform, 3,700 lines of bash with no runtime deps
 - [[Tessera]] — Consent-gated remote access broker: 5K lines of Go, three binaries, human-approve-at-terminal flow with mTLS, end-to-end encryption, and append-only audit log. MIT-licensed alternative to Teleport for small-team just-in-time access
+- [[Nango — Running Untrusted Customer Code at Scale]] — Nango's three-phase journey isolating untrusted customer code: vm2 (escaped) → per-customer runners (unfair) → tenant-pinned AWS Lambda on Firecracker microVMs, with an honest internal debate about whether per-customer Lambdas are progress or a workaround
 
 ## Software Engineering
 
