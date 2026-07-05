@@ -308,6 +308,7 @@ Tools that run on your own machines: voice, hardware, local inference, knowledge
 - [[LocalAI]] — Open-source drop-in replacement for the entire cloud AI stack: inference engine, agent runtime, and memory service in a composable gRPC backend architecture. 40k stars, MIT licensed
 - [[AirLLM]] — Runs 70B+ LLMs on 4GB GPUs by streaming one transformer layer from disk at a time. 405B Llama 3.1 on 8GB, 671B DeepSeek-V3 on ~12GB, no quantization required
 - [[Indexing 669 GB of GoPro Videos with Local ML]] — Ilias Haddad's local-first pipeline for semantic video search: Whisper + YOLO + DeepFace + Qwen2.5-VL on an M1 Max, 67h compute for 15h of footage. The Docker-on-Mac GPU gap as a real constraint on local ML tools
+- [[Local Qwen Is Not a Worse Opus]] — Alex Ellis's founder field report: local models are a different tool from frontier models, not a worse version. Revenue recovery that paid for a $12K GPU, the looping problem, and the "analysis not interpretation" boundary
 
 ## AI Research & Models
 
