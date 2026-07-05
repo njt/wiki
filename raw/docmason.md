@@ -1,0 +1,166 @@
+---
+url: https://github.com/jetxu-llm/docmason
+date_fetched: 2026-07-05
+backfilled: true
+---
+
+**A repo-native agent app for deep research over private work files.**
+
+The repo is the app. Codex is the runtime.
+
+Build a local, evidence-first knowledge base with provenance.
+
+    Already paying for ChatGPT?  Codex for macOS is included in your plan. Turn that unused capacity into a local Second Brain.
+    Watch the  ▶️ video demo to see how DocMason performs deep research on local complex office files.
+    Get zero-to-working in minutes with this ▶️ 3-min setup tutorial video.
+  
+
+Most workspace AI tools flatten your complex office documents into a single, unstructured text blob. They might summarize a file or retrieve a stray quote, but once your research gets complex, the illusion breaks. You lose the tables, the slide layouts, the hidden notes—and it becomes impossible to verify where the AI's answer actually came from.
+
+**DocMason** is built on a different thesis: **answers must be strictly traceable.** It compiles your private decks, spreadsheets, PDFs, and emails into a local, file-based knowledge base. Instead of chatting with anonymous text chunks, your AI agent reasons over structured, multimodal evidence bundles. It’s not a cloud service or a lightweight wrapper. It is a local repo running as a deep-research AI app on Codex. No hidden backends, no cloud ingestion. Just your files, and answers you can actually trust.
+
+DocMason is designed to enforce strict data contracts and provenance boundaries. The repo holds the truth; the agent does the reasoning.
+
+Most document AI tools map complex corporate files into flat, unreadable text strings. They strip out critical structural and formatting semantics:
+
+- **Slide Decks**: Visual layout, presenter notes, and chart-text relationships are discarded.
+- **Spreadsheets**: Multi-sheet references and nested tables break existing parsers.
+- **Format-as-Semantics**: Critical signals (like red text for "Risk" or indentation for hierarchies) are erased.
+- **Cross-Document Reasoning**: Multi-part proposals are disconnected, making global synthesis impossible.
+
+DocMason addresses this by forcing AI to respect original document structure and visual semantics. It produces deterministic file-based evidence, runs strong offline retrieval and trace algorithms, and validates the resulting knowledge base through strict code rules — all locally, with nothing leaving your machine. The repo holds the truth. The agent does the reasoning.
+
+Getting started requires zero developer experience. Just drop your files and let your AI agent handle the rest.
+
+- 
+**Path A: Start Small**Drop a handful of work files (`.pptx`,`.docx`,`.xlsx`, PDFs) into the`DocMason/original_doc/`folder. Open the DocMason folder in Codex, and ask your question naturally. DocMason intelligently guides you through environment setup and quietly builds the knowledge base in the background — just approve when prompted. After that, you can keep adding or revising files inside`original_doc/`; on the native path, DocMason can quietly and incrementally sync the published knowledge base instead of forcing a full restart.
+- 
+**Path B: Stage Entire Folders**Drop your massive, department-level folders into`DocMason/original_doc/`. Open the DocMason folder in Codex. Tell Codex:"Please prepare the DocMason environment." Then: "Please build the knowledge base." Once it's done, start asking complex research questions against the entire published corpus. 
+
+*Inside a valid workspace, you do not need to memorize internal commands. Just speak naturally to your AI agent.*
+
+**📺 Prefer a visual guide? Watch the 3-minute full setup tutorial video👇**
+
+**Five steps from download to your first traceable answer — no developer experience required.**
+
+**1. Download, unzip, and drop in your files**
+**Download DocMason**, unzip it to any folder on your Mac, then drag your `.pptx`, `.docx`, `.xlsx`, `.pdf`, and other work files into `DocMason/original_doc/`.
+
+**2. Open the DocMason folder in Codex**
+Launch Codex for macOS (or Claude Code) and open the DocMason folder as your workspace. This is the operating model — the repo is your app, the agent is your runtime.
+
+**3. Ask your agent to prepare the environment**
+
+"Please prepare the DocMason environment."
+
+
+DocMason will set up a managed local Python environment, install required dependencies, and guide you through LibreOffice installation if it's not already present. Just **grant full access to Codex** when prompted.
+
+**4. Build the knowledge base** *(for medium-to-large corpora)*
+
+"Please build the knowledge base."
+
+
+DocMason stages, compiles, validates, and publishes your documents into a searchable evidence layer. For a small handful of files, DocMason may handle this step automatically during your first question.
+
+**5. Start asking questions**
+
+"What are the main rollout risks across these documents, and which sources support them?"
+
+
+Your answers come with exact source identity and provenance trace — you can verify every claim against the original file and page.
+
+If you want to see a rigorously traceable answer before using your own files, the fastest public proof uses the ICO + GCS demo corpus compiled from official UK public-sector releases.
+
+Try the ICO + GCS Demo Bundle to test a governed truth environment before transitioning to your own private folders.
+
+**Ask this through your AI agent:**
+
+"Across the ICO and GCS materials, what are the main rollout risks, and which sources support them?"
+
+
+**What good looks like:**
+
+- **Cross-Document Reasoning:**The answer synthesizes overlapping governance risks instead of echoing documents one by one.
+- **Strict Provenance:**The answer explicitly points to the exact document origin, instead of blurring the corpus into one anonymous narrative.
+- **Inherently Traceable:**It provides the real evidence bundles so you can verify the root context.
+
+DocMason is built for **deep research** over your real work files — where every answer must be **traceable** to its actual source.
+
+- **Strict Source Identity.**DocMason enforces strict document boundaries. It prevents agents from hallucinating cross-source facts that only vaguely fit together.
+- **Answers Are Traceable.**You don't just get convincing text. You get a verifiable lineage pointing directly to the exact file and page you dropped in.
+- **100% Local and Auditable.**Your files, staged data, and compiled knowledge base remain physically inside your local folder boundary. See more →
+
+**What gets installed:** DocMason needs **LibreOffice** to parse Office files (`.pptx`, `.docx`, `.xlsx`) with full fidelity — this is the most important external dependency. It also sets up a local Python environment automatically. All setup is handled through your AI agent — just approve installations when prompted.
+
+- **First-Class Office & PDF**:- `pdf`,- `pptx`,- `ppt`,- `docx`,- `doc`,- `xlsx`,- `xls`
+- **First-Class Deep Text**:- `md`,- `markdown`,- `txt`,- `eml`(email)
+- **Lightweight Text**:- `mdx`,- `yaml`,- `yml`,- `tex`,- `csv`,- `tsv`
+
+High-fidelity Office file parsing relies on a lightweight local LibreOffice shim. PDF parsing uses the embedded stack (`PyMuPDF`, `pypdfium2`, `pypdf`, `pillow`). Together they preserve multimodal structure, layout, and sheet/page context for deeper analysis, not just plain-text extraction. Markdown, plain text, `.eml`, and the lightweight-compatible family do not require LibreOffice.
+
+- **Incremental Sync**: Add or revise files in- `original_doc/`, and DocMason can quietly rebuild and republish your local- `knowledge_base/current/`without forcing a full reset.
+- **Validation-Gated Commits**: Bad data fails the build instead of quietly degrading answers.
+- **Rich Source Parsing**: First-class handling for- `.pdf`,- `.pptx`,- `.xlsx`,- `.md`,- `.eml`, and more.
+- **Deterministic Retrieval**: Exact provenance trace over published corpora.
+- **Review Surface**: Conversation-native logging and extraction for real analysis.
+
+DocMason is designed to run entirely over local files. Here's exactly what that means:
+
+**DocMason does NOT send any of the following over the network:**
+
+- Your document content, file names, or file paths
+- Your queries or answer text
+- Any corpus data, evidence bundles, or knowledge-base artifacts
+
+**All AI inference traffic** is handled by your chosen host agent (Codex, Claude Code, etc.) — DocMason itself makes zero model API calls. The network behavior of your AI agent is governed by that agent's own privacy and telemetry policy.
+
+**The only network request DocMason may make:**
+Generated `clean` and `demo-ico-gcs` release bundles may only perform a bounded update check: automatically after canonical `ask` completion, or when you explicitly run `docmason update-core`. This path is disabled in the source repository, the automatic check respects `DO_NOT_TRACK=1`, and the request sends only `schema_version`, `distribution_channel`, a bundle-local pseudonymous `installation_hash`, and `trigger`. It never sends corpus content, file names, file paths, query text, answer text, source locators, environment variables, secrets, machine fingerprints, or IP-derived identifiers. See Release Entry And Networking.
+
+**Your responsibility:**
+
+- Configure your host agent's telemetry and privacy settings according to your own standards.
+- Do NOT commit `original_doc/`,`knowledge_base/`, or`runtime/`directories to any public repository.
+
+DocMason is **alpha**, and already ships the functional core of the local workflow:
+
+- Workspace repair and rapid bootstrapping
+- Knowledge-base structural sync and incremental refresh
+- Deterministic retrieval and provenance trace boundaries
+- Natural-language `ask`with conversation-native logging
+
+**Host compatibility:**
+
+- **Native**: Codex on macOS (reference experience)
+- **Well supported**: Claude Code
+- **Also works**: GitHub Copilot (VS Code)
+
+**Recommended model**: We strongly recommend running DocMason with **GPT 5.4** or models of equivalent reasoning depth. Weaker models may produce degraded answers and unreliable trace boundaries.
+
+**Environment**: Managed repo-local Python `3.13` on macOS.
+
+*Watch mode and automatic sync are intentionally out-of-scope for the present build.*
+
+- Product Rationale
+- Distribution and Bundles
+- Workflow Layers
+- Execution Orchestration
+- Architecture Index
+
+DocMason is building toward a future where every professional has access to a **deep, intelligent, and privacy-first AI assistant** over their work documents — one where provenance and traceability are first-class requirements, not afterthoughts.
+
+We believe AI document analysis should be:
+
+- **Honest**: answers tied to verifiable evidence, not plausible-sounding fiction.
+- **Private**: your files stay on your machine, under your control.
+- **Open**: the full logic is inspectable, auditable, and improvable.
+
+**If this direction resonates with how you actually work:**
+
+- **Star this repository**to follow the project as it matures.
+- Try the clean bundle on your real work files.
+- File an issue when the answer quality or trace boundary breaks down.
+- Share with colleagues who are tired of AI answers they can't verify.
+
+*The repo is the app. Codex is the runtime. Your documents deserve both.*

@@ -41,3 +41,5 @@
 - https://factory.strongdm.ai/techniques — backfill thin/empty (455 chars) via HTTP; retry with surf (strongdm-factory-techniques) 2026-07-05
 - https://forward.com/culture/422492/so-why-on-that-night-of-all-other-nights-do-we-eat-those-fruit-jelly/ — backfill thin/empty (0 chars) via HTTP; retry with surf (fruit-jelly-slices) 2026-07-05
 - https://www.getseer.dev/blogs/pre-commit-linting-vibe-coding — backfill thin/empty (0 chars) via HTTP; retry with surf (pre-commit-lint-checks) 2026-07-05
+- https://github.com/danshapiro/awesome-vibez — backfill thin/empty (0 chars) via HTTP; retry with surf (awesome-vibez) 2026-07-05
+- https://github.com/2389-research/claude-plugins/tree/main/binary-re — backfill thin/empty (0 chars) via HTTP; retry with surf (binary-re) 2026-07-05
