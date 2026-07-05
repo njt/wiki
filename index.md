@@ -393,6 +393,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 - [[Waveloop]] — neynt's music visualizer built in two days with Fable 5. The Terry Davis code-voice observation: frontier models have aesthetic style, not just capability. A eulogy for a model that was taken away after a week
 - [[TimesFM]] — Google Research's decoder-only foundation model for time-series forecasting: 200M params, 16K context, patch-based tokenization, flip invariance at inference time, deployed in BigQuery ML and Google Sheets
 - [[SLM Routing for Knowledge Workers]] — Mukul Singh: nano-model classifier routes 70–85% of knowledge-worker tasks to cheap small models, achieving #2 on GDPVal-AA with only 10 ELO points lost at >10× lower cost. Microsoft's MAI hill-climbing methodology proves small models can match frontier
+- [[BFId — WiFi Identity Inference via Beamforming Feedback]] — CCS '25: passive WiFi beamforming feedback (BFI) identifies 197 individuals at 99.5% accuracy with off-the-shelf hardware and weaker adversary model than CSI; BFI compression accidentally filters noise, making it a better surveillance vector than raw signal
 
 ## AI Infrastructure & Hardware
 
