@@ -400,6 +400,7 @@ Datacenters, power, chips, and the physical layer of AI.
 - [[Performance per dollar is getting faster and cheaper]] — Wafer.ai runs GLM-5.2 on AMD MI355X: 80% of B200 throughput at <50% cost, achieved with framework fixes not custom kernels. The CUDA moat is eroding in real time
 - [[NVIDIA B300 vs H200 GPU Analysis]] — Blackwell Ultra B300 vs Hopper H200: 288GB HBM3e, 7,000 FP8 TFLOPS, 8–20× inference gains, mandatory liquid cooling at 1,400W, and the memory-bandwidth bottleneck that the 20× marketing number hides
 - [[Inference Cost Napkin Math]] — Napkin math for LLM serving economics: memory bandwidth is the real bottleneck (compute sits idle 98% of the time), KV-cache hit rate IS your margin, and duty cycle is the 5x multiplier nobody measures: FP4 quantization, DFlash speculative decoding, and TileRT persistent kernels
+- [[Theoretical LLM Inference Bottlenecks]] — Freddie Spirit's definitive first-principles derivation: roofline model → prefill/decoding asymmetry → bandwidth-bound decode → KV cache limits → batching/tensor parallelism/quantization/speculative decoding taxonomy → hierarchy of ceilings. The article that turns inference optimization from a bag of tricks into a deductive system
 - [[Well-Read Students Learn Better]] — Turc et al. (2019): the overlooked baseline that just pre-training compact models works as well as elaborate compression; Pre-trained Distillation and the surprising compound effect
 
 ## Energy & Hardware
