@@ -189,6 +189,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 - [[How to Write an Effective Software Design Document]] — Michael Lynch's 23-component design doc checklist from Google/Microsoft/startup experience, anchored on one question: "what's the penalty for being wrong?"
 - [[Software Engineering at the Tipping Point]] — Adam Bender's 2026 Google talk: AI is a 10× amplifier, not a directed solution. Software ecology as a framework, shared fate, and why every node in your developer ecosystem breaks at 10× scale
 - [[Product-Minded Engineers in an AI-Native World]] — Thomas Pauls (Linear), Drew, and Michelle (Flint) on product engineering as motivation not role, taste as trainable craft, Quality Wednesdays, and AI as product-skill multiplier
+- [[Discovery Debt]] — Benedikt Kantus names the accumulated weight of untested assumptions that compounds invisibly until products are expensively wrong; four habit-level remedies and why speed feels like signal but isn't
 - [[Martin Fowler and Kent Beck on Reinventing Software]] — Two Agile Manifesto authors on AI's unprecedented magnitude, total skepticism as discipline, the re-soloing illusion, DX=AgentX convergence, and why nobody has the answers anymore
 
 ## Databases & Data
