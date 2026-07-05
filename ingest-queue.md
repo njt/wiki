@@ -77,3 +77,9 @@
 - https://www.sciencedirect.com/science/article/pii/S0016328719303507 — backfill thin/empty (0 chars) via HTTP; retry with surf (our-hunter-gatherer-future) 2026-07-05
 - https://sdpd.live — backfill thin/empty (0 chars) via HTTP; retry with surf (sdpd-live) 2026-07-05
 - https://shekhargulati.com/2026/01/03/building-production-ready-voice-agents/ — backfill thin/empty (0 chars) via HTTP; retry with surf (building-production-ready-voice-agents) 2026-07-05
+- https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents — backfill thin/empty (202 chars) via HTTP; retry with surf (minions-stripe-one-shot-coding-agents) 2026-07-05
+- https://talonvoice.com/ — backfill thin/empty (392 chars) via HTTP; retry with surf (talon) 2026-07-05
+- https://www.tandfonline.com/doi/full/10.1080/17439760.2017.1402074 — backfill thin/empty (0 chars) via HTTP; retry with surf (finding-a-family-categorization-of-enjoyable-emotions) 2026-07-05
+- https://www.thoughtworks.com/content/dam/thoughtworks/documents/report/tw_future%20_of_software_development_retreat_%20key_takeaways.pdf — backfill thin/empty (0 chars) via HTTP; retry with surf (tw-future-of-software-development-retreat-key-takeaways) 2026-07-05
+- https://venturebeat.com/technology/cohere-open-sources-a-coding-agent-that-runs-on-a-single-h100 — backfill thin/empty (0 chars) via HTTP; retry with surf (cohere-north-mini-code) 2026-07-05
+- https://vorpus.github.io/performativeUI/ — backfill thin/empty (0 chars) via HTTP; retry with surf (performative-ui) 2026-07-05
