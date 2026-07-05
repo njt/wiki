@@ -1,7 +1,7 @@
 # Wiki Index
 
 487 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
-487 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+488 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -31,6 +31,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Automating Myself Out of Development]] — Nune Isabekyan's phased journey from interactive Claude Code to cron-driven overnight daemon: GitHub issues as kanban, checkpoint-style async collaboration, and the bottleneck shift from "no time to code" to "no time to review"
 - [[Claude Code Mastery]] — Arpan Patel's dense field manual: CLAUDE.md as compounding infrastructure, skills as reusable expertise, subagents over kitchen-sink prompts, and the mental model flip from "I write code" to "I set Claude up to write code well"
 - [[Steering Claude Code]] — Anthropic's definitive taxonomy of seven instruction-delivery mechanisms (CLAUDE.md, rules, skills, subagents, hooks, output styles, system prompt): when each loads, how it survives compaction, context cost, and the decision framework for choosing the right one
+- [[Tuning Claude Code Into a Better Engineering Partner]] — jsdev.space's practical field manual: ten configuration changes (CLAUDE.md sizing, settings.json, hooks, effort levels, context rot, Two Corrections Rule, sandbox profiles, skills) that compound into a dramatically better engineering partner; "workflow over prompts" as thesis
 - [[Who Owns the Code Claude Wrote]] — Sena Evren's field guide to AI code IP: copyrightability (unsettled), work-for-hire (settled, and scarier than you think), and open source license contamination from training data (the sleeper risk)
 - [[Writing Code vs. Shipping Code]] — Demirer et al.: 180% AI-driven commit gains attenuate to 30% at release level; AI and humans are strong complements (elasticity 0.25), not substitutes
 - [[Mounted — bitter-FS better with Claude]] — Claude Code (Opus 4.8, as root) recovers a 41 TB BTRFS filesystem from ten-month dual-mount corruption: diagnoses two divergent transaction histories from first principles, catalogs 4M metadata nodes, hand-patches superblocks, rebuilds 19 dead leaves from the extent tree's back-reference index. Zero data loss, human contributed a passphrase
