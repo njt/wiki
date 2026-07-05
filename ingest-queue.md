@@ -45,3 +45,6 @@
 - https://github.com/2389-research/claude-plugins/tree/main/binary-re — backfill thin/empty (0 chars) via HTTP; retry with surf (binary-re) 2026-07-05
 - https://github.com/numman-ali/n-skills/blob/main/skills/workflow/orchestration/SKILL.md — backfill thin/empty (0 chars) via HTTP; retry with surf (orchestrator-worker-skill) 2026-07-05
 - https://github.com/harperreed/dotfiles/blob/master/.claude/skills/summarize-meetings/SKILL.md — backfill thin/empty (0 chars) via HTTP; retry with surf (summarize-meetings-skill) 2026-07-05
+- https://github.com/quant-sentiment-ai/claude-equity-research/blob/main/commands/trading-ideas.md — backfill thin/empty (0 chars) via HTTP; retry with surf (trading-ideas-claude-equity-research) 2026-07-05
+- https://github.com/Verticalysis/Hitomi — backfill thin/empty (332 chars) via HTTP; retry with surf (Verticalysis--Hitomi) 2026-07-05
+- https://graft.rs/ — backfill thin/empty (260 chars) via HTTP; retry with surf (graft) 2026-07-05
