@@ -363,6 +363,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 - [[A Non-Anthropomorphized View of LLMs]] — Halvar Flake: LLMs are functions through ℝⁿ, not proto-minds. Alignment is math, not philosophy
 - [[Subquadratic 12M Context Window]] — 13-person startup claims 12M-token context window via sub-quadratic sparse attention. Unverified
 - [[The Car Wash Question]] — 949-comment HN thread on why LLMs fail at obvious inferences: the frame problem lives, clarifying questions are suppressed by product choice not capability, and the gap between generation and pondering
+- [[TrapQA — Testing Reasoning Against Priors]] — UW-Madison benchmark diagnosing hallucination as "inference misalignment": the gap between what prompt constraints demand and what statistical associations push toward. Models ace isolated probes but fail comparative questions
 - [[Grok 4.3 (HN Discussion)]] — 529-comment HN thread that accidentally mapped the LLM landscape: tone registers, the alignment tax's real victims, why users disable memory, and recursive training contamination
 - [[DeepSeek Reverse Engineers TeamSpeak Licensing]] — First public field report of LLM binary RE: DeepSeek cracked TeamSpeak 3.13.8 for $3.88, while Claude/Grok/GLM all refused; safety-through-refusal is a temporary filter
 - [[Interfaze (Model Architecture)]] — Hybrid DNN+transformer architecture routing deterministic tasks (OCR, STT, object detection) through specialized subnetworks via task tags; launch-day HN field test with real latency and accuracy data
