@@ -69,3 +69,11 @@
 - https://peterbaile.github.io/beaver/ — backfill thin/empty (0 chars) via HTTP; retry with surf (beaver) 2026-07-05
 - https://www.pragmaticsummit.com/ — backfill thin/empty (0 chars) via HTTP; retry with surf (pragmatic-summit-2026) 2026-07-05
 - https://www.proofofconcept.pub/p/the-plan-is-the-program?hide_intro_popup=true — backfill thin/empty (378 chars) via HTTP; retry with surf (the-plan-is-the-program) 2026-07-05
+- https://randomlabs.ai/blog/slate — backfill thin/empty (0 chars) via HTTP; retry with surf (slate-moving-beyond-react-and-rlm) 2026-07-05
+- https://raw.githubusercontent.com/asgeirtj/system_prompts_leaks/refs/heads/main/claude.txt — backfill thin/empty (0 chars) via HTTP; retry with surf (claudes-system-prompt) 2026-07-05
+- https://www.reddit.com/r/ClaudeCode/comments/1oivs81/claude_code_is_a_beast_tips_from_6_months_of/ — backfill thin/empty (0 chars) via HTTP; retry with surf (claude-code-beast-6-months) 2026-07-05
+- https://www.reddit.com/r/DeepSeek/comments/1txcfrh/with_388_690003591_tokens_and_5_hours_deepseek/ — backfill thin/empty (0 chars) via HTTP; retry with surf (deepseek-reverse-engineers-teamspeak) 2026-07-05
+- https://sciencedemonstrations.fas.harvard.edu/presentations/microscale-thermite-reaction — backfill thin/empty (0 chars) via HTTP; retry with surf (microscale-thermite-reaction) 2026-07-05
+- https://www.sciencedirect.com/science/article/pii/S0016328719303507 — backfill thin/empty (0 chars) via HTTP; retry with surf (our-hunter-gatherer-future) 2026-07-05
+- https://sdpd.live — backfill thin/empty (0 chars) via HTTP; retry with surf (sdpd-live) 2026-07-05
+- https://shekhargulati.com/2026/01/03/building-production-ready-voice-agents/ — backfill thin/empty (0 chars) via HTTP; retry with surf (building-production-ready-voice-agents) 2026-07-05

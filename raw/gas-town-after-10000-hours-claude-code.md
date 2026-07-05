@@ -1,0 +1,37 @@
+---
+url: https://simonhartcher.com/posts/2026-01-19-my-thoughts-on-gas-town-after-10000-hours-of-claude-code/
+date_fetched: 2026-07-05
+backfilled: true
+---
+
+# My thoughts on Gas Town after 10,000 hours of Claude Code
+
+**Note from the author**
+
+I know that there are not 10,000 hours in a year. I’ve been living inside Claude Code and it feels like a lifetime.
+
+Over the weekend, I had a play with Steve Yegge’s Gas Town. If you don’t know what that is, you should go read this first. I’ve already encountered people in the community who are treating this as the second coming. Steve said it himself that it’s not for everyone, and he’s right.
+
+## My time with Claude Code
+
+After almost a year since Claude Code was released, I have been using it daily as frequently as the limits allow. With nights and weekends, I surmise that I have spent over 10k hours with it. I recently upgraded from the $100 to $200 tier of Claude Max. My workflow, which I have touched on before, is focused on pair programming. Whether I am the driver or the observer can vary by the task. Ultimately I feel as though I have more agency when I work this way, and it is way more fun (for me) than letting a suite of agents do all the work.
+
+## Agents take my agency away
+
+That’s where my issue with Gas Town lies. It feels like deferring everything to agents, and I get almost no visibility of what’s going on other than work was completed. Don’t get me wrong, I understand that I can ask the mayor to explain what was done, or link me to the code in question, though it feels very cumbersome.
+
+Additionally, with the token speed of current agents (Claude Opus 4.5 in my case), unless you have many rigs operating at once, the whole process just seems *really* slow. Since I like to be more involved, it just feels like I’m sitting there forever waiting for things to happen.
+
+## A small note on beads
+
+Prior to Gas Town’s release, I started using beads. Beads is at the heart of Gas Town. It’s what `gt` (the Gas Town CLI) uses to keep track of what needs to be done, and what has been done, across all of its agents. I do really like beads, but I still want to look at pull-requests. Since beads stores all of its state in git, those changes pollute every PR you or an agent makes.
+
+What beads illuminates is that agents need contracts. Humans do a pretty good job of intuitively determining the order in which work must happen. Agents don’t have a good grasp of this. Beads solves that by representing issues as a graph. If A blocks B, the agent can’t work on B until A is closed.
+
+I would rather beads didn’t store all of its data in git alongside your work. Git might still be the perfect storage medium (I’m not convinced on that), but it should be separated from the code in my opinion.
+
+## The future
+
+Gas Town is undoubtedly a look into the future of low touch agentic focused workflows for everyone. I don’t want to take away from what has been achieved here. I would credit Steve for the engineering, but as he admits, he has never seen the code.
+
+Even if I am vibe engineering, I still care about the code. I still look at it. I think Gas Town is cool, but I don’t think it’s for me, yet.
