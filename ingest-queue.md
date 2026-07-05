@@ -48,3 +48,5 @@
 - https://github.com/quant-sentiment-ai/claude-equity-research/blob/main/commands/trading-ideas.md — backfill thin/empty (0 chars) via HTTP; retry with surf (trading-ideas-claude-equity-research) 2026-07-05
 - https://github.com/Verticalysis/Hitomi — backfill thin/empty (332 chars) via HTTP; retry with surf (Verticalysis--Hitomi) 2026-07-05
 - https://graft.rs/ — backfill thin/empty (260 chars) via HTTP; retry with surf (graft) 2026-07-05
+- https://www.jazzguitar.be/blog/all-of-me/ — backfill thin/empty (0 chars) via HTTP; retry with surf (all-of-me-jazz-standard) 2026-07-05
+- https://kyutai.org/blog/2026-01-13-pocket-tts — backfill thin/empty (143 chars) via HTTP; retry with surf (pocket-tts) 2026-07-05
