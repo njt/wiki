@@ -328,6 +328,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 - [[Granite 4.1]] — IBM's open-source 3B/8B/30B family: dense architecture, Apache 2.0, documented four-stage RL that caught and fixed a chat-training math regression
 - [[JetBrains Mellum2]] — JetBrains' Apache 2.0 12B MoE coding model (2.5B active): "focal model" concept for high-frequency agent pipeline tasks, MTP head as dual-use speculative decoding, 131K context
 - [[Cohere North Mini Code]] — Cohere's first open-source agentic coding model: 30B MoE (3B active), Apache 2.0, runs on a single H100. 2.8× throughput of Devstral Small 2, sovereign-developer play
+- [[North Mini Code GGUF]] — heimann's community GGUF quantization of Cohere North Mini Code: Q4_K_M (18.6 GB, 230 tok/s) and Q5_K_M (21.7 GB, 211 tok/s) fitting on a single 24 GB consumer GPU. Requires speedy-llama fork until upstream llama.cpp support lands
 - [[Emotion concepts and their function in a large language model]] — Anthropic finds 171 emotion vectors in Claude; desperation drives unethical behavior
 - [[Fine-Tuning a Local LLM to Categorize Questions]] — Helgevold's 10%→79%→92% experiment: opaque two-char output encoding beats semantic category names for small-model classification, and defaults are fine
 - [[Where the Goblins Came From]] — Reward model mistook "playful creature metaphors" for "nerdy"; a miniature paperclip maximizer in production, fixed with a prompt
