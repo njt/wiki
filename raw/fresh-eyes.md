@@ -1,0 +1,97 @@
+---
+url: https://github.com/danshapiro/fresheyes
+date_fetched: 2026-07-05
+backfilled: true
+---
+
+Your AI coding agent is very sure it did a good job. Adorable. Maybe it's time for a second opinion?
+
+Fresh Eyes asks a separate LLM to look at your work. The separate agent helps because "LLM Evaluators Recognize and Favor Their Own Generations". The clean slate (no prior history) helps because LLMs with history may remember the goal more clearly than the code itself.
+
+It's pretty simple to use. `Look at this with fresheyes.`
+
+Install the Fresh Eyes plugin in Claude Code:
+
+```
+/plugin marketplace add danshapiro/fresheyes
+/plugin install fresheyes@danshapiro-fresheyes
+```
+Or Codex:
+
+```
+git clone https://github.com/danshapiro/fresheyes.git
+mkdir -p ~/.codex/skills
+cp -R fresheyes/skills/fresheyes ~/.codex/skills/
+```
+And, Fresh Eyes needs either Claude Code or Codex CLI to work its magic.
+
+```
+npm install -g @openai/codex
+npm install -g @anthropic-ai/claude-code
+```
+Note that Claude reviews count against your Claude overage, not your subscription *(shakes fist at universe)*.
+
+Fresh Eyes reviews what Git can show it. So:
+
+- Commit the work you want reviewed.
+- Ask your agent to run Fresh Eyes.
+
+Ask in normal language:
+
+Review this (plan, checkin, worktree, whatever) with fresh eyes.
+
+
+Review and fix:
+
+Review this with fresh eyes and fix anything it finds. Repeat up to three times or until it passes.
+
+
+(This is magic, and I do it all the time. Be sure to give it a limit or it could get stuck and burn all the tokens.)
+
+For a specific folder:
+
+Do a security review of
+
+`src/auth/`with fresh eyes.
+
+For a finished branch:
+
+Review this branch with fresh eyes, fix what comes up, and stop when it passes or after 5x turns.
+
+
+For a specific reviewer:
+
+Review this with fresh eyes using Claude.
+
+
+Review this with fresh eyes using GPT.
+
+
+You usually do not need to choose a reviewer. Fresh Eyes normally picks a different kind of model from the one already helping you.
+
+Your agent starts the review and waits for the result. A normal review can take a few minutes. Big branches and broad requests can take an hour.
+
+Fresh Eyes returns a review with a clear result:
+
+- `PASSED`means there are no blocking issues.
+- `FAILED`means it found something worth fixing before you move on.
+
+If it fails, fix the issues, commit again, and run Fresh Eyes again. If it passes, stop. A reviewer can always find small cleanup ideas if you keep asking, but a pass means the blocking problems are gone.
+
+I use Fresh Eyes most often in three places.
+
+After writing a plan, to catch issues.
+
+After executing a plan (or making any sort of change), to find bugs.
+
+Before merging, it gives the branch one more independent read.
+
+You can make Fresh Eyes run before every commit.
+
+```
+cd /path/to/your/repo
+bash ~/.claude/plugins/fresheyes/scripts/install-automatic-hook.sh
+```
+To skip the automatic review for one commit:
+
+`SKIP_FRESHEYES=1 git commit`MIT

@@ -1,0 +1,365 @@
+---
+url: https://github.com/SnapdragonPartners/maestro
+date_fetched: 2026-07-05
+backfilled: true
+---
+
+Maestro is a tool that uses AI to write full applications in a disciplined way that reflects good software engineering principles.
+
+In some ways, it's an agent orchestration tool. But unlike most others, Maestro bakes in structure, workflow, and opinions drawn from real-world experience managing large software projects. The goal is **production-ready apps, not just code snippets.**
+
+The big idea behind Maestro is that since LLMs are trained on and exhibit human behaviors it makes sense to organize them to operate like the most high performing human teams rather than relying on a single model or agent no matter how good.
+
+This project is developed and actively maintained by Snapdragon Partners. Tokens for developing Maestro are expensive but we're keeping the community version of Maestro free. If you like Maestro, any support you can provide via GitHub Sponsors would be appreciated!
+
+
+Step 1:Install Maestro via Homebrew, APT, or direct download from releases.
+
+Option A: Homebrew (macOS)brew install --cask SnapdragonPartners/tap/maestro
+
+Option B: Control Panel App (macOS)A native macOS app is available as a graphical wrapper for the Maestro CLI. Download it from maestro-macos releases. You can still use Homebrew or the CLI directly if you prefer, but the control panel app contains everything you need to use Maestro.
+
+
+Option C: APT (Debian/Ubuntu)# Add the Maestro APT repository (one-time setup) curl -fsSL https://snapdragonpartners.github.io/maestro/key.gpg | sudo gpg --dearmor -o /usr/share/keyrings/maestro.gpg echo "deb [signed-by=/usr/share/keyrings/maestro.gpg] https://snapdragonpartners.github.io/maestro stable main" | sudo tee /etc/apt/sources.list.d/maestro.list # Install (or upgrade) sudo apt update && sudo apt install maestro
+
+Option D: Direct downloadDownload the binary for your platform from releases and install it somewhere in your path.
+
+Step 2:Provide your API keys for the models you want to use and GitHub. You have two options:
+
+Option A: Environment variables(traditional)export OPENAI_API_KEY=sk-... export ANTHROPIC_API_KEY=sk-ant-... export GOOGLE_GENAI_API_KEY=AIza... # Optional, for Gemini models export GITHUB_TOKEN=ghp-... # Optional: Ollama for local models (default: http://localhost:11434) export OLLAMA_HOST=http://localhost:11434 # Optional: Enable web search for agents (Google Custom Search) export GOOGLE_SEARCH_API_KEY=AIza... export GOOGLE_SEARCH_CX=... # Your Custom Search Engine ID
+
+Tip:If you use Claude Code or other tools that read`ANTHROPIC_API_KEY`, you can set`MAESTRO_ANTHROPIC_API_KEY`instead — Maestro checks`MAESTRO_`-prefixed env vars first, letting you use different keys for Maestro and other tools. This works for all providers:`MAESTRO_OPENAI_API_KEY`,`MAESTRO_GOOGLE_GENAI_API_KEY`,`MAESTRO_GITHUB_TOKEN`.
+
+Option B: Configure via Web UI(easier)Skip this step entirely and just run Maestro. If any required API keys are missing, Maestro will automatically open a setup page in the Web UI where you can paste your keys into a browser form. Keys are encrypted and stored locally.
+
+
+Step 3:Create a project directory (projectdir) and switch to it.mkdir myproject && cd myproject
+
+Step 4:Run MaestromaestroIf any required API keys are missing, Maestro will launch in
+
+setup mode— open the Web UI (default http://localhost:8080) and follow the prompts to enter your keys. Once all keys are configured, Maestro continues startup automatically.
+
+Important:When Maestro generates a password, it is used for both WebUI login and secrets encryption. Record it somewhere safe — if lost, any secrets stored through the WebUI cannot be recovered. To use your own persistent password, set the`MAESTRO_PASSWORD`environment variable before running Maestro.
+
+Step 5:Open the web UI at http://localhost:8080 (you can change this in the config file.)
+
+- Work with the PM to bootstrap your project by uploading a pre-existing spec or starting a PM interview to generate a specification
+- View stories, logs, and system metrics
+- Monitor agent activity in real-time
+- Optionally chat with agents as you watch their progress
+
+Config settings are in /.maestro/config.json.
+
+- **Binary**: ~15 MB fat binary (Linux & macOS tested; Windows soon)
+- **Go**: Only needed if compiling from source (Go 1.24+)
+- **Docker**: CLI + daemon required
+- **GitHub**: Token with push/PR/merge perms (standard mode only)
+- **Ollama**: Required for airplane mode (local LLMs)
+- **Resources**: Runs comfortably on a personal workstation
+
+Much more extensive documentation including configuration settings is available in the Wiki.
+
+**Much simpler setup than other frameworks**: Maestro uses just a single binary and your existing development tools. It comes with preset config and workflow that work out of the box, but can be customized as needed.
+
+Most frameworks require wrestling with Python versions, dependency hell, or complex setup. With Maestro:
+
+- Download the binary (or build from source)
+- Provide your API keys as environment variables
+- Run Maestro and start building via the web UI
+
+Maestro provides out-of-box support for Anthropic, Google, and OpenAI models through their official SDKs (so it should support the latest models as soon as they become available.) Maestro also supports open source and open weight models runnning locally through Ollama.
+
+You can mix-and-match models by agent type - in fact, that's the recommended configuration since **heterogeneous models often catch errors that models from the same provider may not.**
+
+All LLM provider I/O goes through **maestro-llms** — an app-neutral, open-source Go toolkit (one `ChatClient` contract, one error model, composable retry/circuit/timeout/rate-limit middleware; it also offers embeddings, which Maestro itself doesn't currently use) extracted from Maestro so other projects can reuse it and share maintenance. If you're building something that talks to LLM providers, you can use it directly without Maestro.
+
+- 
+**PM (Product Manager)**(singleton):- Conducts interactive requirements interviews via web UI
+- Adapts questions based on user expertise level (non-technical, basic, expert)
+- Can read existing codebase to provide context-aware questions
+- Generates **requirements specifications**describing what the user needs
+- Iterates with architect for spec approval and refinement
+- Does *not*write technical specs or stories - that's the architect's job
+ 
+- 
+**Architect**(singleton):- Transforms requirements into **technical specifications**
+- Breaks specs into stories
+- Reviews and approves plans
+- Enforces principles (DRY, YAGNI, abstraction levels, test coverage)
+- Maintains separate conversation contexts for each agent to preserve continuity and avoid contradictory feedback
+- Merges PRs
+- Does *not*write code directly
+ 
+- Transforms requirements into 
+- 
+**Coders**(many):- Pull stories from a queue
+- Develop plans, then code
+- Must check in periodically
+- Run automated tests before completing work
+- Submit PRs for architect review
+ 
+
+Coders are goroutines that fully terminate and restart between stories. All state (stories, messages, progress, tokens, costs, etc.) is persisted in a SQLite database.
+
+- PM conducts interactive interview and generates spec (or user provides spec file)
+- Architect reviews and approves spec (with iterative feedback if needed)
+- Architect breaks spec into stories and dispatches them
+- Coders plan, get approval, then implement
+- Architect reviews code + tests, merges PRs
+- Coders terminate, new ones spawn for new work
+
+If a coder stalls or fails, Maestro automatically retries or reassigns. Questions can bubble up to a human via CLI or web UI.
+
+See the canonical state diagrams for details:
+
+- PM state machine - Interactive spec generation and architect feedback
+- Architect state machine - Spec review, story generation, and code oversight
+- Coder state machine - Planning, coding, and testing workflow
+
+- 
+**GitHub (standard mode) or Gitea (airplane mode):**- Local mirrors for speed
+- Tokens for push/PR/merge
+- One working clone per coder, deleted when the coder terminates
+- In airplane mode, a local Gitea server provides the same PR/merge workflow offline
+ 
+- 
+**Docker:**- All agents run in Docker containers with security hardening
+- Containers run as non-privileged user (1000:1000) for security
+- Coders run read-only for planning, read-write for coding
+- Provides security isolation and portability
+ 
+- 
+**Docker Compose:**- Specs requiring external services (PostgreSQL, Redis, etc.) use Docker Compose
+- Place a `compose.yml`in your project's`.maestro/`directory
+- Coders call `compose_up`to start services, which creates a Docker network connecting services to the coder container
+- Compose stacks are automatically started at the beginning of CODING and TESTING states
+- Services are isolated per-agent using project name prefixes (`maestro-<agent-id>`)
+- No technology downgrades needed—if your spec says PostgreSQL, use PostgreSQL
+ 
+- 
+**Makefiles:**- Used for build, test, lint, run
+- Either wrap your existing build tool or override targets in config
+- Aggressive lint/test defaults (“turn checks up to 11”)
+ 
+- 
+**LLMs:**- Supports OpenAI, Anthropic, Google Gemini, and Ollama (local models) via the maestro-llms toolkit
+- PM defaults: Claude Opus 4.5 (latest Anthropic flagship for nuanced requirements gathering)
+- Architect defaults: GPT-5.2 (latest OpenAI model for reliable code review)
+- Coders default: Claude Sonnet 4.5 (latest coding-oriented model)
+- All models configurable per-project in config.json
+- Rate limiting handled internally via token buckets
+- **Ollama support**: Run local models like Llama 3.2, Qwen, Mistral for cost-free development (see docs/OLLAMA.md)
+ 
+
+Maestro distinguishes three story types:
+
+- **Bootstrap stories**: these perform the minimum configuration needed for Maestro to run
+- **DevOps stories**: adjust Dockerfiles, build envs, CI/CD, etc.
+- **App stories**: generate or modify application code
+
+This distinction is transparent to the user—architect generates stories automatically.
+
+Maestro operates in several distinct modes depending on project state and user intent:
+
+| Mode | When It Runs | What It Does | 
+|---|---|---|
+| Bootstrap | Automatically on new projects | Sets up basic project infrastructure | 
+| Development | Default operating mode | Main workflow for building features | 
+| Airplane | `--airplane`flag | Fully offline with local Gitea + Ollama | 
+| Claude Code | `coder_mode: "claude-code"` | Uses Claude Code for implementation | 
+| Demo | User-triggered via WebUI | Runs the application for testing | 
+| Run | `--run`flag | Runs app + dependencies only (no agents) | 
+| Hotfix | User requests urgent fix | Fast path for production issues | 
+| Maintenance | After N specs complete | Cleans up technical debt | 
+| Discovery | Future | Onboards existing codebases | 
+
+See docs/MODES.md for detailed documentation on each mode.
+
+Run mode starts your application with its dependencies without the full orchestrator:
+
+`maestro --run`This is useful for:
+
+- Local development without running AI agents
+- CI/CD pipelines that need the app running with dependencies
+- Quick iteration on the app itself
+
+Run mode starts compose services (if configured), builds and runs the app, and cleans up on shutdown.
+
+Airplane mode enables fully offline multi-agent development without GitHub or external LLM APIs:
+
+```
+# Start in airplane mode
+maestro --airplane
+# After returning online, sync changes to GitHub
+maestro --sync
+```
+**Requirements:**
+
+- Docker (for local Gitea server)
+- Ollama with local models (e.g., `mistral-nemo`,`qwen2.5-coder`)
+
+**How it works:**
+
+- A local Gitea instance replaces GitHub for PR/merge operations
+- Ollama provides local LLMs for all agents
+- The mirror layer fetches from Gitea instead of GitHub
+- When back online, `--sync`pushes all changes to GitHub
+
+**Configuration:**
+
+```
+{
+  "default_mode": "airplane",
+  "agents": {
+    "airplane": {
+      "coder_model": "ollama:qwen2.5-coder:14b",
+      "architect_model": "ollama:mistral-nemo:latest"
+    }
+  }
+}
+```
+See docs/AIRPLANE_MODE.md for detailed specification.
+
+Maestro tracks and displays:
+
+- PM interviews and generated specifications
+- Specs, stories, and todos
+- All tool use
+- All chat and agent-to-agent message logs
+- Token use
+- Dollar cost
+- Wall-clock time
+- Test results and code quality metrics
+
+Maestro includes a knowledge graph system that captures architectural patterns, design decisions, and coding conventions. This graph serves as "institutional memory" that helps agents maintain consistency across stories.
+
+The knowledge graph is stored in `.maestro/knowledge.dot` in your repository and automatically provides relevant context to coders during planning. When a coder starts a story, Maestro extracts key terms and builds a focused "knowledge pack" with 20-30 related patterns. The architect reviews whether implementations follow these patterns and validates any updates to the graph.
+
+Benefits:
+
+- **Consistency**: Agents follow established patterns automatically
+- **Efficiency**: Fewer review cycles explaining the same concepts
+- **Evolution**: Graph grows organically as the project matures
+- **Documentation**: Living documentation that stays in sync with code
+
+See docs/wiki/DOCS_WIKI.md for user-friendly overview or docs/DOC_GRAPH.md for technical specification.
+
+Agents can optionally search the web to find current documentation, API references, and library versions. This is useful when agents need information beyond their training data cutoff.
+
+**To enable web search:**
+
+- Create a Google Custom Search Engine
+- Get an API key from Google Cloud Console
+- Set the environment variables:
+export GOOGLE_SEARCH_API_KEY=AIza... export GOOGLE_SEARCH_CX=... # Your Custom Search Engine ID 
+
+When both variables are set, web search is automatically enabled for all agents. If unset, agents will log a warning and continue without search capability.
+
+You can also control search explicitly in `.maestro/config.json`:
+
+```
+{
+  "search": {
+    "enabled": true  // or false to disable even if keys are present
+  }
+}
+```
+Hotfix mode provides a fast path for urgent, small changes that bypass the normal spec-driven development queue. This mimics the "live team / dev team" pattern common in engineering organizations, where a dedicated rotation handles production issues while the main team continues feature development.
+
+When you need a quick fix without waiting for in-progress feature work to complete:
+
+- **Dedicated coder**: Hotfixes route to a dedicated- `hotfix-001`coder, separate from the normal queue
+- **Express execution**: Simple hotfixes skip the planning phase entirely
+- **PM triage**: The PM automatically detects urgent requests and routes them appropriately
+
+Examples of hotfix requests:
+
+- "URGENT: Fix the login button - it's broken in production"
+- "Quick fix: Update the API endpoint URL"
+- "Hotfix: Typo in the error message"
+
+The architect validates hotfix requests to ensure they don't have dependencies on in-progress work, then dispatches them immediately.
+
+See docs/HOTFIX_MODE_SPEC.md for detailed specification.
+
+Maestro includes an automated maintenance system that manages technical debt between specs. After a configurable number of specs complete, maintenance mode triggers automatically and performs:
+
+**Programmatic Tasks** (no LLM required):
+
+- Deletes merged branches via GitHub API
+- Cleans up stale artifacts
+
+**LLM-Driven Stories** (run as express stories):
+
+- Knowledge graph synchronization
+- Documentation link verification
+- TODO/FIXME/deprecated code scanning
+- Test coverage improvement suggestions
+
+Maintenance runs autonomously and produces a summary report posted to chat. All maintenance PRs auto-merge after CI passes.
+
+Configuration in `.maestro/config.json`:
+
+```
+{
+  "maintenance": {
+    "enabled": true,
+    "after_specs": 1,
+    "stories": {
+      "knowledge_sync": true,
+      "doc_verify": true,
+      "todo_scan": true
+    }
+  }
+}
+```
+See docs/MAINTENANCE_MODE_SPEC.md for detailed specification.
+
+Maestro supports an alternative coder implementation that uses Claude Code as a subprocess instead of direct LLM API calls. This mode leverages Claude Code's built-in tooling (file operations, bash execution, etc.) while Maestro handles orchestration and signal detection.
+
+**How it works:**
+
+- Coders run Claude Code inside Docker containers with stream-json output
+- Maestro injects custom MCP tools for signaling (plan submission, task completion, questions)
+- The stream parser detects tool calls in real-time and extracts results
+- Q&A flow allows Claude Code to ask the architect questions and resume with answers
+
+**Configuration:**
+
+```
+{
+  "agents": {
+    "coder_mode": "claude-code"
+  }
+}
+```
+**Benefits:**
+
+- Uses Claude Code's optimized tooling and context management
+- Automatic tool approval in non-interactive mode
+- Same orchestration benefits (architect review, PR workflow, persistence)
+
+Claude Code is auto-installed in the container on first run.
+
+**Q: How do I start a new project?**
+Open the web UI at http://localhost:8080 and start a PM interview (you can override this port in the config file.) The PM will ask questions about your requirements, read your existing codebase if applicable, and generate a specification. The architect will then review it and create stories for coders to implement.
+
+**Q: Can I provide my own specification instead of using the PM?**
+Yes. You can place a markdown specification file in your project directory and the architect will parse it directly, skipping the PM interview.
+
+**Q: Do I have to use GitHub?**
+In standard mode, yes—Maestro's workflow relies on PRs and merges. However, **airplane mode** (`--airplane`) replaces GitHub with a local Gitea server for fully offline development. When you're back online, use `--sync` to push changes to GitHub.
+
+**Q: Can I skip Docker?**
+No. Coders always run in Docker containers for isolation and reproducibility.
+
+**Q: Why doesn't the architect write code?**
+By design. The architect enforces engineering discipline, ensures coders don't review their own work, and keeps technical debt low.
+
+**Q: Is this secure?**
+Maestro is intended as a single-user tool running locally. All agents run in Docker containers as a non-privileged user (1000:1000) with security hardening including read-only root filesystem, no-new-privileges, and resource limits. Combined with Docker isolation, this provides reasonable security for local development, certainly as good or significantly better than other agent-based development systems.
+
+**Q: What happens if Maestro crashes?**
+All stories, states, tool use, messages, and progress are persisted in SQLite. On restart, coders and architect resume where they left off.
+
+MIT

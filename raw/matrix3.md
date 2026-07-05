@@ -1,0 +1,91 @@
+---
+url: https://github.com/taviso/matrix3
+date_fetched: 2026-07-05
+backfilled: true
+---
+
+This is matrix³, an experimental content policy manager, inspired by
+umatrix, but built on `declarativeNetRequest`.
+
+It looks like this -- it adds a sidepanel that lets you enable or disable web features for each site.
+
+This extension basically just provides an interface to `Content-Security-Policy`, so
+familiarity with the CSP3 specification is a bonus. It is currently just a prototype.
+
+Install the latest stable version via the Chrome Web Store.
+
+For the latest development version, follow these steps:
+
+- Clone or download this repository.
+- Open `chrome://extensions`.
+- Enable **Developer mode**, and click**Load Unpacked**.
+
+Open the sidepanel via the matrix³ toolbar icon. If this is your first time
+using the extension, choose a default policy in the **Options** page.
+
+If a site doesn't work, click the toolbar icon and open the **Report** page.
+If you're using `sandbox`, try disabling it and see what resources the site
+requests.
+
+Any subresource the page requested that was denied is highlighted in orange.
+You can enable options until the site works, then click **Reload** to reload
+the tab.
+
+When you're happy with the settings, click **Commit** to make them persistent.
+
+If the server suggests it's own policy, you can either **Accept** or **Merge**
+it with your own rules.
+
+This is entirely optional, you can also ignore what the server suggests.
+
+The default policy is **Permissive**, which means nothing is blocked by default
+until you configure specific rules.
+
+If you find you want a more restrictive baseline, change the level in
+**Options**. The available policies are described here.
+
+Nothing is blocked by default. If you want to reduce permissions for a specific
+site, you need to adjust it in the **Report** tab.
+
+First-party scripts and resources are generally allowed, along with third-party
+images, styles, and fonts. Third-party scripts are blocked unless you
+give them permission in the **Report** tab.
+
+The `sandbox` attribute is applied to every document, but some scripts and
+forms are allowed. Popups, downloads, and navigations are all blocked, and the
+document runs in a strict isolated origin.
+
+Many simple sites will work, but most complex sites will require exceptions in
+the **Report** tab.
+
+Cookies will *mostly* not work unless you enable "Allow Same Origin".
+
+The `sandbox` attribute is applied, with no exceptions.
+
+Simple static sites will work, but no dynamic features will function. Forms will not work without an exception.
+
+Effectively everything is disabled -- `default-src` is set to `'none'`.
+
+Only first-party styles and images are permitted, all other resources are blocked unless explicitly enabled.
+
+This extension provides an interface to *session* and *dynamic* rules, these
+are `declarativeNetRequest` concepts.
+
+A *dynamic* rule is **persistent** and is maintained when you restart Chrome.
+
+A *session* rule is **ephemeral** and discarded when you restart Chrome. This
+is the default, you must click **Commit** to make a rule *dynamic*.
+
+The **Rules** panel shows all dynamic and session rules; you can delete
+individual rules from there.
+
+A *group* is a named bundle of origins you frequently want to trust together
+-- for example, the CDNs you allow on most sites, or a set of social media
+embed hosts.
+
+Define groups in the **Groups** page. Then in the **Report** page, pick a
+group from the dropdown and click **Trust** to allow all of its origins for
+the current host at once. **Untrust** removes them.
+
+The **Ignore** group allows you to hide origins from the **Report** page that
+you're not interested in.
