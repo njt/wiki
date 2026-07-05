@@ -1,7 +1,6 @@
 # Wiki Index
 
-487 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
-487 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+488 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -30,6 +29,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Orchestrating AI Code Review at Scale]] — Cloudflare's production AI code review system: 7 specialized agents + coordinator judge, 131K reviews at $1.19 avg, tiered models, circuit breakers, and the most detailed public metrics on AI review at scale
 - [[Automating Myself Out of Development]] — Nune Isabekyan's phased journey from interactive Claude Code to cron-driven overnight daemon: GitHub issues as kanban, checkpoint-style async collaboration, and the bottleneck shift from "no time to code" to "no time to review"
 - [[Claude Code Mastery]] — Arpan Patel's dense field manual: CLAUDE.md as compounding infrastructure, skills as reusable expertise, subagents over kitchen-sink prompts, and the mental model flip from "I write code" to "I set Claude up to write code well"
+- [[Make Pages Interactive]] — Paras Chopra's Claude Code skill for "Google Docs comments but for HTML": generate static HTML, comment in-browser, Claude watches and updates live. Convergent evolution — Codex has it natively, Claude Code desktop now has preview mode
 - [[Steering Claude Code]] — Anthropic's definitive taxonomy of seven instruction-delivery mechanisms (CLAUDE.md, rules, skills, subagents, hooks, output styles, system prompt): when each loads, how it survives compaction, context cost, and the decision framework for choosing the right one
 - [[Who Owns the Code Claude Wrote]] — Sena Evren's field guide to AI code IP: copyrightability (unsettled), work-for-hire (settled, and scarier than you think), and open source license contamination from training data (the sleeper risk)
 - [[Writing Code vs. Shipping Code]] — Demirer et al.: 180% AI-driven commit gains attenuate to 30% at release level; AI and humans are strong complements (elasticity 0.25), not substitutes
