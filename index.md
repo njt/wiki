@@ -78,6 +78,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[AgentMail]] — API-first email platform for AI agents: programmable inboxes via REST API with MCP support, two-way communication (not just sending), real-time webhooks, and SOC 2 compliance. The missing email primitive for the agent infrastructure stack
 - [[Agent-Native Architectures (Every)]] — Every's definitive design guide: five principles (parity, granularity, composability, emergent capability, improvement over time), files as universal interface, anti-patterns, and mobile resilience patterns
 - [[Honey I Shrunk the Coding Agent]] — 9B local model jumps from 19% to 46% on Aider Polyglot by redesigning the scaffold around the model's behavioral profile. Empirical proof that the harness matters more than the model
+- [[OpenMonoAgent]] — Terminal-native coding agent running local LLMs via embedded llama.cpp with Docker-native sandboxing: C#/.NET, Roslyn integration, zero API keys, unlimited free tokens, "infrastructure you own"
 - [[Apache Burr]] — Apache-incubating Python framework for AI agents as explicit state machines: decorators on plain functions, built-in observability UI, persistence and replay as first-class features. The un-LangChain
 - [[Building an AI Agent in Rails (Ionescu)]] — Field report: bolting an AI agent onto a 7-year-old Rails monolith with Pundit-scoped tool calling
 - [[From AI Studio to AI Forge]] — McCormick's five-plane stack for agent autonomy: "human changes altitude" as the cleanest framing of supervisory control
