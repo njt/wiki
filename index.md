@@ -391,6 +391,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[Why Agents Matter More Than Other AI]] — Seven structural advantages agents have over human employees: replication, 24/7 operation, no management overhead, tax efficiency. The CFO's case for replacing labor with compute
 - [[The Education of the Broligarchy]] — Blake Smith on the Silicon Valley canon as tradition's self-education: ambition vs. systems-thinking, adolescence frozen into ideology, and the Aella/Yarvin court. The best essay on what tech elites read and why it matters
 - [[The Dead Economy Theory]] — Owen McGrann extends dead internet theory to the economy: productive capacity without human participation, the AI Layoff Trap, and the Camusian case that present people are the unit of account
+- [[Dopamine Fracking]] — German S. coins a diagnostic term for the industrial extraction of dopamine from human experience: optimization that depletes what it extracts, and why you eventually prefer the chemicals to the real thing
 - [[Deciphering Basmala]] — Mark Dominus unpacks the centuries of Arabic calligraphy behind Islam's most important phrase, and the Unicode hack (a single codepoint) that sidesteps font engines built for Latin
 - [[Why We Fear AI]] — AI anxiety is really capitalism anxiety. Blix and Glimmer
 - [[The Market for Doom]] — Partridge on why every generation predicts technological unemployment and every generation is wrong: static vs. dynamic reasoning, horses as the only species that couldn't retrain, economics as the real optimism
