@@ -231,6 +231,7 @@ Storage engines, query patterns, data quality, and vector/graph databases. **Hub
 - [[Lakebase and LTAP]] — Reynold Xin on Databricks' stateless Postgres architecture and the LTAP paradigm that eliminates CDC by storing operational data once in open columnar formats for both transactions and analytics
 - [[DocumentDB]] — Microsoft's MongoDB-compatible document database on PostgreSQL: native BSON type, 10K-line aggregation pipeline compiler in C, Rust wire-protocol gateway with read-ahead pipelining
 - [[ARIES — Write-Ahead Logging Recovery]] — Mohan et al.'s 1992 paper that defined crash recovery for every major database: repeat-history paradigm, per-page LSNs, CLR chaining, three-pass restart. The architecture still running inside PostgreSQL, SQL Server, DB2, and InnoDB
+- [[Postgres Transactions Are a Distributed Systems Superpower]] — Kraft & Li argue co-locating workflow state with application data in Postgres eliminates idempotency bugs and outbox infrastructure through shared transaction boundaries
 
 ## Developer Tools
 
