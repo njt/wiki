@@ -1,6 +1,6 @@
 # Wiki Index
 
-484 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+485 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -41,6 +41,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Matt Pocock — Grill Me, Then Go AFK]] — The smart zone/dumb zone model of LLM context, the grill me alignment skill, and a full pipeline from Socratic planning through AFK agent implementation to manual QA
 - [[James Montemagno — Copilot Custom Instructions]] — GitHub Copilot's custom instructions as CLAUDE.md-equivalent infrastructure: auto-generation via VS Code Insiders, scoped instruction files, and the same instruction-budget problems Montemagno doesn't address
 - [[Building When It Feels Like There's Nothing Left to Build]] — Chip Huyen on the existential question: when AI can build anything describable, why build at all? Evaporating moats, long-tail problem targeting, local human preference as the last defensible advantage, and building for joy as the answer that survives
+- [[Lean Software Production]] — Matt Wynne's three-pillar framework (Lean + XP + agentic production) for the post-craft era: AI makes methodology existential, not optional. The product is still working software, but the work is engineering the system that produces it
 - [[Lessons from Building Cursor]] — Unnamed Cursor engineer on ByteByteGo: RL as the only path to tool-use, 100M+ CPU hours for sandbox training, context windows solved through incentives not prompts, "coding got solved in six months," self-driving codebases, and the devex-for-AI problem
 - [[Building World-Class Engineering Teams in the Age of AI]] — Rajeev Rajan (CTO Atlassian) and Thomas Dohmke (former CEO GitHub) at The Pragmatic Summit: AI-native mindset, bottleneck migration left and right of code, role collapse, the teamwork graph as context moat, 89% more PRs, "don't be a manager," token cost inversion, and the Homer Simpson car warning
 
