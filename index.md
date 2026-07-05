@@ -370,6 +370,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 - [[Emotion concepts and their function in a large language model]] — Anthropic finds 171 emotion vectors in Claude; desperation drives unethical behavior
 - [[Fine-Tuning a Local LLM to Categorize Questions]] — Helgevold's 10%→79%→92% experiment: opaque two-char output encoding beats semantic category names for small-model classification, and defaults are fine
 - [[Where the Goblins Came From]] — Reward model mistook "playful creature metaphors" for "nerdy"; a miniature paperclip maximizer in production, fixed with a prompt
+- [[Fixing LLM Writing with Distribution Fine Tuning]] — Rosmine's DFT algorithm optimizes output *distributions* rather than per-sample loss, beating SFT super-baselines on writing quality metrics. Proprietary, unverifiable, but the core insight — SFT misses distribution-level information — is important
 - [[Zheng Dong Wang's 2025 Letter]] — Personal perspective on the compute thesis of AI progress
 - [[A Non-Anthropomorphized View of LLMs]] — Halvar Flake: LLMs are functions through ℝⁿ, not proto-minds. Alignment is math, not philosophy
 - [[Subquadratic 12M Context Window]] — 13-person startup claims 12M-token context window via sub-quadratic sparse attention. Unverified
