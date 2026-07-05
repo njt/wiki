@@ -28,3 +28,11 @@
 - https://catalinionescu.dev/ai-agent/building-ai-agent-part-1/ — backfill thin/empty (0 chars) via HTTP; retry with surf (building-ai-agent-rails-part-1) 2026-07-05
 - https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/69fe2a55b93bb0732b1fe33c_The-Founders-Playbook-05062026_v3%20(1).pdf — backfill thin/empty (0 chars) via HTTP; retry with surf (the-founders-playbook) 2026-07-05
 - https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a1611a04085d7cd3dadc924_Claude-eBook-Zero-Trust-for-AI-Agents-05182026.pdf — backfill thin/empty (0 chars) via HTTP; retry with surf (zero-trust-for-ai-agents) 2026-07-05
+- https://www.citadelsecurities.com/news-and-insights/2026-global-intelligence-crisis/ — backfill thin/empty (0 chars) via HTTP; retry with surf (2026-global-intelligence-crisis) 2026-07-05
+- https://davidtong.org/pdfs/teaching/fluid-mechanics/lowreynolds.pdf — backfill thin/empty (0 chars) via HTTP; retry with surf (life-at-low-reynolds-numbers) 2026-07-05
+- https://delphi.tools/tools/qr-genny — backfill thin/empty (287 chars) via HTTP; retry with surf (qr-genny-delphi-tools) 2026-07-05
+- https://designsystems.igorschwarzmann.com/ — backfill thin/empty (0 chars) via HTTP; retry with surf (designsystems-igorschwarzmann) 2026-07-05
+- https://dev.to/adamai/i-built-an-ai-pr-reviewer-and-it-already-caught-bugs-i-missed-115p — backfill thin/empty (0 chars) via HTTP; retry with surf (ai-pr-reviewer) 2026-07-05
+- https://dl.acm.org/doi/epdf/10.1145/3719027.3765062 — backfill thin/empty (0 chars) via HTTP; retry with surf (bfid-wifi-identity-inference) 2026-07-05
+- https://docs.browser-use.com/llms-full.txt — backfill thin/empty (75 chars) via HTTP; retry with surf (browser-use) 2026-07-05
+- https://docs.cashpoints.co.nz/partners-api-v1/ — backfill thin/empty (218 chars) via HTTP; retry with surf (cashpoints-partners-api-v1) 2026-07-05
