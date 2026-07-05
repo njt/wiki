@@ -1,6 +1,6 @@
 # Wiki Index
 
-485 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+486 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -344,6 +344,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 - [[StoryScope]] — Russell et al.: 304 narrative features across 10 dimensions distinguish human from AI fiction at 93.2% F1, survive stylistic editing. AI over-explains themes, renders emotion through bodies, converges on shared narrative space. Per-model fingerprints: Claude's flat escalation, GPT's gossip, Gemini's bleakness
 - [[Waveloop]] — neynt's music visualizer built in two days with Fable 5. The Terry Davis code-voice observation: frontier models have aesthetic style, not just capability. A eulogy for a model that was taken away after a week
 - [[TimesFM]] — Google Research's decoder-only foundation model for time-series forecasting: 200M params, 16K context, patch-based tokenization, flip invariance at inference time, deployed in BigQuery ML and Google Sheets
+- [[SLM Routing for Knowledge Workers]] — Mukul Singh: nano-model classifier routes 70–85% of knowledge-worker tasks to cheap small models, achieving #2 on GDPVal-AA with only 10 ELO points lost at >10× lower cost. Microsoft's MAI hill-climbing methodology proves small models can match frontier
 
 ## AI Infrastructure & Hardware
 
