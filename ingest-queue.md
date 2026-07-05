@@ -50,3 +50,12 @@
 - https://graft.rs/ — backfill thin/empty (260 chars) via HTTP; retry with surf (graft) 2026-07-05
 - https://www.jazzguitar.be/blog/all-of-me/ — backfill thin/empty (0 chars) via HTTP; retry with surf (all-of-me-jazz-standard) 2026-07-05
 - https://kyutai.org/blog/2026-01-13-pocket-tts — backfill thin/empty (143 chars) via HTTP; retry with surf (pocket-tts) 2026-07-05
+- https://matijacniacki.com/blog/openviktor — backfill thin/empty (0 chars) via HTTP; retry with surf (openviktor) 2026-07-05
+- https://medium.com/netflix-techblog/a-human-augmenting-agentic-workflow-for-causal-inference-4623f0a9c5af — backfill thin/empty (0 chars) via HTTP; retry with surf (causal-inference-agentic-workflow) 2026-07-05
+- https://mist.inanimate.tech/ — backfill thin/empty (100 chars) via HTTP; retry with surf (mist) 2026-07-05
+- https://news.ycombinator.com/item?id=47626598 — backfill thin/empty (0 chars) via HTTP; retry with surf (ctx-agentic-development-environment) 2026-07-05
+- https://news.ycombinator.com/item?id=46464120 — backfill thin/empty (0 chars) via HTTP; retry with surf (hn-assorted-less-tips) 2026-07-05
+- https://news.ycombinator.com/item?id=47368874 — backfill thin/empty (0 chars) via HTTP; retry with surf (hn-capturing-why-engineering-decisions) 2026-07-05
+- https://news.ycombinator.com/item?id=46560343 — backfill thin/empty (0 chars) via HTTP; retry with surf (hn-pre-commit-lint-checks-discussion) 2026-07-05
+- https://news.ycombinator.com/item?id=46767440 — backfill thin/empty (0 chars) via HTTP; retry with surf (hn-rip-low-code-2014-2025) 2026-07-05
+- https://news.ycombinator.com/item?id=47899844 — backfill thin/empty (0 chars) via HTTP; retry with surf (wuphf-karpathy-style-llm-wiki) 2026-07-05
