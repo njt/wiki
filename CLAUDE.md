@@ -7,13 +7,24 @@ This is an LLM-maintained wiki inside Nat's Obsidian vault. The LLM writes and m
 ```
 Wiki/
   CLAUDE.md       — this file (schema, conventions, workflows)
-  index.md        — catalog of all wiki pages with one-line summaries
+  index.md        — catalog of all topic pages with one-line summaries
   log.md          — append-only record of ingests, queries, and maintenance
-  raw/            — immutable source documents (drop zone)
-  (topic pages)   — LLM-generated markdown, flat in Wiki/
+  raw/<slug>.md      — VERBATIM source text (the archive; frontmatter + original body)
+  summary/<slug>.md  — a concise précis of each source
+  topic/<Title>.md   — analysis & synthesis; may draw on several sources
 ```
 
-Wiki pages live flat in `Wiki/` (no subfolders). Obsidian links and tags provide the structure. If the wiki grows past ~100 pages, revisit this decision.
+Three tiers per source, sharing one slug for raw/ and summary/:
+
+- `raw/<slug>.md` — the **verbatim** fetched source (or a repo's README). The pipeline writes it; the model never rewrites it (only keeps or deletes it). Its `url:` frontmatter line is what duplicate detection reads.
+- `summary/<slug>.md` — the précis.
+- `topic/<Title>.md` — the analysis page. Cross-linked with `[[wikilinks]]`, which resolve by name regardless of folder.
+
+`index.md` and `log.md` stay at the wiki root.
+
+## Synthesis on ingest (compounding, not just filing)
+
+After writing the new topic page, integrate the source into the existing wiki: find the 2–4 most-related existing `topic/` pages and make **minimal, additive** edits — weave in the new finding in a sentence or two plus a `[[backlink]]` to the new page. Never rewrite, reorder, or delete another page's content; only add. Skip when nothing is genuinely related. This keeps the wiki a compounding artifact, not a pile of disconnected pages.
 
 ## Page Format
 
