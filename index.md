@@ -310,6 +310,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 - [[Proxy-KD — Knowledge Distillation of Black-Box LLMs]] — Proxy-mediated distillation from GPT-4 to 7B students: beats white-box KD by approximating closed-source probability distributions through DPO-aligned intermediate models
 - [[Learn AI Layer by Layer]] — Rob Ennals' interactive tutorial explaining AI from numbers to transformers with browser playgrounds and Colab notebooks. Best free AI foundations resource available, built for his 11-year-old son
 - [[Goldman Sachs World Model]] — Goldman Sachs Global Institute: world models as AI's next leap beyond text prediction toward internal simulation of physical and social reality
+- [[LLMs Are Complicated Now]] — Ian Barber on LLM architecture's recsys-ification: why composability, not agentic cleverness, is the only escape from the optimization trap
 - [[2025 in LLMs]] — Simon Willison's annual survey of the LLM landscape
 - [[Recent Developments in LLM Architectures]] — Raschka surveys Gemma 4, Laguna XS.2, ZAYA1-8B, and DeepSeek V4: four different attacks on long-context inference cost through KV sharing, attention budgeting, compressed attention, and constrained residual streams
 - [[How Far Behind Are Open Models]] — Quantified: open models trail closed by 8–10 months on private benchmarks, 4–6 on public. Gap was narrowest at DeepSeek R1, widening since. Contamination audit shows conservative estimate
