@@ -59,3 +59,13 @@
 - https://news.ycombinator.com/item?id=46560343 — backfill thin/empty (0 chars) via HTTP; retry with surf (hn-pre-commit-lint-checks-discussion) 2026-07-05
 - https://news.ycombinator.com/item?id=46767440 — backfill thin/empty (0 chars) via HTTP; retry with surf (hn-rip-low-code-2014-2025) 2026-07-05
 - https://news.ycombinator.com/item?id=47899844 — backfill thin/empty (0 chars) via HTTP; retry with surf (wuphf-karpathy-style-llm-wiki) 2026-07-05
+- https://www.nytimes.com/2025/12/03/magazine/chatbot-writing-style.html — backfill thin/empty (0 chars) via HTTP; retry with surf (why-does-ai-write-like-that) 2026-07-05
+- https://openai.com/index/harness-engineering/ — backfill thin/empty (0 chars) via HTTP; retry with surf (harness-engineering-openai) 2026-07-05
+- https://openai.com/index/inside-our-in-house-data-agent/ — backfill thin/empty (0 chars) via HTTP; retry with surf (inside-our-in-house-data-agent) 2026-07-05
+- https://openai.com/index/where-the-goblins-came-from/ — backfill thin/empty (0 chars) via HTTP; retry with surf (where-the-goblins-came-from) 2026-07-05
+- https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6843118 — backfill thin/empty (0 chars) via HTTP; retry with surf (writing-code-vs-shipping-code) 2026-07-05
+- https://pdimagearchive.org/infinite-view/ — backfill thin/empty (0 chars) via HTTP; retry with surf (pdia-infinite-view) 2026-07-05
+- https://www.pencil.dev/ — backfill thin/empty (0 chars) via HTTP; retry with surf (pencil-dev) 2026-07-05
+- https://peterbaile.github.io/beaver/ — backfill thin/empty (0 chars) via HTTP; retry with surf (beaver) 2026-07-05
+- https://www.pragmaticsummit.com/ — backfill thin/empty (0 chars) via HTTP; retry with surf (pragmatic-summit-2026) 2026-07-05
+- https://www.proofofconcept.pub/p/the-plan-is-the-program?hide_intro_popup=true — backfill thin/empty (378 chars) via HTTP; retry with surf (the-plan-is-the-program) 2026-07-05
