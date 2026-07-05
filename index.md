@@ -140,6 +140,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Lessons from Building Vercel v0 and the d0 Agent]] — Malte Ubl on Dzero's two-tool architecture (bash + SQL, ~50 lines), V0's four-stage evolution driven by model leaps, the "make it look like coding" pattern, optimistic locking for shipping, and why teams make things go slower
 - [[Ramp — Lessons from Building a New AI Product]] — Four Ramp engineers on shipping AI-native finance: single agent with thousands of tools, evals from day one, tool catalogs as shared infrastructure, and why Team A (impact-obsessed) beats Team B (performative code quality) when AI is a 10× amplifier
 - [[Guiding Opus 4.8 Back to Sanity]] — valis diagnoses Opus 4.8's pedantic pushback as structural: obligation-voiced agentic layers overwhelm permission-voiced conversational guidance. The fix: an Object Floor that defines structural invalidity rather than prescribing virtues
+- [[Sherlock Agent Eval]] — Alex Weil's detective board-game benchmark surfaces two LLM agent failure modes (fabrication-under-retrieval and the decoy trap) and a Theorist-Explorer split that breaks the trap even with weaker models. Topology beats model size
 
 ## Agent Orchestration & Coordination
 
