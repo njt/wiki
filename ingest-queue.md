@@ -1,0 +1,22 @@
+- 2026-technical-link-pile — no url: in summary, cannot backfill (2026-07-05)
+- ai-coding-tools-create-more-bugs-than-they-fix — no url: in summary, cannot backfill (2026-07-05)
+- an-illustrated-guide-to-oauth — no url: in summary, cannot backfill (2026-07-05)
+- clearance — no url: in summary, cannot backfill (2026-07-05)
+- json-render — no url: in summary, cannot backfill (2026-07-05)
+- maestro-ui-testing — no url: in summary, cannot backfill (2026-07-05)
+- more-common-diagram-mistakes — no url: in summary, cannot backfill (2026-07-05)
+- obsidian-introduction — no url: in summary, cannot backfill (2026-07-05)
+- oversight-and-guidance — no url: in summary, cannot backfill (2026-07-05)
+- repomirror — no url: in summary, cannot backfill (2026-07-05)
+- smart-models-dumb-pipes — no url: in summary, cannot backfill (2026-07-05)
+- that-cosmo-guy-github-io — no url: in summary, cannot backfill (2026-07-05)
+- writing-a-good-claude-md — no url: in summary, cannot backfill (2026-07-05)
+- https://1lib.sk/ — backfill thin/empty (0 chars) via HTTP; retry with surf (1lib) 2026-07-05
+- https://aaltodoc.aalto.fi/server/api/core/bitstreams/d485ca46-ef01-41bc-ae4c-d468afb209a8/content — backfill thin/empty (0 chars) via HTTP; retry with surf (the-limits-of-generalized-sync) 2026-07-05
+- https://academics.hamilton.edu/documents/themundanityofexcellence.pdf — backfill thin/empty (0 chars) via HTTP; retry with surf (the-mundanity-of-excellence) 2026-07-05
+- https://agenticse-book.github.io/pdf/AgenticSE_Book.pdf — backfill thin/empty (0 chars) via HTTP; retry with surf (agentic-software-engineering-ahmed-hassan) 2026-07-05
+- https://ai.meta.com/research/samaudio/ — backfill thin/empty (0 chars) via HTTP; retry with surf (sam-audio) 2026-07-05
+- https://aicodingweekly.datadriftpress.com/ — backfill thin/empty (267 chars) via HTTP; retry with surf (ai-coding-weekly) 2026-07-05
+- https://aistupidlevel.info/models/188 — backfill thin/empty (0 chars) via HTTP; retry with surf (stupidmeter) 2026-07-05
+- https://almartis.xyz/gpu-free-datacenter.html — backfill thin/empty (0 chars) via HTTP; retry with surf (almartis-gpu-free-datacenter) 2026-07-05
+- https://archive.is/kcBDf — backfill thin/empty (0 chars) via HTTP; retry with surf (david-brooks-ai-age-thrive) 2026-07-05
