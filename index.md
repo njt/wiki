@@ -126,6 +126,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Data Engineering for Large Models]] — Open-source textbook: complete LLM data pipeline, 28 chapters
 - [[Open Design]] — Local-first design workspace with 16-agent runtime abstraction, skill pipeline, and five-panelist critique jury that auto-converges on quality thresholds
 - [[OpenAI Structured Outputs]] — Guaranteed JSON schema adherence from the API: protocol-level constraint beats prompt-level pleading
+- [[Layer-First Pattern — Keep Data Out of the LLM Context]] — Keep data server-side, return lightweight acknowledgments to the LLM. The diagnostic: if data passes through the LLM without the LLM making a decision about it, the architecture is wrong
 - [[Tone LLM]] — The contract/adapter pattern in practice: LLM fills a small JSON schema, deterministic code translates to proprietary plugin config. Prompt-as-curriculum, four-layer output defense, and the case for single-call over agent loops when the task is form-filling
 - [[Moltbook]] — Simon Willison on the AI-only social network bootstrapped via OpenClaw skills: heartbeat-driven agents, the lethal trifecta in production, and whether we can build a safe version
 - [[Resident — ESP32 Lua Sandbox with Agent Skills]] — Sandboxed Lua runtime for ESP32 with hot-reload. AI agents write and push apps to physical devices via Claude Code plugin
