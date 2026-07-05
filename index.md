@@ -126,6 +126,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[DAB]] — Microsoft's Data API Builder: REST, GraphQL, and MCP over any database
 - [[Xano]] — No-code backend platform: AI-generated Postgres, APIs, auth, and logic with visual transparency as governance. Enterprise case studies at €22M/month scale
 - [[InsForge]] — Open-source BaaS for coding agents: Postgres+RLS, auth, S3 storage, Deno functions, Stripe, OpenRouter — all exposed as MCP tools. Supabase for agents
+- [[Nubase]] — Open-source AI-native backend and deploy platform: database-per-tenant isolation, Supabase-compatible auth + PostgREST, first-class Memory (Mem0-style fact extraction + hybrid vector/BM25/entity retrieval), Assets CDN, Edge Functions, Cron, and MCP bridge for Claude Code/Codex. Self-hosted single Docker image
 - [[Semantic Kernel]] — Microsoft's agent middleware SDK: function-calling plumbing for C#, Python, Java enterprise codebases
 - [[All Your Agents Are Going Async]] — HTTP is the wrong transport for agents that outlive connections; durable state is only half the problem
 - [[Data Engineering for Large Models]] — Open-source textbook: complete LLM data pipeline, 28 chapters
