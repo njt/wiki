@@ -25,6 +25,7 @@ Cross-cutting analysis that pulls threads across individual pages.
 Practices, workflows, and opinions about building software with AI coding agents. **Hub: [[Agent Coding Workflow]]**
 
 - [[The End of Code Review]] — Martin Monperrus argues coding agents have crossed the threshold where mandatory human code review is indefensible; the review bottleneck, rubber-stamp collapse, and agent-in-the-loop verification as resolution
+- [[Orchestrating AI Code Review at Scale]] — Cloudflare's production AI code review system: 7 specialized agents + coordinator judge, 131K reviews at $1.19 avg, tiered models, circuit breakers, and the most detailed public metrics on AI review at scale
 - [[Automating Myself Out of Development]] — Nune Isabekyan's phased journey from interactive Claude Code to cron-driven overnight daemon: GitHub issues as kanban, checkpoint-style async collaboration, and the bottleneck shift from "no time to code" to "no time to review"
 - [[Claude Code Mastery]] — Arpan Patel's dense field manual: CLAUDE.md as compounding infrastructure, skills as reusable expertise, subagents over kitchen-sink prompts, and the mental model flip from "I write code" to "I set Claude up to write code well"
 - [[Steering Claude Code]] — Anthropic's definitive taxonomy of seven instruction-delivery mechanisms (CLAUDE.md, rules, skills, subagents, hooks, output styles, system prompt): when each loads, how it survives compaction, context cost, and the decision framework for choosing the right one
