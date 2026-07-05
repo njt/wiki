@@ -209,6 +209,7 @@ Storage engines, query patterns, data quality, and vector/graph databases. **Hub
 - [[Artie]] — Managed CDC replication: sub-minute latency from Postgres/MySQL/MongoDB to Snowflake/Databricks/BigQuery. Zero data retention, no Kafka required. The "buy vs. build" alternative to self-managed Debezium pipelines
 - [[The Limits of Generalized Sync]] — Siidorow's master's thesis: the most rigorous empirical study of sync engines (Zero, ElectricSQL, PowerSync, Convex, etc.), classifying 14 engines into 4 architectural clusters. Central finding — read paths generalize, write paths resist: the online/offline boundary determines everything downstream. 7 trade-offs, 5 fundamental limits, production case study
 - [[DocumentDB]] — Microsoft's MongoDB-compatible document database on PostgreSQL: native BSON type, 10K-line aggregation pipeline compiler in C, Rust wire-protocol gateway with read-ahead pipelining
+- [[ARIES — Write-Ahead Logging Recovery]] — Mohan et al.'s 1992 paper that defined crash recovery for every major database: repeat-history paradigm, per-page LSNs, CLR chaining, three-pass restart. The architecture still running inside PostgreSQL, SQL Server, DB2, and InnoDB
 
 ## Developer Tools
 
