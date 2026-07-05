@@ -1,0 +1,155 @@
+---
+url: https://github.com/inanimate-tech/resident
+date_fetched: 2026-07-05
+backfilled: true
+---
+
+Sandbox with hardware IO and hot reload for ESP32 devices.
+
+Resident provides a sandboxed Lua runtime that can be loaded with new code over the network at any time. Hardware peripherals are exposed to Lua through a driver interface, so apps can draw to displays, read sensors, and control outputs without touching C++.
+
+- The Resident firmware library for a sandbox on ESP32 devices and custom hardware integration, with optional managed connectivity to load sandbox apps remotely.
+- A default websocket backend at `resident.inanimate.tech/devices/<deviceId>`to relay apps and events during development.
+- Agent skills to create, validate and push sandbox apps. Install the Resident skills plug-in.
+
+Point your agent at docs/start-building.md to add the Resident sandbox to your hardware.
+
+Working PlatformIO projects for specific boards live under examples/ — currently the M5StickC Plus2 and the Adafruit ESP32-S2 TFT Feather. Each is buildable as-is; use them as templates for bringing up your own hardware.
+
+`Resident::Sandbox` composes Courier for connectivity with the Lua runtime. It handles WiFi, WebSocket transport, and message routing automatically — populate `cfg.network` and the sandbox connects on `setup()`.
+
+```
+#include <Resident.h>
+#include "MyDisplayDriver.h"
+#include "MyButtonDriver.h"
+MyDisplayDriver display;
+MyButtonDriver button{...};   // however your driver takes config
+Resident::SandboxConfig makeConfig() {
+    Resident::SandboxConfig cfg;
+    cfg.deviceType    = "demo";
+    cfg.statusDisplay = &display;
+    cfg.extensions    = {&display, &button};
+    // Courier::Config has a constructor with default args, so designated
+    // initializers (`Courier::Config{ .host = ... }`) don't compile under
+    // strict ESP-IDF builds. Use direct field assignment.
+    Courier::Config courier;
+    courier.host = "resident.inanimate.tech";
+    cfg.network  = courier;
+    return cfg;
+}
+Resident::Sandbox sandbox{makeConfig()};
+void setup() {
+    // Optional: override the default WS path on the canonical relay.
+    sandbox.onTransportsWillConnect([]() {
+        String path = String("/devices/") + sandbox.getDeviceId();
+        sandbox.ws().setEndpoint("resident.inanimate.tech", 443, path.c_str());
+    });
+    sandbox.setup();
+}
+void loop() {
+    sandbox.loop();
+}
+```
+The device connects to WiFi (via a WiFiManager captive portal), opens a WebSocket to your server, and accepts Lua apps and shader expressions as JSON messages.
+
+Omit
+
+`cfg.network`and the sandbox runs standalone with no WiFi pulled in —`sandbox.loop()`ticks Lua at 10 FPS unconditionally, and`isConnected()`returns`false`.
+
+Register reactive callbacks before `setup()` to react to lifecycle events:
+
+```
+sandbox.onConnected([]() {
+    // load a bootstrap Lua app once the WS is up
+});
+sandbox.onMessage([](const char* transport, const char* type, JsonDocument& doc) {
+    // fires only for non-reserved types — Resident handles app/shader/app_event
+});
+```
+Drivers expose hardware to Lua via a builder API:
+
+```
+#include <ResidentDriver.h>
+#include <ResidentLuaModule.h>
+#include <M5Unified.h>
+extern "C" {
+  #include "lua/lua.h"
+  #include "lua/lauxlib.h"
+}
+class IMUDriver : public Resident::Driver {
+public:
+    const char* name() const override { return "imu"; }
+    void registerModule(Resident::LuaModule& m) override {
+        m.method<IMUDriver, &IMUDriver::accel>("accel");
+    }
+    int accel(lua_State* L) {
+        M5.Imu.update();
+        auto d = M5.Imu.getImuData();
+        lua_pushnumber(L, d.accel.x);
+        lua_pushnumber(L, d.accel.y);
+        lua_pushnumber(L, d.accel.z);
+        return 3;
+    }
+};
+```
+Then in Lua:
+
+```
+function on_tick(ctx, dt_ms)
+    local ax, ay, az = imu.accel()
+    -- use acceleration data
+end
+```
+For Lua-only extensions that don't expose hardware or emit events, extend `Resident::Extension` directly instead of `Resident::Driver` — the same `registerModule(LuaModule&)` and lifecycle hooks apply.
+
+- `begin()`— called once by- `Sandbox::setup()`in registration order. Hardware init goes here. Idempotent: a manual early call is safe (the Sandbox's call becomes a no-op).
+- `update()`— called every iteration of- `Sandbox::loop()`. Use for per-tick driver work like polling and debouncing. Runs at full main-loop rate, distinct from Lua's 10 FPS- `on_tick`.
+- `registerModule(LuaModule& m)`— called once by- `Sandbox::setup()`to register the driver's Lua-visible global. Use the builder's- `method<>`,- `staticMethod`, and- `constant`overloads.
+- `onAppReset()`— called when a new app is loaded (before compilation).
+- `onAppRunning(bool)`— called when an app starts or stops running.
+
+Resident routes three JSON message types internally — your `sandbox.onMessage(cb)` callback only fires for *other* types:
+
+```
+{ "type": "app", "code": "function on_tick(ctx, dt_ms) ... end" }
+{ "type": "shader", "expr": "rgb(sin(time_ms/1000)*0.5+0.5, 0, 0)" }
+{ "type": "app_event", "name": "button_press", "data": { "id": 1 } }
+```
+Register `sandbox.onMessage(cb)` to handle custom types. No super-call is needed — the reserved types never reach your callback.
+
+- `init(ctx)`— called once after compilation
+- `on_tick(ctx, dt_ms)`— called at 10 FPS with elapsed time
+- `on_event(ctx, event)`— called for app_event messages and driver events
+
+The `ctx` table contains: `time_ms`, `trigger_count`, `utc_h`, `utc_m`, `localtime_h`, `localtime_m`.
+
+`localtime_h` / `localtime_m` return local time when a timezone has been set on the sandbox via `Sandbox::setTimezone(ianaZone)` and ezTime recognised the zone; otherwise they equal `utc_h` / `utc_m`.
+
+Shader messages are converted to Lua via a template function you provide. The expression has access to `time_ms`, `trigger_count`, and time variables. Built-in helpers: `rgb(r,g,b)`, `fract(x)`, `beat(bpm)`, `noise2d(x,y)`.
+
+`Sandbox::setTimezone(const char* ianaZone)` — set the sandbox's local timezone for `ctx.localtime_h/m` and the `time.*` Lua bindings. Pass an IANA zone string (e.g. `"Europe/London"`). ezTime performs a UDP lookup to `timezoned.rop.nl` on first sight of a zone and caches the POSIX string in EEPROM. On failure (null / empty / unrecognised zone), the sandbox falls back to UTC.
+
+`Sandbox::hasTimezone() const` — returns `true` after a successful `setTimezone`. Exposed to Lua as `time.has_timezone()`. When false, `time.hour()` / `time.minute()` / `time.second()` return UTC.
+
+```
+[env:dev]
+platform = espressif32@6.12.0
+board = esp32-s3-devkitc-1
+framework = arduino
+lib_deps =
+    https://github.com/inanimate-tech/resident.git
+    https://github.com/inanimate-tech/courier.git
+    tzapu/WiFiManager@^2.0.17
+    bblanchon/ArduinoJson@^7.4.2
+    ropg/ezTime@^0.8.3
+    fischer-simon/Esp32Lua@^5.4.7
+```
+Add to your `CMakeLists.txt`:
+
+`set(EXTRA_COMPONENT_DIRS ../vendor)`And in `idf_component.yml`:
+
+```
+dependencies:
+  inanimate/resident:
+    version: "^0.1.0"
+```

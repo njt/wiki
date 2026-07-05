@@ -1,0 +1,457 @@
+---
+url: https://github.com/lhl/realitycheck
+date_fetched: 2026-07-05
+backfilled: true
+---
+
+A framework for rigorous, systematic analysis of claims, sources, predictions, and argument chains.
+
+With so many hot takes, plausible theories, misinformation, and AI-generated content, sometimes, you need a
+
+`realitycheck`.
+
+Reality Check helps you build and maintain a **unified knowledge base** with:
+
+- **Claim Registry**: Track claims with evidence levels, credence scores, and relationships
+- **Source Analysis**: Structured 3-stage methodology (descriptive → evaluative → dialectical)
+- **Evidence Links**: Connect claims to sources with location, quotes, and strength ratings
+- **Reasoning Trails**: Document credence assignments with full epistemic provenance
+- **Prediction Tracking**: Monitor forecasts with falsification criteria and status updates
+- **Argument Chains**: Map logical dependencies and identify weak links
+- **Semantic Search**: Find related claims across your entire knowledge base
+
+See realitycheck-data for a public example knowledge base built with Reality Check.
+
+**v0.3.5** - Neutral analyst prose pass and Pi sync hardening; 460 tests.
+
+- **Python 3.11+**
+- **Claude Code**(optional) - For plugin integration
+- **OpenAI Codex**(optional) - For skills integration
+- **Amp**(optional) - For skills integration
+- **OpenCode**(optional) - For skills integration
+- **Pi**(optional) - For skills integration
+
+```
+# Install with pip
+pip install realitycheck
+# Or with uv (faster)
+uv pip install realitycheck  # installs to active venv or system Python
+# Verify installation
+rc-db --help
+```
+```
+# Clone the framework
+git clone https://github.com/lhl/realitycheck.git
+cd realitycheck
+# Install dependencies with uv
+uv sync
+# Verify installation
+REALITYCHECK_EMBED_SKIP=1 uv run pytest -v
+```
+The default install uses CPU-only PyTorch. For GPU-accelerated embeddings:
+
+```
+# NVIDIA CUDA 12.8
+uv sync --extra-index-url https://download.pytorch.org/whl/cu128
+# AMD ROCm 6.4
+uv sync --extra-index-url https://download.pytorch.org/whl/rocm6.4
+```
+**AMD TheRock nightly (e.g., gfx1151 / Strix Halo):**
+
+TheRock nightlies provide support for newer AMD GPUs not yet in stable ROCm. Replace `gfx1151` with your GPU arch.
+
+
+Note:TheRock support is experimental. Newer architectures (gfx1151/RDNA 3.5, gfx1200/RDNA 4) may require matching system ROCm kernel drivers. Memory allocation may work but kernel execution can fail if there's a version mismatch between pip ROCm userspace and system kernel module.
+
+```
+# 1. Install matching ROCm SDK (system-wide)
+pip install --index-url https://rocm.nightlies.amd.com/v2/gfx1151/ "rocm[libraries]" -U
+# 2. Create fresh venv with ROCm torch
+rm -rf .venv && uv venv --python 3.12
+VIRTUAL_ENV=$(pwd)/.venv uv pip install --index-url https://rocm.nightlies.amd.com/v2/gfx1151/ torch
+VIRTUAL_ENV=$(pwd)/.venv uv pip install sentence-transformers lancedb pyarrow pyyaml tabulate
+# 3. Set library path and verify
+export LD_LIBRARY_PATH="$(pip show rocm-sdk-core | grep Location | cut -d' ' -f2)/_rocm_sdk_devel/lib:$LD_LIBRARY_PATH"
+.venv/bin/python -c "import torch; print(torch.version.hip); print(torch.cuda.is_available())"
+```
+Or set `UV_EXTRA_INDEX_URL` in your shell profile for persistent configuration.
+
+**Note:** If switching GPU backends, force reinstall torch:
+
+`rm -rf .venv && uv sync --extra-index-url <your-index-url>````
+# Create a new directory for your data
+mkdir my-research && cd my-research
+# Initialize a Reality Check project (creates structure + database)
+rc-db init-project
+# This creates:
+#   .realitycheck.yaml    - Project config
+#   data/realitycheck.lance/  - Database
+#   analysis/sources/     - For analysis documents
+#   tracking/             - For prediction tracking
+#   inbox/                - For sources to process (staging)
+#   reference/primary/    - Filed primary documents
+#   reference/captured/   - Supporting materials
+```
+```
+# Tell Reality Check where your database is
+export REALITYCHECK_DATA="data/realitycheck.lance"
+# Add to your shell profile for persistence:
+echo 'export REALITYCHECK_DATA="data/realitycheck.lance"' >> ~/.bashrc
+```
+```
+rc-db claim add \
+  --text "AI training costs double annually" \
+  --type "[F]" \
+  --domain "TECH" \
+  --evidence-level "E2" \
+  --credence 0.8
+# Output: Created claim: TECH-2026-001
+```
+```
+rc-db source add \
+  --id "epoch-2024-training" \
+  --title "Training Compute Trends" \
+  --type "REPORT" \
+  --author "Epoch AI" \
+  --year 2024 \
+  --url "https://epochai.org/blog/training-compute-trends"
+```
+```
+# Semantic search
+rc-db search "AI costs"
+# List all claims
+rc-db claim list --format text
+# Check database stats
+rc-db stats
+```
+For easier access to scripts, add the framework as a git submodule:
+
+```
+cd my-research
+git submodule add https://github.com/lhl/realitycheck.git .framework
+# Now use shorter paths:
+.framework/scripts/db.py claim list --format text
+.framework/scripts/db.py search "AI"
+```
+All commands should be run with `REALITYCHECK_DATA` set.
+
+If `REALITYCHECK_DATA` is not set, commands will only run when a default database exists at `./data/realitycheck.lance/` (and will otherwise exit with a helpful error suggesting how to set `REALITYCHECK_DATA` or create a project via `rc-db init-project`). The Claude Code plugin can also auto-resolve project config via `.realitycheck.yaml`.
+
+```
+# Database management
+rc-db init                              # Initialize database tables
+rc-db init-project [--path DIR]         # Create new project structure
+rc-db stats                             # Show statistics
+rc-db backup [--output-dir DIR] [--prefix NAME] [--dry-run]  # Create timestamped .tar.gz backup
+rc-db reset                             # Reset database (destructive!)
+# Claim operations
+rc-db claim add --text "..." --type "[F]" --domain "TECH" --evidence-level "E3"
+rc-db claim ticket --domain "TECH" [--count N]  # Reserve monotonic IDs for drafting/import
+rc-db claim ticket release --abandoned --older-than-days 7  # Clean abandoned reservations
+rc-db claim add --id "TECH-2026-001" --text "..." ...  # With explicit ID
+rc-db claim get <id>                    # Get single claim (JSON)
+rc-db claim list [--domain D] [--type T] [--format json|text]
+rc-db claim update <id> --credence 0.9 [--notes "..."]
+rc-db claim delete <id>                 # Delete a claim
+# Source operations
+rc-db source add --id "..." --title "..." --type "PAPER" --author "..." --year 2024
+rc-db source get <id>
+rc-db source list [--type T] [--status S]
+# Chain operations (argument chains)
+rc-db chain add --id "..." --name "..." --thesis "..." --claims "ID1,ID2,ID3"
+rc-db chain get <id>
+rc-db chain list
+# Prediction operations
+rc-db prediction add --claim-id "..." --source-id "..." --status "[P→]"
+rc-db prediction list [--status S]
+# Search and relationships
+rc-db search "query" [--domain D] [--limit N]
+rc-db related <claim-id>                # Find related claims
+# Evidence links (epistemic provenance)
+rc-db evidence add --claim-id "..." --source-id "..." --direction supporting --strength strong
+rc-db evidence get <id>
+rc-db evidence list [--claim-id C] [--source-id S]
+rc-db evidence supersede <id> --reason "..." [--new-location "..."]
+# Reasoning trails (credence audit)
+rc-db reasoning add --claim-id "..." --credence 0.8 --evidence-level E2 --reasoning-text "..."
+rc-db reasoning get <id>
+rc-db reasoning list [--claim-id C]
+rc-db reasoning history <claim-id>      # Full credence history
+# Analysis audit logs
+rc-db analysis start --source-id "..."  # Begin tracking
+rc-db analysis mark <stage>             # Mark stage completion
+rc-db analysis complete                 # Finalize log
+rc-db analysis list                     # List audit logs
+# Import/Export
+rc-db import <file.yaml> --type claims|sources|all
+rc-validate                             # Check database integrity
+rc-export yaml claims -o claims.yaml    # Export to YAML
+```
+Claude Code is Anthropic's AI coding assistant. Reality Check includes a plugin that adds slash commands for analysis workflows.
+
+```
+# From the realitycheck repo directory:
+make install-plugin-claude
+```
+**Note:** Local plugin discovery from `~/.claude/plugins/local/` is currently broken. Use the `--plugin-dir` flag:
+
+```
+# Start Claude Code with the plugin loaded:
+claude --plugin-dir /path/to/realitycheck/integrations/claude/plugin
+# Or create a shell alias:
+alias claude-rc='claude --plugin-dir /path/to/realitycheck/integrations/claude/plugin'
+```
+Commands are prefixed with `/reality:`:
+
+| Command | Description | 
+|---|---|
+| `/reality:check <url>` | Flagship- Full analysis workflow (fetch → analyze → register → validate) | 
+| `/reality:synthesize <topic>` | Cross-source synthesis across multiple analyses | 
+| `/reality:analyze <source>` | Manual 3-stage analysis without auto-registration | 
+| `/reality:extract <source>` | Quick claim extraction | 
+| `/reality:search <query>` | Semantic search across claims | 
+| `/reality:validate` | Check database integrity | 
+| `/reality:export <format> <type>` | Export to YAML/Markdown | 
+| `/reality:stats` | Show database statistics | 
+
+If you prefer skills over plugins:
+
+`make install-skills-claude`This installs skills to `~/.claude/skills/` which are auto-activated based on context.
+
+```
+> /reality:check https://arxiv.org/abs/2401.00001
+Claude will:
+1. Fetch the paper content
+2. Run 3-stage analysis (descriptive → evaluative → dialectical)
+3. Extract and classify claims
+4. Register source and claims in your database
+5. Validate data integrity
+6. Report summary with claim IDs
+```
+See `docs/PLUGIN.md` for full documentation.
+
+Codex doesn’t support Claude-style plugins, but it does support “skills”.
+
+Codex CLI reserves `/...` for built-in commands, so custom slash commands are not supported. Reality Check ships Codex skills you can invoke with `$...`:
+
+- `$check ...`
+- `$realitycheck ...`(including- `$realitycheck data <path>`to target a DB for the current Codex session)
+
+Embeddings are generated by default when registering sources/claims. Only set `REALITYCHECK_EMBED_SKIP=1` (or use `--no-embedding`) when you explicitly want to defer embeddings.
+
+Install:
+
+`make install-skills-codex`See `integrations/codex/README.md` for usage and examples.
+
+Amp is Sourcegraph's AI coding assistant. Reality Check includes skills that activate on natural language triggers.
+
+`make install-skills-amp`Skills activate automatically based on natural language:
+
+```
+"Analyze this article for claims: https://example.com/article"
+"Search for claims about AI automation"
+"Validate the database"
+"Show database stats"
+```
+See `integrations/amp/README.md` for full documentation.
+
+OpenCode is an open-source AI coding agent with 80K+ GitHub stars. Reality Check includes skills that integrate with OpenCode's skill system.
+
+`make install-skills-opencode`Skills are loaded on-demand via OpenCode's `skill` tool:
+
+```
+Load the realitycheck skill
+```
+Or reference skills in prompts:
+
+```
+Using the check skill, analyze https://example.com/article
+```
+| Skill | Description | 
+|---|---|
+| `realitycheck` | Main entry point | 
+| `check` | Full analysis workflow | 
+| `rc-search` | Semantic search | 
+| `rc-validate` | Data validation | 
+| `rc-stats` | Database statistics | 
+
+See `integrations/opencode/README.md` for full documentation.
+
+Pi (pi-agent) is a terminal-native AI coding agent. Reality Check includes skills that integrate with Pi's skill system.
+
+`make install-skills-pi`Invoke skills with `/skill:`:
+
+```
+/skill:check https://example.com/article
+/skill:rc-search "AI claims"
+/skill:rc-stats
+```
+| Skill | Description | 
+|---|---|
+| `realitycheck` | Main entry point | 
+| `check` | Full analysis workflow | 
+| `rc-search` | Semantic search | 
+| `rc-validate` | Data validation | 
+| `rc-stats` | Database statistics | 
+
+When you upgrade Reality Check, CLI/package code updates immediately, but integrations (skills/plugin symlinks) may still point at older locations.
+
+Reality Check now performs a best-effort auto-sync on first `rc-*` command run after a version change. It updates existing Reality Check-managed installs without overwriting unrelated user files.
+
+Manual sync command:
+
+```
+# Update integrations that already have at least one Reality Check install
+rc-db integrations sync --install-missing
+# Install/update all supported integrations (skills + Claude plugin)
+rc-db integrations sync --all
+```
+Disable auto-sync:
+
+`export REALITYCHECK_AUTO_SYNC=0`| Type | Symbol | Definition | 
+|---|---|---|
+| Fact | `[F]` | Empirically verified, consensus reality | 
+| Theory | `[T]` | Coherent framework with empirical support | 
+| Hypothesis | `[H]` | Testable proposition, awaiting evidence | 
+| Prediction | `[P]` | Future-oriented with specified conditions | 
+| Assumption | `[A]` | Underlying premise (stated or unstated) | 
+| Counterfactual | `[C]` | Alternative scenario for comparison | 
+| Speculation | `[S]` | Unfalsifiable or untestable claim | 
+| Contradiction | `[X]` | Identified logical inconsistency | 
+
+| Level | Strength | Description | 
+|---|---|---|
+| E1 | Strong Empirical | Replicated studies, systematic reviews, meta-analyses | 
+| E2 | Moderate Empirical | Single peer-reviewed study, official statistics | 
+| E3 | Strong Theoretical | Expert consensus, working papers, preprints | 
+| E4 | Weak Theoretical | Industry reports, credible journalism | 
+| E5 | Opinion/Forecast | Personal observation, anecdote, expert opinion | 
+| E6 | Unsupported | Pure speculation, unfalsifiable claims | 
+
+| Domain | Code | Description | 
+|---|---|---|
+| Technology | `TECH` | AI capabilities, tech trajectories | 
+| Labor | `LABOR` | Employment, automation, work | 
+| Economics | `ECON` | Value, pricing, distribution | 
+| Governance | `GOV` | Policy, regulation, institutions | 
+| Social | `SOC` | Social structures, culture, behavior | 
+| Resource | `RESOURCE` | Scarcity, abundance, allocation | 
+| Transition | `TRANS` | Transition dynamics, pathways | 
+| Geopolitics | `GEO` | International relations, competition | 
+| Institutional | `INST` | Organizations, coordination | 
+| Risk | `RISK` | Risk assessment, failure modes | 
+| Meta | `META` | Claims about the framework itself | 
+
+```
+realitycheck/                 # Framework repo (this)
+├── scripts/                  # Python CLI tools
+│   ├── db.py                 # Database operations + CLI
+│   ├── validate.py           # Data integrity checks
+│   ├── export.py             # YAML/Markdown export
+│   ├── migrate.py            # Legacy YAML migration
+│   ├── embed.py              # Embedding utilities (re-generate, status)
+│   └── html_extract.py       # HTML → {title, published, text} extraction
+├── integrations/             # Tool integrations
+│   ├── claude/               # Claude Code plugin + skills
+│   ├── codex/                # OpenAI Codex skills
+│   ├── amp/                  # Amp skills
+│   ├── opencode/             # OpenCode skills
+│   └── pi/                   # Pi (pi-agent) skills
+├── methodology/              # Analysis templates
+│   ├── evidence-hierarchy.md
+│   ├── claim-taxonomy.md
+│   └── templates/
+├── tests/                    # pytest suite (460 tests)
+└── docs/                     # Documentation
+my-research/                  # Your data repo (separate)
+├── .realitycheck.yaml        # Project config
+├── data/realitycheck.lance/  # LanceDB database
+├── analysis/sources/         # Analysis documents
+├── tracking/                 # Prediction tracking
+├── inbox/                    # Sources to process (staging)
+├── reference/primary/        # Filed primary documents
+└── reference/captured/       # Supporting materials
+```
+Reality Check recommends **one knowledge base per user**, not per topic:
+
+- Claims build on each other across domains (AI claims inform economics claims)
+- Shared evidence hierarchy enables consistent evaluation
+- Cross-domain synthesis becomes possible
+- Semantic search works across your entire knowledge base
+
+Create separate databases only for: organizational boundaries, privacy requirements, or team collaboration.
+
+See realitycheck-data for a public example knowledge base built with Reality Check, tracking claims across technology, economics, labor, and governance domains.
+
+Reality Check uses `all-MiniLM-L6-v2` for semantic search embeddings. This model provides the best balance of performance and quality for CPU inference:
+
+| Model | Dim | Load Time | Throughput | Memory | 
+|---|---|---|---|---|
+| all-MiniLM-L6-v2 | 384 | 2.9s | 7.8 q/s | 1.2 GB | 
+| all-mpnet-base-v2 | 768 | 3.0s | 3.3 q/s | 1.4 GB | 
+| granite-embedding-278m | 768 | 6.0s | 3.4 q/s | 2.5 GB | 
+| stella_en_400M_v5 | 1024 | 4.4s | 1.7 q/s | 2.7 GB | 
+
+The 384-dimension vectors are stored in LanceDB and used for similarity search across claims.
+
+**Note:** Embeddings default to CPU to avoid GPU driver crashes. To use GPU:
+
+`export REALITYCHECK_EMBED_DEVICE="cuda"  # or "mps" for Apple Silicon````
+# Run tests (skip slow embedding tests)
+REALITYCHECK_EMBED_SKIP=1 uv run pytest -v
+# Run all tests including embeddings
+uv run pytest -v
+# Run with coverage
+uv run pytest --cov=scripts --cov-report=term-missing
+```
+Generate `docs/STATUS-dev-stats.md` (per-tag development statistics) with:
+
+```
+python scripts/release_stats_rollup.py \
+  --repo-root . \
+  --with-scc \
+  --with-test-composition \
+  --output-json /tmp/realitycheck-release-stats.json \
+  --output-markdown docs/STATUS-dev-stats.md
+```
+This report includes:
+
+- Release snapshot deltas vs prior release
+- Velocity/cadence tables
+- Cache-aware token and cost estimates for Codex + Claude
+- Test composition and documentation churn
+
+You can override pricing assumptions (including cached-token rates) with:
+
+- `--price-gpt5-input-per-1m`
+- `--price-gpt5-cached-input-per-1m`
+- `--price-gpt5-output-per-1m`
+- `--price-opus4-input-per-1m`
+- `--price-opus4-cache-write-per-1m`
+- `--price-opus4-cache-read-per-1m`
+- `--price-opus4-output-per-1m`
+
+See CLAUDE.md for development workflow and contribution guidelines.
+
+- docs/PLUGIN.md - Claude Code plugin guide
+- docs/SCHEMA.md - Database schema reference
+- docs/WORKFLOWS.md - Common usage workflows
+- docs/CHANGELOG.md - Release history and notes
+- methodology/ - Analysis methodology and templates
+
+Apache 2.0
+
+If you use Reality Check in academic work, please cite:
+
+Also see `CITATION.cff` for machine-readable citation metadata.
+
+```
+@misc{lin2026realitycheck,
+  author  = {Lin, Leonard},
+  title   = {Reality Check},
+  year    = {2026},
+  version = {0.3.5},
+  url     = {https://github.com/lhl/realitycheck},
+  note    = {Accessed: 2026-07-04}
+}
+```

@@ -1,0 +1,274 @@
+---
+url: https://github.com/prime-radiant-inc/serf
+date_fetched: 2026-07-05
+backfilled: true
+---
+
+A non-interactive coding agent. Give it a prompt, it does the work.
+
+Serf uses the LLM's native tool-calling to read files, write files, run commands, and search code in a loop until the work is complete. It supports OpenAI, Anthropic, and Google models.
+
+For how the code is organized — modules, layout, and the build workspace — see docs/architecture.md. For the runtime contracts subagents, plugins, hooks, and helpers operate under (capability policy, lifecycle hooks, helper isolation, lineage), see docs/subagent-runtime-contracts.md; for background jobs and the job-control tools, see docs/job-control.md.
+
+`make build`Build the standalone one-shot client (no agent loop):
+
+`make build-llmcall`Build the multi-session web orchestrator:
+
+`make build-hub`Install the latest release on Linux x64 or macOS Apple silicon:
+
+`curl -fsSL https://raw.githubusercontent.com/prime-radiant-inc/serf/main/install.sh | sh`The release installer downloads the matching GitHub release archive, installs
+`serf`, `serf-hub`, `serf-tui`, and `serf-doctor` under
+`~/.local/share/serf/bin`, and symlinks them into `~/.local/bin`.
+
+Install a specific tagged release:
+
+`curl -fsSL https://raw.githubusercontent.com/prime-radiant-inc/serf/main/install.sh | env SERF_INSTALL_VERSION=v1.2.3 sh`Install the latest successful build from `main`:
+
+`curl -fsSL https://raw.githubusercontent.com/prime-radiant-inc/serf/main/install.sh | env SERF_INSTALL_VERSION=snapshot sh`Override the install prefix, using `sudo` for system-owned paths:
+
+`curl -fsSL https://raw.githubusercontent.com/prime-radiant-inc/serf/main/install.sh | sudo env PREFIX=/usr/local sh`From a source checkout:
+
+`make install`This builds `serf`, `serf-hub`, `serf-tui`, and `serf-doctor`, installs the
+binaries under `~/.local/share/serf/bin`, and symlinks them into
+`~/.local/bin`. `make install-home` is an alias for the same layout.
+
+System-style install:
+
+`sudo make install-system`This uses the same layout under `/usr/local` by default. Override `PREFIX` to
+stage elsewhere.
+
+The installer only installs binaries and symlinks. Runtime/config directories are created by Serf when the relevant binary runs.
+
+Verify the installed commands with:
+
+```
+serf --version
+serf-tui --help
+serf-doctor --help
+```
+Upgrade installed binaries manually:
+
+`serf upgrade``serf upgrade` follows the binary's install channel: release builds upgrade to
+the latest release, and snapshot builds upgrade to the latest successful
+`main` build. You can override the target with `serf upgrade release`,
+`serf upgrade snapshot`, or a tagged version such as `serf upgrade v1.2.3`.
+The TUI and web UI also expose a manual `/upgrade` command that calls through
+the hub and uses the same channel tracking.
+
+On first use, Serf creates:
+
+- `~/.serf/run`for live daemon rendezvous files.
+- `~/.serf/auth-token`for the local Hub/TUI bearer token.
+- `${XDG_STATE_HOME:-~/.local/state}/serf/projects/*`for saved per-project session state.
+- `${XDG_CONFIG_HOME:-~/.config}/serf/skills`for standalone user skills.
+- `${XDG_CONFIG_HOME:-~/.config}/serf/plugins`for user plugins.
+
+The user skill and plugin directories are extension roots; installing Serf
+does not automatically enable their contents. Add standalone skill paths to
+`skills_dirs` and plugin paths to `plugin_dirs` in `~/.serf/launch.toml`, or
+pass them with the corresponding CLI flags for a single run. Plugin-contained
+skills live under that plugin and become available through the plugin path.
+
+Provider credentials are not created by install. Configure them through the Hub
+or TUI credentials UI, `~/.serf/credentials.toml`, provider environment
+variables such as `OPENAI_API_KEY`, or OpenAI OAuth. See
+docs/environment.md for the complete environment variable
+reference.
+
+```
+serf --model <provider/model> [flags] <prompt>
+```
+The prompt can be passed as arguments or piped via stdin:
+
+```
+# Prompt as arguments
+serf --model openai/gpt-5.2 "add input validation to the signup handler"
+# Prompt piped via stdin
+echo "refactor auth to use JWT" | serf --model anthropic/claude-opus-4-6
+```
+This repo also includes `llmcall`, a minimal CLI wrapper around the unified `llm` library for single “throwaway” calls.
+
+Properties:
+
+- Exactly one LLM call (no agent loop).
+- Tool calls are forbidden (`tool_choice=none`). If the model returns tool calls,`llmcall`fails.
+- No system prompt by default. You can optionally provide one, or force-disable with `--no-system`.
+
+Build:
+
+`make build-llmcall`Examples:
+
+```
+./llmcall --provider openai --model gpt-5-mini-2025-08-07 "Write a haiku about build pipelines."
+# JSON mode: parses and re-prints as JSON (fails if output isn't valid JSON)
+echo 'Return JSON: {"ok": true}' | ./llmcall --provider openai --model gpt-5-mini-2025-08-07 --format json
+# JSON Schema mode: enforces + validates structured output
+./llmcall --provider openai --model gpt-5-mini-2025-08-07 --schema /path/to/schema.json "Return an object matching the schema."
+```
+`llmcall` resolves provider/model from env if omitted:
+
+- `LLM_PROVIDER`or- `SERF_PROVIDER`
+- `LLM_MODEL`or- `SERF_MODEL`
+
+Serf takes a provider-qualified model in one value: `--model <provider/model>`. Providers: `openai`, `anthropic`, `google`, `minimax`, `openrouter`, `openrouter-anthropic`, `kimi`, `glm`, `ollama`.
+
+Use `--model` or set `SERF_MODEL` to the same `provider/model` format.
+
+For local models via Ollama, see docs/ollama.md.
+
+See docs/environment.md for the complete list. Common variables:
+
+| Variable | Description | 
+|---|---|
+| `SERF_MODEL` | Default model as `provider/model`(used when`--model`is omitted) | 
+| `SERF_REASONING_EFFORT` | Default reasoning effort | 
+| `SERF_PROVIDERS_CONFIG` | Path to `providers.toml` | 
+| `OPENAI_API_KEY` | OpenAI API key | 
+| `ANTHROPIC_API_KEY` | Anthropic API key | 
+| `GEMINI_API_KEY` | Google Gemini API key | 
+| `OPENROUTER_API_KEY` | OpenRouter API key | 
+| `OLLAMA_BASE_URL` | Ollama base URL (default `http://localhost:11434/v1`) | 
+| `OLLAMA_HOST` | Ollama host (Ollama's canonical env var; used if `OLLAMA_BASE_URL`is unset) | 
+| `OLLAMA_API_KEY` | Optional API key for authenticated Ollama proxies / Ollama Cloud | 
+
+| Flag | Description | 
+|---|---|
+| `--model <provider/model>` | LLM model identifier (required unless resuming an existing session) | 
+| `--dir <path>` | Working directory (default: current directory) | 
+| `--output-schema <json>` | Inline JSON Schema replacing the default `communicate.output`schema | 
+| `--verbose` | Emit NDJSON events to stderr (replaces human-readable output) | 
+| `--resume <id>` | Resume a previous session by ID | 
+| `--resume-with <id>` | Start a new prompt using a previous session's context | 
+| `--resume-last` | Resume the most recent session | 
+| `--list-sessions` | List saved sessions and exit | 
+
+Pass `--output-schema <json>` to replace the `communicate` tool's `output` field schema with your own. The flag takes an inline JSON string (file paths are not supported).
+
+```
+serf --model openai/gpt-5.2 \
+  --output-schema '{"type":"object","properties":{"plan":{"type":"string"}},"required":["plan"],"additionalProperties":false}' \
+  "Draft a one-paragraph plan for fixing the flaky test."
+```
+The supplied schema replaces `output` wholesale — the default `message`/`data`/`artifacts` shape is removed. Provider-specific caveats:
+
+- **OpenAI**rewrites- `additionalProperties: true`to- `false`and expands- `required`to cover every property in the schema (strict mode).
+- **Anthropic**strips- `anyOf`/- `oneOf`/- `allOf`at the top level of the output schema.
+- **Gemini**drops- `additionalProperties`during sanitization.
+
+**stdout** always receives only the final result text.
+
+**stderr** shows progress in one of two modes:
+
+**Default (human-readable):**
+
+```
+[model] gpt-5.2 (openai)
+[tool] write_file {"file_path":"/tmp/test.txt","content":"he...
+[tool] write_file: done
+[assistant] I've created the file for you.
+[thinking] (247 chars)
+[usage] in=1234 out=567 total=1801
+```
+** --verbose (NDJSON):** Each event is a JSON object on one line, suitable for piping to 
+
+`jq` or log aggregation:`serf --model openai/gpt-5.2 --verbose "fix the bug" 2>events.ndjson`NDJSON events include: `SESSION_START`, `ASSISTANT_TEXT_END` (with usage, reasoning, finish_reason), `TOOL_CALL_START` (with arguments), `TOOL_CALL_END`, `WARNING`, `ERROR`, and others.
+
+Serf auto-saves session state under
+`${XDG_STATE_HOME:-~/.local/state}/serf/projects/<project-hash>/sessions/`
+after each assistant turn. This enables resuming interrupted work.
+
+```
+# List saved sessions
+serf --list-sessions
+# Resume the most recent session (provider and model from the original session are used)
+serf --resume-last
+# Resume a specific session
+serf --resume 01JTEST000000000000000001
+# New prompt, but carry forward a previous session's conversation context
+serf --model openai/gpt-5.2 --resume-with 01JTEST000000000000000001 "now add tests"
+```
+When resuming, the provider and model from the original session are used by default. You can override them with `--model <provider/model>`.
+
+`serf-tui` is a hub-backed terminal dashboard for Serf sessions. It connects to `serf-hub`, lists live and saved sessions, lets you drill into a transcript, and sends session actions through the hub API.
+
+`make build-tui`Start the dashboard:
+
+`serf-tui`By default `serf-tui` connects to `http://127.0.0.1:9180`. If no local hub is running, it starts `serf-hub` automatically and waits for `/api/health`.
+
+Connect to a specific hub:
+
+`serf-tui --hub-addr http://127.0.0.1:9180`Use a specific hub binary or disable auto-start:
+
+```
+serf-tui --hub-bin /path/to/serf-hub
+serf-tui --no-auto-start-hub
+```
+| Flag | Description | 
+|---|---|
+| `--hub-addr <url>` | Hub URL or host:port (default: `127.0.0.1:9180`) | 
+| `--hub-bin <path>` | Hub binary to auto-start when the local hub is down | 
+| `--no-auto-start-hub` | Fail instead of starting a missing local hub | 
+| `--log-file <path>` | Write auto-started hub logs to this file | 
+| `--debug` | Disable the alternate screen | 
+
+- **Dashboard**: Browse live and saved sessions from the hub roster and past-session index
+- **Session drill-in**: Open a session transcript from the dashboard
+- **Hub actions**: Send input, view tasks/details, interrupt, compact, clear, and switch models through hub endpoints
+- **Streaming**: Follow session AppWire streams through the hub
+- **Markdown rendering**: Format-aware display of assistant messages
+- **Tool inspection**: Collapse/expand tool calls and view arguments
+
+`serf-hub` is a sibling binary that runs alongside `serf serve` daemons and gives you a single browser-based interface for many concurrent sessions.
+
+```
+make build-hub
+serf-hub  # default 127.0.0.1:9180
+```
+Open `http://127.0.0.1:9180` in your browser.
+For production-style setup, credentials, Codex app-server sources, and smoke
+checks, see `cmd/serf-hub/README.md`.
+
+- **Sidebar**with a Live section (every running session sorted by who needs you) and a Projects section (sessions grouped by working directory; subagents indented under origin; forks immediately following with the- `⎇`glyph).
+- **Workspace pane**with a two-tier conversation: messages (user pills + assistant body) at the primary reading tier, tool calls and diffs as muted margin annotations.
+- **New session**at- `/new`— prompt-first, pick model and working dir, click spawn.
+- **Edit-to-fork**: hover any prior user message, click- `✎ edit`, hit ⌘↵, label the original branch, confirm. The new branch becomes active; the original is preserved as a sibling fork.
+- **Transparent resume**: click any closed session, type, send. The daemon spawns from where it left off — same identity throughout.
+- **⌘K search**across live + past sessions.
+- **Settings**for theme (light/dark/system), notification preferences (all opt-in), and read-only inspection of providers and MCP setup.
+
+`~/.serf/hub.toml` (optional):
+
+```
+addr = "127.0.0.1:9180"
+spawn_timeout = "30s"
+past_results_per_page = 50
+# Optional; default is ~/.serf/index.db.
+past_index_db = "/Users/you/.serf/index.db"
+```
+Hub launch model choices come from the Serf launch harness contract
+(`serf launch-check --models`), not from a static model roster in `hub.toml`.
+Launch defaults live in layered launch config files. For user-wide defaults,
+create `~/.serf/launch.toml`:
+
+```
+app_replay_size = 4096
+[env]
+OPENAI_API_KEY = "..."
+```
+Daemons are loopback-only. Each writes a private rendezvous file to `~/.serf/run/<pid>.json`; the hub watches the directory, probes daemons for state, and proxies AppWire/REST so the browser only ever talks to the hub origin. Hub-spawned daemons require the per-hub bearer token recorded in their rendezvous file. Daemon and Hub same-origin guards plus strict Hub CSP defend against DNS-rebinding and cross-origin attacks.
+
+- **Daemons keep the binary they were spawned from.**Rebuilding- `serf`does not update already-running daemons; live sessions continue to run the old code until they shut down. To pick up changes mid-session, end the session (which terminates its daemon), rebuild, and resume — resume reads the new binary. This matches typical daemonized-server behavior and is the same model as restarting a long-lived service after a deploy.
+- **Open-in-editor links**in- `/settings/*`use- `vscode://file/<path>`by default. Override with- `SERF_HUB_EDITOR_URL_TEMPLATE`— a template string with the literal token- `{path}`(URL-encoded but with- `/`preserved). Examples:- `cursor://file/{path}`,- `zed://file/{path}`,- `idea://open?file={path}`.
+- **Remote hosts**: see- `docs/serf-hub-remote-operations.md`for the current deployment runbook, including credential handling, state directories, browser/TUI access, health checks, and Codex app-server sources.
+
+Design spec, plans, and notes live under `docs/superpowers/`.
+
+The repo enforces a single naming rule across wire formats:
+
+- **JSON tags**must be- `snake_case`, except for documented AppWire/Codex protocol carve-outs that require- `camelCase`.
+- **TOML tags and keys**must be- `snake_case`.
+- **CLI flags**are- `kebab-case`(enforced at the flag registry).
+
+Run the linter via `make lint-naming` or directly with `go run ./cmd/serf-namingcheck`. CI runs it after `go vet`. The check is fast (< 1s on this tree) and exits non-zero on violations. A single field/key can opt out with a `// serf:naming-ignore` (Go) or `# serf:naming-ignore` (TOML) marker on the preceding line — use sparingly, and explain why.
+
+Serf is forked from Kilroy by Dan Shapiro, originally built as part of the StrongDM Attractor project. The unified LLM client, provider adapters, and agentic tool-calling loop all trace their lineage to that work. Kilroy is licensed under the MIT License (see `LICENSE-kilroy`).
