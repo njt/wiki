@@ -145,6 +145,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Guiding Opus 4.8 Back to Sanity]] — valis diagnoses Opus 4.8's pedantic pushback as structural: obligation-voiced agentic layers overwhelm permission-voiced conversational guidance. The fix: an Object Floor that defines structural invalidity rather than prescribing virtues
 - [[Sherlock Agent Eval]] — Alex Weil's detective board-game benchmark surfaces two LLM agent failure modes (fabrication-under-retrieval and the decoy trap) and a Theorist-Explorer split that breaks the trap even with weaker models. Topology beats model size
 - [[Best Infrastructure Platforms for Coding Agents in 2026]] — Modal's vendor-biased survey of 7 sandbox platforms (Modal, E2B, Daytona, Blaxel, Together, Vercel, Cloudflare): CPU sandboxing is the primary workload, GPU is secondary, and the Firecracker convergence is real
+- [[Umans Code for Organizations]] — Umans' org-tier docs: seat/service-account billing split (flat-rate humans, metered automations), 50% capacity pooling across seats, four-model tiered routing with per-token pricing from $0.15/M input, and the platform lock-in play hiding in the pricing page
 
 ## Agent Orchestration & Coordination
 
