@@ -201,6 +201,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 - [[Discovery Debt]] — Benedikt Kantus names the accumulated weight of untested assumptions that compounds invisibly until products are expensively wrong; four habit-level remedies and why speed feels like signal but isn't
 - [[Martin Fowler and Kent Beck on Reinventing Software]] — Two Agile Manifesto authors on AI's unprecedented magnitude, total skepticism as discipline, the re-soloing illusion, DX=AgentX convergence, and why nobody has the answers anymore
 - [[Solution Engineering Advice]] — Max Halford's unvarnished field manual for customer-facing technical roles: three-phase lifecycle (presales→pilots→onboarding), when to bend the truth, how to manage Sales, and why Extreme Ownership is the only viable mindset
+- [[Why Build vs Buy is the Wrong Question]] — Chris James reframes the build-vs-buy debate through Evans's DDD subdomain taxonomy (generic, core, supporting), arguing the third category is where most organizational waste hides and where AI most reduces the cost of building
 
 ## Databases & Data
 
