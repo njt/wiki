@@ -36,3 +36,8 @@
 - https://dl.acm.org/doi/epdf/10.1145/3719027.3765062 — backfill thin/empty (0 chars) via HTTP; retry with surf (bfid-wifi-identity-inference) 2026-07-05
 - https://docs.browser-use.com/llms-full.txt — backfill thin/empty (75 chars) via HTTP; retry with surf (browser-use) 2026-07-05
 - https://docs.cashpoints.co.nz/partners-api-v1/ — backfill thin/empty (218 chars) via HTTP; retry with surf (cashpoints-partners-api-v1) 2026-07-05
+- https://elezea.com/2025/12/ai-for-product-management/ — backfill thin/empty (0 chars) via HTTP; retry with surf (ai-for-product-management) 2026-07-05
+- https://www.extend.ai/ui — backfill thin/empty (347 chars) via HTTP; retry with surf (extend-ui) 2026-07-05
+- https://factory.strongdm.ai/techniques — backfill thin/empty (455 chars) via HTTP; retry with surf (strongdm-factory-techniques) 2026-07-05
+- https://forward.com/culture/422492/so-why-on-that-night-of-all-other-nights-do-we-eat-those-fruit-jelly/ — backfill thin/empty (0 chars) via HTTP; retry with surf (fruit-jelly-slices) 2026-07-05
+- https://www.getseer.dev/blogs/pre-commit-linting-vibe-coding — backfill thin/empty (0 chars) via HTTP; retry with surf (pre-commit-lint-checks) 2026-07-05
