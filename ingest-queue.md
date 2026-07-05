@@ -20,3 +20,11 @@
 - https://aistupidlevel.info/models/188 — backfill thin/empty (0 chars) via HTTP; retry with surf (stupidmeter) 2026-07-05
 - https://almartis.xyz/gpu-free-datacenter.html — backfill thin/empty (0 chars) via HTTP; retry with surf (almartis-gpu-free-datacenter) 2026-07-05
 - https://archive.is/kcBDf — backfill thin/empty (0 chars) via HTTP; retry with surf (david-brooks-ai-age-thrive) 2026-07-05
+- https://benchling.engineering/fragmentation-to-framework-spec-first-development-at-benchling-9b97302bddcf — backfill thin/empty (0 chars) via HTTP; retry with surf (spec-first-development-at-benchling) 2026-07-05
+- https://blog.fsck.com/releases/2026/03/11/windows-in-docker/ — backfill thin/empty (60 chars) via HTTP; retry with surf (windows-in-docker) 2026-07-05
+- https://bsky.app/profile/dbrauer.net/post/3mdcbpxsj6c2g — backfill thin/empty (496 chars) via HTTP; retry with surf (dbrauer-welcome-american-winter) 2026-07-05
+- https://bsky.app/profile/razorgirl.diy/post/3mawdd6yu7c2n — backfill thin/empty (250 chars) via HTTP; retry with surf (economist-lazarus-effect) 2026-07-05
+- https://bsky.app/profile/razorgirl.diy/post/3mawdd6yu7c2n — backfill thin/empty (250 chars) via HTTP; retry with surf (razorgirl-1000-players-civilization) 2026-07-05
+- https://catalinionescu.dev/ai-agent/building-ai-agent-part-1/ — backfill thin/empty (0 chars) via HTTP; retry with surf (building-ai-agent-rails-part-1) 2026-07-05
+- https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/69fe2a55b93bb0732b1fe33c_The-Founders-Playbook-05062026_v3%20(1).pdf — backfill thin/empty (0 chars) via HTTP; retry with surf (the-founders-playbook) 2026-07-05
+- https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a1611a04085d7cd3dadc924_Claude-eBook-Zero-Trust-for-AI-Agents-05182026.pdf — backfill thin/empty (0 chars) via HTTP; retry with surf (zero-trust-for-ai-agents) 2026-07-05
