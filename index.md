@@ -125,6 +125,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[What I learned building an opinionated and minimal coding agent]] — Four tools, no MCP, full YOLO. Competitive on benchmarks
 - [[Pi Coding Agent]] — The productized Pi: TypeScript extensions, SDK, RPC mode, and the tension between minimalist philosophy and platform ambitions
 - [[Hermes]] — Open-source personal agent framework with self-improving skills loop. 149k stars
+- [[Skill Retriever]] — LLM-navigated 10K-category capability taxonomy plugin for Hermes: replaces flat skill catalog with semantic search, finds skills embedding similarity misses
 - [[clawdBot]] — Open-source personal AI on every messaging platform. One-line install, runs locally
 - [[PiClaw]] — Self-hosted AI workspace in a single Docker container with web UI
 - [[Odysseus]] — Self-hosted AI workspace with agents, email, calendar, documents, and model serving. Dual tool execution (fenced blocks + native calling), 50+ tools
