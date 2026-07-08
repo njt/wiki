@@ -14,7 +14,7 @@ The language-agnostic approach (25+ languages via tree-sitter) means it works on
 
 Integration with SARIF (the static analysis results format) means you can overlay findings from other tools onto the same graph. This is the kind of composability that makes a tool actually useful in practice rather than just impressive in a demo.
 
-Connects to [[NornicDB]] (graph database for code-like structures) and [[sql-crack]] (different approach to code visualization -- SQL-specific rather than general-purpose).
+Connects to [[NornicDB]] (graph database for code-like structures) and [[sql-crack]] (different approach to code visualization -- SQL-specific rather than general-purpose). [[Metis — ARM AI Security Code Review]] uses a similar tree-sitter→graph→query pipeline but narrows the scope: it builds a purpose-specific call graph, traces source-to-sink paths, then enlists an LLM to confirm exploitability — a leaner, more opinionated architecture optimized for security review rather than general-purpose graph exploration.
 
 ## Critical Analysis
 

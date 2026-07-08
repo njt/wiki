@@ -90,6 +90,7 @@ The article's closing honesty. Cloudflare isn't claiming to have solved code rev
 - [[Building 200+ Integrations with OpenCode]] — OpenCode in production: the ecosystem this system is part of
 - [[Cloudflare Temporary Accounts for Agents]] — Another Cloudflare agent infrastructure tool: treating agents as first-class platform users
 - [[StrongDM Factory Techniques]] — The dark factory version of the same thesis: code validated by harness, not review
+- [[Metis — ARM AI Security Code Review]] — ARM's security-focused counterpart: tree-sitter call-graph reachability replaces generic agent retrieval, deterministic adjudication gates model decisions, and SARIF-native output targets the SAST ecosystem rather than the code-review workflow
 
 ---
 

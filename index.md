@@ -188,6 +188,7 @@ Persistence, retrieval, knowledge management, and context engineering for agents
 
 Evals, testing, linting, feedback loops, and keeping agent output trustworthy. **Hub: [[Guardrails and Feedback Loops]]**
 
+- [[Metis — ARM AI Security Code Review]] — ARM's open-source AI security code review: tree-sitter call-graph reachability analysis for C/C++ + LLM vulnerability confirmation + deterministic adjudication gating; SARIF-native, 19+ languages, 10 LLM backends
 - [[OpenCodeReview]] — Alibaba's open-source AI code review CLI: hybrid deterministic+agent architecture with per-file concurrent subagents, dual-threshold context compression, and a comment filter pass. Battle-tested across tens of thousands of developers
 - [[brooks-lint]] — Pure prompt-engineering code review plugin: 12 decay risks from 12 classic engineering books, Iron Law diagnosis chain (Symptom→Source→Consequence→Remedy), six analysis modes across 11 platforms via Agent Skills
 - [[FrontierCode]] — Cognition's mergeability benchmark: 36 repos, 20+ maintainers, measures whether a PR would actually be accepted by a human tech lead. Opus 4.8 leads at 13.4% Diamond

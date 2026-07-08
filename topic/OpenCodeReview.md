@@ -124,6 +124,8 @@ When using Anthropic, the last system block and last tool definition get `epheme
 
 **vs. [[StrongDM Factory Techniques]]**: SMF validates code by harness (does it build/pass/deploy?). OCR validates by deep analysis (does the logic make sense?). Complementary approaches on different points of the trust spectrum.
 
+**vs. [[Metis — ARM AI Security Code Review]]**: Both use hybrid deterministic+LLM architectures — OCR filters files and resolves line positions deterministically before agent review; Metis builds tree-sitter call graphs and traces reachable paths before LLM confirmation. Metis adds a deterministic adjudication layer that gates LLM decisions against evidence coverage, and targets security specifically (with C/C++ deep analysis) rather than general code review.
+
 ---
 
 Tags: #tool #project #agents #code-review #quality
