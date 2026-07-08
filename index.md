@@ -87,6 +87,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[OpenMonoAgent]] — Terminal-native coding agent running local LLMs via embedded llama.cpp with Docker-native sandboxing: C#/.NET, Roslyn integration, zero API keys, unlimited free tokens, "infrastructure you own"
 - [[Apache Burr]] — Apache-incubating Python framework for AI agents as explicit state machines: decorators on plain functions, built-in observability UI, persistence and replay as first-class features. The un-LangChain
 - [[Authenticating MCPs]] — Matthew Johnston's three-pattern field guide to MCP auth (OAuth SSO, no auth, URL tokens) with the insight that auth unlocks dynamic tool registration per user
+- [[AXIS — Netlify's Agent Experience Measurement Framework]] — Netlify's open-source Lighthouse-for-agents scoring framework: four dimensions (Goal, Service, Environment, Agent), skills boost scores by 26 points, and a context pipeline that gates deploys on AX regressions
 - [[Building an AI Agent in Rails (Ionescu)]] — Field report: bolting an AI agent onto a 7-year-old Rails monolith with Pundit-scoped tool calling
 - [[From AI Studio to AI Forge]] — McCormick's five-plane stack for agent autonomy: "human changes altitude" as the cleanest framing of supervisory control
 - [[ProofEditor]] — Agent-first collaborative document editor from Every: agents suggest edits, humans review, provenance-tracked attribution
