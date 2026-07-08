@@ -1,5 +1,6 @@
 # Wiki Index
 
+487 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 489 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
@@ -59,6 +60,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 
 How to build agents: frameworks, runtimes, design patterns, and production concerns.
 
+- [[Building Agents That Don't Break Themselves]] — Daniel Botha's brains-vs-hands architecture: the agent reasoning loop lives on durable infra, but execution happens in disposable nested sandboxes with copy-on-write checkpointing as a reflex
 - [[OpenMono Agent]] — StartupHakk's local-first .NET 10 coding agent: 20 tools, 5 sub-agents, dual-tier context management, YAML playbook engine, capability-based permissions, self-hosted web search/scrape, VS Code extension via custom ACP
 - [[CodeAlta]] — Terminal AI coding agent workspace in C#/.NET: provider-agnostic sessions, JSONL journal persistence, in-process .NET plugin system, compaction-as-provider-turn, progressive MCP exposure, and an in-session CLI gateway
 - [[DeerFlow]] — ByteDance's open-source AI super-agent platform: 27-middleware LangGraph pipeline, subagent delegation, sandboxed execution, MCP/skills plugin system, 6 IM channel bridges, 175K lines of Python
