@@ -57,3 +57,7 @@ The traditional model: specs flow into code, code is the deliverable. The new mo
 ## Key Themes
 
 #spec-driven #disposable-code #intent-review #naming-as-alignment #pipeline-specs
+
+## See Also
+
+- [[Lean Software Scaling Laws]] — extends the spec-as-product thesis: the *language* you write specs in matters for LLM predictability, and some languages are inherently better spec languages because their invariants survive scaling

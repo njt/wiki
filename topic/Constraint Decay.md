@@ -79,6 +79,7 @@ This aligns with [[Honey I Shrunk the Coding Agent]]'s finding that scaffold red
 - [[A New Era for Software Testing]] — antirez on agentic QA as compensation for lower-quality AI code
 - [[Agentic Software Engineering (Hassan)]] — the comprehensive treatment of engineering with stochastic contributors
 - [[Software Engineering at the Tipping Point]] — Bender on AI as 10× amplifier, not directed solution
+- [[Lean Software Scaling Laws]] — Gwern predicts the constraint-decay slope should be *shallower* in languages where invariants are structural (Lean's type system) rather than bolted-on (Python + mypy); directly testable with this paper's methodology
 
 ---
 *Sources: [[summary/constraint-decay]]*

@@ -72,6 +72,7 @@ The article also ignores the social dimension. Formal methods have been "about t
 - [[Harness Engineering]] — feedforward/feedback framework; formal verification as the ultimate computational feedback
 - [[Slowing the Fuck Down]] — deliberate friction; formal methods as the most extreme form
 - [[Compound Engineering]] — add a system, not manual review; formal verification as the system
+- [[Lean Software Scaling Laws]] — Gwern's empirical framework for testing whether formally-strong languages become *more* LLM-predictable as codebases grow, inverting Congdon's economic argument into a scaling-law prediction
 
 ---
 
