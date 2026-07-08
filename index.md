@@ -272,6 +272,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Klangio Transcription Studio]] — Browser-based AI polyphonic music transcription to sheet music, MIDI, and TABs. 4M+ transcriptions
 - [[Kreuzberg]] — Polyglot document intelligence: 97+ formats, Rust core, MCP server
 - [[claude-replay]] — Agent sessions as self-contained embeddable HTML replays
+- [[Subtext]] — Real-time Jacobian lens instrument streaming an LLM's internal "silent words" to a browser canvas during live conversation; watches the model plan, judge, and reason before it speaks
 - [[engineering-notebook]] — Automatic engineering diary from Claude Code and Codex sessions
 - [[session-analysis]] — Analyze agent session JSONL for wall time, tokens, and cost
 - [[atifact]] — Zero-dependency CLI converting HAR files, Claude Code, Copilot CLI, and Codex CLI logs to ATIF v1.7 trajectory JSON
