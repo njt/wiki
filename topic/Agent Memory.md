@@ -72,7 +72,7 @@ The Oracle AI Agent Memory Package is built on Oracle AI Database 26ai, integrat
 
 **The metadata-as-memory pattern deserves more attention.** Teaching an agent about a private database by scanning catalog tables and converting to natural-language memories is a genuinely novel idea that Jones only sketches. It's a form of automated documentation generation that serves as memory bootstrap — and it generalizes beyond databases to any system with structured metadata (APIs, file systems, CI/CD pipelines). Someone should build this as an open-source tool.
 
-**Where this fits.** Jones provides the cleanest production taxonomy. [[Memory Mechanism]] provides the best theoretical framework (especially the instruction vs. learning memory distinction). [[How AI Agent Memory Works]] provides the best interactive introduction with production details. [[Agent Memory and Context]] provides the landscape survey. Each covers ground the others miss. Together they form a complete reference — taxonomy, theory, practice, landscape.
+**Where this fits.** Jones provides the cleanest production taxonomy (seven memory *types*). [[Memory Mechanism]] provides the best theoretical framework (especially the instruction vs. learning memory distinction). [[How AI Agent Memory Works]] provides the best interactive introduction with production details. [[Agent Memory and Context]] provides the landscape survey. [[Giving Claude Agent Memory in 12 Steps]] provides the complementary implementation ladder (four memory *layers*: Chat Memory → Projects → CLAUDE.md → Dreaming). Taxonomy and implementation ladder answer different questions — "what kind of memory?" vs. "how do I build it?" — and together they form a complete reference.
 
 ## Key Themes
 
