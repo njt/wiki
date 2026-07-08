@@ -1,7 +1,6 @@
 # Wiki Index
 
-487 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
-488 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+489 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -347,6 +346,7 @@ Tools that run on your own machines: voice, hardware, local inference, knowledge
 
 Papers, model capabilities, training techniques, and the state of the field.
 
+- [[The Hitchhiker's Guide to Agentic AI]] — Haggai Roitman's 603-page practitioner's reference: the full agentic AI stack from transformer architecture through production deployment, with theory + implementation + code for every layer
 - [[Open Source AI Map]] — Curated, hand-scored catalog of ~458 OSS AI products across 15 categories with three-axis scoring (openness/adoption/capability), deterministic stage/gap analysis, and the Columbia/MOF openness framework
 - [[Open Source AI Gap Map (Willison)]] — Simon Willison's link-blog lens on Current AI's Gap Map: the MIT-licensed dataset matters more than the visualization, Datasette Lite as universal data browser, and curation-as-infrastructure in AI landscape mapping
 - [[Proxy-KD — Knowledge Distillation of Black-Box LLMs]] — Proxy-mediated distillation from GPT-4 to 7B students: beats white-box KD by approximating closed-source probability distributions through DPO-aligned intermediate models
