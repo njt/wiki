@@ -257,6 +257,7 @@ Storage engines, query patterns, data quality, and vector/graph databases. **Hub
 
 CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 
+- [[Nektos Act]] — Run GitHub Actions workflows locally in Docker: full expression evaluator, YAML-level interpolation, and composable functional executor pipeline
 - [[Component Model 1.0]] — Bytecode Alliance's roadmap to a stable Wasm Component Model: lazy ABI, browser native support via jco telemetry, spec simplification, and the WIT expressivity gaps that remain
 - [[Git Diff Drivers]] — git's external diff driver interface: the 7-argument contract, `/dev/null` lifecycle sentinels, and a worked `oasdiff` example
 - [[Google Workspace CLI]] — One Rust CLI for all Google Workspace APIs. Dynamic command surface
