@@ -28,6 +28,8 @@ The core problem: you want agents powerful enough to be useful but constrained e
 
 ### Prompt-Level Defense
 
+[[Bounding the Blast Radius — Prompt Injection Defenses]] is the definitive 2026 survey: a four-layer taxonomy (prompt formatting, model training, input filtering, trajectory monitoring) with the brutal finding that every layer collapses under adaptive attack. The only honest answer is economic — compose layers until cost-to-exploit exceeds value-at-risk.
+
 [[LLM Guard]] sits between application and LLM with 15 input scanners and 20 output scanners: PII anonymization, prompt injection detection, secret scanning, bias detection, factual consistency checks. Defense in depth at the prompt/response boundary rather than the execution boundary. Complementary to sandboxing, not a substitute.
 
 [[HackAPrompt Dataset]] provides 100K+ real prompt injection attempts from a global competition. The fundamental attack patterns (ignore previous instructions, context manipulation, role-playing exploits) remain durable across model generations. The practical value: train your own prompt injection detectors on real adversarial data.
