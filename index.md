@@ -229,6 +229,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 - [[Domain Storytelling]] — Collaborative modeling method using pictographic sentence diagrams: workshops where a moderator visualizes domain experts' stories as who-does-what-with-what sentences. Interview with co-creators Hofer and Schwentner
 - [[Solution Engineering Advice]] — Max Halford's unvarnished field manual for customer-facing technical roles: three-phase lifecycle (presales→pilots→onboarding), when to bend the truth, how to manage Sales, and why Extreme Ownership is the only viable mindset
 - [[Why Build vs Buy is the Wrong Question]] — Chris James reframes the build-vs-buy debate through Evans's DDD subdomain taxonomy (generic, core, supporting), arguing the third category is where most organizational waste hides and where AI most reduces the cost of building
+- [[The Lindy Effect in Software]] — Clément Sauvage applies the Lindy effect (survival implies fitness) to technology choice: old tech isn't inertia, it's a positive signal of robustness that newer alternatives structurally cannot offer. Lindy is YAGNI for architecture
 
 ## Databases & Data
 
