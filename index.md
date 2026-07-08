@@ -1,7 +1,7 @@
 # Wiki Index
 
-487 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
-488 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+488 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+489 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -55,6 +55,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Lessons from Building Cursor]] — Unnamed Cursor engineer on ByteByteGo: RL as the only path to tool-use, 100M+ CPU hours for sandbox training, context windows solved through incentives not prompts, "coding got solved in six months," self-driving codebases, and the devex-for-AI problem
 - [[Building World-Class Engineering Teams in the Age of AI]] — Rajeev Rajan (CTO Atlassian) and Thomas Dohmke (former CEO GitHub) at The Pragmatic Summit: AI-native mindset, bottleneck migration left and right of code, role collapse, the teamwork graph as context moat, 89% more PRs, "don't be a manager," token cost inversion, and the Homer Simpson car warning
 - [[Fable Open-Sourced NanoClaw's PR Factory]] — Gavriel Cohen's $800 overnight Fable 5 ultracode session: 405-commits-stale fork → open-sourceable in 5 unattended hours. Customization guidelines as the durable spec, mutation-verified guard tests, human operating exclusively at the decision layer, and the export-control coda
+- [[Code Cleanliness and Coding Agents]] — SonarSource's minimal-pair study (660 trials): cleaner code doesn't change agent pass rates but cuts token consumption 7–8% and file revisitations 34%; the *kind* of cleanliness matters — thin dispatchers help, more methods without better decomposition hurt
 
 ## Agent Design & Architecture
 
