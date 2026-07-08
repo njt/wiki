@@ -1,7 +1,7 @@
 # Wiki Index
 
 487 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
-488 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+489 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -458,6 +458,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[MIT Funding and Talent Pipeline Crisis (Kornbluth)]] — MIT President quantifies the damage: 20% decline in federal research, ~500 fewer grad students, faculty cutting postdocs. A case study in how science policy cascades through institutions
 - [[Our Hunter-Gatherer Future]] — Agriculture was a step down; extreme climate change may end it
 - [[PACT Anonymous Credentials for the Web]] — Mozilla's proposal to replace bot-detection identity checks with cryptographic rate-limiting credentials: prove scarcity, not who you are
+- [[The Private Capture of Public Genius]] — Cameron Russell Armstrong's corpus royalty proposal: frontier AI labs pay a fixed share of gross revenue into a public fund, sidestepping the impossible problem of per-contributor attribution with the Superfund model for the information commons
 - [[Fruit Jelly Slices]] — How Passover dietary law accidentally preserved a candy that should have gone extinct, and what that reveals about tradition as path dependence, not design
 - [[Life at Low Reynolds Numbers]] — Purcell's classic 1977 talk: viscosity-dominant physics at bacterial scale, the scallop theorem, and why stirring is futile when you're a micron long
 - [[Science and Statistics (Box)]] — George Box's 1976 Fisher Memorial Lecture: "all models are wrong," theory-practice iteration as the engine of science, and why mathematistry and cookbookery are the twin diseases of closed-loop research
