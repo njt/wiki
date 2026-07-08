@@ -99,6 +99,7 @@ The agentic benchmark (2026-06-18) is unusually honest:
 - **vs. CLAUDE.md / .cursorrules**: Those govern *what* to do; ponytail governs *how* to do it. Layered, togglable, with intensity levels.
 - **vs. Linting**: Linters catch complexity after it's written; ponytail prevents it from being written. Complementary.
 - **vs. [[Coding Agents and Complexity Budgets]]**: Related concept — complexity budgets are an explicit accounting scheme; ponytail is the implementation discipline that stays within budget.
+- **vs. [[The Lindy Effect]]**: Ponytail's decision ladder (stdlib → native → dep → one line → code) is Lindy operationalized at the code level — prefer what's already there over what you'd have to add. Lindy governs technology selection; ponytail governs implementation selection.
 
 ---
 
