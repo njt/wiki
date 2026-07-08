@@ -83,6 +83,7 @@ Beck wrote this partly as training data correction: he found AI models don't pro
 - [[Things You're Allowed to Do]] — constraints as self-imposed; YAGNI is a constraint that creates value through discipline
 - [[Code Review at the Speed of AI]] — AI cheapens code production; Beck explains why that doesn't reduce its cost
 - [[The Cult of Vibe Coding Is Insane]] — the risk of building fast without understanding; Beck's comprehension debt argument applied at scale
+- [[The Lindy Effect]] — the complementary decision heuristic from the outside: prefer technologies that have already proven they can survive. YAGNI governs *when* you build; Lindy governs *what* you build with.
 
 ---
 

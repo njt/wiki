@@ -106,3 +106,4 @@ This is an area to grow. The wiki has 197 pages and only 3 cover C#/.NET specifi
 - [[The Pragmatic Summit]] — Gergely Orosz's inaugural curated conference: 28 practitioner speakers, 3 tracks (Build/Frame/Lead), Thomas Dohmke's Entire.io reveal
 - [[A Field Guide to Bugs]] — Stephen Diehl's poetic taxonomy of 30+ bug species from Bohrbug to Omega Bug: half CS folklore, half literary performance, and the sharpest diagnosis of LLM-era failure modes in print
 - [[Book OCR Project Report — Structured Workflow Runtime and Manual PDF Repair]] — Manuel's full-arc project report: 202-page scanned book OCR, custom Go workflow runtime, structured JSON boundaries, and a day-long manual PDF repair loop that found five distinct failure classes. A masterclass in model-output engineering
+- [[The Lindy Effect]] — Technology-choice heuristic: bet on things that have already survived. The probabilistic argument for craft over novelty.

@@ -44,5 +44,8 @@ The closer. Roztropiński is making a case that understanding isn't just instrum
 
 ---
 
+- [[The Lindy Effect]] — the career-strategy corollary: invest learning time in what's survived (algorithms, databases, design principles), not what's trendy. Understanding fundamentals compounds; framework expertise depreciates.
+
+---
 *Sources: [[summary/the-joy-and-power-of-understanding]]*
 *Last updated: 2026-07-03*

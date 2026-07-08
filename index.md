@@ -233,6 +233,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 - [[Why Build vs Buy is the Wrong Question]] — Chris James reframes the build-vs-buy debate through Evans's DDD subdomain taxonomy (generic, core, supporting), arguing the third category is where most organizational waste hides and where AI most reduces the cost of building
 - [[Enterprise-Grade CI at Solo Founder Scale]] — Lionshead on running a full CI pipeline (security scanning, cost gates, preview environments, schema-migration validation) as a solo founder; CI as externalized memory, not team-size-dependent ceremony
 - [[The Lindy Effect in Software]] — Clément Sauvage applies the Lindy effect (survival implies fitness) to technology choice: old tech isn't inertia, it's a positive signal of robustness that newer alternatives structurally cannot offer. Lindy is YAGNI for architecture
+- [[The Lindy Effect]] — Technology-choice heuristic: the longer something has survived, the longer it's likely to keep surviving. A counterweight to shiny-object syndrome from the Laws of Software Engineering collection
 
 ## Databases & Data
 
