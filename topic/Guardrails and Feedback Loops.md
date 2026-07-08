@@ -82,3 +82,4 @@ The tools form a clear hierarchy from soft to hard:
 - [[Agentic Manual Testing]] — Simon Willison on making agents verify their own output via execution: `python -c`, `curl`, Playwright/Rodney/Showboat. Automated tests aren't enough
 - [[Getting Claude to QA Its Own Work]] — Skyvern's MCP server + Claude Code skills for diff-driven browser QA. 30%→70% PR success rate, narrow-scope CI to avoid flaky E2E sprawl
 - [[Teaching Claude to QA a Mobile App]] — Android QA in 90 min via CDP; iOS in 6+ hours of workarounds. Plus a cautionary tale of agent worktree escape
+- [[Lean Software Scaling Laws]] — Gwern's proposal that language-level invariants improve LLM predictability at scale, but his own null result (ecosystem maturity dominates language properties) would be evidence for the guardrails-over-formalism position
