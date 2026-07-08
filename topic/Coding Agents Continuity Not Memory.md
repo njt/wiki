@@ -80,6 +80,8 @@ This is one of the more useful frames I've read on the agent memory problem, pre
 
 **The unstated assumption**: This entire approach assumes the coding agent is disciplined enough to run the lifecycle. A lazy finalize is worse than no finalize — it writes stale state that the next session trusts. The system's reliability depends on the agent's reliability at the recording step, which is the step agents are worst at (they're optimized for generation, not bookkeeping).
 
+**The four-layer model as complement.** Codez's [[Giving Claude Agent Memory in 12 Steps]] provides the other half of the picture: a four-layer implementation ladder (Chat Memory → Projects → CLAUDE.md → Dreaming) that's about what the agent *knows*, while Santi's continuity is about what the agent *is doing*. They don't compete — an agent with continuity but no memory still has to re-derive preferences; an agent with memory but no continuity still loses its operational thread between sessions. The engineering is in the integration.
+
 ---
 
 ## Related Pages

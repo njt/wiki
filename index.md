@@ -1,10 +1,6 @@
 # Wiki Index
 
-487 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
-488 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
-489 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
-488 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
-489 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+490 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -185,6 +181,7 @@ Persistence, retrieval, knowledge management, and context engineering for agents
 - [[Sawtooth Memory]] — Async non-blocking hierarchical memory middleware: 4-tier stack (L0 system / L1 working / L1.5 entity ledger / L2 archival) with background asyncio compression that eliminates main-thread latency and guarantees deterministic fact retention. Dual-extraction compression prompt, local Ollama default with cloud provider adapters
 - [[MELT]] — Shisa AI's benchmark harness for evaluating long-lived agent memory: tests lifecycle dynamics (correction, contradiction, decay, as-of recall, consolidation) not just static retrieval. Zero-dependency Python, pluggable SUT adapter contract, 4 built-in suites including native lifecycle benchmark
 - [[Context Engineering at the Frontier (Linus Lee)]] — Linus Lee argues bigger context windows are a brute-force crutch: composable retrieval pipelines beat monoliths for engineering velocity, context engineering IS search engineering, and the real gap is semantic observability at scale
+- [[Giving Claude Agent Memory in 12 Steps]] — Codez's four-layer practitioner's ladder (Chat Memory → Projects → CLAUDE.md → Dreaming) for turning a goldfish agent into one that remembers across weeks; the most detailed public walkthrough of Anthropic's Dreaming research preview
 
 ## Quality & Guardrails
 
