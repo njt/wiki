@@ -309,6 +309,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[graphify]] — Codebase to multimodal knowledge graph. Code, PDFs, screenshots, diagrams
 - [[hblog-ng]] — Obsidian vault-to-website static site generator with canvas-rendered knowledge graph, PGP-signed posts, and triple-feed syndication
 - [[lat.md]] — Knowledge graph for codebases in markdown with validation against drift
+- [[Lumide]] — Cross-platform Flutter/Dart IDE with an agentic sidebar: 200ms cold start, 80MB idle, no Electron layer
 - [[docmason]] — Local knowledge base from office documents with citations and source tracing
 - [[Trailmark]] — Trail of Bits: source code as a queryable graph for security analysis
 - [[Understand-Anything]] — Claude Code plugin: builds persistent knowledge graphs from codebases with tree-sitter + LLM pipeline, incremental git-hook updates, and interactive dashboard
