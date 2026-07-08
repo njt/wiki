@@ -1,10 +1,6 @@
 # Wiki Index
 
-487 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
-488 pages across 13 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
-489 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
-488 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
-489 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+490 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -204,6 +200,7 @@ Isolation, credentials, prompt injection defense, and agent safety. **Hub: [[Sec
 
 - [[Agentic AI Security Stack]] — Fernando Lucktemberg's free 200+ page reference: unified threat model tracing kill chains through 12 interception points, mapped to OWASP, MITRE ATLAS, and CSA MAESTRO
 - [[Akmon]] — Tamper-evident evidence layer for AI agents: content-addressed, cryptographically signed session records verifiable offline with openssl. 95K LoC Rust workspace, 14 crates, built-in coding agent as reference producer
+- [[Bounding the Blast Radius — Prompt Injection Defenses]] — Ibrahim Abdu's definitive 2026 survey: four-layer defense taxonomy, the "attacker moves second" proof that static benchmarks overstate robustness, and an economic reframe (cost-to-exploit > value-at-risk) as the only honest answer
 - [[Enterprise-Managed MCP Authorization]] — Centralized MCP connector auth via Okta: provision once, zero-touch for users. The open MCP extension that turns auth from adoption blocker to invisible infrastructure
 - [[How We Contain Claude]] — Anthropic's own containment engineering postmortem: three isolation patterns (gVisor, OS sandbox, sealed VM) and the incidents they didn't anticipate. The user-as-injection-vector problem, the 93% permission approval rate, and why custom code is always the failure point
 - [[Interdict]] — Runtime safety layer between AI agents and PostgreSQL: parses every SQL statement through the real Postgres AST, measures blast radius on risky writes via simulated execution, and captures before/after images so every allowed write is instantly revertible
