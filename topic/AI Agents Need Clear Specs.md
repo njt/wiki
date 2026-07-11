@@ -2,6 +2,17 @@
 
 Markus Eisele's sharp economic analysis of why "agents are smart enough to figure it out" is wrong — not because agents lack capability, but because the accounting is off. Minimal specification doesn't eliminate costs; it defers and fragments them, shifting payment from upfront human effort to downstream correction loops, token burn, and debugging marathons. The cost curve is U-shaped: the minimum sits at well-structured acceptance criteria or BDD scenarios, not at zero spec and not at 40-page formal documents. Multi-agent pipelines push that minimum further right because interpretive drift compounds across handoffs.
 
+> [!tip] The two prompts for better specs (the bit that stuck)
+> The leverage isn't one clever prompt — it's a **draft agent** and a separate **attack agent**, because a spec you wrote and validated yourself carries your own blind spots.
+>
+> **1. Draft (spec-drafting agent):**
+> > Draft the smallest spec that would let another agent implement this safely. Include assumptions, nongoals, acceptance criteria, edge cases, observable outcomes, and open questions.
+>
+> **2. Attack (spec-validation agent — a *different* agent):**
+> > Attack this spec. Find contradictions, ambiguous terms, hidden dependencies, and untestable claims. Point out every place where an implementation could pass the written criteria while still violating the intent.
+>
+> Draft → attack → refine → execute. The draft prompt is verbatim from Eisele; the attack prompt is assembled from his description of the validation step (he names the behavior, not a canned prompt).
+
 ---
 
 ## Key Quotes
