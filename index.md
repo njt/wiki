@@ -1,6 +1,6 @@
 # Wiki Index
 
-490 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+491 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -198,6 +198,7 @@ Evals, testing, linting, feedback loops, and keeping agent output trustworthy. *
 - [[A New Era for Software Testing]] — antirez on agentic QA: give an LLM a markdown checklist, let it inspect recent commits, and run targeted integration/regression/UX tests; automatic QA as compensation for lower-quality AI-generated code
 - [[Accordant]] — Microsoft's model-based testing framework for .NET: write an executable spec (behavioral contract), and Accordant generates, executes, and validates hundreds of tests including sequential, concurrent, and async workflow coverage. The spec IS the oracle
 - [[Agentic Testing]] — Slack Engineering's 200-run empirical study: MCP outperforms CLI by 12–20pp, generated tests fail 48% on complex flows, $15–30/run cost dominated by context accumulation. Agentic testing as exploratory layer atop deterministic E2E, not a replacement
+- [[no-mistakes]] — Local git proxy that gates pushes through an AI-driven validation pipeline (review, test, document, lint, push, PR, CI) before forwarding to remote. Agent-agnostic, durable approval parking across daemon restarts, auto-fix with configurable limits
 
 ## Security & Sandboxing
 
