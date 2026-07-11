@@ -247,6 +247,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 Storage engines, query patterns, data quality, and vector/graph databases. **Hub: [[Databases and Data]]**
 
 - [[Streambed]] — Postgres-to-Iceberg CDC in a single Go binary: WAL streaming, Parquet+S3, embedded DuckDB query server with psql-wire. Jepsen-style simulation testing, no Kafka/JVM/Spark needed
+- [[DuckDB ADBC Extension]] — DuckDB gets a universal Arrow-native connector to 30+ databases (Snowflake, Databricks, BigQuery, Postgres, MySQL) via ADBC — the JDBC moment for the columnar ecosystem. `read_adbc` and `ATTACH` with connection pooling, metadata caching, and streaming bulk ingest
 - [[Artie]] — Managed CDC replication: sub-minute latency from Postgres/MySQL/MongoDB to Snowflake/Databricks/BigQuery. Zero data retention, no Kafka required. The "buy vs. build" alternative to self-managed Debezium pipelines
 - [[The Limits of Generalized Sync]] — Siidorow's master's thesis: the most rigorous empirical study of sync engines (Zero, ElectricSQL, PowerSync, Convex, etc.), classifying 14 engines into 4 architectural clusters. Central finding — read paths generalize, write paths resist: the online/offline boundary determines everything downstream. 7 trade-offs, 5 fundamental limits, production case study
 - [[Lakebase and LTAP]] — Reynold Xin on Databricks' stateless Postgres architecture and the LTAP paradigm that eliminates CDC by storing operational data once in open columnar formats for both transactions and analytics
