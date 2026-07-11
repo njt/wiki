@@ -213,6 +213,7 @@ Isolation, credentials, prompt injection defense, and agent safety. **Hub: [[Sec
 - [[Nango — Running Untrusted Customer Code at Scale]] — Nango's three-phase journey isolating untrusted customer code: vm2 (escaped) → per-customer runners (unfair) → tenant-pinned AWS Lambda on Firecracker microVMs, with an honest internal debate about whether per-customer Lambdas are progress or a workaround
 - [[Bumblebee]] — Perplexity AI's zero-dependency Go scanner for endpoint supply-chain inventory: reads lockfiles, MCP configs, and extension manifests without executing package managers, then matches against operator-supplied exposure catalogs for incident response
 - [[DKIM2 and DMARCbis]] — Email's two core authentication protocols get their first major overhaul: DKIM2 adds replay-proof chains of custody and reversible forwarding recipes; DMARCbis replaces the brittle Public Suffix List with a DNS tree walk
+- [[Transsion Telemetry — Embedded Mobile Surveillance]] — NowSecure researchers break Transsion's Athena/oneID telemetry encryption, revealing device-wide GPS, app-usage, and network surveillance on 200M+ phones; the SDK escapes OEM boundaries through third-party apps with 500M+ downloads
 
 ## Software Engineering
 
