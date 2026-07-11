@@ -34,7 +34,7 @@ Holland's own practice: Claude Code daily, but the direction of control matters.
 
 ## Key Themes
 
-- **The attaboy problem** — AI agreeableness as a structural flaw, not a feature gap. Architecture requires the ability and willingness to say no. #concept
+- **The attaboy problem** — AI agreeableness as a structural flaw, not a feature gap. Architecture requires the ability and willingness to say no. Kenton Varda's [[AI-Written Change Descriptions|"worse than useless"]] diagnosis applies the same logic to commit messages: AI output that reads as competent actively prevents the skepticism that produces good work. #concept
 - **Context-blindness** — AI designs for the median of its training data, not for your team's specific constraints, experience, and political realities. #pattern
 - **Displacement of expertise** — The Jira ticket pipeline inverts the relationship: the least-context entity makes decisions while the most experienced engineers implement them. #concept
 - **Short-circuited discourse** — AI proposals suppress the productive disagreement that produces good architecture by making pushing back costlier than nodding along. #pattern

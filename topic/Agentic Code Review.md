@@ -34,7 +34,7 @@ Quoting a developer from the 2026 paper "AI Slop and the Software Commons," Osma
 
 #code-review #agentic-development #verification #engineering-management #ai-adoption #pattern
 
-The piece sits at the intersection of several threads already tracked in this wiki: the empirical data on AI productivity ([[Writing Code vs. Shipping Code]], [[Laura Tacho — Data vs Hype]]), the review bottleneck diagnosis ([[The End of Code Review]], [[Nicole Forsgren on AI and Developer Productivity]]), and the practical workflow patterns emerging in response ([[Loop Engineering]], [[Automating Myself Out of Development]], [[Vibe Coding as a Team Sport]]).
+The piece sits at the intersection of several threads already tracked in this wiki: the empirical data on AI productivity ([[Writing Code vs. Shipping Code]], [[Laura Tacho — Data vs Hype]]), the review bottleneck diagnosis ([[The End of Code Review]], [[Nicole Forsgren on AI and Developer Productivity]]), and the practical workflow patterns emerging in response ([[Loop Engineering]], [[Automating Myself Out of Development]], [[Vibe Coding as a Team Sport]]). Kenton Varda's [[AI-Written Change Descriptions|moratorium on AI-generated commit messages]] names the same structural problem from the reviewer's side: AI describes what changed, not why, and the false competence of a well-written AI summary suppresses the skepticism review depends on.
 
 Osmani's contribution is synthesis at the right altitude. He doesn't just report the data or argue a position — he maps the problem space across three variables (blast radius, code longevity, team size), names the seven concrete things teams should actually do, and is honest about where the limits are (solo Kun Chen workflow ≠ team-of-50-with-users workflow).
 
