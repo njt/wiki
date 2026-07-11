@@ -323,6 +323,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Extend UI]] — Open source React component library for document apps: PDF/DOCX/XLSX viewers, bounding box citations, e-signing, schema builder. 560 stars, targets agent-built document UIs
 - [[Phoenix LiveView]] — Server-rendered real-time UI without JavaScript: each view is a BEAM process, state changes push HTML diffs over WebSocket. The UI layer of the concurrency model agents keep reinventing
 - [[QMD]] — Local CLI search engine: hybrid BM25 + vector + LLM re-ranking
+- [[Recoll]] — Full-text desktop search engine built on Xapian: indexes documents inside archives inside email attachments, two decades of boring-correct engineering
 - [[Claude Lamp]] — LED lamp controlled by Claude Code's state via Bluetooth
 - [[Muxcard]] — Credit card-sized computer (~1mm thick): ESP32-C3, e-paper display, NFC reader/writer, strain-isolated flex PCB
 - [[Pretext]] — Pure JS/TS text measurement and layout without DOM reflow. 46.9k stars
