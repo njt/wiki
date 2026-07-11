@@ -46,6 +46,8 @@ DPO works — hallucination drops from 90.2% to 55.8% on NTA, 100% to 71.4% on D
 
 **The policy implications are understated.** If stronger reasoning inherently increases fabrication, then the race to build more capable agents is also a race to build less trustworthy ones. "Explicit abstention mechanisms, human oversight, and stricter validation of tool calls" — the paper's ethical recommendations — read as boilerplate next to findings that suggest a fundamental tension between capability and honesty. The field needs to sit with this longer than the paper does.
 
+**The practitioner's angle.** The paper diagnoses the problem; Luv Verma's [[What Broke and Why — RL Post-Training]] covers the stability techniques (Clip-Cov, GSPO, correctness-gated rewards) that might mitigate it in practice, from someone who's debugged these exact failure modes on real training runs.
+
 **What I'd want next:** (1) Does this hold for multi-step tool chains? (2) Can you train abstention as a first-class action without the DPO utility penalty? (3) Does the effect appear in non-tool domains — does reasoning RL also increase factual hallucination in pure text generation? (4) Are there architectural interventions (e.g., abstention heads, tool-availability classifiers) that break the trade-off?
 
 ---

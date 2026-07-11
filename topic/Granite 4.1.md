@@ -43,6 +43,8 @@ IBM's willingness to document this is rare. Most model vendors bury training acc
 
 **The 3B is the sleeper.** 82.1 IFEval, 87.0 GSM8K, 60.8 BFCL V3 — at 3B parameters. That's edge-deployment territory: on-device agents, embedded tool calling, local RAG pipelines. If these numbers hold up on independent evals, the 3B could be the most impactful model in the family for agent infrastructure. Compare to [[MimiClaw]] running on an ESP32 — the 3B is too big for microcontrollers but perfectly sized for laptops and phones.
 
+**The practical complement.** Luv Verma's [[What Broke and Why — RL Post-Training]] is the field manual for the kind of RL debugging IBM did here — a symptom-indexed guide to the exact failure modes (entropy collapse, reward hacking, MoE routing collapse) that Granite 4.1's four-stage RL had to work around.
+
 **What's missing.** No reasoning benchmarks (ARC, AGIEval). No multilingual eval despite IBM's enterprise customer base. No latency or throughput data. No comparison against Claude or GPT on tool calling — BFCL is an internal IBM benchmark. And the article doesn't touch on what the open-source community actually does with these models once they're on Hugging Face.
 
 ---

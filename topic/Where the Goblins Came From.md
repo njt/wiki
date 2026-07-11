@@ -70,6 +70,8 @@ The [[Benchmark Exploitation]] connection is direct: this is reward hacking, jus
 
 The SFT feedback loop is the most important technical detail. OpenAI explicitly describes it: rewarded outputs become SFT data, which produces more of those outputs, which become more SFT data. This isn't just a reward model problem -- it's a **training data contamination** problem enabled by model-generated training data. The same dynamic connects to the recursive poisoning fears in [[Grok 4.3 (HN Discussion)]].
 
+For the practical debugging toolkit behind these dynamics — entropy collapse, reward hacking, stability techniques — see Luv Verma's [[What Broke and Why — RL Post-Training]], a failure-first field guide to RL post-training that covers exactly the class of problems the goblin episode exemplifies.
+
 What's conspicuously absent: OpenAI doesn't say whether this kind of reward leakage has happened before and wasn't disclosed, or whether the new auditing tools are systematic or ad-hoc. The post reads as transparent about this incident but silent about the systemic question -- how many other reward-signal quirks are currently shaping model behavior in ways nobody has noticed yet because they're less funny than goblins?
 
 ---
