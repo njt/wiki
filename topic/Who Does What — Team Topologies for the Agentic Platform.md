@@ -56,6 +56,7 @@ The graduation mechanism (rule of three: when three teams need the same guardrai
 - [[Loop Engineering]] — Osmani's meta-skill of designing systems that prompt agents; the individual contributor's version of platform thinking
 - [[The Agentic Product Standard v2.0]] — The closest thing to a specification for the platform Wulveryck's teams would build
 - [[Agentic Software Engineering (Hassan)]] — Hassan's comprehensive treatment of the same transformation at the discipline level
+- [[The Persistent Gravity of Cross Platform]] — Pike's argument that coordination costs drive teams toward cross-platform tools is a case study in the anticipation burden Wulveryck describes; the 2026 addendum linking agentic coding to verification-as-bottleneck maps directly to the platform's role as a decision-velocity multiplier
 
 ---
 

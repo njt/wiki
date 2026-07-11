@@ -108,6 +108,7 @@ Damning. The app stores are filling up with AI-generated software nobody wants. 
 - [[AI Killing B2B SaaS]] — The marketplace finding (more apps, same usage) directly challenges the "AI kills SaaS" narrative
 - [[The Road Runner Economy]] — Productivity without throughput; Demirer provides the mechanism
 - [[Slowing Down in the Age of Coding Agents]] — The gap between generating and shipping, now quantified
+- [[The Persistent Gravity of Cross Platform]] — Pike's coordination-cost model explains *why* the gap between commit velocity and release velocity exists at scale: multi-platform teams pay a quadratic coordination tax that cross-platform frameworks collapse, and AI's verification bottleneck makes single-codebase strategies even more compelling
 - [[Feedback Loop is All You Need]] — Verification, not generation, is the binding constraint
 
 ---

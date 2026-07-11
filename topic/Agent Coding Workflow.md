@@ -1,6 +1,6 @@
 # Agent Coding Workflow
 
-The practitioner's daily loop with coding agents has stratified into a maturity spectrum, and most people are stuck at the wrong level. At the bottom, "vibes" -- prompting and praying. At the top, compound systems where every cycle makes the next one better. The interesting finding across all these sources is that the people getting the most from agents aren't the ones who type the least. They're the ones who've built the tightest feedback loops between intent, generation, and verification. The bottleneck was never typing speed. It's now thinking speed, taste, and the discipline to verify before shipping.
+The practitioner's daily loop with coding agents has stratified into a maturity spectrum, and most people are stuck at the wrong level. At the bottom, "vibes" -- prompting and praying. At the top, compound systems where every cycle makes the next one better. The interesting finding across all these sources is that the people getting the most from agents aren't the ones who type the least. They're the ones who've built the tightest feedback loops between intent, generation, and verification. The bottleneck was never typing speed. It's now thinking speed, taste, and the discipline to verify before shipping. Allen Pike's [[The Persistent Gravity of Cross Platform]] extends this insight to platform decisions: when AI can generate four native implementations as easily as one cross-platform codebase, the bottleneck becomes human verification throughput, and one codebase means one review surface rather than four.
 
 ---
 
