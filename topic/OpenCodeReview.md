@@ -126,6 +126,8 @@ When using Anthropic, the last system block and last tool definition get `epheme
 
 **vs. [[Metis — ARM AI Security Code Review]]**: Both use hybrid deterministic+LLM architectures — OCR filters files and resolves line positions deterministically before agent review; Metis builds tree-sitter call graphs and traces reachable paths before LLM confirmation. Metis adds a deterministic adjudication layer that gates LLM decisions against evidence coverage, and targets security specifically (with C/C++ deep analysis) rather than general code review.
 
+**vs. [[CI Forge (ciforge)]]**: Where OCR and Metis invest in sophisticated context management (OCR's dual-threshold compression, Metis's call-graph scoping), ciforge sends the raw diff to the LLM with no truncation. Where OCR runs concurrent per-file subagents in parallel, ciforge calls the AI model sequentially per file. The contrast illustrates the solo-dev vs. enterprise trade-off: ciforge's simplicity wins on deploy-and-forget reliability, OCR's architecture wins on thoroughness and throughput.
+
 ---
 
 Tags: #tool #project #agents #code-review #quality
