@@ -103,6 +103,8 @@ The default configuration uses `llama_query_model` for everything, but the reach
 
 **vs. Semgrep / CodeQL**: Traditional SAST tools use hand-written rules against ASTs/CFGs. Metis replaces the rules with an LLM but keeps the AST analysis. The LLM isn't doing the whole job — it's the judgment step in a pipeline that starts with deterministic parsing. This is the key difference from "just ask ChatGPT to review my code."
 
+**vs. CI Forge (ciforge)**: Metis represents the deep end of AI code review — tree-sitter call graphs, 19 languages, 10 LLM backends. [[CI Forge (ciforge)]] takes the opposite design: ~30 shallow scanners averaging 50 lines each, Python-only AST, simple regex for other languages. ciforge's value is one-command breadth across secret detection, IaC, dead code, CVEs, and cloud cost; Metis's value is surgical depth in security review.
+
 ---
 *Sources: [[raw/metis]]*
 *Last updated: 2026-07-08*

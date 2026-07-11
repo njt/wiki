@@ -72,6 +72,7 @@ The tools form a clear hierarchy from soft to hard:
 - [[AI PR Reviewer]] — GitHub Action: Claude reviews PRs for $0.003-$0.02 each
 - [[Learn from PRs Skill]] — Turn review comments into preventive rules. Feedback loop closes automatically
 - [[dotnet Slopwatch]] — LLM anti-cheat for .NET: catches disabled tests, empty catches, reward hacking
+- [[CI Forge (ciforge)]] — Zero-dependency CLI bundling ~25 scanners into one tool for solo devs; exemplifies the self-tightening loop with crash telemetry feeding back into rules and AI finding aggregation for building deterministic static patterns
 - [[Trycycle]] — Hill-climbing skill: plan-strengthen-review with fresh agents at every stage
 - [[Verbose Deployment]] — 10-phase composable deployment pipeline as Claude Code skills
 - [[Prefix Effects]] — Early naming decisions create gravity that shapes all subsequent AI-generated code
