@@ -62,6 +62,8 @@ The most interesting development is kanban boards as the human-agent coordinatio
 
 **Coordination cost measurement.** Nobody measures the overhead of orchestration. How much token spend goes to coordination vs. productive work? What's the efficiency loss from task decomposition errors? Without measurement, it's impossible to compare orchestration patterns empirically.
 
+**The spec as coordination contract.** [[AI Agents Need Clear Specs]] adds an economic dimension: in multi-agent pipelines, underspecification isn't just sloppy — it's expensive. Every agent boundary where specification is loose introduces interpretive freedom that compounds across handoffs. "Strongly typed interfaces between agents" — schema, invariants, validation checks — aren't bureaucratic overhead; they're the cost of preventing drift from cascading into hallucination at machine speed.
+
 **Failure recovery at the orchestration level.** When a worker agent fails, what happens? [[Loomkin]]'s self-healing teams (OTP supervision trees) are the most principled answer, but that's because BEAM was built for this -- see [[Distributed Systems]]. Python-based orchestration systems mostly just retry or give up.
 
 ## Key Themes
