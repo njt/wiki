@@ -298,6 +298,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[markitdown]] — Microsoft's office-docs-to-Markdown converter for LLM pipelines
 - [[Kiso]] — OKF-to-static-site publishing engine that generates agent-friendly output with llms.txt and source backlinks
 - [[Klangio Transcription Studio]] — Browser-based AI polyphonic music transcription to sheet music, MIDI, and TABs. 4M+ transcriptions
+- [[How to Follow a Drummer]] — Sashyo's field report on building DrumMate: a phase-locked loop with beat-aware front end that lets the drummer lead and the machine follow, inverting forty years of click-track tyranny
 - [[Kreuzberg]] — Polyglot document intelligence: 97+ formats, Rust core, MCP server
 - [[claude-replay]] — Agent sessions as self-contained embeddable HTML replays
 - [[Subtext]] — Real-time Jacobian lens instrument streaming an LLM's internal "silent words" to a browser canvas during live conversation; watches the model plan, judge, and reason before it speaks
