@@ -241,6 +241,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 - [[Enterprise-Grade CI at Solo Founder Scale]] — Lionshead on running a full CI pipeline (security scanning, cost gates, preview environments, schema-migration validation) as a solo founder; CI as externalized memory, not team-size-dependent ceremony
 - [[The Lindy Effect in Software]] — Clément Sauvage applies the Lindy effect (survival implies fitness) to technology choice: old tech isn't inertia, it's a positive signal of robustness that newer alternatives structurally cannot offer. Lindy is YAGNI for architecture
 - [[The Lindy Effect]] — Technology-choice heuristic: the longer something has survived, the longer it's likely to keep surviving. A counterweight to shiny-object syndrome from the Laws of Software Engineering collection
+- [[Your Distributed System Is Slower Than a Laptop]] — CodeGood revives the 2015 COST paper: a $1.4M/year Kafka+Flink pipeline costs 24× more than a single-server alternative that's faster; the coordination tax is paid in salaries, not CPU cycles — and the industry still doesn't run the comparison
 
 ## Databases & Data
 
