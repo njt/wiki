@@ -209,6 +209,7 @@ Isolation, credentials, prompt injection defense, and agent safety. **Hub: [[Sec
 - [[Tessera]] — Consent-gated remote access broker: 5K lines of Go, three binaries, human-approve-at-terminal flow with mTLS, end-to-end encryption, and append-only audit log. MIT-licensed alternative to Teleport for small-team just-in-time access
 - [[Nango — Running Untrusted Customer Code at Scale]] — Nango's three-phase journey isolating untrusted customer code: vm2 (escaped) → per-customer runners (unfair) → tenant-pinned AWS Lambda on Firecracker microVMs, with an honest internal debate about whether per-customer Lambdas are progress or a workaround
 - [[Bumblebee]] — Perplexity AI's zero-dependency Go scanner for endpoint supply-chain inventory: reads lockfiles, MCP configs, and extension manifests without executing package managers, then matches against operator-supplied exposure catalogs for incident response
+- [[Transsion Telemetry — Embedded Mobile Surveillance]] — NowSecure researchers break Transsion's Athena/oneID telemetry encryption, revealing device-wide GPS, app-usage, and network surveillance on 200M+ phones; the SDK escapes OEM boundaries through third-party apps with 500M+ downloads
 
 ## Software Engineering
 
