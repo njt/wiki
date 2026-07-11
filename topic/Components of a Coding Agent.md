@@ -57,6 +57,8 @@ The context reduction strategies connect to [[Three Tier Memory]]'s hot/warm/col
 
 Raschka's mini-coding-agent on GitHub is the instructional complement to the conceptual taxonomy -- a [[Reference Implementation]] worth studying alongside [[What I learned building an opinionated and minimal coding agent]].
 
+The most extreme production instantiation of Raschka's thesis is [[Oh My Pi (omp)]], whose README quantifies the harness effect with provider-specific benchmarks: Grok Code Fast 1 jumps from 6.7% to 68.3% pass rate purely from hashline replacing a broken edit format, Gemini 3 Flash gains +5pp over Google's own str_replace, and MiniMax pass rate more than doubles — same weights, same prompts, different harness.
+
 ## Critical Analysis
 
 Raschka's strength is clarity: he names things precisely and draws distinctions that many practitioners blur. The LLM/reasoning-model/agent/harness taxonomy alone is worth the read -- it gives you vocabulary for design conversations that otherwise collapse into "the model is good" or "the model is bad."
