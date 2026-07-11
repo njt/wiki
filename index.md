@@ -270,6 +270,7 @@ Storage engines, query patterns, data quality, and vector/graph databases. **Hub
 - [[ARIES — Write-Ahead Logging Recovery]] — Mohan et al.'s 1992 paper that defined crash recovery for every major database: repeat-history paradigm, per-page LSNs, CLR chaining, three-pass restart. The architecture still running inside PostgreSQL, SQL Server, DB2, and InnoDB
 - [[Postgres Transactions Are a Distributed Systems Superpower]] — Kraft & Li argue co-locating workflow state with application data in Postgres eliminates idempotency bugs and outbox infrastructure through shared transaction boundaries
 - [[Meerkat — QuePaxa Consensus at Cloudflare]] — Cloudflare Research's internal consensus service using the QuePaxa algorithm: leader-optional writes, no timeout-based unavailability, 10x throughput over Raft in adversarial networks
+- [[AntFly]] — Distributed search engine and AI-native database: multi-Raft consensus, hybrid BM25+vector+graph search, built-in ML inference, Go/Zig dual-stack. Embeddings/chunks/graph edges generated automatically at write time. TLA+-verified protocols, Jepsen-inspired simulation testing
 - [[Chatto]] — Self-hosted real-time chat application using NATS/JetStream as its sole data store with event sourcing and in-memory projections — no SQL database at all
 
 ## Developer Tools
