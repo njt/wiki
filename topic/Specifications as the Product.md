@@ -46,9 +46,17 @@ The traditional model: specs flow into code, code is the deliverable. The new mo
 
 **Adoption friction.** [[OpenSpec]] itself warns: "Specs only work if you actually read them." The history of software documentation is littered with tools that made documentation easy but couldn't make anyone care. The [[Compound Engineering]] 50/50 rule (half your time on system improvement) is the cultural prescription, but it requires organizational commitment that most teams lack.
 
+## The Economics: The U-Curve and the Accounting Problem
+
+[[AI Agents Need Clear Specs]] adds the missing economic framing: total cost traces a U-shaped curve against specification completeness. At zero spec you pay in token burn, correction loops, and human re-engagement — costs that are real but invisible to management because they're deferred and fragmented. At full formal specification you pay upfront in human effort but back-load almost nothing. The minimum sits at well-structured acceptance criteria or BDD scenarios — not at either extreme, and not at the same place for every task type.
+
+The key insight: **spec validation is a distinct cost category between "write spec" and "run agent," and it's never zero.** A spec can be internally inconsistent, missing edge cases, untestable, or precisely what was written but not what was meant. An agent executing faithfully against a flawed spec produces something where you must unwind both code *and* reasoning. This is the gap that spec-testing tools would need to fill.
+
+In multi-agent pipelines, the U-curve minimum shifts right because interpretive drift compounds across handoffs. "The handoff is the product" — every agent boundary needs a contract with schema, invariants, allowed ambiguity, and validation checks. Without them, you're not orchestrating agents; you're compounding interpretations.
+
 ## What's Missing
 
-**Spec testing.** We have tools for testing code against specs ([[Trycycle]], [[Verbose Deployment]]) but no tools for testing specs against themselves -- checking for internal contradictions, missing edge cases, or ambiguous requirements before any code is generated.
+**Spec testing.** We have tools for testing code against specs ([[Trycycle]], [[Verbose Deployment]]) but no tools for testing specs against themselves — checking for internal contradictions, missing edge cases, or ambiguous requirements before any code is generated. [[AI Agents Need Clear Specs]] identifies agent-mediated spec validation (draft → adversarial attack → refine) as a partial answer: one agent writes, another stress-tests for contradictions and intent violations, humans review the result.
 
 **Spec evolution tracking.** [[OpenSpec]] has spec deltas, but nobody has built the git-blame equivalent for specs: who changed this requirement, when, and why? Linking spec changes to the outcomes they produced would close the feedback loop.
 
