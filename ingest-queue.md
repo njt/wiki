@@ -105,3 +105,4 @@
 - https://direct.mit.edu/books/oa-monograph/6166/SimPoliticsAmerica-s-Quest-to-Solve-Politics-with — HTTP 403 blocked; retry with surf after LLM balance restored (simpolitics) 2026-07-11
 - https://drummate.app/blog/how-to-follow-a-drummer — HTTP 403 blocked; retry with surf after LLM balance restored (how-to-follow-a-drummer) 2026-07-11
 - https://w.pitula.me/fintech-engineering-handbook/ — HTTP 403 blocked; retry with surf after LLM balance restored (fintech-engineering-handbook) 2026-07-11
+- https://allenpike.com/2021/gravity-of-cross-platform-apps/ — LLM CLI 402 Insufficient Balance (dscldy API out of credit); retry after topping up (gravity-of-cross-platform-apps) 2026-07-11
