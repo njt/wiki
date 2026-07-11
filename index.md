@@ -254,6 +254,7 @@ Storage engines, query patterns, data quality, and vector/graph databases. **Hub
 - [[FlareDB]] — Apache Beam-native streaming database in Rust: PCollections become Arrow-backed LSM-tree tables, dissolving the boundary between pipeline processing and durable storage
 - [[ARIES — Write-Ahead Logging Recovery]] — Mohan et al.'s 1992 paper that defined crash recovery for every major database: repeat-history paradigm, per-page LSNs, CLR chaining, three-pass restart. The architecture still running inside PostgreSQL, SQL Server, DB2, and InnoDB
 - [[Postgres Transactions Are a Distributed Systems Superpower]] — Kraft & Li argue co-locating workflow state with application data in Postgres eliminates idempotency bugs and outbox infrastructure through shared transaction boundaries
+- [[Meerkat — QuePaxa Consensus at Cloudflare]] — Cloudflare Research's internal consensus service using the QuePaxa algorithm: leader-optional writes, no timeout-based unavailability, 10x throughput over Raft in adversarial networks
 
 ## Developer Tools
 
