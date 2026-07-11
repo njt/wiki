@@ -345,6 +345,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Textverified]] — Temporary US phone numbers for SMS/voice verification: carrier SIMs (non-VoIP), 900+ services, API + crypto payments, from $0.25/use
 - [[zeroserve]] — Linux HTTPS server that serves from tarballs and runs eBPF scripts JIT-compiled in-process with a branchless pointer cage sandbox. Compiles Caddyfiles to eBPF middleware
 - [[Cloudflare OAuth for All]] — Zero-downtime Hydra migration (132M rows, -45% P95 latency) to open self-managed OAuth to all Cloudflare customers; queue-based revocation replay during blue-green cutover
+- [[Local Review]] — Local-first git branch review tool: leave line/range comments, export as markdown for coding agents, with drift-resistant anchoring via git diff tracking and snippet matching. Single Go binary, served from localhost
 
 ## Local & Personal Computing
 
