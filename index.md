@@ -318,6 +318,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[How to Follow a Drummer]] — Sashyo's field report on building DrumMate: a phase-locked loop with beat-aware front end that lets the drummer lead and the machine follow, inverting forty years of click-track tyranny
 - [[Kreuzberg]] — Polyglot document intelligence: 97+ formats, Rust core, MCP server
 - [[claude-replay]] — Agent sessions as self-contained embeddable HTML replays
+- [[Mindwalk]] — 3D visualization tool replaying coding-agent sessions as light moving through a night map of your codebase. Go binary, fully local, with sealed LLM session evaluation
 - [[Subtext]] — Real-time Jacobian lens instrument streaming an LLM's internal "silent words" to a browser canvas during live conversation; watches the model plan, judge, and reason before it speaks
 - [[engineering-notebook]] — Automatic engineering diary from Claude Code and Codex sessions
 - [[session-analysis]] — Analyze agent session JSONL for wall time, tokens, and cost
