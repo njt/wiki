@@ -67,6 +67,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Dev Machine Foundry]] — Sam Schillace's 39-day autonomous Word clone: 565 sessions, 3,706 commits, 1,111 features, and no ruler. The dev foundry as meta-factory, priority inversion as the structural failure mode of optimization-driven agents, and strategy as the thing the machine cannot provide
 - [[What Frontend Developers Still Hate — 2026 Survey]] — An informal survey of 120+ devs at JSNation and React Summit: date pickers still top the annoyance list after a decade, AI creates its own class of drudgery, and the hardest frontend problems are coordination problems masquerading as technical ones
 - [[Teaching the Agent Our Craft]] — Alex Haldeman's field report on structured agentic development with Claude Code: RPI pipelined through skills (`/story-writer`, `/tdd-build`), isolated test-writer subagent with PreToolUse hook enforcement, and MCP-wired Linear/Figma collapsing design-to-code lag. Two developers carrying a multi-tenant healthcare platform through encoded craft
+- [[The GUS Stack — Go, Unix, SQLite]] — Noah Zoschke's stack prescription for agentic coding: pick boring, stable, training-data-dense technologies (Go, Unix, SQLite, HTMX) so agents produce idiomatic code on the first try rather than fighting framework magic
 
 ## Agent Design & Architecture
 
