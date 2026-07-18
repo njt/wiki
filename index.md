@@ -1,6 +1,6 @@
 # Wiki Index
 
-496 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+497 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -500,6 +500,7 @@ EVs, batteries, power systems, and physical products.
 
 Books, essays, geopolitics, math, medicine, and interesting oddities.
 
+- [[20-20-20 Rule — Digital Eye Strain Study]] — Johnson & Rosenfield (SUNY Optometry, 2023): the 20-20-20 rule fails a controlled trial — scheduled 20-second breaks had no effect on eye strain symptoms, reading speed, or accuracy
 - [[America Is Slow-Walking Into a Polymarket Disaster]] — Desai's Atlantic polemic on the media's embrace of prediction markets: manipulation, insider trading, and the gamblification of civic life
 - [[Archive.today DDoSed a Critic's Blog]] — An OSINT investigation sat quiet for 2.5 years, then the anonymous operator retaliated with client-side DDoS and escalating threats
 - [[The People Who Will Thrive in the AI Age]] — David Brooks on why volition beats intelligence when AI makes thinking cheap: three psychological profiles, cognitive polarization risk, and the case for education as desire-cultivation
