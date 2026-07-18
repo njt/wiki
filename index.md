@@ -187,6 +187,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 
 Multi-agent systems, task graphs, kanban boards, and coordination patterns. **Hub: [[Agent Orchestration]]**
 
+- [[Swarm Skill]] — jleechanorg's Claude Code playbook for orchestrating multi-agent swarms: 14 hard rules from concrete failures, mandatory sidekick durability layer, adversarial verification, cross-model cold review, and a publishability gate
 - [[Paca]] — Self-hosted AI-native project management where agents are first-class Scrum teammates. WASM plugin sandbox, Docker-sandboxed agent execution, MCP throughout. Apache 2.0
 
 ## Memory & Context
