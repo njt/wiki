@@ -1,6 +1,6 @@
 # Wiki Index
 
-496 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+497 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -227,6 +227,7 @@ Isolation, credentials, prompt injection defense, and agent safety. **Hub: [[Sec
 - [[cco]] — Zero-dependency bash wrapper that sandboxes Claude Code and other AI coding agents via macOS Seatbelt, Linux bubblewrap, or Docker. Agent-agnostic, cross-platform, 3,700 lines of bash with no runtime deps
 - [[Tessera]] — Consent-gated remote access broker: 5K lines of Go, three binaries, human-approve-at-terminal flow with mTLS, end-to-end encryption, and append-only audit log. MIT-licensed alternative to Teleport for small-team just-in-time access
 - [[Nango — Running Untrusted Customer Code at Scale]] — Nango's three-phase journey isolating untrusted customer code: vm2 (escaped) → per-customer runners (unfair) → tenant-pinned AWS Lambda on Firecracker microVMs, with an honest internal debate about whether per-customer Lambdas are progress or a workaround
+- [[Operational Groundwork for AI Agents]] — O'Reilly Superstream field report: five speakers converge on verification-over-trust — execution-layer enforcement, skill supply-chain audits, hygiene checklists, deterministic verification in fintech, and human signal as the only anti-slop measure
 - [[VulnHunter]] — Capital One's open-source agentic AI security tool: closed-loop Hunt → Fix → Verify pipeline as Claude Code skills, forward-trace analysis with adversarial falsification, TDD-driven remediation with anti-merge math delivery gates
 - [[Bumblebee]] — Perplexity AI's zero-dependency Go scanner for endpoint supply-chain inventory: reads lockfiles, MCP configs, and extension manifests without executing package managers, then matches against operator-supplied exposure catalogs for incident response
 - [[DKIM2 and DMARCbis]] — Email's two core authentication protocols get their first major overhaul: DKIM2 adds replay-proof chains of custody and reversible forwarding recipes; DMARCbis replaces the brittle Public Suffix List with a DNS tree walk
