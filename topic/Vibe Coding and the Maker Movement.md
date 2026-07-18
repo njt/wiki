@@ -51,6 +51,8 @@ Sachin's case for replacing "craft" with "consumption" as the governing metaphor
 
 **This pairs well with** [[AI Killing B2B SaaS]] (same threat analysis from the SaaS side), [[Radical Accountability]] (taste as the last differentiator), [[Cognitive Debt]] (what you accumulate when evaluative anesthesia prevents you from noticing you don't understand your own codebase), and [[Software Engineering Craft]] (the fundamentals that survive the consumption/craft framing wars).
 
+**The experiential correlate is [[Human-in-the-Loop is Tired]]**, where Laura Summers reports from inside the evaluative anesthesia. Her description of LLM work as "intensely solitary" — natural collaboration points replaced by another prompt — is what Sachin's scenius-skipping feels like day to day. And her "human reward function problem" (dopamine hits replaced by review fatigue) is evaluative anesthesia from the inside: the mechanism by which "I feel good making this" crowds out "this is good."
+
 ---
 
 *Sources: [[summary/vibe-coding-and-the-maker-movement]]*
