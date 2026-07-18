@@ -48,4 +48,6 @@ The post also implicitly connects to the broader agent architecture conversation
 ---
 
 *Sources: [[summary/steering-claude-code-skills-hooks-rules-subagents]]*
-*Last updated: 2026-07-05*
+*Last updated: 2026-07-18*
+
+*See also: [[Teaching the Agent Our Craft]] — Alex Haldeman's 8th Light field report is the most concrete production case study of the full seven-mechanism taxonomy: CLAUDE.md as knowledge root, path-scoped rules for domain conventions, skills for structured RPI workflows, subagents with PreToolUse enforcement, and MCP-wired Linear/Figma.*
