@@ -86,7 +86,7 @@ Each project gets its own HikariCP connection pool. The `RoutingDataSource` lazi
 
 ## Design Decisions
 
-**Optimized for**: AI agent UX and multi-project self-hosting. The MCP bridge, memory API, Assets/CDN, and "one command to deploy" ergonomics are designed for coding agents, not human developers. Database-per-tenant gives strong isolation at the cost of more connection pools.
+**Optimized for**: AI agent UX and multi-project self-hosting. The MCP bridge, memory API, Assets/CDN, and "one command to deploy" ergonomics are designed for coding agents, not human developers. Database-per-tenant gives strong isolation at the cost of more connection pools. This is one extreme of Comartin's [[Multi-Tenancy Isn't About Databases]] spectrum: maximum control, maximum operational cost — the trade-off acknowledged and accepted.
 
 **Sacrificed**: Operational maturity. No Realtime (WebSocket push), no managed backups, no PITR, no HA, no enterprise SSO/SCIM. The architecture docs acknowledge these as "known gaps."
 
