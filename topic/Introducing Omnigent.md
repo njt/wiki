@@ -54,6 +54,7 @@ Not "allow/deny git" — *contextual* policy that chains events. The policy engi
 - [[The Agentic Product Standard v2.0]] — composition patterns
 - [[Apache Burr]] — agent state machines; Omnigent's policies could be modeled this way
 - [[cco]] — OS sandboxing for coding agents; Omnigent does it in-architecture
+- [[Traycer]] — Also a meta-harness wrapping 17+ coding agents, but as a full Electron desktop application with real-time Yjs CRDT collaboration, agent-to-agent debate, and a versioned RPC protocol that enables the open-source client and closed-source host to ship independently
 
 ---
-*Source: Databricks blog, 2026-06-13. Authors: Matei Zaharia, Kasey Uhlenhuth, Corey Zumar.*
+*Source: Databricks blog, 2026-06-13. Authors: Matei Zaharia, Kasey Uhlenhuth, Corey Zumar. Last updated: 2026-07-18 (Traycer cross-link).*
