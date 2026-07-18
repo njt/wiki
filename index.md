@@ -64,6 +64,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[The New Software Lifecycle]] — Addy Osmani's definitive map of how AI unevenly compresses the SDLC: implementation from weeks to hours while architecture stays stubbornly human; harness over model, context engineering as the financial lever, and verification as the line between vibe coding and engineering
 - [[Five Studies That Are Changing How I Think About AI in Software Engineering]] — Brian Houck's synthesis of five 2026 papers converging on the same story: AI compressed upstream coding, and everything downstream (review, verification, understanding, shipping) is breaking. Introduces the productivity-experience paradox, bounded delegation, and Storey's cognitive/intent debt taxonomy
 - [[Dev Machine Foundry]] — Sam Schillace's 39-day autonomous Word clone: 565 sessions, 3,706 commits, 1,111 features, and no ruler. The dev foundry as meta-factory, priority inversion as the structural failure mode of optimization-driven agents, and strategy as the thing the machine cannot provide
+- [[The GUS Stack — Go, Unix, SQLite]] — Noah Zoschke's stack prescription for agentic coding: pick boring, stable, training-data-dense technologies (Go, Unix, SQLite, HTMX) so agents produce idiomatic code on the first try rather than fighting framework magic
 
 ## Agent Design & Architecture
 
