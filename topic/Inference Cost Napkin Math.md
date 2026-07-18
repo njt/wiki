@@ -61,6 +61,8 @@ The author calls this conservative. For agentic workloads with near-100% duty cy
 - **#tool** Napkin math as a bullshit detector — you can sanity-check vendor claims with high-school algebra
 - **#pattern** Batching as bandwidth-compute balancing — the ideal batch size falls out of the GPU spec sheet
 
+IBM Research's [[Model Routing Is Simple Until It Isn't]] provides the agent-level confirmation of this napkin math: in a head-to-head comparison, the model with better cache-read pricing (Sonnet) cost half as much as the model with lower per-token pricing (GPT-4.1), despite taking 3× more reasoning steps. Cache economics dominate per-token pricing in agent workloads — exactly what the bandwidth-bottleneck analysis predicts.
+
 ## Critical Analysis
 
 **The napkin math is the real product.** The specific numbers (331 theoretical users, $9.36/month) will drift as hardware and architectures change. What's durable is the method: start with the memory bandwidth ÷ compute ratio, solve for batch size, then constrain by VRAM. Anyone building or buying inference infrastructure should be able to reproduce this derivation in five minutes. If you can't, you're trusting vendors to price honestly — and they won't.
