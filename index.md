@@ -296,6 +296,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 - [[Zero-Cost Fallacy of Open Source]] — Chris Ford and Richard Gall diagnose open source's structural economic failure: permissive licensing enabled the ecosystem and the exploitation vector, and AI slop, trust degradation, and the licensing paradox are accelerating a slow-motion collapse. "We've confused permissive licensing with a license to exploit"
 - [[The Lindy Effect]] — Technology-choice heuristic: the longer something has survived, the longer it's likely to keep surviving. A counterweight to shiny-object syndrome from the Laws of Software Engineering collection
 - [[Your Distributed System Is Slower Than a Laptop]] — CodeGood revives the 2015 COST paper: a $1.4M/year Kafka+Flink pipeline costs 24× more than a single-server alternative that's faster; the coordination tax is paid in salaries, not CPU cycles — and the industry still doesn't run the comparison
+- [[Reduce Logging Costs]] — Michael Shpilt's five-strategy taxonomy for cutting observability spend: sampling, tiered storage, in-code cleanup, vendor migration, and the nuclear option of killing INFO logs. Core thesis: sustainable savings come from reducing telemetry before it leaves the application, not cheaper storage after the fact
 
 ## Databases & Data
 
