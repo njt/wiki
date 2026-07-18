@@ -36,6 +36,8 @@ The telecom analogy also has a hidden failure mode. The internet's dumb-pipe arc
 
 The three implementation examples are tantalizing but two are private, which makes the pattern hard to evaluate. The Expert Panel Simulator is public and interesting — sequential expert assembly is a specific instantiation of the planner/worker/judge pattern that [[Agent Orchestration]] tracks across multiple independent implementations.
 
+In production: Ai2's Shippy agent applies the smart-models-dumb-pipes pattern by wrapping a complex maritime API (dozens of input types, nested filters, geometry inputs) in a deterministic CLI. The model owns judgment — "are these vessels behaving suspiciously?" — while the CLI owns execution: authentication, pagination, structured output. The team's layering philosophy is a direct expression of the pattern: "each layer narrows what the next layer can get wrong." [[Building Shippy — Agent Architecture for High-Stakes Domains]]
+
 Where the essay is strongest is in the reframing: "where does judgment belong?" is a better question than "where should we put AI?" Where it is weakest is in assuming the judgment/execution boundary is clean. In practice, execution surfaces information that changes judgment (the [[Guardrails and Feedback Loops]] self-tightening loop), and the boundary between "deciding what" and "doing how" is where most real system complexity lives. [[Compound Engineering]]'s insight — that the system that produces code matters more than any individual piece of code — applies here too: the system that routes between judgment and execution is the actual product, not either layer alone.
 
 ## Cross-Links
