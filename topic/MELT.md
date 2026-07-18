@@ -1,6 +1,6 @@
 # MELT
 
-Open-source benchmark harness for evaluating long-lived memory in AI agent systems. Tests whether memory survives correction, contradiction, decay, and consolidation — not just retrieval accuracy. Built by Shisa AI alongside their shisad memory system when they found no existing eval that tested how memory works *over time*.
+Open-source benchmark harness for evaluating long-lived memory in AI agent systems. Tests whether memory survives correction, contradiction, decay, and consolidation — not just retrieval accuracy. Built by Shisa AI alongside their shisad memory system when they found no existing eval that tested how memory works *over time*. Its most important finding so far is that **one "memory score" is never enough**: the system that wins on lifecycle dynamics can lose catastrophically on long-conversation QA, and single-number aggregates hide the per-axis weaknesses that actually matter.
 
 ---
 
@@ -71,6 +71,32 @@ Each assertion maps to one of the 13 lifecycle axes, giving per-axis pass rates 
 | **Separate answer/judge models** | Answer can be cheap (GPT-5.4 Mini, $0.75/M input), judge can be careful (GPT-5.4, $2.50/M input). Published LoCoMo: $4.46 for shisad, $8.92 for Memobase. |
 | **Deterministic scorers default** | Retrieval and token-F1 judging are free. LLM judge is opt-in. Makes CI/pre-commit eval runs cost zero. |
 
+## Preliminary Results: One Score Is Never Enough
+
+Leonard Lin is explicit that all published results are **preliminary** — single development runs, known caveats, not leaderboard claims. But they're the most informative memory benchmark results available because MELT refuses to collapse them into one tidy number.
+
+**Lifecycle full fixture (217 cases, `lifecycle-v4`):**
+
+| System | Lifecycle pass | Retrieval R@3 | Correction | Contradiction | Temporal | Maintenance |
+|---|---|---|---|---|---|---|
+| ShisaD | 95.4% | 90.3% | 100.0% | 100.0% | 23.5% | 100.0% |
+| Memobase | 44.6% | 13.4% | 56.7% | 13.3% | 23.5% | 13.3% |
+
+**Same systems on LoCoMo judged QA (1,986 questions, GPT-5.4 Mini answer / GPT-5.4 judge):**
+
+| System | Judged QA score |
+|---|---|
+| Memobase | 42.0% |
+| ShisaD | 6.2% |
+
+The ordering **flips completely**. ShisaD dominates on lifecycle semantics; Memobase dominates on long-conversation QA. Neither aggregate tells the full story. And the per-axis breakdown reveals temporal/as-of recall (23.5% for both) as a shared weakness that a single "pass rate" would hide entirely.
+
+This is the core argument MELT makes: memory isn't one thing. It's write quality, correction, contradiction handling, temporal recall, maintenance, abstention, and retrieval hygiene — and a system can be excellent at some while terrible at others. Any benchmark that compresses these into one number is doing violence to the problem.
+
+> Lin: "Evals are hard, and agentic memory evals are still nascent. Memory spans many behaviors, making any single score easy to overread. MELT is our attempt to add nuance and tease apart those dimensions."
+
+Key caveats on these runs: retrieval-bypass warning because `top_k=3` matches canonical session count; neither adapter exposes full memory export, so write-policy metrics use weaker black-box proxies; LoCoMo has known dataset and judging problems.
+
 ## Comparison Notes
 
 MELT is the only benchmark that systematically tests **temporal memory dynamics** — correction, contradiction, as-of recall, decay, and maintenance — rather than static retrieval accuracy.
@@ -88,5 +114,5 @@ Related memory infrastructure that could be evaluated through MELT's SUT adapter
 
 *Tags: #tool #benchmark #ai-memory #evaluation*
 
-*Sources: [[summary/melt]]*
-*Last updated: 2026-06-15*
+*Sources: [[summary/melt]], [[summary/melt-blog]]*
+*Last updated: 2026-07-18*
