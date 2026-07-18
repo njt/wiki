@@ -118,6 +118,7 @@ Forrester's Schadler closes with the right binary: "We can let the AI tell us wh
 - [[AI Coding Tools Create More Bugs Than They Fix]] -- Tornhill's 30% defect increase data is the empirical backing for the "funhouse mirror" thesis
 - [[Simplicity in the Age of AI-Assisted]] -- AI accelerates what you already have; the retreat's "costs will fall" handwave vs. actual economics of rebuilding
 - [[How to Buy Cheap Claude Tokens in China]] -- the grey market the retreat's cost-blind analysis ignores entirely
+- [[Zero-Cost Fallacy of Open Source]] -- Ford and Gall's detailed follow-up drawn from the same summit: the open source economic crisis the retreat flagged as a cross-cutting concern, now given full-diagnosis treatment with the licensing paradox and spec-over-code thesis
 
 ---
 *Sources: [[summary/tw-future-of-software-development-retreat-key-takeaways]] (primary — full ThoughtWorks PDF), Martin Fowler's [bliki](https://martinfowler.com/bliki/FutureOfSoftwareDevelopment.html), Forrester [analysis](https://www.forrester.com/blogs/takeaways-from-the-future-of-software-development-retreat-just-because-you-can-doesnt-mean-youre-ready-to/)*

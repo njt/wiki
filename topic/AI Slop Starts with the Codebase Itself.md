@@ -56,6 +56,8 @@ This inverts the "secret sauce" instinct. The proprietary internal framework tha
 
 This essay sits at the intersection of several wiki threads. [[Code Cleanliness and Coding Agents]] provides the closest empirical backing — cleaner code is cheaper for agents, even if it doesn't change pass rates. [[Constraint Decay]] shows what happens when codebase conventions work against the model: ~30pp assertion-pass-rate drops. [[You Can Just Say It]] gives us the "intent vs. form" lens — a messy codebase is form without discernible intent, and the AI can't extract what isn't there.
 
+The maintainer-side cost of AI slop is the missing half of this essay's argument. [[Zero-Cost Fallacy of Open Source]] documents exactly what happens when slop lands on the other side of `npm install`: maintainers become unpaid code reviewers buried under plausible-but-wrong LLM-generated PRs, and some close their projects entirely to escape. The codebase that produces slop is one problem; the repository that receives it is the other, and the two are directly connected.
+
 The rewrite economics connect to [[The Cost YAGNI Was Never About]] (Kent Beck on AI making rewrites cheaper but the trap still being real), [[Specifications as the Product]] (if the codebase IS the prompt, the spec is what should survive the rewrite), and [[Why Build vs Buy is the Wrong Question]] (Chris James on DDD subdomain taxonomy as the real decision framework). The competitive-framing echoes [[The Founder's Playbook]] — Anthropic's observation that AI introduces *agentic technical debt* that compounds. A codebase that misaligns with AI isn't just harder to work on; it gets harder at an accelerating rate because every AI-assisted change adds more code the model doesn't understand.
 
 ---

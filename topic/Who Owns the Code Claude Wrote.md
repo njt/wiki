@@ -65,6 +65,7 @@ The article's most provocative claim — that Anthropic's copyright over Claude 
 - [[Specifications as the Product]] — If code is disposable, what's the copyrightable artifact? Evren's answer: the spec, the design doc, the commit history
 - [[Guardrails and Feedback Loops]] — Deterministic enforcement over AI output; license scanning is the guardrail most teams haven't built yet
 - [[The Cost YAGNI Was Never About]] — Beck on why cheap code generation doesn't retire YAGNI; this article adds "legal contamination risk" to the list of reasons
+- [[Zero-Cost Fallacy of Open Source]] — the economic dimension beneath the legal question: even if IP ownership were settled, open source maintenance would still be structurally unfunded. Ford and Gall diagnose the licensing paradox (permissive enables exploitation, restrictive burdens maintainers with enforcement) that no legal clarity resolves
 
 ---
 *Sources: [[summary/who-owns-the-code-claude-wrote]]*
