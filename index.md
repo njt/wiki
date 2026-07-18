@@ -66,6 +66,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 
 How to build agents: frameworks, runtimes, design patterns, and production concerns.
 
+- [[Razorback]] — CL Kao's Python CLI for reproducible agentic benchmark research on Harbor: freeze specs (cryptographic provenance), run jobs across Claude/Codex/Pi, score with stratified pass@1 and Wilson CIs, audit traces for forbidden lookups, and diff paired runs with exact-McNemar + bootstrap CIs. The sealed-hash approach treats benchmark runs as scientific experiments, not ad-hoc scripts
 - [[Oh My Pi (omp)]] — Can Bölük's open-source terminal coding agent: fork of Pi-mono, 32 tools, 40+ providers, ~55K lines of in-process Rust. Content-hash editing, time-traveling stream rules, dual memory architecture, and the thesis that the harness matters more than the model
 - [[Building Agents That Don't Break Themselves]] — Daniel Botha's brains-vs-hands architecture: the agent reasoning loop lives on durable infra, but execution happens in disposable nested sandboxes with copy-on-write checkpointing as a reflex
 - [[OpenMono Agent]] — StartupHakk's local-first .NET 10 coding agent: 20 tools, 5 sub-agents, dual-tier context management, YAML playbook engine, capability-based permissions, self-hosted web search/scrape, VS Code extension via custom ACP
