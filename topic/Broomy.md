@@ -101,7 +101,8 @@ The tool it most resembles is [[Collaborator]] — both are Electron desktop app
 - [[Slowing the Fuck Down]] — The human-in-the-loop philosophy Broomy's code review feature claims to enable
 - [[Zed]] — Another open-source native editor betting that the default tools aren't good enough. Different domain, same spirit
 - [[MobileVibe]] — Mobile agent control. Complementary: Broomy on desktop, MobileVibe on phone
+- [[Traycer]] — Open-source multi-agent desktop app that takes the opposite approach: deep per-harness adapters with normalized structured runtime events and real-time Yjs collaboration, vs Broomy's agent-agnostic opaque-terminal design
 
 ---
 *Sources: [[summary/broomy]]*
-*Last updated: 2026-05-31 (re-ingested with surf browser content)*
+*Last updated: 2026-07-18 (Traycer cross-link)*
