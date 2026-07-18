@@ -382,6 +382,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Cloudflare OAuth for All]] — Zero-downtime Hydra migration (132M rows, -45% P95 latency) to open self-managed OAuth to all Cloudflare customers; queue-based revocation replay during blue-green cutover
 - [[Local Review]] — Local-first git branch review tool: leave line/range comments, export as markdown for coding agents, with drift-resistant anchoring via git diff tracking and snippet matching. Single Go binary, served from localhost
 - [[Celly — Native .NET CEL Implementation]] — Pure C# implementation of Google's Common Expression Language: 100% spec conformance, zero dependencies, faster than the Go reference on comprehension-heavy workloads
+- [[Tunnet]] — Open-source mesh VPN platform bundling mesh networking, serve, tunnel, send, and SSH under one identity system and policy engine. Rust (~26K lines) on iroh/QUIC, two modes (Managed with control plane, Direct with CRDT membership), self-hosted relay
 
 ## Local & Personal Computing
 
