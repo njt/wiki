@@ -315,6 +315,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[CORS Fetch Tester]] — Simon Willison's browser-based CORS debugging utility: send HTTP requests and inspect exactly what the browser lets you see through CORS
 - [[bcc]] — BPF Compiler Collection: kernel-level tracing for Linux performance analysis
 - [[Tmux Resurrect]] — Persists and restores complete tmux environments via tab-delimited flat file serialization; idempotent, zero-config, mini DSL for process matching
+- [[Zellij]] — Rust terminal multiplexer (~296K lines) with WASM plugin system, built-in terminal emulator, per-client rendering, OSC 99 host query forwarding, mobile mode, and session resurrection
 - [[floci]] — Free local AWS emulator replacing LocalStack. 47 services, 24ms startup
 - [[sem]] — Semantic version control: entity-level diff via tree-sitter across 31 languages, 5-phase entity matching with structural hashing, scope-aware reference resolution, and agent-native JSON/MCP output
 - [[markitdown]] — Microsoft's office-docs-to-Markdown converter for LLM pipelines
