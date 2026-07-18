@@ -303,6 +303,7 @@ Storage engines, query patterns, data quality, and vector/graph databases. **Hub
 - [[SQLite Is All You Need]] — DB Pro's benchmarked case for SQLite as a production web backend: 50K users, 1M posts, 3,654 req/s on one file. The WAL-vs-rollback comparison and the "99.99%" argument that user acquisition, not database throughput, is the real bottleneck
 - [[How to Corrupt an SQLite Database]] — The SQLite team's exhaustive catalog of every corruption failure mode: filesystem lies, OS quirks, application bugs, hardware deception, and SQLite's own historical defects
 - [[Malloy]] — Open-source semantic modeling and query language that compiles to SQL: two-phase compiler (ANTLR → AST → IR → dialect-specific SQL), symmetric aggregates for correct join handling, pipeline query model, and a Solid.js + Vega renderer with plugin system. Ex-Google/Looker team, 93K lines TypeScript
+- [[Redb Ecosystem]] — Three-layer Apache 2.0 .NET stack: typed LINQ-native database (POCO-as-schema, Postgres/MSSQL/SQLite), Apache Camel-style integration engine (30+ connectors, EIP DSL), and clustered runtime with dashboard. 3.3.0 fixes silently-broken concurrency across RabbitMQ/Kafka/AMQP and adds built-in RAG pipeline primitives
 
 ## Developer Tools
 
