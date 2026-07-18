@@ -1,6 +1,6 @@
 # Wiki Index
 
-493 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+494 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -329,6 +329,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[surf-cli]] — Browser automation for agents via CLI and Unix sockets. No MCP needed
 - [[Claude Artifact Server]] — 22 Claude-generated retro-Mac interactive artifacts produced in a single day: generation-at-scale showcase, not a product
 - [[OpenRewrite Supported Languages]] — Capability catalog: 5 languages, 7 data formats, 3 build tools, 4 frameworks. OSS/commercial split where JVM is free and polyglot is paywalled
+- [[OpenWiki]] — LangChain's CLI that runs a DeepAgent to generate and maintain OKF-compliant documentation wikis for codebases and personal knowledge bases, with built-in connectors for Gmail, Slack, Notion, X, and more
 - [[TriadJS]] — TypeScript API framework: write schemas once, derive types, OpenAPI, BDD tests, DB schemas, frontend hooks, and WebSocket clients from a single source of truth. AI-first design with Claude Code plugin
 - [[Ponytail]] — Multi-platform AI coding agent plugin: "lazy senior dev" persona forces YAGNI → stdlib → native → one-line before writing code. Cuts 54% LOC without dropping safety. 14+ host adapters
 - [[sx]] — Team package manager for AI coding assistant assets: skills, MCP configs, commands, hooks. Manifest-and-lock pattern, scoped install
