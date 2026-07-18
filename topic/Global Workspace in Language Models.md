@@ -98,6 +98,7 @@ This is scientifically correct. It is also, in the broader discourse, a bomb wit
 - [[Engineering the Substrate]] — First-person narrative of internal model states; the workspace is the mechanism
 - [[Security and Sandboxing]] — The safety implications of internal states invisible to output monitoring
 - [[Smart Models Dumb Pipes]] — Internal representations strengthen the case for model-owned decisions
+- [[Theories of Deep Learning]] — Mechanistic interpretability is one of several theoretical approaches surveyed; the essay places J-space alongside categorical deep learning and modular duality as complementary frameworks operating at different levels of analysis
 
 ---
 *Sources: [[raw/verbalizable-representations-global-workspace]]*

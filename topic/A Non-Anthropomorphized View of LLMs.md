@@ -52,6 +52,7 @@ The meteorological simulation analogy also has limits. Weather simulations do no
 - [[Talking to Transformers]] -- Effective LLM use that takes the mathematical framing seriously
 - [[Zheng Dong Wang's 2025 Letter]] -- The compute thesis: scaling drives progress, not emergent consciousness
 - [[Engineering the Substrate]] -- Mira's first-person account; the strongest available counterargument to Flake's position
+- [[Theories of Deep Learning]] — The Litman/Guo output-space generalization theory takes Flake's "functions through ℝⁿ" framing seriously and derives practical explanations for benign overfitting, double descent, and grokking from it
 
 ---
 *Sources: [[summary/a-non-anthropomorphized-view-of-llms]]*
