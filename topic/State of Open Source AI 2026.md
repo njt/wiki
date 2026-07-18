@@ -86,6 +86,7 @@ This is the best single document on the open-source AI landscape as of mid-2026.
 - #tool **OpenRouter, MCP, A2A, Omnigent** — the emerging open harness stack, incomplete but forming
 - #concept **The unsolved write surface** — agent permissions across frameworks remain the open gap; authentication without authorization
 - #pattern **Adoption without production** — 79% use open, 51% reach production. The gap is operations, not capability
+- **Verification as the next harness layer.** [[LLM-as-a-Verifier]] exemplifies Mozilla's "harness is the new frontier" thesis: a training-free framework that turns any LLM into a fine-grained verifier, achieving SOTA across four domains without touching the generator model. If the capability gap is jagged, verification harnesses are how you smooth it — letting weaker models perform at frontier level by selecting their best outputs rather than improving their average ones.
 
 ---
 

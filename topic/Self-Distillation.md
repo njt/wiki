@@ -24,6 +24,8 @@ Missing: this only works for code generation where correctness is somewhat verif
 
 The deeper question this raises: if models can self-improve through their own outputs, what's the long-term trajectory? Connects to alignment concerns about recursive self-improvement, though the gains here are modest and bounded.
 
+**Contrast with verifier-based improvement.** Self-distillation needs no external signal — the model bootstraps from its own distribution. [[LLM-as-a-Verifier]] takes the opposite approach: an external verifier provides fine-grained continuous scores to select the best from multiple candidates. The two approaches are complementary: self-distillation improves the generator, verification improves selection among generator outputs. Combined, they'd address both halves of the improvement problem.
+
 ---
 *Sources: [[summary/self-distillation]]*
-*Last updated: 2026-05-14*
+*Last updated: 2026-07-18*
