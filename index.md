@@ -63,6 +63,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[AI Slop Starts with the Codebase Itself]] — AI slop isn't just about prompts; a codebase that speaks a dialect the models already know from training data is a productivity multiplier, and proprietary patterns are an AI tax that compounds
 - [[The New Software Lifecycle]] — Addy Osmani's definitive map of how AI unevenly compresses the SDLC: implementation from weeks to hours while architecture stays stubbornly human; harness over model, context engineering as the financial lever, and verification as the line between vibe coding and engineering
 - [[Five Studies That Are Changing How I Think About AI in Software Engineering]] — Brian Houck's synthesis of five 2026 papers converging on the same story: AI compressed upstream coding, and everything downstream (review, verification, understanding, shipping) is breaking. Introduces the productivity-experience paradox, bounded delegation, and Storey's cognitive/intent debt taxonomy
+- [[Teaching the Agent Our Craft]] — Alex Haldeman's field report on structured agentic development with Claude Code: RPI pipelined through skills (`/story-writer`, `/tdd-build`), isolated test-writer subagent with PreToolUse hook enforcement, and MCP-wired Linear/Figma collapsing design-to-code lag. Two developers carrying a multi-tenant healthcare platform through encoded craft
 
 ## Agent Design & Architecture
 
