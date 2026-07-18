@@ -68,6 +68,8 @@ This is a Google talk and it shows. The advice assumes monorepo-scale infrastruc
 
 **The unanswered question:** How do you teach ten years of engineering judgment in six months? Bender names this as the thing that keeps him up at night, then moves on. It's the right question. The entire industry is running headlong into it and nobody has an answer. [[Slowing Down in the Age of Coding Agents]] suggests one response (deliberately slow down). [[The Joy and Power of Understanding]] suggests another (you must have force before the multiplier matters). Neither is a solution at scale.
 
+**The open source instance:** Bender's "AI is a 10× amplifier" thesis has its clearest case study in open source economics. [[Zero-Cost Fallacy of Open Source]] shows AI accelerating a pre-existing maintenance crisis: slop PRs, trust signal degradation, and the licensing paradox are all amplifier effects — problems that existed before AI but became acute when code production got 10× cheaper. Open source is the canary in Bender's ecology.
+
 **The omission that stings:** Job displacement, ethics, and environmental impact are entirely absent. A talk about "radical transformation" of the developer ecosystem that doesn't mention what happens to developers is a conspicuous silence. This isn't a talk for the people who get displaced. It's a talk for the people who stay.
 
 ---
