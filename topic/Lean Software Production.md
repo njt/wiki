@@ -61,6 +61,8 @@ Wynne's proposed daily practice for teams. The framing is deliberate: not "what 
 
 **Connection to existing wiki coverage is dense.** This piece sits at the intersection of multiple threads: the quality/guardrails conversation ([[Guardrails and Feedback Loops]], [[Harness Engineering]]), the dark factory narrative ([[Don't Fear the Dark Factory]], [[StrongDM Factory Techniques]], [[Five Levels from Spicy Autocomplete to the Dark Software Factory]]), the productivity measurement debate ([[Writing Code vs. Shipping Code]], [[Nicole Forsgren on AI and Developer Productivity]]), the XP/agile evolution ([[Martin Fowler and Kent Beck on Reinventing Software]]), and the "what is the work now?" question ([[Loop Engineering]], [[Specifications as the Product]], [[Agent Coding Workflow]]). Wynne's contribution is naming the synthesis — Lean Software Production — and giving it enough intellectual weight that it might stick.
 
+**The experiential gap in Wynne's framework is filled by [[Human-in-the-Loop is Tired]].** Wynne describes the structural shift (the work is now engineering the production system); Laura Summers describes what it *feels* like (supervision fatigue, the broken reward function, the solitary loop). Her observation that "the bottleneck was never the code" is Wynne's thesis arrived at from the inside, and her "responsive design" analogy — craft evolving rather than dying — is the personal-history version of Wynne's Lean/XP continuity argument.
+
 ---
 
 *Sources: [[summary/lean-software-production]]*

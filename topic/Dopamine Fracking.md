@@ -44,6 +44,8 @@ A fair point. The culture already has vocabulary for the consumption side (brain
 
 The connection to [[The solution might be cancelling my AI subscription (Wilson)]] is particularly sharp. Wilson's 70 AI-built projects, none worth keeping — that's dopamine fracking applied to creative work. The friction he was bypassing was the thing that ensured commitment and quality. Extract the dopamine of "I built something," strip the friction of actually building it, and you get seventy abandoned projects and a hollow feeling.
 
+Laura Summers names the developer-specific instance of this as the "human reward function problem" in [[Human-in-the-Loop is Tired]]: hand-coding provided small, frequent dopamine hits (solving problems, watching code compile) that LLM-assisted work replaces with the cognitive load of supervision. "The satisfying part shrank. The exhausting part grew." It's dopamine fracking applied to the programmer's own reward system — the extraction depletes what it extracts.
+
 ---
 
 *Sources: [[summary/dopamine-fracking]]*
