@@ -64,6 +64,8 @@ The core problem: you want agents powerful enough to be useful but constrained e
 
 **MCP-native security.** [[agentsh]] is the first tool with MCP-specific security controls: tool whitelisting, version pinning for rug-pull detection, cross-server exfiltration blocking, and token bucket rate limiting. This addresses a gap that most sandboxing solutions don't even acknowledge, since MCP servers run with ambient trust.
 
+**Per-session Kubernetes isolation.** Ai2's Mothership platform provisions a dedicated Kubernetes deployment for each user session, with JWT injection at provision time and session-scoped files that are never shared. Designed for multi-tenant government use across 70+ countries where data isolation failures are career-ending. [[Building Shippy — Agent Architecture for High-Stakes Domains]]
+
 **Nested sandbox defense in depth.** [[Building Agents That Don't Break Themselves]] argues that even an agent running inside a sandbox should dispatch commands to a *separate* sandbox — verified by Fly.io Sprite ID mismatches on return — so no agent can compromise its own execution environment even if it tries. The corollary: copy-on-write checkpointing before every risky step turns catastrophic self-destruction into a nine-second rollback.
 
 ## Key Themes

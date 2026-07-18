@@ -57,6 +57,8 @@ Principle 6 (cross-CLI vocabulary) is the one I'm most convinced about and the o
 
 The two-way I/O principle (10) is the most novel. `--deliver` routing artifacts to stdout/file/webhook eliminates the "stdout to temp file then move" dance. But the `feedback` command is the genuinely new idea: a channel for agents to report friction back to maintainers. Most CLI maintainers never learn that a particular error message cost 3 retries because there's no reporting path. A local JSONL by default with optional upstream POST is exactly right.
 
+In production: Ai2's Shippy maritime agent applies the same principles — a purpose-built CLI (`skylight events search`) with typed flags, `--help` designed for agent consumption, and output to local JSON files rather than stdout to avoid pipe buffer issues and enable multi-step analysis. "Each layer narrows what the next layer can get wrong." [[Building Shippy — Agent Architecture for High-Stakes Domains]]
+
 What's missing: Chow doesn't address auth in the agent context. Agents need to authenticate differently than humans (service accounts, OAuth device flow, MCP auth). The profile system (principle 9) could carry credentials but Chow doesn't go there. Also, the framework inherits the CLI model's assumption that text streams over pipes is the right interop layer — agents may eventually want something richer, like structured event streams with typed schemas.
 
 Still, this is the document I'd hand to any team building a CLI today. The principles are concrete enough to implement, the "what good looks like" sections give clear targets, and the blocker/friction/optimization framework makes prioritization obvious.
