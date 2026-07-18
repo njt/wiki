@@ -232,6 +232,7 @@ Evals, testing, linting, feedback loops, and keeping agent output trustworthy. *
 
 Isolation, credentials, prompt injection defense, and agent safety. **Hub: [[Security and Sandboxing]]**
 
+- [[AI Security Framework for DevSecOps]] — PreEmptive's practical guide to operationalizing AI security across the DevSecOps lifecycle: CI/CD enforcement, application hardening, and the framework taxonomy (NIST/EU/OWASP/MITRE/SAIF) that are complementary but not interchangeable
 - [[Agent Skills for Security Testing]] — A library of 16 Claude Code skills for web application security testing, built from 4,000+ HackerOne bug bounty reports. Each skill distills vulnerability patterns into grep commands and curl tests
 - [[Agentic AI Security Stack]] — Fernando Lucktemberg's free 200+ page reference: unified threat model tracing kill chains through 12 interception points, mapped to OWASP, MITRE ATLAS, and CSA MAESTRO
 - [[Akmon]] — Tamper-evident evidence layer for AI agents: content-addressed, cryptographically signed session records verifiable offline with openssl. 95K LoC Rust workspace, 14 crates, built-in coding agent as reference producer
