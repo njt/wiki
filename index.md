@@ -239,6 +239,7 @@ Isolation, credentials, prompt injection defense, and agent safety. **Hub: [[Sec
 - [[Transsion Telemetry — Embedded Mobile Surveillance]] — NowSecure researchers break Transsion's Athena/oneID telemetry encryption, revealing device-wide GPS, app-usage, and network surveillance on 200M+ phones; the SDK escapes OEM boundaries through third-party apps with 500M+ downloads
 - [[VulnHunter]] — Capital One's open-source agentic AI security tool: attacker-perspective forward analysis with a falsification engine that tries to disprove its own findings before they reach developers. Claude Code skill, Apache 2.0
 - [[Visa Vulnerability Agentic Harness (VVAH)]] — Visa's open-source 11-stage agentic SAST pipeline: LLM-driven discovery, adversarial verification, automated remediation, and agentic validation panel — targeting Mean Time to Adapt as primary metric
+- [[Web Application and API Protection (WAAP)]] — PreEmptive's overview of WAAP's four-capability platform (WAF, bot management, DDoS, API security), its perimeter limitation, and why code-level protection fills the gap — especially as AI tools collapse the cost of reverse engineering
 
 ## Software Engineering
 
