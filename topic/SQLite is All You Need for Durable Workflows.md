@@ -48,6 +48,8 @@ The discipline argument. Start with the infrastructure your state actually requi
 
 **The "day one" argument is a discipline worth preserving.** The article's most important contribution might be the reminder that you don't need Postgres on day one. Too many agent startups reach for distributed Postgres before they have a single paying customer. The article gives permission to start simple — and names the conditions under which you should upgrade.
 
+**The due diligence companion:** [[How to Corrupt an SQLite Database]] catalogs every failure mode the SQLite team knows about — the shadow side of "SQLite is all you need." If you're building on SQLite for durable workflows, that page is your operational checklist for which failure modes apply to your deployment and whether WAL mode + Litestream covers them.
+
 **What's missing: the migration story.** If you start with SQLite + Litestream and later need Postgres, what's the path? The article mentions Obelisk supports both, but doesn't describe the operational experience of migrating. This is the gap between "start simple" and "grow up" that every architecture guide needs to address.
 
 **Comparison to the wiki's database landscape:** This sits between [[Graft]] (SQLite + object storage for edge replication) and [[All Your Agents Are Going Async]] (durable state as the hard half of agent infrastructure). Unlike Graft, it's not trying to solve distributed writes — it's about single-tenant durability with backup. Unlike the async agents piece, it's concrete about the storage layer rather than the protocol layer. And unlike [[Dolt]] or [[CodeMira]], it's not trying to build a new database — it's arguing that vanilla SQLite with one well-chosen companion tool is the right answer for most cases.

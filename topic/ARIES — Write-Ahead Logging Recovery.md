@@ -77,6 +77,8 @@ Every time you `COMMIT` in PostgreSQL and trust that your data survives a power 
 
 For the agentic development world: ARIES is a reminder that the hardest problems in computing aren't about intelligence — they're about **maintaining invariants across unpredictable failure modes**. Every agent orchestration system that claims durability or reliability is reinventing a tiny subset of what ARIES solved in 1992, usually badly. If you're building an agent with persistent state, read this paper before you invent your own recovery scheme.
 
+The companion to ARIES is [[How to Corrupt an SQLite Database]] — where ARIES defines how recovery *works*, that page catalogs every way it *fails*. Together they bracket the trust boundary: the algorithm that guarantees consistency, and the environmental failures (lying hardware, broken filesystems, application bugs) that breach the guarantee.
+
 The paper also demonstrates that **you ship the details, not just the idea**. WAL and logging existed before ARIES. What ARIES contributed was getting every interaction right: LSNs on pages, CLR chaining, the three-pass structure, the separation of page-oriented redo from logical undo. The whole is greater than the sum, but only because the sum was computed correctly.
 
 ## Key Themes
