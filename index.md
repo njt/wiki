@@ -60,6 +60,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Fable Open-Sourced NanoClaw's PR Factory]] — Gavriel Cohen's $800 overnight Fable 5 ultracode session: 405-commits-stale fork → open-sourceable in 5 unattended hours. Customization guidelines as the durable spec, mutation-verified guard tests, human operating exclusively at the decision layer, and the export-control coda
 - [[Code Cleanliness and Coding Agents]] — SonarSource's minimal-pair study (660 trials): cleaner code doesn't change agent pass rates but cuts token consumption 7–8% and file revisitations 34%; the *kind* of cleanliness matters — thin dispatchers help, more methods without better decomposition hurt
 - [[AI Slop Starts with the Codebase Itself]] — AI slop isn't just about prompts; a codebase that speaks a dialect the models already know from training data is a productivity multiplier, and proprietary patterns are an AI tax that compounds
+- [[Five Studies That Are Changing How I Think About AI in Software Engineering]] — Brian Houck's synthesis of five 2026 papers converging on the same story: AI compressed upstream coding, and everything downstream (review, verification, understanding, shipping) is breaking. Introduces the productivity-experience paradox, bounded delegation, and Storey's cognitive/intent debt taxonomy
 
 ## Agent Design & Architecture
 
