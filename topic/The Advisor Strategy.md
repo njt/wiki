@@ -77,8 +77,9 @@ The zero-overhead-on-simple claim is critical. If the advisor adds latency or co
 - [[All Your Agents Are Going Async]] — Agent transport patterns; the advisor runs synchronously within a single request
 - [[Building Production-Ready Voice Agents]] — 50% of effort goes to admin, not the agent; the advisor's `max_uses` simplifies the admin burden
 - [[Agent Orchestration for the Timid]] — The advisor pattern as the timid orchestrator's dream: no decomposition, no worker pool, just occasional escalation
+- [[Model Routing Is Simple Until It Isn't]] — IBM Research's reframe of routing from classification to multi-objective optimization; the advisor pattern is a specific operating point on the cost-accuracy frontier — always escalate to Opus on hard decisions, commit to Sonnet for execution
 
 ---
 
 *Sources: [[summary/the-advisor-strategy]]*
-*Last updated: 2026-06-09*
+*Last updated: 2026-07-18*
