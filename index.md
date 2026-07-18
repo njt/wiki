@@ -217,6 +217,7 @@ Isolation, credentials, prompt injection defense, and agent safety. **Hub: [[Sec
 - [[Bumblebee]] — Perplexity AI's zero-dependency Go scanner for endpoint supply-chain inventory: reads lockfiles, MCP configs, and extension manifests without executing package managers, then matches against operator-supplied exposure catalogs for incident response
 - [[DKIM2 and DMARCbis]] — Email's two core authentication protocols get their first major overhaul: DKIM2 adds replay-proof chains of custody and reversible forwarding recipes; DMARCbis replaces the brittle Public Suffix List with a DNS tree walk
 - [[Transsion Telemetry — Embedded Mobile Surveillance]] — NowSecure researchers break Transsion's Athena/oneID telemetry encryption, revealing device-wide GPS, app-usage, and network surveillance on 200M+ phones; the SDK escapes OEM boundaries through third-party apps with 500M+ downloads
+- [[VulnHunter]] — Capital One's open-source agentic AI security tool: attacker-perspective forward analysis with a falsification engine that tries to disprove its own findings before they reach developers. Claude Code skill, Apache 2.0
 
 ## Software Engineering
 
