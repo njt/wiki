@@ -1,6 +1,6 @@
 # Wiki Index
 
-498 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+499 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -261,6 +261,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 - [[Code-First Developer]] — Khalil Stemmler's five-phase model of developer craft growth: from code-first through value-first, the Expert Junior Developer trap, and why mastery beats breadth when AI makes coding cheap
 - [[Command Line Interface Guidelines]] — The canonical open-source reference for modern CLI design by Docker Compose co-creators: human-first philosophy, concrete guidelines across help/output/errors/flags/subcommands/config/naming, and the case that CLIs are conversations, not atomic invocations
 - [[CQRS Pattern in C# and Clean Architecture]] — Nick Cosentino's beginner guide to combining CQRS with Clean Architecture in C#/.NET: clear definitions and MediatR-style code examples, strongest as a conceptual on-ramp rather than a production guide
+- [[Observer Pattern to Event-Driven Architecture in Dart]] — Oluwaseyi Fatunmole's handbook tracing Observer → EventBus → Domain Events → Riverpod in production Dart/Flutter, with the clean separation: use cases own consequences, notifiers own UI state, widgets own nothing
 - [[Event Sourcing — Set-and-Remove Bi-Temporal Events]] — Urs Enzler's part-twelve deep-dive distinguishing lifetime (create-update-delete) from set-and-remove bi-temporal event streams, with the override-vs-insert choice as explicit per-stream configuration
 - [[Litmus (.NET Testing Priority Tool)]] — Ebrahim Sayed Ebrahim's free .NET CLI tool that ranks files by testing priority via a two-phase formula (churn × coverage × complexity, then discounted by coupling) with Roslyn-based seam detection for testability
 - [[Queues Don't Fix Overload]] — Fred Hebert's 2014 classic on why queues treat symptoms not causes: identify the bottleneck, then back-pressure or load-shed; everything else makes failures rarer but more catastrophic
