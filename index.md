@@ -1,6 +1,6 @@
 # Wiki Index
 
-494 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+495 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -53,6 +53,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Matt Pocock — Grill Me, Then Go AFK]] — The smart zone/dumb zone model of LLM context, the grill me alignment skill, and a full pipeline from Socratic planning through AFK agent implementation to manual QA
 - [[James Montemagno — Copilot Custom Instructions]] — GitHub Copilot's custom instructions as CLAUDE.md-equivalent infrastructure: auto-generation via VS Code Insiders, scoped instruction files, and the same instruction-budget problems Montemagno doesn't address
 - [[Building When It Feels Like There's Nothing Left to Build]] — Chip Huyen on the existential question: when AI can build anything describable, why build at all? Evaporating moats, long-tail problem targeting, local human preference as the last defensible advantage, and building for joy as the answer that survives
+- [[I Stopped Coding and Started Architecting Agents (And Why You Should Too)]] — Emily Bache's harness engineering flywheel: Guides (feed-forward) + Sensors (feedback), start with unit tests, grow the harness incrementally, and remove cruft as models improve
 - [[Lean Software Production]] — Matt Wynne's three-pillar framework (Lean + XP + agentic production) for the post-craft era: AI makes methodology existential, not optional. The product is still working software, but the work is engineering the system that produces it
 - [[Lead User and the Machines That Build Machines]] — Brad Feld extends Eric von Hippel's Lead User theory into the AI era: sticky information stays with the user, machines act as manufacturer, and the user-manufacturer boundary dissolves into a prompt. Feld insists on "machine" over "agent" as terminological discipline
 - [[Lessons from Building Cursor]] — Unnamed Cursor engineer on ByteByteGo: RL as the only path to tool-use, 100M+ CPU hours for sandbox training, context windows solved through incentives not prompts, "coding got solved in six months," self-driving codebases, and the devex-for-AI problem
