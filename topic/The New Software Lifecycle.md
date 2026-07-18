@@ -69,5 +69,5 @@ The conductor/orchestrator distinction is useful but incomplete. The real spectr
 - [[Human-in-the-Loop is Tired]] — Laura Summers on the psychological cost of reviewing AI output that Osmani doesn't fully address
 
 ---
-*Sources: [[raw/new-software-lifecycle]]*
+*Sources: [[raw/new-software-lifecycle]], [[raw/new-sdlc-vibe-coding]]*
 *Last updated: 2026-07-18*
