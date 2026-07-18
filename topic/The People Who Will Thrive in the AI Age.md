@@ -88,6 +88,7 @@ This is the same insight as [[The Education of the Broligarchy|Blake Smith's ess
 - [[Agent Identity]] — identity as participation, not just a log
 - [[They're Made Out of Weights]] — LLMs are "just weights" all the way down
 - [[A Non-Anthropomorphized View of LLMs]] — LLMs as functions through ℝⁿ
+- [[Guardian Angels]] — Gwern's technical proposal for an AI that emulates a specific human; the engineering answer to Brooks's volition question
 - [[Man-Computer Symbiosis]] — Licklider's vision of goal-oriented programming
 - [[Loop Engineering]] — comprehension debt, cognitive surrender
 - [[Thinking Hard Burns Almost No Calories]] — mental fatigue is perceived exertion, not energy drain
