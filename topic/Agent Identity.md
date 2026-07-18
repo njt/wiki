@@ -59,6 +59,8 @@ The weakness: the prescription is thin. `cairn` is a prototype. "Pheromone trail
 
 The provocation: if the article is right, then most of the agent-memory work is solving the wrong problem. Not "how do we remember more" but "how do we give agents a stake." That's a harder problem — it requires persistence, identity, and continuity — but it might be the one that matters.
 
+[[Guardian Angels|Gwern's Guardian Angels essay]] is the most concrete instantiation of identity-as-participation currently on the table: dynamic evaluation (continuous on-the-fly finetuning) as the mechanism, an append-only log as the data structure, and a GA that can say what its principal would say — "profane, heretical, weird" — because every sanding of the persona is a point where emulation fails. It's the same argument ("grounded no") applied to expression rather than action: an agent that can't refuse to be inoffensive can't represent you.
+
 See also: [[Zero Alignment]] (Appleton's parallel argument from the coordination side), [[Slowing the Fuck Down]] (deliberate friction as feature), [[Cognitive Debt]] (velocity exceeding comprehension), [[The Mythical Agent-Month]] (agents generate new accidental complexity), [[ThoughtWorks Future of Software Engineering Retreat]] (agent topologies as Conway's Law), [[Smart Models Dumb Pipes]] (end-to-end principle applied to AI).
 
 ---

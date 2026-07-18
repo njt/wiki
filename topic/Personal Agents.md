@@ -55,6 +55,10 @@ The pattern: nearly everyone builds tools *around* agents rather than agents the
 
 **Community vs. solo operation.** [[Hermes]]'s Skills Hub and [[clawdBot]]'s community skill repository add sharing. But sharing skills between agents requires trust -- a skill from a stranger could contain malicious instructions. Nobody has solved skill vetting for personal agent communities.
 
+## The Theoretical Ceiling
+
+[[Guardian Angels|Gwern's Guardian Angels]] represents the limit case of what the personal agent movement is building toward: an LLM finetuned so precisely on a single person's corpus that it can substitute for them in most contexts, handling execution while the human focuses exclusively on "what is worth doing." The gap between current personal agents (which *serve* you) and Guardian Angels (which *are* you, as nearly as possible) is both technical and philosophical — most of the personal agent community would not endorse full substitution as a goal, even if it were achievable. But Gwern's anti-principles (no engagement optimization, no brand-safety sanding, >$1,000/month as a feature not a bug) are a useful stress test for any personal agent design.
+
 ## What's Missing
 
 **Evaluating personal agents.** How do you know your personal agent is performing well? There are no evals for "did my assistant handle my email correctly?" or "did the scheduling make my day better?" [[Demystifying Evals for AI Agents]] covers coding agents; personal agent evaluation is entirely uncharted.
