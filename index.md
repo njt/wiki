@@ -66,6 +66,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 
 How to build agents: frameworks, runtimes, design patterns, and production concerns.
 
+- [[Grok Build]] — SpaceXAI's terminal-based AI coding agent: pure Rust, ~80 crates, 1M+ lines. TUI-first with formal JSON-RPC tool protocol, three-strategy compaction engine, actor-based chat state, markdown+vector memory, and vendored Mermaid stack. Open-source as publication from the xAI monorepo
 - [[Oh My Pi (omp)]] — Can Bölük's open-source terminal coding agent: fork of Pi-mono, 32 tools, 40+ providers, ~55K lines of in-process Rust. Content-hash editing, time-traveling stream rules, dual memory architecture, and the thesis that the harness matters more than the model
 - [[Building Agents That Don't Break Themselves]] — Daniel Botha's brains-vs-hands architecture: the agent reasoning loop lives on durable infra, but execution happens in disposable nested sandboxes with copy-on-write checkpointing as a reflex
 - [[OpenMono Agent]] — StartupHakk's local-first .NET 10 coding agent: 20 tools, 5 sub-agents, dual-tier context management, YAML playbook engine, capability-based permissions, self-hosted web search/scrape, VS Code extension via custom ACP
