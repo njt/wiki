@@ -1,6 +1,6 @@
 # Wiki Index
 
-495 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+496 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -240,6 +240,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 - [[Your Backend Is Full of Hidden Workflows]] — How backend codebases quietly accrete coordination logic across services, queues, and handlers until teams are managing workflows they can't see. The three costs: expensive changes, painful debugging, eroded trust
 - [[99 Bottles of OOP]] — Sandi Metz's practical workbook: OO design as line-by-line decision-making, the Flocking Rules as structured refactoring, and "programming aesthetic" as the antidote to evaluative anesthesia
 - [[Code-First Developer]] — Khalil Stemmler's five-phase model of developer craft growth: from code-first through value-first, the Expert Junior Developer trap, and why mastery beats breadth when AI makes coding cheap
+- [[Command Line Interface Guidelines]] — The canonical open-source reference for modern CLI design by Docker Compose co-creators: human-first philosophy, concrete guidelines across help/output/errors/flags/subcommands/config/naming, and the case that CLIs are conversations, not atomic invocations
 - [[CQRS Pattern in C# and Clean Architecture]] — Nick Cosentino's beginner guide to combining CQRS with Clean Architecture in C#/.NET: clear definitions and MediatR-style code examples, strongest as a conceptual on-ramp rather than a production guide
 - [[Queues Don't Fix Overload]] — Fred Hebert's 2014 classic on why queues treat symptoms not causes: identify the bottleneck, then back-pressure or load-shed; everything else makes failures rarer but more catastrophic
 - [[Patreon Notification Fanout]] — Patreon's two-stage fanout architecture rebuild: 80% faster push/in-app, 55% faster email; the 16× migration velocity jump when leadership aligned on deadlines, and AI-assisted migration via Claude Code skills across 10 teams
