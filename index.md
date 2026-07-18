@@ -511,6 +511,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 - [[Model Routing Is Simple Until It Isn't]] — IBM Research's field report: model routing breaks in production because cost depends on cache economics (not per-token pricing), task difficulty is invisible at routing time, and latency is dominated by infrastructure state (not model speed). Reframes routing from classification to multi-objective optimization, achieving 21% cost reduction and 9% latency reduction at 4% accuracy drop
 - [[BFId — WiFi Identity Inference via Beamforming Feedback]] — CCS '25: passive WiFi beamforming feedback (BFI) identifies 197 individuals at 99.5% accuracy with off-the-shelf hardware and weaker adversary model than CSI; BFI compression accidentally filters noise, making it a better surveillance vector than raw signal
 - [[Theories of Deep Learning]] — astle dsa surveys three mathematical frameworks closing deep learning's theory gap: categorical deep learning (algebra of architectures), modular duality (geometry-aware optimization), and output-space generalization via eNTK (benign overfitting, double descent, grokking)
+- [[World Models — Promise and Limits (Ars)]] — Samuel Axon's definitive 2026 survey of the world-model landscape: three expert interviews mapping competing definitions, architectures, and bets (Runway vs World Labs vs AMI), with the bitter lesson as live controversy and the interface vacuum as the unresolved product problem
 
 ## AI Infrastructure & Hardware
 
