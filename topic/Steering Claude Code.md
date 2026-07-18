@@ -43,7 +43,7 @@ This post is the **reference manual** for the instruction-placement problem that
 - [[James Montemagno — Copilot Custom Instructions]] shows the same instruction-budget problem in GitHub Copilot's ecosystem
 - [[Running an AI-Native Engineering Org]] shows how Anthropic's own team uses these mechanisms at scale
 
-The post also implicitly connects to the broader agent architecture conversation: subagents as isolated context windows are the same pattern as [[The Advisor Strategy]] (specialized models called on demand) and [[MiMo Code]]'s independent writer subagent for memory extraction.
+The post also implicitly connects to the broader agent architecture conversation: subagents as isolated context windows are the same pattern as [[The Advisor Strategy]] (specialized models called on demand) and [[MiMo Code]]'s independent writer subagent for memory extraction. For a worked example of skills encoding complex multi-phase agent pipelines, see [[Cloudflare Security Audit Skill]] — a skill that orchestrates parallel subagents through a six-phase security audit with adversarial validation and structured output enforcement.
 
 ---
 

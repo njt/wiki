@@ -89,6 +89,7 @@ The core problem: you want agents powerful enough to be useful but constrained e
 - [[Clawpatrol]] — Deno's transparent L3 firewall for agents: WireGuard/Tailscale tunneling, protocol-aware CEL rules (SQL/K8s/SSH/HTTPS), credential injection at the wire, human+LLM approval chains. Single Go binary, SQLite-backed
 - [[agentsh]] — Execution-layer security gateway: redirect instead of deny, FUSE+eBPF+seccomp, MCP-native security controls
 - [[Project Glasswing — Mythos at Cloudflare]] — Cloudflare's nine-stage vuln discovery harness on 50+ repos: exploit chain stitching, adversarial review, and why patching faster is a trap
+- [[Cloudflare Security Audit Skill]] — Cloudflare's open-source Claude Code skill for security auditing: the six-phase pipeline (recon → hunt → adversarial validation → report → structured output → independent verify) that seeded their internal Glasswing vulnerability harness. Pure prompt engineering; no static analysis
 - [[audit (evilsocket)]] — Runnable MIT-licensed implementation of Cloudflare's Glasswing pipeline using Claude Code Agent SDK: 8 stages, 8 prompts, 9 schemas, SQLite state, concurrent agents
 - [[AI Cybersecurity After Mythos — The Jagged Frontier]] — Fort tests Mythos's claims against cheap open-weights models: 8/8 detect the flagship exploit. The moat is the scaffold, not the model
 - [[Cybersecurity Is Proof of Work Now]] — Security is a compute economics problem: outspend your attacker or stay vulnerable. Breunig's proof-of-work framing for the Mythos era
