@@ -42,6 +42,8 @@ Storage is a design problem, not a commodity service. The pages in this wiki rev
 
 [[Dapper Performance Trap]] is a cautionary tale: NVARCHAR vs VARCHAR implicit conversion defeats indexes silently -- 176x slower on a million-row table. AI-generated Dapper code will produce this default every time because that's what the docs show.
 
+[[Malloy]] is an open-source semantic modeling language that compiles to SQL: define measures once with correct join handling (symmetric aggregates), and every query reuses them. The language-first alternative to Looker/Cube.js — you write `.malloy` files, the compiler generates dialect-specific SQL for 8+ databases. Like the "oracle as asset" pattern in [[The Oracle Is the Asset]], the Malloy semantic model is the durable artifact; the generated SQL is regenerable on demand.
+
 ### The LLM Data Pipeline
 
 [[Data Engineering for Large Models]] is a 28-chapter open-source textbook covering the complete pipeline: pre-training data cleaning, multimodal alignment, synthetic data generation, RAG architecture, and enterprise DataOps. The "data-centric AI" framing: data quality improvements consistently outperform model architecture improvements at the margin.
