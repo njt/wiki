@@ -68,6 +68,7 @@ The article also doesn't engage with the failure modes of local models. What hap
 - [[MiMo-V2.5-Pro-UltraSpeed]] — Xiaomi's 1T MoE model at 1000+ tok/s via FP4 + speculative decoding + persistent kernels
 - [[JetBrains Mellum2]] — 12B MoE coding model with MTP head for speculative decoding; "focal model" concept
 - [[Cohere North Mini Code]] — 30B MoE (3B active) agentic coding model on a single H100
+- [[Bonsai 27B]] — PrismML takes quantization to its logical extreme: ternary/binary Qwen 3.6 27B at 3.9 GB, the first 27B-class model to fit on a phone. Retains ~90% of baseline quality with no FP16 escape hatches anywhere in the network
 - [[Local and Open Source Inference]] — Hub page: voice is solved, documents are close, reasoning still needs cloud
 - [[Subquadratic 12M Context Window]] — Unverified sparse attention claim in the same problem space
 - [[GPU-Free AI Datacenters]] — The networking problem created by distributed training synchronization

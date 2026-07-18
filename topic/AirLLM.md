@@ -4,6 +4,8 @@ AirLLM is a Python library (~1,500 lines) that runs 70B+ LLMs on consumer GPUs b
 
 The core insight: transformers process layers sequentially, so you only ever need one layer's weights on the GPU. Everything else lives on disk or the `meta` device. This is a different axis of the memory-capacity trade-off than the rest of the local inference ecosystem explores — it trades speed (constant disk I/O) for model scale (any model fits if you have the disk space).
 
+Compare with [[Bonsai 27B]], which takes the opposite approach: extreme quantization (1.125 bpw binary weights) that keeps the entire 27B model in 3.9 GB of memory at full speed, rather than streaming layers. Both solve the "big model, small hardware" problem from different architectural directions — temporal vs. spatial decomposition.
+
 ---
 
 ## Architecture
