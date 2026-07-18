@@ -405,6 +405,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 - [[TabFM (Tabular Foundation Model)]] — Google Research's foundation model for tabular data: 3-stage transformer (Fourier cell embedding → Set Transformer columns → decoder ICL) with zero-shot in-context classification and regression, sklearn-compatible
 - [[Moises — AI Music Separation and Creation]] — 65M-user music AI platform: stem separation as the wedge, browser-based AI Studio for stem-by-stem generation, and the separation-to-generation training flywheel. Apple iPad App of the Year 2024
 - [[Self-Distillation]] — LLMs improve at code generation using only their own outputs. No verifier needed
+- [[LLM-as-a-Verifier]] — Kwok et al. establish verification as a distinct scaling axis: logit-expectation continuous scores eliminate judge ties, achieve SOTA across coding/robotics/medical benchmarks, and provide dense RL rewards with ~1.8× sample efficiency gains
 - [[Capybara]] — ByteDance's unified model for text-to-image, text-to-video, and editing
 - [[Choosing a GGUF Model]] — Benjamin Marie's taxonomy of GGUF quantization formats: legacy Q_0, K-quants (two-level super-blocks), and I-quants (importance-matrix reconstruction), with practical recommendations for which to pick
 - [[Granite Libraries and Project Granite Switch]] — IBM's adapter-function ecosystem: LoRA/aLoRA libraries (RAG, Core, Guardian) + switching layer that preserves KV cache. The push to make LLMs as composable as software

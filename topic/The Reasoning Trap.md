@@ -50,6 +50,8 @@ DPO works — hallucination drops from 90.2% to 55.8% on NTA, 100% to 71.4% on D
 
 **What I'd want next:** (1) Does this hold for multi-step tool chains? (2) Can you train abstention as a first-class action without the DPO utility penalty? (3) Does the effect appear in non-tool domains — does reasoning RL also increase factual hallucination in pure text generation? (4) Are there architectural interventions (e.g., abstention heads, tool-availability classifiers) that break the trade-off?
 
+**Verification as antidote.** [[LLM-as-a-Verifier]] offers one path through the trade-off: rather than training models to be more honest (and less competent), use a separate verifier to discriminate correct from hallucinated outputs at inference time. If reasoning makes models more productive but less trustworthy, verification decouples productivity from trustworthiness — the model generates freely, the verifier filters ruthlessly. The verifier's 98.9% oracle ceiling on Terminal-Bench V2 suggests this approach has headroom the DPO trade-off lacks.
+
 ---
 *Sources: [[summary/the-reasoning-trap]]*
-*Last updated: 2026-07-05*
+*Last updated: 2026-07-18*
