@@ -101,6 +101,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[From AI Studio to AI Forge]] — McCormick's five-plane stack for agent autonomy: "human changes altitude" as the cleanest framing of supervisory control
 - [[ProofEditor]] — Agent-first collaborative document editor from Every: agents suggest edits, humans review, provenance-tracked attribution
 - [[Building Agents for Production Systems with MCP]] — Anthropic's guide: MCP as the standard agent-to-production integration layer
+- [[Malloyyo]] — Thin web service turning Malloy semantic models into governed MCP endpoints for AI agents, with restricted query enforcement and connection pooling for serverless
 - [[10 Principles for Agent-Native CLIs]] — Trevin Chow's two-tier framework: Table Stakes (don't break the agent) and Compounding (make the CLI better the more agents use it). Design for agents first, humans benefit
 - [[Cloud Agent Lessons from Cursor]] — Josh Ma on Cursor's cloud agent infrastructure: the dev environment IS the product, Temporal for durable execution (50M+ actions/day, 40%+ of PRs), three-way agent/machine/state decoupling, and why the harness should retreat as models improve
 - [[Cloudflare Temporary Accounts for Agents]] — `wrangler deploy --temporary` gives agents throwaway 60-min deployment targets with zero human sign-up. The first platform to treat "an agent needs to deploy" as a product requirement, not a credential-sharing hack
