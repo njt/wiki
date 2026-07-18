@@ -68,7 +68,7 @@ Storage is a design problem, not a commodity service. The pages in this wiki rev
 
 **Streaming and real-time.** The wiki has batch-oriented databases (Dolt, AliSQL, NornicDB) and edge-oriented databases (Graft, zvec) but nothing on streaming data -- Kafka, Flink, real-time event processing. This is a gap worth filling, especially as agents generate event streams from tool use.
 
-**Database migration patterns.** If you start with SQLite and outgrow it, what's the migration path to Dolt or AliSQL? The interop story between these databases is mostly undocumented.
+**Database migration patterns.** If you start with SQLite and outgrow it, what's the migration path to Dolt or AliSQL? The interop story between these databases is mostly undocumented. [[SQLite Is All You Need]] names the breakpoint (many writers contending on the same rows, need for read replicas, real analytics over hundreds of millions of rows) but, like [[SQLite is All You Need for Durable Workflows]], doesn't describe the migration experience itself.
 
 ## Key Themes
 
@@ -82,6 +82,7 @@ Storage is a design problem, not a commodity service. The pages in this wiki rev
 - [[bucketvcs]] — Git server backed directly by cloud object storage: single Go binary, the bucket IS the repository, no database holds Git objects
 - [[Graft]] — SQLite replicated to the edge via object storage
 - [[SQLite is All You Need for Durable Workflows]] — SQLite + Litestream is the right default for agent workflow state; Postgres is the upgrade path, not the starting line
+- [[SQLite Is All You Need]] — DB Pro's benchmarked case for SQLite as a production web backend: 3,654 req/s on one file, WAL mode quantified, and the argument that user acquisition is the bottleneck, not database throughput
 - [[Write Snapshot Isolation]] — SI checks stale writes; WSI checks stale reads. Serializability in one fix
 - [[Dapper Performance Trap]] — NVARCHAR vs VARCHAR implicit conversion defeats indexes. Quiet perf killer
 - [[zvec]] — Alibaba's in-process vector DB. Billions of vectors, milliseconds, pip install

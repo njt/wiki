@@ -24,7 +24,7 @@ Graft occupies an interesting position in the replicated database landscape. Its
 
 The "stateless on object storage" architecture is the key differentiator. It means Graft doesn't need a running cluster -- it uses S3 (or equivalent) as the coordination point. This is architecturally simpler and operationally cheaper than anything requiring consensus nodes.
 
-Connects to [[Dolt]] (different philosophy -- full Git-for-data vs. edge replication) and the broader question of how AI agents running at the edge should manage local state.
+Connects to [[Dolt]] (different philosophy -- full Git-for-data vs. edge replication) and the broader question of how AI agents running at the edge should manage local state. [[SQLite is All You Need for Durable Workflows]] applies SQLite to agent workflow persistence; [[SQLite Is All You Need]] benchmarks it as a general web backend capable of 3,654 req/s on the heaviest query.
 
 ## Critical Analysis
 
