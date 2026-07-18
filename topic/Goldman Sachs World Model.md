@@ -69,7 +69,8 @@ Translation: if world models take off, everyone's infrastructure models are wron
 - [[The Future of Everything is Lies I Guess]] — Kingsbury's catalog of LLM harms; world models could mitigate some (grounding in reality) and amplify others (simulation as manipulation)
 - [[Interfaze (Model Architecture)]] — hybrid architecture routing tasks to specialized subnetworks; a different approach to the same "LLMs aren't enough" problem
 - [[Where the Goblins Came From]] — what happens when model internals encode things nobody intended; world models would have their own goblins
+- [[World Models — Promise and Limits (Ars)]] — Axon's 2026 practitioner interviews confirm the bets are still open: the same practitioners Goldman cites as investable openly disagree on definitions, architectures, and whether video is even the right modality
 
 ---
 *Sources: [[summary/goldman-sachs-world-model]]*
-*Last updated: 2026-05-22*
+*Last updated: 2026-07-18*
