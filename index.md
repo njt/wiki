@@ -322,6 +322,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Introducing git-wt — Worktrees Simplified]] — Bash wrapper smoothing git worktree's sharp edges: auto-fetch, upstream tracking, orphan cleanup, fzf switching
 - [[Code Storage]] — API-first Git infrastructure for machines: programmable repo creation, warm/cold tiering, custom-domain endpoints. The bet that agent-created repos will outnumber human-created ones
 - [[CORS Fetch Tester]] — Simon Willison's browser-based CORS debugging utility: send HTTP requests and inspect exactly what the browser lets you see through CORS
+- [[grok-mermaid — Terminal Mermaid Renderer via WebAssembly]] — Simon Willison's browser tool that converts Mermaid diagrams to Unicode box-drawing art using the Rust renderer from xAI's Grok CLI, compiled to a 163 KB WebAssembly module
 - [[bcc]] — BPF Compiler Collection: kernel-level tracing for Linux performance analysis
 - [[Tmux Resurrect]] — Persists and restores complete tmux environments via tab-delimited flat file serialization; idempotent, zero-config, mini DSL for process matching
 - [[Zellij]] — Rust terminal multiplexer (~296K lines) with WASM plugin system, built-in terminal emulator, per-client rendering, OSC 99 host query forwarding, mobile mode, and session resurrection
