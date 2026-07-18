@@ -1,6 +1,6 @@
 # Wiki Index
 
-493 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+494 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -376,6 +376,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[zeroserve]] — Linux HTTPS server that serves from tarballs and runs eBPF scripts JIT-compiled in-process with a branchless pointer cage sandbox. Compiles Caddyfiles to eBPF middleware
 - [[Cloudflare OAuth for All]] — Zero-downtime Hydra migration (132M rows, -45% P95 latency) to open self-managed OAuth to all Cloudflare customers; queue-based revocation replay during blue-green cutover
 - [[Local Review]] — Local-first git branch review tool: leave line/range comments, export as markdown for coding agents, with drift-resistant anchoring via git diff tracking and snippet matching. Single Go binary, served from localhost
+- [[Tunnet]] — Open-source mesh VPN platform bundling mesh networking, serve, tunnel, send, and SSH under one identity system and policy engine. Rust (~26K lines) on iroh/QUIC, two modes (Managed with control plane, Direct with CRDT membership), self-hosted relay
 
 ## Local & Personal Computing
 
