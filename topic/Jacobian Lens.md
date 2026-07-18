@@ -56,6 +56,8 @@ Unlike many interpretability tools that focus on *identifying* features, the Jac
 
 #tool #project #interpretability #transformers #mechanistic-interpretability
 
+- [[Theories of Deep Learning]] — The J-lens and J-space sit within a broader landscape of deep learning theory surveyed by astle dsa; categorical deep learning and modular duality address architecture and optimization at complementary levels of abstraction
+
 ---
 *Sources: [[raw/jacobian-lens]]*
 *Last updated: 2026-07-08*

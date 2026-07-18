@@ -1,6 +1,6 @@
 # Wiki Index
 
-494 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+495 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -461,6 +461,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 - [[Lean Software Scaling Laws]] — Gwern's research proposal: measure LLM perplexity over codebases as a proxy for language design quality, predicting that formally-strong languages like Lean have worse baselines but better scaling exponents than dynamic languages
 - [[SLM Routing for Knowledge Workers]] — Mukul Singh: nano-model classifier routes 70–85% of knowledge-worker tasks to cheap small models, achieving #2 on GDPVal-AA with only 10 ELO points lost at >10× lower cost. Microsoft's MAI hill-climbing methodology proves small models can match frontier
 - [[BFId — WiFi Identity Inference via Beamforming Feedback]] — CCS '25: passive WiFi beamforming feedback (BFI) identifies 197 individuals at 99.5% accuracy with off-the-shelf hardware and weaker adversary model than CSI; BFI compression accidentally filters noise, making it a better surveillance vector than raw signal
+- [[Theories of Deep Learning]] — astle dsa surveys three mathematical frameworks closing deep learning's theory gap: categorical deep learning (algebra of architectures), modular duality (geometry-aware optimization), and output-space generalization via eNTK (benign overfitting, double descent, grokking)
 
 ## AI Infrastructure & Hardware
 

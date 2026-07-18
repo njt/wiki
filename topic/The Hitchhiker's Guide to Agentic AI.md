@@ -53,6 +53,7 @@ This book intersects with nearly every page in the wiki. Key touchpoints:
 - [[Agent Orchestration]] — the hub page for Roitman's multi-agent coordination chapter
 - [[Building Agents for Production Systems with MCP]] — Anthropic's MCP guide is the applied companion to Roitman's MCP chapter
 - [[Guardrails and Feedback Loops]] — the hub page for Roitman's evaluation methodology chapter
+- [[Theories of Deep Learning]] — Mathematical foundations for the transformer architecture Roitman covers; a survey of the theoretical frameworks that explain *why* deep learning works
 
 ---
 *Sources: [[raw/hitchhikers-guide-agentic-ai]]*
