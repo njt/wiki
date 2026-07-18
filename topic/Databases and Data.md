@@ -68,7 +68,7 @@ Storage is a design problem, not a commodity service. The pages in this wiki rev
 
 **Streaming and real-time.** The wiki has batch-oriented databases (Dolt, AliSQL, NornicDB) and edge-oriented databases (Graft, zvec) but nothing on streaming data -- Kafka, Flink, real-time event processing. This is a gap worth filling, especially as agents generate event streams from tool use.
 
-**Database migration patterns.** If you start with SQLite and outgrow it, what's the migration path to Dolt or AliSQL? The interop story between these databases is mostly undocumented.
+**Database migration patterns.** If you start with SQLite and outgrow it, what's the migration path to Dolt or AliSQL? The interop story between these databases is mostly undocumented. [[Learning a Few Things About Running SQLite]] shows this isn't just an architectural question — it's an operational one. Evans' concurrent-writer timeout cascade is exactly the kind of scaling pain that triggers a migration, and the path from "cleanup in small batches" to a real migration strategy is the missing chapter.
 
 ## Key Themes
 
