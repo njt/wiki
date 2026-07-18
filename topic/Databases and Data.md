@@ -70,6 +70,8 @@ Storage is a design problem, not a commodity service. The pages in this wiki rev
 
 **Database migration patterns.** If you start with SQLite and outgrow it, what's the migration path to Dolt or AliSQL? The interop story between these databases is mostly undocumented. [[SQLite Is All You Need]] names the breakpoint (many writers contending on the same rows, need for read replicas, real analytics over hundreds of millions of rows) but, like [[SQLite is All You Need for Durable Workflows]], doesn't describe the migration experience itself.
 
+**Database reliability and failure modes.** [[How to Corrupt an SQLite Database]] is the only page tackling the question of *when* database guarantees fail — the boundary between the library's promises and the environment's betrayals. A gap worth filling for other databases.
+
 ## Key Themes
 
 #databases #convergence #data-quality #version-control #vector-search #agent-data
@@ -82,7 +84,11 @@ Storage is a design problem, not a commodity service. The pages in this wiki rev
 - [[bucketvcs]] — Git server backed directly by cloud object storage: single Go binary, the bucket IS the repository, no database holds Git objects
 - [[Graft]] — SQLite replicated to the edge via object storage
 - [[SQLite is All You Need for Durable Workflows]] — SQLite + Litestream is the right default for agent workflow state; Postgres is the upgrade path, not the starting line
+<<<<<<< HEAD
 - [[SQLite Is All You Need]] — DB Pro's benchmarked case for SQLite as a production web backend: 3,654 req/s on one file, WAL mode quantified, and the argument that user acquisition is the bottleneck, not database throughput
+=======
+- [[How to Corrupt an SQLite Database]] — The SQLite team's exhaustive catalog of corruption failure modes: the trust boundary between library guarantees and environmental failures
+>>>>>>> ingest-1784369510-68581-7478
 - [[Write Snapshot Isolation]] — SI checks stale writes; WSI checks stale reads. Serializability in one fix
 - [[Dapper Performance Trap]] — NVARCHAR vs VARCHAR implicit conversion defeats indexes. Quiet perf killer
 - [[zvec]] — Alibaba's in-process vector DB. Billions of vectors, milliseconds, pip install
