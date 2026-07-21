@@ -102,6 +102,7 @@ No mention of **synthesis quality** as a distinct concern. Phase shapes end with
 - [[Load-Bearing Assumptions]] — The adversarial verification pattern (`finder → strategist → parallel validators`) is the same shape as `/swarm`'s Collect → Verify pipeline, but `/swarm` adds the publishability gate and cross-model review that LBA doesn't address
 - [[Guardrails and Feedback Loops]] — Rule 12 (cross-model cold review) is the empirical proof of the hub page's thesis: verification must be independent of generation, and same-model independence is not independence
 - [[Steering Claude Code]] — The sidekick as a Claude Code skill that wraps other Claude Code sessions is a meta-instruction pattern: the skill defines how to run skills at scale
+- [[Agent Swarm Model Economics]] — Cursor's peer article from the same week: the five coordination failure modes (split-brain, contention, merge conflicts, megafiles, ossification) are the taxonomy that explains why Swarm Skill's 14 hard rules are necessary, and the SQLite experiment provides the cost data Swarm Skill's shape economics are missing
 
 ---
 *Sources: [[raw/swarm-skill]]*
