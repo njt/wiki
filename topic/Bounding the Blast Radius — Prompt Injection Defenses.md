@@ -76,6 +76,8 @@ The bigger question the article raises but doesn't fully address: if the root ca
 
 The article's critique of static benchmarks is the security-specific instance of a broader pattern: [[Guardrails and Feedback Loops]] documents the same dynamic (deterministic enforcement beats probabilistic prompting), and [[Constraint Decay]] shows the same "works on the benchmark, fails in production" pattern for coding agents.
 
+[[ANSI Escape Sequence Injection in MCP Servers]] extends the prompt-injection attack surface in a direction this survey doesn't cover: byte-level injection via terminal control codes that are invisible to human reviewers but consumed raw by the model. It's a concrete demonstration of the architectural root cause — the absence of a code/data boundary isn't just at the token level, it's at the byte level too. The stored variant (payload persists in application data and detonates on later reads) is the second-order cousin of the multi-turn attacks this survey describes.
+
 ---
 
 *Sources: [[raw/nobody-has-solved-prompt-injection]]*
