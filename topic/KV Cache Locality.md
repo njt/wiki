@@ -59,6 +59,7 @@ Ranvier itself (the open-source project behind this post) is ambiguous from the 
 - [[Dapper Performance Trap]] — Same genre: a hidden variable (NVARCHAR casts, KV cache locality) silently destroying performance at scale
 - [[PgDog]] — Connection pooling and load balancing for Postgres; the same "routing matters" insight in a different domain
 - [[Model Routing Is Simple Until It Isn't]] — IBM Research's empirical proof that cache economics dominate per-token pricing in agent workloads, validating the thesis that caching is the dominant cost variable in LLM systems
+- [[In-House LLM Serving at Netflix]] — Netflix's production confirmation from the other side: Triton's built-in metrics bridge surfaces only 9 of 40+ vLLM metrics, hiding KV cache hit rates and prefix cache hit rates — the exact metrics this article argues are existential
 
 ---
 *Sources: [[summary/kv-cache-locality]]*
