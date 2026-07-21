@@ -72,6 +72,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Teaching the Agent Our Craft]] — Alex Haldeman's field report on structured agentic development with Claude Code: RPI pipelined through skills (`/story-writer`, `/tdd-build`), isolated test-writer subagent with PreToolUse hook enforcement, and MCP-wired Linear/Figma collapsing design-to-code lag. Two developers carrying a multi-tenant healthcare platform through encoded craft
 - [[Team-Wide Agentic Harness]] — Ian Langworth's case for version-controlling the agent harness as team infrastructure: skills as reviewed code, checked-in conventions and evergreen context, and the moment a solo harness crosses into multiplayer
 - [[The GUS Stack — Go, Unix, SQLite]] — Noah Zoschke's stack prescription for agentic coding: pick boring, stable, training-data-dense technologies (Go, Unix, SQLite, HTMX) so agents produce idiomatic code on the first try rather than fighting framework magic
+- [[Agent Skills Library (dzhng)]] — dzhng's curated library of 19 domain-agnostic, composable agent skills for building software factories: fog-of-war planning, spec-as-control-surface, three-gate verification per slice, and a 1d 16h unattended Codex run as proof
 
 ## Agent Design & Architecture
 
