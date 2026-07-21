@@ -81,7 +81,7 @@ This is the best single document on the open-source AI landscape as of mid-2026.
 - #concept **Open-weight capability is jagged, not linear** — parity on coding, behind on reasoning and agentic tasks. The gap isn't one number.
 - #concept **The harness is the new browser** — the agentic orchestration layer is where lock-in, competition, and standards are being decided
 - #pattern **Inference cost collapse as economic engine** — 50× in 36 months, widening the price gap even when the capability gap holds
-- #pattern **Chinese open weights as industrial policy** — semiconductor export control hedge, 3:1 token ratio, Qwen out-downloading everyone
+- #pattern **Chinese open weights as industrial policy** — semiconductor export control hedge, 3:1 token ratio, Qwen out-downloading everyone. But Dean Ball argues the CCP's permissiveness is as much strategic blindness as strategy: they're "very Yann Lecun-y" on AI, not AGI-pilled enough to see open-weight proliferation as a risk ([[The Open-Weight Deceleration Thesis]])
 - #concept **Open weights as exit rights** — the Fable 5 shutdown as the definitive argument: a vendor can kill a model, but they can't kill a copy on your hardware
 - #tool **OpenRouter, MCP, A2A, Omnigent** — the emerging open harness stack, incomplete but forming
 - #concept **The unsolved write surface** — agent permissions across frameworks remain the open gap; authentication without authorization

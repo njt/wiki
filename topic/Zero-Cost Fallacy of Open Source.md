@@ -78,6 +78,7 @@ The article's relationship to [[The Cost YAGNI Was Never About]] is worth noting
 - [[The Private Capture of Public Genius]] — Armstrong's corpus royalty proposal as one answer to the systemic problem the article diagnoses
 - [[Specifications as the Product]] — the spec-over-code thesis from the consumer side; this article arrives at the same inversion from the producer side
 - [[Constraint Decay]] — LLMs lose accuracy under structural constraints; the spec-over-code thesis depends on models being able to faithfully implement specs, which this paper suggests is far from guaranteed
+- [[The Open-Weight Deceleration Thesis]] — the same structural argument applied to AI models rather than code: free weights destroy the investment case for frontier training, exactly as free software destroyed the investment case for shrink-wrap
 
 ---
 *Sources: [[raw/zero-cost-fallacy-open-source-agentic-era]]*

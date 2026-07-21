@@ -34,7 +34,7 @@ What's under-discussed: the gap isn't just about model weights. It's about the *
 
 The piece is also refreshingly honest about what it *can't* measure. Real-world task performance is likely worse than any benchmark suggests, and the author says so. No spurious precision.
 
-The key strategic question the data raises: if the gap keeps widening, does open-weight AI become a permanent second tier? Or is this just a lag that closes whenever a well-funded open effort (like DeepSeek) ships? The data can't answer that, but it frames the question sharply.
+The key strategic question the data raises: if the gap keeps widening, does open-weight AI become a permanent second tier? Or is this just a lag that closes whenever a well-funded open effort (like DeepSeek) ships? The data can't answer that, but it frames the question sharply. [[The Open-Weight Deceleration Thesis]] takes the pessimistic fork: if open weights win but destroy the investment case for frontier training, the gap widens permanently — and only state-backed labs with non-commercial motives will train the next generation.
 
 ## See Also
 

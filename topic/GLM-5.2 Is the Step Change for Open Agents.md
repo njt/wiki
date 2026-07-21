@@ -29,6 +29,8 @@ The "204 days behind" framing is also too neat. The real question isn't "how far
 
 The inference economics point is the most underplayed: if the best available coding model is open-weight, the value shifts from model training to model serving. Fireworks, Together, and Prime Intellect aren't just hosting — they're the new gatekeepers, and they don't have to train a single weight.
 
+Dean Ball's [[The Open-Weight Deceleration Thesis]] is the counterargument taken seriously: open weights accelerate diffusion but decelerate *development* by destroying the incentive to train the next generation. GLM-5.2 is exactly the case that tests this — it shipped because a Chinese state-backed lab (with non-commercial motives) trained it. If the only labs that can afford frontier training are those with sovereign balance sheets, Ball's "AI communism" endpoint starts looking less like rhetoric and more like prediction.
+
 ## Related
 
 - [[How Far Behind Are Open Models]] — quantifies the 8–10 month open/closed gap on private benchmarks
