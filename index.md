@@ -464,6 +464,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 - [[LLMs Are Complicated Now]] — Ian Barber on LLM architecture's recsys-ification: why composability, not agentic cleverness, is the only escape from the optimization trap
 - [[2025 in LLMs]] — Simon Willison's annual survey of the LLM landscape
 - [[Recent Developments in LLM Architectures]] — Raschka surveys Gemma 4, Laguna XS.2, ZAYA1-8B, and DeepSeek V4: four different attacks on long-context inference cost through KV sharing, attention budgeting, compressed attention, and constrained residual streams
+- [[Controlling Reasoning Effort in LLMs]] — Raschka maps the design space of reasoning-effort control: RLVR, think-token cosmetics, length-penalty-as-knob, and six open-weight implementations from DeepSeek V4 to Inkling's continuous slider
 - [[How Far Behind Are Open Models]] — Quantified: open models trail closed by 8–10 months on private benchmarks, 4–6 on public. Gap was narrowest at DeepSeek R1, widening since. Contamination audit shows conservative estimate
 - [[Hy3]] — Tencent's 295B MoE open-source model (21B active, Apache 2.0): SWE-bench Verified 78, 256K context, scaffolding-agnostic tool calling with <4% variance, hallucination halved to 5.4%
 - [[SAM Audio]] — Meta's foundation model for prompted audio separation: text, visual, span, and multi-modal prompts isolate any sound. Flow-matching Diffusion Transformer, open weights, companion judge model
