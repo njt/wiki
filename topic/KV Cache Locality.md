@@ -59,6 +59,7 @@ Ranvier itself (the open-source project behind this post) is ambiguous from the 
 - [[Dapper Performance Trap]] — Same genre: a hidden variable (NVARCHAR casts, KV cache locality) silently destroying performance at scale
 - [[PgDog]] — Connection pooling and load balancing for Postgres; the same "routing matters" insight in a different domain
 - [[Model Routing Is Simple Until It Isn't]] — IBM Research's empirical proof that cache economics dominate per-token pricing in agent workloads, validating the thesis that caching is the dominant cost variable in LLM systems
+- [[The Tokens You Can't Wait For]] — Text diffusion sidesteps the KV cache problem entirely for latency-bound workloads: parallel generation means no autoregressive dependency chain, so there's no KV cache to waste on misrouted requests
 
 ---
 *Sources: [[summary/kv-cache-locality]]*
