@@ -81,6 +81,7 @@ The argument for adoption metrics as a starting point. Developers self-select aw
 - [[Agent Coding Workflow]] — The practitioner's daily loop
 - [[The End of Code Review]] — The review bottleneck and agent-in-the-loop verification
 - [[The People Who Will Thrive in the AI Age]] — Volition beats intelligence when AI makes thinking cheap
+- [[Hidden Inefficiencies Behind Delivery Delays]] — El-Deeb's five-driver taxonomy names the invisible queues (review latency, coupling, instability rework) that become the binding constraints once AI compresses the inner loop
 - [[Software Engineering Craft]] — Fundamentals that don't change
 
 ---

@@ -56,6 +56,8 @@ The Erlang/BEAM context matters more than is obvious on first read. BEAM process
 
 The article pairs well with Tricot's [[Event-Driven vs Polling Architectures]] -- both argue that the infrastructure choice (queue, webhook, poll) should follow from the system's actual constraints rather than being the default answer. It also resonates with [[Designing a Passively Safe API]]'s insistence on idempotency as the foundation for safe retry, and with the [[Distributed Systems]] hub's observation that agent orchestration keeps reinventing distributed systems primitives without learning their lessons.
 
+El-Deeb's [[Hidden Inefficiencies Behind Delivery Delays]] extends Hebert's argument from infrastructure queues to organizational ones: review queues, approval queues, and coordination queues are the same phenomenon -- visible wait times that are downstream symptoms of invisible bottlenecks (reviewer scarcity, unclear ownership, weak specs), not problems to be solved with more queue management.
+
 ---
 
 *Source: Fred Hebert, [ferd.ca](https://ferd.ca/queues-don-t-fix-overload.html), November 19, 2014. Fetched 2026-06-12.*
