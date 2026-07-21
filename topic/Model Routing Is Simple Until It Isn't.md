@@ -50,6 +50,8 @@ This is one of the most practically useful agent infrastructure posts of 2026, a
 
 **What's genuinely new here:** The reframe from classification to optimization is the article's lasting contribution. Most routing work — including [[SLM Routing for Knowledge Workers]], the [[The Advisor Strategy]], [[Thrifty (Tiered Delegation for Claude Code)]], and [[Devin Fusion]] — operates within a classification or escalation paradigm: decide which model handles a task, then commit. IBM's argument is that you shouldn't commit to a model. You should commit to an *operating point* on a cost-accuracy-latency frontier, and let the optimizer pick the model that achieves it under current conditions. This is a more general framework that subsumes the others — Advisor, Thrifty, and Fusion are all specific operating-point choices within a broader optimization space.
 
+**A complementary framework at a different level:** [[The Tokens You Can't Wait For]] proposes a routing rule that operates at the architecture level rather than the model level: offline batch → standard autoregressive (batching already solves the problem), latency-bound decode-heavy → text diffusion (structural parallelism), high-value reasoning → frontier autoregressive (quality matters more than speed). Where IBM routes between models within one architecture, Shyamsundar and Jain route between architectures. The two frameworks compose: IBM's multi-objective optimization picks the best autoregressive model for a given task; the diffusion routing rule decides whether autoregressive is even the right architecture for that task class.
+
 ---
 
 *Sources: [[raw/model-routing-is-simple-until-it-isnt]]*
