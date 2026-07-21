@@ -40,7 +40,7 @@ This is the thinnest topic in the wiki, and that thinness is itself the finding.
 
 This section needs to be honest about the gaps, because they're large.
 
-**Consensus protocols for agents.** How do multiple agents agree on a shared state? Raft, Paxos, and PBFT solve this for databases. Agent orchestration systems mostly ignore it, using single-writer patterns (SQLite, JSONL files) or accepting eventual consistency without formalizing it. As agent systems scale to dozens or hundreds of concurrent agents, consensus becomes unavoidable.
+**Consensus protocols for agents.** How do multiple agents agree on a shared state? Raft, Paxos, and PBFT solve this for databases. Agent orchestration systems mostly ignore it, using single-writer patterns (SQLite, JSONL files) or accepting eventual consistency without formalizing it. As agent systems scale to dozens or hundreds of concurrent agents, consensus becomes unavoidable. [[Aurora DSQL]]'s distributed adjudicators and Journal replication show one production approach to the problem, though at database scale rather than agent scale.
 
 **Partition tolerance.** What happens when an agent loses connectivity to the coordinator? To other agents? To external services? The CAP theorem applies to agent systems as surely as to databases, but nobody is designing for it explicitly. [[Loomkin]]'s OTP supervision trees handle process failures but not network partitions.
 

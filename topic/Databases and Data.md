@@ -60,6 +60,8 @@ Storage is a design problem, not a commodity service. The pages in this wiki rev
 
 **Local vs. distributed.** [[zvec]] and [[Graft]] both bet on "good enough on one machine." [[NornicDB]] and [[AliSQL]] scale to distributed deployments. The answer depends on data volume, but the trend toward local-first ([[Graft]]'s edge replication, [[zvec]]'s embedded library) suggests that many workloads are better served by simpler, local solutions.
 
+**Convergence vs. disaggregation.** Most of the databases in this wiki converge: [[AliSQL]] adds OLAP and vectors to MySQL, [[DocumentDB]] makes Postgres speak MongoDB. [[Aurora DSQL]] goes the other direction — disaggregate compute, storage, and transaction coordination into independent services that scale separately. Convergence wins at single-region scale (the 95% case); disaggregation wins at global multi-region scale (the 5% case AWS has to solve). Same problem, different customer.
+
 **The Alibaba stack.** Three pages ([[AliSQL]], [[zvec]], [[OpenSandbox]]) come from Alibaba. They're building a coherent open-source data and AI infrastructure stack that rivals the Western equivalents. Worth watching as a portfolio, not just individual tools.
 
 ## What's Missing
@@ -80,6 +82,7 @@ Storage is a design problem, not a commodity service. The pages in this wiki rev
 
 ## Pages
 
+- [[Aurora DSQL]] — AWS's serverless multi-region OLTP: disaggregated compute/storage/coordination, PostgreSQL-compatible, commit-time optimistic concurrency
 - [[AliSQL]] — Alibaba's MySQL fork: DuckDB columnar OLAP + native vector search. 200x speedup
 - [[Radicle]] — P2P sovereign code forge built on Git. Cryptographic identity, gossip protocol, no central server. The most serious decentralized GitHub alternative
 - [[Dolt]] — SQL database you can fork, clone, branch, merge. Git + MySQL

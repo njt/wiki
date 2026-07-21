@@ -308,6 +308,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 
 Storage engines, query patterns, data quality, and vector/graph databases. **Hub: [[Databases and Data]]**
 
+- [[Aurora DSQL]] — AWS's serverless multi-region active-active SQL database: disaggregated compute/storage/coordination, PostgreSQL-compatible, MVCC with clock-based coordination-free reads and commit-time optimistic concurrency. Scales from zero to millions of TPS
 - [[Streambed]] — Postgres-to-Iceberg CDC in a single Go binary: WAL streaming, Parquet+S3, embedded DuckDB query server with psql-wire. Jepsen-style simulation testing, no Kafka/JVM/Spark needed
 - [[DuckDB ADBC Extension]] — DuckDB gets a universal Arrow-native connector to 30+ databases (Snowflake, Databricks, BigQuery, Postgres, MySQL) via ADBC — the JDBC moment for the columnar ecosystem. `read_adbc` and `ATTACH` with connection pooling, metadata caching, and streaming bulk ingest
 - [[Artie]] — Managed CDC replication: sub-minute latency from Postgres/MySQL/MongoDB to Snowflake/Databricks/BigQuery. Zero data retention, no Kafka required. The "buy vs. build" alternative to self-managed Debezium pipelines
