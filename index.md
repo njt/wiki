@@ -449,6 +449,7 @@ Tools that run on your own machines: voice, hardware, local inference, knowledge
 Papers, model capabilities, training techniques, and the state of the field.
 
 - [[The Hitchhiker's Guide to Agentic AI]] — Haggai Roitman's 603-page practitioner's reference: the full agentic AI stack from transformer architecture through production deployment, with theory + implementation + code for every layer
+- [[Holding the LLM Stack in Your Head]] — Nick Gustafson's ~84-post dependency-ordered walk through the entire modern LLM stack, from linear algebra to agent protocols, written as a public learning exercise with Claude Opus 4.8
 - [[Open Source AI Map]] — Curated, hand-scored catalog of ~458 OSS AI products across 15 categories with three-axis scoring (openness/adoption/capability), deterministic stage/gap analysis, and the Columbia/MOF openness framework
 - [[Open Source AI Gap Map (Willison)]] — Simon Willison's link-blog lens on Current AI's Gap Map: the MIT-licensed dataset matters more than the visualization, Datasette Lite as universal data browser, and curation-as-infrastructure in AI landscape mapping
 - [[State of Open Source AI 2026]] — Mozilla's first annual assessment of the open-source AI ecosystem: capability gap is jagged (parity on coding, behind on reasoning), inference costs collapsed 50×, Chinese open weights route 3× more tokens than US, and the harness is the new frontier
