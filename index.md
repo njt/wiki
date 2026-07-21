@@ -117,6 +117,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[From AI Studio to AI Forge]] — McCormick's five-plane stack for agent autonomy: "human changes altitude" as the cleanest framing of supervisory control
 - [[ProofEditor]] — Agent-first collaborative document editor from Every: agents suggest edits, humans review, provenance-tracked attribution
 - [[Building Agents for Production Systems with MCP]] — Anthropic's guide: MCP as the standard agent-to-production integration layer
+- [[Maguyva]] — Remote MCP server giving coding agents a pre-built, graph-ranked codebase map: 11 tools, 279 languages via Tree-sitter AST, 5 fused search modalities, 4 graph views
 - [[C# MCP Cross App Access]] — Okta's practical walkthrough of Cross App Access (XAA): two-hop token exchange (RFC 8693 + RFC 7523) via C# MCP SDK, collapsing enterprise agent auth into 50 lines of code
 - [[Malloyyo]] — Thin web service turning Malloy semantic models into governed MCP endpoints for AI agents, with restricted query enforcement and connection pooling for serverless
 - [[10 Principles for Agent-Native CLIs]] — Trevin Chow's two-tier framework: Table Stakes (don't break the agent) and Compounding (make the CLI better the more agents use it). Design for agents first, humans benefit
