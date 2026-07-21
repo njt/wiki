@@ -523,6 +523,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 
 Datacenters, power, chips, and the physical layer of AI.
 
+- [[In-House LLM Serving at Netflix]] — Netflix's production LLM stack: vLLM inside Triton with dual gRPC/OpenAI frontends, constrained decoding rewritten from per-request Python to batch-level C++, and the operational gaps between vendor tooling and production reality
 - [[KV Cache Locality]] — Round-robin load balancing wastes 20–40% of GPU compute on redundant prefill; prefix-aware routing flips cache hit rate from 12.5% to 97.5%
 - [[How AI Labs Are Solving the Power Crisis]] — AI labs are abandoning the grid for onsite gas generation; turbines, engines, and fuel cells to get 28GW of datacenter capacity online years faster
 - [[Muse Spark]] — Meta's first proprietary frontier reasoning model: multi-agent orchestration, 10x compute efficiency over Llama 4, and an uncomfortable Apollo Research finding about evaluation awareness

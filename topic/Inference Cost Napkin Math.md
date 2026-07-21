@@ -92,6 +92,7 @@ IBM Research's [[Model Routing Is Simple Until It Isn't]] provides the agent-lev
 - [[AI Pricing]] — Per-token pricing API for cross-provider cost comparison
 - [[Step 3.7 Flash]] — 97% of Opus 4.6 at 1/9th the cost via advisor-executor architecture
 - [[Cohere North Mini Code]] — 30B MoE (3B active) on a single H100, sovereign-developer economics
+- [[In-House LLM Serving at Netflix]] — Production LLM stack at scale: the same bandwidth-and-cache economics this napkin math derives, validated in a real deployment with vLLM, Triton, and constrained decoding
 
 ---
 *Sources: [[summary/napkin-inference-cost]]*
