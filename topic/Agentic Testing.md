@@ -55,6 +55,8 @@ This is the best empirical study of agentic testing I've read — not because th
 
 The article's proposed four-layer testing pyramid (unit → integration → E2E → agentic) is sensible but incomplete. The missing layer is *observability-driven testing* — using production telemetry to generate test scenarios. If you're going to have agents explore your UI, they should be exploring the paths your users actually take, weighted by frequency and error rate. That's the synthesis neither this article nor the related work has made yet.
 
+AMD's [[Execution-Free Agentic Program Repair]] takes the opposite approach for a different problem: when tests don't exist and can't be run (industrial C++ with multi-hour build cycles), they replace test-based validation with CppCheck static analysis + an LLM judge. The execution-free pattern is complementary to agentic testing — one handles the case where tests exist but you need exploratory coverage; the other handles the case where tests don't exist at all.
+
 ---
 
 *Source: [Slack Engineering Blog](https://slack.engineering/agentic-testing-where-agents-fit-in-the-e2e-testing-stack/), Sergii Gorbachov, 2026-06-11. Fetched 2026-06-21.*

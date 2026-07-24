@@ -28,6 +28,8 @@ The Skills + MCP pairing section is forward-looking: MCP provides tool access, s
 
 For practitioners building agent systems, this is essential reading alongside [[Awesome Agentic Patterns]] (the pattern catalogue) and [[Two Kinds of User Are Emerging]] (the adoption context).
 
+AMD's [[Execution-Free Agentic Program Repair]] provides the strongest empirical validation of this article's tool-design principles: their ablation study shows that exposing the full GitHub/Jira MCP toolsets (vs. a pruned set of 6 essential tools) drops localization accuracy from 70.5% to 53.6%, and eliminating response filtering (HTML cleanup, metadata stripping) causes a catastrophic collapse to 23.2% localization with 46.4% no-patch rate. Tool curation and response normalization aren't optimizations — they're the difference between a working system and a broken one.
+
 ---
 *Sources: [[summary/building-agents-for-production-systems-with-mcp]]*
 *Last updated: 2026-05-14*
