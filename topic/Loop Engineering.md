@@ -81,7 +81,9 @@ Writer/reviewer separation as the minimum viable independent verification. Diffe
 
 **The honest tension**: Osmani's previous piece ([[Addy Osmani's Workflow]]) was all about the human staying in the loop — review every line, treat the agent like a junior dev. This piece describes removing the human from the prompt loop while keeping them in the review loop. That's a step toward [[Five Levels from Spicy Autocomplete to the Dark Software Factory]] Level 3-4, and it's in tension with his earlier advice. He doesn't acknowledge this tension directly, but the closer ("build it like someone who intends to stay the engineer") is trying to hold both positions.
 
+**Production-scale validation: [[AI Code Migration with Claude Code]]** is Loop Engineering at 1M lines. Anthropic's Bun migration instantiates every component of Osmani's taxonomy: skills (the rulebook), sub-agents (implementation fan-out + adversarial review), automations (the mechanical work queue driven by compiler output), and state (the filesystem as the kanban board). The article's thesis — "fix the process that produced the code" — is Osmani's meta-skill stated as a migration principle rather than a development one.
+
 ---
 
 *Sources: [[summary/loop-engineering]]*
-*Last updated: 2026-06-15*
+*Last updated: 2026-07-25*

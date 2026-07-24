@@ -81,7 +81,9 @@ This is either the most honest framing in agentic development or the most danger
 
 **Why this matters:** May 2026 is the moment when "we don't read the code" stops being a provocation and starts being an engineering discipline. StrongDM's techniques page is the closest thing to a field manual for that discipline. It's not a methodology — it's six patterns and a constraint. That might be enough.
 
+**Filesystem-as-memory at Anthropic scale:** [[AI Code Migration with Claude Code]] uses the same pattern — `"done" means the output file exists on disk` — as its mechanical, resumable work queue for a 1M-line migration. No task tracker, no Jira; the filesystem IS the kanban board, and compiler/test failures auto-populate the queue. The Filesystem-as-memory pattern works at every scale from a single repo to a million-line rewrite.
+
 ---
 
 *Sources: [[summary/strongdm-factory-techniques]]*
-*Last updated: 2026-05-15*
+*Last updated: 2026-07-25*
