@@ -48,6 +48,8 @@ This is Microsoft doing what platform vendors should do: naming the hard problem
 
 The article pairs well with [[Interdict]] (runtime blast-radius measurement for database access) and [[How We Contain Claude]] (the containment failures that happen when design-time controls meet runtime reality). If you read only one thing alongside this, make it [[Operational Groundwork for AI Agents]] — the O'Reilly field report that shows what happens when teams try to operationalize exactly these principles.
 
+For a production implementation of this framework, see Sierra's [[The MCP Gateway Iceberg]]: their dual identity model (interactive-as-user, scheduled-as-service-account) directly instantiates the identity-ambiguity diagnostic, their pre-authorized workflows operationalize tool binding at scale, and their multi-pass cross-customer data guard is what "downstream re-verification" looks like when customer data is at stake.
+
 ---
 *Sources: [[raw/least-privilege-ai-agents]]*
 *Last updated: 2026-07-18*

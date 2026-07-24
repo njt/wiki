@@ -37,6 +37,8 @@ Uber built a **layered proprietary stack** atop their existing Michelangelo ML p
 
 This is the most interesting slide of the talk. It's not a demo — it's a **platform architecture diagram** that reveals Uber's bet: the moat is in the integration layer, not any single model or vendor. They're building the [[Smart Models Dumb Pipes]] pattern at enterprise scale.
 
+Sierra's [[The MCP Gateway Iceberg]] provides the engineering companion to Uber's strategy slide: seven concrete lessons from building an equivalent gateway, including the "grab the lock" coordination pattern, multi-pass cross-customer data guards, and the dual identity model (interactive-as-user, scheduled-as-service-account) that Uber's architecture implies but doesn't detail.
+
 > "The tech we're building will likely be replaced with something better."
 
 Anshu is refreshingly unsentimental about this. If Cursor's test coverage makes AutoCover obsolete? Fine. The platform's job is to deliver impact, not preserve itself. This is the right posture — and exactly the counterargument to [[The Case Against Building Your Own Agent Platform]]. Uber's scale justifies the build; the platform's modularity means individual components can be swapped when vendors catch up.
