@@ -40,6 +40,8 @@ Both become more important in an agent world. Agents generate API calls at scale
 
 [[14 More lessons from 14 years at Google]] adds the organizational layer: "approve, choose, unblock, or inform" for meetings; reliability as a product feature; recurring heroism as a failure mode. The anti-hero-culture argument: sustainable teams design normal operations that don't require exceptional effort.
 
+[[Lovelace]] takes a different angle on the same problem: instead of managing projects in a separate SaaS tool, it puts tickets, docs, ADRs, and agent session records directly in the repo as Markdown+YAML files, where coding agents already live. The tooling (Tauri app + Claude Code MCP server) is secondary to the files themselves.
+
 ### The C#/.NET Corner
 
 Three pages form a thin but notable cluster. [[Dapper Performance Trap]] documents the NVARCHAR vs VARCHAR implicit conversion that defeats indexes -- 176x slower on a million-row table, completely invisible in the C# code. [[Installing VS Compilers From Commandline]] solves the "skip Visual Studio, install just the compiler" problem. [[dotnet Slopwatch]] catches agent-specific shortcuts in .NET code: disabled tests, suppressed warnings, empty catches.
