@@ -20,7 +20,7 @@ The work-for-hire section is the scariest part of the article. The San Francisco
 
 > "You have no way to know which side of the line your codebase is on without running a scan."
 
-The open source contamination risk is the sleeper issue. AI models trained on GPL/LGPL code can reproduce substantial verbatim portions, and "I didn't know" is not a defense to copyleft violation. The chardet dispute — Claude rewriting an LGPL library, developer rereleasing under MIT — is unresolved. M&A lawyers are already making license scans a standard due diligence condition. This isn't theoretical; it's showing up in acquisition contracts *now*.
+The open source contamination risk is the sleeper issue. AI models trained on GPL/LGPL code can reproduce substantial verbatim portions, and "I didn't know" is not a defense to copyleft violation. The same dynamic is playing out in music: [[Suno Training Data Breach|Suno's breach]] revealed training on copyrighted recordings from YouTube and Deezer, and the fair use argument that worked (so far) for code is being tested against a much more litigious rights-holder industry. The chardet dispute — Claude rewriting an LGPL library, developer rereleasing under MIT — is unresolved. M&A lawyers are already making license scans a standard due diligence condition. This isn't theoretical; it's showing up in acquisition contracts *now*.
 
 > "The developer who documents creative contributions from the start is in a meaningfully different legal position than the one who accepted three thousand lines of Claude output and merged without review."
 

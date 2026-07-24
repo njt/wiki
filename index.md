@@ -478,6 +478,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 - [[SAM Audio]] — Meta's foundation model for prompted audio separation: text, visual, span, and multi-modal prompts isolate any sound. Flow-matching Diffusion Transformer, open weights, companion judge model
 - [[TabFM (Tabular Foundation Model)]] — Google Research's foundation model for tabular data: 3-stage transformer (Fourier cell embedding → Set Transformer columns → decoder ICL) with zero-shot in-context classification and regression, sklearn-compatible
 - [[Moises — AI Music Separation and Creation]] — 65M-user music AI platform: stem separation as the wedge, browser-based AI Studio for stem-by-stem generation, and the separation-to-generation training flywheel. Apple iPad App of the Year 2024
+- [[Suno Training Data Breach]] — A 2026 hack exposed Suno's internal code confirming it scraped YouTube Music, Deezer, and Genius for training data at industrial scale; the dragnet model of AI training made visible, and the fair use frontier where the music industry is fighting back
 - [[Self-Distillation]] — LLMs improve at code generation using only their own outputs. No verifier needed
 - [[LLM-as-a-Verifier]] — Kwok et al. establish verification as a distinct scaling axis: logit-expectation continuous scores eliminate judge ties, achieve SOTA across coding/robotics/medical benchmarks, and provide dense RL rewards with ~1.8× sample efficiency gains
 - [[Capybara]] — ByteDance's unified model for text-to-image, text-to-video, and editing
