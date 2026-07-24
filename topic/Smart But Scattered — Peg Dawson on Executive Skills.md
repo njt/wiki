@@ -77,6 +77,7 @@ The long game. Goal-directed persistence often doesn't emerge until late high sc
 - [[The Mundanity of Excellence]] — Excellence as qualitatively different choices, not quantitatively more effort. Maps to Dawson's "praise process not traits" and the idea that small consistent interventions compound.
 - [[The People Who Will Thrive in the AI Age]] — David Brooks on volition over intelligence. Dawson's "goal-directed persistence as the biggest prize" is volition by another name.
 - [[Not-Knowing (Vaughn Tan)]] — Parenting as navigating genuine uncertainty. Dawson's framework reduces but doesn't eliminate the irreducible unknowns of raising a child.
+- [[Anthropomorphism in Children's Interactions with LLM Chatbots]] — Jayathilake & Ma extend the Piagetian developmental lens to LLM interaction: the same prefrontal maturation Dawson describes shapes how children anthropomorphize chatbots, with the most concerning outcomes requiring the abstract cognition that isn't fully online until adolescence
 
 ---
 
