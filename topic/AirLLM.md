@@ -68,7 +68,7 @@ Because `transformers` owns the forward pass, **new model architectures work wit
 
 **vs vLLM / TensorRT-LLM**: These are high-throughput servers (PagedAttention, continuous batching, kernel fusion). They keep models in GPU VRAM and optimize for concurrency. AirLLM is single-query, single-GPU, minimal VRAM — the opposite use case.
 
-**vs Petals / distributed inference**: Petals splits across machines peer-to-peer. AirLLM is single-machine. No network coordination, but also no horizontal scaling.
+**vs Petals / distributed inference**: [[Petals — Decentralized LLM Inference]] splits across machines peer-to-peer. AirLLM is single-machine. No network coordination, but also no horizontal scaling.
 
 **In the wiki**: AirLLM is the extreme end of the local inference spectrum that [[Local and Open Source Inference]] surveys. Where [[LocalAI]] provides the API layer and [[Self-Hosted LLMs]] maps hardware to models, AirLLM answers "what's the absolute biggest model I can run on this card?" Like [[Inference Cost Napkin Math]] documents, memory bandwidth and capacity are the real bottlenecks — AirLLM routes around capacity constraints entirely at the cost of bandwidth.
 

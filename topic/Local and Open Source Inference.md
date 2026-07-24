@@ -75,6 +75,7 @@ The key insight from [[Doing]]: "LLMs know what you mean, even when your words a
 - [[Gemma Gem]] — Google's Gemma 4 running locally in Chrome via WebGPU. No cloud, no API keys
 - [[maclocal-api]] — Apple Silicon local inference: Foundation + MLX models, OpenAI-compatible API
 - [[Self-Hosted LLMs]] — Calculator: map your hardware to LLM performance and inference speed
+- [[Petals — Decentralized LLM Inference]] — BigScience's peer-to-peer network for running 100B+ models across volunteer GPUs. BitTorrent-style model serving with model introspection support
 - [[AI Brain for Flipper]] — Voice-controlled AI for Flipper Zero hardware
 - [[RedGridLink]] — Offline MGRS navigation + BLE team sync for 2-8 people. No cell service
 - [[Thunderbolt]] — Mozilla/MZLA's open-source cross-platform AI client pivoting to enterprise: sovereign cloud, air-gapped deployments, ACP+MCP protocol support, deepset/Haystack partnership
