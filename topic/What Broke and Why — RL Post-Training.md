@@ -52,6 +52,8 @@ The three-layer architecture is itself a design lesson. Most RL papers give you 
 
 **The book also validates [[Lessons from Building Cursor]]'s core claim** that "those things can only be learned during RL." Cursor's engineer argued that semantic search, subagent delegation, and self-summarization can't be prompted — they require RL. Verma's book is the field manual for the people actually running those RL training loops, making the same mistakes Cursor made before they figured it out.
 
+**FP8 RL has entered production.** [[Poolside Laguna S 2.1]] is the first model where Poolside ran RL in FP8 precision — a practical validation of the cost-reduction thesis implicit in Verma's H100-scale framing. If FP8 RL becomes standard, the 1–8 card practitioner Verma addresses gains access to training runs that previously required BF16 clusters. Poolside's behavioral RL framing (persistence, verification, "not declaring victory early" as trainable behaviors rather than capability improvements) is also the first named instance of what Verma's book implies: that RL doesn't just teach models to be correct — it teaches them to *try*. The gap between "the model can do this" and "the model bothers to do this" is the frontier Verma's debugging reference is aimed at.
+
 **Who this is for:** If you've ever stared at a W&B chart going in the wrong direction and wondered whether to kill the run or let it cook, this book is for you. If you're reading RL papers and thinking "great, but what breaks?", this book is for you. If you're a manager wondering why your team's RL post-training budget keeps getting blown on "debugging runs," this book is for you — and maybe for your team as pre-reading.
 
 ---

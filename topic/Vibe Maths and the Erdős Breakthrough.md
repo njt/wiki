@@ -46,6 +46,8 @@ Price's amateur status mattered more than his prompting skill. He had enough mat
 
 The uncomfortable question this raises: how many other 60-year-old problems are vulnerable to "what if we just tried the obvious thing the field decided was wrong 40 years ago?" And what happens when someone automates the Price-Barreto-Tao pipeline — when an AI can both generate the candidate solution AND simulate expert verification? That's not here yet, but this story is a proof of concept for a much more disruptive future.
 
+A parallel case worth comparing: [[Poolside Laguna S 2.1]] independently rediscovered a proof to Erdős problem #397 — a different problem, also open for 50+ years — working fully autonomously for 68 minutes with no human in the loop. It found a structurally different solution from the known proof using Perl for brute-force prime factorizations (Python wasn't available), and its November 2025 knowledge cutoff predates the January 2026 published solution, ruling out memorization. Where the vibe maths story required five humans in a verification pipeline, Laguna's case study suggests a model with behavioral RL training (persistence, verification, not declaring victory early) can sometimes run the full loop autonomously. The difference between "AI proposes, humans verify" and "AI verifies its own work" is the line these Erdős stories are drawing in real time.
+
 ---
 
 *Sources: [[summary/amateur-chatgpt-vibe-maths-erdos]]*
