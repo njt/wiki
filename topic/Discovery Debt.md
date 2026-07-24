@@ -81,6 +81,7 @@ Where Kantus absolutely nails it: "Speed feels like signal. It isn't." In a cult
 - [[Engineering for Bounded Cognition]] — Human cognitive limits as design constraints; why "just do more discovery" isn't a complete answer
 - [[Nicole Forsgren on AI and Developer Productivity]] — Why shipping hasn't gotten faster despite AI; the bottleneck shifted but the discovery debt problem remains
 - [[AI for Product Management]] — Van der Merwe's AI-as-sparring-partner system; one concrete tool for the continuous discovery habit
+- [[The AI Productivity Paradox]] — Marty Cagan's argument that AI amplifies the output-over-outcomes flaw: discovery debt is the mechanism, and AI makes it compound faster by industrializing the build-now-ask-never pipeline
 
 ---
 
