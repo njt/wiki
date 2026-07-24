@@ -136,6 +136,8 @@ The personas in Part IV feel thin compared to the engineering chapters. The "for
 
 The book's "SE 1.0 → 2.0 → 3.0" model is clean but undersells the continuity. Most organizations will operate in all three modes simultaneously for years — a legacy monolith (SE 1.0), a Next.js app with Copilot (SE 2.0), and an agent-built microservice (SE 3.0). The book acknowledges this but doesn't help leaders manage the mixed-mode reality.
 
+Hassan is also a co-author on [[Don't Trust the Label — License Laundering in AI Supply Chains]], which operationalizes the book's thesis about evidence and trust in stochastic supply chains: tracing 232,270 dataset→model→application chains reveals that 62.3% pass through unlicensed artifacts and every obligation-bearing license category collapses below 7% end-to-end survival. The paper is the empirical measurement the book's framework was built to interpret.
+
 **Where this sits in the wiki:**
 
 This is the closest thing to a canonical text on agentic software engineering as a discipline. It synthesizes and formalizes themes that appear across dozens of wiki pages: [[Specifications as the Product]], [[Compound Engineering]], [[Guardrails and Feedback Loops]], [[Harness Engineering]], [[Agent Coding Workflow]], [[Cognitive Debt]], [[Write Only Code]], [[Slowing the Fuck Down]], [[Agent Orchestration]], [[Security and Sandboxing]].

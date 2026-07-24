@@ -1,6 +1,6 @@
 # Wiki Index
 
-500 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+501 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -545,6 +545,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 - [[Theories of Deep Learning]] — astle dsa surveys three mathematical frameworks closing deep learning's theory gap: categorical deep learning (algebra of architectures), modular duality (geometry-aware optimization), and output-space generalization via eNTK (benign overfitting, double descent, grokking)
 - [[World Models — Promise and Limits (Ars)]] — Samuel Axon's definitive 2026 survey of the world-model landscape: three expert interviews mapping competing definitions, architectures, and bets (Runway vs World Labs vs AMI), with the bitter lesson as live controversy and the interface vacuum as the unresolved product problem
 - [[The Open-Weight Deceleration Thesis]] — Dean Ball's six-point polemic: open-weight models are structurally decelerationist (diffusion ≠ development), their endpoint is state-funded "AI communism," and accelerationists who embrace them secretly prefer ungovernability over speed
+- [[Don't Trust the Label — License Laundering in AI Supply Chains]] — Jewitt et al. trace 232,270 dataset→model→application chains across Hugging Face and GitHub: 62.3% touch an unlicensed artifact, every obligation-bearing license category collapses below 7% end-to-end survival, and the Permissive attractor is structural not incidental
 
 ## AI Infrastructure & Hardware
 
