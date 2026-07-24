@@ -366,6 +366,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Castor]] — Go CLI that casts web video to smart TVs at full quality: headless Chrome stream extraction, ffmpeg transcode pipeline, read-once spool architecture, and live whisper subtitle burn-in via atomic file swap. The spool decouples CDN from playback so token expiry can't kill a cast
 - [[Chawan]] — Text-mode web browser and pager in memory-safe Nim: vi-inspired UI, opt-in JavaScript via QuickJS, per-site process sandboxing, and protocol support spanning HTTP to Gopher/Gemini/Finger
 - [[Common Expression Language (CEL)]] — Google's embeddable expression language for policy and validation: non-Turing complete by design, nanosecond-to-microsecond evaluation, protobuf-native
+- [[RustDesk]] — Open-source self-hostable remote desktop in Rust with Flutter UI: P2P with NAT traversal, end-to-end encryption, and multi-codec video streaming
 - [[CI Forge (ciforge)]] — Zero-dependency Python CI tool bundling ~25 scanners: code quality, secrets, IaC, dead code, CVE, cloud cost, AI review across 3 providers, and an MCP server. AGPLv3, replaces Snyk/SonarQube for solo devs
 - [[Nektos Act]] — Run GitHub Actions workflows locally in Docker: full expression evaluator, YAML-level interpolation, and composable functional executor pipeline
 - [[Component Model 1.0]] — Bytecode Alliance's roadmap to a stable Wasm Component Model: lazy ABI, browser native support via jco telemetry, spec simplification, and the WIT expressivity gaps that remain
