@@ -1,6 +1,6 @@
 # Wiki Index
 
-499 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+500 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -73,6 +73,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Team-Wide Agentic Harness]] — Ian Langworth's case for version-controlling the agent harness as team infrastructure: skills as reviewed code, checked-in conventions and evergreen context, and the moment a solo harness crosses into multiplayer
 - [[The GUS Stack — Go, Unix, SQLite]] — Noah Zoschke's stack prescription for agentic coding: pick boring, stable, training-data-dense technologies (Go, Unix, SQLite, HTMX) so agents produce idiomatic code on the first try rather than fighting framework magic
 - [[Agent Skills Library (dzhng)]] — dzhng's curated library of 19 domain-agnostic, composable agent skills for building software factories: fog-of-war planning, spec-as-control-surface, three-gate verification per slice, and a 1d 16h unattended Codex run as proof
+- [[PAAD — Defense-in-Depth for AI-Assisted Development]] — Curtis "Ovid" Poe's Claude Code plugin suite: 8 skills (pushback, alignment, architecture, review, a11y, vibe, makefile) that add defense-in-depth safeguards with a specialist+verifier pattern and Graphviz digraphs as safety gates
 
 ## Agent Design & Architecture
 
