@@ -68,6 +68,8 @@ External datasources (Postgres, MySQL, Mongo, DynamoDB, S3, REST, Snowflake, etc
 
 **[[DSL-Driven Kanban Boards (Goja-Site)]]** composes apps from chainable JavaScript DSLs. Budibase composes them from drag-and-drop component trees. Both are declarative composition, but Budibase's JSON tree is more approachable for non-developers.
 
+**[[BESSER]]** is an academically-led, model-driven low-code platform that generates full-stack apps across 15+ technology stacks from a single model. Where Budibase targets internal tools with a visual builder + runtime interpreter, BESSER targets general application development with model→code generation. Budibase generates a running app from JSON trees; BESSER generates source code you can modify and maintain independently. The trade-off is flexibility vs. ownership — Budibase apps live inside Budibase, while BESSER-generated code lives wherever you put it.
+
 ## Tags
 
 #tool #project #low-code #database #internal-tools #open-source #svelte #couchdb #workflow-automation

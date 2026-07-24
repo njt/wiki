@@ -48,6 +48,10 @@ The implication: if you're building with agents, choose frameworks that minimize
 
 The paper tested Mini-SWE-Agent (~100 lines of bash) and OpenHands (full-featured ReAct framework). OpenHands + MiniMax-M2.5 was the most resilient combination. But the difference between scaffolds was small relative to the constraint effect — suggesting this isn't a scaffold problem that better tooling will fix. It's a fundamental capability gap.
 
+## A Potential Escape Hatch: Deterministic Generators
+
+[[BESSER]], an academically-led low-code platform, suggests an alternative architecture: instead of asking an agent to follow constraints (Clean Architecture, Postgres, ORM) from a natural-language prompt, encode the constraints in a formal model and use deterministic generators to produce the constrained code. The agent assists with *modeling* (image-to-model, text-to-model) but the model→code translation is a compiler, not an LLM call. If the model is valid, the generated code is constraint-correct by construction — there's nothing for the agent to get wrong. Whether this works at the scale and diversity of real applications is unproven, but it reframes the constraint decay problem from "make agents better at following rules" to "don't make agents follow rules at all."
+
 This aligns with [[Honey I Shrunk the Coding Agent]]'s finding that scaffold redesign can yield dramatic improvements — but also with the broader lesson that scaffolds have limits. You can't scaffold your way out of a model that doesn't understand database transactions.
 
 ## Critical Assessment

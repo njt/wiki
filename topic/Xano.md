@@ -32,7 +32,7 @@ A developer testimonial that maps to the 4-5x acceleration claims from Heimstade
 
 - **Visual workflows vs. agent orchestration** — Xano's visual logic builder is a deterministic workflow engine with AI generation on top. This is the inverse of the agent orchestration patterns in [[Agent Orchestration]] and [[n8n]], where agents are the orchestrator. Xano says: the workflow is the orchestrator, AI is the builder, and the human is the reviewer. Whether this architecture survives as agents get more capable is an open question.
 
-- **The platform bundling play** — Database + API + auth + logic + hosting is a classic bundling strategy. If you need all five, Xano is cheaper than stitching them together. If you only need three, you're overpaying for abstraction. The [[Simplicity in the Age of AI-Assisted]] framing applies: Xano eliminates accidental complexity (wiring together infrastructure) but introduces platform complexity (learning Xano's abstractions and accepting their constraints).
+- **The platform bundling play** — Database + API + auth + logic + hosting is a classic bundling strategy. If you need all five, Xano is cheaper than stitching them together. If you only need three, you're overpaying for abstraction. The [[Simplicity in the Age of AI-Assisted]] framing applies: Xano eliminates accidental complexity (wiring together infrastructure) but introduces platform complexity (learning Xano's abstractions and accepting their constraints). [[BESSER]] takes the opposite approach to the same problem — generate source code you own and deploy wherever you want, rather than hosting your app on the platform. Both solve "I don't want to write boilerplate" but diverge on whether the platform or the code is the durable artifact.
 
 ---
 

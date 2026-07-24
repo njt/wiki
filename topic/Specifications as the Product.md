@@ -28,6 +28,8 @@ The traditional model: specs flow into code, code is the deliverable. The new mo
 
 **Deployment specs.** [[Verbose Deployment]] implements a 10-phase deployment pipeline as composable Claude Code skills, each independently useful. The pipeline adapts to your project -- it detects your stack rather than assuming one.
 
+**Model-as-spec.** [[BESSER]] takes the spec-as-product idea to its logical extreme: the model *is* the spec, and 15 deterministic generators compile it to working code across multiple stacks. Unlike prompt-driven code generation where the spec is natural language and the translation is probabilistic, BESSER's generators are deterministic compilers — the model either compiles or it doesn't. This makes it a useful reference point for the "how formal does the spec need to be?" question.
+
 ### Spec-Adjacent Tools
 
 [[Trycycle]] puts specs through plan-strengthen-review loops with fresh agents at every stage. The key innovation: fresh eyes prevent stale context from accumulating. Up to 5 planning rounds and 8 review rounds -- heavy on tokens, thorough on quality.
