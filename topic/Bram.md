@@ -83,6 +83,8 @@ The Sessions tab reads both Claude and Codex JSONL from their respective directo
 
 **vs. [[Loop Engineering]]** (Addy Osmani): Bram is loop engineering made concrete — a system that prompts agents (via conventions.md + PreToolUse hooks) instead of prompting agents yourself.
 
+**vs. [[Lovelace]]**: Both are Tauri-based desktop tools for agent-heavy development with file-based state. Bram enforces process through hash-verified worklists and PreToolUse hooks; Lovelace is a full project management system where tickets, docs, ADRs, and session records ARE the database files, with a Claude Code MCP server for agent access and a self-installing hook chain for orientation, presence tracking, and session-record enforcement.
+
 ## Tags
 #tool #project #agents #coding-agent #desktop-app #tauri #rust #workflow #enforcement #guardrails #git
 

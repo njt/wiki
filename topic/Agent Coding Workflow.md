@@ -52,6 +52,8 @@ The wiki is heavy on practitioner workflows and light on **team adoption pattern
 
 **Failure case studies** are almost entirely absent. Boris doesn't discuss where Claude Code struggles. Osmani hedges carefully. The wiki needs honest post-mortems of agent-assisted projects that went wrong.
 
+**Agent-native project management tools** are an emerging category. [[Lovelace]] puts tickets, docs, ADRs, and session records directly in the repo as Markdown+YAML, with a Claude Code MCP server for agent access — treating the project as files the agent already lives among rather than a separate system it must integrate with.
+
 ## Key Themes
 
 #agentic-coding #workflow #verification #compound-engineering #maturity-spectrum
