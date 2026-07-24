@@ -234,6 +234,7 @@ Persistence, retrieval, knowledge management, and context engineering for agents
 - [[MELT]] — Shisa AI's benchmark harness for evaluating long-lived agent memory: tests lifecycle dynamics (correction, contradiction, decay, as-of recall, consolidation) not just static retrieval. Its key finding: one "memory score" is never enough — ShisaD and Memobase flip rankings completely between lifecycle and LoCoMo QA. Zero-dependency Python, pluggable SUT adapter contract, 4 built-in suites.
 - [[Context Engineering at the Frontier (Linus Lee)]] — Linus Lee argues bigger context windows are a brute-force crutch: composable retrieval pipelines beat monoliths for engineering velocity, context engineering IS search engineering, and the real gap is semantic observability at scale
 - [[Giving Claude Agent Memory in 12 Steps]] — Codez's four-layer practitioner's ladder (Chat Memory → Projects → CLAUDE.md → Dreaming) for turning a goldfish agent into one that remembers across weeks; the most detailed public walkthrough of Anthropic's Dreaming research preview
+- [[Cerebras Knowledge Base Architecture]] — Production RAG at 15K queries/day across employees, automations, and agents: four-signal hybrid Slack retrieval, LLM distillation at ingestion, MCP as agent-native interface, and the convergent-evolution architecture (Postgres embeddings + hybrid retrieval + reranker + MCP)
 
 ## Quality & Guardrails
 

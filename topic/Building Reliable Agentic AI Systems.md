@@ -83,6 +83,7 @@ User hits retry → system resumes from the failed node, skipping completed step
 - [[Smart Models Dumb Pipes]] — Related philosophy: models own judgment, pipes own execution
 - [[Agent Orchestration]] — Hub for multi-agent coordination patterns
 - [[Agent Memory and Context]] — Hub for context engineering strategies
+- [[Cerebras Knowledge Base Architecture]] — Convergent-evolution confirmation: Cerebras independently landed on the same patterns (hybrid retrieval, write-time LLM distillation, MCP for agent access, scoped search) at 15K queries/day across chip-design and cloud-platform domains
 
 ---
 
