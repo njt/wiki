@@ -671,3 +671,9 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[Arabic Typography]] — larrasket's interactive essay tracing Arabic typography from Ibn Muqla's 10th-century proportions through the Unicode fossil layer to the modern web where no browser can justify Arabic: kashida vs. inter-word spacing, the jstf standoff, and how HarfBuzz and Amiri became critical volunteer-maintained infrastructure for 400M+ speakers
 - [[Quadrangular Holes Govern Path Multiplicity]] — Wu et al. (2026): chordless 4-cycles are the microscopic mechanism governing path multiplicity in complex networks, validated across 140 empirical networks and 8 synthetic models. Simple local motif → complex global behavior, in the Watts-Strogatz/Barabási-Albert tradition
 - [[AI Mania Is Eviscerating Global Decision-Making]] — Ludicity's field report from ~300 meetings: AI investment at 0% success rate, the executive prisoner's dilemma that makes honesty a dominated strategy, and the AI-native purity tests distorting organizational resource allocation
+
+## Hardware & Electronics
+
+Physical engineering: connectors, protocols, embedded systems, and the electrical layer.
+
+- [[USB Type-C and Power Delivery Architecture]] — TI's definitive 72-page e-book on the full USB-C/PD engineering stack: connector basics, protocol negotiation, USB4, EPR (240W), eUSB2 for sub-7nm nodes, and system-level block diagrams for every common end-equipment configuration
