@@ -79,6 +79,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 
 How to build agents: frameworks, runtimes, design patterns, and production concerns.
 
+- [[Your Knowledge Graph Is Making Your Agent Dumber]] — Praveen Vijayan's empirical takedown: Graphify on a 605-file TypeScript monorepo returned 170 nodes with 5% relevance; ripgrep returned 35 lines at 100% relevance in 0.01s. Knowledge graphs of code add noise agents can't filter; document graphs are the tool's real strength
 - [[AI-Ready APIs — Postman AWS Competency]] — Matt Gray's case that API quality, not model capability, is the bottleneck for agentic AI: agents can't compensate for underspecified APIs the way humans can, and Gartner predicts 40% of agentic AI projects will be canceled by end of 2027
 - [[Razorback]] — CL Kao's Python CLI for reproducible agentic benchmark research on Harbor: freeze specs (cryptographic provenance), run jobs across Claude/Codex/Pi, score with stratified pass@1 and Wilson CIs, audit traces for forbidden lookups, and diff paired runs with exact-McNemar + bootstrap CIs. The sealed-hash approach treats benchmark runs as scientific experiments, not ad-hoc scripts
 - [[Grok Build]] — SpaceXAI's terminal-based AI coding agent: pure Rust, ~80 crates, 1M+ lines. TUI-first with formal JSON-RPC tool protocol, three-strategy compaction engine, actor-based chat state, markdown+vector memory, and vendored Mermaid stack. Open-source as publication from the xAI monorepo
