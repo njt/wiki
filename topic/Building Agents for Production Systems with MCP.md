@@ -26,7 +26,7 @@ This is Anthropic's official position paper on MCP, so it's both authoritative a
 
 The Skills + MCP pairing section is forward-looking: MCP provides tool access, skills provide procedural knowledge for using those tools. The upcoming protocol extension to deliver skills from MCP servers would create a single distribution mechanism for both capabilities and playbooks -- a meaningful step toward agent composability.
 
-For practitioners building agent systems, this is essential reading alongside [[Awesome Agentic Patterns]] (the pattern catalogue) and [[Two Kinds of User Are Emerging]] (the adoption context).
+For practitioners building agent systems, this is essential reading alongside [[Awesome Agentic Patterns]] (the pattern catalogue) and [[Two Kinds of User Are Emerging]] (the adoption context). Sierra's [[The MCP Gateway Iceberg]] provides the most detailed production case study to date — validating the CLI-over-MCP pattern (Lesson 6), documenting the "80% of a workflow = 0% of the value" coverage problem, and describing a multi-pass cross-customer data guard that operationalizes the tool-design principles laid out here.
 
 AMD's [[Execution-Free Agentic Program Repair]] provides the strongest empirical validation of this article's tool-design principles: their ablation study shows that exposing the full GitHub/Jira MCP toolsets (vs. a pruned set of 6 essential tools) drops localization accuracy from 70.5% to 53.6%, and eliminating response filtering (HTML cleanup, metadata stripping) causes a catastrophic collapse to 23.2% localization with 46.4% no-patch rate. Tool curation and response normalization aren't optimizations — they're the difference between a working system and a broken one.
 
