@@ -69,3 +69,4 @@ In multi-agent pipelines, the U-curve minimum shifts right because interpretive 
 ## See Also
 
 - [[Lean Software Scaling Laws]] — extends the spec-as-product thesis: the *language* you write specs in matters for LLM predictability, and some languages are inherently better spec languages because their invariants survive scaling
+- [[Tom Barraclough — Sovereign AI Policy]] — applies the spec-as-product thesis to law itself: what if regulation shipped as structured, versioned datasets rather than PDFs? The same inversion (durable spec, disposable rendering) at civilization scale

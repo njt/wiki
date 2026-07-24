@@ -44,6 +44,8 @@ The methodological critique connects to [[Not-Knowing (Vaughn Tan)]]: political 
 
 On the domestic side, the SimVoters tradition has evolved into the data infrastructure of modern campaigns — a direct line from McKelvey's "modeled American voter" to contemporary microtargeting. [[The Dead Economy Theory]] and [[Why Agents Matter More Than Other AI]] explore adjacent territory: what happens when the logic of computational optimization extends beyond prediction into replacing human participants entirely.
 
+A contemporary inflection of McKelvey's thesis: [[Tom Barraclough — Sovereign AI Policy]] argues the computational imaginary of law is the next frontier — turning regulation from PDFs into structured, versioned datasets that AI can reason over. Same pattern (render governance computable), new substrate (law, not voters).
+
 ---
 
 *Sources: [[raw/simpolitics]]*
