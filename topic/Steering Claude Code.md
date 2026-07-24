@@ -45,9 +45,11 @@ This post is the **reference manual** for the instruction-placement problem that
 
 The post also implicitly connects to the broader agent architecture conversation: subagents as isolated context windows are the same pattern as [[The Advisor Strategy]] (specialized models called on demand) and [[MiMo Code]]'s independent writer subagent for memory extraction. For a worked example of skills encoding complex multi-phase agent pipelines, see [[Cloudflare Security Audit Skill]] — a skill that orchestrates parallel subagents through a six-phase security audit with adversarial validation and structured output enforcement.
 
+**The rulebook as a seventh-mechanism pattern:** [[AI Code Migration with Claude Code]] introduces the migration rulebook — a living document that agents both follow *and improve*. When systemic issues surface, you add one sentence to the rulebook and regenerate the affected batch. This is CLAUDE.md-as-compile-target: the rulebook is the durable artifact; the generated code is disposable. It sits at the intersection of three steering mechanisms — it has CLAUDE.md's always-loaded persistence, a skill's procedural authority, and a hook's deterministic enforcement (via the compiler/test suite as referee).
+
 ---
 
 *Sources: [[summary/steering-claude-code-skills-hooks-rules-subagents]]*
-*Last updated: 2026-07-18*
+*Last updated: 2026-07-25*
 
 *See also: [[Teaching the Agent Our Craft]] — Alex Haldeman's 8th Light field report is the most concrete production case study of the full seven-mechanism taxonomy: CLAUDE.md as knowledge root, path-scoped rules for domain conventions, skills for structured RPI workflows, subagents with PreToolUse enforcement, and MCP-wired Linear/Figma.*

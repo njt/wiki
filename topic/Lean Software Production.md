@@ -63,7 +63,9 @@ Wynne's proposed daily practice for teams. The framing is deliberate: not "what 
 
 **The experiential gap in Wynne's framework is filled by [[Human-in-the-Loop is Tired]].** Wynne describes the structural shift (the work is now engineering the production system); Laura Summers describes what it *feels* like (supervision fatigue, the broken reward function, the solitary loop). Her observation that "the bottleneck was never the code" is Wynne's thesis arrived at from the inside, and her "responsive design" analogy — craft evolving rather than dying — is the personal-history version of Wynne's Lean/XP continuity argument.
 
+**Anthropic's code migration playbook validates the Lean frame at scale.** [[AI Code Migration with Claude Code]] is essentially Lean Software Production applied to migration: the rulebook is the kanban card, adversarial review + mechanical verification is jidoka (automation with a human touch), and "add one sentence to the rulebook and regenerate" is kaizen — continuous improvement of the system, not the artifact. The Bun migration's 91% memory reduction and 2–5% speedup demonstrate that AI doesn't just replicate the old code in a new language; it produces a *better* artifact when the production system is well-designed.
+
 ---
 
 *Sources: [[summary/lean-software-production]]*
-*Last updated: 2026-07-05*
+*Last updated: 2026-07-25*
