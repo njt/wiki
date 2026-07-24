@@ -117,6 +117,7 @@ Also absent: **data freshness, permissions, and security**. Retrieval pipelines 
 - [[Components of a Coding Agent]] — The harness matters more than the model
 - [[Honey I Shrunk the Coding Agent]] — Empirical proof: redesign the scaffold, 19% → 46%
 - [[Context Rot]] — When agent context decays over long sessions
+- [[Cerebras Knowledge Base Architecture]] — Production proof of Lee's composable-retrieval thesis: four-signal hybrid Slack retrieval with LLM distillation at write-time, serving 15K queries/day to both humans and agents via MCP
 
 ---
 

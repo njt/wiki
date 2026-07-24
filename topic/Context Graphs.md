@@ -54,6 +54,8 @@ Refreshing honesty in a vendor blog post. The field is early, the hard problems 
 
 **The hard part nobody talks about:** Context graphs require the agent to *know it's making a decision worth recording.* That's a classification problem in itself — is this invoice approval routine or precedent-setting? Is this exception one-off or pattern-forming? The essay doesn't address this, but it's the meta-cognitive gate that determines whether the graph fills with signal or noise.
 
+The retrieval-based alternative to context graphs is exemplified by [[Cerebras Knowledge Base Architecture]], which also emphasizes write-time structuring (LLM distillation before embedding) but opts for hybrid retrieval over typed edges. The two approaches converge on the same insight — structure at ingestion time, not search time — but diverge on whether that structure should be edges between entities or enriched embedding documents.
+
 ---
 
 *Sources: [[summary/what-is-a-context-graph]]*
