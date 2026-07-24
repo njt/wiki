@@ -358,6 +358,7 @@ Storage engines, query patterns, data quality, and vector/graph databases. **Hub
 
 CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 
+- [[ascdraw]] — Native Rust desktop app for drawing diagrams on an infinite Unicode text grid: keyboard-first, sparse BTreeMap canvas with layered editing, Skia rendering at 120+ FPS, and line routing via direction-bit connection calculus
 - [[Draw Your Font]] — Node.js CLI and Claude Code skill turning photos of handwriting into real fonts (TTF/WOFF/WOFF2): adaptive threshold binarization, potrace vectorization, per-character em-square metrics, winding correction, zero system dependencies. AI only labels and judges — it never draws
 - [[BESSER]] — Open-source low-code platform combining model-driven engineering with AI: model a system once, generate APIs, databases, and AI agents across 15+ technology stacks. MIT-licensed, academic-led (LIST / University of Luxembourg)
 - [[Castor]] — Go CLI that casts web video to smart TVs at full quality: headless Chrome stream extraction, ffmpeg transcode pipeline, read-once spool architecture, and live whisper subtitle burn-in via atomic file swap. The spool decouples CDN from playback so token expiry can't kill a cast
