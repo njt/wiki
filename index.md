@@ -352,6 +352,7 @@ Storage engines, query patterns, data quality, and vector/graph databases. **Hub
 CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 
 - [[Draw Your Font]] — Node.js CLI and Claude Code skill turning photos of handwriting into real fonts (TTF/WOFF/WOFF2): adaptive threshold binarization, potrace vectorization, per-character em-square metrics, winding correction, zero system dependencies. AI only labels and judges — it never draws
+- [[BESSER]] — Open-source low-code platform combining model-driven engineering with AI: model a system once, generate APIs, databases, and AI agents across 15+ technology stacks. MIT-licensed, academic-led (LIST / University of Luxembourg)
 - [[Castor]] — Go CLI that casts web video to smart TVs at full quality: headless Chrome stream extraction, ffmpeg transcode pipeline, read-once spool architecture, and live whisper subtitle burn-in via atomic file swap. The spool decouples CDN from playback so token expiry can't kill a cast
 - [[Chawan]] — Text-mode web browser and pager in memory-safe Nim: vi-inspired UI, opt-in JavaScript via QuickJS, per-site process sandboxing, and protocol support spanning HTTP to Gopher/Gemini/Finger
 - [[Common Expression Language (CEL)]] — Google's embeddable expression language for policy and validation: non-Turing complete by design, nanosecond-to-microsecond evaluation, protobuf-native
