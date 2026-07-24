@@ -268,6 +268,7 @@ Isolation, credentials, prompt injection defense, and agent safety. **Hub: [[Sec
 
 Craft beyond agents: simplicity, error handling, reliability, specs, and project management. **Hub: [[Software Engineering Craft]]**
 
+- [[Automatic Layout of Railroad Diagrams]] — Chiplunkar and Pit-Claudel's first formal treatment of railroad/syntax diagram layout as a compilation problem: diagram language → three-pass compiler (align/wrap/justify) → layout language, with wrapping as principled optimization
 - [[Notes on Structured Programming]] — Dijkstra's 1970 foundational monograph: structured programming, step-wise refinement, the testing-versus-correctness argument, and the layered virtual machine model that anticipated microservices, containers, and agent abstractions
 - [[Engineering for Bounded Cognition]] — Working memory holds ~4 chunks; attention is a torch beam. Software methodology as prosthetic cognition, and why designing for the most constrained user produces better systems for everyone
 - [[Auditing Legacy Rails Codebases]] — Ally Piechowski's nine diagnostic questions tiered by audience (developers, CTOs, stakeholders) that surface the friction points no one volunteers in status meetings — a lightweight codebase audit that doesn't require looking at code
