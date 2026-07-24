@@ -245,6 +245,7 @@ Evals, testing, linting, feedback loops, and keeping agent output trustworthy. *
 - [[Agentic Testing]] — Slack Engineering's 200-run empirical study: MCP outperforms CLI by 12–20pp, generated tests fail 48% on complex flows, $15–30/run cost dominated by context accumulation. Agentic testing as exploratory layer atop deterministic E2E, not a replacement
 - [[Execution-Free Agentic Program Repair]] — AMD's PegasusAgent: execution-free automated bug fixing for industrial QML/C++ that replaces test suites with CppCheck + LLM-as-a-Judge. 70.5% localization, 33.1% plausible fixes, and the empirical finding that tool/response filtering and organizational memory outweigh model choice
 - [[no-mistakes]] — Local git proxy that gates pushes through an AI-driven validation pipeline (review, test, document, lint, push, PR, CI) before forwarding to remote. Agent-agnostic, durable approval parking across daemon restarts, auto-fix with configurable limits
+- [[DrSkill]] — `brew doctor` for your AI agent's skill loadout: scans 70+ coding agents on your machine for duplicate skills, description collisions, prompt injection surfaces, broken symlinks, MCP misconfigurations, and tool poisoning. Every finding ends in a fix or ack command; zero LLM calls or MCP connections unless you opt in
 - [[Ways of Checking]] — Ten verification failure modes catalogued from a single audit day, each with a diagnostic tell. "Checking again re-runs the instrument; checking differently tests it." A pattern language for when green lights lie
 
 ## Security & Sandboxing
