@@ -235,6 +235,7 @@ Evals, testing, linting, feedback loops, and keeping agent output trustworthy. *
 - [[Accordant]] — Microsoft's model-based testing framework for .NET: write an executable spec (behavioral contract), and Accordant generates, executes, and validates hundreds of tests including sequential, concurrent, and async workflow coverage. The spec IS the oracle
 - [[Agentic Testing]] — Slack Engineering's 200-run empirical study: MCP outperforms CLI by 12–20pp, generated tests fail 48% on complex flows, $15–30/run cost dominated by context accumulation. Agentic testing as exploratory layer atop deterministic E2E, not a replacement
 - [[no-mistakes]] — Local git proxy that gates pushes through an AI-driven validation pipeline (review, test, document, lint, push, PR, CI) before forwarding to remote. Agent-agnostic, durable approval parking across daemon restarts, auto-fix with configurable limits
+- [[Ways of Checking]] — Ten verification failure modes catalogued from a single audit day, each with a diagnostic tell. "Checking again re-runs the instrument; checking differently tests it." A pattern language for when green lights lie
 
 ## Security & Sandboxing
 
