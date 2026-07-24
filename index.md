@@ -467,6 +467,7 @@ Tools that run on your own machines: voice, hardware, local inference, knowledge
 
 Papers, model capabilities, training techniques, and the state of the field.
 
+- [[Apertus 1.5]] — Swiss AI's fully open 8B/70B model release from ETH/EPFL: image understanding, switchable reasoning, 262K context, open weights + data + methodology. Continued pretraining of Apertus 1.0
 - [[The Hitchhiker's Guide to Agentic AI]] — Haggai Roitman's 603-page practitioner's reference: the full agentic AI stack from transformer architecture through production deployment, with theory + implementation + code for every layer
 - [[Holding the LLM Stack in Your Head]] — Nick Gustafson's ~84-post dependency-ordered walk through the entire modern LLM stack, from linear algebra to agent protocols, written as a public learning exercise with Claude Opus 4.8
 - [[Open Source AI Map]] — Curated, hand-scored catalog of ~458 OSS AI products across 15 categories with three-axis scoring (openness/adoption/capability), deterministic stage/gap analysis, and the Columbia/MOF openness framework
