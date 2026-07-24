@@ -82,6 +82,7 @@ The argument for adoption metrics as a starting point. Developers self-select aw
 - [[The End of Code Review]] — The review bottleneck and agent-in-the-loop verification
 - [[The People Who Will Thrive in the AI Age]] — Volition beats intelligence when AI makes thinking cheap
 - [[Hidden Inefficiencies Behind Delivery Delays]] — El-Deeb's five-driver taxonomy names the invisible queues (review latency, coupling, instability rework) that become the binding constraints once AI compresses the inner loop
+- [[The AI Productivity Paradox]] — Cagan approaches the same bottleneck from the product side: the project model was always output-obsessed, AI just made the gap between output and outcomes visible at industrial scale
 - [[Software Engineering Craft]] — Fundamentals that don't change
 
 ---
