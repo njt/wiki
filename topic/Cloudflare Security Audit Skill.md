@@ -105,6 +105,8 @@ Unlike [[Orchestrating AI Code Review at Scale]] (Cloudflare's production code r
 
 Unlike traditional SAST tools (Semgrep, CodeQL), the security-audit skill finds what rule-based scanners can't: business logic errors, chained attacks, trust boundary violations, context-dependent design flaws. The trade-off is cost per line (LLM tokens vs CPU cycles) and determinism (different runs yield different findings).
 
+Unlike [[Audit Skills for AI Coding Agents (metacircu1ar)]], which covers 11 audit dimensions (validation, auth, secrets, rate limiting, CORS, DB perf, resilience, assets, type safety, iOS launch) as sequential single-agent playbooks, the security-audit skill is a parallel multi-agent pipeline purpose-built for deep vulnerability hunting. Audit-skills is breadth-first ("did we forget anything?"); this skill is depth-first ("is this specific attack class exploitable?"). A team could layer them: audit-skills for the first-pass production-readiness sweep, then this skill's adversarial pipeline for deep-diving the high-risk findings.
+
 Unique among open-source security tools, the skill's adversarial architecture — find → try to disprove → independently verify → structured output enforcement — is a methodology contribution independent of the prompt content. The same pipeline structure could be applied to other audit domains (compliance, performance, accessibility) by swapping the attack class prompts for domain-specific investigation prompts.
 
 ---
