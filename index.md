@@ -405,6 +405,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Chrome DevTools MCP — Debug Your Browser Session]] — Chrome M144's `--autoConnect` lets agents reuse authenticated browser sessions. Hybrid manual/AI debugging via permission-gated remote debugging
 - [[surf-cli]] — Browser automation for agents via CLI and Unix sockets. No MCP needed
 - [[Claude Artifact Server]] — 22 Claude-generated retro-Mac interactive artifacts produced in a single day: generation-at-scale showcase, not a product
+- [[OpenAI Cookbook]] — OpenAI's official collection of example code and guides for building with their API across nine domains: agents, evals, multimodal, text, guardrails, optimization, ChatGPT, Codex, and gpt-oss
 - [[OpenRewrite Supported Languages]] — Capability catalog: 5 languages, 7 data formats, 3 build tools, 4 frameworks. OSS/commercial split where JVM is free and polyglot is paywalled
 - [[OpenWiki]] — LangChain's CLI that runs a DeepAgent to generate and maintain OKF-compliant documentation wikis for codebases and personal knowledge bases, with built-in connectors for Gmail, Slack, Notion, X, and more
 - [[TriadJS]] — TypeScript API framework: write schemas once, derive types, OpenAPI, BDD tests, DB schemas, frontend hooks, and WebSocket clients from a single source of truth. AI-first design with Claude Code plugin
