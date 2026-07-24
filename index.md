@@ -78,6 +78,8 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Audit Skills for AI Coding Agents (metacircu1ar)]] — Max Tikhomirov's 11-skill library turning AI coding agents into production-readiness auditors: composable markdown playbooks (624 lines total) covering input validation, auth, secrets, rate limiting, CORS, database perf, resilience, assets, type safety, and iOS launch — with an umbrella security-review skill that composes all nine into OWASP-style reports
 - [[PAAD — Defense-in-Depth for AI-Assisted Development]] — Curtis "Ovid" Poe's Claude Code plugin suite: 8 skills (pushback, alignment, architecture, review, a11y, vibe, makefile) that add defense-in-depth safeguards with a specialist+verifier pattern and Graphviz digraphs as safety gates
 
+- [[Cloud Software Factories]] — Zach Lloyd's blueprint for the post-interactive-agent era: centralized SDLC automation loops (triage→spec→implement→review→verify→ship→monitor), three-layer architecture (runtime/orchestration/measurement), and the case that software development should be managed as COGS not R&D
+
 ## Agent Design & Architecture
 
 How to build agents: frameworks, runtimes, design patterns, and production concerns.
