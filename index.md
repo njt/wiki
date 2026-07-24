@@ -572,6 +572,7 @@ EVs, batteries, power systems, and physical products.
 
 Books, essays, geopolitics, math, medicine, and interesting oddities.
 
+- [[A Pattern Language (Christopher Alexander)]] — Christopher Alexander's 253 composable design patterns for towns, buildings, and construction; Clayton Dorge's Twitter-summarization as a compression experiment that reveals the provocative core of each pattern
 - [[20-20-20 Rule — Digital Eye Strain Study]] — Johnson & Rosenfield (SUNY Optometry, 2023): the 20-20-20 rule fails a controlled trial — scheduled 20-second breaks had no effect on eye strain symptoms, reading speed, or accuracy
 - [[America Is Slow-Walking Into a Polymarket Disaster]] — Desai's Atlantic polemic on the media's embrace of prediction markets: manipulation, insider trading, and the gamblification of civic life
 - [[Archive.today DDoSed a Critic's Blog]] — An OSINT investigation sat quiet for 2.5 years, then the anonymous operator retaliated with client-side DDoS and escalating threats

@@ -30,6 +30,8 @@ That said, many items cost nothing: say "I don't know," cold-email someone, ask 
 
 Connects to [[Happiest I've Ever Been]] -- both essays are about noticing that the constraints on your life are more flexible than you assumed. Wallace discovered he was allowed to find happiness outside tech; Cvitkovic catalogs hundreds of things you're allowed to do that nobody told you about.
 
+A productive tension with [[A Pattern Language (Christopher Alexander)]]: Alexander argues the opposite — that good design comes from *imposing* constraints (light on two sides, four-story limit, 9% parking max) because constraints form a grammar that produces better outcomes than unbounded freedom. Both are right. Cvitkovic removes constraints you didn't know were optional; Alexander names constraints you should choose because they work. The skill is knowing which kind of constraint you're facing.
+
 ---
 *Sources: [[summary/things-youre-allowed-to-do]]*
 *Last updated: 2026-05-14*
