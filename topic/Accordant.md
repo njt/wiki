@@ -68,7 +68,7 @@ Accordant is a C# .NET library (7 projects, ~4,100 LOC core logic), delivered as
 
 **vs. pact/contract testing**: Pact captures consumer-provider interactions (HTTP request → response). Accordant models the full state machine (request → response + state transition). Pact is integration-boundary correctness; Accordant is behavioral correctness. They operate at different abstraction levels.
 
-**vs. TLA+/Alloy**: Both model state spaces. TLA+/Alloy verify properties symbolically; Accordant generates concrete test cases and runs them. TLA+ finds *design* bugs; Accordant finds *implementation* bugs. A project could use TLA+ for the high-level design and Accordant to verify the implementation matches.
+**vs. TLA+/Alloy**: Both model state spaces. TLA+/Alloy verify properties symbolically; Accordant generates concrete test cases and runs them. TLA+ finds *design* bugs; Accordant finds *implementation* bugs. A project could use TLA+ for the high-level design and Accordant to verify the implementation matches. The logical foundations underlying both approaches — first-order logic, model theory, and formal semantics — are covered in [[An Introduction to Formal Logic (Peter Smith)]], which provides the intellectual substrate for understanding *why* formal specification works.
 
 ## AI Integration
 

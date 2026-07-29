@@ -56,6 +56,7 @@ On F*'s SMT-solver-based approach to proof automation. The contrast with LLM-bas
 - [[Lean Software Scaling Laws]] — Gwern's hypothesis about formally-strong languages having better scaling exponents
 - [[Software Engineering Craft]] — The fundamentals that don't change, even when proof automation does
 - [[Constraint Decay]] — Formal properties of code that agents struggle with; the mirror image of what Lean enforces
+- [[An Introduction to Formal Logic (Peter Smith)]] — The logical foundations: Smith's textbook is the standard introduction to the first-order logic that proof assistants embody; useful for understanding *what* the machine is checking
 - [[Guardrails and Feedback Loops]] — The type checker as the ultimate deterministic guardrail
 - [[AI Code Migration with Claude Code]] — Anthropic's approach to large-scale code transformation; related to proof maintenance under code change
 
