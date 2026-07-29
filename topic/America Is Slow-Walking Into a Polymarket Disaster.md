@@ -54,6 +54,8 @@ The article pairs well with [[acceleration-flow]] (gambling psychology as a desi
 
 The unanswered question: if prediction markets are this bad at predicting and this good at being manipulated, why is the media embracing them? Desai gestures at the answer (ratings, novelty, the numbers-is-objective aesthetic) but doesn't dig. The deeper story is probably that media institutions are themselves in a trust crisis, and prediction-market odds offer the appearance of empirical grounding without the cost of actual reporting. A number, any number, looks like journalism.
 
+A complementary development as of mid-2026: [[AI Superforecasters]] — scaffolded frontier models that produce calibrated probability estimates through structured research pipelines — offer a forecast source that doesn't carry prediction markets' perverse-incentive baggage. AI forecasters have no financial stake in outcomes, no incentive to manipulate resolution criteria, and no reason to threaten journalists whose reporting moves probabilities. The tradeoff is auditability: you can examine a market's order book but not an AI scaffold's attention weights.
+
 ---
 
 *Sources: [[summary/america-polymarket-disaster]]*
