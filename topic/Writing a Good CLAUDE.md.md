@@ -49,4 +49,6 @@ The bottom line: pair this with [[CLAUDE.md (Universal)]] — that page gives yo
 ---
 
 *Sources: [[summary/writing-a-good-claude-md]]*
-*Last updated: 2026-05-14*
+*Last updated: 2026-07-29*
+
+*See also: [[New Rules of Context Engineering]] — Anthropic confirms the instruction-budget thesis from the inside: they removed 80% of Claude Code's system prompt with no measurable regression on Claude 5 models, and the six "then and now" reversals (especially "give Claude rules → let Claude use judgement") validate that the file's leverage demands aggressive curation.*

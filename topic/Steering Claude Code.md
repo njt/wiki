@@ -50,6 +50,6 @@ The post also implicitly connects to the broader agent architecture conversation
 ---
 
 *Sources: [[summary/steering-claude-code-skills-hooks-rules-subagents]]*
-*Last updated: 2026-07-25*
+*Last updated: 2026-07-29*
 
-*See also: [[Teaching the Agent Our Craft]] — Alex Haldeman's 8th Light field report is the most concrete production case study of the full seven-mechanism taxonomy: CLAUDE.md as knowledge root, path-scoped rules for domain conventions, skills for structured RPI workflows, subagents with PreToolUse enforcement, and MCP-wired Linear/Figma.*
+*See also: [[Teaching the Agent Our Craft]] — Alex Haldeman's 8th Light field report is the most concrete production case study of the full seven-mechanism taxonomy: CLAUDE.md as knowledge root, path-scoped rules for domain conventions, skills for structured RPI workflows, subagents with PreToolUse enforcement, and MCP-wired Linear/Figma. [[New Rules of Context Engineering]] — Thariq Shihipar's companion post validates the taxonomy from the other direction: Anthropic deleted 80% of the system prompt (the same mechanisms this page maps) with no regression on Claude 5 models, confirming that the instruction-budget problem is real and the fix is structural simplification, not better wording.*

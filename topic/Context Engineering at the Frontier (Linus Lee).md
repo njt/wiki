@@ -118,6 +118,7 @@ Also absent: **data freshness, permissions, and security**. Retrieval pipelines 
 - [[Honey I Shrunk the Coding Agent]] — Empirical proof: redesign the scaffold, 19% → 46%
 - [[Context Rot]] — When agent context decays over long sessions
 - [[Cerebras Knowledge Base Architecture]] — Production proof of Lee's composable-retrieval thesis: four-signal hybrid Slack retrieval with LLM distillation at write-time, serving 15K queries/day to both humans and agents via MCP
+- [[New Rules of Context Engineering]] — Thariq Shihipar's official Anthropic post converges on the same prescription from the product side: progressive disclosure, delete what the model no longer needs, and treat context as composable components rather than a monolithic dump. The 80% system prompt deletion validates Lee's argument that bigger context windows are a failure of engineering imagination.
 
 ---
 
