@@ -52,6 +52,8 @@ The real insight buried in the thread is that prediction markets are structurall
 
 The thread is also a case study in how regulatory capture works in practice: 17 CFR § 40.11 already bans contracts on war and assassination. The law exists. The CFTC simply chooses not to enforce it. The mechanism isn't missing legislation — it's captured enforcement.
 
+A 2026 development worth noting: [[AI Superforecasters]] are emerging as a non-adversarial alternative to prediction markets for calibrated probability estimates. Unlike market participants, AI forecasters don't try to game resolution criteria, manipulate outcomes, or threaten journalists — they have no financial stake in the answer. This doesn't solve every problem (AI forecasts have their own opacity issues), but it sidesteps the structural perversity documented above entirely.
+
 ---
 
 *Sources: [[summary/polymarket-death-threats-hn]]*
