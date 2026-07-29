@@ -651,6 +651,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[Estimating Pi with a Coin]] — Toss until heads leads, record the fraction. Average approaches pi/4
 - [[Thinking Hard Burns Almost No Calories]] — Mental fatigue doesn't drain energy — it hijacks perceived exertion via adenosine. Schedule hard training before cognitive work, not after
 - [[Goeckerman Regimen]] — Century-old psoriasis treatment that outperforms modern biologics
+- [[Preseen — AI Forecasting Platform]] — Multi-agent AI forecasting startup that beat all humans on Metaculus: calibrated probabilities from independent AI scientists analyzing different angles, winner-take-all tournament results, and the quiet challenge to prediction market theory
 - [[Prediction Markets and Perverse Incentives]] — HN's accidental taxonomy of prediction market harms: perverse incentives, regulatory capture, and why the signal IS the weapon
 - [[Welcome to the American Winter]] — Robert F. Worth's Atlantic reportage: 65,000 ordinary Minnesotans, decentralized coordination, and the resistance that forced federal withdrawal
 - [[The Lazarus Effect — America's Productivity Miracle]] — American productivity resurrected: 2%/yr growth, and AI had almost nothing to do with it. Tech adoption lag, energy abundance, and economic flexibility are the real drivers
