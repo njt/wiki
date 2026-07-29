@@ -45,6 +45,7 @@ The closer. Roztropiński is making a case that understanding isn't just instrum
 ---
 
 - [[The Lindy Effect]] — the career-strategy corollary: invest learning time in what's survived (algorithms, databases, design principles), not what's trendy. Understanding fundamentals compounds; framework expertise depreciates.
+- [[The Usefulness of Useless Knowledge]] — Flexner's 1939 case that understanding pursued for its own sake — not for any practical payoff — is the ultimate source of practical transformation. Roztropiński's "joy of understanding" is Flexner's argument restated for individual practitioners rather than institutions.
 
 ---
 *Sources: [[summary/the-joy-and-power-of-understanding]]*

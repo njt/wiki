@@ -64,6 +64,7 @@ Kornbluth is being honest with her community. Bridge funding exists, but it's a 
 - [[Why We Fear AI]] — structural anxiety about institutional decline, applied to a different domain
 - [[How AI Labs Are Solving the Power Crisis]] — infrastructure adaptation in the private sector vs. public sector research funding
 - [[Things You're Allowed to Do]] — most constraints are self-imposed; Kornbluth's constraints are externally imposed by policy
+- [[The Usefulness of Useless Knowledge]] — Abraham Flexner's 1939 essay is the foundational document Kornbluth is implicitly defending: the argument that curiosity-driven research, pursued without thought of application, is the ultimate source of practical utility. The same Institute for Advanced Study Flexner describes is what's at stake in the funding crisis she documents.
 - [[The Mundanity of Excellence]] — excellence as qualitative institutional choices; what happens when the institution can no longer afford those choices
 
 ---

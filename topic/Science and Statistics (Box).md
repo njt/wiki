@@ -78,6 +78,7 @@ One final observation: the paper's most quoted line ("all models are wrong") is 
 - [[Smart Models Dumb Pipes]] — Models own decisions, pipes own execution. Box would recognize the boundary-drawing instinct.
 - [[Estimating Pi with a Coin]] — Playful math as insight. Fisher's tea-tasting experiment has the same spirit.
 - [[Life at Low Reynolds Numbers]] — Another classic science paper that uses vivid, concrete examples to teach fundamental principles.
+- [[The Usefulness of Useless Knowledge]] — Flexner's 1939 essay argues the opposite of Box: curiosity-driven theory without practical problems can be the ultimate source of utility. Box and Flexner are the two poles of the "where does progress come from?" debate, and both are right about different parts of the elephant.
 - [[Software Engineering Craft]] — The fundamentals don't change. Box's paper is 50 years old and reads like it was written yesterday about AI engineering.
 
 ---
