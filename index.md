@@ -646,6 +646,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[Man-Computer Symbiosis]] — J.C.R. Licklider's 1960 ur-text of interactive computing: goal-oriented programming, graphical displays, speech interfaces, and networked thinking centers, all telegraphed before the mouse existed
 - [[Me at the Zoo — jawed]] — The first YouTube video as accidental manifesto: 19 seconds of unselfconscious enthusiasm, "really really really long fronts," and the radical assertion that a thought can be complete without expertise
 - [[Misha Glenny]] — Journalist and author tracing hidden power networks: Balkan wars, organized crime, cybercrime, rare earths. New host of In Our Time
+- [[Montenegro EU Accession Forecast 2026]] — Preseen forecast: Montenegro closes 18 of 33 EU chapters, median year-end prediction of 28, with Croatia's bilateral vetoes as the binding constraint and cryptographic timestamping as forecasting infrastructure
 - [[Microscale Thermite Reaction]] — Harvard demo: smash two rusty iron balls together, trigger 2200°C thermite reaction with nothing but a glancing blow
 - [[Solving Wordle Using Information Theory]] — Shannon entropy as Wordle strategy: "tares" is the optimal opener, >99% win rate, and why greedy info-max beats letter-frequency heuristics
 - [[Estimating Pi with a Coin]] — Toss until heads leads, record the fraction. Average approaches pi/4
