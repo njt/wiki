@@ -16,7 +16,7 @@ Kyutai (funded by Iliad Group, CMA CGM Group, Schmidt Sciences) is positioning i
 
 ## Critical Analysis
 
-The inverse of [[Handy]] -- where Handy turns speech into text on-device, Pocket TTS turns text into speech on-device. Together they represent the full local voice pipeline: speak, transcribe, process, synthesize speech back. No cloud round-trip needed.
+The inverse of [[Handy]] -- where Handy turns speech into text on-device, Pocket TTS turns text into speech on-device. [[Inflect-Micro-v2]] takes a different approach: one-tenth the parameters (9.4M vs 100M), a single fixed voice instead of cloning, and an integrated VITS architecture that delivers 24 kHz output in 37.5 MB. Together they represent the full local voice pipeline: speak, transcribe, process, synthesize speech back. No cloud round-trip needed.
 
 The 100M parameter claim needs benchmarking against larger models. "Runs on CPU" and "sounds good" are in tension -- the question is where on the quality-efficiency curve Pocket TTS lands. For accessibility and utility applications, "good enough" is genuinely good enough. For professional voice work, probably not.
 

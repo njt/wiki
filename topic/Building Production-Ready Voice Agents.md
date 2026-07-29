@@ -26,7 +26,7 @@ Eleven battle-tested lessons from a three-developer team:
 
 **Admin portal as the real product** -- turn-level conversation analysis with timestamps, transcripts, function calls, latency breakdowns. Turn-level replay directly from the portal. This is [[The Future of Software Engineering is SRE]] made concrete.
 
-**Latency is unforgiving** -- users hang up 40% more with responses exceeding one second. A typical turn involves VAD (100-200ms), STT (100-300ms), LLM inference (300-600ms), TTS (100-200ms), and network transmission. P95 at 1.5-2.5 seconds.
+**Latency is unforgiving** -- users hang up 40% more with responses exceeding one second. A typical turn involves VAD (100-200ms), STT (100-300ms), LLM inference (300-600ms), TTS (100-200ms), and network transmission. P95 at 1.5-2.5 seconds. Compact local TTS models like [[Inflect-Micro-v2]] (159ms per second of audio at 6× real-time on CPU) hit the right latency target without a cloud round-trip, but the fixed-voice constraint means they solve the speed problem at the cost of voice flexibility.
 
 **Function calling as highest failure point** -- failures appear as hallucinations. Validate in code handlers, not the LLM. This connects to the guardrails theme across [[Spec-Driven Development]] and [[Write Only Code]].
 
