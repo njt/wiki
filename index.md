@@ -15,6 +15,7 @@ Cross-cutting analysis that pulls threads across individual pages.
 - [[Security and Sandboxing]] — How to let agents act without letting them break things. Isolation, credentials, prompt injection defense
 - [[Local and Open Source Inference]] — Running models on your own hardware. Voice is solved, documents are close, reasoning still needs the cloud
 - [[Software Engineering Craft]] — Fundamentals that don't change: error handling, API design, SRE, project management
+- [[Software Engineering Practice Atlas]] — 4,654-entry AI-generated reference map of software craft: five practice areas, 25 domain guides, and the "when not to use it" field as differentiator
 - [[Databases and Data]] — Storage as a design problem. Git-for-databases, vector search, data quality, convergent database architectures
 - [[Distributed Systems]] — Agent orchestration IS distributed systems. BEAM/OTP as the model. Honest about what's missing
 - [[SDPD — Systems Design Police Department]] — Gamified distributed systems learning: 33 failure modes across 8 categories, framed as detective cases. A differential diagnosis checklist for production failures

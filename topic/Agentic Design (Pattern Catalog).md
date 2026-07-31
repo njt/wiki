@@ -46,6 +46,8 @@ The site claims 280+ patterns but the homepage doesn't name a single one. There'
 
 The agent design space is filling in. [[Elements of Agentic Systems Design]] gives you the ten-element taxonomy. [[The Agentic Product Standard v2.0]] gives you the production standard and Claude Code skills to apply it. [[Agent-Native Architectures (Every)]] gives you the five principles for building applications around agents. Agentic Design gives you the pattern catalog — the connective tissue between these frameworks, organized by constraint rather than taxonomy. It's the reference manual in a stack that already has the textbook and the field guide.
 
+A useful comparison: [[Software Engineering Practice Atlas]] takes the opposite approach — AI-generated breadth (4,654 cards across all of software craft) versus human-curated depth (280+ patterns in one domain). Together they form a natural experiment in whether curation or scale produces better patterns.
+
 ### The KORTEXYA Question
 
 The site is produced by KORTEXYA SAS, a French company with no other visible products. Is this a startup building toward a paid platform? A consultancy's lead-gen tool? A labor of love by someone who got tired of explaining the same agent architecture patterns over and over? The domain name (agentic-design.ai) is strong, the catalog scale is ambitious, and the freemium model is coherent. But there's no About page, no team page, no blog. The absence of author identity is conspicuous in a field where the best resources are personally signed.
