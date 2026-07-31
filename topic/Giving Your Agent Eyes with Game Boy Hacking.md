@@ -52,6 +52,8 @@ Together they mapped out health values, enemy rosters, and the memory flags chec
 
 **The sibling article is [[DeepSeek Reverse Engineers TeamSpeak Licensing]].** Same toolchain (Ghidra + MCP), same collaborative loop, different model and target. Read together, they make the case that the harness matters more than the model: Claude refused TeamSpeak RE on safety grounds but happily disassembled Game Boy ROMs. The task shape is identical; the alignment filter is the variable.
 
+**[[Kuna — Agent-First Decompiler]] takes the feedback-loop insight one level up.** Langworth's LLM drives a decompiler to analyze ROMs; Basque's LLM *writes* the decompiler itself, using benchmark-driven refinement — the same feedback-loop pattern applied to tool construction rather than tool use. The loop is the primitive; whether it's aimed at a binary or at the tool's own output is just a matter of what you measure.
+
 ---
 
 *Source: [ai.statico.io](https://ai.statico.io/2026/07/02/giving-your-agent-eyes-with-game-boy-hacking/), Ian Langworth, 2026-07-02*
