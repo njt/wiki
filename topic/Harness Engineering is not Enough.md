@@ -61,5 +61,5 @@ The talk is also a useful counterpoint to [[The End of Code Review]]: Monperrus 
 
 ---
 
-*Sources: [[raw/harness-engineering-not-enough-dex-horthy]]*
-*Last updated: 2026-07-31*
+*Sources: [[raw/why-software-factories-fail-dex-horthy]] (canonical), [[raw/harness-engineering-not-enough-dex-horthy]]*
+*Last updated: 2026-08-01*
