@@ -427,6 +427,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[atifact]] — Zero-dependency CLI converting HAR files, Claude Code, Copilot CLI, and Codex CLI logs to ATIF v1.7 trajectory JSON
 - [[AI Pricing]] — Free JSON API for per-token AI model pricing across 19 providers. Agent-native, no auth
 - [[AgentsView]] — Local-first analytics dashboard for 24+ coding agents
+- [[Cargento (Agent Cartography Dashboard)]] — Cross-harness agent observability dashboard: maps sessions, subagents, task progress, ETAs, and token rate across nine coding-agent harnesses into a single local web UI. Stdlib-only Python, passive read-only, zero-config; distributed as one plugin across four harness marketplaces
 - [[Broomy]] — MIT-licensed Electron desktop app running multiple coding agents side-by-side with built-in IDE and code review
 - [[Browser Use]] — AI browser automation with anti-detection and deterministic rerun
 - [[Webwright]] — Microsoft Research: turns coding models into SOTA browser agents via terminal + Playwright. Code-as-action, self-verifying, ~1.5K LoC
