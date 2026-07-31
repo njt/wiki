@@ -1,6 +1,6 @@
 # Wiki Index
 
-501 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+504 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -649,6 +649,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[Tom Barraclough — Sovereign AI Policy]] — Tom Barraclough dismantles "sovereign AI = government builds a foundation model," replacing it with a multidimensional framework spanning compute, data, literacy, and agency — and argues the real infrastructure play is turning law from PDFs into structured, versioned datasets
 - [[Fruit Jelly Slices]] — How Passover dietary law accidentally preserved a candy that should have gone extinct, and what that reveals about tradition as path dependence, not design
 - [[Life at Low Reynolds Numbers]] — Purcell's classic 1977 talk: viscosity-dominant physics at bacterial scale, the scallop theorem, and why stirring is futile when you're a micron long
+- [[Lost Golden Age of Languages]] — A *Science* paper pushes mass language extinction from colonialism (~500 ya) back to the rise of states and empires (~3,000 ya); surviving languages are a politically-selected bottleneck, not a representative sample
 - [[Science and Statistics (Box)]] — George Box's 1976 Fisher Memorial Lecture: "all models are wrong," theory-practice iteration as the engine of science, and why mathematistry and cookbookery are the twin diseases of closed-loop research
 - [[Seeing Is Not Believing — AI Video and Perceptual Safety]] — Wolf et al. (MIT Media Lab, CHI 2026): exposure to AI-generated videos erodes confidence in authentic media even when synthetic content is clearly disclosed — disclosure addresses deception but not perceptual erosion, and the paper coins "perceptual safety" as a design principle
 - [[SimPolitics]] — Fenwick McKelvey's history of the 60-year project to model politics as a computing problem, from 1960s election simulations through Cold War world models; the "computational imaginary of politics" as a pattern that outlives every failed instantiation
