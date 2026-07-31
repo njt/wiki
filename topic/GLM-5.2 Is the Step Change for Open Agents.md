@@ -4,7 +4,7 @@ Z.ai released GLM-5.2 on June 13, 2026 — MIT-licensed weights, competitive wit
 
 > "GLM-5.2 is the open weight model that feels right in coding harnesses as a general agent. It's the first one."
 
-Lambert tested it himself via Fireworks' API in Claude Code. This matters — the author didn't just read benchmarks, he ran it through his daily workflow. Image inputs bricked the session (early quirk), but the core coding loop worked.
+Lambert tested it himself via Fireworks' API in Claude Code. This matters — the author didn't just read benchmarks, he ran it through his daily workflow. Image inputs bricked the session (early quirk), but the core coding loop worked. [[GPU Self-Hosting for Coding Agents]] independently confirms GLM-5.2 matches Opus 4.8 (both at 62.5% resolution rate on 64 SWEBench Pro tasks), though serving it requires an 8×B200 node that only comfortably handles 8 concurrent sessions.
 
 > "GLM-5.2 is being given time to carve out the economic underbelly of the frontier labs."
 

@@ -14,7 +14,7 @@ This isn't a B200-specific quirk — it's the defining constraint of transformer
 
 > "the compute cores are idle 98% of the time"
 
-This is the number that should reshape how you think about GPU utilization. High GPU "utilization" in monitoring dashboards typically measures compute — but for inference, memory bandwidth is the real bottleneck. A GPU at 100% compute utilization might still be wasting most of its potential if memory isn't saturated.
+This is the number that should reshape how you think about GPU utilization. High GPU "utilization" in monitoring dashboards typically measures compute — but for inference, memory bandwidth is the real bottleneck. A GPU at 100% compute utilization might still be wasting most of its potential if memory isn't saturated. [[GPU Self-Hosting for Coding Agents]] confirms this empirically: published enterprise GPU utilization for inference workloads averages 15–22%, and even well-run deployments rarely exceed 25–35%.
 
 > "Inference engines will cache the K,V pairs for reuse"
 

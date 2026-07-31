@@ -54,7 +54,7 @@ The key insight from [[Doing]]: "LLMs know what you mean, even when your words a
 
 ## What's Missing
 
-**Benchmarks for local agent workflows.** We have benchmarks for individual model tasks (transcription accuracy, document parsing quality). We don't have benchmarks for end-to-end local agent workflows: how does a fully-local pipeline (voice -> transcription -> search -> generation -> TTS) compare to a cloud pipeline on real tasks?
+**Benchmarks for local agent workflows.** We have benchmarks for individual model tasks (transcription accuracy, document parsing quality). We don't have benchmarks for end-to-end local agent workflows: how does a fully-local pipeline (voice -> transcription -> search -> generation -> TTS) compare to a cloud pipeline on real tasks? [[GPU Self-Hosting for Coding Agents]] partially fills this gap with ~100 runs of 64 SWEBench Pro tasks across four GPU tiers — but only for coding agents, not the broader local agent pipeline.
 
 **Local inference orchestration.** If you're running three local models (transcription, embedding, generation), who manages the GPU/CPU allocation? [[maclocal-api]]'s aggregation layer is a start, but multi-model orchestration on local hardware is an unsolved problem.
 
