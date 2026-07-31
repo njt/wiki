@@ -10,6 +10,8 @@ Lynch's central question: **"What's the penalty for being wrong?"** This is the 
 
 This converges with [[Specifications as the Product]]'s economic argument from the opposite direction. Where that thesis says "specs are the durable asset because code is disposable," Lynch says "design docs are insurance against the decisions that are expensive to unwind." Same destination, different framing.
 
+Lynch's reader-first philosophy also converges with [[Make Better Documents]], Anil Dash's ten-rule field manual for business communication. Dash's rules — know your audience, state conclusions first, kill the formatting — are the general case of what Lynch prescribes for design docs specifically. Both treat the document as a tool for transferring context from someone who has it to someone who needs it.
+
 ## When to Write One
 
 Six yes/no questions. Any single yes makes it likely worthwhile; two or more makes it "almost certainly" so:
