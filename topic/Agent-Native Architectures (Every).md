@@ -64,4 +64,6 @@ The legibility heuristic. Files are self-documenting in a way databases aren't. 
 ---
 
 *Sources: [[summary/agent-native-architectures]]*
-*Last updated: 2026-05-15*
+*Last updated: 2026-08-01*
+
+For a complementary resource organized as a searchable catalog of design patterns rather than a principle-based guide, see [[Agentic Design (Pattern Catalog)]], which maps 280+ connected patterns to concrete constraints (reliability, latency, cost, safety) with side-by-side trade-off comparisons.

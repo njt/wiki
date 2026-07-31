@@ -132,6 +132,7 @@ The [[Load-Bearing Assumptions]] skill (surfacing falsifiable claims in code pla
 - [[Building Agents for Production Systems with MCP]] — MCP as the standard integration layer
 - [[10 Principles for Agent-Native CLIs]] — Trevin Chow's agent-first design rules
 - [[Moltbook]] — the lethal trifecta in production
+- [[Agentic Design (Pattern Catalog)]] — KORTEXYA's searchable pattern catalog applying the Alexander pattern-language model to agent architecture: 280+ patterns organized by constraint, with interactive demos
 
 ---
 *Source: [github.com/Moai-Team-LLC/agentic-product-standard](https://github.com/Moai-Team-LLC/agentic-product-standard) v2.0.0, ingested 2026-06-09.*

@@ -37,6 +37,8 @@ Weak: ten elements is arguably too many -- some feel like splits of a natural pa
 
 Most useful as a shared vocabulary when discussing agent systems, less useful as a design guide when building them.
 
+For a pattern catalog organized by constraint rather than taxonomy — the Alexander-esque "navigate from problem to solution" model applied to agent design — see [[Agentic Design (Pattern Catalog)]], KORTEXYA's free catalog of 280+ connected agent design patterns.
+
 ---
 *Sources: [[summary/elements-of-agentic-system-design]]*
-*Last updated: 2026-05-14*
+*Last updated: 2026-08-01*
