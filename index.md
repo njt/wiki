@@ -626,6 +626,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[Performative UI]] — Nathaniel J. Smith's satirical React component library cataloguing AI startup landing page tropes as installable npm packages. The visual-design parallel to Kriss and Shiv: 27 components where each description states the quiet part out loud
 - [[The Behavioral Cost of Personalized Pricing]] — Behavioral price discrimination turns sincere customers into performers; the sincerity tax and the coming arms race of digital reputation management
 - [[Creative Firewall]] — Sundar's framework for the boundary between authentic human prompting and AI-optimized output: Trojan Prompts as the creative differentiator
+- [[The End of an Era — Hugh Howey on AI and Authorship]] — Hugh Howey marks the close of the "lucky window" (~2014–2024) when writing was hard but publishing was cheap, and surveys a landscape where every new author is doubted, provenance becomes the new scarcity, and "do it for the love of it" is the only stable posture
 - [[TRIZ]] — Soviet systematic innovation methodology: 40 principles, contradiction matrix, and the meta-insight that invention has structure you can learn. Intel $212.5M ROI, Samsung 50 patents/year
 - [[You Can Just Say It]] — Caleb Gross: stop defending human value by what AI can't do. AI slop = form without discernible intent. Just send the prompt
 - [[Eye of the Master]] — AI as labour automation, not cognitive science. Pasquinelli's social history
