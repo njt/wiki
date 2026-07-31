@@ -84,6 +84,8 @@ The comment thread reveals a broader truth: the harness matters more than the mo
 
 **690M tokens and 5 hours is actually a lot of compute for a single binary.** Compare this to the cost of traditional RE (IDA Pro license, weeks of human time) and it's a bargain. Compare it to what a dedicated RE toolchain with a fine-tuned model could achieve, and it's absurdly inefficient. The efficiency comes from the workflow loop, not the model.
 
+**The logical next step is [[Kuna — Agent-First Decompiler]]: an LLM building the RE tool, not just using one.** Zion Basque's experiment flips the relationship — instead of an LLM driving Ghidra via MCP, an LLM writes the entire decompiler, studying its own benchmark failures against IDA Pro to self-improve. If DeepSeek+TeamSpeak proved LLMs can *do* RE, Kuna asks whether they can *build the tools* for RE.
+
 ---
 
 *Sources: [[summary/deepseek-reverse-engineers-teamspeak]]*
