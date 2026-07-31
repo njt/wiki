@@ -266,6 +266,7 @@ Evals, testing, linting, feedback loops, and keeping agent output trustworthy. *
 
 Isolation, credentials, prompt injection defense, and agent safety. **Hub: [[Security and Sandboxing]]**
 
+- [[Beyond Zero — Enterprise Security for the AI Era]] — Google/Alphabet Security's successor to BeyondCorp: shrink the trust boundary from application to individual action, couple static policy floors with AI-driven reasoning ceilings, and authorize at machine speed for the agentic era. The floor/ceiling architecture and graduated challenge/containment response as the cleanest articulation of where enterprise security must go
 - [[AI Security Framework for DevSecOps]] — PreEmptive's practical guide to operationalizing AI security across the DevSecOps lifecycle: CI/CD enforcement, application hardening, and the framework taxonomy (NIST/EU/OWASP/MITRE/SAIF) that are complementary but not interchangeable
 - [[Agent Skills for Security Testing]] — A library of 16 Claude Code skills for web application security testing, built from 4,000+ HackerOne bug bounty reports. Each skill distills vulnerability patterns into grep commands and curl tests
 - [[Agentic AI Security Stack]] — Fernando Lucktemberg's free 200+ page reference: unified threat model tracing kill chains through 12 interception points, mapped to OWASP, MITRE ATLAS, and CSA MAESTRO
