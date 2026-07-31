@@ -88,6 +88,8 @@ Three gaps Denicola names:
 
 **The six-month obsolescence prediction is the most honest thing in the article.** Agentic coding infrastructure is in the frothy phase where every month brings a better way to do something. Writing down what works today isn't about creating a permanent reference — it's about capturing a waypoint so you can measure how far you've traveled. This article will be quaintly obsolete. That's the point.
 
+**One direction the infrastructure is evolving is toward fully integrated desktop orchestrators.** [[Orca]] productizes the exact pattern Denicola describes — parallel git worktrees, SSH remote execution, mobile monitoring — into a single Electron app with daemon-persisted terminals that survive crashes and a hook-based agent status system that eliminates the "is Claude still working?" question. It's the route where you buy the platform rather than assembling it from VMs and Tailscale.
+
 ---
 
 *Sources: [[raw/domenic-agentic-coding-setup]]*

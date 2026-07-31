@@ -453,6 +453,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Understand-Anything]] — Claude Code plugin: builds persistent knowledge graphs from codebases with tree-sitter + LLM pipeline, incremental git-hook updates, and interactive dashboard
 - [[Clipfan]] — Fleet-wide clipboard sync over SSH with headless image paste for Claude Code and Codex CLI. Three-layer dedup, AES-GCM encryption, tmux integration. From Prime Radiant
 - [[cmux]] — macOS-native terminal built on libghostty, designed for managing multiple AI coding agent sessions. Notification rings flag panes that need human attention. Free, by Manaflow
+- [[Orca]] — Open-source Electron desktop orchestrator running 20+ CLI coding agents in parallel git worktrees with SSH remote access, mobile companion, and crash-surviving persistent terminals. 590K lines TypeScript, MIT licensed by stablyai
 - [[Clearance]] — Native macOS Markdown viewer/editor from Prime Radiant. Swift, local-first, YAML frontmatter support
 - [[MarkText]] — Open-source GUI Markdown editor. WYSIWYG, cross-platform
 - [[Mist]] — Google Docs for Markdown. Real-time collaboration, no accounts
