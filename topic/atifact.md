@@ -87,7 +87,9 @@ All parsers handle prompt caching tokens carefully. The pattern across formats: 
 
 **vs. [[AI Pricing]]**: AI Pricing provides per-token model pricing data. atifact captures the usage metrics that AI Pricing's rates would be applied to for cost analysis.
 
+**vs. [[har-extractor]]**: Both parse HAR files, opposite use cases. atifact's 1,055-line HAR parser extracts API conversation trajectories with multi-turn deduplication and SSE reconstruction; har-extractor's 63-line implementation extracts web assets from browser DevTools HARs using a URL-to-path heuristic. Same container format, different payloads, 16× line-count difference.
+
 ---
 *Source: [[summary/atifact]] — full repo clone and deep analysis*
-*Last updated: 2026-06-09*
+*Last updated: 2026-08-01*
 *Tags: #tool #project #agents #analytics*
