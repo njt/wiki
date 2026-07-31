@@ -58,8 +58,9 @@ The cross-region write path looks like: client → local query processor (buffer
 - [[SDPD — Systems Design Police Department]] — The failure modes ("Split Brain", "Conflicting Orders") that DSQL's architecture must handle
 - [[SQLite Is All You Need]] — The opposite end of the spectrum: single-machine SQLite vs. global-scale DSQL
 - [[Constraint Decay]] — The finding that databases are the primary failure driver for coding agents; relevant to DSQL as an agent-facing database
+- [[Aurora DSQL — Murat Demirbas' Insider Review]] — Former DSQL engineer's candid architecture review with tradeoffs the paper omits
 
 ---
 
-*Sources: [[raw/aurora-dsql]]*
-*Last updated: 2026-07-21*
+*Sources: [[raw/aurora-dsql]], [[raw/aurora-dsql-murat-demirbas]]*
+*Last updated: 2026-08-01*
