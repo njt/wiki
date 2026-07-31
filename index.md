@@ -80,6 +80,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[PAAD — Defense-in-Depth for AI-Assisted Development]] — Curtis "Ovid" Poe's Claude Code plugin suite: 8 skills (pushback, alignment, architecture, review, a11y, vibe, makefile) that add defense-in-depth safeguards with a specialist+verifier pattern and Graphviz digraphs as safety gates
 
 - [[Cloud Software Factories]] — Zach Lloyd's blueprint for the post-interactive-agent era: centralized SDLC automation loops (triage→spec→implement→review→verify→ship→monitor), three-layer architecture (runtime/orchestration/measurement), and the case that software development should be managed as COGS not R&D
+- [[Harness Engineering is not Enough]] — Dex Horthy argues lights-off software factories fail because RL can't reward maintainability (its cost function plays out over months, not test runs), and the practical path is four-stage AI-assisted upfront planning so humans can still read every line without drowning in slop
 
 ## Agent Design & Architecture
 

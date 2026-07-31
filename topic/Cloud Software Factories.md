@@ -79,6 +79,8 @@ This is written from a vendor's perspective (Warp wants you to see competitors a
 
 **Comparison to other factory visions:** [[Dev Machine Foundry]] (Sam Schillace) is the solo-developer version of the same concept — 565 sessions, 3,706 commits, autonomous but single-human. [[Fable Open-Sourced NanoClaw's PR Factory]] is the overnight unattended variant. [[StrongDM Factory Techniques]] names the patterns (DTU, Gene Transfusion, Filesystem-as-memory) that Lloyd's architecture implies but doesn't name. Lloyd's contribution is the *engineering leader's* framing: this is about organizational ROI, not individual productivity.
 
+**The maintainability counterargument:** [[Harness Engineering is not Enough]] pushes back directly on the lights-off factory vision: Dex Horthy argues that RL-trained coding agents structurally cannot maintain codebase quality because the cost function of bad architecture plays out over months, far outside any training reward horizon. No amount of factory infrastructure—review agents, monitoring, rollout investments—compensates for code that was never built to be maintained. The planning-heavy workflow Horthy advocates (product review → architecture → program design → vertical slices before any agent writes code) is the human-steering layer that Lloyd's factory architecture doesn't specify.
+
 ---
 
 *Sources: [[raw/cloud-software-factories-zach-lloyd]]*

@@ -72,6 +72,7 @@ A sharp counter to the "but architecture requires human judgment" objection. The
 - [[Security and Sandboxing]] — Prompt injection defense, the new attack surface this paper identifies
 - [[Loop Engineering]] — Addy Osmani's meta-skill framing: designing systems that prompt agents rather than prompting them yourself
 - [[Agent Coding Workflow]] — The practitioner's daily loop: the workflow this paper argues should include agent review by default
+- [[Harness Engineering is not Enough]] — The counterargument: human code review remains essential but only if you shift leverage upstream with AI-assisted planning so review is lightweight verification rather than painful discovery
 
 ---
 
