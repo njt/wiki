@@ -38,7 +38,7 @@ The most interesting development is kanban boards as the human-agent coordinatio
 
 ### Session Management
 
-[[Dorothy]] provides tiling terminal views for 10+ simultaneous agents with a meta-orchestrator. [[Agent of Empires]] wraps tmux sessions around multiple agent CLIs with git worktree integration for branch isolation. [[klaw.sh]] applies the kubectl metaphor: list, inspect, log, namespace, schedule. The enterprise end of the spectrum.
+[[Dorothy]] provides tiling terminal views for 10+ simultaneous agents with a meta-orchestrator. [[Agent of Empires]] wraps tmux sessions around multiple agent CLIs with git worktree integration for branch isolation. [[klaw.sh]] applies the kubectl metaphor: list, inspect, log, namespace, schedule. The enterprise end of the spectrum. [[Orca]] is the most comprehensive desktop orchestrator: 20+ agents in parallel git worktrees with daemon-persisted PTYs that survive crashes, SSH remote worktrees, mobile companion, and a plugin system — it operationalizes the full [[Loop Engineering]] stack as a product.
 
 ### The Alignment Problem
 
