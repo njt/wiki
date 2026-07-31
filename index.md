@@ -169,6 +169,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Lathe]] — LLM-powered hands-on tutorial generator: Go CLI owns state, six skills do model work, strict handoff boundary. The pedagogical inversion: LLMs teach you, don't think for you
 - [[Thought Refiner Skill]] — 15-line Claude Code skill that turns vague input into sharp questions. Part of a three-skill suite (thought_refiner/sharpener/expander). A masterclass in defining what a skill *won't* do
 - [[Decision Framework Skill]] — Claude Code skill turning 37signals' 38-question decision framework into adaptive coaching: asks only the relevant subset, phases analysis from recommendation, treats restraint as a feature
+- [[Socrates Skill]] — 73-line Claude Code skill that makes an AI agent a Socratic tutor: never answers, always asks. Progressive question taxonomy, anti-pattern enforcement, triple-layered never-answer constraint. A masterclass in negative specification — defining what a skill won't do
 - [[Devin Fusion]] — Cognition's multi-model agent harness: frontier main agent + cheaper sidekick model run in parallel with separate cached contexts, switching at compaction boundaries. 35% cost reduction at near-frontier quality on FrontierCode
 - [[What I learned building an opinionated and minimal coding agent]] — Four tools, no MCP, full YOLO. Competitive on benchmarks
 - [[Pi Coding Agent]] — The productized Pi: TypeScript extensions, SDK, RPC mode, and the tension between minimalist philosophy and platform ambitions
