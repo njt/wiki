@@ -489,6 +489,7 @@ Tools that run on your own machines: voice, hardware, local inference, knowledge
 
 - [[Datacenter GPU in a Gaming PC]] — £200 eBay V100 in a gaming rig: hardware hacking, NixOS driver archaeology, and Qwen3.6-27B at 32 tok/s
 - [[Dual GPU RTX 5080 + RTX 3090 Qwen 3.6 Setup]] — iMil's field report: RTX 5080 + RTX 3090 running Qwen 3.6 27B Q8 at 80+ tok/s via tensor-split speculative decoding on an Asus X570-Pro
+- [[GPU Self-Hosting for Coding Agents]] — aistack's benchmark of 64 coding tasks across self-hosted GPUs, rented hardware, and commercial APIs: self-hosting costs roughly the same as renting at honest utilization, and the real reasons to buy GPUs are data residency and rate-limit freedom
 - [[LocalAI]] — Open-source drop-in replacement for the entire cloud AI stack: inference engine, agent runtime, and memory service in a composable gRPC backend architecture. 40k stars, MIT licensed
 - [[AirLLM]] — Runs 70B+ LLMs on 4GB GPUs by streaming one transformer layer from disk at a time. 405B Llama 3.1 on 8GB, 671B DeepSeek-V3 on ~12GB, no quantization required
 - [[Petals — Decentralized LLM Inference]] — BigScience's P2P network for running 100B+ models on consumer GPUs by splitting layers across volunteer peers. BitTorrent-style model serving: ~6 tok/s on Llama 2 70B, supports both inference and fine-tuning
