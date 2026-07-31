@@ -73,6 +73,7 @@ The article also ignores the social dimension. Formal methods have been "about t
 - [[Slowing the Fuck Down]] — deliberate friction; formal methods as the most extreme form
 - [[Compound Engineering]] — add a system, not manual review; formal verification as the system
 - [[Lean Software Scaling Laws]] — Gwern's empirical framework for testing whether formally-strong languages become *more* LLM-predictable as codebases grow, inverting Congdon's economic argument into a scaling-law prediction
+- [[Why Rocq Is Better Than Lean for Program Verification]] — Korkut's practitioner's answer to "which formal method?": a detailed, code-backed comparison of what you gain and lose choosing Rocq over Lean for program verification, with the ecosystem depth argument Congdon's piece doesn't engage
 
 ---
 

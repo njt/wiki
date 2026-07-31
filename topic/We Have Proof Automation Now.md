@@ -59,6 +59,7 @@ On F*'s SMT-solver-based approach to proof automation. The contrast with LLM-bas
 - [[An Introduction to Formal Logic (Peter Smith)]] — The logical foundations: Smith's textbook is the standard introduction to the first-order logic that proof assistants embody; useful for understanding *what* the machine is checking
 - [[Guardrails and Feedback Loops]] — The type checker as the ultimate deterministic guardrail
 - [[AI Code Migration with Claude Code]] — Anthropic's approach to large-scale code transformation; related to proof maintenance under code change
+- [[Why Rocq Is Better Than Lean for Program Verification]] — Korkut's ecosystem-side counterpoint: Langley shows Lean proofs are now cheap to generate; Korkut shows that Rocq's two decades of verification infrastructure (CompCert, Iris, VST) is what you'd need to rebuild if you switched
 
 ---
 *Sources: [[raw/zstd-lean]]*
