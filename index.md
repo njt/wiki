@@ -349,6 +349,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 - [[Your Distributed System Is Slower Than a Laptop]] — CodeGood revives the 2015 COST paper: a $1.4M/year Kafka+Flink pipeline costs 24× more than a single-server alternative that's faster; the coordination tax is paid in salaries, not CPU cycles — and the industry still doesn't run the comparison
 - [[Session Revocations at Scale (Canva)]] — Llew Vallis on Canva's rebuild of its session revocation cache: 8× memory reduction via 16-byte binary format, S3 over Redis as the distribution layer, and the finding that network latency, not sorting, is the real bottleneck at hundreds of millions of users
 - [[Reduce Logging Costs]] — Michael Shpilt's five-strategy taxonomy for cutting observability spend: sampling, tiered storage, in-code cleanup, vendor migration, and the nuclear option of killing INFO logs. Core thesis: sustainable savings come from reducing telemetry before it leaves the application, not cheaper storage after the fact
+- [[Unnecessary Optimization in Rust]] — Evan Schwartz benchmarks six Hamming distance implementations across three platforms, finds his 23-line auto-vectorizable crate beats hand-tuned C SIMD libraries, and lands on the compiler-trust thesis: write code the optimizer can reason about, not platform-specific intrinsics
 
 ## Databases & Data
 
