@@ -74,6 +74,7 @@ These aren't framed as "best practices." They're framed as what you must do beca
 - [[A Non-Anthropomorphized View of LLMs]] — the reality check: LLMs are functions through ℝⁿ, not proto-minds
 - [[They're Made Out of Weights]] — "just weights" all the way down, and we've agreed not to care
 - [[Man-Computer Symbiosis]] — Licklider's 1960 ur-text: the vision of computation as cognitive prosthesis
+- [[I Have ADHD Skill]] — ayghri's output-shaping skill operationalizes these principles as an agent communication protocol: ten falsifiable rules grounded in the same cognitive constraints Williams maps, with a pre-send deletion checklist that treats output formatting as accessibility engineering
 - [[The Mundanity of Excellence]] — excellence as qualitatively different choices, not more effort or bigger brains
 - [[Thinking Hard Burns Almost No Calories]] — mental fatigue isn't energy depletion, it's adenosine hijacking perceived exertion; related but orthogonal to working memory limits
 

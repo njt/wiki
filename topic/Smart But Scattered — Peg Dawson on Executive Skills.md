@@ -78,6 +78,7 @@ The long game. Goal-directed persistence often doesn't emerge until late high sc
 - [[The People Who Will Thrive in the AI Age]] — David Brooks on volition over intelligence. Dawson's "goal-directed persistence as the biggest prize" is volition by another name.
 - [[Not-Knowing (Vaughn Tan)]] — Parenting as navigating genuine uncertainty. Dawson's framework reduces but doesn't eliminate the irreducible unknowns of raising a child.
 - [[Anthropomorphism in Children's Interactions with LLM Chatbots]] — Jayathilake & Ma extend the Piagetian developmental lens to LLM interaction: the same prefrontal maturation Dawson describes shapes how children anthropomorphize chatbots, with the most concerning outcomes requiring the abstract cognition that isn't fully online until adolescence
+- [[I Have ADHD Skill]] — ayghri's session-persistent agent skill translates Dawson's insights into AI communication design: lead with the action (bridging the knowing-doing gap), restate state every turn (compensating for working memory limits), give concrete time estimates (working around the "now/not now" binary), and make completed work visible (feeding the dopamine loop Dawson's incentives framework relies on)
 
 ---
 
