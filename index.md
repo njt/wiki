@@ -1,6 +1,6 @@
 # Wiki Index
 
-504 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+505 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -364,6 +364,7 @@ Storage engines, query patterns, data quality, and vector/graph databases. **Hub
 - [[The Limits of Generalized Sync]] — Siidorow's master's thesis: the most rigorous empirical study of sync engines (Zero, ElectricSQL, PowerSync, Convex, etc.), classifying 14 engines into 4 architectural clusters. Central finding — read paths generalize, write paths resist: the online/offline boundary determines everything downstream. 7 trade-offs, 5 fundamental limits, production case study
 - [[Lakebase and LTAP]] — Reynold Xin on Databricks' stateless Postgres architecture and the LTAP paradigm that eliminates CDC by storing operational data once in open columnar formats for both transactions and analytics
 - [[Wes McKinney on Pandas, Arrow, and Data Infrastructure]] — Wes McKinney on the accidental origin of Pandas, Arrow's decade-long adoption curve, why foundational data infrastructure resists AI replication, and the full-circle return from distributed back to single-machine columnar engines
+- [[Apache DataFusion]] — Apache's embeddable Rust query engine built on Arrow: the LLVM of analytical databases, with extension points at every level and subprojects spanning Python, Java, Spark acceleration (Comet), and distributed execution (Ballista)
 - [[DocumentDB]] — Microsoft's MongoDB-compatible document database on PostgreSQL: native BSON type, 10K-line aggregation pipeline compiler in C, Rust wire-protocol gateway with read-ahead pipelining
 - [[FlareDB]] — Apache Beam-native streaming database in Rust: PCollections become Arrow-backed LSM-tree tables, dissolving the boundary between pipeline processing and durable storage
 - [[Grist]] — Open-source relational spreadsheet-database hybrid: Python formulas, SQLite document format, cooperative exception-driven dependency graph for formula evaluation, two-level action pipeline (User Actions → Doc Actions). ~233K TypeScript + ~45K Python
