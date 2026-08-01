@@ -381,6 +381,7 @@ Storage engines, query patterns, data quality, and vector/graph databases. **Hub
 - [[Redb Ecosystem]] — Three-layer Apache 2.0 .NET stack: typed LINQ-native database (POCO-as-schema, Postgres/MSSQL/SQLite), Apache Camel-style integration engine (30+ connectors, EIP DSL), and clustered runtime with dashboard. 3.3.0 fixes silently-broken concurrency across RabbitMQ/Kafka/AMQP and adds built-in RAG pipeline primitives
 - [[Bad Data in Production — Response Playbook]] — Pinal Dave's six-step incident response playbook for data quality failures: triage, contain, trace lineage, fix-and-verify, notify stakeholders, blameless review
 - [[Searchable Field-Level Encryption with CipherStash]] — CipherStash brings Data Level Access Control to Supabase/Postgres: field-level encryption with searchable metadata, zero-knowledge key management, and wire-protocol proxy for non-SDK access
+- [[Just Brute Force Your Embeddings]] — Doug Turnbull's empirically-backed case that one line of NumPy handles embedding search for millions of docs: measure the simple thing before reaching for a vector database
 
 ## Developer Tools
 
