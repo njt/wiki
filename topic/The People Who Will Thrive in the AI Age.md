@@ -95,6 +95,7 @@ This is the same insight as [[The Education of the Broligarchy|Blake Smith's ess
 - [[Thinking Hard Burns Almost No Calories]] — mental fatigue is perceived exertion, not energy drain
 - [[99 Bottles of OOP]] — programming aesthetic, line-by-line mastery
 - [[Ponytail]] — the "lazy senior dev" as deliberate friction
+- [[The Art of Decision-Making]] — Rothman's essay provides the philosophical depth Brooks gestures at: Callard's "aspiration" as the mechanism of becoming, Paul's Vegemite Principle as the epistemological limit AI inherits (it can't know what it hasn't experienced either)
 
 ---
 

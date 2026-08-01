@@ -56,5 +56,8 @@ The cross-link to [[poietic]] is non-trivial. Tan co-founded poietic with Erik G
 
 ---
 
+- [[The Art of Decision-Making]] — Rothman's essay extends Tan's taxonomy from the other direction: not just "what type of not-knowing is this?" but "what if the choice changes who I am such that my current values can't evaluate it?" The philosophers Rothman surveys (Ullmann-Margalit, Paul, Callard) are working the same problem as Tan — the inadequacy of decision theory for choices where values aren't stable
+
+---
 *Sources: [[summary/notknowing]]*
-*Last updated: 2026-05-15*
+*Last updated: 2026-08-01*

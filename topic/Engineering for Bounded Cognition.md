@@ -77,6 +77,7 @@ These aren't framed as "best practices." They're framed as what you must do beca
 - [[I Have ADHD Skill]] — ayghri's output-shaping skill operationalizes these principles as an agent communication protocol: ten falsifiable rules grounded in the same cognitive constraints Williams maps, with a pre-send deletion checklist that treats output formatting as accessibility engineering
 - [[The Mundanity of Excellence]] — excellence as qualitatively different choices, not more effort or bigger brains
 - [[Thinking Hard Burns Almost No Calories]] — mental fatigue isn't energy depletion, it's adenosine hijacking perceived exertion; related but orthogonal to working memory limits
+- [[The Art of Decision-Making]] — Rothman's essay names the same problem from the other side: bounded rationality means our biggest life choices can't be optimized, and the philosophers he surveys argue that's a feature — transformative choices reconfigure the values by which we'd evaluate them
 
 ---
 *Source: [[summary/bounded-cognition]]*
