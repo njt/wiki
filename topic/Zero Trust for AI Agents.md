@@ -12,6 +12,8 @@ This is the sharpest idea in the document and the lens through which every tier 
 
 This reframes the entire security conversation. Rate limiting isn't defense — it's a stopwatch. The countermeasures that survive the test all share a pattern: hardware-bound credentials, expiring tokens, cryptographic identity, and network paths that do not exist rather than paths that are merely inconvenient. It's the security equivalent of "linters beat prompts" ([[Guardrails and Feedback Loops]]) — deterministic architectural constraints beat probabilistic behavioral ones.
 
+The test applies beyond agent security to web security UX generally. [[Security Is Hard, Y'all]] catalogues anti-phishing signals — domain names, TLS indicators, green checkmarks, OAuth consent screens — and finds that every one of them is in the "tedious" category. An attacker can replicate all of them at near-zero cost. The legitimate product and the phishing attack are structurally indistinguishable, which is why URL reputation services walk an impossible line between blocking real attacks and breaking real products. The same "only hard barriers survive" logic that governs agent security governs web trust.
+
 > "If you are running API keys with rotation policies today, treat it as a known gap rather than a legitimate Foundation posture. Rotating a credential that can be grepped out of a lockfile does not raise the cost to an AI-assisted attacker meaningfully."
 
 ## Least Agency
