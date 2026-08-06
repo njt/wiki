@@ -47,6 +47,8 @@ The team went from alerting on every individual error (YC "do things that don't 
 
 **The long-term vision is the interesting part.** "Unify these two amazing databases as components of a single stack rather than separate databases" — this is the convergent database thesis again (see [[AliSQL]]). But ClickHouse is approaching it from the other direction: instead of adding columnar storage to a row-oriented engine, they're adding row-oriented semantics (UPDATE, unique indexes, Postgres compatibility) to a columnar engine. Both paths are hard. The question is which architecture has the better foundation for the convergence.
 
+**Inside a database, CDC is a solved problem because there's a log.** Between companies, as [[The Valley of Webhooks]] argues, we're still rebuilding it from doorbells — webhooks and polled list APIs, one bespoke connector at a time, sold as product by Fivetran and Airbyte. The PeerDB/ClickHouse story is what reliable replication looks like when you have WAL access. The webhook ecosystem is what it looks like when you don't.
+
 ---
 
 *Sources: [[summary/postgres-cdc-clickhouse-year-in-review-2025]]*
