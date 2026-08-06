@@ -40,6 +40,8 @@ The genuinely novel feature. Every team has patterns they catch in review over a
 
 **What's genuinely new here:** Invariants as encoded team knowledge. The three-layer routing (deterministic → LLM fallback with confidence labeling). MCP as the submission channel rather than a separate web UI. Evidence-attached verdicts. These are good ideas that point toward what post-review verification should look like, whether or not Aviator is the tool that delivers them.
 
+The three-layer routing pattern (deterministic checks → AI evaluation → human sign-off) converges with [[Chiaro Methodology]]'s audit architecture: deterministic checks cover structured evidence, calibrated AI reads cover prose, and every candidate deviation is confirmed by a CPA before it becomes an exception. Both systems route cheap work to machines and reserve expensive human judgment for what machines can't decide — the same economic logic applied to software verification and compliance auditing respectively.
+
 **What's missing:** Any mention of false positives. Any discussion of what happens when the agent-generated acceptance criteria miss something important. Any data on reviewer experience — does this actually reduce the cognitive load, or does it just shift it from reading code to evaluating evidence? Any pricing. Any independent validation that teams using this ship faster or with fewer defects. The product page is a bet that the thesis is compelling enough on its own. For some teams, it will be.
 
 ---

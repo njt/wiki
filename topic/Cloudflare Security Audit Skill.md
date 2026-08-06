@@ -109,6 +109,8 @@ Unlike [[Audit Skills for AI Coding Agents (metacircu1ar)]], which covers 11 aud
 
 Unique among open-source security tools, the skill's adversarial architecture — find → try to disprove → independently verify → structured output enforcement — is a methodology contribution independent of the prompt content. The same pipeline structure could be applied to other audit domains (compliance, performance, accessibility) by swapping the attack class prompts for domain-specific investigation prompts.
 
+The adversarial pipeline pattern also appears in [[Chiaro Methodology]], but with a different trust model: instead of running its own agents to find problems, Chiaro runs the *client's* AI agent under hard procedural constraints (anti-fabrication gates, verbatim capture, deterministic seeded sampling) and uses server-side gates to prevent the agent from gaming the test. Where Cloudflare's skill trusts its own agents *more* than the target, Chiaro trusts its procedural constraints *more* than any agent — including its own.
+
 ---
 *Sources: [[raw/cloudflare-security-audit-skill]]*
 *Last updated: 2026-07-18*
