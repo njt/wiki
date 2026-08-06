@@ -50,5 +50,6 @@ The closing question is the real essay. Everything before it is setup. Albrecht 
 - [[Zero Alignment]] — one dev with 24 agents produces chaos
 - [[Don't Fear the Dark Factory]] — the dark factory is a validation problem, not a generation problem
 - [[Coding Agents and Complexity Budgets]] — $260 weekend migration, agents need grep not GUIs
+- [[Cloudflare Wallets]] — The payment infrastructure that removes the human from the purchasing loop; agents that can deploy need to be able to pay
 
 *Source: [Why agents matter more than other AI](https://substack.morereasonable.com/p/why-agents-matter-more-than-other) — Josh Albrecht, More Reasonable (Substack), 2025-12-19. Ingested 2026-05-22.*

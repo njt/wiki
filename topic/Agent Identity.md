@@ -61,6 +61,8 @@ The provocation: if the article is right, then most of the agent-memory work is 
 
 [[Guardian Angels|Gwern's Guardian Angels essay]] is the most concrete instantiation of identity-as-participation currently on the table: dynamic evaluation (continuous on-the-fly finetuning) as the mechanism, an append-only log as the data structure, and a GA that can say what its principal would say — "profane, heretical, weird" — because every sanding of the persona is a point where emulation fails. It's the same argument ("grounded no") applied to expression rather than action: an agent that can't refuse to be inoffensive can't represent you.
 
+[[Cloudflare Wallets]] attacks identity from the infrastructure side rather than the philosophical side: `cloudflare.pay` domains give agents human-readable, optionally-declared identifiers (e.g., `research.example.cloudflare.pay`) built on Web Bot Auth keypairs — the DNS-to-IP-address model applied to agent identity. It's deliberately minimal: a naming layer, not a verification layer. But it addresses the same "stable ground" problem from the merchant's perspective — giving agents something to stand on so they can be recognized across transactions.
+
 See also: [[Zero Alignment]] (Appleton's parallel argument from the coordination side), [[Slowing the Fuck Down]] (deliberate friction as feature), [[Cognitive Debt]] (velocity exceeding comprehension), [[The Mythical Agent-Month]] (agents generate new accidental complexity), [[ThoughtWorks Future of Software Engineering Retreat]] (agent topologies as Conway's Law), [[Smart Models Dumb Pipes]] (end-to-end principle applied to AI).
 
 ---
