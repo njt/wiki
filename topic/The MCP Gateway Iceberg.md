@@ -51,6 +51,8 @@ This is the best public field report on enterprise MCP gateway engineering to da
 
 **The identity model is incomplete**: Interactive-as-user and scheduled-as-service-account is clean, but what about the middle ground — an agent that starts interactive and continues async? Or an agent acting on behalf of a user who's offline? [[All Your Agents Are Going Async]] and [[Agent Identity]] explore the edges Parparita doesn't.
 
+**Willison's security framing complements the enterprise operational view.** Simon Willison's [[Stateless MCP]] piece converges on the same conclusion from the opposite direction: where Sierra argues that MCP tools are easier to audit than arbitrary agent toolkits at enterprise scale, Willison argues the same thing from the solo-developer perspective — MCP as a safer way to build sensitive LLM applications because the tool list is legible, inspectable, and constrainable in ways that a shell with `curl` is not. The stateless spec that Sierra's gateway routes through is the same spec that made Willison's datasette-mcp finally shippable after three failed attempts.
+
 **What this means for the wiki**: This article validates several patterns already captured here — the CLAUDE.md-as-living-document pattern, the CLI-over-MCP insight, the verification imperative — while contributing genuinely new ones: the 80%=0% workflow rule, consumer-grade verification, and the multi-pass data guard. It's also the first detailed description of what an MCP gateway actually looks like in production at a company that isn't a platform vendor.
 
 ---

@@ -43,6 +43,8 @@ Another HN commenter describing AI as therapeutic — the feeling of having "a s
 
 **The real debate is about the user, not the tool.** Both Wilson and the ADHD commenters are correct for their own brains. The question isn't "is AI good or bad for focus?" — it's "what kind of brain do you bring to the tool, and what scaffolding do you have around it?" This converges with [[Agent Coding Workflow]]'s argument that process and verification infrastructure matter more than model quality, and [[Breaking the Spell of Vibe Coding]]'s finding that perceived productivity and actual productivity diverge by 40%.
 
+**Postscript (2026-07-31):** Willison's [[Stateless MCP]] piece adds a concrete answer to the discipline-through-tools question. MCP — specifically stateless MCP — is his architecture of choice for "sensitive applications on top of LLMs," explicitly because the declared-tool model provides the auditability and constraint that shell-based agents lack. It's one thing to say "discipline is the critical skill"; it's another to choose an architecture that makes discipline structural rather than volitional.
+
 See also: [[The solution might be cancelling my AI subscription (Wilson)]] for the original essay this responds to.
 
 ---
