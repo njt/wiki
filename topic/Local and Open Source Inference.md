@@ -30,6 +30,8 @@ The key insight from [[Doing]]: "LLMs know what you mean, even when your words a
 
 [[Bonsai 27B]] pushes the envelope further: a 27B-class Qwen 3.6 derivative at 3.9 GB (1-bit) that fits on a phone, retaining ~90% of baseline quality. The phone constraint is a forcing function — if it runs on an iPhone, it runs comfortably anywhere.
 
+Safety models are following the same trajectory. [[Shieldstral]] (Mistral, 3B, Apache 2.0) runs content safety classification on a single 16GB GPU, matching guard models 7× its size. This means the full local inference stack is becoming viable: a small coding model for generation, a small safety model for moderation, all on one machine with no cloud dependency.
+
 ### Local Search and Knowledge
 
 [[QMD]] (by Tobi Lutke) is a mini CLI search engine with hybrid BM25 + vector + LLM re-ranking, all local. Three GGUF models (~2GB total) auto-download. MCP integration lets Claude search local documents without uploading them. The honest caveat: "all local is a great idea, but I end up sending everything upstream to a big model anyway."

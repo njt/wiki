@@ -20,6 +20,8 @@ LLM Guard works at the prompt/response boundary rather than the execution bounda
 
 The layered approach is right: no single scanner catches everything, but running 15+ independent checks on inputs and 20+ on outputs creates defense in depth. The anonymization/deanonymization pair is particularly useful -- strip PII before sending to the LLM, then restore it in the response.
 
+LLM Guard represents the *toolkit* approach to safety: deterministic scanners at the prompt/response boundary. [[Shieldstral]] represents the *model* approach: a dedicated 3B classifier that judges content against plain-language policies. Where LLM Guard's scanners catch known failure patterns (regex for PII, pattern matching for prompt injection), Shieldstral catches novel failures through learned discrimination — at the cost of explainability (a probability, not a reason) and calibration (the model's judgment is only as good as the policy prompt). The two approaches are complementary, not competing.
+
 Connects to [[dotnet Slopwatch]] (catches LLM shortcuts at the code level while LLM Guard catches them at the prompt/response level), [[OneCLI]] (credential security pairs with prompt security), and the broader agent guardrails discussion.
 
 ## Critical Analysis
