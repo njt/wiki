@@ -127,6 +127,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Building Shippy — Agent Architecture for High-Stakes Domains]] — Ai2's production maritime agent: soul/skills/config decomposition, deterministic CLI wrappers for nondeterministic agents, per-session Kubernetes isolation, and whole-agent evaluation against live data
 - [[State System]] — Organizational state layer: evidence-first commits, deterministic replay, and a model/code boundary where code owns integrity and models own interpretation
 - [[Elysia]] — Weaviate's decision-tree agent framework: constrain tool choice per node rather than dumping all tools into context
+- [[Building an Advanced Agentic Harness]] — Framework-free tutorial upgrading a basic agent loop into a production harness through seven composable primitives: typed tools, plan DAG, tiered memory, verification hierarchy, Planner/Worker/Critic, multi-dimensional budgeting, and a tracer
 - [[Elements of Agentic Systems Design]] — Ten-element taxonomy: Context, Memory, Agency, Reasoning, Coordination, and more
 - [[Event-Driven vs Polling Architectures]] — Tricot's definitive trigger architecture guide: four mechanisms, per-source delivery contracts, and why webhooks alone are a production trap
 - [[Mirage (VFS)]] — Unified virtual filesystem mounting 27+ services (S3, Slack, GitHub, Postgres, etc.) behind a single POSIX tree so agents use bash instead of per-service SDKs
