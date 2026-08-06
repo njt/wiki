@@ -51,6 +51,7 @@ The anti-ideology conclusion. Tricot's per-source decision framework (four quest
 - [[Elements of Agentic Systems Design]] — ten-element taxonomy including coordination
 - [[How Hightouch Built Their Long-Running Agent Harness]] — context management is the real engineering challenge
 - [[Scaling Long-Running Agents]] — the runtime side of the durable agent problem
+- [[Linked Data Event Streams (LDES)]] — a formal specification for polling-based synchronization of append-only RDF event streams, the reconciliation backstop Tricot argues for, designed as a spec rather than an ad-hoc script
 - [[Building Agents for Production Systems with MCP]] — production integration layer
 - [[Guardrails and Feedback Loops]] — idempotency as a guardrail, not an afterthought
 - [[Agent-Native Architectures (Every)]] — five principles including composability

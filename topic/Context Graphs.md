@@ -60,6 +60,8 @@ The retrieval-based alternative to context graphs is exemplified by [[Cerebras K
 
 The [[Zero-Mem]] implementation sits at the minimalist extreme of that design point: co-occurrence edges only — no relation types, no inferred connections, no LLM extraction — and it shows that even untyped edges, combined with Personalized PageRank propagation, surface useful cross-turn evidence. Typed edges capture *why*; co-occurrence edges capture only *that* entities appeared together. The extra structure earns its cost precisely when the agent needs to understand relationships rather than adjacency.
 
+The non-AI version of structured knowledge graphs with typed edges has existed for decades in the Semantic Web stack. [[Linked Data Event Streams (LDES)]] applies RDF graphs, SHACL shapes, and named graphs to the problem of publishing and synchronizing append-only event streams over HTTP — the same formal-graph representation pattern, but optimized for deterministic data publishing rather than agent memory. LDES's use of TREE hypermedia relations (`tree:GreaterThanRelation`, etc.) to partition a graph into traversable nodes is a concrete example of typed edges enabling efficient navigation, the same design goal Kalra describes for context graphs.
+
 ---
 
 *Sources: [[summary/what-is-a-context-graph]]*

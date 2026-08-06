@@ -36,6 +36,8 @@ The line that saves the article from dogmatism. Enzler resists the temptation to
 
 **The big picture:** This is infrastructure writing at its best — not flashy, not revolutionary, but the kind of article that saves someone six months of getting it wrong in production. The set-and-remove pattern appears everywhere (rosters, feature flags, pricing rules, policy assignments) and most teams reinvent it badly. Enzler is doing the slow work of building a shared vocabulary for temporal data modeling, and that compounds.
 
+**An RDF-native variant:** The [[Linked Data Event Streams (LDES)]] specification formalizes this same pattern — append-only event stream with version semantics — for the Semantic Web stack. LDES defines explicit predicates for create/update/delete objects and separates chronological order (`ldes:timestampPath`) from version order (`ldes:versionTimestampPath`), the same effective-time-vs-publication-time distinction Enzler draws. The key difference is that LDES targets HTTP-based data publishing rather than in-process projections, adding a synchronization algorithm, retention policies, and hypermedia traversal on top of the event sourcing substrate.
+
 ---
 
 *Sources: [[raw/event-sourcing-set-remove-bi-temporal-events]]*
