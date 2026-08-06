@@ -45,6 +45,8 @@ This isn't just taxonomy — it's a build-vs-buy decision framework. Layer 1 is 
 
 Lloyd names three primitives that every factory needs: **steering** (join a live agent session), **handoff** (transfer context cloud↔local), and **notifications** (agent pings human for help). These sound obvious but are genuinely hard to build well. Most agent platforms skip them entirely and wonder why developers reject the factory.
 
+The [[Warp Agent CLI]] is the interactive entry point to this factory vision — the same agent that a developer uses locally in their terminal can hand off to the cloud when they close their laptop, with centralized tracking and web-based steering. This is the handoff primitive made concrete: the agent session persists across the laptop-to-cloud boundary without a context-transfer ceremony. It also validates Lloyd's integration philosophy: the CLI meets developers where they already work (the terminal), then routes work to the factory when they step away.
+
 ### #pattern — Factory-as-Code
 
 > "All of your factory config should be defined in files and be version controlled. This has the added benefit that coding agents themselves can act on these files to update them."

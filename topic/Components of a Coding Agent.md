@@ -59,6 +59,8 @@ Raschka's mini-coding-agent on GitHub is the instructional complement to the con
 
 The most extreme production instantiation of Raschka's thesis is [[Oh My Pi (omp)]], whose README quantifies the harness effect with provider-specific benchmarks: Grok Code Fast 1 jumps from 6.7% to 68.3% pass rate purely from hashline replacing a broken edit format, Gemini 3 Flash gains +5pp over Google's own str_replace, and MiniMax pass rate more than doubles — same weights, same prompts, different harness.
 
+Raschka's six components describe the *software* scaffold. [[Warp Agent CLI]] pushes the taxonomy further by adding a *system-level* scaffold: the PTY multiplexing layer. Warp's harness sits between the agent and the shell itself — a tmux-like indirection that means the agent session survives directory changes, SSH hops, and interactive TUI control. This is a seventh component Raschka's taxonomy doesn't capture: the execution substrate. Whether it belongs in the harness taxonomy or is a separate architectural concern is an open question, but Warp's bet is that terminal-native multiplexing unlocks capabilities (persistent sessions, agent-driven full-screen apps, remote agents without binary install) that a pure software harness can't match.
+
 ## Critical Analysis
 
 Raschka's strength is clarity: he names things precisely and draws distinctions that many practitioners blur. The LLM/reasoning-model/agent/harness taxonomy alone is worth the read -- it gives you vocabulary for design conversations that otherwise collapse into "the model is good" or "the model is bad."
