@@ -22,6 +22,8 @@ The domain-specific guidance is practical: separate retrieval from generation ev
 
 Connects directly to [[Benchmark Exploitation]] -- if your evals are gameable, your development loop optimizes for gaming rather than quality. Also relevant to [[Elements of Agentic Systems Design]] which lists Evaluation as one of the ten core elements.
 
+Hamel's "build custom evals from real failures" advice gets a structural justification from [[Goodhart's Law and AI Benchmarks]]: contamination is now the default state of any public benchmark in the web-scraping era, and the GSM1k correlation data (r² = 0.36 between memorization and score gaps) confirms that public scores measure memorization more than capability. The 20-50 task minimum viable setup Hamel recommends is also exactly the scale Alex Williams advocates for private, task-specific evaluation — convergent advice from different premises.
+
 ## Critical Analysis
 
 Strong: the emphasis on manual error analysis over automated metrics is correct and underappreciated. The "benevolent dictator" pattern for quality standards is pragmatically wise -- consensus-driven evaluation produces mush. The minimum viable setup (20-50 manual reviews) is refreshingly low-ceremony.

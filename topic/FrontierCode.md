@@ -45,6 +45,7 @@ A meta-move: using their own coding agent to adversarially test the benchmark th
 ## See Also
 
 - [[Guardrails and Feedback Loops]] — The enforcement hierarchy and eval landscape
+- [[Goodhart's Law and AI Benchmarks]] — The structural argument that any benchmark that matters will be gamed; the question FrontierCode must eventually answer
 - [[Benchmark Exploitation]] — When benchmarks become targets they stop being useful measures
 - [[Demystifying Evals for AI Agents]] — Anthropic's guide: grade outcomes, not pathways
 - [[Components of a Coding Agent]] — The harness matters more than the model
