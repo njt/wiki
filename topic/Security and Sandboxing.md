@@ -42,7 +42,7 @@ The core problem: you want agents powerful enough to be useful but constrained e
 
 ## Key Tensions
 
-**Usability vs. security.** Every security layer adds friction. [[yolo-cage]]'s 8GB RAM requirement pushes teams toward "just yolo it." [[A Deep Dive on Agent Sandboxes]]'s session-scoped trust lists require human judgment about what to trust. The tradeoff is real: overly restrictive sandboxes make agents useless, overly permissive ones make them dangerous.
+**Usability vs. security.** Every security layer adds friction. [[yolo-cage]]'s 8GB RAM requirement pushes teams toward "just yolo it." [[A Deep Dive on Agent Sandboxes]]'s session-scoped trust lists require human judgment about what to trust. The tradeoff is real: overly restrictive sandboxes make agents useless, overly permissive ones make them dangerous. The problem extends beyond agents: [[Security Is Hard, Y'all]] shows how even expert users cannot distinguish legitimate OAuth consent screens from phishing attacks when the signals are structurally identical — when security UX failures make real products indistinguishable from attacks, the usability-vs-security tradeoff has failed on both axes.
 
 **Trust via permission prompts vs. trust via architecture.** [[yolo-cage]] says permission prompts fail because tired users click allow. [[claude-ctrl]] says instructions in context are not constraints. Both point to the same answer: move trust decisions from the human (unreliable under fatigue) to the architecture (reliable regardless). But architectural trust requires upfront investment that most teams skip.
 
