@@ -57,6 +57,8 @@ The weakness is the same one that haunts all context-management advice: discipli
 
 The "lost in the middle" finding also has an uncomfortable implication for multi-agent orchestration. If every agent in a pipeline has its own context window, and each one has a U-shaped attention profile, then information handed off between agents is always in someone's middle. The pipeline architecture that solves one problem ([[Agent Orchestration]]) may be creating another one that nobody is measuring.
 
+A structurally different bet on the same problem: [[Recursive Language Models]] automate the decomposition that Stellman does manually. Instead of curating, positioning, restarting, and restating by hand, an RLM gives the model a REPL environment with the context as a variable and lets it decide at test time how to peek, grep, chunk, and delegate. The trade is designer discipline (Stellman's approach) for model capability (Zhang's approach) — and Zhang's early results (GPT-5-mini + RLM > GPT-5 alone) suggest the model-capability side of that trade is improving faster than anyone expected.
+
 The connection to [[Engineering for Bounded Cognition]] is underappreciated. The U-shape is a machine-learning finding, but it's also a cognitive one: human working memory has primacy and recency effects too. The techniques Stellman prescribes (curate, position, restart, restate, verify) are essentially the same strategies humans use to compensate for bounded working memory. The difference is that humans have metacognition — we know when we've forgotten something — and LLMs don't. The agent doesn't know it's in the middle.
 
 ## Connections
