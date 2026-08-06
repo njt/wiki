@@ -52,6 +52,8 @@ The article pairs well with [[Interdict]] (runtime blast-radius measurement for 
 
 For a production implementation of this framework, see Sierra's [[The MCP Gateway Iceberg]]: their dual identity model (interactive-as-user, scheduled-as-service-account) directly instantiates the identity-ambiguity diagnostic, their pre-authorized workflows operationalize tool binding at scale, and their multi-pass cross-customer data guard is what "downstream re-verification" looks like when customer data is at stake.
 
+[[Cloudflare Wallets]] applies the same least-privilege pattern to a different domain: spending. Virtual Wallets for agents use allowance caps, allow lists, and maximum transaction sizes as spending guardrails — the same "curated allowlist with limits" approach Microsoft prescribes for tool access, applied to purchasing power. It's a reminder that least-privilege isn't just about data and APIs; as agents gain the ability to spend money, financial blast-radius management becomes a security concern of equal weight.
+
 ---
 *Sources: [[raw/least-privilege-ai-agents]]*
 *Last updated: 2026-07-18*

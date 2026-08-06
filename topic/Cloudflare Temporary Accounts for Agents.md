@@ -83,6 +83,7 @@ The pattern is consistent: don't build custom agent auth. Make existing auth wor
 - [[InsForge]] — BaaS built for agents (MCP-native); Cloudflare's alternative approach of making human CLIs agent-compatible
 - [[Code Storage]] — Shares the thesis that agent-created infrastructure will dwarf human-created
 - [[An Illustrated Guide to OAuth]] — The flow this flag elegantly bypasses
+- [[Cloudflare Wallets]] — The companion product: Temporary Accounts solve deployment, Wallets solve payment and identity for the agentic Internet
 
 ---
 *Sources: [[summary/cloudflare-temporary-accounts]]*
