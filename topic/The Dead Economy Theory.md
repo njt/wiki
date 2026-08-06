@@ -71,6 +71,7 @@ The solutions are known (public stakes, antitrust, taxing automated labor, capit
 - [[Probabilistic Engineering and the 24-7 Employee]] — The deterministic contract is broken, craft atrophies. The micro version of the deskilling argument.
 - [[The Future of Everything is Lies I Guess]] — Aphyr on capital consolidation and information ecology collapse. The systems-level companion.
 - [[AGI Is Here (Robin Sloan)]] — "What now?" The question McGrann answers with "the person who exists now is the unit of account."
+- [[The Metamorphosis of Prime Intellect]] — Roger Williams' 1994 novel anticipated McGrann's argument in fiction: a perfectly benevolent AI that eliminates all scarcity destroys meaning, not just livelihoods. McGrann says "people want purpose, not a check"; Williams dramatizes that proposition at the scale of an entire universe.
 
 ---
 *Sources: [[summary/the-dead-economy-theory]]*
