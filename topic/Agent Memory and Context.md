@@ -58,6 +58,8 @@ Context management is the real engineering challenge, not model ability. Every t
 
 **Cross-project learning.** All current memory systems are project-scoped. An agent that learned debugging patterns on project A starts fresh on project B. [[Hermes]]'s skill-sharing hub hints at cross-project learning, but nobody has built the infrastructure for transferring contextual lessons between codebases.
 
+**Retrieval primitives beyond vectors.** Nearly every memory system here uses embedding similarity as the retrieval primitive. [[Attemory]] introduces a genuinely different approach: attention-native retrieval, where a local model attends over raw indexed text in its KV cache and uses attention weights as the relevance signal. On LongMemEval-M (1.5M tokens), this achieves 92.55% message recall — a scale where most embedding-based systems degrade sharply. The approach collapses retrieval and relevance scoring into a single model forward pass, eliminating the embedding model / vector DB / reranker pipeline entirely.
+
 **Memory migration.** If you start with [[napkin]] and need to upgrade to [[Three Tier Memory]], there's no migration path. Your markdown file doesn't convert into a tiered retrieval system. Each memory implementation is a dead end.
 
 **Contradication handling.** [[napkin]] acknowledges the risk of contradictory entries. No current tool detects or resolves contradictions in agent memory. A memory that says both "always use approach A" and "never use approach A" confuses the agent, and nobody notices until output quality degrades.

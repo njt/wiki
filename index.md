@@ -236,6 +236,7 @@ Multi-agent systems, task graphs, kanban boards, and coordination patterns. **Hu
 
 Persistence, retrieval, knowledge management, and context engineering for agents. **Hub: [[Agent Memory and Context]]**
 
+- [[Attemory]] — Attention-native retrieval engine: replaces vector similarity with model attention over raw KV-cached text; SOTA-class on LongMemEval-M at million-token scale, 43.8% token reduction for Claude Code on SWE-QA
 - [[Agent Memory]] — Angie Jones's definitive seven-type memory taxonomy (conversational, semantic, episodic, procedural, entity, working, summary) with Oracle's OAMP as reference implementation. "The hard part is judgment, not storage"
 - [[Context Graphs]] — Karan Kalra on structured graph-based agent memory: capture the *why* behind decisions on the write path, not the read path. "Similarity is not relevance" — the case for typed edges over vector similarity as the retrieval primitive
 - [[Sawtooth Memory]] — Async non-blocking hierarchical memory middleware: 4-tier stack (L0 system / L1 working / L1.5 entity ledger / L2 archival) with background asyncio compression that eliminates main-thread latency and guarantees deterministic fact retention. Dual-extraction compression prompt, local Ollama default with cloud provider adapters
