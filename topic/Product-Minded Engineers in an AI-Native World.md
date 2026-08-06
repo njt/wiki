@@ -141,3 +141,5 @@ The unanswered questions list at the end of the raw notes isn't just a checklist
 ## Source
 
 YouTube: [Product-minded engineers in an AI-native world](https://www.youtube.com/watch?v=0Cv5763UX70) — The Pragmatic Engineer, 2026-05-18. Speakers: Thomas Pauls (CTO, Linear), Drew (The Product-Minded Engineer), Michelle (co-founder, Flint). Transcribed via ytx.
+
+See also: [[Flint Chart]] — the visualization intermediate language Michelle co-founded, which exemplifies the product-minded engineering philosophy applied to the AI-tools space: a compiler that absorbs complexity so users (both human and agent) can express intent, not implementation.

@@ -127,7 +127,8 @@ Unlike **Cube.js** (which is API-server-first with REST/GraphQL endpoints), Mall
 
 The analogy that fits best: Malloy is to SQL what TypeScript is to JavaScript — a higher-level language with a type system, composable abstractions, and a compiler that generates well-formed lower-level code.
 
----
+A closely related compiler-in-the-loop architecture is [[Flint Chart]], Microsoft Research's visualization intermediate language. Both separate semantic modeling from backend code generation through an IR: Malloy compiles `.malloy` → IR → SQL; Flint compiles semantic types + data → `ChannelSemantics` → Vega-Lite/ECharts/Chart.js/Plotly/Excel. Malloy uses Vega for rendering; Flint could serve as a richer visualization layer for Malloy query output, offering multi-backend chart generation from the same semantic model.
 
+---
 *Sources: [[raw/malloy-semantic-layer]]*
-*Last updated: 2026-07-18*
+*Last updated: 2026-08-06*
