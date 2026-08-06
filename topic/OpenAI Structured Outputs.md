@@ -52,6 +52,8 @@ The [[Harness Engineering]] connection runs deeper: Structured Outputs is a feed
 
 For [[Building Agents for Production Systems with MCP]], Structured Outputs is complementary: MCP provides the transport and tool definitions; Structured Outputs ensures the agent's responses conform to the expected shape. The two together are the structured-output stack.
 
+[[Morningprint]] is the Anthropic-ecosystem equivalent in production — `output_config.format` with a JSON schema driving daily thermal-receipt art — and its July 2026 title-poisoning incident surfaces a gap neither ecosystem documents: structured output guarantees JSON shape, not field length, and a model that fills a string field with 3,155 characters of filler can poison a rolling context archive. The fix (`validateArtSpec`) is a content-validation layer on top of schema validation, applied before the spec reaches storage or paper.
+
 ---
 
 ## Cross-Links
