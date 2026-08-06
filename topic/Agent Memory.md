@@ -60,6 +60,8 @@ The Oracle AI Agent Memory Package is built on Oracle AI Database 26ai, integrat
 
 4. **Database-backed persistence** — vector search alone isn't enough. OAMP uses SQL for filtering, ordering, and structured queries alongside embeddings. This echoes the hybrid retrieval approach in [[Context Rot]] and the database-native pattern in [[Databases and Data]].
 
+5. **Attention-native retrieval as a distinct memory retrieval paradigm.** Jones's taxonomy covers storage and retrieval patterns built on embeddings and structured queries. [[Attemory]] introduces a qualitatively different retrieval primitive: model attention over raw KV-cached text, with no embeddings at all. On LongMemEval-M (1.5M tokens), this achieves 92.55% message recall — competitive with the best embedding-based systems while using a fundamentally different mechanism. It suggests that retrieval quality isn't just about better embeddings; it's about giving the model direct attention over the source text rather than compressed surrogates.
+
 ## Critical Analysis
 
 **The taxonomy is the real contribution.** Jones's seven types are more granular and production-grounded than [[Memory Mechanism]]'s five (session, project, semantic, episodic, procedural). Entity memory and working memory fill real gaps that xAI's taxonomy glosses over. Summary memory recognizes that compression is a distinct operation, not just "less context." The seven-type framework should become the standard reference.
