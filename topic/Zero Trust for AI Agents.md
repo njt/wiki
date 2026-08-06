@@ -22,7 +22,7 @@ OWASP's new term, which the document adopts as foundational:
 
 > "Least agency goes further, restricting what each agent tool can do, how often, and where. In practice: a database tool gets read-only queries, an email summarizer gets no send/delete rights, an API gets minimal CRUD operations."
 
-This matters because traditional access controls are blind to tool-level semantics. An agent with read-only database access and an email tool with send permission can be tricked into chaining them — reading customer data and emailing it out — using only legitimate, individually-authorized operations. Host-centric monitoring sees no malware because every command executes through trusted binaries under valid credentials. Least Agency means constraining at the tool-action level, not the credential level.
+This matters because traditional access controls are blind to tool-level semantics. An agent with read-only database access and an email tool with send permission can be tricked into chaining them — reading customer data and emailing it out — using only legitimate, individually-authorized operations. Host-centric monitoring sees no malware because every command executes through trusted binaries under valid credentials. Least Agency means constraining at the tool-action level, not the credential level. [[Cloudflare OS]] operationalizes this at the platform level: its Gatekeepers record every resource an agent observes, attach those observations to every downstream artifact, and re-check viewer permissions when anyone tries to access the agent's output — closing the chained-access gap that credential-level controls alone cannot address.
 
 ## Three-Tier Framework
 
