@@ -56,7 +56,7 @@ This aligns with [[Honey I Shrunk the Coding Agent]]'s finding that scaffold red
 
 ## Critical Assessment
 
-**This paper is important because it quantifies what the industry has been feeling.** "AI writes good code" isn't wrong — it's incomplete. AI writes good code under conditions that don't resemble production engineering. Add the constraints that make software maintainable, and performance collapses.
+**This paper is important because it quantifies what the industry has been feeling.** "AI writes good code" isn't wrong — it's incomplete. AI writes good code under conditions that don't resemble production engineering. Add the constraints that make software maintainable, and performance collapses. A parallel dynamic plays out in tabular prediction: [[Why LLMs Fail at Tabular Prediction]] shows that LLM in-context classification works fine in 2D but collapses as feature columns increase — the capability is real but bounded by a specific structural condition (dimensionality there, constraints here). Both papers share the rare methodological virtue of isolating *which* condition causes the collapse rather than just reporting that collapse occurs.
 
 **The database finding is the one to act on.** If data-layer defects cause 45% of failures, the highest-leverage intervention isn't better prompts or better scaffolds — it's better database tooling. Give agents type-safe query builders instead of raw SQL. Auto-generate migration files. Let agents write queries in their native language and compile to SQL deterministically. The [[Layer-First Pattern — Keep Data Out of the LLM Context]] suggests one architectural answer: keep data operations server-side where they can be verified.
 

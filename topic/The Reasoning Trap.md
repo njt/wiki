@@ -52,6 +52,8 @@ DPO works — hallucination drops from 90.2% to 55.8% on NTA, 100% to 71.4% on D
 
 **Verification as antidote.** [[LLM-as-a-Verifier]] offers one path through the trade-off: rather than training models to be more honest (and less competent), use a separate verifier to discriminate correct from hallucinated outputs at inference time. If reasoning makes models more productive but less trustworthy, verification decouples productivity from trustworthiness — the model generates freely, the verifier filters ruthlessly. The verifier's 98.9% oracle ceiling on Terminal-Bench V2 suggests this approach has headroom the DPO trade-off lacks.
 
+**A kindred methodology.** [[Why LLMs Fail at Tabular Prediction]] shares this paper's approach of systematic hypothesis falsification: five candidate explanations are proposed, four are rejected by controlled intervention, and one (dimensionality) stands. Both papers represent a rare pattern in ML research — testing *why* models fail rather than proposing a new method that beats a benchmark. In both cases, the surviving factor (reasoning itself in this paper, dimensionality in Garnelo & Czarnecki) is structural rather than incidental — not something prompt engineering can fix.
+
 ---
 *Sources: [[summary/the-reasoning-trap]]*
 *Last updated: 2026-07-18*

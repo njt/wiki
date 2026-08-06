@@ -48,7 +48,7 @@ TabFM sits in a small but growing category of tabular foundation models:
 
 - **vs. FT-Transformer / TabTransformer**: These are architectures you *train* on your data. TabFM is a pre-trained model you load and use — the ICL approach means zero dataset-specific training.
 
-- **vs. LLMs for tables**: Some approaches serialize tables as text and feed them to language models. TabFM processes tabular data natively as tensors, with column-permutation-invariant Set Transformer attention and Fourier-embedded cell values — avoiding the tokenization and serialization overhead of text-based approaches.
+- **vs. LLMs for tables**: Some approaches serialize tables as text and feed them to language models. TabFM processes tabular data natively as tensors, with column-permutation-invariant Set Transformer attention and Fourier-embedded cell values — avoiding the tokenization and serialization overhead of text-based approaches. Garnelo & Czarnecki (2026) supply the causal account for *why* this matters: [[Why LLMs Fail at Tabular Prediction]] shows that generic LLM in-context classification capability collapses with dimensionality, and that the failure is not fixable by prompt engineering — the serialisation format, numeric precision, and test-batch size are all red herrings. The dimensionality collapse is the mechanism behind the premise that tabular foundation models exist to solve.
 
 ## Tags
 

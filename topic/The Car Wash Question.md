@@ -64,6 +64,8 @@ This thread is better than most HN AI discussions because the motivating example
 
 **The real utility:** This thread is a diagnostic tool. Run the car wash question on any new model. If it answers without asking clarifying questions, you know the product team prioritized appearance over accuracy. If it asks "is the car currently with you?", you know someone on the product team fought for dialogue over monologue. It's a one-question Rorschach test for AI product philosophy.
 
+**Controlled probes over benchmark-chasing.** Both this thread and [[Why LLMs Fail at Tabular Prediction]] share a methodological instinct: isolate a specific failure mode with a minimal, controlled probe rather than comparing aggregate benchmark scores. The car wash question tests one thing (common-sense inference of unstated context) with surgical precision. Garnelo & Czarnecki test five hypotheses about tabular prediction failure with one targeted experiment each. The probes are more informative than any benchmark table because you know *what* you're measuring.
+
 **Bottom line:** Read this thread for the clarifying questions discovery and the frame problem diagnosis. Skip the structured language digression. The actionable insight: add "if you're unsure, ask" to your prompts — and accept that with GPT, the system prompt is fighting you.
 
 ---
