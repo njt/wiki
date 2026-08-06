@@ -24,6 +24,8 @@ The "become a system of record" strategy connects to lock-in dynamics. If your S
 
 The piece is right about the threat and right about the response, but undersells the magnitude of the shift. The "become a platform" advice sounds strategic but is brutally hard to execute. Most B2B SaaS companies were built as feature sets, not platforms. Retrofitting an API-first architecture onto a monolithic product is a multi-year, multi-million-dollar effort. By the time you've done it, the market may have moved.
 
+There's also a cost-side dimension the piece doesn't address: even if nobody rebuilds your product, the AI features you add to stay competitive carry inference costs that compress your margins from the traditional 75-85% SaaS baseline toward the ~52% observed in AI-native products. [[Unit Economics of AI Software]] argues this structural margin compression, not just customer defection, is what breaks the SaaS venture math.
+
 The security argument against vibe-coded replacements is valid *today* but may not hold. As AI tools get better at security fundamentals (and they will), the gap between "professionally built" and "vibe-coded" will narrow. The durable moat is data, not code quality. See [[Building low-level software with only coding agents]] for evidence that AI can already produce high-quality code -- the missing piece is the domain knowledge and compliance expertise, not the coding itself.
 
 Note: the author promotes Gigacatalyst (his Y Combinator-backed product), so the "become a platform" conclusion is also a sales pitch.

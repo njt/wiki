@@ -56,6 +56,8 @@ The key insight: **spec validation is a distinct cost category between "write sp
 
 In multi-agent pipelines, the U-curve minimum shifts right because interpretive drift compounds across handoffs. "The handoff is the product" — every agent boundary needs a contract with schema, invariants, allowed ambiguity, and validation checks. Without them, you're not orchestrating agents; you're compounding interpretations.
 
+**A caveat on "code is disposable."** The zero-marginal-cost property that made code disposable to regenerate is the same property AI erodes. [[Unit Economics of AI Software]] argues that software is losing its defining economic superpower — build once, serve millions for free. When every user interaction carries real inference cost, "just rebuild it from spec" solves the generation problem but not the operating problem. The spec is durable; the inference bill is recurring. Both can be true.
+
 ## What's Missing
 
 **Spec testing.** We have tools for testing code against specs ([[Trycycle]], [[Verbose Deployment]]) but no tools for testing specs against themselves — checking for internal contradictions, missing edge cases, or ambiguous requirements before any code is generated. [[AI Agents Need Clear Specs]] identifies agent-mediated spec validation (draft → adversarial attack → refine) as a partial answer: one agent writes, another stress-tests for contradictions and intent violations, humans review the result.

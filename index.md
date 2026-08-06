@@ -1,6 +1,6 @@
 # Wiki Index
 
-505 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+506 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -8,6 +8,7 @@ Cross-cutting analysis that pulls threads across individual pages.
 
 - [[Agent Coding Workflow]] — The practitioner's daily loop: maturity spectrum from vibes to compound engineering, verification over generation
 - [[Specifications as the Product]] — Code is disposable; specs are the durable artifact. The economics have inverted
+- [[Unit Economics of AI Software]] — Software's zero-marginal-cost superpower is eroding as LLM inference costs introduce real per-user variable costs. Margins compress from 75-85% to ~52%, pricing shifts to usage-based, and the SaaS playbook stops working
 - [[Guardrails and Feedback Loops]] — Linters beat prompts. Deterministic enforcement, not instructions. The self-tightening feedback loop
 - [[Agent Memory and Context]] — Context management is the real engineering challenge. Memory taxonomies, persistence strategies, and the context-as-RAM metaphor
 - [[Agent Orchestration]] — Multi-agent coordination patterns. Planner/worker/judge keeps emerging. Kanban boards as the human-agent interface
