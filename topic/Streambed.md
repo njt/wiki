@@ -112,6 +112,8 @@ This is database-company-level testing for a solo project. The chaos module (`in
 - **vs pgcapture**: Similar technical approach (pgoutput plugin). pgcapture has multiple sink types. Streambed is Iceberg-only but has the embedded query server and simulation testing.
 - **vs Airbyte/Fivetran**: These are batch ETL/ELT, not CDC. Different latency profile. Streambed has sub-second latency (streaming WAL).
 
+Streambed is a practical instantiation of the log-centric data integration architecture Jay Kreps laid out in [[The Log — Unifying Abstraction for Real-Time Data]]: the database's WAL is the log, the CDC pipeline is the subscriber that reads and transforms, and Iceberg on S3 is the destination that other systems can consume independently. The entire architecture — single-source-of-truth log, decoupled consumers, each reading at their own pace — is Kreps' blueprint implemented in a single Go binary.
+
 Streambed's niche: **you want Postgres CDC to Iceberg on S3, queriable with `psql`, and you want it as a single binary with no infrastructure dependencies.** That's a narrow but real need — and nothing else fills it as simply.
 
 ---

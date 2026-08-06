@@ -381,6 +381,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 
 Storage engines, query patterns, data quality, and vector/graph databases. **Hub: [[Databases and Data]]**
 
+- [[The Log — Unifying Abstraction for Real-Time Data]] — Jay Kreps' 2013 manifesto: the append-only log is the single most important abstraction in software engineering — present at the heart of databases, replication, consensus, data integration, and stream processing. The foundational theory behind Kafka, CDC, event sourcing, and log-centric architectures
 - [[Text-to-SQL in the Real World]] — Stonebraker & Chen: public benchmarks (90%+ accuracy) are "of academic interest only"; real enterprise data warehouses with schema rot, idiosyncratic data, and complex queries humble the best LLMs to 10%
 - [[Aurora DSQL]] — AWS's serverless multi-region active-active SQL database: disaggregated compute/storage/coordination, PostgreSQL-compatible, MVCC with clock-based coordination-free reads and commit-time optimistic concurrency. Scales from zero to millions of TPS
 - [[Aurora DSQL — Murat Demirbas' Insider Review]] — Former DSQL engineer's candid architecture review: five-component decomposition, the synchronized-clock bet, late-abort OCC risks, and why building a global database felt easier than it should have
