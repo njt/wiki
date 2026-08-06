@@ -26,6 +26,8 @@ The deeper insight is that context windows are a red herring. Bigger windows don
 
 Missing: how this handles conflicting memories, and whether the feedback loop creates reinforcement cycles where popular memories crowd out correct-but-rarely-used ones.
 
+A structurally different approach to the same problem: [[Recursive Language Models]] sidestep context rot entirely by ensuring no single LM call handles a huge context. The root LM sees only the query; the full context lives in a REPL variable it can programmatically peek at, grep through, and partition into recursive sub-calls. Where this page fixes retrieval quality post-hoc, RLMs prevent context degradation by never letting context accumulate in the first place.
+
 ---
 *Sources: [[summary/context-rot]]*
 *Last updated: 2026-05-14*
