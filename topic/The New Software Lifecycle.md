@@ -67,6 +67,7 @@ The conductor/orchestrator distinction is useful but incomplete. The real spectr
 - [[Vibe Coding as a Team Sport]] — Jon Udell's constructive answer to vibe coding chaos with structured workflow
 - [[Writing Code vs. Shipping Code]] — Demirer et al.: 180% AI gains at commit level attenuate to 30% at release
 - [[Human-in-the-Loop is Tired]] — Laura Summers on the psychological cost of reviewing AI output that Osmani doesn't fully address
+- [[The Enterprise Gap from Vibe Coding]] — A concrete field report of the demo-to-production gap Osmani maps economically: half-hardcoded data, zero auth, client-side DB calls — the exact maintenance tax his vibe-coding-vs-agentic-engineering cost curve predicts
 
 ---
 *Sources: [[raw/new-software-lifecycle]], [[raw/new-sdlc-vibe-coding]]*
