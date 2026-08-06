@@ -56,6 +56,8 @@ Refreshing honesty in a vendor blog post. The field is early, the hard problems 
 
 The retrieval-based alternative to context graphs is exemplified by [[Cerebras Knowledge Base Architecture]], which also emphasizes write-time structuring (LLM distillation before embedding) but opts for hybrid retrieval over typed edges. The two approaches converge on the same insight — structure at ingestion time, not search time — but diverge on whether that structure should be edges between entities or enriched embedding documents.
 
+The non-AI version of structured knowledge graphs with typed edges has existed for decades in the Semantic Web stack. [[Linked Data Event Streams (LDES)]] applies RDF graphs, SHACL shapes, and named graphs to the problem of publishing and synchronizing append-only event streams over HTTP — the same formal-graph representation pattern, but optimized for deterministic data publishing rather than agent memory. LDES's use of TREE hypermedia relations (`tree:GreaterThanRelation`, etc.) to partition a graph into traversable nodes is a concrete example of typed edges enabling efficient navigation, the same design goal Kalra describes for context graphs.
+
 ---
 
 *Sources: [[summary/what-is-a-context-graph]]*
