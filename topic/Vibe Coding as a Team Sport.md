@@ -67,6 +67,7 @@ A quiet but important insight. Git's UX has been a barrier for decades; agents d
 - [[Vibe Coding and the Maker Movement]] — The evaluative anesthesia that process addresses
 - [[Compound Engineering]] — Process improvement cycles; bram's worklist is the mechanism
 - [[Loop Engineering]] — Addy Osmani's meta-skill; bram is a loop-engineering platform
+- [[The Enterprise Gap from Vibe Coding]] — Wolkensteiner's planning/execution decoupling via TOML plans converges with bram's plan-document pattern, but takes it further: the plan gets policy-checked before execution and a deterministic runner enforces boundaries that prompts can only suggest
 - [[Capturing Why Engineering Decisions]] — Plan documents with options, justifications, and prior art
 - [[Claude Code Mastery]] — Similar practical workflow guide for coding agents
 
