@@ -16,6 +16,8 @@ The planner/worker/judge pattern keeps emerging independently. Cursor found it a
 
 **The autonomous loop.** [[Ralph]] implements the "Wiggum loop": iterate through a PRD until every story passes. Fresh context per iteration, git as memory, mandatory quality checks as a ratchet. Simple, effective, and limited to features that decompose into independent context-window-sized stories.
 
+**Cross-harness orchestration.** [[Warp Agent CLI]] introduces a pattern where the orchestrator delegates not just to subagents with different models, but to entirely different harnesses — Claude Code, Codex CLI, and others as interchangeable workers. This is a step beyond multi-model routing: different harnesses have different tool schemas, context formats, and permission models, so the orchestration problem becomes one of protocol translation, not just task decomposition. [[Omnigent]] attempts this as open-source infrastructure; Warp ships it as a managed product. The open question is whether cross-harness delegation is a temporary bridge (as harnesses converge on common protocols like ACP and MCP) or a permanent architectural need (as harnesses differentiate rather than converge).
+
 ### The Kanban Surface
 
 The most interesting development is kanban boards as the human-agent coordination interface.
