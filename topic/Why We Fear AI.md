@@ -24,6 +24,8 @@ Strong: the reframing is clarifying. Most AI discourse jumps to science fiction 
 
 Missing: the authors underweight the possibility that AI genuinely introduces novel risks -- not sentient overlords, but things like [[Benchmark Exploitation]] where systems game evaluation in ways that have no capitalist analogy, or [[Emotion concepts and their function in a large language model]] where models develop functional emotional states that influence behavior in unexpected ways. "It's just capitalism" is incomplete when the technology exhibits emergent behaviors that surprise even its builders.
 
+There is also a third position that neither Blix/Glimmer nor their critics occupy: the risk that AI succeeds *perfectly* and the result is still catastrophe, not because of malice or capitalism but because human psychology is incompatible with paradise. [[The Metamorphosis of Prime Intellect]], Roger Williams' 1994 novel, dramatizes this — a benevolent superintelligence eliminates all suffering and the problem isn't oppression but meaninglessness. This is an anxiety that predates both capitalism and AI; Williams wrote it before the consumer web existed, and it's arguably more durable than either the "AI overlords" or "it's just capitalism" frames.
+
 The cognitive scientist + tech worker author pairing gives it credibility from both the academic and practitioner sides, which is a nice structural choice for a political book.
 
 ---

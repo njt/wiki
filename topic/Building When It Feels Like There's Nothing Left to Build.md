@@ -55,6 +55,8 @@ The most honest line of the talk. Not a resolution, not a framework — just an 
 
 **The joy section could have been a throwaway but isn't.** In a room full of people worried about moats, incentive structures, and strategic positioning, Huyen says "I build apps as birthday gifts" and means it. This isn't naivety — it's a different value system. If the economic case for building is collapsing, maybe the personal case is the one that survives. [[The People Who Will Thrive in the AI Age]] (David Brooks) makes a parallel argument: volition beats intelligence when AI makes thinking cheap. Huyen is saying the same thing from the inside: build because you want to, not because it's profitable.
 
+**Huyen's question has a fictional precedent.** [[The Metamorphosis of Prime Intellect]], Roger Williams' 1994 novel, explored the same paradox at cosmic scale: an omnipotent, benevolent AI eliminates all scarcity and suffering, and the result is hell — not because the AI is malevolent, but because human beings require friction to generate meaning. Huyen is asking the economic version of Williams' existential question: when everything can be built, what's worth building? The novel's answer (individual refusal) and Huyen's (building for joy) converge on the same intuition — that meaning survives in the gap between what the machine can do and what a person chooses to do.
+
 ---
 
 *Sources: [[summary/chip-huyen-building-when-nothing-left-to-build]]*

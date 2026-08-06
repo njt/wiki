@@ -63,6 +63,7 @@ The essay's closing move. Sloan isn't making a prediction -- he's noting that we
 - [[The Future of Everything is Lies I Guess]] -- Why "I feel fine" might be wrong
 - [[Creative Firewall]] -- User interpretation over company authority, from a creative practice angle
 - [[Zheng Dong Wang's 2025 Letter]] -- The compute thesis: more sober about thresholds
+- [[The Metamorphosis of Prime Intellect]] -- One answer to Sloan's "what now?" question, written in 1994: a perfectly general AI that grants every wish, and the resulting world is dystopia. Sloan asks if we'd notice the threshold; Williams shows what's on the other side of it.
 - [[The Mundanity of Excellence]] -- Excellence as qualitatively different choices, not more effort -- relevant to the "what now?" question
 - [[Talking to Transformers]] -- Practical engagement with LLMs that doesn't require declaring AGI
 
