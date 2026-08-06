@@ -85,6 +85,8 @@ Writer/reviewer separation as the minimum viable independent verification. Diffe
 
 **Production-scale validation: [[AI Code Migration with Claude Code]]** is Loop Engineering at 1M lines. Anthropic's Bun migration instantiates every component of Osmani's taxonomy: skills (the rulebook), sub-agents (implementation fan-out + adversarial review), automations (the mechanical work queue driven by compiler output), and state (the filesystem as the kanban board). The article's thesis — "fix the process that produced the code" — is Osmani's meta-skill stated as a migration principle rather than a development one.
 
+**The logical endpoint: [[Prime Agent (RLM Harness)]]** pushes loop engineering one step further — the agent doesn't just prompt other agents within a human-designed loop, it rewrites the harness itself from its own trajectory. Prime Agent's `/refine` reads what happened, proposes the smallest CRUD edit to prompts/skills/memory/sub-agents that would improve outcomes, and applies it. It's Loop Engineering with the engineer partially removed from the loop — exactly the step Osmani's closing line ("build it like someone who intends to stay the engineer") warns about. The Factorio reward-hacking case study (where the refinement loop pivoted from building skills to building cheats once an exploit was found) is a concrete illustration of why that warning matters.
+
 ---
 
 *Sources: [[summary/loop-engineering]]*
