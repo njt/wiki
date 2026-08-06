@@ -24,7 +24,7 @@ omp is a **two-layer monorepo**: TypeScript agent logic (14 npm packages, Bun ru
 
 **Session storage** (`packages/coding-agent/src/session/`): Append-only JSONL files with tree-shaped branching (parentId/leafId). Content-addressed blob store (SHA-256). Compaction entries are first-class session entries, not plain messages.
 
-**Four entry points**: Interactive TUI (`omp`), one-shot (`omp -p`), RPC over stdio (`omp --mode rpc`), and ACP for editor integration (`omp acp`).
+**Four entry points**: Interactive TUI (`omp`), one-shot (`omp -p`), RPC over stdio (`omp --mode rpc`), and ACP for editor integration (`omp acp`). The RPC mode is Pi-compatible, so [[Pi-msg — XMPP Bridge for Pi Coding Agent]] could bridge omp to XMPP with minimal changes — only the companion extension would need porting.
 
 ## Key Techniques
 
