@@ -40,6 +40,8 @@ Three things the article gets right:
 
 Two gaps worth noting:
 
+**The nested-skills monorepo pattern adds another dimension to team-scale adoption.** [[Claude Code Skills System]] documents how `.claude/skills/` in subdirectories (`apps/web/.claude/skills/deploy/`) appears as directory-qualified names (`/apps/web:deploy`) and auto-activates when Claude works on files in that directory. This means a monorepo team doesn't need one global harness — each package owns its skills, and Claude picks the right variant by file locality. The `allowed-tools` frontmatter field adds a trust dimension: a project skill that grants `Bash(git:*)` is a permission decision, not just a convenience, and reviewing it requires understanding the tool surface it unlocks.
+
 **The review bottleneck.** Langworth says skills should be reviewed, but doesn't address who reviews them, against what criteria, or at what velocity. [[Agentic Code Review]] documents teams where review is already the bottleneck — adding skill review to the queue without addressing throughput is a recipe for stagnation. The answer might be agent-assisted skill review ([[Orchestrating AI Code Review at Scale]]), but Langworth doesn't go there.
 
 **The single-player-to-multiplayer jump.** Langworth's conventions (tmp/, worktrees/, plans/, notes/) work for one person. Whether they survive a team of five or fifty is an open empirical question. [[Running an AI-Native Engineering Org]] documents the organizational patterns that emerge at scale; [[The Agentic Product Standard v2.0]] provides the structural taxonomy. Langworth's piece sits usefully between them — the practitioner's sketch that motivates the formalism.
