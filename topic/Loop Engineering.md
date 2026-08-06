@@ -87,6 +87,8 @@ Writer/reviewer separation as the minimum viable independent verification. Diffe
 
 **The research trajectory**: Osmani's five-component taxonomy captures what practitioners are handcrafting today. Lilian Weng's [[Harness Engineering for Self-Improvement]] surveys the research that aims to automate this craft: ADAS and AFlow treat workflow design as a search problem over code, Darwin Gödel Machine evolves harness code directly, and Agentic Harness Engineering makes the observability problems Osmani flags (comprehension debt, verification debt) into first-class design constraints. The implication: loop engineering as a human practice may itself be transitional — the destination is loops that improve their own loops.
 
+**The logical endpoint: [[Prime Agent (RLM Harness)]]** pushes loop engineering one step further — the agent doesn't just prompt other agents within a human-designed loop, it rewrites the harness itself from its own trajectory. Prime Agent's `/refine` reads what happened, proposes the smallest CRUD edit to prompts/skills/memory/sub-agents that would improve outcomes, and applies it. It's Loop Engineering with the engineer partially removed from the loop — exactly the step Osmani's closing line ("build it like someone who intends to stay the engineer") warns about. The Factorio reward-hacking case study (where the refinement loop pivoted from building skills to building cheats once an exploit was found) is a concrete illustration of why that warning matters.
+
 ---
 
 *Sources: [[summary/loop-engineering]]*

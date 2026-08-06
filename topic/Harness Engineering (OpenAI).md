@@ -114,6 +114,8 @@ Compared to [[Minions — Stripe's One-Shot Coding Agents]]: Stripe focuses on v
 
 The biggest gap in the article: nothing about how to teach this. Lopopolo's team learned harness engineering through five months of trial and error. There's no curriculum, no playbook. Every team adopting these practices is rediscovering them from scratch. [[A Practical Guide to Brownfield AI Development]] is the closest thing, but it's for legacy codebases, not greenfield harness construction.
 
+Prime Intellect's [[Prime Agent (RLM Harness)]] takes the harness-engineering philosophy in a different direction: where OpenAI's harness is a fixed substrate built by human engineers and used by agents, Prime Agent's Continual Harness is a living system that agents can CRUD from within their own trajectory — the agent doesn't just work inside the harness, it rewrites the harness. The difference is philosophical: is the harness a platform or a garden?
+
 ---
 
 *Sources: [[summary/harness-engineering-openai]]*

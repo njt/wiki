@@ -60,6 +60,8 @@ The post's thesis in one sentence. At swarm scale, the bottleneck isn't model ca
 
 **The biggest gap: what happens after the run?** The swarm produces a working SQLite implementation at 4,645 lines (Opus mix). But what happens when a human needs to extend it? Is the codebase intelligible, or does it carry the invisible scars of 4 hours of agent negotiation? The post measures output quality by test pass rate, but maintainability by humans — the thing that actually matters for software with a lifetime beyond the experiment — is unmeasured and likely unmeasurable within the current framework. This is the same gap [[Dev Machine Foundry]] identifies: the machine is honest but not strategic, and strategy includes designing for future humans.
 
+A contrasting multi-agent communication model comes from [[Prime Agent (RLM Harness)]], which scopes agent-to-agent messaging to the "nuclear family" (parent, sibling, child) rather than using shared state like Cursor's Field Guide. Both are valid approaches to the same problem — preventing coordination chaos — but they make different tradeoffs: Prime Agent's direct messaging is simpler to reason about but creates hard boundaries, while Cursor's stigmergy-through-Field-Guide is more flexible but harder to audit.
+
 ---
 
 *Sources: [[raw/agent-swarm-model-economics]]*
