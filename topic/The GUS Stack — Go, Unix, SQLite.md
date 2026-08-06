@@ -52,6 +52,8 @@ The testing philosophy compressed to a command. Zoschke uses headless Chrome via
 
 **The "chatting with an agent is easier than planning docs" claim is a description of the present, not a prediction about the future.** Right now, it's true: spinning up a prototype with Claude Code is faster than writing a design doc. But this is a local maximum, not an equilibrium. As [[The New Software Lifecycle]] documents, the bottleneck is migrating from implementation to verification — and planning docs are the artifact that makes verification possible. The GUS Stack article is a snapshot of the "build fast" phase; it doesn't address what happens when you need to maintain, extend, or hand off what you built.
 
+**Rust as a GUS variant.** [[celld]] (Deno's self-hosted Durable Objects runtime) is a Rust counterpoint: it uses SQLite even more pervasively — one database *per Durable Object* rather than one per application — and relies on Rust's type system to distinguish definite from ambiguous failures at the CAS layer. Same "SQLite as foundation" thesis, different language and granularity.
+
 **The deeper argument: the stack is the harness.** [[Components of a Coding Agent]] established that the harness matters more than the model. Zoschke extends this: the technology stack is part of the harness. Pick components the model already knows, and the harness does less work. Pick components with stable interfaces, and the harness doesn't need updating. Pick components that fail at compile time rather than runtime, and the harness catches errors before the agent moves on. The GUS Stack isn't a technology recommendation — it's a harness engineering recommendation disguised as a technology recommendation.
 
 ---

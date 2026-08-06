@@ -16,6 +16,8 @@ This is the thinnest topic in the wiki, and that thinness is itself the finding.
 
 ### Consensus and Replication
 
+[[celld]] (Deno's self-hosted Durable Objects) is the most extreme brokerless design in the wiki: nodes coordinate entirely through S3 Compare-And-Swap with no consensus protocol, no leader election, no gossip. Each cell is a SQLite database replicated to S3 via a vendored Litestream port; ownership is a conditional PUT. The trade is simplicity of coordination for latency on every cold start.
+
 [[Graft]] provides the database layer: SQLite replicated via object storage without a running cluster. Stateless on S3 is architecturally simpler than Raft consensus (rqlite) or FoundationDB (mvSQLite). The conflict resolution is pushed to the application, which is honest about a hard problem that CRDTs ([[Graft]]'s comparison with cr-sqlite) try to solve automatically.
 
 [[Write Snapshot Isolation]] addresses transactional correctness: standard snapshot isolation checks for stale writes when it should check for stale reads. One conceptual fix achieves serializability. The practical lesson: correctness should be structural, built into the isolation mechanism, not bolted on as detection.

@@ -67,6 +67,7 @@ Provectus's architect on the persistence layer. State snapshots aren't just for 
 - [[Semantic Kernel]] — Microsoft's enterprise agent middleware. Burr is lighter-weight, Python-only, and state-machine-first; SK is polyglot, enterprise-grade, and function-calling-first.
 - [[Elements of Agentic Systems Design]] — Burr maps cleanly to the taxonomy: State persistence = Memory, @action decorator = Agency, transitions = Reasoning, sub-applications = Coordination, state snapshots = Artifacts, replay = Evaluation.
 - [[Harness Engineering]] — The harness matters more than the model. Burr's harness (state machine, persistence, UI) is its product; the model is a component.
+- [[celld]] — Deno's self-hosted Durable Objects runtime that uses the same state-machine pattern as Burr, but for distributed infrastructure coordination rather than AI agents. `celld-logic` is a pure, zero-dependency state machine that's replayable under deterministic simulation — the same insight, different domain.
 - [[Agent Orchestration]] — Hub page for multi-agent coordination patterns. Burr's sub-application model is one approach to agent composition.
 - [[n8n]] — Visual workflow automation; Burr is programmatic where n8n is visual. Different audiences, same underlying DAG concept.
 
