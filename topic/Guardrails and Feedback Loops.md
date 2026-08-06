@@ -44,6 +44,8 @@ The tools form a clear hierarchy from soft to hard:
 
 ## What's Missing
 
+**Model-level guardrails.** The enforcement hierarchy described above runs from prompts through hooks through CI/CD — but it's missing a layer: models that *are* guardrails. [[Shieldstral]] is Mistral's 3B Apache 2.0 safety classifier that judges content against plain-language policies supplied at inference time. Unlike deterministic lint rules, it makes probabilistic judgments about novel content; unlike prompt-level guidance, it's a dedicated model optimized for safety classification rather than general reasoning. A Shieldstral-style model guardrail complements deterministic enforcement: hooks prevent known failure modes; model classifiers catch novel ones that can't be reduced to rules.
+
 **Agent-specific lint rules.** Current linters catch human code anti-patterns. Agent code has different failure modes: more boilerplate, more unnecessary abstractions, more cargo-cult patterns, more reward hacking. [[dotnet Slopwatch]] is the only tool targeting agent-specific anti-patterns, and it's .NET only. Every language ecosystem needs its Slopwatch. At the skill layer rather than the lint layer, [[PAAD — Defense-in-Depth for AI-Assisted Development]] addresses the same class of problem: agent-specific quality failures caught by structured, multi-specialist review skills (spec critique, plan alignment, architecture analysis) rather than deterministic lint rules.
 
 **Feedback loop telemetry.** The self-tightening loop ([[Feedback Loop is All You Need]]) sounds great but there's no tooling for measuring whether it's actually tightening. How many new rules were added this month? How many CI failures did they prevent? Without measurement, the loop is aspirational.
