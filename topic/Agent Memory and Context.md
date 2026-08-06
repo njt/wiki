@@ -66,6 +66,8 @@ Context management is the real engineering challenge, not model ability. Every t
 
 **Dreaming's consolidation promise.** Anthropic's Dreaming research preview (the centerpiece of [[Giving Claude Agent Memory in 12 Steps]]) is the first API to attack the consolidation problem directly: a scheduled background process that reads existing memory + session transcripts, produces a reorganized store with duplicates merged and stale entries replaced. It's gated and early, but it's the first credible answer to the contradiction-handling and staleness problems — and the separate output store (review before committing) is the right safety architecture.
 
+**Context evaporation — the knowledge chipper.** [[The Knowledge Chipper]] names a related but distinct problem: not how to store what the agent *recorded*, but that the vast majority of what the agent *understood* during a session was never captured at all. The LLM scans files, reads docs, builds a rich mental model — and then the session ends, leaving only code and a commit message. This isn't a memory-storage problem; it's a memory-*capture* problem. The asymmetry matters because the context-building work dwarfs the output, and both are lost together. None of the systems on this page (except perhaps [[mira-OSS]]'s first-person narrative approach) even attempt to capture the implicit understanding an agent builds during a session.
+
 ## Key Themes
 
 #context-engineering #memory #retrieval #persistence #articulation #decay
