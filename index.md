@@ -135,6 +135,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[From AI Studio to AI Forge]] — McCormick's five-plane stack for agent autonomy: "human changes altitude" as the cleanest framing of supervisory control
 - [[ProofEditor]] — Agent-first collaborative document editor from Every: agents suggest edits, humans review, provenance-tracked attribution
 - [[Bringing MCP 2026-07-28 to Claude]] — Anthropic ships the fifth MCP spec: stateless HTTP core, versioned extensions framework, production OAuth 2.0/OIDC alignment, 950+ Claude connectors, enterprise-managed auth, and MCP tunnels for private-network servers
+- [[Stateless MCP]] — Simon Willison's practitioner validation: three tools built in a week against the new stateless spec, the security argument that declared MCP tools beat arbitrary shell access, and datasette-mcp finally shipping on its fourth attempt
 - [[Building Agents for Production Systems with MCP]] — Anthropic's guide: MCP as the standard agent-to-production integration layer
 - [[The MCP Gateway Iceberg]] — Mihai Parparita's seven-lesson field report from building Sierra's internal MCP gateway: coordination bottlenecks, agents that cheat, 80%=0% workflow coverage, multi-pass cross-customer data guards, CLI familiarity over MCP purity, and dual identity models for interactive vs. scheduled work
 - [[Maguyva]] — Remote MCP server giving coding agents a pre-built, graph-ranked codebase map: 11 tools, 279 languages via Tree-sitter AST, 5 fused search modalities, 4 graph views
