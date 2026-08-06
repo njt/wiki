@@ -60,6 +60,7 @@ Key source files: `middleware.py:229-268` (add_message flow), `worker.py:143-251
 - **vs. Three Tier Memory**: Similar hierarchical concept but different tier semantics. Three Tier uses domain-expert agents for retrieval; Sawtooth uses a deterministic entity ledger. Sawtooth's L1.5 is a simpler, more mechanical guarantee — no retrieval step, just direct injection.
 - **vs. Mnemo**: Mnemo builds a knowledge graph (entities + relationships); Sawtooth extracts a flat KV dict. Mnemo is richer semantically; Sawtooth is simpler operationally. Complementary — Mnemo for long-term semantic memory, Sawtooth for real-time context compression.
 - **vs. napkin / Claude-Mem**: Those are file-based — the agent explicitly reads/writes a memory file. Sawtooth is middleware that manages memory automatically between the agent loop and the LLM API.
+- **vs. Zero-Mem**: [[Zero-Mem]] eliminates LLM calls from memory entirely — no compression, no summarization, no extraction. Instead of compressing old turns into narratives (L2) and extracting values into a ledger (L1.5), Zero-Mem keeps raw turns as the only artifact and runs deterministic retrieval over them. The trade is Sawtooth's richer, compressed context vs. Zero-Mem's zero-token, zero-hallucination guarantee.
 
 ## Tags
 

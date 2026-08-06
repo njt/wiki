@@ -56,6 +56,8 @@ Refreshing honesty in a vendor blog post. The field is early, the hard problems 
 
 The retrieval-based alternative to context graphs is exemplified by [[Cerebras Knowledge Base Architecture]], which also emphasizes write-time structuring (LLM distillation before embedding) but opts for hybrid retrieval over typed edges. The two approaches converge on the same insight — structure at ingestion time, not search time — but diverge on whether that structure should be edges between entities or enriched embedding documents.
 
+At the minimalist extreme, [[Zero-Mem]] builds an entity-context graph with co-occurrence edges only — no relation types, no inferred connections, no LLM extraction. It proves that even untyped edges, when combined with Personalized PageRank propagation, surface useful cross-turn evidence. The trade-off: typed edges like Context Graphs proposes capture *why*; co-occurrence edges like Zero-Mem uses capture only *that* entities appeared together. The extra structure of typed edges is valuable precisely when the agent needs to understand relationships, not just adjacency.
+
 ---
 
 *Sources: [[summary/what-is-a-context-graph]]*

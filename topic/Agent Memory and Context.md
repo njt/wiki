@@ -30,6 +30,8 @@ Context management is the real engineering challenge, not model ability. Every t
 
 **Shared memory.** [[robot.wtf]] -- git-backed wiki where humans and agents read and write the same pages. The symmetry is the design insight: most agent memory is either agent-only (opaque to humans) or human-only (agents can't write). [[LLM Wiki]] -- Karpathy's pattern for AI-maintained knowledge bases. This wiki implements it.
 
+**Zero-token deterministic.** [[Zero-Mem]] -- a Rust implementation of Zero-Mem (arXiv:2607.29377) where every operation from ingestion through retrieval is a classical IR pipeline (heuristic NER, BM25, Personalized PageRank, cosine similarity) with zero LLM calls. Proves that high-quality retrieval for agent memory doesn't require ongoing token costs -- raw turns are the source of record and search is structured over them.
+
 **Knowledge graphs.** [[GraphRAG]] -- Microsoft's structured RAG using knowledge graphs and community hierarchies. Fixes two failures of baseline RAG: cross-document synthesis and holistic summarization. [[NornicDB]] -- graph + vector + temporal in one engine with Ebbinghaus-based memory decay. Knowledge fades unless reinforced, like human memory. [[Rowboat]] -- persistent knowledge graph from email and docs in an Obsidian-compatible vault.
 
 ### Context Quality and Retrieval

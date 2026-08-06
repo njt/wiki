@@ -66,6 +66,8 @@ Unlike the **[[Agent Memory and Context]]** approaches that use vector search as
 
 The sidecar service model mirrors **[[Claude Sidecar]]**, but mnemo focuses on knowledge extraction and retrieval rather than tool execution — it's a memory service, not an agent extension.
 
+At the opposite end of the spectrum from Mnemo's LLM-heavy extraction, **[[Zero-Mem]]** is a fully deterministic alternative: heuristic NER instead of LLM extraction, co-occurrence edges instead of typed relations, and zero token cost for any memory operation. Where Mnemo pays per-turn LLM costs for richer semantics, Zero-Mem trades semantic depth for cost determinism — complementary approaches for different budgets.
+
 The dedup-by-name-only approach is a deliberate trade-off that would make entity resolution researchers wince — but for personal-scale knowledge graphs, it's probably right. Sophisticated disambiguation fragments entities and requires the user to resolve conflicts they don't care about.
 
 ---
