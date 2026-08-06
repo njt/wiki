@@ -53,6 +53,7 @@ The anti-ideology conclusion. Tricot's per-source decision framework (four quest
 - [[Guardrails and Feedback Loops]] — idempotency as a guardrail, not an afterthought
 - [[Agent-Native Architectures (Every)]] — five principles including composability
 - [[Structural Backpressure Beats Smarter Agents]] — architectural constraints beat model intelligence
+- [[Standard Webhooks]] — an open-source spec that standardizes the webhook layer (signatures, retries, SSRF protection) so the per-source diversity Tricot documents at the trigger-architecture level at least sits atop a consistent protocol
 
 ---
 

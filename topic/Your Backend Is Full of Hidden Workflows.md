@@ -56,6 +56,7 @@ The closer. The article isn't arguing for heavyweight orchestration infrastructu
 - [[Swamp Club]] — Agent-first workflow framework with DAG execution and Zod-typed models. The agentic parallel: agents also need explicit coordination rather than implicit glue
 - [[Software Engineering Craft]] — The natural home for the accretion-of-complexity observation; this article is a worked example of one specific accretion pattern
 - [[Agent Orchestration]] — Multi-agent coordination patterns hub; the same "hidden workflows" problem appears when agents chain together
+- [[Standard Webhooks]] — webhooks are one of the coordination mechanisms that accrete invisibly; Standard Webhooks is an attempt to bring consistency and shared tooling to at least this one piece of the puzzle
 
 ---
 *Sources: [[summary/your-backend-is-full-of-hidden-workflows]]*
