@@ -82,6 +82,7 @@ The closing aphorism. Jacob's point: the architecture you choose isn't neutral; 
 - [[Model Routing Is Simple Until It Isn't]] — cost optimization in production; Jacob's insight that cache economics change routing decisions applies equally to workflow architecture
 - [[Code Cleanliness and Coding Agents]] — token consumption reduction through code structure; Jacob's approach is orthogonal: reduce tokens by reducing agent invocations
 - [[Specifications as the Product]] — "code is disposable, specs are durable"; Jacob's plan-first translation step applies this to workflow migration
+- [[Zero-Mem — Zero-Token Memory Operations]] — Jacob's thesis applied to agent memory: the entire memory pipeline (construction, organization, routing, retrieval, evidence calibration) runs deterministically; only the final QA reader invokes an LLM. 57.6% latency reduction, 100% token elimination from memory ops, and *better* answer quality than every LLM-mediated baseline. The same category error — LLM-as-memory-operator — fixed with architecture
 
 ---
 *Sources: [[raw/adam-jacob-reducing-token-spend]]*

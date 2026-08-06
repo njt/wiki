@@ -141,6 +141,8 @@ Gupta's own evidence supports this interpretation. The examples he praises — C
 
 The six failure modes are real and well-cited. The persistence of prompt injection via memory (Unit 42's PoC) is genuinely alarming and under-discussed in the field. But these are arguments for better memory design, not for abandoning memory entirely. Gupta's own architectural ideal — Hermes' hot/cold split with explicit tiers — proves the point that good memory design is possible.
 
+**Zero-token memory complicates the cost argument.** [[Zero-Mem — Zero-Token Memory Operations]] demonstrates a memory pipeline where every operation outside final QA uses zero LLM calls and zero LLM tokens — entity extraction via spaCy, retrieval via BM25 + BGE-M3 embeddings + Personalized PageRank, and deterministic calibration for evidence quality. It beats every baseline on LoCoMo and HotpotQA while cutting latency 57.6% vs. the fastest alternative. If memory operations cost zero tokens, Gupta's strongest argument — the operational cost of running memory — weakens considerably. The remaining concern is retrieval policy quality, not token economics. This doesn't invalidate the essay's diagnosis (the six failure modes are still real), but it moves the conversation from "should we ship memory?" to "can we ship memory that doesn't burn tokens?" — and the answer appears to be yes.
+
 The essay is strongest as a corrective to "memory is a feature checkbox" thinking and weakest as a blanket prohibition. Required reading before any memory implementation, but not a reason to skip memory for products where continuity actually matters.
 
 ## See Also
