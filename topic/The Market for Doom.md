@@ -56,6 +56,8 @@ The essay's framing of economics-as-optimism is rhetorically effective but histo
 
 That said, the essay lands its central point: doom sells. There has always been a market for predictions of catastrophe, and the predictors have always been credentialed, confident, and wrong. The essay is worth reading alongside [[2026 Global Intelligence Crisis]] (Citadel's S-curve rebuttal to AI doomerism) and [[The Dead Economy Theory]] (which Partridge would likely diagnose as the latest entry in the doom lineage). For the institutional side, [[Why We Fear AI]] makes the complementary argument that AI anxiety is really capitalism anxiety.
 
+Rodney Brooks' four-time-scale framework reinforces Partridge's historical argument from a different angle: if every transformative technology — from domesticated animals to containerization — took 50+ years of continuous at-scale deployment to reshape the economy, then the doomsayer's error isn't just cognitive (snapshot extended into a film) but temporal. They're predicting the economic dislocation of Time Scale 4 from the research demonstrations of Time Scale 1, skipping the two intermediate stages where technologies typically fail, stall, or evolve into something unrecognizable. The horse that couldn't retrain is the exception that proves Brooks' rule: technologies that survive all four time scales *do* reshape the economy, but on a schedule measured in human lifetimes, not quarterly earnings. [[Four Time Scales for Technology Development and Deployment]]
+
 ---
 
 *Sources: [[summary/the-market-for-doom]]*
