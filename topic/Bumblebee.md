@@ -83,7 +83,7 @@ Unlike **Grype/Trivy** which scan container images, bumblebee scans developer en
 
 Unlike **npm audit/pip-audit** which check project manifests against advisory DBs, bumblebee checks EVERYTHING on the endpoint against an operator-supplied catalog — beyond what any single project declares.
 
-The closest architectural relative in the wiki is [[Supply Chain Security for Software Developers]], which recommends pinning versions and disabling install scripts — bumblebee operationalizes that advice at fleet scale by detecting exactly which endpoints have pinned the wrong version.
+The closest architectural relative in the wiki is [[Supply Chain Security for Software Developers]], which recommends pinning versions and disabling install scripts — bumblebee operationalizes that advice at fleet scale by detecting exactly which endpoints have pinned the wrong version. [[Ship Safe]] covers the complementary angle: scanning the project source itself for supply-chain threats (slopsquatting, dependency confusion, risky install scripts, unpinned AI actions) rather than the endpoint's installed inventory.
 
 ---
 *Sources: [[summary/bumblebee]]*

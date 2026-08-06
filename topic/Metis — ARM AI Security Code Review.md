@@ -105,6 +105,8 @@ The default configuration uses `llama_query_model` for everything, but the reach
 
 **vs. CI Forge (ciforge)**: Metis represents the deep end of AI code review — tree-sitter call graphs, 19 languages, 10 LLM backends. [[CI Forge (ciforge)]] takes the opposite design: ~30 shallow scanners averaging 50 lines each, Python-only AST, simple regex for other languages. ciforge's value is one-command breadth across secret detection, IaC, dead code, CVEs, and cloud cost; Metis's value is surgical depth in security review.
 
+**vs. [[Ship Safe]]**: Ship Safe takes yet another approach: 29 pattern-matching agents running in parallel across a broader security scope (code + supply chain + AI/LLM + CI/CD), offline-first with optional LLM deep analysis. Where Metis uses the LLM as a judgment step inside a deterministic AST pipeline, Ship Safe uses it as an optional escalation tier for taint analysis on pre-filtered findings. Ship Safe's distinctive contribution is treating AI-coding-agent surface area (MCP configs, agent instruction files, slopsquatting, GhostApproval symlinks) as first-class security domains alongside traditional appsec. Neither tool replaces the other — Metis for deep local reasoning on C/C++, Ship Safe for broad offline gating across polyglot repos with agent-specific threat surfaces.
+
 ---
 *Sources: [[raw/metis]]*
 *Last updated: 2026-07-08*

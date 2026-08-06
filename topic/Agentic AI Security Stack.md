@@ -58,7 +58,7 @@ No mention of the MCP trust model beyond the OAuth insight. MCP servers run with
 
 The book also fills a gap the wiki's security coverage shares with the broader field: framework alignment. Existing pages reference OWASP or MITRE ATLAS in passing, but none attempt the systematic mapping that Lucktemberg promises. If the mapping is good, it makes the book a reference for "which framework says what about which threat" — the kind of thing you'd keep open while designing an agent security architecture.
 
-PreEmptive's [[AI Security Framework for DevSecOps]] provides the DevSecOps operationalization layer that Lucktemberg's reference book assumes teams will figure out: translating threat models into CI/CD gates, application hardening, and pipeline-enforced controls — the engineering layer where frameworks become shipped software.
+PreEmptive's [[AI Security Framework for DevSecOps]] provides the DevSecOps operationalization layer that Lucktemberg's reference book assumes teams will figure out: translating threat models into CI/CD gates, application hardening, and pipeline-enforced controls — the engineering layer where frameworks become shipped software. [[Ship Safe]] operationalizes a subset of these threat surfaces (MCP configs, agent instruction files, AI supply chain) as a standalone offline-first CLI with 29 deterministic agents and SARIF CI/CD gating.
 
 ---
 

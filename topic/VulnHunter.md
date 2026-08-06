@@ -165,7 +165,7 @@ The "before attackers can reach them" framing is important. Capital One isn't po
 
 VulnHunter sits at the intersection of several threads in this wiki:
 
-- **AI security scanning**: [[Metis — ARM AI Security Code Review]] (deterministic+LLM hybrid), [[OpenCodeReview]] (Alibaba's hybrid architecture), [[brooks-lint]] (pure prompt-engineering code review)
+- **AI security scanning**: [[Metis — ARM AI Security Code Review]] (deterministic+LLM hybrid), [[OpenCodeReview]] (Alibaba's hybrid architecture), [[brooks-lint]] (pure prompt-engineering code review), [[Ship Safe]] (multi-agent CLI scanner covering AI-coding-agent surface area alongside traditional appsec)
 - **Security architecture**: [[Agentic AI Security Stack]] (unified threat model), [[Security and Sandboxing]] (containment patterns), [[How We Contain Claude]] (Anthropic's own security engineering)
 - **Verification patterns**: [[Guardrails and Feedback Loops]] (linters beat prompts), [[Sherlock Agent Eval]] (adversarial verification improves accuracy)
 - **Claude Code ecosystem**: [[Steering Claude Code]] (skills as infrastructure), [[Claude Code Mastery]] (practical Claude Code), [[Load-Bearing Assumptions]] (another Claude Code skill with falsification logic)
