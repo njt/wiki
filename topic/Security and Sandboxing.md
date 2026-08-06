@@ -42,7 +42,7 @@ The core problem: you want agents powerful enough to be useful but constrained e
 
 ## Key Tensions
 
-**Usability vs. security.** Every security layer adds friction. [[yolo-cage]]'s 8GB RAM requirement pushes teams toward "just yolo it." [[A Deep Dive on Agent Sandboxes]]'s session-scoped trust lists require human judgment about what to trust. The tradeoff is real: overly restrictive sandboxes make agents useless, overly permissive ones make them dangerous.
+**Usability vs. security.** Every security layer adds friction. [[yolo-cage]]'s 8GB RAM requirement pushes teams toward "just yolo it." [[A Deep Dive on Agent Sandboxes]]'s session-scoped trust lists require human judgment about what to trust. The tradeoff is real: overly restrictive sandboxes make agents useless, overly permissive ones make them dangerous. [[Cloudflare OS]] attacks this tension with simulated actions — Gatekeepers return fake results so the agent can keep working while side-effecting actions queue for async human approval, making the secure path the convenient path instead of the blocking one.
 
 **Trust via permission prompts vs. trust via architecture.** [[yolo-cage]] says permission prompts fail because tired users click allow. [[claude-ctrl]] says instructions in context are not constraints. Both point to the same answer: move trust decisions from the human (unreliable under fatigue) to the architecture (reliable regardless). But architectural trust requires upfront investment that most teams skip.
 

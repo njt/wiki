@@ -60,6 +60,8 @@ Context management is the real engineering challenge, not model ability. Every t
 
 **Memory migration.** If you start with [[napkin]] and need to upgrade to [[Three Tier Memory]], there's no migration path. Your markdown file doesn't convert into a tiered retrieval system. Each memory implementation is a dead end.
 
+**Compaction as checkpointing.** [[Cloudflare OS]] takes a different approach to the persistence-vs-freshness tension: chat history compaction creates immutable checkpoints that bound message replay. Each checkpoint stores a summary, the code version, and accepted/proposed changes — so replaying a long conversation starts from the most recent checkpoint rather than message zero. This is compaction as state snapshot, not compression as lossy summarization.
+
 **Contradication handling.** [[napkin]] acknowledges the risk of contradictory entries. No current tool detects or resolves contradictions in agent memory. A memory that says both "always use approach A" and "never use approach A" confuses the agent, and nobody notices until output quality degrades.
 
 **Dreaming's consolidation promise.** Anthropic's Dreaming research preview (the centerpiece of [[Giving Claude Agent Memory in 12 Steps]]) is the first API to attack the consolidation problem directly: a scheduled background process that reads existing memory + session transcripts, produces a reorganized store with duplicates merged and stale entries replaced. It's gated and early, but it's the first credible answer to the contradiction-handling and staleness problems — and the separate output store (review before committing) is the right safety architecture.
