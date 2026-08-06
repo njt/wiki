@@ -71,6 +71,8 @@ Lilian Weng's [[Harness Engineering for Self-Improvement]] extends Raschka's def
 
 What's missing from the article is failure modes. Raschka explains what each component does when it works. He doesn't cover what happens when context reduction clips something critical, when working memory drifts from the actual task state, or when a subagent's constraints are too tight to be useful. [[Cognitive Debt]] and [[Slowing the Fuck Down]] fill that gap from the practitioner side.
 
+Raschka's taxonomy also assumes a tool-based agent model — predefined tools with clear boundaries. [[Cloudflare OS]] takes a different approach with Code Mode agents that write and execute arbitrary JavaScript in sandboxed Dynamic Workers, making the gadget's own API the tool surface rather than a fixed set of harness-provided tools.
+
 The claim that vanilla LLMs "have very similar capabilities" is provocative and probably true-ish at the frontier but undersells the gap between frontier and commodity models. A Llama-3-8B dropped into Claude Code's harness won't perform like Opus 4.7. The harness amplifies; it doesn't equalize. [[Honey I Shrunk the Coding Agent]] is more honest here: the harness redesign helped, but it was tuned to the specific model's behavioral profile.
 
 Still: this is the single best conceptual map of what a coding agent actually is. Essential reading.
