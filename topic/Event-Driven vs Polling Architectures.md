@@ -40,6 +40,8 @@ The anti-ideology conclusion. Tricot's per-source decision framework (four quest
 
 **Connection to the wiki's themes:** This piece fills a gap in the wiki's agent architecture coverage. Where [[All Your Agents Are Going Async]] argues that HTTP is the wrong transport, Tricot argues that even within HTTP, webhooks alone are the wrong pattern. Where [[SQLite is All You Need for Durable Workflows]] covers the runtime side, Tricot covers the ingestion side. Together they bracket the durable-agent problem: how events get in, and how state survives while the agent works.
 
+**Tricot argues webhooks need reconciliation; [[The Valley of Webhooks]] goes further and argues they're the wrong category of tool entirely.** The valley article reframes webhooks as a local optimum — an entire industry of excellent tooling (Svix, Hookdeck, Fivetran) built on a primitive that was designed to trigger side effects, not transfer datasets. Where Tricot prescribes webhook-plus-reconciliation as the least-bad default, the valley article asks whether the consumer-pull change log (a la Stripe's `/v1/events` or WorkOS's Events API) should be the primitive instead. The two pieces together form a spectrum: fix the pattern vs. replace the primitive.
+
 ## See Also
 
 - [[All Your Agents Are Going Async]] — HTTP is the wrong transport for agents that outlive connections

@@ -106,6 +106,7 @@ When `useExpensive` flips, the old subscription to `expensive` is cleaned up, an
 - [[Smart Models Dumb Pipes]] — LLMs as judgment machines; the end-to-end principle applied
 - [[Apache Burr]] — State machines as the explicit version of what signals do implicitly
 - [[Event-Driven vs Polling Architectures]] — The push side of signals is event-driven invalidation; the pull side is polling on read
+- [[The Valley of Webhooks]] — The same push-to-pull inversion at the API integration scale: flip from provider-push webhooks to consumer-pull change logs, and the dedup/ordering/bootstrap stack collapses the way eager recomputation collapses under lazy signals
 
 ---
 
