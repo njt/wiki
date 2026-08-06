@@ -34,6 +34,8 @@ Not "unhelpful." Not "sometimes misleading." *Worse than useless.* An empty comm
 
 **What this implies for agent workflows.** If AI can't write useful change descriptions, the workflow that has an agent produce code + description + PR in one shot has a structural blind spot. Either the human writes the description (preserving the framing that only the human has), or the agent's description becomes noise that masks the absence of framing. This is a concrete argument for [[Vibe Coding as a Team Sport|bram-style approval gates]] where human-written plans are the durable artifact and agent-generated code is a disposable implementation detail.
 
+**The commit message as the only survivor.** [[The Knowledge Chipper]] extends Varda's argument by naming what's *not* in the commit message: the entire context the agent built during the session. The agent scanned files, searched docs, built a rich understanding of the codebase — and when the session ends, the only artifact is "a commit message and whatever amount of code comments the LLM deemed fit." The commit message was always going to be inadequate; the real problem is that everything else was thrown away.
+
 **The Willison effect.** Willison posting this as a standalone quote — no commentary, no "I agree," just the quote — is itself a signal. He doesn't do this for things he disagrees with or finds trivial. The format (quote-only post) is his highest-signal curation mechanism. When Simon Willison runs a quote without commentary, he's saying "this speaks for itself and I endorse it."
 
 ---

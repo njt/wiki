@@ -54,6 +54,8 @@ Osmani's contribution is synthesis at the right altitude. He doesn't just report
 
 **The open source maintainer angle is a bomb with a short fuse.** Osmani notes that OSS maintainers hit this wall first — dealing with a "steady stream of plausible but hollow contributions." This is already happening and it's going to get much worse. The maintainer burnout crisis is about to get an accelerant.
 
+**The reviewer's context gap has a mechanism, not just a symptom.** [[The Knowledge Chipper]] provides the causal link behind the review bottleneck: the agent that produced the code built up an enormous context (scanned files, searched docs, explored alternatives) and then discarded all of it at session end. The reviewer — human or LLM — arrives at the PR with none of that understanding. Their only option is to rebuild the same context from scratch, burning tokens and time. This isn't a failure of review process; it's a structural consequence of how LLM sessions work. The 441% increase in review time isn't surprising when reviewers are effectively redoing the context-building work the author's agent already did once.
+
 **Bottom line:** If you read one thing about engineering management in 2026, this should probably be it. Not because it has all the answers — it doesn't — but because it asks the right questions with the right data and the right humility. "Writing got cheap but understanding didn't" is going to be quoted until it's cliché, and it will deserve to be.
 
 ---

@@ -86,6 +86,7 @@ This is one of the more useful frames I've read on the agent memory problem, pre
 
 ## Related Pages
 
+- [[The Knowledge Chipper]] — A practitioner's field report of exactly the problem Santi diagnoses: an agent spends 250K tokens building understanding, the session ends, and the next session starts cold. The continuity-vs-memory distinction isn't theoretical — this is the daily experience it describes.
 - [[Agent Memory and Context]] — Hub page. Santi's argument is a direct challenge to the "more memory" framing that dominates this space.
 - [[Slate]] — Thread-and-episode architecture that separates active work from compressed results. The closest existing pattern to resume-work-finalize.
 - [[State System]] — Evidence-first commits and deterministic replay. Shares the provenance obsession.
