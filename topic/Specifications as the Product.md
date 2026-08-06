@@ -62,6 +62,8 @@ In multi-agent pipelines, the U-curve minimum shifts right because interpretive 
 
 **Spec evolution tracking.** [[OpenSpec]] has spec deltas, but nobody has built the git-blame equivalent for specs: who changed this requirement, when, and why? Linking spec changes to the outcomes they produced would close the feedback loop.
 
+**Machine-enforceable specs.** Most spec formats target human readers. Cloudflare's Codex RFCs ([[Engineering Standards Enforcement at Cloudflare]]) target both: humans author in familiar RFC 2119 language (SHOULD/MUST), agents consume compact JSON extractions with stable slugs, and the enforcement gradient (approved = advisory, enforced = blocking) is built into the format. This is the spec-as-product thesis extended to organizational policy — the RFC is the durable artifact; the reviewer agents are disposable consumers of it.
+
 **Cross-repo spec management.** All current tools assume specs live within a single repository. For organizations with microservices, the spec coordination problem across repos is unsolved. [[speedrift-ecosystem]] hints at cross-repo coordination but doesn't address spec synchronization specifically. [[Specsmaxxing]] explicitly supports cross-repo tracking via its dashboard -- a feature spec can track implementations across frontend, backend, and microservice repos -- but this is unproven at team scale.
 
 ## Key Themes

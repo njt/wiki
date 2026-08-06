@@ -44,6 +44,8 @@ The tools form a clear hierarchy from soft to hard:
 
 ## What's Missing
 
+**Standards-as-enforceable-infrastructure.** Cloudflare's Codex ([[Engineering Standards Enforcement at Cloudflare]]) demonstrates the pattern at production scale: 60+ engineering RFCs with governed lifecycle states (approved → enforced), compacted into JSON for agent consumption, feeding three review agents that have flagged ~230,000 violations. The enforcement gradient — SHOULD = advisory, MUST on enforced RFCs = blocking — solves the strictness-vs-friction tension through lifecycle gating rather than per-rule configuration. This is the organizational-scale version of the linters-over-prompts thesis: standards don't exist until they're enforced.
+
 **Agent-specific lint rules.** Current linters catch human code anti-patterns. Agent code has different failure modes: more boilerplate, more unnecessary abstractions, more cargo-cult patterns, more reward hacking. [[dotnet Slopwatch]] is the only tool targeting agent-specific anti-patterns, and it's .NET only. Every language ecosystem needs its Slopwatch. At the skill layer rather than the lint layer, [[PAAD — Defense-in-Depth for AI-Assisted Development]] addresses the same class of problem: agent-specific quality failures caught by structured, multi-specialist review skills (spec critique, plan alignment, architecture analysis) rather than deterministic lint rules.
 
 **Feedback loop telemetry.** The self-tightening loop ([[Feedback Loop is All You Need]]) sounds great but there's no tooling for measuring whether it's actually tightening. How many new rules were added this month? How many CI failures did they prevent? Without measurement, the loop is aspirational.
