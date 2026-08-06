@@ -63,6 +63,8 @@ SubQ Code is the most interesting product thesis. If it works, it eliminates [[C
 
 **Bottom line.** Assume it's real but not as good as the headline numbers suggest. Sparse attention is probably part of the future architecture mix. SubQ probably isn't the final form. The coding agent claim (load entire codebase, no retrieval needed) is the one to watch — if it holds, it reshapes the agent architecture landscape the wiki catalogs. Wait for independent benchmarks before updating your mental model.
 
+**August 2026 update:** [[Pokee-Isaac 28B]] has now made a structurally similar claim — 10M-token context via a "non-decoder-only architecture" — with the same pattern: self-reported benchmarks, closed weights, no paper, and a launch strategy heavy on free API credits. Two startups, two different architectural claims (sparse attention vs. non-decoder-only), same verification gap. The pattern is becoming a genre: ultra-long-context as a product pitch, not yet as a reproducible result.
+
 ---
 
 *Sources: [[summary/subquadratic-12-million-context-window]], SiliconANGLE (2026-05-05)*
