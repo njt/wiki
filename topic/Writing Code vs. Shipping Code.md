@@ -38,7 +38,7 @@ This paper kills several narratives at once:
 
 1. **"AI will replace developers."** No — elasticity of 0.25. Strong complements, not substitutes. The bottleneck shifts to what humans do, making human judgment *more* scarce and valuable, not less.
 
-2. **"10x developers."** The 180% commit gain sounds like 2.8x. But commits aren't the output. At the level of *shipped software*, the gain is 1.3x. Real, but not revolutionary. The "10x" rhetoric confuses an input metric with the output that matters.
+2. **"10x developers."** The 180% commit gain sounds like 2.8x. But commits aren't the output. At the level of *shipped software*, the gain is 1.3x. Real, but not revolutionary. The "10x" rhetoric confuses an input metric with the output that matters. [[Eight Myths of AI in Software Engineering]] provides the research backing for why this myth persists: developers spend only ~14% of their time coding, AI gains are highly context-dependent, and task characteristics — not individual brilliance — explain most performance variation.
 
 3. **"More code = more value."** The marketplace data is brutal: more apps, same usage. The limiting factor isn't production capacity — it's *demand for software*. We're already making more than people want to use.
 

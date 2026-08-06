@@ -90,6 +90,7 @@ The closing. A direct nod to the conference's brand — The *Pragmatic* Summit, 
 - [[The Founder's Playbook]] — AI-native startup patterns vs. enterprise adoption patterns
 - [[Engineering for Bounded Cognition]] — Cognitive limits as the constraint AI can't fix
 - [[Loop Engineering]] — Agentic workflows as the expanding frontier Tacho names
+- [[Eight Myths of AI in Software Engineering]] — Butler, Houck, Storey et al. systematically debunk the myths that make "spray and pray" seem reasonable: why LOC is invalid, why adoption ≠ impact, and why AI helps some tasks and engineers more than others
 - [[Simon Willison — Engineering Practices That Make Coding Agents Work]] — Same conference, practitioner perspective
 - [[The Cost YAGNI Was Never About]] — The cost question Tacho raises but can't answer
 - [[The Joy and Power of Understanding]] — Skill development as the counterweight to AI atrophy

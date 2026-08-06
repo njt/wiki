@@ -2,6 +2,8 @@
 
 Brian Houck's survey of five 2026 papers that converge on a single uncomfortable story: AI is compressing the upstream work of software engineering, and everything downstream is breaking. The papers span productivity measurement, shipping economics, longitudinal DevEx, developer wishlists, and debt taxonomy — different methods, same conclusion.
 
+Houck is also co-author (with Butler, Storey, Lowdermilk, Clarke, and Murphy-Hill) of [[Eight Myths of AI in Software Engineering]], which provides the upstream diagnosis: the eight misconceptions that lead organizations to deploy AI in ways that cause the downstream breakage surveyed here. Read together, the two pieces form a complete arc — myths → bad adoption → shipping attenuation, experience erosion, and compounding debt.
+
 ---
 
 ## The Five Studies
