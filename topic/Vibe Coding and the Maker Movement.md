@@ -55,6 +55,8 @@ Sachin's case for replacing "craft" with "consumption" as the governing metaphor
 
 **The experiential correlate is [[Human-in-the-Loop is Tired]]**, where Laura Summers reports from inside the evaluative anesthesia. Her description of LLM work as "intensely solitary" — natural collaboration points replaced by another prompt — is what Sachin's scenius-skipping feels like day to day. And her "human reward function problem" (dopamine hits replaced by review fatigue) is evaluative anesthesia from the inside: the mechanism by which "I feel good making this" crowds out "this is good."
 
+**The "don't ask it to write code" boundary:** Mathieu Ropert's [[An Honest Review of AI Programming]] draws a line that Sachin's piece implies but never states: LLMs are useful for research and summarization, but asking them to *write* code is where evaluative anesthesia bites hardest. Ropert's three months of use converged on a simple rule — Claude for finding information, not generating it — because the code it writes is both mediocre and expensive (output tokens cost 5–10× input). This is the practical corollary to Sachin's scenius argument: the tool's value is in *understanding what to build*, not in building it.
+
 ---
 
 *Sources: [[summary/vibe-coding-and-the-maker-movement]]*

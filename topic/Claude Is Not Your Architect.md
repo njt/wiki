@@ -58,6 +58,8 @@ The accountability argument is the strongest and most durable part of the essay.
 
 This resonates strongly with [[Optimizing for Decision Points]] (surfacing taste-sensitive decisions rather than letting models fill them with safe defaults) and [[Writing Code vs. Shipping Code]] (the gap between AI-assisted activity and actual shipping outcomes). It's also the practical companion to [[The Joy and Power of Understanding]] — the case that understanding is both the pragmatic path and the intrinsic reward, and that delegating architectural thinking to AI trades both away.
 
+**The implementation-level corollary:** Holland's thesis operates at the architectural level, but Mathieu Ropert's [[An Honest Review of AI Programming]] shows it holds at the micro-architectural level too. Asked to move a Unity `Update()` method into a manager class — a straightforward optimization refactor — Claude instead created a `GameUpdateable` base class with virtual `OnUpdate()`, introducing an abstraction layer the explicit instructions avoided. The model defaulted to OOP patterns from its training distribution rather than "just doing the thing." The same agreeableness and pattern-matching Holland diagnoses in architecture applies to implementation: the AI produces what looks like good code to the training data, not what the engineer asked for.
+
 ---
 
 *Sources: [[summary/claude-is-not-your-architect]]*
