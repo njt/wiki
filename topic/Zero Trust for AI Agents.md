@@ -69,6 +69,8 @@ Two metrics to instrument before anything else: **dwell time** (anomaly occurren
 
 ## Critical Analysis
 
+**Convergent evolution with Cloudflare's [[The Agent Access Model]]:** AAM independently arrives at the same diagnosis (human-model controls fail quietly on agents) and the same prescription (short-lived task-scoped credentials, enforcement outside the model). The differences are complementary: Anthropic's framework is broader (eight domains, three tiers, supply chain), while Cloudflare's is deeper on access control mechanics — introducing the Trust Ratchet (capability state that only narrows during a task) and the Grant Review Loop (evidence-driven template refinement) that address operational gaps in Zero Trust's least-privilege guidance. AAM also shares the "impossible vs. tedious" test's spirit: the Trust Ratchet is a hard barrier, not a friction-based control.
+
 **What's genuinely new**: The "impossible vs. tedious" test is a clean, portable heuristic that cuts through most security theater. The three-tier structure with explicit capability tables gives CISOs a roadmap they can hand to engineering. The eight-phase implementation workflow (Part IV) is concrete enough to follow without a consultant. Least Agency as an explicit extension of Least Privilege names a real gap in existing security models.
 
 **What's not addressed**: The document is silent on cost. Deploying hardware-bound credentials, continuous authorization, and confidential computing across an agent fleet isn't free — and for organizations that can't afford Advanced, the implicit message is "accept the risk." There's no discussion of what a reasonable interim posture looks like for cash-constrained teams.

@@ -54,6 +54,8 @@ The core problem: you want agents powerful enough to be useful but constrained e
 
 ## What's Missing
 
+**Access control models for agents.** The existing tooling focuses on sandboxing execution and managing credentials, but lacks a coherent authorization architecture for the agentic era. Cloudflare's [[The Agent Access Model]] proposes one: task-scoped credentials (RFC 8693 + DPoP), dual-boundary mediation (harness + network), and a Trust Ratchet that narrows the capability ceiling in-flight when protected data is accessed. Its Grant Review Loop addresses the operational problem of keeping task templates at true least privilege across many runs. AAM explicitly declines to solve the multiplayer case (agents serving multiple humans with different permissions), naming it an open systems problem.
+
 **Network-level agent firewalls.** OS sandboxing gives all-or-nothing network control. [[agentsh]] partially addresses this with DNS and TCP connect redirect — transparently rerouting network traffic at the syscall level — but it's Linux-first and the feature set degrades on macOS.
 
 **Cross-sandbox agent protocols.** If Agent A in Sandbox 1 needs to share a result with Agent B in Sandbox 2, how do they communicate securely? [[Navaris]] and [[OpenSandbox]] manage individual sandboxes but don't address inter-sandbox communication.

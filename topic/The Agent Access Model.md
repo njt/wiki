@@ -1,0 +1,62 @@
+# The Agent Access Model
+
+Cloudflare Research's proposal for an access control model purpose-built for AI agents: five principles, four active controls, two supporting systems, and a bracingly honest assessment of what can be built today versus what remains an open research problem. The paper argues that BeyondCorp-era controls fail quietly when pointed at agents — they grant too much, see too little, and trust for too long — and proposes the Trust Ratchet as its most novel contribution: a mechanism that narrows the capability ceiling of a task execution graph in-flight, before sensitive data reaches the model.
+
+---
+
+## Key Quotes
+
+> "The controls we built for humans do not fail loudly when we point them at agents. They fail quietly, by granting too much, seeing too little, and trusting for too long."
+
+This is the paper's thesis in a sentence, and it's a sharper diagnosis than what either [[Zero Trust for AI Agents]] or [[Least Privilege for AI Agents — Identity, Access, and Tool Binding]] offer. The failure mode isn't that agents bypass controls — it's that controls built for a human-shaped principal *technically work* but produce the wrong answer. A service account that lives for months, a rate limit tuned for human click speed, a review cadence measured in quarters — these don't break, they just don't constrain.
+
+> "The prompt is not a perimeter. A boundary you can talk your way past is not a boundary."
+
+The most quotable line in the paper, and the one that distills the difference between prompt-level safety and architectural enforcement. [[Bounding the Blast Radius — Prompt Injection Defenses]] reaches the same conclusion from the attack side (every layer collapses under adaptive attack); AAM reaches it from the design side (enforcement belongs in the harness and network, period). The implication for agent design is stark: if your security model treats system prompts as a control layer, you have no security model.
+
+> "Least privilege is as old as access control. What changes is how quickly and often it must be enforced. For a workforce of humans, least privilege is often a policy reviewed every quarter. For large populations of short-lived agents, it is a system that runs in real time and leaves an audit trail."
+
+This reframes least privilege from a design-time concern to a runtime concern. AAM's answer — the Task-Scoped Access Engine that intersects approved templates with principal authority and resource-owner policy at dispatch time — operationalizes what [[Beyond Zero — Enterprise Security for the AI Era]] calls for but doesn't specify: the mechanism that makes per-action authorization computationally tractable.
+
+> "The Trust Ratchet gives operators a deterministic capability boundary they can inspect and test. It does not prove that every permitted output is safe."
+
+An unusual display of intellectual honesty. The Trust Ratchet is AAM's most novel contribution — a stateful mechanism that narrows the task's capability ceiling when protected data is accessed — and the authors are explicit about what it *doesn't* guarantee. This is the same kind of bounded claim that makes [[Zero Trust for AI Agents]]'s "impossible vs. tedious" test useful: name what the mechanism can prove, and don't claim more.
+
+> "We are not comfortable saying that multiplayer access control can be built end to end today."
+
+The paper's most important sentence, and the reason it's credible. After 14 pages of architecture, the authors look at the hardest sub-problem — an agent serving multiple humans with different permissions — and refuse to handwave. Recent work finds privacy-violation rates of 15.8% to 50.9% in simulated enterprise workflows. No deployed system closes the whole chain. This honesty is what distinguishes AAM from vendor security whitepapers that present their framework as complete.
+
+## Key Themes
+
+#pattern **Trust Ratchet.** AAM's signature contribution: capability state that can only narrow during a task. When protected data is accessed, the ratchet removes capabilities (external destinations, broad query scopes) according to declared policy. All enforcement points must acknowledge the new state version before the sensitive response is released to the model. This is a deterministic exfiltration control that doesn't depend on the model behaving, classifying data, or understanding security policy. It's the architectural analogue of [[Interdict]]'s runtime SQL blast-radius measurement — a mechanical constraint, not a behavioral one.
+
+#concept **Task-scoped credential as the unit of authorization.** Every agent run gets a credential that encodes "agent X, for principal H, to do task T," expiring with the task, bound to a harness-held proof key via DPoP. This inverts the service-account model: instead of a long-lived key that outlives every task it was issued for, the credential's lifetime matches the work. Existing standards (RFC 8693 Token Exchange, RFC 9449 DPoP) provide the primitives; AAM specifies how to compose them.
+
+#pattern **Mediation at two layers (harness + network).** AAM defines two enforcement boundaries: the harness (intercepts tool calls, checks against task policy, emits enforcement events) and the network (governs egress, decides which destinations are reachable). The key design property is that they fail independently — a harness bug should still meet network policy, and a network misconfiguration shouldn't grant tool access. This dual-boundary defense-in-depth addresses the gap that [[Security and Sandboxing]] identifies as "network-level agent firewalls" being largely missing.
+
+#concept **Grant Review Loop as operational feedback.** Least privilege has always had an operational problem: someone has to decide what "least" means, and policy owners over-grant to avoid support tickets. The Grant Review Loop uses directly-captured enforcement evidence to propose template changes: narrowing over-broad grants that went unused, widening under-scoped grants where recurring denials correlate with failed work. Recurring denial alone proves very little (an attacker can repeat forbidden actions until they look routine), so the loop attaches evidence to a recommendation for a human policy owner. Approved changes apply only to future task templates — the active task's ceiling never widens.
+
+#concept **Human oversight as exceptional, not ambient.** "An approval that is always granted is not a control. It is a ritual." AAM reserves human judgment for creating or changing task templates and releasing high-risk actions already inside the capability ceiling. An action outside the ceiling requires a newly authorized task across a fresh isolation boundary. This directly addresses the 93% permission-approval rate documented in [[How We Contain Claude]] — if every approval gets rubber-stamped, move approvals to the template-design layer where the decision is deliberate and one-time, not per-action and reflexive.
+
+#tool **Existing standards as building blocks.** AAM is specific about which standards provide which primitives: OAuth 2.0 Token Exchange (RFC 8693) for task-scoped tokens with nested actor chains, DPoP (RFC 9449) for sender-constrained binding, MCP authorization for resource-server boundaries on HTTP transports, and AAuth draft 09 as a work-in-progress that could realize part of the model. The Trust Ratchet, cross-layer mediation, and common event contract remain AAM architectural requirements without existing standards — the paper is clear about the gap.
+
+## Critical Analysis
+
+**The Trust Ratchet is the real invention, and it's both the paper's strength and its vulnerability.** The idea — narrow the capability ceiling before releasing protected data to the model — is elegant and testable. But it depends on classification being known before the response reaches the model. When classification depends on the returned content (a database query whose results are sensitive in aggregate), the response stays buffered until classification and transition finish. The paper acknowledges this but doesn't address what happens when classification is wrong or incomplete. A broad ratchet policy will deny benign activity along with malicious activity — and the authors are honest that "those denials are evidence for refining the next task template." The operational question is whether teams will tolerate the false-positive rate during the tuning period.
+
+**The single-principal vs. multiplayer boundary is where AAM draws its line, and it's the right place to draw it.** By refusing to handwave the multiplayer case, AAM earns credibility for the single-principal case it does claim to solve. The problem it names — an agent summarizing a thread that draws on a source only Alice can read, then Bob asking a follow-up question — is the cleanest illustration of why multiplayer access control is hard. The paper's honest acknowledgment that caching makes it worse ("an answer computed under Alice's authority and reused for Bob is an authorization bug, not a performance optimization") cuts through the usual "we'll just use ABAC" handwaving.
+
+**AAM's relationship to Beyond Zero is direct and complementary.** Where [[Beyond Zero — Enterprise Security for the AI Era]] proposes a reasoning engine behind each authorization decision, AAM bounds the capability set that engine must judge. The two approaches fit together: Beyond Zero asks "given this agent's behavior, should this action be allowed?" while AAM asks "what's the maximum damage this action could do, and can we narrow it before the action fires?" The floor/ceiling architecture in Beyond Zero maps naturally onto AAM's task template (floor) and Trust Ratchet (dynamic ceiling that can only drop).
+
+**Compared to Microsoft's framework:** [[Least Privilege for AI Agents — Identity, Access, and Tool Binding]] operates at design time — provisioning dedicated identities, defining RBAC roles, binding tools to manifests. AAM operates at runtime — enforcing the capability ceiling, ratcheting it down, logging every authorization decision. Microsoft's framework asks "did we design this right?"; AAM asks "is this particular action, in this particular task, at this particular moment, allowed?" The two are complementary, and AAM fills the runtime enforcement gap that Microsoft's framework gestures at but doesn't address.
+
+**The paper's relationship to [[Zero Trust for AI Agents]] is one of convergent evolution.** Both diagnose the same failure (human-model controls applied to agents), both propose short-lived credentials as the foundation, both insist on enforcement outside the model. The differences are instructive: Anthropic's framework is broader (eight domains, three tiers, supply chain), while Cloudflare's is deeper on one domain (access control with a formal architecture, a Trust Ratchet mechanism, and a worked example). AAM's Grant Review Loop addresses a gap in Anthropic's framework (how does least privilege stay current?), and Anthropic's "impossible vs. tedious" test applies directly to evaluating AAM's components.
+
+**What's missing:** AAM doesn't address cost. The architecture requires a programmable network and compute platform that can place credential issuance, tool mediation, egress, and the Trust Ratchet in the agent's path at machine speed. Cloudflare can build this on their own platform; the question is whether it can be built without Cloudflare. The paper also doesn't discuss what happens when the Trust Ratchet's shared control plane fails — it says "must fail closed," but doesn't specify the failure mode in detail. A task execution graph that's been ratcheted to Restricted and then loses the control plane is in an undefined state.
+
+**The paper's tone is its hidden strength.** It reads like a research paper that happens to be on a company blog, not a product announcement. The frankness about multiplayer access control ("we are not comfortable saying this can be built end to end today"), the specificity about which standards provide which primitives, and the worked example that shows both what the system catches and what it can't — these are the markers of an engineering proposal, not a marketing document. In a field where vendor security frameworks tend toward aspirational completeness, AAM's willingness to name its boundaries is refreshing and substantive.
+
+---
+
+*Sources: [[raw/the-agent-access-model]], [[summary/the-agent-access-model]]*
+*Last updated: 2026-08-06*
