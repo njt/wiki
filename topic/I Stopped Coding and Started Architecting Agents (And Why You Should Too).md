@@ -50,6 +50,8 @@ Bache's post is a good bridge between old-school software craft and new-school a
 
 Bache's post pairs well with [[Lean Software Production]] (Matt Wynne's "the product is still working software, but the work is engineering the system that produces it") and contrasts productively with [[Harness Engineering (OpenAI)]], which takes the opposite approach: infrastructure-first, greenfield, top-down. Bache is the legacy-code, bottom-up, incremental path to the same destination. [[Teaching the Agent Our Craft]] is the closest published field report of Bache's flywheel in production: Haldeman's team at 8th Light encoded their craft into rules, skills, subagents, and hooks, then folded lessons from manual interventions back into the harness — exactly the "each success tightens the flywheel" loop Bache describes.
 
+Where this manual flywheel is headed: Lilian Weng's [[Harness Engineering for Self-Improvement]] surveys the research on automating the improvement loop itself. Bache's "better harness → better code → better harness" is the same dynamic that Self-Harness and Agentic Harness Engineering operationalize as a propose-evaluate-accept cycle — but with the harness code itself as the optimization target rather than what the human adjusts between sessions. Bache's caution about not downloading a harness you don't understand applies equally to self-evolved harnesses: the observability problem (do you know *why* the harness changed?) is the same one AHE's decision-observability pillar tries to solve.
+
 ---
 *Sources: [[raw/i-stopped-coding-and-started-architecting-agents]]*
 *Last updated: 2026-07-18*

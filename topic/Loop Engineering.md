@@ -85,6 +85,8 @@ Writer/reviewer separation as the minimum viable independent verification. Diffe
 
 **Production-scale validation: [[AI Code Migration with Claude Code]]** is Loop Engineering at 1M lines. Anthropic's Bun migration instantiates every component of Osmani's taxonomy: skills (the rulebook), sub-agents (implementation fan-out + adversarial review), automations (the mechanical work queue driven by compiler output), and state (the filesystem as the kanban board). The article's thesis — "fix the process that produced the code" — is Osmani's meta-skill stated as a migration principle rather than a development one.
 
+**The research trajectory**: Osmani's five-component taxonomy captures what practitioners are handcrafting today. Lilian Weng's [[Harness Engineering for Self-Improvement]] surveys the research that aims to automate this craft: ADAS and AFlow treat workflow design as a search problem over code, Darwin Gödel Machine evolves harness code directly, and Agentic Harness Engineering makes the observability problems Osmani flags (comprehension debt, verification debt) into first-class design constraints. The implication: loop engineering as a human practice may itself be transitional — the destination is loops that improve their own loops.
+
 ---
 
 *Sources: [[summary/loop-engineering]]*
