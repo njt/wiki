@@ -68,6 +68,8 @@ Where this article goes beyond existing wiki coverage is the **feedforward** dim
 
 The "harnessability" concept deserves its own future page. The idea that your choice of language, framework, and architecture determines how effectively you can govern agents is a design-time decision with massive downstream consequences — and it's barely discussed anywhere else.
 
+**The research frontier**: Böckeler's framework describes what practitioners do *today*. Lilian Weng's [[Harness Engineering for Self-Improvement]] surveys where this is headed: harness design itself becoming an optimization target, with systems like Darwin Gödel Machine and Agentic Harness Engineering evolving harness code through search rather than handcrafting it. The same feedforward/feedback taxonomy Böckeler uses maps naturally onto the research literature — ACE and MCE are feedforward context engineering; the propose-evaluate-accept loop in Self-Harness is feedback-driven harness evolution. The meta-question Weng raises is whether the steering loop Böckeler describes (human observes failures → adds controls → tests) can itself be automated.
+
 ## Cross-Links
 
 - [[Guardrails and Feedback Loops]] — the synthesis page this enriches with proper theory
