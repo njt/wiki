@@ -26,7 +26,7 @@ The browser automation and system-level access features are powerful but raise t
 
 The rebrand from clawdBot to OpenClaw suggests legal or branding pressure (the original name was a Claude pun). The open-source model without subscription costs is sustainable only if the community contributes actively -- otherwise maintenance falls on a small team without revenue.
 
-Compared to the other personal agent frameworks in this batch, OpenClaw is the most consumer-friendly and the least technically ambitious. That's not a criticism -- there's a huge gap between what developers use and what everyone else can access.
+Compared to the other personal agent frameworks in this batch, OpenClaw is the most consumer-friendly and the least technically ambitious. That's not a criticism -- there's a huge gap between what developers use and what everyone else can access. [[Pi-msg — XMPP Bridge for Pi Coding Agent]] takes the opposite approach: instead of connecting to every proprietary platform, it bets on XMPP as the open federated protocol, producing a much smaller, more focused codebase (4.7K lines of Go vs. OpenClaw's multi-platform surface) at the cost of requiring the user to run their own XMPP infrastructure.
 
 ---
 See also: [[Moltbook]] (social network for OpenClaw agents, built on the skills system)
