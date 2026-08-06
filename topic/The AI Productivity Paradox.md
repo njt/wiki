@@ -44,6 +44,8 @@ Cagan is right about the diagnosis — the project model was always output-obses
 
 **What Cagan gets exactly right:** The paradox isn't really a paradox. If you've been measuring output and calling it progress, AI giving you more output was never going to change your trajectory. The 89%/6% gap isn't a mystery — it's a measurement error made visible at scale. And the framing of AI as an amplifier rather than a solution is correct, important, and under-discussed.
 
+**Brooks' time-scale lens clarifies the paradox further.** Rodney Brooks distinguishes four time scales for technology: research (10–20+ years), hype (months), at-scale deployment (20+ years), and economic reshaping (50+ years). Cagan's paradox is what happens when an organization confuses Time Scale 2 (AI tools exist and are hyped) with Time Scale 3 (those tools are deployed at scale in genuinely transformed organizations). The tools are real but the deployment hasn't had its two decades yet — and no amount of executive urgency compresses that timeline. [[Four Time Scales for Technology Development and Deployment]]
+
 ## Related Pages
 
 - [[Discovery Debt]] — The accumulated weight of untested assumptions that compounds invisibly until products are expensively wrong

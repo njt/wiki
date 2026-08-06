@@ -36,6 +36,8 @@ Neumann structures the entire argument around Perez's four-phase model: **irrupt
 
 The article's central case study. Containerization changed the world — enabled globalization, collapsed shipping costs, reshaped manufacturing geography. But exactly two people got rich from it: Malcom McLean (sold SeaLand to R.J. Reynolds in 1969 at the top) and Daniel Ludwig (8.5x return, sold same year). Everyone else — the shipbuilders, the port operators, the shipping lines, R.J. Reynolds itself — either lost money or made commodity returns. The value went to IKEA, Walmart, Costco, and consumers. #comparison
 
+Rodney Brooks independently lands on containerization as his canonical example of Time Scale 4: technologies that reshape the economy invariably take 50+ years of continuous at-scale deployment, a human lifetime. Neumann's investment thesis and Brooks' time-scale framework are convergent — both argue the economic value of a transformative technology arrives on a schedule that no amount of venture capital can accelerate. [[Four Time Scales for Technology Development and Deployment]]
+
 ### The PC Revolution as the Success Case
 
 Neumann walks through the 1970s PC story in detail: Intel didn't see it coming, Wozniak built the Apple on a $25 chip, IBM ignored it until 1981, and the distributed tinkering of thousands of hobbyists discovered what the technology was for. This is the template for how a technological revolution *should* start — but it required surprise, permissionless experimentation, and time to build moats. AI has none of these. #comparison
