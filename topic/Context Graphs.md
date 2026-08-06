@@ -56,6 +56,8 @@ Refreshing honesty in a vendor blog post. The field is early, the hard problems 
 
 The retrieval-based alternative to context graphs is exemplified by [[Cerebras Knowledge Base Architecture]], which also emphasizes write-time structuring (LLM distillation before embedding) but opts for hybrid retrieval over typed edges. The two approaches converge on the same insight — structure at ingestion time, not search time — but diverge on whether that structure should be edges between entities or enriched embedding documents.
 
+**Observed graphs vs. generated graphs.** [[Zero-Mem — Zero-Token Memory Operations]] introduces a third design point: an entity–context graph built from *observed* co-occurrence (spaCy NER on trace units) rather than LLM-generated typed edges. This sidesteps Kalra's "model-inferred rationale puts shaky reasoning in the immutable record" problem entirely — edges come from what was actually observed in interaction traces, not from what an LLM inferred about them. The tradeoff is that observed co-occurrence is less semantically rich than generated typed edges ("was granted because of"); the win is that provenance is unbroken and no hallucinated structure enters the graph. The two approaches are complementary: generated edges for the write-path decision rationale Kalra wants, observed edges for retrieval when the corpus is large and generation would be cost-prohibitive.
+
 ---
 
 *Sources: [[summary/what-is-a-context-graph]]*
