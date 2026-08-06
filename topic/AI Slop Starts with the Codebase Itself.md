@@ -52,6 +52,8 @@ This inverts the "secret sauce" instinct. The proprietary internal framework tha
 
 **The most subversive implication:** if AI-readability becomes a real factor in technology choice, it accelerates consolidation toward a small set of "AI-native" stacks. The long tail of frameworks, languages, and patterns that make software diverse becomes a liability. This is a monoculture argument, and the author doesn't engage with the risks of monoculture at all.
 
+**The domain-level extension — training-data deserts:** Mathieu Ropert's [[An Honest Review of AI Programming]] takes this thesis one level up: for some entire *industries*, the training data simply doesn't exist. The last AAA game to be open-sourced was Doom 3 (2004, 22 years ago). Production game engines, custom scripting languages, and proprietary tools have left effectively zero public training data — so LLMs trained on GitHub repos see only hobby projects, game jam entries, and tutorial demos. The "proprietary patterns as AI tax" argument applies not just to your codebase but to your entire field. For game development, the AI isn't struggling with your conventions — it's never seen *any* conventions from production systems.
+
 ## Connections
 
 This essay sits at the intersection of several wiki threads. [[Code Cleanliness and Coding Agents]] provides the closest empirical backing — cleaner code is cheaper for agents, even if it doesn't change pass rates. [[Constraint Decay]] shows what happens when codebase conventions work against the model: ~30pp assertion-pass-rate drops. [[You Can Just Say It]] gives us the "intent vs. form" lens — a messy codebase is form without discernible intent, and the AI can't extract what isn't there.
