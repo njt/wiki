@@ -1,6 +1,6 @@
 # Wiki Index
 
-506 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+507 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -22,6 +22,7 @@ Cross-cutting analysis that pulls threads across individual pages.
 - [[State-Oriented Consistency]] — Consistency is a property of individual pieces of state, not the system. A practitioner's framework for asking each piece what it actually requires, and the anti-pattern (Uniform Consistency) of defaulting to one answer for everything
 - [[SDPD — Systems Design Police Department]] — Gamified distributed systems learning: 33 failure modes across 8 categories, framed as detective cases. A differential diagnosis checklist for production failures
 - [[The Oracle Is the Asset]] — Sam Ruby's Drucker inversion: the test suite is the durable asset, not the compiler. Frameworks will become transpilers, and you'll own the spec the compiler answers to
+- [[Rewrite All the Code All the Time]] — Formal methods as the missing piece: why natural-language specs can never support fully automatic code regeneration, and the two-contractor thought experiment that operationalizes "good enough" specification
 
 ## Agentic Development
 
