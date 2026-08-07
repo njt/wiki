@@ -51,6 +51,8 @@ What's unproven: whether the codegen approach can keep up with API changes at sc
 
 The bigger question is whether Printing Press is a platform or a pattern. Right now it's a platform (use our generator, use our Library). But the core insights — SQLite mirrors, compound commands, agent-native output formats, CLI chaining — are patterns any team can adopt independently. The value of Printing Press might ultimately be as the reference implementation that proved these patterns work, rather than as the dominant CLI ecosystem. Either outcome is useful.
 
+GitHub's [[gh-stack]] takes the opposite approach: instead of generating a new CLI, it layers agent support into an existing `gh` extension through structured exit codes, a `--json` flag, `--auto`/`--yes` non-interactive modes, and a bundled AI agent skill file. Both converge on the same design principles ([[10 Principles for Agent-Native CLIs]]) from different starting points — codegen vs. careful API design.
+
 ---
 
 *Sources: [[summary/printing-press]]*

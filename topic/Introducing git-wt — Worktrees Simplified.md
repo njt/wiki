@@ -42,6 +42,8 @@ For agent workflows, this tool is quietly important. [[Agent of Empires]] builds
 
 Compare `git-wt`'s philosophy to the `wt` function in [[MobileVibe]] -- same idea, different ergonomics. Both converge on the same insight: worktree isolation is the right primitive for parallel development, whether the "parallel" is you-on-three-branches or five agents across five features.
 
+GitHub's [[gh-stack]] takes a different approach to the same problem: instead of isolating parallel branches into separate directories, it chains them into a linear stack where each branch's PR is based on the one below it. Where `git-wt` enables breadth (many independent branches), `gh stack` enables depth (one change decomposed into reviewable layers). The tools compose: worktree for parallel stacks, gh-stack within each one.
+
 ---
 
 *Sources: [[summary/git-wt]]*
