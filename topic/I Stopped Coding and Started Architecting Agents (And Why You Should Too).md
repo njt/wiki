@@ -52,6 +52,8 @@ Bache's post pairs well with [[Lean Software Production]] (Matt Wynne's "the pro
 
 Where this manual flywheel is headed: Lilian Weng's [[Harness Engineering for Self-Improvement]] surveys the research on automating the improvement loop itself. Bache's "better harness → better code → better harness" is the same dynamic that Self-Harness and Agentic Harness Engineering operationalize as a propose-evaluate-accept cycle — but with the harness code itself as the optimization target rather than what the human adjusts between sessions. Bache's caution about not downloading a harness you don't understand applies equally to self-evolved harnesses: the observability problem (do you know *why* the harness changed?) is the same one AHE's decision-observability pillar tries to solve.
 
+**The Guides/Sensors pattern scales organizationally.** [[Platform Engineering as the AI Control Plane]] describes the same two-axis harness quality metric (feedforward to raise first-pass accuracy, feedback for self-correction before human review) but institutionalized at the platform-team level rather than the individual-contributor level. The anti-AI slop register — a shared list of codebase-specific invariants that auto-apply to every agent-generated change — is Bache's "encode every recurring review comment" practice turned into organizational infrastructure, owned by the platform team rather than scattered across individual projects.
+
 ---
 *Sources: [[raw/i-stopped-coding-and-started-architecting-agents]]*
 *Last updated: 2026-07-18*

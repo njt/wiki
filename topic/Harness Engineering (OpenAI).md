@@ -118,6 +118,8 @@ The biggest gap in the article: nothing about how to teach this. Lopopolo's team
 
 Prime Intellect's [[Prime Agent (RLM Harness)]] takes the harness-engineering philosophy in a different direction: where OpenAI's harness is a fixed substrate built by human engineers and used by agents, Prime Agent's Continual Harness is a living system that agents can CRUD from within their own trajectory — the agent doesn't just work inside the harness, it rewrites the harness. The difference is philosophical: is the harness a platform or a garden?
 
+The organizational identity question — whose job *is* this? — has a convergent answer: [[Platform Engineering as the AI Control Plane]] argues that harness engineering isn't a new discipline but platform engineering with an AI-specific layer. Model approval, cost governance, agent authorization, and the feedback loops that route lint/security findings back into the agent all fall naturally under the platform team's existing remit of "building shared toolchains that reduce friction." The article's prediction that more engineers will end up on the platform side than the product side is the logical endpoint of Lopopolo's 3-7 person team producing what once required dozens.
+
 ---
 
 *Sources: [[summary/harness-engineering-openai]]*
