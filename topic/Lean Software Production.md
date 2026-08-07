@@ -65,6 +65,8 @@ Wynne's proposed daily practice for teams. The framing is deliberate: not "what 
 
 **Anthropic's code migration playbook validates the Lean frame at scale.** [[AI Code Migration with Claude Code]] is essentially Lean Software Production applied to migration: the rulebook is the kanban card, adversarial review + mechanical verification is jidoka (automation with a human touch), and "add one sentence to the rulebook and regenerate" is kaizen — continuous improvement of the system, not the artifact. The Bun migration's 91% memory reduction and 2–5% speedup demonstrate that AI doesn't just replicate the old code in a new language; it produces a *better* artifact when the production system is well-designed.
 
+**The organizational identity behind "the work is engineering the system" is now named.** [[Platform Engineering as the AI Control Plane]] argues that every company shipping software is becoming a dev tools company — the internal platform is now as strategically important as the external product. This is Wynne's thesis rendered as an org-chart prediction: the platform team that builds the production system becomes the center of gravity, not a supporting function, because "broken tooling means you can't ship quality software no matter how good the people running it are."
+
 ---
 
 *Sources: [[summary/lean-software-production]]*

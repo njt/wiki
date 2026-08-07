@@ -46,6 +46,8 @@ The graduation mechanism (rule of three: when three teams need the same guardrai
 
 **Why this matters now:** As [[Running an AI-Native Engineering Org]] documents, the bottleneck in AI-native engineering has already shifted from coding to verification. Wulveryck's model pushes further: the next bottleneck is *decision-making velocity*, and the only way to increase it is to move decisions into the platform where they execute automatically rather than requiring human attention.
 
+**The concrete scope of the platform is coming into focus.** [[Platform Engineering as the AI Control Plane]] enumerates six categories the agentic platform now owns: model and framework approval, usage scaling, cost governance, agent-specific authorization, the harness itself (feedback loops routing lint/security findings back into agents), and the anti-AI slop register of codebase-specific invariants. This is the implementation detail Wulveryck's article gestures at but doesn't specify — the "what" that fills in the "how" of the agentic platform team's backlog.
+
 ## Related Pages
 
 - [[The Case Against Building Your Own Agent Platform]] — Johnson's build-vs-buy triage; the platform Wulveryck describes is exactly what Johnson warns against building yourself

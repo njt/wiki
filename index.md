@@ -91,6 +91,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 - [[Cloud Software Factories]] — Zach Lloyd's blueprint for the post-interactive-agent era: centralized SDLC automation loops (triage→spec→implement→review→verify→ship→monitor), three-layer architecture (runtime/orchestration/measurement), and the case that software development should be managed as COGS not R&D
 - [[Harness Engineering is not Enough]] — Dex Horthy argues lights-off software factories fail because RL can't reward maintainability (its cost function plays out over months, not test runs), and the practical path is four-stage AI-assisted upfront planning so humans can still read every line without drowning in slop
 - [[Harness Engineering for Self-Improvement]] — Lilian Weng's definitive 2026 research survey: harness design as the path to recursive self-improvement, tracing context engineering (ACE→MCE→Meta-Harness), workflow design as search (ADAS, AFlow), self-improving harnesses (STOP, Self-Harness, AHE), and evolutionary search (Darwin Gödel Machine, AlphaEvolve). Seven unresolved challenges from weak evaluators to the role of humans
+- [[Platform Engineering as the AI Control Plane]] — Platform engineering is absorbing AI toolchain ownership (model approval, cost governance, agent auth, feedback loops) and converging into a single control plane; "every company that ships software is becoming a dev tools company," and the harness is now the harder part of the job
 
 ## Agent Design & Architecture
 
