@@ -284,6 +284,7 @@ Evals, testing, linting, feedback loops, and keeping agent output trustworthy. *
 - [[no-mistakes]] — Local git proxy that gates pushes through an AI-driven validation pipeline (review, test, document, lint, push, PR, CI) before forwarding to remote. Agent-agnostic, durable approval parking across daemon restarts, auto-fix with configurable limits
 - [[DrSkill]] — `brew doctor` for your AI agent's skill loadout: scans 70+ coding agents on your machine for duplicate skills, description collisions, prompt injection surfaces, broken symlinks, MCP misconfigurations, and tool poisoning. Every finding ends in a fix or ack command; zero LLM calls or MCP connections unless you opt in
 - [[Ways of Checking]] — Ten verification failure modes catalogued from a single audit day, each with a diagnostic tell. "Checking again re-runs the instrument; checking differently tests it." A pattern language for when green lights lie
+- [[Test Validation and the Trustworthiness of Tests]] — Typemock argues the next testing frontier isn't generating more tests but validating whether existing tests deserve trust: runtime analysis that inspects what tests actually *do*, the AI-generation validation gap, and why passing isn't the same as providing confidence
 - [[Shieldstral]] — Mistral's 3B Apache 2.0 multimodal safety classifier: policy-as-prompt at inference time, matches models 7× its size on content moderation, runs on a single 16GB GPU
 
 ## Security & Sandboxing

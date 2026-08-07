@@ -83,6 +83,8 @@ The pocket principles at the end risk becoming dogma if memorized without the st
 
 A notable absence: the piece doesn't address the *cost* of checking differently. Rotating the sector on every deploy, writing assertions for every sentence-level claim, requiring positive signals end-to-end — these are expensive. The implied answer is that the cost of the bug you'll eventually ship is higher, but that's asserted rather than argued. A companion piece on the economics of verification depth would be welcome.
 
+**Applied to test suites:** [[Test Validation and the Trustworthiness of Tests]] extends the piece's epistemology into the testing domain directly. Typemock's argument that "passing isn't the same as providing confidence" is the same move as "a passing check is a claim, not a fact." Their runtime analysis — inspecting what tests actually *do* at execution time rather than what their source code claims — is "checking differently" applied to the test suite itself. A test that passes while quietly accessing the network, depending on system time, or duplicating another test's logic is the testing equivalent of silence read as success (#7): the instrument registered nothing, but nothing is not the same as confidence.
+
 ---
 *Sources: [[raw/ways-of-checking]]*
 *Last updated: 2026-07-25*
