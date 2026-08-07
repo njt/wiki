@@ -19,6 +19,7 @@ Cross-cutting analysis that pulls threads across individual pages.
 - [[Software Engineering Practice Atlas]] — 4,654-entry AI-generated reference map of software craft: five practice areas, 25 domain guides, and the "when not to use it" field as differentiator
 - [[Databases and Data]] — Storage as a design problem. Git-for-databases, vector search, data quality, convergent database architectures
 - [[Distributed Systems]] — Agent orchestration IS distributed systems. BEAM/OTP as the model. Honest about what's missing
+- [[State-Oriented Consistency]] — Consistency is a property of individual pieces of state, not the system. A practitioner's framework for asking each piece what it actually requires, and the anti-pattern (Uniform Consistency) of defaulting to one answer for everything
 - [[SDPD — Systems Design Police Department]] — Gamified distributed systems learning: 33 failure modes across 8 categories, framed as detective cases. A differential diagnosis checklist for production failures
 - [[The Oracle Is the Asset]] — Sam Ruby's Drucker inversion: the test suite is the durable asset, not the compiler. Frameworks will become transpilers, and you'll own the spec the compiler answers to
 

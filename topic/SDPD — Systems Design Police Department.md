@@ -88,6 +88,7 @@ The 33 cases are grouped into 8 categories. The case names map directly to canon
 - [[Distributed Systems]] — Hub page: agent orchestration IS distributed systems, and this taxonomy applies to agent failures too
 - [[21 Years and Counting of Eight Fallacies of Distributed Computing]] — The principles these failure modes instantiate
 - [[Queues Don't Fix Overload]] — Hebert's argument that buffering hides constraints; directly relevant to the Messaging & Queues and Load Balancing categories
+- [[State-Oriented Consistency]] — Design-time complement to SDPD's diagnostic taxonomy: asking each piece of state what it actually requires prevents many of these failure modes from being designed in
 - [[Process-Based Concurrency BEAM OTP]] — The BEAM VM was designed to handle many of these failure modes at the language runtime level
 
 ---

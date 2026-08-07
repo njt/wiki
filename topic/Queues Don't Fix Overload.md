@@ -58,6 +58,8 @@ The article pairs well with Tricot's [[Event-Driven vs Polling Architectures]] -
 
 El-Deeb's [[Hidden Inefficiencies Behind Delivery Delays]] extends Hebert's argument from infrastructure queues to organizational ones: review queues, approval queues, and coordination queues are the same phenomenon -- visible wait times that are downstream symptoms of invisible bottlenecks (reviewer scarcity, unclear ownership, weak specs), not problems to be solved with more queue management.
 
+[[State-Oriented Consistency]] diagnoses the same structural error in a different domain: reaching for strong consistency everywhere (like reaching for queues) without first identifying what each piece of state actually requires. The Keel IoT team's "Uniform Consistency" is a close cousin to Hebert's queue-as-default — both are trusted mechanisms applied by habit rather than by need.
+
 ---
 
 *Source: Fred Hebert, [ferd.ca](https://ferd.ca/queues-don-t-fix-overload.html), November 19, 2014. Fetched 2026-06-12.*

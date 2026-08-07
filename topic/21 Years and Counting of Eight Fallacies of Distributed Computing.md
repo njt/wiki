@@ -52,6 +52,7 @@ Fallacy #8's insight. The Internet Protocol's genius — making everything look 
 
 - [[Distributed Systems]] — The synthesis page: agent orchestration reimplements distributed systems primitives, often poorly
 - [[Queues Don't Fix Overload]] — Hebert's companion argument: buffering hides constraints until they kill you. The same physics Michaelson describes (finite bandwidth → queuing → catastrophic failure)
+- [[State-Oriented Consistency]] — A candidate ninth fallacy: "one consistency model fits all." The Keel IoT team names this habit Uniform Consistency — the default of applying one consistency strategy to every piece of state without asking what each actually needs
 - [[Process-Based Concurrency BEAM OTP]] — The BEAM VM was built with these fallacies as first principles: process isolation, supervision trees, "let it crash"
 - [[Agent Coding Workflow]] — The maturity spectrum: vibes coding ignores these fallacies; compound engineering accounts for them
 - [[All Your Agents Are Going Async]] — HTTP is the wrong transport for agents that outlive connections; Fallacy #1 and #5 in practice
