@@ -58,6 +58,7 @@ Still, as a "what is OAuth and why does it look like this" resource, this is the
 - [[You Dont Want Long-Lived Keys]] -- OAuth tokens are the poster child for ephemeral credentials
 - [[OneCLI]] -- credential proxy that manages OAuth tokens so agents never touch them
 - [[Building Agents for Production Systems with MCP]] -- MCP's OAuth integration for agent-to-service auth
+- [[ASP.NET Core Authentication Internals]] -- how Microsoft's framework implements the OAuth pattern: `RemoteAuthenticationHandler` bakes in the correlation ID CSRF check (encrypted state parameter + cookie sentinel), callback path handling, and the backchannel HTTP client, with the same front-channel/back-channel split that Bhargava identifies as load-bearing
 - [[Security and Sandboxing]] -- broader containment context; OAuth is the delegation layer
 - [[Designing a Passively Safe API]] -- OAuth as an example of APIs that fail safely by design
 - [[Cybersecurity Is Proof of Work Now]] -- the economics of why layered auth matters
