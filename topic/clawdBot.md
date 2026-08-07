@@ -28,6 +28,8 @@ The rebrand from clawdBot to OpenClaw suggests legal or branding pressure (the o
 
 Compared to the other personal agent frameworks in this batch, OpenClaw is the most consumer-friendly and the least technically ambitious. That's not a criticism -- there's a huge gap between what developers use and what everyone else can access. [[Pi-msg — XMPP Bridge for Pi Coding Agent]] takes the opposite approach: instead of connecting to every proprietary platform, it bets on XMPP as the open federated protocol, producing a much smaller, more focused codebase (4.7K lines of Go vs. OpenClaw's multi-platform surface) at the cost of requiring the user to run their own XMPP infrastructure.
 
+Compared to the Channels SDK, clawdBot and Channels share the multi-platform messaging thesis but target different users: clawdBot is a complete consumer product for personal AI, while [[CopilotKit Channels SDK]] is infrastructure for engineering teams building custom chat agents with platform-native interactive UI (Block Kit, Adaptive Cards) rather than plain text/markdown.
+
 ---
 See also: [[Moltbook]] (social network for OpenClaw agents, built on the skills system)
 
