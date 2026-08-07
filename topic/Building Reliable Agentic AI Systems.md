@@ -84,6 +84,7 @@ User hits retry → system resumes from the failed node, skipping completed step
 - [[Agent Orchestration]] — Hub for multi-agent coordination patterns
 - [[Agent Memory and Context]] — Hub for context engineering strategies
 - [[Cerebras Knowledge Base Architecture]] — Convergent-evolution confirmation: Cerebras independently landed on the same patterns (hybrid retrieval, write-time LLM distillation, MCP for agent access, scoped search) at 15K queries/day across chip-design and cloud-platform domains
+- [[Production RAG in .NET]] — Jamie Maguire's .NET field manual converges on the same operational concerns from a different angle: the gap between tutorials and production, the need for admin tooling to detect index drift and "zombie" vectors, and the finding that token-count logging is the single most useful diagnostic in a slow RAG pipeline
 
 ---
 

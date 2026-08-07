@@ -34,6 +34,8 @@ The page is thin on what actually matters: memory architecture, context manageme
 
 **Bottom line:** Semantic Kernel is Microsoft's bet that the agent middleware layer will be an SDK, not a protocol. It's well-positioned for C#/.NET enterprise shops that need to add AI capabilities to existing codebases. For everyone else, MCP and lighter-weight approaches are more likely to win.
 
+**Production RAG use:** Jamie Maguire's [[Production RAG in .NET]] series is the most detailed public field report on Semantic Kernel in production RAG pipelines. He uses `TextChunker.SplitMarkdownParagraphs()` for structure-aware chunking, `InMemoryVectorStore` (from the Semantic Kernel connector packages) for prototyping, `VolatileMemoryStore` / `SqliteMemoryStore` for graduated storage, and the `ITextEmbeddingGenerationService` abstraction for model-agnostic embeddings. His key findings: the `string`-typed embedding property (not `ReadOnlyMemory<float>`) is critical for automatic embedding generation, `WithAIContextProviderMessageRemoval()` prevents search-result accumulation in multi-turn conversations, and strong grounding instructions ("ONLY the context below") are the difference between faithful answers and hallucination.
+
 ## Cross-links
 
 - [[Building Agents for Production Systems with MCP]] -- the protocol-based alternative to SDK-based agent integration

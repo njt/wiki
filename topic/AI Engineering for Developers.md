@@ -101,3 +101,4 @@ His prediction for the near future: "Your AI architecture in two years looks lik
 - [[Your Coding Agent Should Do AI System Engineering]] — Burtenshaw's three-level autonomy ladder; the skill progression beyond Cavallin's overview
 - [[Golem Covenant]] — Agent safety framework with default-deny; the security posture for Cavallin's service mesh
 - [[Computer Use is 45x More Expensive Than Structured APIs]] — The cost gap that justifies Cavallin's router-based architectures
+- [[Production RAG in .NET]] — A .NET-specific field manual for the RAG chapter Cavallin describes: Jamie Maguire's seven-part series validates Cavallin's "the model is not the product" thesis from the trenches, adding concrete operational patterns (zombie detection, `GroupBy(DocumentUri)` deduplication, `IVectorStore` abstraction, daily health emails) that Cavallin's survey-level treatment doesn't develop
