@@ -42,6 +42,8 @@ The BenchmarkDotNet comparison (410 ns → 95 ns, 192 B → 0 B) is useful but t
 
 **Verdict:** A strong technical reference that earns its place by being honest about limits. Best consumed alongside a profiler — the closing advice to "profile before converting" isn't boilerplate, it's the thesis.
 
+Steve Gordon's [[Performance Optimization Loop]] provides the methodology that tells you *when* to reach for span-first design: start with production monitoring, profile hotspots, benchmark a baseline, and apply small targeted changes (including span conversion) one at a time with re-benchmarking between each. The span-first guide is the *how*; Gordon's loop is the *whether* and *when*.
+
 ## Related Pages
 
 - [[Software Engineering Craft]] — Hub page for engineering patterns and practice
