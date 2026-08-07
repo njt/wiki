@@ -455,6 +455,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Windows in Docker]] — Headless Windows 11 in Docker over SSH. No GUI, just Claude Code on Windows
 - [[Dev Containers]] — VS Code's infrastructure-as-code for dev environments: container as the source of truth, Features as composable toolchain components, pre-built images as self-describing specs
 - [[Container-Maker]] — Solo dev's ambitious CLI wrapping devcontainer.json into a standalone platform with AI config generation and cloud GPU provisioning. Vision document, not a recommendation
+- [[WSL Containers]] — Microsoft's built-in Linux container CLI and API for Windows via WSL: `wslc.exe` as Docker CLI alternative, NuGet-packaged API for embedding containers in Windows apps, Intune/MDE enterprise management, and new virtiofs/consomme subsystems. Public preview, GA fall 2026
 - [[Installing VS Compilers From Commandline]] — msvcup: skip Visual Studio, install just the compiler and SDK
 - [[Introducing git-wt — Worktrees Simplified]] — Bash wrapper smoothing git worktree's sharp edges: auto-fetch, upstream tracking, orphan cleanup, fzf switching
 - [[Code Storage]] — API-first Git infrastructure for machines: programmable repo creation, warm/cold tiering, custom-domain endpoints. The bet that agent-created repos will outnumber human-created ones
