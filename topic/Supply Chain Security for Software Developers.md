@@ -86,6 +86,8 @@ This is the same argument made in [[Security and Sandboxing]]: no single constra
 
 **The OIDC + legacy token coexistence bug should scare you.** If you set up trusted publishing but forgot to delete your old `NPM_TOKEN`, you have the appearance of security without the reality. This pattern -- adding a new control without removing the old bypass -- is probably widespread.
 
+**The registry-level response is arriving.** In August 2026, Microsoft announced NuGet.org will cut API key lifetimes from 365 days to 30 days and expire all legacy keys by November 2026, while pushing publishers toward OIDC-based Trusted Publishing. This is the same architectural pattern that failed axios — and the same coexistence danger applies: teams must delete old API keys after migrating, not leave them sitting in CI variables alongside the new OIDC flow. See [[NuGet API Key Lifetime Reduction]].
+
 **The missing piece: developer experience.** The gist is configuration-focused, but nobody talks about what happens when a package is blocked by the age gate and a developer can't get their work done. The workflow for "consciously bypass the gate for this specific CVE fix" needs to be just as smooth as the gate itself, or the gate will be disabled wholesale.
 
 ---
