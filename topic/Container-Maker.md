@@ -50,7 +50,7 @@ Commentary: The "zero-config" framing is aspiration, not reality. 30+ templates,
 
 ---
 
-See also: [[Dev Containers]] (the spec it builds on), [[Windows in Docker]] (container dev environments), [[yolo-cage]] (container-based agent sandboxing), [[claude-code-config (Trail of Bits)]] (devcontainer for agent isolation), [[Security and Sandboxing]] (isolation context), [[Swamp Club]] (another ambitious dev-workflow tool), [[n8n]] (workflow automation, different domain), [[AI Killing B2B SaaS]] (open-core licensing tension), [[Compound Engineering]] (add-a-system approach), [[Feedback Loop is All You Need]] (security scanning as deterministic feedback).
+See also: [[Dev Containers]] (the spec it builds on), [[Windows in Docker]] (container dev environments), [[WSL Containers]] (Microsoft's built-in container CLI for Windows, a competing approach to the "container tooling on Windows" problem that eliminates Docker Desktop as a dependency), [[yolo-cage]] (container-based agent sandboxing), [[claude-code-config (Trail of Bits)]] (devcontainer for agent isolation), [[Security and Sandboxing]] (isolation context), [[Swamp Club]] (another ambitious dev-workflow tool), [[n8n]] (workflow automation, different domain), [[AI Killing B2B SaaS]] (open-core licensing tension), [[Compound Engineering]] (add-a-system approach), [[Feedback Loop is All You Need]] (security scanning as deterministic feedback).
 
 ---
 *Sources: [[summary/container-maker]]*

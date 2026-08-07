@@ -26,6 +26,8 @@ The fact that winget was broken due to certificate validation errors on a fresh 
 
 This pairs well with [[floci]] for local AWS testing -- together they give you the full spectrum of "simulate production environments locally for agent testing."
 
+The inverse approach — running Linux containers natively on Windows without Docker Desktop — is Microsoft's [[WSL Containers]], currently in public preview. Where this page solves "I need Windows on my Linux box," WSL Containers solves "I need Linux containers on my Windows box without installing third-party tooling." The two together cover the full cross-platform container matrix.
+
 See also [[Awesome Vibez]] -- Jesse Vincent is one of the most prolific builders in that community, and this came from his practical needs running Superpowers.
 
 ---
