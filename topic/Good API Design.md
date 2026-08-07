@@ -58,6 +58,7 @@ What's missing: no discussion of API observability, no mention of contract testi
 - [[Computer Use is 45x More Expensive Than Structured APIs]] -- the cost argument for well-designed APIs over vision-based alternatives
 - [[Spec-First Development at Benchling]] -- define each object once, let capabilities consume the schema. The spec-first approach to Goedecke's immutability constraint
 - [[Elements of Code]] -- "wrong in correctable ways" applied to API surfaces: make the API easy to use correctly, hard to use destructively
+- [[ASP.NET Core Authentication Internals]] -- an existence proof of Goedecke's thesis at the framework-internal-API level: the four-method `IAuthenticationHandler` interface emerged clean only after multiple rewrites ("simplicity does not precede complexity, but follows it"), and the forwarding-as-base-class-behavior pattern means derived handlers don't think about delegation unless they opt in
 
 ---
 *Sources: [[summary/good-api-design]]*
