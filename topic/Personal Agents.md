@@ -51,7 +51,7 @@ The pattern: nearly everyone builds tools *around* agents rather than agents the
 
 **Self-improvement vs. stability.** [[Hermes]] and [[clawdBot]] feature skill learning loops. But how do you audit what the agent has learned? How do you prevent skill drift? [[mira-OSS]]'s text-based LoRA evolves behavioral directives every seven days from accumulated feedback, which is the most principled approach but also the most opaque.
 
-**Messaging platform vs. terminal.** [[clawdBot]] meets users on WhatsApp and Telegram. [[Hermes]] connects to every platform. [[life-system]] and [[Serf]] are terminal-only. The messaging approach reaches non-technical users; the terminal approach gives technical users more control. No single interface serves both well.
+**Messaging platform vs. terminal.** [[clawdBot]] meets users on WhatsApp and Telegram. [[Hermes]] connects to every platform. [[life-system]] and [[Serf]] are terminal-only. The messaging approach reaches non-technical users; the terminal approach gives technical users more control. [[CopilotKit Channels SDK]] takes a third path: an SDK for engineering teams to build custom chat agents that render platform-native interactive UI, occupying the infrastructure layer between consumer products like clawdBot and developer tools like Pi-msg.
 
 **Community vs. solo operation.** [[Hermes]]'s Skills Hub and [[clawdBot]]'s community skill repository add sharing. But sharing skills between agents requires trust -- a skill from a stranger could contain malicious instructions. Nobody has solved skill vetting for personal agent communities.
 

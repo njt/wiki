@@ -52,6 +52,7 @@ Enterprise procurement's anxiety dream, solved: per-channel Claude identities wi
 - [[All Your Agents Are Going Async]] — Asynchronous agent operation over hours/days
 - [[Vibe Coding as a Team Sport]] — The multiplayer AI collaboration thesis, different implementation
 - [[Writing Code vs. Shipping Code]] — The commit-to-release attenuation that might apply to that 65% stat
+- [[CopilotKit Channels SDK]] — The infrastructure-layer counterpart: open-source SDK for putting any agent (not just Claude) into Slack and Teams, with platform-native interactive UI rather than plain text
 
 ---
 *Source: [Anthropic News](https://www.anthropic.com/news/introducing-claude-tag), June 23, 2026. Ingested June 24, 2026.*
