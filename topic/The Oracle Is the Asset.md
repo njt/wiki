@@ -60,6 +60,8 @@ This three-layer design is the architectural insight: no single test type is suf
 
 **What this means for the wiki's existing spec-as-product thesis:** Ruby's argument strengthens [[Specifications as the Product]] by adding a concrete mechanism — the oracle-as-compiler-target — and an existence proof. It also sharpens the thesis: it's not just that specs outlive code; it's that in the limit, the spec *is* the code, and the code is a transient artifact generated from the spec by an AI that the principal couldn't have used for the same task five years ago.
 
+[[Prompt Debt]] extends the oracle concept beyond test suites: the full specification surface — evals, metrics, typed constraints — is the oracle that makes model portability possible. When behavior is defined by measurements rather than prose prompts, swapping models becomes a chore rather than a fire drill. This is the operational payoff of Ruby's Drucker inversion: the oracle isn't just the durable asset; it's the *portable* asset.
+
 ## Connections
 
 - [[Specifications as the Product]] — the same economic inversion, synthesized across multiple sources. Ruby adds the compiler-target mechanism and the existence proof.
