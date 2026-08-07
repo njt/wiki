@@ -60,5 +60,5 @@ A rare practitioner's comparison of the two Microsoft agent frameworks. Smith's 
 
 ---
 
-*Sources: [[raw/8b5634ad0d8f00d3b0d995e951dcca1b]], [[summary/8b5634ad0d8f00d3b0d995e951dcca1b]]*
+*Sources: [[raw/98f0d215f58d9356776deb03ee41e044]], [[summary/98f0d215f58d9356776deb03ee41e044]]*
 *Last updated: 2026-08-07*
