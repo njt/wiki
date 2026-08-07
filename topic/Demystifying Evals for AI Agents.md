@@ -28,6 +28,8 @@ This is the best single resource on agent evals available. The real-world exampl
 
 What's missing: the piece underplays the cost of eval infrastructure. Building and maintaining a robust eval harness is a significant engineering investment, and the "start with 20-50 tasks" advice, while correct, understates how quickly that grows. The eval saturation problem (SWE-bench going from 30% to 80% in a year) also raises the question of whether we're building evals fast enough to stay ahead of model capability. The connection to [[Gambit]] is natural -- Gambit tries to solve the "generate and maintain evals" problem specifically.
 
+Airbnb's [[Eval-Driven Development (Airbnb)]] extends the framework in two directions. First, it adds a calibration methodology — golden dataset of 50–100 examples (must include bad ones), agreement measurement via Cohen's kappa or Krippendorff's alpha (target high 80s–90s%), and iterative rubric refinement with few-shot examples — that makes the model-based graders trustworthy. Second, for agentic systems specifically, it argues you must evaluate trajectories (reasoning paths, tool calls, intermediate states) not just final outputs, using DFS traversal of trace trees from observability platforms. A correct final answer can mask a broken reasoning path — the same insight that drives Anthropic's "grade outcomes, not pathways" advice, but with the crucial addition that the pathway itself needs separate evaluation.
+
 ---
 *Sources: [[summary/demystifying-evals-for-ai-agents]]*
-*Last updated: 2026-05-14*
+*Last updated: 2026-08-07*

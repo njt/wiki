@@ -88,6 +88,7 @@ The prompt debt diagnosis strengthens several existing threads:
 - **[[Smart Models Dumb Pipes]]** — The prompt sits in an awkward middle layer between judgment (model) and execution (infrastructure), corrupting both. Breunig's prescription moves the specification out of the prompt and into the measurement layer, restoring the clean separation McCormick argues for.
 - **[[Loop Engineering]]** — Addy Osmani's meta-skill of "designing systems that prompt agents" is the practical implementation of Breunig's "stop writing prompts by hand." The loop engineer builds the measurement infrastructure and prompt-search machinery; individual prompts become output artifacts, not input craft.
 - **[[Constraint Decay]]** — Empirical confirmation of Breunig's thesis: LLM coding agents lose ~30pp assertion pass rate when structural constraints are imposed, precisely because prompts can't reliably enforce invariants against a model's training weights.
+- **[[Eval-Driven Development (Airbnb)]]** — Airbnb's production playbook is the concrete implementation of "measurement, not prose": EDD replaces hand-tuned system prompts with a calibration loop (golden dataset → judge agreement → rubric refinement) that turns natural-language rubrics into measurement instruments. When behavior is defined by evals and calibrated judges rather than prose instructions, model lock-in dissolves — evaluating a new model takes hours, not weeks, exactly as Breunig prescribes.
 
 ---
 

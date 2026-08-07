@@ -32,6 +32,8 @@ Missing: almost no discussion of evaluating safety or alignment properties, whic
 
 The advice to avoid eval-driven development (writing evaluators before implementation) is interesting and contrarian -- it implies you need to see real failures before you can write meaningful tests, which is the opposite of TDD orthodoxy.
 
+Airbnb's [[Eval-Driven Development (Airbnb)]] embraces the EDD label that Hamel explicitly rejects, but the disagreement may be semantic: both agree you shouldn't write evals in a vacuum. Airbnb's version is "let real errors guide your metrics" and "build your prototype, run it through 100 examples, then read the outputs" — nearly identical to Hamel's "manually review traces to identify failure patterns." Where Hamel says "don't write evaluators before implementation," Airbnb says "build infrastructure to discover, encode, and continuously test for failure modes as they appear." Both converge on the same practice from opposite framings. Airbnb also adds what Hamel's guide lacks: a detailed calibration methodology (golden dataset, Cohen's kappa, iterative rubric refinement) for making LLM-as-judge evaluators trustworthy.
+
 ---
 *Sources: [[summary/llm-evals]]*
-*Last updated: 2026-05-14*
+*Last updated: 2026-08-07*
