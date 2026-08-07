@@ -63,6 +63,7 @@ The zero-overhead-on-simple claim is critical. If the advisor adds latency or co
 ## Related Pages
 
 - [[Step 3.7 Flash]] — StepFun's Advisor Mode: the same architecture, shipping independently. The comparison reveals what's genuinely convergent vs. what's Anthropic-specific
+- [[Pi Observers]] — File-defined background observers for the Pi coding agent that invert the same pattern differently: cheap watchers (Haiku) monitor every turn and propose advisories through a reconciler, rather than being invoked at the executor's discretion. The observer pattern is "always watching"; the advisor pattern is "called when needed"
 - [[Agent Orchestration]] — The advisor pattern as a new entry in the orchestration taxonomy: bottom-up escalation vs. top-down decomposition
 - [[Smart Models Dumb Pipes]] — Models own decisions, pipes own execution. The advisor pattern is a direct application: the executor owns the loop, Opus owns the hard calls
 - [[Honey I Shrunk the Coding Agent]] — The scaffold matters more than the model. The advisor pattern is scaffold innovation at the API layer

@@ -193,6 +193,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Devin Fusion]] — Cognition's multi-model agent harness: frontier main agent + cheaper sidekick model run in parallel with separate cached contexts, switching at compaction boundaries. 35% cost reduction at near-frontier quality on FrontierCode
 - [[What I learned building an opinionated and minimal coding agent]] — Four tools, no MCP, full YOLO. Competitive on benchmarks
 - [[Pi Coding Agent]] — The productized Pi: TypeScript extensions, SDK, RPC mode, and the tension between minimalist philosophy and platform ambitions
+- [[Pi Observers]] — File-defined background observer agents for Pi: Markdown + YAML frontmatter, hermetically sealed sessions, arrival-driven delivery, and a reconciler with adversarial budget defense against model-chosen identifiers
 - [[Hermes]] — Open-source personal agent framework with self-improving skills loop. 149k stars
 - [[Skill Retriever]] — LLM-navigated 10K-category capability taxonomy plugin for Hermes: replaces flat skill catalog with semantic search, finds skills embedding similarity misses
 - [[clawdBot]] — Open-source personal AI on every messaging platform. One-line install, runs locally
