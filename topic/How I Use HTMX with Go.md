@@ -50,6 +50,8 @@ Edwards' configuration defaults are opinionated in the best way: every choice ha
 
 **The article is a snapshot of mid-2026 Go web development taste.** `embed.FS` is standard (since Go 1.16). The `html/template` package is standard library. The pattern of parsing shared templates once and cloning per request is established Go practice. What's new is the HTMX-specific glue — and Edwards' version of it is clean enough that it will likely become the reference pattern. The specific HTMX version (2.0.10) and configuration defaults match what the HTMX project itself is moving toward (cache disabled, inheritance disabled). The article will age well because it's built on stable primitives.
 
+**Edwards and Rafa cover complementary halves of the HTMX development problem.** Edwards provides the Go backend patterns (template architecture, `htmlRenderer`, dual-mode handlers); [[Progressively Enhanced Forms with HTMX]] provides the framework-agnostic interaction-design patterns (transient-state techniques, progressive-enhancement workflow, form-splitting for Enter-key behavior). The two articles read as a paired set: backend infrastructure + frontend interaction design. Rafa's build-without-JS-first discipline — write the whole feature with plain forms, then sprinkle HTMX on top — is the workflow that makes Edwards' dual-mode handler pattern actually pay off in practice.
+
 ---
 
 *Sources: [[raw/how-i-use-htmx-with-go]]*
