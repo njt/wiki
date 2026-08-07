@@ -283,6 +283,10 @@ OS is a replacement for the SaaS suite. Both are "operating systems" in
 different senses — the factory is an OS for the SDLC; Cloudflare OS is
 an OS for knowledge work.
 
+### vs. SmolForge — Platform Primitives in Production
+
+[[SmolForge]] is the strongest independent proof that Cloudflare's platform primitives compose into full applications. It's a GitHub clone — Git hosting, issues, PRs, CI/CD, gists, wikis — built entirely on Workers, D1, R2, and Durable Objects, the same stack Cloudflare OS uses. Where Cloudflare OS is a general-purpose organizational platform, SmolForge is a domain-specific application of the same primitives to the code-hosting problem. SmolForge's repository agents (every repo gets its own durable agent authority) and Forge Deploy (immutable previews + SHA-gated activation) demonstrate the kind of agent-native features that become possible when the platform itself is built on serverless primitives.
+
 ### vs. MCP-Based Agent Architectures
 
 Gatekeepers are "supercharged MCP servers" — they provide the same

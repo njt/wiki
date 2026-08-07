@@ -43,6 +43,7 @@ This is refreshingly direct marketing from an infra company. No "revolutionizing
 - [[InsForge]] provides the full BaaS stack (database, auth, storage) for coding agents; code.storage provides *just* the Git layer. Complementary, not competitive — an agent platform might use both.
 - [[Dolt]] treats databases like Git repos; code.storage treats Git repos like databases. Same idea, inverted.
 - [[Graft]] replicates SQLite via object storage; code.storage replicates Git via sharded ref storage. Both are "storage tiering for developer infrastructure" but at different layers of the stack.
+- [[SmolForge]] is the full-stack counterpart: it provides the entire forge surface area (issues, PRs, CI/CD, deploy previews, repository agents, AI transcript storage) on Cloudflare infrastructure, while code.storage provides just the Git layer. Complementary — an agent platform might use code.storage for repo infrastructure and SmolForge for the collaboration and provenance layer.
 
 ---
 

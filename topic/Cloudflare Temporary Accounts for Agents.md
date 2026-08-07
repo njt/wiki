@@ -84,6 +84,7 @@ The pattern is consistent: don't build custom agent auth. Make existing auth wor
 - [[Code Storage]] — Shares the thesis that agent-created infrastructure will dwarf human-created
 - [[An Illustrated Guide to OAuth]] — The flow this flag elegantly bypasses
 - [[Cloudflare Wallets]] — The companion product: Temporary Accounts solve deployment, Wallets solve payment and identity for the agentic Internet
+- [[SmolForge]] — A GitHub clone on the same Cloudflare stack; its repository-scoped PATs, agent transcript storage, and repository agents are the code-hosting equivalent of the "agents as first-class users" thesis
 
 ---
 *Sources: [[summary/cloudflare-temporary-accounts]]*
