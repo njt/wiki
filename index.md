@@ -466,6 +466,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[WSL Containers]] — Microsoft's built-in Linux container CLI and API for Windows via WSL: `wslc.exe` as Docker CLI alternative, NuGet-packaged API for embedding containers in Windows apps, Intune/MDE enterprise management, and new virtiofs/consomme subsystems. Public preview, GA fall 2026
 - [[Installing VS Compilers From Commandline]] — msvcup: skip Visual Studio, install just the compiler and SDK
 - [[Introducing git-wt — Worktrees Simplified]] — Bash wrapper smoothing git worktree's sharp edges: auto-fetch, upstream tracking, orphan cleanup, fzf switching
+- [[gh-stack]] — GitHub's official `gh` extension for stacked PRs: chain branches into reviewable layers, cascading rebase, TUI editors, batch merge, and bundled AI agent skill
 - [[Code Storage]] — API-first Git infrastructure for machines: programmable repo creation, warm/cold tiering, custom-domain endpoints. The bet that agent-created repos will outnumber human-created ones
 - [[CORS Fetch Tester]] — Simon Willison's browser-based CORS debugging utility: send HTTP requests and inspect exactly what the browser lets you see through CORS
 - [[grok-mermaid — Terminal Mermaid Renderer via WebAssembly]] — Simon Willison's browser tool that converts Mermaid diagrams to Unicode box-drawing art using the Rust renderer from xAI's Grok CLI, compiled to a 163 KB WebAssembly module
