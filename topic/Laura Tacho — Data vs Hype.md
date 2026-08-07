@@ -18,6 +18,8 @@ This is the most important finding in the talk and the one most leaders don't wa
 
 The bluntest rejection of the "buy everyone a license and hope" strategy that most enterprises are running. Tacho is specifically calling out orgs that distribute AI tools without goals, without measurement, and without change management. The data says this approach produces adoption metrics and nothing else. [[Building World-Class Engineering Teams in the Age of AI]] echoes this — Rajan and Dohmke both emphasize that mindset change precedes tool adoption, not the other way around.
 
+Dan Guido's [[AI as an Enterprise Operating System]] is the most detailed public answer to "what should you do instead of spray and pray": an AI maturity matrix that makes the expectation of improvement explicit, bimonthly hackathons as training infrastructure, three-tier curated skills repositories, and countermeasures for the four specific psychological biases (self-enhancing bias, identity threat, opacity, intolerance for imperfection) that cause resistance. Tacho has the diagnosis; Guido has the prescription.
+
 > "Just call it agent experience and you'll get money for it."
 
 The deadpan joke that landed hardest. Organizations that refused to fund developer experience for years are suddenly finding budget for "agent experience" — identical infrastructure, different branding. Nicole Forsgren made the same observation in her Pragmatic Summit talk, and it's become a running theme: the industry will fund robots what it won't fund humans. The question Tacho leaves hanging is whether this is a clever hack or a cynical trap.

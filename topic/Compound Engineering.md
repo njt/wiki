@@ -42,6 +42,8 @@ The 50/50 rule (half your time on system improvement) is the strongest and most 
 
 Still, the core insight is sound: the bottleneck has moved from typing to thinking, and the most valuable engineering artifact is no longer the code but the system that produces it.
 
+Dan Guido's [[AI as an Enterprise Operating System]] is Compound Engineering scaled to the organizational level: his core thesis — "I want our security expertise to compound as code" — is the Plan/Work/Review/Compound loop applied to an entire company's knowledge. Trail of Bits operationalizes it through bimonthly hackathons with artifact harvesting, a shared configuration repo where "scar tissue becomes infrastructure," and three-tier skills repositories (internal, public, curated) that make every engagement's lessons reusable. The config repo accepting company-wide PRs after each hackathon is the most literal implementation of Klaassen's 50/50 rule in the wild.
+
 ---
 *Sources: [[summary/compound-engineering]]*
 *Last updated: 2026-05-14*
