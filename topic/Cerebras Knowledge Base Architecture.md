@@ -91,6 +91,8 @@ The dirtiest secret in enterprise RAG. Raw text → embeddings is a toy pipeline
 
 **What the thread reveals about the industry**: The replies are a map of where enterprise knowledge infrastructure is heading. ACL-aware retrieval, ontology-vs-retrieval, agent-native interfaces, evaluation methods, cost modeling — these are the live problems, and nobody has solved all of them. Cerebras solved enough to ship something useful at scale.
 
+**Independent convergence from the .NET world:** Jamie Maguire's [[Production RAG in .NET]] series, built independently across .NET client engagements, converges on the same operational patterns Cerebras discovered: the need for admin tooling to detect orphaned vectors ("zombies"), the importance of logging token counts before the synthesis call as the first diagnostic, semantic caching with *observable* hit rates (not debug-level-only logging), and the finding that retrieval problems are usually data problems — fix the content selector, the chunker, or the crawl before touching the model. Both arrived at "this needs an admin panel" as a core pipeline requirement, not a nice-to-have.
+
 ---
 
 ## Key Themes
