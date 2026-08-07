@@ -246,6 +246,7 @@ Multi-agent systems, task graphs, kanban boards, and coordination patterns. **Hu
 
 - [[Agent Swarm Model Economics]] — Cursor's definitive 2026 technical report: planner/worker tree architecture, custom VCS at 1,000 commits/sec, five coordination failure modes at scale, and a head-to-head model economics comparison where Opus 4.8 + Composer 2.5 delivered a working SQLite-in-Rust for $1,339 vs GPT-5.5's $10,565
 - [[Swarm Skill]] — jleechanorg's Claude Code playbook for orchestrating multi-agent swarms: 14 hard rules from concrete failures, mandatory sidekick durability layer, adversarial verification, cross-model cold review, and a publishability gate
+- [[Pi Subagents]] — Nico Bailon's multi-agent extension for Pi: single subagent tool with chain execution, sandboxed JavaScript workflows, async FleetView TUI, adversarial watchdog, RPC protocol, and six built-in agents. The most architecturally complete subagent system for any open-source coding agent
 - [[Paca]] — Self-hosted AI-native project management where agents are first-class Scrum teammates. WASM plugin sandbox, Docker-sandboxed agent execution, MCP throughout. Apache 2.0
 
 ## Memory & Context
