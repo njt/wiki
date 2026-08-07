@@ -48,7 +48,7 @@ Warp CLI enters a crowded field: [[Grok Build]] (xAI's open-source Rust terminal
 
 Warp's differentiators are architectural, not incremental:
 - **Mux layer** — nobody else has this. Grok Build, omp, and Pi all talk directly to a shell.
-- **Cross-harness orchestration** — unique; most agents can only spawn copies of themselves.
+- **Cross-harness orchestration** — unique; most agents can only spawn copies of themselves. [[bb — The Agent Orchestrator as Normalizer]] validates this pattern from the open-source side with a more principled adapter architecture (two-shape model: in-process for protocol-native providers, bridge for SDK/ACP), confirming that cross-harness delegation is an emerging architectural primitive, not a Warp-specific feature.
 - **Cloud handoff** — Claude Code has nothing like this; Codex has cloud agents but not the CLI-to-cloud continuity.
 - **Built-in model routing** — some agents support multiple models, but auto-routing by task complexity is unusual.
 

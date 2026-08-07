@@ -55,6 +55,7 @@ Not "allow/deny git" — *contextual* policy that chains events. The policy engi
 - [[Apache Burr]] — agent state machines; Omnigent's policies could be modeled this way
 - [[cco]] — OS sandboxing for coding agents; Omnigent does it in-architecture
 - [[Traycer]] — Also a meta-harness wrapping 17+ coding agents, but as a full Electron desktop application with real-time Yjs CRDT collaboration, agent-to-agent debate, and a versioned RPC protocol that enables the open-source client and closed-source host to ship independently
+- [[bb — The Agent Orchestrator as Normalizer]] — Convergent design at a lower layer: bb wraps harnesses by speaking their native protocols (JSON-RPC, ACP, SDK) through per-provider adapters rather than wrapping at the user-facing I/O layer. Where Omnigent bets on abstraction ("messages in, streams out"), bb bets on adaptation — each harness keeps its full capabilities but produces a shared event model on the way out. The trade-off is fidelity vs. adapter engineering cost
 
 ---
 *Source: Databricks blog, 2026-06-13. Authors: Matei Zaharia, Kasey Uhlenhuth, Corey Zumar. Last updated: 2026-07-18 (Traycer cross-link).*
