@@ -69,6 +69,7 @@ The article also doesn't engage with the failure modes of local models. What hap
 - [[JetBrains Mellum2]] — 12B MoE coding model with MTP head for speculative decoding; "focal model" concept
 - [[Cohere North Mini Code]] — 30B MoE (3B active) agentic coding model on a single H100
 - [[Bonsai 27B]] — PrismML takes quantization to its logical extreme: ternary/binary Qwen 3.6 27B at 3.9 GB, the first 27B-class model to fit on a phone. Retains ~90% of baseline quality with no FP16 escape hatches anywhere in the network
+- [[Qwopus3.6-27B-v2]] — Jackrong's community fine-tune of Qwen3.6-27B: Trace Inversion reconstructs Claude-4.7-Max's reasoning from compressed outputs via a surrogate inverter model, then trains through a three-stage curriculum. Adds a distillation dimension to the local-inference story — you're not just running the base model, you're running a model trained on reconstructed frontier reasoning traces
 - [[Poolside Laguna S 2.1]] — The latest data point in the MoE trend: 118B total / 8B active, runs on a single DGX Spark, beats DeepSeek-V4-Pro-Max (1.6T) on DeepSWE by 4.5× with 1/200th the active parameters. Poolside's "behavior over intelligence" framing — that RL post-training is persistence engineering, not capability injection — adds a new dimension to the local-inference story beyond pure architecture
 - [[Local and Open Source Inference]] — Hub page: voice is solved, documents are close, reasoning still needs cloud
 - [[Subquadratic 12M Context Window]] — Unverified sparse attention claim in the same problem space

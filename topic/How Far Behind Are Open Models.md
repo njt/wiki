@@ -47,5 +47,6 @@ The key strategic question the data raises: if the gap keeps widening, does open
 - [[Demystifying Evals for AI Agents]] — The eval problem from the agent builder's perspective
 - [[stupidmeter]] — AI benchmarking tool with deliberately retro UI
 - [[Benchmark Exploitation]] — When benchmarks become targets they stop being useful measures
+- [[Qwopus3.6-27B-v2]] — A concrete distillation strategy for narrowing the gap from the bottom: Trace Inversion reconstructs Claude-4.7-Max's unobserved reasoning chains and trains them into a Qwen3.6-27B base. Less about matching benchmark scores, more about transferring *how* frontier models think
 
 *Source: [LessWrong](https://www.lesswrong.com/posts/rJcCrXyEsJKmmDpWG/how-far-behind-are-open-models), Håvard Tveit Ihle, 2026-05-28. Fetched 2026-06-05.*
