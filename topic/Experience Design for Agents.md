@@ -28,6 +28,8 @@ Strong: the responsibility model is immediately useful for anyone designing agen
 
 Missing: no discussion of how to handle disagreements between agent and human (what happens when the agent's plan is better than what the human requested?). The framework assumes aligned interests, but real agent deployments surface genuine conflicts between user intent and optimal outcomes. Also no consideration of multi-agent scenarios where responsibility models need to compose.
 
+The Signal → Decision → Response pattern from [[AI-Powered Gamification for the Web]] is a concrete, buildable instantiation of Kemple's principles at the feature level rather than the system level. Where Kemple says "make authority visible and reversible," Yatteau operationalises this as: capture one observable behaviour (signal), let AI make one narrow call (decision), and visibly change the UI so the user feels the effect (response). The AI is deliberately invisible — "the user really does not care that there's some kind of model happening in the background" — which aligns with Kemple's argument that experience design, not model capability, determines adoption.
+
 ---
 *Sources: [[summary/experience-design-for-agents]]*
 *Last updated: 2026-05-14*

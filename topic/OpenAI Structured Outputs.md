@@ -52,6 +52,8 @@ The [[Harness Engineering]] connection runs deeper: Structured Outputs is a feed
 
 For [[Building Agents for Production Systems with MCP]], Structured Outputs is complementary: MCP provides the transport and tool definitions; Structured Outputs ensures the agent's responses conform to the expected shape. The two together are the structured-output stack.
 
+Courtney Yatteau's dynamic content gamification demo ([[AI-Powered Gamification for the Web]]) is the cleanest public example of why structured output matters for UI-facing AI features. Her schema defines exactly three fields (headline, fact, reward label) that map directly to different UI elements — "the response shape really matches what the interface actually needs." Without structured output, each field would require parsing from free text; with it, the response is immediately consumable. The insight generalises: when AI output feeds a UI, the schema is more important than the model's prose quality.
+
 [[Morningprint]] is the Anthropic-ecosystem equivalent in production — `output_config.format` with a JSON schema driving daily thermal-receipt art — and its July 2026 title-poisoning incident surfaces a gap neither ecosystem documents: structured output guarantees JSON shape, not field length, and a model that fills a string field with 3,155 characters of filler can poison a rolling context archive. The fix (`validateArtSpec`) is a content-validation layer on top of schema validation, applied before the spec reaches storage or paper.
 
 ---
