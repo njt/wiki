@@ -40,7 +40,7 @@ The education take is the most radical part of the argument. If AI handles imple
 
 ## Critical Analysis
 
-Congdon has identified the right bottleneck but prescribed the wrong tool for most teams.
+Congdon has identified the right bottleneck but prescribed the wrong tool for most teams. [[Rewrite All the Code All the Time]] strengthens the case for formal methods by adding a specific mechanism: the EARS (Easy Approach to Requirements Syntax) critique. EARS formalizes keywords (`WHILE`/`WHEN`/`SHALL`) but leaves the governed phrases in freeform natural language — ambiguity survives exactly where behaviour is decided. Adam argues this is a category error, not a fixable bug: structured natural language can never support *fully automatic* regeneration because the ambiguity requires human oversight at every translation step. His two-contractor thought experiment (spec writer + adversarial implementer) operationalizes the standard: a spec is good enough only when it can be handed to an implementer incentivized to exploit every ambiguity, and the result is still acceptable.
 
 The core diagnosis is correct and increasingly consensus: AI makes code generation cheap, which makes specification the scarce resource. This wiki has documented the same inversion from multiple angles — [[Specifications as the Product]], [[Spec-Driven Development]], [[Write Only Code]], [[Cognitive Debt]]. Congdon's contribution is connecting this directly to Kleppmann's formal verification thesis, which adds a specific (and controversial) destination for where the rigor lands.
 

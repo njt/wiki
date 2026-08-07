@@ -70,7 +70,8 @@ This three-layer design is the architectural insight: no single test type is suf
 - [[Spec-Driven Development]] — the spec-code-test triangle; Ruby's oracle is the test vertex wired to compiler verification.
 - [[Compound Engineering]] — the 50/50 rule; Ruby invested in the oracle infrastructure, not the compiler code.
 - [[FrontierCode]] — benchmarks as oracles; the mergeability benchmark is a spec for "what good code looks like."
+- [[Rewrite All the Code All the Time]] — adds the evidence artifact as a missing third layer: the oracle (tests), the implementation, and the record of *which claims were checked, against which version, under which assumptions.* If proof scope must be re-established by hand each regeneration cycle, some cost migrates rather than disappears.
 
 ---
 *Sources: [[summary/the-oracle-is-the-asset]]*
-*Last updated: 2026-06-15*
+*Last updated: 2026-08-07*
