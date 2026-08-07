@@ -22,6 +22,8 @@ Ephemeral keys eliminate all three by design. Practical examples:
 
 The article acknowledges that some long-lived keys are unavoidable (IdP signing keys, root certificates) but argues for minimizing their count so security rigor can be concentrated.
 
+In August 2026, the principle got a concrete enforcement date: NuGet.org is cutting new API key lifetimes from 365 days to 30 days, with all legacy keys expiring November 1, 2026, and pushing publishers toward OIDC-based Trusted Publishing. It's the first major package registry to set a hard expiry deadline rather than just deprecating the long-lived option — a forcing function that makes the ephemeral-credentials argument operational rather than advisory. See [[NuGet API Key Lifetime Reduction]].
+
 This principle applies doubly to AI agents. Agents running in [[Navaris]] or [[OpenSandbox]] sandboxes need API credentials, and those credentials should be as short-lived as possible. [[onecli]] addresses this from the other direction -- injecting credentials transparently so agents never hold them directly.
 
 ## Critical Analysis
