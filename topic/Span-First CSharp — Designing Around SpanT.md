@@ -50,6 +50,7 @@ The BenchmarkDotNet comparison (410 ns → 95 ns, 192 B → 0 B) is useful but t
 - [[dotnet Slopwatch]] — .NET performance measurement tooling; the profiler you'd use before taking this article's advice
 - [[Redb Ecosystem]] — .NET stack overview; the ecosystem spans live within
 - [[Celly — Native .NET CEL Implementation]] — A zero-allocation C# library that likely uses spans internally for its expression parsing
+- [[C# DateTimeOffset Format Selection]] — Another single-concept C# design guide; where span-first covers the memory layer, this covers the wire-format layer at API boundaries
 - [[Observer Pattern to Event-Driven Architecture in Dart]] — Design pattern handbook in a different language but the same structural thinking
 - [[Command Line Interface Guidelines]] — Shares the "design the API surface first, implementation follows" mindset
 
