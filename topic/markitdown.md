@@ -24,7 +24,7 @@ The key caveat: this prioritizes structure preservation over human-friendly pres
 
 The security warning (performs I/O with current process privileges) matters in production. If you're building a document ingestion pipeline, sandbox this. Untrusted documents are a classic attack vector.
 
-Compare with [[docmason]], which takes the opposite approach -- preserving original document structure and enforcing source boundaries for citation. markitdown converts to a flat format; docmason maintains the relational structure. Different problems, complementary tools.
+For a full document intelligence pipeline (extraction + OCR + embeddings + chunking + NER + classification across 101 formats), see [[Xberg]] — a Rust engine that subsumes markitdown's conversion role within a much larger extraction and enrichment pipeline. Compare with [[docmason]], which takes the opposite approach -- preserving original document structure and enforcing source boundaries for citation. markitdown converts to a flat format; docmason maintains the relational structure. Different problems, complementary tools.
 
 See also [[graphify]] for turning codebases (rather than documents) into structured knowledge.
 
