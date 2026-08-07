@@ -2,6 +2,8 @@
 
 An open-source terminal-based coding agent harness that forks Mario Zechner's minimalist Pi and extends it into the most feature-complete agent surface available — 32 built-in tools, 40+ LLM providers, in-process native operations (~55K lines of Rust), and a thesis that the harness matters more than the model. TypeScript on Bun, Rust N-API addon for the hot path, MIT licensed.
 
+Complements [[Pi Subagents]], Nico Bailon's multi-agent delegation extension for standard Pi. Where omp extends Pi by going deeper (more tools, native performance, dual memory), pi-subagents extends Pi by going wider (child agents, chain execution, workflow scripts, RPC protocol). The two could theoretically compose — omp's 32-tool surface with pi-subagents' delegation system — though compatibility depends on whether omp maintains Pi's extension API contract.
+
 ---
 
 ## Architecture

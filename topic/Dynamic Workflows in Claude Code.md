@@ -52,6 +52,8 @@ The **relationship with `/loop` and `/goal` is underdeveloped**. The article sug
 
 Despite these gaps, the post is a **major architectural statement** from the team building the most widely-used coding agent. It formalizes patterns that were previously folk knowledge, names failure modes that every practitioner has hit, and signals Anthropic's bet that multi-agent orchestration — not bigger context windows — is the path to reliable agentic behavior. The closing note that "we're still discovering new ones [patterns]" is honest about where we are: this is a starting point, not a finished system.
 
+**Independent convergence.** [[Pi Subagents]] implements the same orchestration patterns (fan-out, chains, adversarial review, worktree isolation) as a Pi extension, independently arriving at nearly identical primitives. The chain execution engine (sequential→parallel→dynamic fan-out) maps directly to the six workflow patterns, and the watchdog adversarial reviewer is the same idea as adversarial verification. The convergent evolution of these patterns across two separate platforms with different extension architectures — one a platform feature, one a third-party extension — suggests they're the right primitives for multi-agent orchestration regardless of runtime.
+
 ---
 *Sources: [[raw/dynamic-workflows-claude-code]]*
 *Last updated: 2026-07-29*
