@@ -53,6 +53,8 @@ The closing thesis, and it's characteristically honest. antirez doesn't claim AI
 
 **The meta-point:** antirez is one of the most influential systems programmers alive, and his development process now consists of: (1) write a vision in markdown, (2) let AI generate the code, (3) let AI test the code, (4) ship. This is the [[Agent Coding Workflow]] maturity spectrum at its most advanced: the human is architect, critic, and release manager. Everything else is automated.
 
+**A recursive concern:** [[Test Validation and the Trustworthiness of Tests]] adds a layer antirez doesn't address. If AI writes the tests that validate AI-written code, who validates the tests? Typemock's answer is runtime analysis that inspects what tests actually *do* at execution time — surfacing hidden network calls, duplicate scenarios, and false dependencies that a green dashboard conceals. The checklist-as-interface only works if the tests it invokes are trustworthy; test validation is the audit that keeps the oracle honest.
+
 ---
 
 ## Related

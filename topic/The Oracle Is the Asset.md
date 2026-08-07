@@ -60,6 +60,8 @@ This three-layer design is the architectural insight: no single test type is suf
 
 **What this means for the wiki's existing spec-as-product thesis:** Ruby's argument strengthens [[Specifications as the Product]] by adding a concrete mechanism — the oracle-as-compiler-target — and an existence proof. It also sharpens the thesis: it's not just that specs outlive code; it's that in the limit, the spec *is* the code, and the code is a transient artifact generated from the spec by an AI that the principal couldn't have used for the same task five years ago.
 
+**A complicating concern:** [[Test Validation and the Trustworthiness of Tests]] asks the question Ruby doesn't: what if the oracle itself is full of fragile, duplicate, or untrustworthy tests? An oracle you can't trust isn't an asset — it's a liability that produces false confidence at compiler scale. Typemock's test validation (runtime analysis of what tests actually *do*, not what they claim to test) is the audit layer that keeps the oracle honest. The durable-asset argument holds only if the asset is regularly validated.
+
 ## Connections
 
 - [[Specifications as the Product]] — the same economic inversion, synthesized across multiple sources. Ruby adds the compiler-target mechanism and the existence proof.
