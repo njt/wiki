@@ -42,7 +42,9 @@ This is where Little's law earns its keep. Concurrency = arrival rate × mean la
 
 Brooker's framing also rhymes with [[Theoretical LLM Inference Bottlenecks]]: both take a problem most people treat as folklore ("tails are expensive," "memory bandwidth matters") and derive first-principles frameworks that let you calculate exactly how much, rather than just gesturing at it.
 
+The Lorenz-curve diagnosis is the *where*; [[Performance Optimization Loop]] provides the *how*. Gordon's structured seven-stage loop (monitor → profile → benchmark → small changes → document → validate) is the operational complement to Brooker's analytical tool. Together they form a complete performance engineering workflow: diagnose with Lorenz curves, optimize with the loop, validate with production data.
+
 ---
 
 *Sources: [[raw/lorenz-and-little]]*
-*Last updated: 2026-08-01*
+*Last updated: 2026-08-07*

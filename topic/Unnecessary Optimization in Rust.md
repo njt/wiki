@@ -37,7 +37,9 @@ The honesty of the post's title. After exhaustive benchmarking across three mach
 
 **Why this matters for the wiki.** This is a self-contained case study in a pattern that's orthogonal to the agentic-development focus of most pages here: the compiler as a tool that gets better over time, and the engineering discipline of writing code that *lets* it get better. The same dynamic plays out in LLM training, GPU kernel compilation, and database query optimization. The lesson — design for the optimizer, not against it — transfers broadly.
 
+Schwartz's Hamming-distance deep-dive is a single-method optimization applied to a micro-benchmark; [[Performance Optimization Loop]] generalizes this into a full methodology: monitor in production, profile hotspots, benchmark baselines, apply small targeted changes, and validate each one independently. The same "curiosity over certainty" posture Schwartz models is what Gordon builds into a repeatable engineering practice.
+
 ---
 
 *Sources: [[raw/hamming-distances-rust-simd-auto-vectorization]]*
-*Last updated: 2026-08-01*
+*Last updated: 2026-08-07*
