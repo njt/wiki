@@ -77,6 +77,8 @@ A leaderboard is maintained at beaverbench.github.io.
 
 **The missing piece: a public instance.** As with the Beaver paper, I want a real (anonymized) database I can connect to and try querying. Reading about `FCLT_ROOMS.FCLT_ROOM_KEY` is one thing; trying to join it correctly is another. A public playground would make the benchmark's case more visceral than any paper can.
 
+**A complementary finding from [[AI-Assisted Database Work — The Machine Reads, The Human Decides]]:** Pinal Dave's nine-engagement field report draws a boundary that Stonebraker's piece implies but doesn't state: AI fails at *generating* queries for real schemas but succeeds at *reading and classifying* existing database artifacts at volume. The machine doesn't need to understand the schema to extract business rules from 400K lines of PL/SQL, reverse-engineer an undocumented vendor database, or trace column lineage through dynamic SQL. Reading is a different capability from generating, and the two pieces together bound the useful surface area of AI for database work.
+
 **For the wiki's synthesis: this is a data point in the emerging pattern that LLM benchmarks are systematically misleading.** [[BEAVER]] vs. BIRD is the text-to-SQL version of the same story told by [[FrontierCode]] (13.4% Diamond on real-world PR mergeability) and [[Five Studies That Are Changing How I Think About AI in Software Engineering]] (AI compresses upstream coding, everything downstream breaks). The benchmarks that matter are the ones that measure what happens in production, not in the lab. Beaver is the gold standard for what that looks like in the database domain.
 
 ---

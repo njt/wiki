@@ -54,6 +54,8 @@ The mechanical, resumable work queue as the backbone of the whole operation. No 
 
 **The "judge" prerequisite is under-described and probably the hardest part.** Rewriting tests to be portable across both codebases, validating they fail on deliberately broken code — this is the verification infrastructure that makes everything else possible. It's also the step most teams will skip because it feels like overhead. Without it, you're doing vibe-based migration with no mechanical verification, and the whole "review adversarial, verification mechanical" principle collapses.
 
+**A contrasting approach from [[AI-Assisted Database Work — The Machine Reads, The Human Decides]]:** Pinal Dave's nine database consulting engagements use a different architecture for AI-assisted work on legacy systems. Instead of a rulebook-driven factory that regenerates code, Dave's pattern is a reading-and-triage engine: AI reads at volume, proposes classifications, and humans verify and decide. Nothing is thrown away because nothing was generated — it was extracted from existing artifacts. The two approaches solve different problems: rulebook-driven generation when the target is known (Rust, TypeScript); reading-and-triage when the target is understanding (what does this code *mean*, what is this column, what does this job do).
+
 **The tiered-model economics have a dark side the article doesn't mention.** Sonnet-for-implementation / Opus-for-judgment works because Sonnet is good enough at translation and Opus is distinctly better at judgment. If the gap closes — or if a single model becomes good enough at both — the architecture collapses to a simpler form. The article's advice is tied to the current model landscape, which is the most transient thing in AI right now.
 
 ---
