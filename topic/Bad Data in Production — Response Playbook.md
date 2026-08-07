@@ -58,6 +58,7 @@ Commentary: The blameless postmortem truism, restated with precision. Dave doesn
 - [[Long Live Systems of Record]] — The systems-of-record question is upstream of Dave's playbook: you can't trace lineage if you don't know where the truth lives
 - [[The Log is the Agent]] — Event sourcing as the infrastructure that would make Dave's step 3 (trace lineage) trivial rather than heroic
 - [[Event Sourcing — Set-and-Remove Bi-Temporal Events]] — Bi-temporal event streams as the technical substrate for answering "what did we think was true, and when did we think it?"
+- [[Fixing Bugs in Event Sourcing is Hard]] — The event-sourcing-specific variant of step 4 (fix and verify): event immutability means the original inputs survive the fix, so verification doesn't require reconstructing the past from guesswork
 - [[Guardrails and Feedback Loops]] — The single control Dave asks for in step 6 is a guardrail; the blameless review is a feedback loop
 
 ---
