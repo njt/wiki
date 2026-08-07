@@ -47,6 +47,8 @@ The author's transparency about the scoring formula (`RiskScore = Churn × (1 - 
 
 **The `--fail-on-threshold` CI gate is the sleeper feature:** Tools that rank files are useful. Tools that *block merges* when high-risk files go untested change behavior. This is where Litmus crosses from nice-to-have to infrastructure — a quality gate that enforces the priority model at the PR level.
 
+**What comes after prioritization:** Litmus tells you which files to test first. Microsoft's [[Polyglot Unit Testing Agent]] (`code-testing-generator`) can write the tests once you've picked the targets — it detects the repo's language, framework, and conventions, generates idiomatic tests, and verifies they're discoverable by CI. The two tools together form a pipeline: Litmus identifies the riskiest untested code, and the polyglot agent generates the tests. One answers "what to test"; the other answers "how to test it."
+
 ---
 
 *Sources: [[raw/litmus-dotnet-testing-priority]]*

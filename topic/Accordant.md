@@ -70,6 +70,8 @@ Accordant is a C# .NET library (7 projects, ~4,100 LOC core logic), delivered as
 
 **vs. TLA+/Alloy**: Both model state spaces. TLA+/Alloy verify properties symbolically; Accordant generates concrete test cases and runs them. TLA+ finds *design* bugs; Accordant finds *implementation* bugs. A project could use TLA+ for the high-level design and Accordant to verify the implementation matches. The logical foundations underlying both approaches — first-order logic, model theory, and formal semantics — are covered in [[An Introduction to Formal Logic (Peter Smith)]], which provides the intellectual substrate for understanding *why* formal specification works.
 
+**vs. [[Polyglot Unit Testing Agent]]**: Microsoft's `code-testing-generator` and Accordant are sibling projects from the same org but opposite philosophies. Accordant demands you write a spec and derives tests from it (spec-driven). The polyglot agent reads your existing repo conventions and generates tests that match them (repo-driven). Accordant is the stronger guarantee — the spec is the single source of truth — but requires you to maintain that spec. The polyglot agent is lower-friction — no spec needed — but can generate vacuous tests that the spec-driven approach would structurally prevent. They're complementary: Accordant for behavioral contracts where correctness is non-negotiable; the polyglot agent for filling out coverage on legacy codebases where nobody's going to write a formal spec.
+
 ## AI Integration
 
 Accordant explicitly targets AI coding agents as users. The `agent/` directory contains:

@@ -66,6 +66,7 @@ The closing thesis, and it's characteristically honest. antirez doesn't claim AI
 - [[Smart Models Dumb Pipes]] — the architectural philosophy behind checklist-as-interface
 - [[Compound Engineering]] — "add a system, not manual review"; agentic QA as a compound-engineering move
 - [[Harness Engineering (OpenAI)]] — harness engineering as the discipline that makes agentic QA possible
+- [[Polyglot Unit Testing Agent]] — Microsoft's open-source unit-test generation agent: quantitative validation of the workflow-over-model thesis across 152 tasks and 12+ languages, with a 63% failure reduction driven entirely by vague-prompt performance
 
 ---
 
