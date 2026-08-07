@@ -46,6 +46,8 @@ Cagan is right about the diagnosis — the project model was always output-obses
 
 **Brooks' time-scale lens clarifies the paradox further.** Rodney Brooks distinguishes four time scales for technology: research (10–20+ years), hype (months), at-scale deployment (20+ years), and economic reshaping (50+ years). Cagan's paradox is what happens when an organization confuses Time Scale 2 (AI tools exist and are hyped) with Time Scale 3 (those tools are deployed at scale in genuinely transformed organizations). The tools are real but the deployment hasn't had its two decades yet — and no amount of executive urgency compresses that timeline. [[Four Time Scales for Technology Development and Deployment]]
 
+Tim O'Reilly frames the same problem as the new Solow paradox — "you can see the computer age everywhere except in the productivity statistics" — and argues it disappeared for computers in the late 90s not because computers got faster but because companies reorganized around them. [[AI as an Enterprise Operating System]] provides the most concrete public recipe for that reorganization: capability ladders, hackathons as training infrastructure, curated skills marketplaces, and "scar tissue turned into infrastructure" — organizational redesign as mechanism design, not procurement or communications.
+
 ## Related Pages
 
 - [[Discovery Debt]] — The accumulated weight of untested assumptions that compounds invisibly until products are expensively wrong
