@@ -62,6 +62,8 @@ This three-layer design is the architectural insight: no single test type is suf
 
 **A complicating concern:** [[Test Validation and the Trustworthiness of Tests]] asks the question Ruby doesn't: what if the oracle itself is full of fragile, duplicate, or untrustworthy tests? An oracle you can't trust isn't an asset — it's a liability that produces false confidence at compiler scale. Typemock's test validation (runtime analysis of what tests actually *do*, not what they claim to test) is the audit layer that keeps the oracle honest. The durable-asset argument holds only if the asset is regularly validated.
 
+[[Prompt Debt]] extends the oracle concept beyond test suites: the full specification surface — evals, metrics, typed constraints — is the oracle that makes model portability possible. When behavior is defined by measurements rather than prose prompts, swapping models becomes a chore rather than a fire drill. This is the operational payoff of Ruby's Drucker inversion: the oracle isn't just the durable asset; it's the *portable* asset.
+
 ## Connections
 
 - [[Specifications as the Product]] — the same economic inversion, synthesized across multiple sources. Ruby adds the compiler-target mechanism and the existence proof.
