@@ -48,6 +48,8 @@ The constraint decay paper by Dente et al. finds that "convention-heavy framewor
 
 The token-consumption findings connect to the broader theme of agent economics: [[Writing Code vs. Shipping Code]] (AI gains attenuate at release level), [[How Hightouch Built Their Long-Running Agent Harness]] (context management is the real cost), and [[Uber — Agentic Engineering Shift]] (6× cost explosion since 2024). Cleanliness is one lever among many for controlling that cost.
 
+Martin Fowler's refactoring experiment ([[The Economic Benefit of Refactoring]]) takes this finding to its logical extreme: 15 aggressive refactoring steps on a 17K-line agent-generated monolith reduced input tokens by 83% — an order of magnitude beyond SonarSource's 7–8%. The two studies together suggest a dose-response relationship where surface cleanup yields surface savings and deep semantic decomposition yields deep savings. The key mechanism is the same in both: the agent reads fewer files, not because there's less total code (lines stayed roughly constant in both), but because decomposition lets it confidently identify the right subset.
+
 The minimal-pair methodology itself is worth noting alongside [[Simon Willison — Engineering Practices That Make Coding Agents Work]] — both are attempts to move from "I feel like this works" to "here's evidence it works."
 
 ---

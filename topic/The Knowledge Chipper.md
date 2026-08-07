@@ -67,6 +67,7 @@ The "millions of tokens" claim is evocative but unmeasured. The article doesn't 
 - [[The New Software Lifecycle]] — Osmani's map of uneven compression. The review bottleneck this article describes is the downstream consequence of upstream compression.
 - [[Maybe Coding Agents Don't Need a Bigger Memory]] — The argument that bigger context windows don't solve cold starts. This article is a field report confirming that claim.
 - [[Context Engineering at the Frontier (Linus Lee)]] — Lee's composable retrieval pipelines. The knowledge chipper is the problem composability is meant to solve: make context reusable rather than disposable.
+- [[The Economic Benefit of Refactoring]] — Martin Fowler's experiment addresses the same waste from a different angle: if you can't make context reusable, make it cheaper to rebuild. His 15 refactoring steps on a 17K-line monolith reduced input tokens by 83% per change — same cold start, cheaper warm-up. The two approaches (continuity vs. decomposition) are complementary. Fowler also notes that the refactoring itself burned up to 5M tokens, so the breakeven math matters.
 - [[Five Studies That Are Changing How I Think About AI in Software Engineering]] — Brian Houck's synthesis: AI compressed upstream coding, everything downstream is breaking. The reviewer's context gap is one of the things that's breaking.
 - [[Human-in-the-Loop is Tired]] — Laura Summers on the psychological cost. The senior engineer having to rebuild context they never had is this cost made concrete.
 
