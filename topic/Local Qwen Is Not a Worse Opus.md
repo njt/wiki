@@ -39,7 +39,7 @@ Ellis names the sovereignty argument in visceral terms. Anthropic removing Fable
 
 #hardware — The real journey from dual 3090s (~750W, "extremely noisy") to RTX 6000 Pro (600W, "relatively quiet"), with Shelly Plus Plugs for power monitoring and the conclusion that throwing money at GPUs doesn't close the frontier gap.
 
-#pattern — "Analysis not interpretation" as a design boundary for local model use. Speculative decoding with MTP as a practical speedup (67 → 130–200 tok/s). AGENTS.md files as a force multiplier. Fine-tunes (Qwopus) as a capability layer.
+#pattern — "Analysis not interpretation" as a design boundary for local model use. Speculative decoding with MTP as a practical speedup (67 → 130–200 tok/s). AGENTS.md files as a force multiplier. Fine-tunes (Qwopus) as a capability layer — [[Qwopus3.6-27B-v2]] shows what this looks like in practice: a community fine-tune using Trace Inversion to reconstruct Claude-4.7-Max's unobserved reasoning chains from compressed outputs, then training Qwen3.6-27B on the reconstructed traces through a three-stage curriculum.
 
 #economics — Coding plans are "clearly subsidised." Uber's $1,500/month/developer cap (~12% of median salary) as an existence proof that current pricing isn't sustainable. Fixed-cost hardware vs. variable-cost APIs as a genuine tradeoff.
 
