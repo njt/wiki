@@ -42,7 +42,7 @@ The most actionable advice in the piece. Fung describes canceling a weekly revie
 
 **What to copy vs. adapt:** JIT planning and "ask Claude first" are universally applicable. The specific hiring profiles (creative builders + systems experts) are worth adopting. The flat-team structure is contingent on team size and mandate. The "kill processes" norm requires psychological safety that doesn't exist everywhere — Fung's explicit permission-giving is a deliberate culture intervention, not a default.
 
-**Compare to:** [[Compound Engineering]] (building compound workflows atop AI), [[Agent Coding Workflow]] (the practitioner's loop), [[Writing Code vs. Shipping Code]] (the attenuation from commit to release), [[How Intercom Uses Claude Code]] (another team's Claude Code adoption pattern), [[10 Principles for Agent-Native CLIs]] (parallel thinking for tool design).
+**Compare to:** [[Compound Engineering]] (building compound workflows atop AI), [[Agent Coding Workflow]] (the practitioner's loop), [[Writing Code vs. Shipping Code]] (the attenuation from commit to release), [[How Intercom Uses Claude Code]] (another team's Claude Code adoption pattern), [[10 Principles for Agent-Native CLIs]] (parallel thinking for tool design), [[Organizational Intelligence Systems]] (the same bottleneck-migration and MCP+skills architecture applied to organizational decision-making rather than code generation).
 
 ---
 

@@ -50,6 +50,7 @@ Where the essay is strongest is in the reframing: "where does judgment belong?" 
 - [[Compound Engineering]] — The system that routes between judgment and execution is the actual product
 - [[The Dark Factory is a DOT File]] — The pipeline spec is the judgment layer; the factory code is the dumb pipe
 - [[Feedback Loop is All You Need]] — The self-tightening loop that McCormick's clean separation does not account for
+- [[Organizational Intelligence Systems]] — a production instantiation of the pattern applied to organizational analysis: internal data is the evidence layer (dumb pipe), expert frameworks (Google SRE, Team Topologies) are the judgment layer (smart model), and neither substitutes for the other
 
 ---
 
