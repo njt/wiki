@@ -59,6 +59,8 @@ The article's proposed four-layer testing pyramid (unit → integration → E2E 
 
 AMD's [[Execution-Free Agentic Program Repair]] takes the opposite approach for a different problem: when tests don't exist and can't be run (industrial C++ with multi-hour build cycles), they replace test-based validation with CppCheck static analysis + an LLM judge. The execution-free pattern is complementary to agentic testing — one handles the case where tests exist but you need exploratory coverage; the other handles the case where tests don't exist at all.
 
+Microsoft's [[Polyglot Unit Testing Agent]] (`code-testing-generator`) fills the unit-test generation layer of this stack: an agent that learns repo conventions before writing tests, verifies the build system can find them, and performs lightweight mutation testing to catch vacuous assertions. Its 92.1% vs. 78.9% completion rate on 152 tasks is the quantitative counterpart to Slack's qualitative finding that agentic testing adds a new layer on top of deterministic tests — the agent doesn't replace existing test infrastructure, it makes it easier to build.
+
 ---
 
 *Source: [Slack Engineering Blog](https://slack.engineering/agentic-testing-where-agents-fit-in-the-e2e-testing-stack/), Sergii Gorbachov, 2026-06-11. Fetched 2026-06-21.*
