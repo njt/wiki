@@ -58,6 +58,8 @@ The testing philosophy compressed to a command. Zoschke uses headless Chrome via
 
 **The deeper argument: the stack is the harness.** [[Components of a Coding Agent]] established that the harness matters more than the model. Zoschke extends this: the technology stack is part of the harness. Pick components the model already knows, and the harness does less work. Pick components with stable interfaces, and the harness doesn't need updating. Pick components that fail at compile time rather than runtime, and the harness catches errors before the agent moves on. The GUS Stack isn't a technology recommendation — it's a harness engineering recommendation disguised as a technology recommendation.
 
+**GUS is also a libraries-over-frameworks stack, whether Zoschke says so or not.** Go's standard library, SQLite's C API, and HTMX's attribute-based approach all share a property Tomas Petricek identified as the library ideal: they're called by your code, not the other way around. [[Libraries over Frameworks]] traces why this matters — libraries compose, frameworks don't — and GUS is a concrete instantiation of that principle for the agent era.
+
 ---
 
 *Sources: [[raw/the-gus-stack-go-unix-sqlite]]*

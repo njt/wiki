@@ -42,6 +42,8 @@ This inverts conventional wisdom. Django and FastAPI are designed to make *human
 
 Explicit frameworks (Express, Flask) win not because they're better frameworks — but because their API surface is flat and visible. There's nothing to infer. Every route, every middleware, every database call is right there in the code.
 
+This is the same argument Tomas Petricek made from first principles in 2015: frameworks own the control flow and resist composition, while libraries stay out of your way. [[Libraries over Frameworks]] traces the theoretical case — that frameworks don't compose, are hard to explore interactively, and force coding styles the caller didn't choose. Constraint Decay is the empirical confirmation Petricek couldn't have run: LLM coding agents, which have no prior exposure to any specific framework's conventions, hit exactly the wall his theory predicts.
+
 The implication: if you're building with agents, choose frameworks that minimize implicit behavior. Convention-over-configuration was optimizing for the wrong thing.
 
 ## The Scaffold Matters, But Not Enough
