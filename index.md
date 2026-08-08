@@ -342,6 +342,7 @@ Isolation, credentials, prompt injection defense, and agent safety. **Hub: [[Sec
 
 Craft beyond agents: simplicity, error handling, reliability, specs, and project management. **Hub: [[Software Engineering Craft]]**
 
+- [[What Color is Your Function]] — Bob Nystrom's classic diagnosis of the "function coloring" problem: why async/await can't compose freely, why green threads are the real solution, and why Go, Lua, and Erlang got concurrency right while JavaScript, Dart, and C# painted themselves into a corner
 - [[Automatic Layout of Railroad Diagrams]] — Chiplunkar and Pit-Claudel's first formal treatment of railroad/syntax diagram layout as a compilation problem: diagram language → three-pass compiler (align/wrap/justify) → layout language, with wrapping as principled optimization
 - [[Notes on Structured Programming]] — Dijkstra's 1970 foundational monograph: structured programming, step-wise refinement, the testing-versus-correctness argument, and the layered virtual machine model that anticipated microservices, containers, and agent abstractions
 - [[An Introduction to Formal Logic (Peter Smith)]] — Peter Smith's 420-page Cambridge textbook on classical first-order quantification theory, now freely available: the informal-to-formal progression, Fitch-style natural deduction, and metatheoretic honesty that distinguishes it from shallow introductory texts

@@ -58,6 +58,8 @@ The vision statement. Sessions as persistent rooms that survive disconnection, d
 
 **The BEAM-shaped hole in the argument.** Erlang/OTP's actor model was designed for exactly this: processes that outlive connections, transparent distribution, supervision trees for failure recovery, and hot code reloading. The fact that agent frameworks keep reinventing these patterns from scratch — with HTTP polling and database-backed sessions — suggests the industry has forgotten lessons distributed systems learned in the 1990s. [[Distributed Systems]] and [[Process-Based Concurrency BEAM OTP]] are the relevant prior art that Knill's analysis would benefit from engaging with.
 
+This is the transport-level cousin of the language-level problem Bob Nystrom diagnosed in [[What Color is Your Function]]: the async/sync divide that forces every function to declare a "color" and propagates upward through the callstack. Nystrom's solution — green threads that suspend the stack without unwinding — is the language analog of Knill's durable sessions that survive disconnection without polling. Both problems share the same root cause: the runtime can't pause and resume where it left off, so it forces the programmer to manually encode the resumption point.
+
 **The webhook standardization gap.** Knill's argument that agents need durable transport sits interestingly alongside [[Standard Webhooks]], which is trying to standardize the webhook primitive itself. If every webhook provider used the same signature format, retry semantics, and payload structure, building a durable transport layer on top would be dramatically simpler. The fragmentation problem isn't just at the transport level — it's at the webhook level too.
 
 ---
