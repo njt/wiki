@@ -84,7 +84,8 @@ This aligns with [[Honey I Shrunk the Coding Agent]]'s finding that scaffold red
 - [[Agentic Software Engineering (Hassan)]] — the comprehensive treatment of engineering with stochastic contributors
 - [[Software Engineering at the Tipping Point]] — Bender on AI as 10× amplifier, not directed solution
 - [[Lean Software Scaling Laws]] — Gwern predicts the constraint-decay slope should be *shallower* in languages where invariants are structural (Lean's type system) rather than bolted-on (Python + mypy); directly testable with this paper's methodology
+- [[React Component Purity]] — not all constraints degrade performance. React's purity rules (idempotent renders, no side effects, immutable props/state) *reduce* the solution space rather than expanding it, eliminating entire categories of wrong implementations. The paper's framework finding (explicit > implicit for agents) and React's purity model converge on the same principle: make the rules visible and structural, not ambient and inferential
 
 ---
 *Sources: [[summary/constraint-decay]]*
-*Last updated: 2026-07-05*
+*Last updated: 2026-08-08*

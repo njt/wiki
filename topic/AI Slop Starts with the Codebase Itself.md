@@ -60,8 +60,10 @@ This essay sits at the intersection of several wiki threads. [[Code Cleanliness 
 
 The maintainer-side cost of AI slop is the missing half of this essay's argument. [[Zero-Cost Fallacy of Open Source]] documents exactly what happens when slop lands on the other side of `npm install`: maintainers become unpaid code reviewers buried under plausible-but-wrong LLM-generated PRs, and some close their projects entirely to escape. The codebase that produces slop is one problem; the repository that receives it is the other, and the two are directly connected.
 
+Concrete patterns matter as much as stack choice. React's purity rules ([[React Component Purity]]) are a worked example: components that are idempotent, side-effect-free, and immutable by default produce codebases where every file can be understood in isolation. An agent reading a pure React component doesn't need to trace mutation through the codebase to know what it does — the component's output is fully determined by its inputs. This is the same "local reasoning" property that makes pure functions easier for humans to debug, and it applies doubly to agents that lack the global codebase model experienced developers carry in their heads.
+
 The rewrite economics connect to [[The Cost YAGNI Was Never About]] (Kent Beck on AI making rewrites cheaper but the trap still being real), [[Specifications as the Product]] (if the codebase IS the prompt, the spec is what should survive the rewrite), and [[Why Build vs Buy is the Wrong Question]] (Chris James on DDD subdomain taxonomy as the real decision framework). The competitive-framing echoes [[The Founder's Playbook]] — Anthropic's observation that AI introduces *agentic technical debt* that compounds. A codebase that misaligns with AI isn't just harder to work on; it gets harder at an accelerating rate because every AI-assisted change adds more code the model doesn't understand.
 
 ---
 *Sources: [[raw/ai-slop-starts-with-the-codebase-itself]]*
-*Last updated: 2026-07-11*
+*Last updated: 2026-08-08*
