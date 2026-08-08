@@ -92,6 +92,8 @@ The tech stack echoes **[[Memento]]** (Go + SQLite + SSE runtime), though for a 
 
 Placed in the [[Agent Coding Workflow]] pipeline, local-review sits at the **human review** step between code generation and agent iteration — the artifact that closes the loop between "AI wrote this" and "human verified this, now fix these things."
 
+[[Hunk]] occupies the complementary role in the pipeline: where Local Review captures human feedback for agents to consume, Hunk renders agent annotations for humans to read. Together they form the two halves of a bidirectional review loop — agent→human (Hunk) and human→agent (Local Review) — with [[Subspace]] providing an alternative human→agent path for structured terminal-based feedback.
+
 ---
 *Sources: [[raw/local-review]]*
 *Tags: #tool #project #developer-tools #code-review #git*
