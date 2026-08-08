@@ -62,6 +62,8 @@ Jeremy Keith's book as the philosophical foundation. Keith argues that the web's
 
 **The real insight is that progressive enhancement is a design constraint, not a feature checklist.** Rafa isn't aiming for "works without JS" as a bullet point. They're using it as a design tool: if you can't make an interaction work with plain forms and links, you either find a different interaction design or you accept that this particular interaction is JS-dependent. The constraint forces better architecture not because JS-free is inherently virtuous, but because every JS-dependent interaction is a future maintenance burden, an accessibility barrier, and a point of failure. HTMX changes the economics by making the JS-dependent interactions thinner and the JS-free baseline richer.
 
+**The build-without-JS-first workflow is Fielding's Code-On-Demand constraint as practice.** [[Components of a Hypermedia System]] documents that scripting is a legitimate, optional part of REST — provided it augments rather than replaces the hypermedia model. Rafa's discipline (build it with plain forms first, then add HTMX) is exactly that boundary: HTML/HTTP as the self-standing core, JavaScript as the enhancement layer. The workflow doesn't just produce robust applications; it produces *RESTful* ones in Fielding's original architectural sense.
+
 ---
 
 *Sources: [[raw/progressive-enhanced-forms-htmx]], [[summary/progressive-enhanced-forms-htmx]]*
