@@ -417,6 +417,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 - [[Unnecessary Optimization in Rust]] — Evan Schwartz benchmarks six Hamming distance implementations across three platforms, finds his 23-line auto-vectorizable crate beats hand-tuned C SIMD libraries, and lands on the compiler-trust thesis: write code the optimizer can reason about, not platform-specific intrinsics
 - [[YAGNI]] — Martin Fowler's canonical 2015 bliki entry: the four-cost framework for presumptive features (build, delay, carry, repair), the enabling relationship with refactoring, and why deferring features is correct economics even when your predictions are right
 - [[The Vietnam of Computer Science]] — Ted Neward's classic 2006 essay on why Object/Relational Mapping is a quagmire: the impedance mismatch is structural, not a tooling problem; six failure modes and six possible responses that remain relevant two decades later
+- [[Grug Brain Developer]] — Cult-classic essay on software development disguised as caveman-speak: complexity is the apex predator, "no" is the best weapon, wait for cut points before abstracting, integration tests are the sweet spot, and impostor syndrome is universal. The folk-wisdom companion to [[Software Engineering Craft]]
 
 ## Databases & Data
 

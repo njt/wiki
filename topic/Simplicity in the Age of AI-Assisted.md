@@ -32,7 +32,7 @@ The argument unfolds in four moves:
 
 The punchline: the value of LLMs isn't that they generate code faster. It's that they make it cheap to **throw code away and rebuild simpler**. Once a human makes the call that complexity is inherited rather than essential, the LLM can regenerate a simpler version in minutes instead of weeks of careful refactoring.
 
-This is the philosophical foundation for several other pieces: [[Write Only Code]] (if code is disposable, simplicity is the only durable value), [[The Claude C Compiler]] (Lattner's point about investing in structure), [[Prefix Effects]] (if early patterns solidify, start simple), and [[Elements of Code]] (comprehensibility as the primary virtue).
+This is the philosophical foundation for several other pieces: [[Write Only Code]] (if code is disposable, simplicity is the only durable value), [[The Claude C Compiler]] (Lattner's point about investing in structure), [[Prefix Effects]] (if early patterns solidify, start simple), and [[Elements of Code]] (comprehensibility as the primary virtue). [[Grug Brain Developer]] got there earlier and funnier: "complexity is spirit demon that enter codebase through well-meaning but ultimately very clubbable non grug-brain developers." Same diagnosis, different vocabulary — grug's "spirit demon" is this article's "inherited complexity."
 
 ## Critical Analysis
 
