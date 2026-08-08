@@ -102,6 +102,8 @@ The missing conversation: this same class of bug exists in Entity Framework, Hib
 
 This is particularly relevant to AI-generated code. An LLM producing Dapper queries will generate the `nvarchar` default every time, because every example in its training data does. See [[dotnet Slopwatch]] for a tool that catches vibe-coding warts like this.
 
+The same diagnostic pattern applies to pagination: [[SQL Pagination — Offset vs Seek Method]] shows that `OFFSET` pagination also silently defeats indexes — the query produces correct results at the cost of scanning every preceding row — and the fix (seek method / keyset pagination) similarly requires understanding what the execution plan is actually doing, not just whether the results look right.
+
 ## Rule
 
 Column is `varchar` → `DbType.AnsiString`. Column is `nvarchar` → default `DbType.String` is fine. Match sizes. Comment your DynamicParameters. Audit your queries today.

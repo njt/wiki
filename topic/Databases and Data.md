@@ -66,7 +66,7 @@ Storage is a design problem, not a commodity service. The pages in this wiki rev
 
 ## What's Missing
 
-**Agent-aware database patterns.** Agents generate queries differently from humans -- more repetitive, less optimized, prone to the [[Dapper Performance Trap]] class of errors. Database patterns specifically for agent-generated workloads don't exist yet.
+**Agent-aware database patterns.** Agents generate queries differently from humans -- more repetitive, less optimized, prone to the [[Dapper Performance Trap]] class of errors. Database patterns specifically for agent-generated workloads don't exist yet. [[SQL Pagination — Offset vs Seek Method]] fills one piece: agents generating paginated queries should default to the seek method (keyset pagination) rather than offset, and must extend `ORDER BY` clauses to be deterministic — exactly the kind of non-obvious expertise that LLMs lack without explicit instruction.
 
 **Data quality for agent-generated data.** [[Correct by Construction]] addresses human data pipelines. When agents are generating and storing data at machine speed, the quality problem changes character. Nobody has written the "Correct by Construction for agent-generated data."
 
