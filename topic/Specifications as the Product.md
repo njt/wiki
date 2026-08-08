@@ -28,6 +28,8 @@ The traditional model: specs flow into code, code is the deliverable. The new mo
 
 **Deployment specs.** [[Verbose Deployment]] implements a 10-phase deployment pipeline as composable Claude Code skills, each independently useful. The pipeline adapts to your project -- it detects your stack rather than assuming one.
 
+**Prompt-as-compiler-output.** [[DSPy — Programming Not Prompting]] applies the spec-as-product logic to prompts themselves: typed signatures are the durable specification, and the framework compiles them into optimized prompts tuned against a scoring function. The prompt becomes a disposable compiler artifact — the same inversion that makes code disposable in a spec-first workflow, applied to the natural-language instructions that drive LLMs.
+
 **Model-as-spec.** [[BESSER]] takes the spec-as-product idea to its logical extreme: the model *is* the spec, and 15 deterministic generators compile it to working code across multiple stacks. Unlike prompt-driven code generation where the spec is natural language and the translation is probabilistic, BESSER's generators are deterministic compilers — the model either compiles or it doesn't. This makes it a useful reference point for the "how formal does the spec need to be?" question.
 
 ### Spec-Adjacent Tools
