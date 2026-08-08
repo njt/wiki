@@ -65,6 +65,7 @@ What's remarkable in retrospect is how many things that are now obvious were not
 - [[Smart Models Dumb Pipes]] — the guide's "separate concerns" rule is the same end-to-end principle: paths identify, bodies carry, headers communicate
 - [[Better Error Messages]] — the guide's structured error format anticipates the principle that errors are part of the API surface
 - [[Queues Don't Fix Overload]] — token bucket rate limiting in the guide aligns with Fred Hebert's "identify the bottleneck, then back-pressure"
+- [[HATEOAS — Hypermedia as the Engine of Application State]] — the missing constraint: the Heroku guide codifies HTTP+JSON API conventions that make APIs consistent, but HATEOAS is the architectural property these conventions were originally designed to serve — and that JSON APIs, by abandoning hypermedia controls, structurally cannot achieve
 
 ---
 *Sources: [[raw/http-api-design-guide]]*
