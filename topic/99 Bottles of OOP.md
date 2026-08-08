@@ -39,7 +39,7 @@ Metz draws a sharp line: refactoring changes structure without changing behavior
 
 **The book sits at the boundary of two eras.** Published as OO was being challenged by functional approaches and now arriving in a world where AI writes most code, its core insight — that design is a series of moment-to-moment line-level decisions, not a one-time architecture diagram — is more relevant, not less. The question isn't whether agents can write code; it's whether they can develop taste.
 
-**Related pages:** [[The Wrong Abstraction]] for Metz's companion essay on why duplication is far cheaper than the wrong abstraction — the concise statement of a principle implicit throughout the book. [[Software Engineering Craft]] for the fundamentals that don't change, [[The Mundanity of Excellence]] for excellence as qualitatively different choices, [[Things You're Allowed to Do]] for the confidence to refactor, and [[Vibe Coding and the Maker Movement]] for why taste matters more than throughput.
+**Related pages:** [[The Wrong Abstraction]] for Metz's companion essay on why duplication is far cheaper than the wrong abstraction — the concise statement of a principle implicit throughout the book. [[Software Engineering Craft]] for the fundamentals that don't change, [[The Mundanity of Excellence]] for excellence as qualitatively different choices, [[Things You're Allowed to Do]] for the confidence to refactor, [[Vibe Coding and the Maker Movement]] for why taste matters more than throughput, and [[Push Ifs Up And Fors Down]] for a distilled rule-of-thumb version of what the Flocking Rules accomplish — converge conditionals at the highest level so branching logic fits on one screen.
 
 ---
 

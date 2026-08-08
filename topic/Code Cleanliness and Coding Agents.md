@@ -52,6 +52,9 @@ Martin Fowler's refactoring experiment ([[The Economic Benefit of Refactoring]])
 
 The minimal-pair methodology itself is worth noting alongside [[Simon Willison — Engineering Practices That Make Coding Agents Work]] — both are attempts to move from "I feel like this works" to "here's evidence it works."
 
+[[Push Ifs Up And Fors Down]] gives names to the *kind* of cleanliness that the BCEL case study validates: centralizing control flow so agents navigate one branching function instead of scattered conditionals ("push ifs up"), and batching data operations to reduce context switches ("push fors down"). These heuristics produce exactly the thin-dispatcher structure that SonarSource found most helpful.
+
+
 ---
 
 *Sources: [[raw/code-cleanliness-coding-agents]]*
