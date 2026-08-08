@@ -68,7 +68,7 @@ A small but significant thread in the evidence asks whether orchestration should
 
 **The orchestrator as product vs. as feature.** [[Agent Orchestration for the Timid]] concludes, after testing five orchestration tools, that Claude-native skills and slash commands beat all of them — the author plans to "lean harder into Claude-centric features for orchestration than introduce the overhead of any of these orchestrators." But [[Dorothy]], [[Orca]], [[Agent of Empires]], and [[klaw.sh]] are full products with real user bases. [[Loop Engineering]] suggests the answer is that both are correct at different stages: practitioners find patterns first, then patterns become platform features — as when Claude Code shipped built-in task management and dependency tracking.
 
-**Cross-harness orchestration: bridge or permanent need?** [[bb]] and [[acpx]] invest heavily in protocol translation and normalisation. The open question is whether this is a temporary bridge as harnesses converge on common protocols like ACP and MCP, or a permanent architectural need as harnesses differentiate rather than converge.
+**Cross-harness orchestration: bridge or permanent need?** [[bb — The Agent Orchestrator as Normalizer]] and [[acpx]] invest heavily in protocol translation and normalisation. The open question is whether this is a temporary bridge as harnesses converge on common protocols like ACP and MCP, or a permanent architectural need as harnesses differentiate rather than converge.
 
 ## What's Missing
 
