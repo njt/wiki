@@ -1,6 +1,6 @@
 # Wiki Index
 
-507 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+508 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -643,6 +643,7 @@ Papers, model capabilities, training techniques, and the state of the field.
 - [[TrapQA — Testing Reasoning Against Priors]] — UW-Madison benchmark diagnosing hallucination as "inference misalignment": the gap between what prompt constraints demand and what statistical associations push toward. Models ace isolated probes but fail comparative questions
 - [[Grok 4.3 (HN Discussion)]] — 529-comment HN thread that accidentally mapped the LLM landscape: tone registers, the alignment tax's real victims, why users disable memory, and recursive training contamination
 - [[DeepSeek Reverse Engineers TeamSpeak Licensing]] — First public field report of LLM binary RE: DeepSeek cracked TeamSpeak 3.13.8 for $3.88, while Claude/Grok/GLM all refused; safety-through-refusal is a temporary filter
+- [[DeepSeek V4 Flash 0731 ARC-AGI Results]] — DeepSeek V4 Flash scores 89.0% on ARC-AGI-1 and 61.4% on ARC-AGI-2 at $0.02–0.04/task across three reasoning-effort variants; the 15.4pp Max→Low gap on ARC-AGI-2 is the cleanest public quantification of when reasoning depth actually pays off
 - [[Interfaze (Model Architecture)]] — Hybrid DNN+transformer architecture routing deterministic tasks (OCR, STT, object detection) through specialized subnetworks via task tags; launch-day HN field test with real latency and accuracy data
 - [[MiniMax Models]] — Full model lineup: text (M2.7), speech (40 languages), video (Hailuo), and music. Three-layer API compatibility strategy with local MLX deployment
 - [[Notes from the AI Now Summit by Mistral]] — Van Gilst's field report from Mistral's Paris summit: full-stack pivot, specialized small models, on-prem sovereignty as moat, and the "model alone isn't enough" thesis
