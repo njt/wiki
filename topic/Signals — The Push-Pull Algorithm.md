@@ -107,6 +107,7 @@ When `useExpensive` flips, the old subscription to `expensive` is cleaned up, an
 - [[Apache Burr]] — State machines as the explicit version of what signals do implicitly
 - [[Event-Driven vs Polling Architectures]] — The push side of signals is event-driven invalidation; the pull side is polling on read
 - [[The Valley of Webhooks]] — The same push-to-pull inversion at the API integration scale: flip from provider-push webhooks to consumer-pull change logs, and the dedup/ordering/bootstrap stack collapses the way eager recomputation collapses under lazy signals
+- [[React useMemo and useCallback]] — Josh Comeau's explainer makes the tradeoff concrete: React's `useMemo`/`useCallback` are the manual-dependency-array version of what signals do automatically. Signals eliminate stale-dependency bugs at the cost of a different primitive; React's explicit dependencies give more control at the cost of more discipline
 
 ---
 

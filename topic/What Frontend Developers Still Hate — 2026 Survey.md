@@ -72,6 +72,7 @@ The author's central argument, and the one that survives the vendor pitch. Bette
 - [[Performative UI]] — Satirical catalog of frontend tropes; the design-convergence risk when AI generates from statistical patterns
 - [[Smart Models Dumb Pipes]] — LLMs as judgment machines; the architecture that might keep AI in the decision role while deterministic tools handle constraint enforcement
 - [[Agentic Testing]] — Slack's empirical study of agent-driven testing; same pattern of AI struggling with complex, constraint-heavy domains
+- [[React useMemo and useCallback]] — Josh Comeau's definitive mental-model explainer for the hooks AI most often misuses; his "profile first, optimize in response to data" discipline is exactly what AI-generated React code lacks
 
 ---
 *Sources: [[raw/ai-cant-solve-all-frontend-developers-survey]]*
