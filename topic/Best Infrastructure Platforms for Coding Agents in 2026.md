@@ -26,6 +26,8 @@ The isolation taxonomy matters. gVisor (syscall interception in userspace) vs. F
 
 ## Key Themes
 
+Not covered in the survey but worth noting: Google's [[Agent Substrate]] operates one layer below these platforms. While Modal/E2B/Daytona provide sandboxed execution on demand, Agent Substrate multiplexes many agents onto a small pool of always-warm workers via gVisor or micro-VM checkpoint/restore — solving the density problem (idle agents consume zero compute) rather than the cold-start problem. It's a complementary approach: you could run Substrate on Modal's infrastructure, using Substrate to manage agent lifecycles and Modal to provision the underlying workers.
+
 #infrastructure #coding-agents #sandboxing #serverless #GPU #cloud #containers #platform-comparison
 
 ---

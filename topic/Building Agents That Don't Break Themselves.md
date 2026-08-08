@@ -16,7 +16,7 @@ This is the practical corollary. A durable agent home (with persistent memory, i
 
 > "Checkpointing before every risky step is cheap enough to be a reflex."
 
-The concrete implementation detail that makes the philosophy actionable. Copy-on-write checkpointing turns the risk calculation from "will the agent break itself?" to "do I mind losing the last 500ms of work?" The latter is always no. This is the same insight as [[Postgres Transactions Are a Distributed Systems Superpower]] applied to agent execution.
+The concrete implementation detail that makes the philosophy actionable. Copy-on-write checkpointing turns the risk calculation from "will the agent break itself?" to "do I mind losing the last 500ms of work?" The latter is always no. This is the same insight as [[Postgres Transactions Are a Distributed Systems Superpower]] applied to agent execution. At cluster scale, [[Agent Substrate]] generalizes this pattern: its control plane suspends idle agents to disk and resumes them on any available worker in under a second, making checkpoint/restore the core scheduling primitive rather than a safety net.
 
 > "Telling your agent to be careful is silly. Just make it do things somewhere it doesn't have to be."
 
