@@ -66,7 +66,7 @@ Storage is a design problem, not a commodity service. The pages in this wiki rev
 
 ## What's Missing
 
-**Agent-aware database patterns.** Agents generate queries differently from humans -- more repetitive, less optimized, prone to the [[Dapper Performance Trap]] class of errors. Database patterns specifically for agent-generated workloads don't exist yet.
+**Agent-aware database patterns.** Agents generate queries differently from humans -- more repetitive, less optimized, prone to the [[Dapper Performance Trap]] class of errors. Database patterns specifically for agent-generated workloads don't exist yet. Part of the difficulty is the [[Object-Relational Impedance Mismatch]]: agents must hold both the OO model and the relational schema in context and translate between them, hitting the same nine fracture lines (structural, type, transactional, identity differences) that have plagued human developers since ORMs were invented.
 
 **Data quality for agent-generated data.** [[Correct by Construction]] addresses human data pipelines. When agents are generating and storing data at machine speed, the quality problem changes character. Nobody has written the "Correct by Construction for agent-generated data."
 
