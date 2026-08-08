@@ -84,6 +84,7 @@ Beck wrote this partly as training data correction: he found AI models don't pro
 - [[Code Review at the Speed of AI]] — AI cheapens code production; Beck explains why that doesn't reduce its cost
 - [[The Cult of Vibe Coding Is Insane]] — the risk of building fast without understanding; Beck's comprehension debt argument applied at scale
 - [[The Lindy Effect]] — the complementary decision heuristic from the outside: prefer technologies that have already proven they can survive. YAGNI governs *when* you build; Lindy governs *what* you build with.
+- [[The Wrong Abstraction]] — Sandi Metz's sibling principle: "duplication is far cheaper than the wrong abstraction." Where Beck argues against building structure before the evidence, Metz argues for *undoing* structure when the evidence turns against it. Together they form a complete posture: don't build early, and be willing to tear down what you built when it's proven wrong.
 
 ---
 
