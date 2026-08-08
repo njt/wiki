@@ -62,4 +62,8 @@ The "anti-AI slop register" concept — a list of invariants and codebase-specif
 ---
 
 *Sources: [[raw/platform-engineering-ai-harness]], [[summary/platform-engineering-ai-harness]]*
-*Last updated: 2026-08-07*
+*Last updated: 2026-08-08*
+
+## Updates
+
+- **2026-08-08:** [[Managing AI Coding Costs at Scale]] provides the concrete infrastructure that makes the platform-as-control-plane argument operational: the **AI Gateway** (Databricks's Unity AI Gateway, but the concept generalizes) is the central location for model menu management, unified cost observability, context enforcement, caching configuration, and routing/rate limiting — exactly the scope this page argues platform teams should own.

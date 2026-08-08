@@ -81,6 +81,7 @@ The Jevons paradox rebuttal to the "costs are falling" argument is the most impo
 - [[Inference Cost Napkin Math]] — The technical companion: KV-cache hit rate IS your margin, duty cycle as the 5× multiplier
 - [[AI Pricing]] — Model pricing data across providers; the raw inputs to the margin-quality tradeoff
 - [[AI Value Chain]] — Where durable value sits across the AI stack; the three questions that determine who captures margin
+- [[Managing AI Coding Costs at Scale]] — The solutions companion: Databricks's cross-company playbook (Stripe, Coinbase, Uber, Ramp) for the cost problem this page diagnoses — efficiency-frontier model selection, meta-harnesses, progressive budgets, context reduction, and the AI Gateway as infrastructure
 - [[The AI Productivity Paradox]] — Output vs. outcomes; this piece adds: even *good* outcomes may not produce good margins
 
 ---
