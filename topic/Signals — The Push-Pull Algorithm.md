@@ -108,7 +108,8 @@ When `useExpensive` flips, the old subscription to `expensive` is cleaned up, an
 - [[Event-Driven vs Polling Architectures]] — The push side of signals is event-driven invalidation; the pull side is polling on read
 - [[The Valley of Webhooks]] — The same push-to-pull inversion at the API integration scale: flip from provider-push webhooks to consumer-pull change logs, and the dedup/ordering/bootstrap stack collapses the way eager recomputation collapses under lazy signals
 
----
+- [[React Component Purity]] — React's complementary approach to the same reactivity problem: instead of tracking mutation through a graph, eliminate the tracking problem entirely by making renders pure calculations over immutable inputs. Signals surgically update; React re-renders the world from clean state. Two different bets on where the complexity should live
 
+---
 *Sources: [[summary/signal-the-push-pull-based-algorithm]]*
-*Last updated: 2026-06-21*
+*Last updated: 2026-08-08*
