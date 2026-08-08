@@ -73,6 +73,7 @@ The best one-liner in the talk, and also the most dangerous. Developer intuition
 - [[Eval-Driven Development (Airbnb)]] — The eval framework that could be applied to AI-assisted optimization suggestions: benchmark results as evals, regression detection as the quality gate
 - [[Queues Don't Fix Overload]] — Hebert's argument that queues treat symptoms, not causes; Gordon's loop is the causal approach to performance problems
 - [[Lean, Not Backpressure]] — Lean manufacturing applied to software; Gordon's optimization loop is single-piece flow applied to code changes
+- [[React useMemo and useCallback]] — Josh Comeau applies the same measurement-first discipline to React: profile with the React Profiler before reaching for `useMemo` or `useCallback`, and wrap only the hot paths — the frontend instance of Gordon's loop
 
 ---
 *Sources: [[raw/34460de457cb2f63069845db0e3f7d4d]], [[summary/34460de457cb2f63069845db0e3f7d4d]]*
