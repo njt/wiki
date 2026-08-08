@@ -67,6 +67,7 @@ What's remarkable in retrospect is how many things that are now obvious were not
 - [[Smart Models Dumb Pipes]] — the guide's "separate concerns" rule is the same end-to-end principle: paths identify, bodies carry, headers communicate
 - [[Better Error Messages]] — the guide's structured error format anticipates the principle that errors are part of the API surface
 - [[Queues Don't Fix Overload]] — token bucket rate limiting in the guide aligns with Fred Hebert's "identify the bottleneck, then back-pressure"
+- [[Stevey's Google Platforms Rant]] — the strategic argument that makes guides like this existentially important: Yegge's case that every service interface must be "designed from the ground up to be externalizable," and that product companies that skip this step get replaced by platform-ized competitors
 
 ---
 *Sources: [[raw/http-api-design-guide]]*

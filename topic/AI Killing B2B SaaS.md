@@ -22,7 +22,7 @@ The "become a system of record" strategy connects to lock-in dynamics. If your S
 
 ## Critical Analysis
 
-The piece is right about the threat and right about the response, but undersells the magnitude of the shift. The "become a platform" advice sounds strategic but is brutally hard to execute. Most B2B SaaS companies were built as feature sets, not platforms. Retrofitting an API-first architecture onto a monolithic product is a multi-year, multi-million-dollar effort. By the time you've done it, the market may have moved.
+The piece is right about the threat and right about the response, but undersells the magnitude of the shift. The "become a platform" advice sounds strategic but is brutally hard to execute. Most B2B SaaS companies were built as feature sets, not platforms. Retrofitting an API-first architecture onto a monolithic product is a multi-year, multi-million-dollar effort. By the time you've done it, the market may have moved. [[Stevey's Google Platforms Rant]] is the canonical treatment of this exact problem: Amazon pulled it off, but only because Bezos mandated it from the top with termination as the enforcement mechanism — and it still took years of operational pain.
 
 There's also a cost-side dimension the piece doesn't address: even if nobody rebuilds your product, the AI features you add to stay competitive carry inference costs that compress your margins from the traditional 75-85% SaaS baseline toward the ~52% observed in AI-native products. [[Unit Economics of AI Software]] argues this structural margin compression, not just customer defection, is what breaks the SaaS venture math.
 
