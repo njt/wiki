@@ -58,4 +58,8 @@ Not "allow/deny git" — *contextual* policy that chains events. The policy engi
 - [[bb — The Agent Orchestrator as Normalizer]] — Convergent design at a lower layer: bb wraps harnesses by speaking their native protocols (JSON-RPC, ACP, SDK) through per-provider adapters rather than wrapping at the user-facing I/O layer. Where Omnigent bets on abstraction ("messages in, streams out"), bb bets on adaptation — each harness keeps its full capabilities but produces a shared event model on the way out. The trade-off is fidelity vs. adapter engineering cost
 
 ---
-*Source: Databricks blog, 2026-06-13. Authors: Matei Zaharia, Kasey Uhlenhuth, Corey Zumar. Last updated: 2026-07-18 (Traycer cross-link).*
+*Source: Databricks blog, 2026-06-13. Authors: Matei Zaharia, Kasey Uhlenhuth, Corey Zumar. Last updated: 2026-08-08.*
+
+## Updates
+
+- **2026-08-08:** [[Managing AI Coding Costs at Scale]] (from the same Databricks team) frames Omnigent as cost infrastructure: the meta-harness preserves model independence, which is the #1 cost lever — being able to switch spend to cheaper models without forcing developers to switch tools. Paired with Unity AI Gateway for central cost observability and model menu management, it's the toolchain half of their dual-mandate (broad access + predictable costs) architecture.

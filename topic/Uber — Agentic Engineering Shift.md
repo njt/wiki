@@ -123,6 +123,7 @@ The infrastructure lessons (MCP gateway, background agents on your own infra, co
 - [[Experience Design for Agents]] — Adoption is UX, not model capability
 - [[Loop Engineering]] — The meta-skill Uber's platform enables
 - [[Why Agents Matter More Than Other AI]] — The CFO's case, and the cost problem that complicates it
+- [[Managing AI Coding Costs at Scale]] — Databricks's cross-company playbook (including Uber as a named source) generalizes Uber's tiered routing and cost-visibility patterns into five techniques applicable across orgs; the "progressive budgets over hard caps" pattern and AI Gateway concept are the standout additions to Uber's cost story
 - [[StrongDM Factory Techniques]] — DTU and the toil-first pattern
 
 ---
