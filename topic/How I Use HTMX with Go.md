@@ -52,6 +52,8 @@ Edwards' configuration defaults are opinionated in the best way: every choice ha
 
 **Edwards and Rafa cover complementary halves of the HTMX development problem.** Edwards provides the Go backend patterns (template architecture, `htmlRenderer`, dual-mode handlers); [[Progressively Enhanced Forms with HTMX]] provides the framework-agnostic interaction-design patterns (transient-state techniques, progressive-enhancement workflow, form-splitting for Enter-key behavior). The two articles read as a paired set: backend infrastructure + frontend interaction design. Rafa's build-without-JS-first discipline — write the whole feature with plain forms, then sprinkle HTMX on top — is the workflow that makes Edwards' dual-mode handler pattern actually pay off in practice.
 
+**The dual-mode handler pattern is HATEOAS in code.** Edwards' `isHTMXRequest(r)` check — return a partial for HTMX, return a full page for direct navigation — is the self-descriptive messages constraint from [[Components of a Hypermedia System]] operationalized as a Go handler. The server encodes what the client needs in the response itself, and the `Vary: HX-Request` header ensures caches respect that encoding. Fielding's architectural constraint, Edwards' 30-line Go type, same idea at different levels of abstraction.
+
 ---
 
 *Sources: [[raw/how-i-use-htmx-with-go]]*

@@ -56,6 +56,8 @@ Compared to [[Good API Design]], the Heroku guide is the prescriptive, enumerabl
 
 What's remarkable in retrospect is how many things that are now obvious were not obvious in 2013. Structured errors weren't standard. JSON:API didn't exist. GraphQL didn't exist. REST was still being debated as a concept. This guide was quietly being right about everything while the industry fought format holy wars. The winning strategy wasn't being clever; it was being consistent and boring — exactly what the guide recommends.
 
+**A note on terminology: this guide describes JSON APIs, not RESTful systems.** Per [[Components of a Hypermedia System]], Fielding's original definition of REST requires hypermedia controls and self-describing messages — properties that a JSON API without hypermedia links structurally cannot satisfy. The Heroku guide's conventions are excellent API design, and they remain the industry's de facto standard for HTTP+JSON services. But in Fielding's taxonomy they describe a data API, not a RESTful hypermedia system. The distinction matters because hypermedia APIs don't need versioning (the response encodes available operations) while JSON APIs do (the client must know URL structures and methods from documentation). The Heroku guide's versioning rules are necessary precisely because JSON APIs aren't RESTful.
+
 ## Cross-links
 
 - [[Good API Design]] — the philosophical companion: Goedecke explains *why* boring APIs win; this guide spells out *how* to build one
