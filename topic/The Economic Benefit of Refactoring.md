@@ -54,6 +54,8 @@ The author's amusement at an AI writing fragile text-processing scripts to refac
 
 ## Critical Analysis
 
+**The YAGNI connection:** Fowler's [[YAGNI]] article (2015) established that refactoring and YAGNI are mutually enabling — refactoring makes code malleable, which makes deferring features safe; YAGNI keeps complexity low, which makes refactoring easier. The 2026 experiment closes the economic loop: refactoring doesn't just enable YAGNI philosophically, it produces measurable token-cost returns that compound across every future agent session.
+
 **What's established:** This is the first empirical measurement of refactoring ROI in an agentic codebase. It validates what many practitioners have suspected — that cleaner, better-decomposed code is cheaper for agents to work with. The experimental design (exploiting agent amnesia for controlled measurement) is elegant and reusable. The finding that total lines stay flat while costs drop is important: it recalibrates the conversation from "how much code" to "how is it organized."
 
 **What's suggestive but not proven:** The single-experiment, single-change, single-codebase design means generalizability is unknown. Would the same pattern hold for complex changes that touch multiple modules? For greenfield code vs. brownfield? For TypeScript vs. Rust? The representative change was a straightforward CRUD feature; real-world changes are messier.

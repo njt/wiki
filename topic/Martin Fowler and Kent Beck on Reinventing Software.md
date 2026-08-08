@@ -110,6 +110,7 @@ The core ideas of agile were good. What grew around them — certifications, con
 
 - [[Software Engineering Craft]] — Hub for craft fundamentals
 - [[The Joy and Power of Understanding]] — Understanding as both pragmatic path and intrinsic reward
+- [[YAGNI]] — Fowler's canonical 2015 bliki entry: the four-cost framework for presumptive features, and the enabling relationship between YAGNI and refactoring that underpins his later work
 - [[The Cost YAGNI Was Never About]] — Beck's own reframing of YAGNI as options pricing
 - [[Vibe Coding as a Team Sport]] — Kasparov insight applied to software: process matters more than raw capability
 - [[Software Engineering at the Tipping Point]] — Adam Bender's 10× amplifier framing

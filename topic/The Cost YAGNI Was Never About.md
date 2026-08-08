@@ -10,7 +10,7 @@ Kent Beck reframes YAGNI from a programmer's thrift slogan into two pieces of pr
 
 > "When you build structure before the feature arrives, you're committing on a guess."
 
-Beck draws on options-pricing theory. An unexercised option has time value — the right to act once you have better information. Building structure early exercises that option before expiry. You discard the value of waiting.
+Beck draws on options-pricing theory. An unexercised option has time value — the right to act once you have better information. Building structure early exercises that option before expiry. You discard the value of waiting. Beck's argument extends Fowler's original [[YAGNI]] article (2015), which established the four-cost framework — build, delay, carry, repair — that Beck's options-pricing and NPV bills complement.
 
 > "The value was never in the structure. The value was in the option to build the right structure once you knew."
 
