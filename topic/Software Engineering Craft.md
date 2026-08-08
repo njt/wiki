@@ -19,6 +19,8 @@ The fundamentals don't change even as agents rewrite the tooling layer. Error ha
 
 Both become more important in an agent world. Agents generate API calls at scale, retry without understanding failure semantics, and can't tell the difference between transient and permanent errors unless the API explicitly communicates it.
 
+A deeper API design question runs beneath both: library or framework? [[Libraries over Frameworks]] traces Tomas Petricek's 2015 argument that libraries (called by your code) compose, explore, and test better than frameworks (which own the control flow and call you). The distinction is structural, not cosmetic — it determines whether two pieces of code can be used together at all.
+
 ### Language Design Fundamentals
 
 [[What Color is Your Function]] is Bob Nystrom's classic diagnosis of the "function coloring" problem: when a language splits functions into async ("red") and sync ("blue"), composition breaks because async infects every caller upward through the callstack. The article traces this to the need to unwind the stack during async IO, identifies green threads as the only genuine solution, and argues that languages like Go and Erlang got this right while JavaScript, Dart, C#, and Python chose a local maximum. A decade later, it remains the clearest explanation of why async/await feels like a hack even when it works — and why the coloring property of a language becomes a multiplier on agent code quality: agents make the same composition mistakes humans do, but faster and with less judgment.
