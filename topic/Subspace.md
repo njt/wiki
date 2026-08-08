@@ -52,6 +52,8 @@ The shared lifecycle (`invocation-common`, 213 lines) performs rigorous prefligh
 
 [[Aviator Verify]] replaces code review with intent-based verification (did the agent do what was agreed?). Subspace doesn't verify intent; it collects human feedback that a workflow might later consume. They're complementary layers in a verification stack.
 
+[[Hunk]] is the complementary tool in the terminal-native review stack: where Subspace handles human→agent feedback (structured comments and suggested edits returned to the agent session), Hunk handles agent→human rendering (agent annotations overlaid inline on diffs for humans to read). Both use sidecar patterns to keep structured feedback separate from the code it annotates.
+
 [[cmux]] is one of Subspace's supported terminals — a macOS-native terminal built on libghostty designed for managing multiple AI coding agent sessions. Subspace integrates with cmux's `new-surface`/`respawn-pane`/`close-surface`/`focus-panel` API, and cmux is the only terminal entry that provides explicit post-review surface cleanup.
 
 ---

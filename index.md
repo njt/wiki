@@ -461,6 +461,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Nektos Act]] — Run GitHub Actions workflows locally in Docker: full expression evaluator, YAML-level interpolation, and composable functional executor pipeline
 - [[Component Model 1.0]] — Bytecode Alliance's roadmap to a stable Wasm Component Model: lazy ABI, browser native support via jco telemetry, spec simplification, and the WIT expressivity gaps that remain
 - [[Git Diff Drivers]] — git's external diff driver interface: the 7-argument contract, `/dev/null` lifecycle sentinels, and a worked `oasdiff` example
+- [[Hunk]] — Terminal diff viewer built for the agentic review workflow: continuous-stream changeset rendering, agent annotations overlaid inline via sidecar pattern, adaptive layout, and keyboard-first navigation
 - [[Google Workspace CLI]] — One Rust CLI for all Google Workspace APIs. Dynamic command surface
 - [[Google Workspace CLI Skills]] — Structured skill catalog: 19 services, 25 helpers, 10 personas, 40 recipes. A designed taxonomy for agent-tooling
 - [[VHS]] — Terminal GIF recorder from Charm. Write recordings as scripted .tape files
