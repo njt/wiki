@@ -46,7 +46,7 @@ Not all codebases are equally harness-friendly. Strongly typed languages, clear 
 
 ### The Steering Loop
 
-Humans improve the harness iteratively: observe agent failures, add controls, test whether they work. The agent itself can help — generating custom lint rules, structural tests, documentation. This is [[Compound Engineering]]'s compounding loop expressed as a control theory concept, and it maps to [[Feedback Loop is All You Need]]'s self-tightening loop (Agent -> Rules -> CI -> Observability -> Tasks -> Agent).
+Humans improve the harness iteratively: observe agent failures, add controls, test whether they work. The agent itself can help — generating custom lint rules, structural tests, documentation. This is [[Compound Engineering]]'s compounding loop expressed as a control theory concept, and it maps to [[Feedback Loop is All You Need]]'s self-tightening loop (Agent -> Rules -> CI -> Observability -> Tasks -> Agent). [[DSPy — Programming Not Prompting]] applies the same steering loop to a narrower surface: its optimizers automate the observe→tune→test cycle for prompt engineering, treating the prompt as a search space rather than a craft artifact — a feedforward computational control that removes the human from the prompt-tuning loop entirely.
 
 ### Ashby's Law
 

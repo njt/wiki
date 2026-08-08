@@ -103,6 +103,7 @@ Practices, workflows, and opinions about building software with AI coding agents
 
 How to build agents: frameworks, runtimes, design patterns, and production concerns.
 
+- [[DSPy — Programming Not Prompting]] — Stanford NLP's Python framework that replaces hand-written prompts with typed signatures compiled into optimized prompts: signatures define tasks, modules control execution, optimizers tune automatically. The structural answer to [[Prompt Debt]]
 - [[Agentic Design (Pattern Catalog)]] — KORTEXYA's free searchable architecture catalog: 280+ patterns, 280+ techniques, 900+ use cases, and interactive demos for designing AI agents by constraint (reliability, latency, cost, safety). The pattern-language model applied to agent architecture
 - [[ZIL — Relational Language Embedded in Lean 4]] — Relational metadata DSL embedded in Lean 4 with Horn-rule evaluation, stratified negation, provenance tracking, and deterministic agent-context handoff from formal project relationships
 - [[Your Knowledge Graph Is Making Your Agent Dumber]] — Praveen Vijayan's empirical takedown: Graphify on a 605-file TypeScript monorepo returned 170 nodes with 5% relevance; ripgrep returned 35 lines at 100% relevance in 0.01s. Knowledge graphs of code add noise agents can't filter; document graphs are the tool's real strength
