@@ -401,6 +401,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 - [[Session Revocations at Scale (Canva)]] — Llew Vallis on Canva's rebuild of its session revocation cache: 8× memory reduction via 16-byte binary format, S3 over Redis as the distribution layer, and the finding that network latency, not sorting, is the real bottleneck at hundreds of millions of users
 - [[Reduce Logging Costs]] — Michael Shpilt's five-strategy taxonomy for cutting observability spend: sampling, tiered storage, in-code cleanup, vendor migration, and the nuclear option of killing INFO logs. Core thesis: sustainable savings come from reducing telemetry before it leaves the application, not cheaper storage after the fact
 - [[Unnecessary Optimization in Rust]] — Evan Schwartz benchmarks six Hamming distance implementations across three platforms, finds his 23-line auto-vectorizable crate beats hand-tuned C SIMD libraries, and lands on the compiler-trust thesis: write code the optimizer can reason about, not platform-specific intrinsics
+- [[Grug Brain Developer]] — Cult-classic essay on software development disguised as caveman-speak: complexity is the apex predator, "no" is the best weapon, wait for cut points before abstracting, integration tests are the sweet spot, and impostor syndrome is universal. The folk-wisdom companion to [[Software Engineering Craft]]
 
 ## Databases & Data
 

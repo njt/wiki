@@ -22,6 +22,8 @@ Both become more important in an agent world. Agents generate API calls at scale
 
 [[Simplicity in the Age of AI-Assisted]] argues that LLMs are more valuable as demolition tools than construction tools -- the real unlock is cheap rebuilds without inherited complexity. But [[Systems Ideas That Sound Good]] warns about eight engineering patterns that sound like simplification and actually shift complexity to where it's less visible: pluggability, over-abstracting, DIY async, deferred security, data sync, cross-platform, escape to native. Sinofsky's catalogue is essential reading for anyone tempted to "simplify" with a new abstraction layer.
 
+[[Grug Brain Developer]] is the folk-wisdom companion to this whole conversation: complexity is "the apex predator of grug," the best weapon is the word "no," and abstractions should wait for natural "cut points" to emerge rather than being designed up front. The essay's advice to "put code on the thing that do the thing" (Locality of Behavior) is the same instinct behind preferring comprehensibility over architectural elegance.
+
 [[Nobody Knows How Large Software Projects Work]] names the uncomfortable truth: complexity at scale is inherent, not a staffing or process failure. The system is unknowable not because of poor engineering but because of successful product development. Documentation fails because the system changes faster than anyone can write it down. The answer from other pages: observability ([[The Future of Software Engineering is SRE]]), spec-first development ([[Spec-Driven Development]]), and radical simplification.
 
 ### Operations as the Differentiator
@@ -111,4 +113,5 @@ This is an area to grow. Seven of the wiki's ~990 topic pages cover C#/.NET spec
 - [[A Field Guide to Bugs]] — Stephen Diehl's poetic taxonomy of 30+ bug species from Bohrbug to Omega Bug: half CS folklore, half literary performance, and the sharpest diagnosis of LLM-era failure modes in print
 - [[Book OCR Project Report — Structured Workflow Runtime and Manual PDF Repair]] — Manuel's full-arc project report: 202-page scanned book OCR, custom Go workflow runtime, structured JSON boundaries, and a day-long manual PDF repair loop that found five distinct failure classes. A masterclass in model-output engineering
 - [[The Lindy Effect]] — Technology-choice heuristic: bet on things that have already survived. The probabilistic argument for craft over novelty.
+- [[Grug Brain Developer]] — Cult-classic essay on complexity as the apex predator, saying no, waiting for cut points, and the craft wisdom that doesn't change
 - [[Software Engineering Practice Atlas]] — 4,654-entry AI-generated reference map across five practice areas and 25 domain guides; the most ambitious attempt to catalog software engineering craft as a navigable map rather than a linear text
