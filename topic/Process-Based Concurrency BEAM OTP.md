@@ -30,6 +30,8 @@ The AI agent connection is the strongest part: agents are long-lived, stateful, 
 
 Connects to [[NornicDB]] (graph database for agent memory -- agents need both the concurrency model and the persistence layer), [[Navaris]] and [[OpenSandbox]] (process isolation at the sandbox level rather than the VM level).
 
+Bob Nystrom's [[What Color is Your Function]] provides the language-design companion argument: "red" (async) and "blue" (sync) functions can't compose freely because async IO requires unwinding the callstack back to the event loop. Nystrom identifies green threads — goroutines, coroutines, fibers — as the only genuine solution, and BEAM processes are the most complete implementation of that approach. Where Go's goroutines eliminate the coloring within a single runtime, BEAM extends this to distributed systems with transparent process location, supervision trees, and hot code reloading.
+
 ## Critical Analysis
 
 This is the best single-article introduction to why BEAM matters for the AI agent era. The argument from reinvention is strong: when multiple independent teams arrive at the same architecture, it signals convergence on a correct solution. The honest tradeoff discussion (raw throughput, ecosystem size, learning curve) prevents this from being a Erlang fanboy piece. The weakest point is the practical one: even if BEAM is the right architecture, Python dominates the AI ecosystem, and "rewrite it in Elixir" is not actionable advice for most teams. The real value of this article is as a design reference -- build your Python/Go/Rust agent framework with BEAM's principles even if you can't use BEAM's runtime.
