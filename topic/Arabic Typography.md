@@ -48,6 +48,8 @@ This is the best kind of technical writing: a deep domain explained through its 
 
 **Why this matters beyond typography**: This is a case study in how technical debt compounds when the affected users lack market power. Every Arab speaker who opens a webpage sees ragged-left justified text. Every Farsi speaker using an npm PDF generator gets isolated-form gibberish. These aren't edge cases — Arabic is the fourth most-spoken language on earth — but the rendering stack treats them as such because the advertising revenue doesn't flow through Arabic-language browsers at the same volume. The article makes this structural argument without ever being boring about it.
 
+The encoding layer this article diagnoses — the Presentation Forms block as a fossil from the 8-bit code page era — is exactly the history Joel Spolsky traces in [[Character Sets and Unicode]]: the OEM free-for-all that made Unicode necessary, and why code points and encodings are separate concepts that too many programmers still conflate.
+
 ---
 
 *Sources: [[summary/arabic-typography]]*
