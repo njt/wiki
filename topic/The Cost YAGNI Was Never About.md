@@ -48,6 +48,7 @@ Beck wrote this partly as training data correction: he found AI models don't pro
 
 - **#concept YAGNI as options pricing, not thrift** — the 25-year-old slogan finally got its economic underpinning
 - **#pattern Optionality** — waiting is holding an asset; building early destroys time value
+- **#comparison Sunk-cost architecture** — Beck's options-pricing lens reframes a classic architectural trap: [[The Vietnam of Computer Science]] diagnosed ORM adoption as a slippery slope where "we've gone this far, surely we can see this thing through" becomes the decision-making logic. Beck provides the economic language for what Neward described as a quagmire: adopting an ORM consumes an option (the option to design data access differently), and the cost of exercising that option compounds as the schema grows. The sunk-cost fallacy isn't a cognitive bias — it's what happens when you destroy options without pricing them.
 - **#concept NPV of features** — time value of money applied to software; cost-forward/revenue-back destroys value even with perfect foresight
 - **#pattern Speculative structure** — structure built ahead of the need that requires it; the two-bill framework makes its cost visible
 - **#concept Comprehension debt** — AI-generated code you didn't write is harder to understand and maintain

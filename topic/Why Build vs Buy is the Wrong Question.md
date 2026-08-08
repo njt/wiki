@@ -44,6 +44,8 @@ The anticorruption layer argument is the most transferable insight. Every team t
 
 The piece pairs well with [[The Minimum Viable Unit of Saleable Software]] (Brandur's buy-vs-build economics in the LLM era) and [[The Case Against Building Your Own Agent Platform]] (Pete Johnson's build-vs-buy triage for agent infrastructure). Together they form an emerging pattern: the build-vs-buy question keeps getting asked because the wrong framing keeps getting used. Evans gave us the taxonomy 23 years ago. The AI cost shift makes it urgent to actually use it.
 
+A classic case study of this framework in action is the Object/Relational Mapping decision. [[The Vietnam of Computer Science]] is essentially a build-vs-buy autopsy of ORM as a "buy" decision for data access: the integration cost (mapping complexity, the anticorruption layer every team builds around their ORM, the dual-schema problem) is exactly the hidden friction James warns about. Neward's six possible responses map cleanly onto Evans's subdomain types — and his conclusion that no single answer works for every project is James's argument restated: the question isn't "should we use an ORM," it's "what kind of data access does this subdomain actually need?"
+
 ---
 
 *Sources: [[summary/why-build-vs-buy-is-the-wrong-question]]*
