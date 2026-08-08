@@ -16,7 +16,7 @@ The three-tier framework is practical. Tier 1 (input quality for specific querie
 
 The anchor/attribute/link decomposition is essentially a normalized data model, but framed as a quality methodology rather than a schema design pattern. By forcing every dataset into two-column form (ID + value) and banning NULLs, sentinel values, and unrestricted JSON, it eliminates entire categories of downstream bugs. The insight that "sentinel values" like empty strings and "UNKNOWN" are just NULLs in disguise is especially sharp.
 
-This connects to [[Write Snapshot Isolation]] in philosophy: both argue that correctness should be structural rather than detected after the fact. It also connects to [[Data Engineering for Large Models]] -- the LLM training pipeline needs exactly this kind of disciplined data curation.
+This connects to [[Write Snapshot Isolation]] in philosophy: both argue that correctness should be structural rather than detected after the fact. It also connects to [[Data Engineering for Large Models]] -- the LLM training pipeline needs exactly this kind of disciplined data curation. [[Parse Don't Validate]] is the same idea expressed through a type-system lens: instead of validating data and discarding what you learned, parse it into a refined type whose structure makes the invariant visible to the compiler. Correct by Construction uses normalized schemas as the enforcement mechanism; Parse Don't Validate uses the language's type checker. The two complement each other — schemas prevent data errors, types prevent logic errors.
 
 ## Critical Analysis
 
