@@ -22,7 +22,7 @@ Three patterns do the heavy lifting: the **outbox** (messages inserted within th
 
 The error handling is particularly sharp: include an explicit `is_transient` boolean in error responses instead of making clients guess from HTTP status codes. Transient errors are not cached; non-transient errors are. A "completer" process retries stuck requests, and a "reaper" cleans up terminal keys after 72 hours.
 
-This connects directly to the operational reliability themes in [[The Future of Software Engineering is SRE]] -- passive safety is how you make the "other 190%" survivable. It also echoes the distributed systems principles in [[Building Production-Ready Voice Agents]], where every API call needs timeouts, circuit breakers, and graceful degradation.
+This connects directly to the operational reliability themes in [[The Future of Software Engineering is SRE]] -- passive safety is how you make the "other 190%" survivable. It also echoes the distributed systems principles in [[Building Production-Ready Voice Agents]], where every API call needs timeouts, circuit breakers, and graceful degradation. The same "cannot fail" instinct shows up at the type level in [[Type Safety Back and Forth]]: narrowing input types until failure is structurally impossible, not just gracefully handled — the type-level equivalent of idempotency keys.
 
 ## Critical Analysis
 

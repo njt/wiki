@@ -14,6 +14,8 @@ The fundamentals don't change even as agents rewrite the tooling layer. Error ha
 
 [[Good API Design]] complements both from the strategic level: Goedecke argues that boring, immutable APIs win -- product value matters more than interface elegance, cursor pagination beats offsets, and GraphQL is a complexity tax. Where Albaugh gives the mechanical engineering, Goedecke gives the design philosophy.
 
+[[Type Safety Back and Forth]] adds a type-level dimension: when you push failure responsibility backward — demanding stricter argument types that *cannot* fail rather than returning `Maybe` and hoping callers handle it — you concentrate uncertainty at the system's edges and make everything inside total and composable. This is the same passive-safety instinct applied at the type level rather than the operational level.
+
 Both become more important in an agent world. Agents generate API calls at scale, retry without understanding failure semantics, and can't tell the difference between transient and permanent errors unless the API explicitly communicates it.
 
 ### Simplicity and Comprehensibility
