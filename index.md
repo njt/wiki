@@ -222,6 +222,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[OpenViktor]] — 48-hour AI employee platform that hit #3 on Product Hunt, then was killed and rebuilt as Jared. Blog post is password-protected; reconstructed from secondary sources
 - [[Optimise Anything]] — Universal API: if it serializes to a string and quality is measurable, optimize it
 - [[DSL-Driven Kanban Boards (Goja-Site)]] — Chainable JavaScript DSLs compose an entire kanban app declaratively: board, rendering, drag-drop, search, and DB — then mount on a router
+- [[DSPy Flex — Let the Model Write the Code]] — DSPy's Flex module exposes both instructions and code to the optimizer, letting GEPA rewrite programs (decompose, route, write helpers) guided by a metric; the model becomes a last-resort fallback as deterministic code handles easy cases
 - [[DAB]] — Microsoft's Data API Builder: REST, GraphQL, and MCP over any database
 - [[Xano]] — No-code backend platform: AI-generated Postgres, APIs, auth, and logic with visual transparency as governance. Enterprise case studies at €22M/month scale
 - [[InsForge]] — Open-source BaaS for coding agents: Postgres+RLS, auth, S3 storage, Deno functions, Stripe, OpenRouter — all exposed as MCP tools. Supabase for agents
