@@ -80,6 +80,7 @@ The constraint decay paper ([[Constraint Decay]]) finds that "convention-heavy f
 - [[Agent Coding Workflow]] — Fowler's experiment is a compound-engineering move: spend effort now on structure, bank savings on every future agent session.
 - [[Constraint Decay]] — Convention-heavy frameworks are agent traps; Fowler's decomposition strategy is one escape route.
 - [[Code-First Developer]] — Khalil Stemmler's five-phase model of developer craft; Fowler's human-guided refactoring suggests craft still matters — agents can execute refactorings but not discover them.
+- [[Push Ifs Up And Fors Down]] — Alex Kladov's two heuristics (push conditionals to callers, batch data operations) are concrete refactoring patterns that produce the kind of structural decomposition Fowler measures. Both rules centralize decision-making and reduce the surface area agents must read — the same mechanism behind Fowler's 83% token savings.
 
 ---
 *Sources: [[raw/refactoring-economic-benefit-html]], [[summary/refactoring-economic-benefit-html]]*
