@@ -1,0 +1,166 @@
+---
+url: https://en.wikipedia.org/wiki/Object%E2%80%93relational_impedance_mismatch
+date_fetched: 2026-08-08
+---
+
+# Object–relational impedance mismatch
+
+| This article includes a list of general references  but lacks sufficient corresponding inline citations.(August 2020) | 
+
+**Object–relational impedance mismatch** is a set of difficulties going between data in relational data stores and data in domain-driven object models.  Relational Database Management Systems (RDBMS) is the standard method for storing data in a dedicated database, while object-oriented (OO) programming is the default method for business-centric design in programming languages. The problem lies in neither relational databases nor OO programming, but in the conceptual difficulty mapping between the two logic models. Both logical models are differently implementable using database servers, programming languages, design patterns, or other technologies. Issues range from application to enterprise scale, whenever stored relational data is used in domain-driven object models, and vice versa. Object-oriented data stores can trade this problem for other implementation difficulties.
+
+The term *impedance mismatch* comes from impedance matching in electrical engineering.
+
+## Mismatches
+
+[edit]OO mathematically is directed graphs, where objects reference each other. Relational is tuples in tables with relational algebra. Tuples are data fields grouped into a "row" with typed fields. Links are reversible (INNER JOIN is symmetric to follow foreign keys backward), forming undirected graphs.
+
+### Object-oriented concepts
+
+[edit]#### Encapsulation
+
+[edit]Object encapsulation hides internals. Object properties only show through implemented interfaces. However, many ORMs expose the properties publicly to work with database columns. Metaprogramming ORMs avoid violating encapsulation.
+
+#### Accessibility
+
+[edit]"Private" versus "public" is need-based in relational. In OO it is absolutely class-based. This relativity versus absolutism of classifications and characteristics clashes.
+
+#### Interface, class, inheritance and polymorphism
+
+[edit]Objects must implement interfaces to not expose internals. Relational uses views to vary perspectives and constraints. It lacks OO concepts like classes, inheritance and polymorphism.
+
+#### Mapping to relational concepts
+
+[edit]In order for an ORM to work properly, tables that are linked via Foreign Key/Primary Key relations need to be mapped to associations in object-oriented analysis.
+
+### Data type differences
+
+[edit]Relational prohibits by-reference (e.g. pointers), while OO embraces by-reference. Scalar types differ between them, impeding mapping.
+
+SQL supports strings with maximum lengths (faster than without) and collations. OO has collation only with sort routines and strings limited only by memory. SQL usually ignores trailing whitespace during comparison char, but OO libraries do not. OO does not newtype using constraints on primitives.
+
+### Structural and integrity differences
+
+[edit]Objects can comprise other objects or specialize. Relational is unnested, and a relation (tuples with the same header) does not fit in OO.
+
+Relational uses declarative constraints on scalar types, attributes, relation variables, and/or globally. OO uses exceptions protecting object internals.
+
+### Manipulative differences
+
+[edit]Relational uses standardized operators for data manipulation, while OO uses per-class per-case imperative. Any OO declarative support is for lists and hash tables, distinct from the sets in relational.[ citation needed]
+
+### Transactional differences
+
+[edit]Relational's unit is the transaction which outsizes any OO class methods. Transactions include arbitrary data manipulation combinations, while OO only has individual assignments to primitive fields. OO lacks isolation and durability, so atomicity and consistency are only with primitives.
+
+## Solving impedance mismatch
+
+[edit]Solutions start with recognizing the differences between the logic systems. This minimizes or compensates for the mismatch.[1]
+
+### Alternative architectures
+
+[edit]- *NoSQL*. The mismatch is not between OO and DBMSes. Object-relational impedance mismatch is eponymously only between OO and- **R**DBMSes. Alternatives like NoSQL or XML databases avoid this.
+- *Functional-relational mapping*. Comprehensions in functional programming languages are isomorphic with relational queries.- [2]Some functional programming languages implement functional-relational mapping.- [3]The direct correspondence between comprehensions and queries avoids many of the problems of object-relational mapping.
+
+### Minimization in OO
+
+[edit]Object databases (OODBMS) to avoid the mismatch exist but only less successfully than relational databases. OO is a poor basis for schemas.[4] Future OO database research involves transactional memory.
+
+Another solution layers the domain and framework logic. Here, OO maps relational aspects at runtime rather than statically. Frameworks have a tuple class (also named row or entity) and a relation class (a.k.a dataset).
+
+#### Advantages
+
+[edit]- Straightforward to frameworks and automation around data transport, presentation, and validation
+- Smaller, faster, quicker code[*citation needed*]
+- Dynamic database schema
+- Namespace and semantic match
+- Expressive constraints
+- Avoids complex mapping
+
+#### Disadvantages
+
+[edit]- No static typing. Typed accessors mitigate this.
+- Indirection performance cost
+- Ignores concepts like polymorphism
+
+### Compensation
+
+[edit]Mixing OO levels of discourse is problematic. Mainly framework support compensates, by automating data manipulation and presentation patterns on the level of modelling. Reflection and code generation are used. Reflection addresses code as data to allow automatic data transport, presentation, and integrity. Generation turns schemas into classes and helpers. Both have anomalies between levels, where generated classes have both domain properties (e.g. Name, Address, Phone) and framework properties (e.g. IsModified).
+
+## Occurrence
+
+[edit]Although object-relational impedance mismatches can occur with object-oriented programming in general, a particular area of difficulty is with object–relational mappers (ORMs).[5] Since the ORM is often specified in terms of configuration, annotations, and restricted domain-specific languages, it lacks the flexibility of a full programming language to resolve the impedance mismatch.
+
+## Contention
+
+[edit]### True RDBMS model
+
+[edit]Christopher J. Date says a true relational DBMS overcomes the problem,[6][7][8] as domains and classes are equivalent. Mapping between relational and OO is a mistake.[9] Relational tuples relate, not represent, entities. OO's role becomes only managing fields.
+
+### Constraints and illegal transactions
+
+[edit]Domain objects and user interfaces have mismatched impedances. Productive UIs should prevent illegal transactions (database constraint violations) to help operators and other non-programmers manage the data. This requires knowledge about database attributes beyond name and type, which duplicates logic in the relational schemata.
+
+Frameworks leverage referential integrity constraints and other schema information to standardize handling away from case-by-case code.
+
+### SQL-specific impedance and workarounds
+
+[edit]SQL, lacking domain types, impedes OO modelling.[ disputed – discuss] It is lossy between the DBMS and the application (OO or not). However, many avoid NoSQL and alternative vendor-specific query languages. DBMSes also ignore Business System 12 and Tutorial D.
+
+Mainstream DBMSes like Oracle and Microsoft SQL Server solve this. OO code (Java and .NET respectively) extend them and are invokeable in SQL as fluently as if built into the DBMS. Reusing library routines across multiple schemas is a supported modern paradigm.
+
+OO is in the backend because SQL will never get modern libraries and structures for today's programmers, despite the ISO SQL-99 committee wanting to add procedural. It is reasonable to use them directly rather than changing SQL. This blurs the division of responsibility between "application programming" and "database administration" because implementing constraints and triggers now requires both DBA and OO skills.
+
+This contention may be moot. RDBMSes are not for modelling. SQL is only lossy when abused for modelling. SQL is for querying, sorting, filtering, and storing big data. OO in the backend encourages bad architecture as business logic should not be in the data tier.
+
+### Location of canonical copy of data
+
+[edit]Relational says the DBMS is authoritative and the OO program's objects are temporary copies (possibly outdated if the database is modified concurrently). OO says the objects are authoritative, and the DBMS is just for persistence.
+
+### Division of responsibility
+
+[edit]New features change both code and schemas. The schema is the DBA's responsibility. DBAs are responsible for reliability, so they refuse programmers' unnecessary modifications. Staging databases help but merely move the approval to release time. DBAs want to contain changes to code, where defects are less catastrophic.
+
+More collaboration solves this. Schema change decisions should be from business needs. Novel data or performance boosts both modify the schema.
+
+## Philosophical differences
+
+[edit]Key philosophical differences exist:
+
+- **Declarative vs. imperative interfaces**– Relational uses declarative data while OO uses imperative behavior. Few compensate for relational with triggers and stored procedures.
+- **Schema bound**– Relational limits rows to their entity schemas. OO's inheritance (tree or not) is similar. OO can also add attributes. New and few dynamic database systems unlimit this for relational.
+- **Access rules**– Relational uses standardized operators, while OO classes have individual methods. OO is more expressive, but relational has math-like reasoning, integrity, and design consistency.
+- **Relationship between nouns and verbs**– An OO class is a noun entity tightly associated with verb actions. This forms a concept. Relational disputes the naturalness or logicality of that tight association.
+- **Object identity**– Two mutable objects with the same state differ. Relational ignores this uniqueness, and must fabricate it with candidate keys but that is a poor practice unless this identifier exists in the real world. Identity is permanent in relational, but maybe transient in OO.
+- **Normalization**– OO neglects relational normalization. However, objects interlinked via pointers are arguably a network database, which is arguably an extremely denormalized relational database.
+- **Schema inheritance**– Relational schemas reject OO's hierarchical inheritance. Relational accepts more powerful set theory. Unpopular non-tree (non-Java) OO exists, but is harder than relational algebra.
+- **Structure vs. behaviour**– OO focuses on structure (maintainability, extensibility, reusable, safe). Relational focuses on behavior (efficiency, adaptability, fault-tolerance, liveness, logical integrity, etc.). OO code serves programmers, while relational stresses user-visible behavior. However it could be non-inherent in relational, as task-specific views commonly present information to subtasks, but IDEs ignore this and assume objects are used.
+- **Set vs. graph relationships**– Relational follows set theory, but OO follows graph theory. While equivalent, access and management paradigms differ.
+
+Therefore, partisans argue the other's technology should be abandoned.[10] Some RDBMS DBAs even advocate procedural over OO, namely that objects should not outlive transactions. OO retorts with OODBMS technology to be developed replacing relational. However, most programmers abstain and view the object–relational impedance mismatch as just a hurdle.
+
+ORMs situationally offer advantages. Skeptics cite drawbacks, and little value when blindly applied.[11]
+
+## See also
+
+[edit]- Object–relational mapping – Programming technique
+- Object–relational database – Database management system
+
+## References
+
+[edit]- ↑ A classification of object–relational impedance mismatch. Ireland, Christopher; Bowers, David; Newton, Mike and Waugh, Kevin (2009). A classification of object–relational impedance mismatch. In: First International Conference on Advances in Databases, Knowledge, and Data Applications (DBKDA), 1-6 Mar 2009, Cancun, Mexico.
+- ↑ "Jupyter Notebook Viewer".
+- ↑ "Introduction · Slick".
+- ↑ C. J. Date, Relational Database Writings
+- ↑ Object–Relational Mapping Revisited - A Quantitative Study on the Impact of Database Technology on O/R Mapping Strategies. M Lorenz, JP Rudolph, G Hesse, M Uflacker, H Plattner. Hawaii International Conference on System Sciences (HICSS), 4877-4886 (DOI:10.24251/hicss.2017.592)
+- ↑ Date, Christopher ‘Chris’ J; Pascal, Fabian (2012-08-12) [2005], "Type vs. Domain and Class", *Database debunkings*(World Wide Web log), Google, retrieved 12 September 2012.
+- ↑ ——— (2006), "4. On the notion of logical difference", *Date on Database: writings 2000–2006*, The expert’s voice in database; Relational database select writings, USA: Apress, p. 39, ISBN 978-1-59059-746-0,Class seems to be indistinguishable from type, as that term is classically understood .
+- ↑ ——— (2004), "26. Object/Relational databases", *An introduction to database systems*(8th ed.), Pearson Addison Wesley, p. 859, ISBN 978-0-321-19784-9,...any such .*rapprochement*should be firmly based on the relational model
+- ↑ Date, Christopher ‘Chris’ J; Darwen, Hugh, "2. Objects and Relations", *The Third Manifesto*,The first great blunder 
+- ↑ Neward, Ted (2006-06-26). "The Vietnam of Computer Science" (PDF). Interoperability Happens. Retrieved 2010-06-02.
+- ↑ Johnson, Rod (2002). *J2EE Design and Development*. Wrox Press. p. 256. ISBN 9781861007841.
+
+## External links
+
+[edit]- The Object–Relational Impedance Mismatch – Agile Data Essay
+- The Vietnam of Computer Science – Examples of mismatch problems

@@ -72,6 +72,7 @@ The closing sentence, and the best summary of what distinguishes Dave's approach
 - [[Guardrails and Feedback Loops]] — Dave's mandatory verification step is a guardrail. The pattern of "disable with a note, delete after 90 quiet days" is a feedback loop.
 - [[Why Are Databases So Hard]] — Dave's migration dialect-drift case (case 9) is the practical complement to the physics-of-consistency argument: even when row counts match, NULL ordering and collation silently produce wrong answers.
 - [[SQL Pagination — Offset vs Seek Method]] — Winand's pagination patterns are the kind of non-obvious database expertise that Dave's AI-reading approach could surface from existing code (find every `OFFSET` query and flag it for seek-method conversion) but couldn't generate from scratch without explicit instruction. The "machine reads, human decides" architecture applied to query pattern auditing.
+- [[Object-Relational Impedance Mismatch]] — The underlying structural problem: the nine fracture lines (type, transaction, identity, etc.) between OO and relational models that make "reading" a database schema tractable for AI but "generating" against it reliably out of reach. The machine can classify what exists; bridging the gap to produce correct new queries requires crossing the impedance boundary.
 
 ---
 *Sources: [[raw/nine-unusual-ways-my-clients-use-ai-with-sql-server]], [[summary/nine-unusual-ways-my-clients-use-ai-with-sql-server]]*

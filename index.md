@@ -465,6 +465,7 @@ Storage engines, query patterns, data quality, and vector/graph databases. **Hub
 - [[Binary Vector Embeddings]] — Evan Schwartz on binary quantization of float32 embeddings: 32× compression, 25× retrieval speedup via Hamming distance, and 95%+ accuracy retention as an emergent property of models never trained for it
 - [[Searchable Field-Level Encryption with CipherStash]] — CipherStash brings Data Level Access Control to Supabase/Postgres: field-level encryption with searchable metadata, zero-knowledge key management, and wire-protocol proxy for non-SDK access
 - [[Just Brute Force Your Embeddings]] — Doug Turnbull's empirically-backed case that one line of NumPy handles embedding search for millions of docs: measure the simple thing before reaching for a vector database
+- [[Object-Relational Impedance Mismatch]] — The classic Wikipedia taxonomy of nine structural fractures between OO and relational models: structural, type, transactional, and identity differences that no ORM has ever fully resolved. The underlying theoretical explanation for why [[Constraint Decay]] finds databases as the primary failure driver for coding agents, and why [[Text-to-SQL in the Real World]]'s 10% accuracy isn't just a benchmark problem — it's a permanent feature of having two incommensurable logical models
 
 ## Developer Tools
 

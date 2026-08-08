@@ -34,6 +34,8 @@ The root-cause analysis confirms this: **data-layer defects** (incorrect query l
 
 This tracks with practical experience. An agent writing a REST endpoint understands the pattern. An agent writing a parameterized SQL query with correct join logic, transaction handling, and type coercion is doing something fundamentally harder — and current models aren't there yet.
 
+This is the [[Object-Relational Impedance Mismatch]] playing out in the agentic era. The original Wikipedia article catalogued nine structural fractures between OO and relational models (structural, type, transactional, identity, etc.); Constraint Decay quantifies which of those fractures actually cause failures when an LLM is the one bridging the gap. The answer: the data layer is where the models hit the impedance wall.
+
 ## Convention-Heavy Frameworks Are a Trap
 
 > "Express (51.4%), Koa (50.7%), Flask (49.3%) — minimal, explicit API surfaces with no implicit conventions. Bottom tier: Django (25.4%), FastAPI (24.2%), Hono (18.5%)."
