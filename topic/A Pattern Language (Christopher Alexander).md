@@ -46,6 +46,8 @@ This is the sentence that launched a thousand software design pattern books. The
 
 But software borrowed the format without the philosophy. Alexander's patterns are prescriptive about human flourishing in a way software patterns aren't. A GoF "Abstract Factory" doesn't care about your wellbeing; a "Four-story Limit" does. The software industry extracted the engineering technique and discarded the humanist core.
 
+Not every software pattern catalog stayed at the application level. Neil Brown's [[Linux Kernel Design Patterns]] series (LWN, 2009) applied Alexander's methodology directly to operating system source code, extracting ten named patterns — kref, embedded anchor, midlayer mistake — each with kernel-specific examples and counter-examples. It's one of the cleanest demonstrations that Alexander's approach works at any level of the stack, not just the application layer the GoF targeted.
+
 ## Critical Analysis
 
 **The strength is the prescriptiveness.** Alexander doesn't suggest you might want a limit on building height; he tells you four stories is the limit, full stop. The specificity forces a reaction — agreement or disagreement, but never indifference. This is the opposite of most design guidance, which hedges itself into meaninglessness.

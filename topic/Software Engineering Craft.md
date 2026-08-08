@@ -24,6 +24,8 @@ Both become more important in an agent world. Agents generate API calls at scale
 
 [[Nobody Knows How Large Software Projects Work]] names the uncomfortable truth: complexity at scale is inherent, not a staffing or process failure. The system is unknowable not because of poor engineering but because of successful product development. Documentation fails because the system changes faster than anyone can write it down. The answer from other pages: observability ([[The Future of Software Engineering is SRE]]), spec-first development ([[Spec-Driven Development]]), and radical simplification.
 
+At the subsystem architecture level, the same tension plays out as the "midlayer mistake" — the pattern Neil Brown extracted from the Linux kernel where well-intentioned abstraction layers harden from optional services into mandatory intermediaries, accumulating special cases as they try to serve every driver's needs. [[Linux Kernel Design Patterns]] documents the pattern and its antidote: libraries over imposed midlayers, a lesson that maps cleanly onto every framework-versus-library debate since.
+
 ### Operations as the Differentiator
 
 [[The Future of Software Engineering is SRE]] makes the sharpest argument: when code generation is trivially easy, keeping software running reliably is the scarce skill. "The first 90% to get a working demo is easy. It's the other 190% that matters." Uptime guarantees, defect identification, proactive issue detection, secure data handling, failure recovery -- these are what separate toys from services.
