@@ -28,6 +28,8 @@ The "my own AI assistant" movement has produced a remarkable range of approaches
 
 **Task completion.** [[Serf]] and [[Ralph]] take the opposite approach from conversational assistants: give it a task, it works until done. No human in the loop during execution. [[Kata]] provides the issue tracker that makes this structured: agent-friendly CLI with JSON output, human-facing TUI for oversight, SQLite backend.
 
+**Role specialization.** [[The Grid — Agent Identity Architecture|Matt Galligan's Grid]] takes a different approach from every framework here: rather than one agent that does everything, it uses 12 named programs (Patch, Index, Rez, Crit, Cadence, Cipher, etc.) each with a distinct domain and personality defined by file-based "identity disks" with numeric temperament dials. Coordination happens through explicit handoff rules ("hands to Index when memory matters"), not through a single agent accumulating capability. The infrastructure is lighter than mira-OSS (markdown files + a SQLite graph DB via PatchOS) but the design philosophy is more architecturally opinionated than any other personal agent system.
+
 ### The Community
 
 [[Awesome Vibez]] documents the Vibez WhatsApp community -- about 8 active GitHub members building tools around agents. The roster matters:
