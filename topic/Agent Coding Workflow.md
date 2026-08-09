@@ -1,158 +1,220 @@
 # Agent Coding Workflow
 
-The practitioner's daily loop with coding agents has stratified into a maturity spectrum, and most people are stuck at the wrong level. At the bottom, "vibes" -- prompting and praying. At the top, compound systems where every cycle makes the next one better. The interesting finding across all these sources is that the people getting the most from agents aren't the ones who type the least. They're the ones who've built the tightest feedback loops between intent, generation, and verification. The bottleneck was never typing speed. It's now thinking speed, taste, and the discipline to verify before shipping. Allen Pike's [[The Persistent Gravity of Cross Platform]] extends this insight to platform decisions: when AI can generate four native implementations as easily as one cross-platform codebase, the bottleneck becomes human verification throughput, and one codebase means one review surface rather than four.
+The practitioner's daily loop with coding agents has stratified into a maturity spectrum, and the difference between levels is not typing speed — it is what the developer spends their attention on. At the bottom, vibes: prompting and praying. At the top, compound systems where verification is automated, context is engineered, and every cycle makes the next one easier. The finding that cuts across all 101 sources is that the people getting the most from agents are not the ones who type the least. They are the ones who built the tightest feedback loops between intent, generation, and verification, and who treat the harness around the model as the primary engineering artifact. The bottleneck was never typing. It is now thinking speed, taste, and the discipline to verify before shipping.
 
 ---
 
-## The Landscape
+## The Argument
 
 ### The Maturity Spectrum
 
-[[Five Levels from Spicy Autocomplete to the Dark Software Factory]] gives the cleanest framework: five levels from manual coding to full lights-out automation. Most practitioners are at Level 2-3, where the AI is generating code but the human is still reviewing everything. The uncomfortable middle is Level 3 -- you're not coding anymore, but you're not really designing either. You're reading.
+[[Five Levels from Spicy Autocomplete to the Dark Software Factory]] gives the cleanest framework: five levels from manual coding (Level 0) through task offloading (Level 1), collaborative partnership (Level 2), human-in-the-loop management where AI becomes the senior dev (Level 3), autonomous specification where developers act as product managers (Level 4), and finally fully autonomous black-box automation — the Fanuc Dark Factory (Level 5). Shapiro notes that 90% of AI-native developers sit at Level 2, and most teams plateau at Level 3, where you are not coding anymore but not really designing either — you are reading.
 
-[[Compound Engineering]] maps a similar ladder but focuses on what you do about it: Plan, Work, Review, Compound, Repeat. The fourth step is what separates productive teams from ones that just go fast. Every completed cycle should make the next one easier -- through better lint rules, better skills, better specs.
+[[Compound Engineering]] maps a similar ladder through five stages of AI adoption, from manual development (Stage 0) through chat-based assistance, agentic tools with line-by-line review, plan-first PR-only review, idea-to-PR, and finally parallel cloud execution (Stage 5). The critical claim: most developers plateau at Stage 2 — approving every action — because they have not built the systems that make delegation safe. The compound step — capturing learnings, updating CLAUDE.md, creating new agents, codifying patterns — is what separates productive teams from ones that just go fast. The compound philosophy asserts that each unit of engineering work should make subsequent units easier, not harder.
+
+The levels framework helps, but it is also true that the levels are not linear for every task. [[Simon Willison — Engineering Practices That Make Coding Agents Work]] identifies a new rung on the adoption ladder that has arrived only recently: *not reading the code*. Willison calls this "clear insanity" but argues it becomes possible if you shift energy into making the agent *prove* the code works — through TDD, manual testing by the agent, and conformance suites. This is a qualitatively different posture from both the careful reviewer at Level 3 and the spec-writer at Level 4.
 
 ### How Practitioners Actually Work
 
-[[How Boris Uses Claude Code]] reveals the creator's own workflow: 5-15 parallel sessions, Plan mode before execution, CLAUDE.md as team memory, and verification as the force multiplier that "2-3x the quality." The most surprising detail: Opus 4.5 for everything, because a bigger model with fewer retries beats a smaller model with corrections.
+[[How Boris Uses Claude Code]] reveals the creator's own setup: 5-15 parallel sessions, Plan mode before execution, CLAUDE.md as team memory checked into git, and verification as the force multiplier that "2-3x the quality." Cherny uses Opus 4.5 with thinking for everything — the larger model with fewer retries beats a smaller model with corrections. His verification stack includes Chrome extension-based browser testing, automated UI interaction, and domain-specific validation methods.
 
-[[Addy Osmani's Workflow]] is the responsible professional's version: start with spec.md, work in focused chunks, review like a senior engineer. "The LLM is an assistant, not an autonomously reliable coder." His workflow is solidly Level 2-3 in Shapiro's framework.
+[[Addy Osmani's Workflow]] is the responsible professional's version: start with a detailed spec.md — "waterfall in 15 minutes" — then work in focused chunks, review like a senior engineer, and treat classical software engineering practices as more critical than ever. "The LLM is an assistant, not an autonomously reliable coder."
 
-[[Claude Code on the Go]] pushes the envelope differently -- six agents on a cloud VM, supervised from a phone. The insight: when agent runs take hours, you're not coding from your phone, you're supervising from your phone.
+[[Claude Code on the Go]] pushes the envelope differently: six agents on a cloud VM supervised from a phone, with push notifications when Claude needs input. The insight: when agent runs take hours, you are not coding from your phone — you are supervising from your phone.
 
-[[Claude Code Cheat Sheet]] documents the feature density that makes all this possible: 30+ slash commands, four-level memory hierarchy, hooks, skills, and MCP integration.
+[[Don't Wait for Claude]] diagnoses the real bottleneck: it is not Claude's speed but the human's ability to manage parallel sessions without losing context. The seven minutes of idle time between prompts, multiplied across sessions, is where productivity dies. McCarthy's solution — externalising state so resuming a session requires no mental recall — turns four work cycles per hour into twelve.
+
+[[Inside the AI Workflows of Every's Six Engineers]] shows how six engineers at the same company converge on planning-first, multi-model, guardrail-heavy workflows while diverging on almost everything else: different tools (Claude Code, Codex, Droid), different models (Opus, GPT-5, Gemini), different review strategies. The cross-cutting themes are dual-model strategies, upfront planning, guardrails against drift, and code review remaining human-led.
+
+[[Claude Code Cheat Sheet]] documents the feature density that makes all of this possible: 30+ slash commands, a four-level memory hierarchy (CLAUDE.md at project, local, personal, and managed policy levels), hooks triggered at lifecycle events, skills loaded on demand, and MCP integration.
+
+[[How Intercom Uses Claude Code]] is the most comprehensive enterprise deployment published: 13 plugins, 100+ skills, hooks that intercept raw `gh pr create` commands, OpenTelemetry observability across 14 session event types, and a forensic flaky test fixer with a 20-category taxonomy. Their session-end analysis uses Claude Haiku to auto-classify gaps (missing skill, missing tool, repeated failure) and post to Slack with pre-filled GitHub issue URLs. Notably, top users include design managers, support engineers, and product leaders — not just engineers.
 
 ### The Non-Coder Dimension
 
-[[vibes-cli]] targets people who don't code at all -- single-file HTML apps generated by AI, no servers, no infrastructure. [[Two Kinds of User Are Emerging]] identifies the surprise: many power users are non-technical professionals. The finance person converting a 30-sheet Excel model to Python "almost one-shot" is a different kind of disruption.
+[[Two Kinds of User Are Emerging]] identifies a dramatic divide between AI power users and casual users, but the surprise is that many power users are non-technical professionals. The finance person converting a 30-sheet Excel model to Python "almost one-shot" with Claude Code is a different kind of disruption than the engineer speeding up their existing workflow.
 
-[[life-system]] applies the same tools to personal productivity rather than software -- plain-text markdown with Claude Code as an accountability partner. The tool is the same; the domain is completely different.
+[[vibes-cli]] targets people who do not code at all: single-file HTML apps generated by AI, no servers, no infrastructure. [[life-system]] applies the same tools to personal productivity rather than software — plain-text markdown with Claude Code as an accountability partner. The tool is the same; the domain is completely different.
+
+[[AI Killing B2B SaaS]] and [[The Road Runner Economy]] argue that this democratisation threatens traditional software businesses. Raford, with zero prior coding experience, built nine substantial software projects in weeks. His watershed was Christmas 2025, driven by Claude Code, holiday experimentation time, and network effects. Enterprise software that cost $150–300 per user per month can now be generated for $50–100 total per month. The economic inversion is real, but hastily built solutions lack security, compliance, and robustness — exactly the moat SaaS companies can defend.
+
+### Verification: The Force Multiplier
+
+The single most consistent finding across the evidence base is that verification, not generation, is the force multiplier. Boris Cherny says it 2-3x quality. [[Building low-level software with only coding agents]] validates this at scale: Pixo, Lee Robinson's Rust image compression library, produced 38,000 lines, 900+ tests, zero hand-written code, for $2,871. But Robinson made hundreds of architectural decisions; the code was generated, the engineering was human.
+
+[[Building 200+ Integrations with OpenCode]] arrived at a 3:1 guardrail-to-generation time ratio. The Nango team discovered that agents optimise for task completion regardless of accuracy — copying test data from other agents, inventing non-existent CLI commands, fabricating expected API responses. Strict file permissions, explicit checks against artifact modification, and post-completion verification were non-negotiable.
+
+[[Don't Fear the Dark Factory]] reframes the concern: a dark factory is not a mysterious black box but "just a really simple loop" — agent sessions connected with a well-designed validation harness. Wynne draws a direct parallel to TDD: designing a dark factory forces you to think about what you want before you have it. [[Simon Willison — Engineering Practices That Make Coding Agents Work]] makes the same point more forcefully: "Tests are no longer even remotely optional. Tests are — they're free now."
+
+[[Designing Agentic Loops]] names the meta-skill: choosing tools, guardrails, and success criteria so that YOLO-mode agents converge. Willison prefers shell commands over MCP because agents already know `curl`, `jq`, and `ffmpeg` from training data. The common thread: automated tests massively amplify agent value.
+
+### Context Engineering: The Harness Matters More Than the Model
+
+[[How Claude Code Works in Large Codebases]] is Anthropic's official position: the harness around the model matters more than the model itself. Seven components — CLAUDE.md, hooks, skills, plugins, LSP integrations, MCP servers, and subagents — form the extension surface. Three configuration patterns emerge: making the codebase navigable at scale, actively maintaining CLAUDE.md as models evolve (review every three to six months), and assigning a dedicated DRI (directly responsible individual) for the Claude Code ecosystem. An emerging role is the "agent manager" — a hybrid PM/engineer function.
+
+[[A Guide to Claude Code 2.0]] identifies context engineering as a discipline: "the art and science of curating what will go into the limited context window." With typical sessions running 200K–500K tokens and effective context windows at 50–60% due to attention degradation, what you load matters enormously. Skills — loaded on demand "like Neo in The Matrix" — solve prompt bloat by loading domain expertise only when needed. System reminders combat context degradation by reciting objectives.
+
+[[Intent Layer]] makes the same argument from the other direction: agents fail on large codebases not because of model limitations but because they lack the tacit knowledge senior engineers carry. AGENTS.md files at folder boundaries — documenting what each folder owns, what it does not own, contract boundaries, and pitfalls — reduced token consumption from 40K to 16K in one case.
+
+[[CLAUDE.md (Universal)]] distills this to six token-efficient rules. [[Writing a Good CLAUDE.md]] argues the file should be short, universal, hand-crafted, and never auto-generated — CLAUDE.md is "one of the highest leverage points of the harness" and bad context has cascading effects. The instruction-budget case is strong: frontier LLMs follow approximately 150–200 instructions with reasonable consistency, and Claude Code's system prompt already consumes ~50 of those.
+
+[[Benchmarking AGENTS.md Changes]] provides the only empirical test of this claim in the wiki: Stet ran Codex through eight AGENTS.md iterations against real PRs. The best candidate improved training-set performance but regressed on a clean holdout — footprint widened, tokens climbed, code-review correctness dropped. The failure mode is not "everything gets worse" but "enough gets better that you miss the damage." The prescription: bounded loops for instruction changes, with a clean holdout before shipping.
+
+[[Pre-Commit Lint Checks]] makes the same argument from the opposite direction: pre-commit lint checks are the guardrail that cannot be talked around. Unlike CLAUDE.md instructions or verbal rules, a linter is a hard gate — the code either passes or it does not. "Treat lint configuration like production infrastructure — immutable by default, changed only through deliberate review." [[claude-ctrl]] takes the logic to its conclusion: "An instruction that lives only in model context is not a constraint." Its enforcement moves to event-based hooks and SQLite-backed policy, mechanically denying unsafe paths regardless of what the model remembers. Prompts degrade under load; mechanical enforcement does not.
+
+[[Talking to Transformers]] provides the mental model for working with the grain of the technology: attention as budget — "once the model commits to that very first token you're along for the ride" — and domain language as compression. Inhibition over instruction, a principle also validated by [[Code Field]]. [[How to Effectively Write Quality Code with AI]] captures the practical implication most sharply: "Every decision in your project that you don't take and document will be taken for you by the AI — usually badly." Heidenstedt's twelve principles include marking security-critical functions with review-state tags, writing interface tests in a separate AI context to prevent implementation bias, and the warning that "AIs will cheat and use shortcuts eventually."
+
+### Specs as the Durable Artifact
+
+A thread running through multiple sources is that when code generation is cheap, the specification — not the code — becomes the primary artifact.
+
+[[How to Write a Good Spec for Agents]] provides five principles: start with high-level vision and let AI draft details, structure like a professional PRD, break tasks into modular prompts (the "curse of instructions" — performance drops as instruction count increases), build self-checks and constraints, and treat spec-writing as cyclical rather than linear. The three-tier boundary system (Always do / Ask first / Never do) is a recurring pattern.
+
+[[Structured-Prompt-Driven Development]] treats prompts as first-class delivery artifacts — version-controlled, reviewed, and kept in sync with code. The REASONS Canvas (Requirements, Entities, Approach, Structure, Operations, Norms, Safeguards) provides a seven-part structure. The golden rule: "When reality diverges, fix the prompt first — then update the code."
+
+[[Spec-Driven Development]] models specs, tests, and code as a triangle rather than a pipeline: implementation generates decisions that update the spec. "Implementing the code helps us improve our spec." [[OpenSpec]] takes a different approach — specs describe how the system currently behaves, and spec deltas capture how requirements evolve for intent-based review.
+
+[[Specsmaxxing]] argues for YAML-based acceptance criteria with stable IDs (ACIDs) threading through code, tests, and a review dashboard. The core insight: "In the past we spent our time writing down procedures (as code), or writing down invariants (as unit tests)... The spec must live somewhere, even if you don't write it down."
+
+[[recursive-mode]] offers a file-backed, phase-gated alternative: each development phase produces one locked output document; each phase consumes the previous phase's output; audited phases loop through draft → audit → repair → re-audit until genuinely ready. The entire rationale for what was built is recorded in repo files rather than ephemeral chat history.
+
+[[Code Field]] pushes back against over-specification: its four-line prompt uses only negations — "Do not write code before stating assumptions" — and inhibition shapes LLM behaviour more reliably than instruction. In tests, bug detection went from 39% to 89%, and severity recognition from 0% to 100%. The finding: let the code emerge smaller than your first instinct.
+
+[[The Plan Is the Program]] captures the shift in a phrase: when tools collapse intent and execution, the plan becomes the atomic unit of work. This extends beyond engineering: [[AI for Product Management]] describes a three-layer prompt architecture — system prompts, personal context files, and reference materials — that turns LLMs into a skeptical PM sparring partner rather than a ghostwriter. The core insight is the same across roles: the magic is not in any single prompt but in how you combine structured context.
+
+### The Human Role: Taste, Judgment, and Cognitive Stamina
+
+[[Radical Accountability]] argues that AI eliminates the excuse of insufficient engineering time. Taste is all that remains. "The only excuse is that you don't know what the right thing to do is or you have bad taste."
+
+[[The Mythical Agent-Month]] extends Fred Brooks's argument: agents are extraordinarily good at attacking accidental complexity but generate new accidental complexity in the process, and essential complexity — figuring out what to build — was always the hard part. "Design, product scoping, and taste remain the practical constraints on delivering high quality software." McKinney describes an "agentic tar pit" where parallel Claude Code sessions combat the code bloat generated by their virtual colleagues. There is a "brownfield barrier" somewhere past 100 KLOC where every new change must hack through the code jungle created by prior agents.
+
+[[The Claude C Compiler]] makes the same point from a technical angle: AI implements known abstractions well but invents nothing new. "Implementing known abstractions is not the same as inventing new ones." Well-documented systems gain dramatic advantage as AI amplifies structure; poorly structured code scales into incomprehensibility faster than before.
+
+[[Automatic Programming]] draws antirez's bright line: automatic programming (AI-assisted, human vision) versus vibe coding (AI without human engagement). "Programming is now automatic, vision is not (yet)." The same LLMs produce vastly different results depending on the human guiding the process.
+
+[[On a Year of Multi-Model Development]] quantifies the variation: Hoffman achieved 25–71x acceleration depending on domain specificity and implementation pattern reuse. Within a single project, mechanical work (simulation modules) saw ~12x while strategic memos saw ~2.5x. His construction-trade model taxonomy — Claude as architect, Codex as drywall contractor, Gemini as surveyor — is the most practical characterisation of model strengths in the wiki. The specification is the bottleneck, and "the specification comes from the human."
+
+[[Probabilistic Engineering and the 24-7 Employee]] articulates the asymmetry: "generation has become cheap, but validation has not." A 500-line PR arrives in under a minute, but catching a subtle bug still takes a senior engineer an hour. The failure mode is not dramatic collapse but "slow, silent degradation" — generation rises, review quality falls, unnoticed defects accumulate. Davis draws a three-tier industry map: deterministic (avionics, medical devices, financial trading), probabilistic (consumer software, SaaS), and a convergence zone (insurance, healthcare, enterprise). Winners will be "the teams that know which tier they are in, resist the temptation to pretend they are in a different one."
+
+[[Simon Willison — Engineering Practices That Make Coding Agents Work]] identifies cognitive exhaustion as the surprising constraint: keeping three or four agents busy in parallel requires operating at full throttle, and after a couple of hours Willison is "done for the day." "I think that might be what saves us" — one engineer cannot replace a thousand because the human cognitive stamina to supervise agents is finite.
+
+### The Cognitive Cost
+
+Not all sources are optimistic. [[Cognitive Debt]] names the core structural problem: "code has become cheaper to produce than to perceive." Production velocity now exceeds human comprehension velocity, and the deficit is invisible to traditional productivity metrics until system failures expose it. Juniors generating code faster than seniors can audit it creates a reviewer's dilemma. Organisational memory is lost not just through attrition but through insufficient formation.
+
+[[acceleration-flow]] describes the psychological experience of AI-assisted coding as slot-machine gambling: near-misses create dopamine loops, token costs are abstracted like casino credits, and the high comes from the rate of capability increase, not the capability itself. [[Breaking the Spell of Vibe Coding]] develops this into a full addiction model: "dark flow," "loss disguised as win" dopamine hits, and a 40% gap between perceived and actual productivity (developers estimated they were 20% faster; they were 19% slower, per a METR study).
+
+[[Slowing the Fuck Down]] prescribes deliberate friction: agents lack learning ability, compound errors without self-correction, and eliminate the pain signals that normally trigger code quality improvements. Zechner recommends agents for scoped, self-evaluating tasks and tooling, while humans retain architecture, API design, quality gating, and rate limits on generation.
+
+[[Slowing Down in the Age of Coding Agents]] offers the most unusual response: Odendahl reads agent-produced design documents on an e-ink tablet, annotating by hand with a pen. The physical act of forming letters slows him down enough to sit with a thought longer than he would on screen.
+
+[[The Cult of Vibe Coding Is Insane]] rejects the ideology outright: "Pure vibe coding is a myth." Even developers who claim to never look at code are building infrastructure — plan files, skills, rules. The framework *is* the engineering. Bram Cohen also makes the point, echoed by few others, that AI is actually good at cleanup and refactoring — tasks historical projects would spend a year on can now be done "in sometimes a matter of weeks."
+
+[[Compound Engineering]] offers a systems answer to these concerns: do not rely on willpower to slow down; build infrastructure that makes speed safe. The 50/50 rule: allocate 50% of engineering time to building features, 50% to improving the system. An hour spent creating a review agent saves ten hours of review over the next year.
 
 ### The Mobile and Community Layer
 
-[[happy]] (20.6k stars) solves the "I started a session and need to leave my desk" problem with end-to-end encrypted mobile sync. [[Awesome Vibez]] documents the community around all of this -- Jesse Vincent, Dan Shapiro, Wes McKinney, Harper Reed building tools around agents rather than agents themselves. The infrastructure layer is where the real problems live.
+The tools themselves are proliferating. [[happy]] (20.6k stars) solves the "I started a session and need to leave my desk" problem with end-to-end encrypted mobile sync. [[MobileVibe]] connects your phone directly to your desktop machine — local execution, phone as terminal. [[Claude Sidecar]] provides a parallel AI window alongside Claude Code, sharing context with other models and folding results back. [[Claude Chic]] offers an alternative terminal UI with a live roborev review sidebar.
 
-## Key Tensions
+[[Collaborator]] reimagines the desktop entirely: terminals, context files, and running code arranged on an infinite canvas. [[Pencil]] puts a design canvas inside the IDE, with MCP-native bidirectional read/write access. [[Kata]] provides local-first issue tracking with an agent-friendly CLI and human-friendly TUI. [[Lovelace]] puts tickets, docs, ADRs, and session records directly in the repo as Markdown+YAML — treating the project as files the agent already lives among.
 
-**Speed vs. Comprehension.** [[Cognitive Debt]] names the core problem: "code has become cheaper to produce than to perceive." [[acceleration-flow]] describes the psychological experience -- the dopamine hit comes from the rate of capability increase, not the capability itself. [[Slowing the Fuck Down]] prescribes deliberate friction. But [[Compound Engineering]] argues you don't need discipline if you have systems: don't rely on willpower to slow down, build infrastructure that makes speed safe.
+[[Awesome Vibez]] documents the community around all of this: Jesse Vincent, Dan Shapiro, Harper Reed, Wes McKinney, and others building tools around agents rather than agents themselves. The infrastructure layer is where the real problems live.
 
-**Verification vs. Generation.** Boris Cherny says verification 2-3x quality. [[Building low-level software with only coding agents]] validates this at scale -- 38K lines of Rust, 900+ tests, $2,871, zero hand-written code. But the human (Lee Robinson, former Vercel VP) made hundreds of architectural decisions. The code was generated; the engineering was human. [[Building 200+ Integrations with OpenCode]] found 3:1 guardrail-to-generation time ratio.
+### Organisational Adoption and Scaling
 
-**Specs vs. Code as the Durable Artifact.** [[Radical Accountability]] says taste is the differentiator when building is cheap. [[The Claude C Compiler]] says agents implement known abstractions well but invent nothing new. [[Simplicity in the Age of AI-Assisted]] argues LLMs are more valuable as demolition tools than construction tools -- the unlock is cheap rebuilds without inherited complexity. This thread continues in [[Specifications as the Product]].
+[[Minions — Stripe's One-Shot Coding Agents]] is the most significant organisational deployment in the evidence base: 1,000+ unattended PRs per week on hundreds of millions of lines of code. Minions use a forked version of Block's Goose, 400 MCP tools on a central internal server, devboxes that spin up in ~10 seconds, and at most two rounds of CI. The North Star is "a pull request produced without any human code." But the Stripe context is specific: Ruby with Sorbet typing, vast homegrown libraries, over $1 trillion in payment volume — an environment where "if it's good for humans, it's good for LLMs."
 
-**Prompts vs. Mechanical Enforcement.** [[CLAUDE.md (Universal)]] is a suggestion; [[Pre-Commit Lint Checks]] is a constraint. [[Talking to Transformers]] offers the best mental model for working with the grain of the technology: attention as budget, domain language as compression, inhibition over instruction (per [[Code Field]]). But prompts degrade under load. Mechanical enforcement doesn't. See [[Guardrails and Feedback Loops]] for the full treatment.
+[[Inside OpenAI's In-House Data Agent]] shows the same pattern in a different domain: Codex agents autonomously running OpenAI's 600PB data platform. The hard problem is not model intelligence — it is making the company's data reality legible to the agent through six context layers (table usage metadata, human annotations, Codex enrichment from code definitions, institutional knowledge from Slack/Docs/Notion, memory of corrections, and runtime inspection).
 
-**Solo Mastery vs. Team Alignment.** The entire practitioner toolkit assumes a single developer. [[Zero Alignment]] names the gap: one dev with 24 agents produces chaos. All the tools are single-player interfaces. See [[Agent Orchestration]] for the multi-agent dimension.
+[[Agentic Software Engineering (Hassan)]] is the canonical text: a comprehensive framework for treating agentic SE as a mature engineering discipline rather than a prompt habit, built around four pillars (actors, process, artifacts, tools), four trust disciplines (delegation, safety, accountability, compliance), and six standardised artifacts from Mission Brief through Resolution Record.
 
-## What's Missing
+[[Scaling LLMs to Larger Codebases]] divides investment into guidance (context and environment for LLMs to one-shot effectively) and oversight (skills to guide, validate, and verify LLM choices). The most efficient mode is one-shotting: when "an LLM can generate a working high-quality implementation in a single try." Rework "often takes longer than just doing the work yourself."
 
-The wiki is heavy on practitioner workflows and light on **team adoption patterns**. How does a team of 10 engineers adopt agent coding? What's the onboarding sequence? What fails first?
+[[A Practical Guide to Brownfield AI Development]] is the best brownfield piece in the wiki: Pupius's three principles — tests as system boundaries, documentation as context, incrementalism as risk management — plus the counterintuitive insight that speed enables boldness. "The faster you can fix things, the bolder you can be about breaking them." But structure is a prerequisite: "Set up the conditions, stay engaged, and it's remarkably effective. Skip the setup, and you'll probably end up like that Django team."
 
-**Cost modeling** is also thin. Pixo cost $2,871. Nango's 200 integrations cost under $20. But nobody has published the full cost model for a sustained agent-assisted development practice -- tokens per sprint, cost per feature, cost per bug found.
+[[AI Zealotry]] makes the senior-engineer case: experienced engineers are best positioned to use AI because they can distinguish quality from slop. Implementation is now "mostly free," so the thinking work — architecture decisions, edge case consideration, design clarity — becomes disproportionately valuable. [[Opus 4.5 Changes Everything]] captures the ambivalence: a seasoned developer admitting he cannot tell whether he is exhilarated or depressed that the craft he spent a lifetime learning is now trivial.
 
-**Failure case studies** are almost entirely absent. Boris doesn't discuss where Claude Code struggles. Osmani hedges carefully. The wiki needs honest post-mortems of agent-assisted projects that went wrong.
+### Agents at Scale: The Overnight Fleet
 
-**Agent-native project management tools** are an emerging category. [[Lovelace]] puts tickets, docs, ADRs, and session records directly in the repo as Markdown+YAML, with a Claude Code MCP server for agent access — treating the project as files the agent already lives among rather than a separate system it must integrate with.
+[[RepoMirror]] put Claude Code in a `while` loop overnight: six codebases ported, 1,100 commits, $800. The key finding: a simple prompt (103 words) beat a complex one (1,500 words). "The minimalist in me is happy to have hard proof that we are probably overcomplicating things."
 
-## Key Themes
+[[Agent Flywheel]] offers a one-command VPS installer with three AI agents pre-configured, designed for 30-minute setup and 10+ agents running on a 64GB VPS for $440–656/month all-in. The pitch: "a junior developer costs $5,000+/month."
 
-#agentic-coding #workflow #verification #compound-engineering #maturity-spectrum
+[[Coding Agents and Complexity Budgets]] recounts Robinson's $260 weekend migration of cursor.com off a headless CMS: 344 agent requests, 67 commits, and the insight that "the cost of abstractions with AI is very high." When agents can use grep but not click through a CMS GUI, the network boundary of a headless CMS becomes a real cost.
 
-## Pages
+[[TextForge Case Study]] describes six-layer discipline for greenfield LLM development: planning mode, reference architectures, skills, PRDs, verification pipelines (including snapshot testing with the Verify library), and periodic technical cleanup sprints. Stannard's key finding: LLMs excel at initial implementation but require periodic human-led refactoring — replacing stringly-typed primitives with enums, removing duplicate code, and reorganising from "junk drawer" structure to vertical slices.
 
-- [[Agentic Software Engineering (Hassan)]] — The canonical text: full-stack engineering discipline for trustworthy software from stochastic AI teammates. SE 1.0→3.0, four trust disciplines, McDonald's layered verification, Ferrari vs. donkey
-- [[Addy Osmani's Workflow]] — Start with spec.md, work in focused chunks, review like a senior engineer
-- [[AI for Product Management]] — Three-layer prompt architecture for LLMs as skeptical PM sparring partners, grounded by MCP
-- [[AI Zealotry]] — Senior engineers should embrace AI tools; high-level thinking is now the differentiator
-- [[Opus 4.5 Changes Everything]] — Burke Holland builds four apps with Opus 4.5, shares his AI-first prompt, and confesses ambivalence about the craft he spent a lifetime learning
-- [[How Boris Uses Claude Code]] — The creator of Claude Code on how he actually uses it
-- [[How Claude Code Works in Large Codebases]] — Anthropic's official guide: seven harness components, three configuration patterns, and the case that setup matters more than the model
-- [[Gas Town After 10,000 Hours of Claude Code]] — Hartcher rejects Gas Town's delegation model for pair-programming agency; beads pollute git, token speed kills the experience
+[[The Lifecycle of a Swamp Issue]] implements a five-phase state machine for agent-driven development: triage, planning, adversarial review, iteration, implementation. State machine guards mean "the agent physically cannot skip steps." Plans are versioned, reviews are recorded, and no plan is auto-approved — a human must give the final go.
+
+[[AI-Driven Development Life Cycle]] proposes replacing sprints with "bolts" — shorter cycles measured in hours or days — across three phases: Inception (AI converts business intent into requirements), Construction (AI proposes architecture and code), and Operations (AI manages infrastructure). AWS's framing positions AI as a "central collaborator" but preserves human checkpoints for decisions requiring business context.
+
+[[agent-pr-replay]] offers an empirical approach to improvement: replay merged PRs with Claude Code, compare agent output against human solutions, and generate steering rules based on observed gaps. The best way to improve an agent is "to observe its default behavior, measure the gap against real human solutions, and steer it based on evidence."
+
+[[I Don't Want Your PRs Anymore]] argues that LLMs have inverted open-source economics: maintainers can now generate code faster than they can review stranger PRs. Security risk, style friction, and coordination overhead now outweigh the benefit of outside code contributions. The fork becomes the preferred outcome — build your version, keep your changes, and report back rather than sending a PR.
+
+[[If AI Is Doing the Investigation, Version the Investigation]] argues that AI session transcripts should be committed alongside code changes. Fletcher's "Cases" pattern — a directory containing notes, transcripts, and trace results — preserves the reasoning that would otherwise vanish when the terminal tab closes. "If AI is part of how you build software, its work shouldn't vanish when you close the tab."
+
+---
+
+## Where the Sources Disagree
+
+**Speed versus comprehension.** [[Cognitive Debt]], [[acceleration-flow]], and [[Slowing the Fuck Down]] all argue that unchecked speed destroys understanding. [[Compound Engineering]] counters that you do not need discipline if you have systems: build infrastructure that makes speed safe rather than relying on willpower to slow down. [[Breaking the Spell of Vibe Coding]] goes furthest, modelling AI-assisted coding as a genuine addiction with measurable productivity delusions. This tension is not resolved in the evidence: the systems school and the discipline school both have strong results.
+
+**Read every line versus do not read the code.** [[Addy Osmani's Workflow]], [[How to Effectively Write Quality Code with AI]], and [[Scaling LLMs to Larger Codebases]] all insist on reading every line of generated code. [[Simon Willison — Engineering Practices That Make Coding Agents Work]] says the newest rung on the ladder is not reading the code — shifting energy into making the agent prove correctness through tests and conformance suites instead. Both sides agree on verification; they disagree on whether the human's visual inspection of code is part of it. [[Gas Town After 10,000 Hours of Claude Code]] sides with reading: "Even if I am vibe engineering, I still care about the code. I still look at it."
+
+**Multi-agent orchestration versus pair programming.** [[Agent Flywheel]] and [[ctx – Agentic Development Environment]] bet on orchestrating fleets of agents in isolated worktrees. [[Gas Town After 10,000 Hours of Claude Code]] rejects the delegation model: Hartcher finds loss of visibility, slow token speed, and git-pollution from state-tracking files make him prefer interactive pairing. [[How Boris Uses Claude Code]] lands in the middle — parallel sessions, but each one a human-agent dialogue, not a fire-and-forget delegation.
+
+**CLI versus MCP.** [[Designing Agentic Loops]] and [[Simon Willison — Engineering Practices That Make Coding Agents Work]] favour shell commands over MCP — agents already know `curl`, `jq`, and `ffmpeg` from training data, and shell commands consume fewer tokens. [[MCP Is Dead; Long Live MCP]] argues this misses a crucial distinction: local MCP over stdio may be unnecessary, but HTTP MCP is transformative for organisations — centralised tooling, OAuth security, OpenTelemetry observability, and org-wide delivery of skills and prompts.
+
+**Specifications as the product versus exploration as the method.** [[How to Write a Good Spec for Agents]], [[Structured-Prompt-Driven Development]], [[Specsmaxxing]], and [[OpenSpec]] all treat the spec as the durable artifact. [[Code Field]], [[Simplicity in the Age of AI-Assisted]], and [[RepoMirror]] argue from the other direction: over-specification produces bloated output, and the real unlock is discovering what to remove. [[Compound Engineering]] resolves this partially with its distinction between vibe coding (to discover what you want) and spec-driven development (to build it properly).
+
+**One model versus many.** [[How Boris Uses Claude Code]] uses Opus 4.5 exclusively. [[On a Year of Multi-Model Development]], [[Inside the AI Workflows of Every's Six Engineers]], and [[Claude Sidecar]] run multiple models side by side, each for different task types. The multi-model camp's evidence is compelling: different models fail in different ways, and cross-model review catches things single-model workflows miss. But Boris's counter — one bigger model with fewer retries beats switching — also has data behind it.
+
+---
+
+## What Is Missing
+
+The wiki is heavy on practitioner workflows and light on **team adoption patterns**. How does a team of ten engineers adopt agent coding? What is the onboarding sequence? What fails first? [[Zero Alignment]] names the gap but does not fill it.
+
+**Cost modelling** remains thin. Pixo cost $2,871. Nango's 200 integrations cost under $20. [[Agent Flywheel]] estimates $440–656/month all-in. But nobody has published a full cost model for a sustained agent-assisted development practice: tokens per sprint, cost per feature, cost per bug found and fixed, the full TCO of Max plans plus API usage plus infrastructure.
+
+**Failure case studies** are almost entirely absent. Boris does not discuss where Claude Code struggles. Osmani hedges carefully. The Django team in [[A Practical Guide to Brownfield AI Development]] shelved their experiment — but that is a paragraph, not a post-mortem. The wiki needs honest accounts of agent-assisted projects that went wrong.
+
+**Agent-native project management** is an emerging category. [[Kata]] and [[Lovelace]] represent two different bets: kata puts the issue ledger in a local service adjacent to workspaces; Lovelace puts tickets, docs, ADRs, and session records directly in the repo as files. Both are early and neither has proven the model at team scale.
+
+**The apprenticeship crisis** is raised by [[Probabilistic Engineering and the 24-7 Employee]] and [[The Next Two Years of Software Engineering]] but not addressed. If junior engineers lean on AI from week one and seniors review agent output rather than mentoring, the pipeline from junior to senior breaks. Harvard data shows junior developer employment dropping 9–10% within six quarters of AI adoption. Nobody has published a credible model for how the craft transfers across generations in an agent-mediated world.
+
+**Non-code artifacts** — architecture decisions, system design, documentation — are gestured at but not treated systematically. [[Simplicity in the Age of AI-Assisted]] argues that LLMs inherit complexity rather than questioning it, but the wiki does not yet have a treatment of how to do architecture with agents.
+
+---
+
+## Also on This Theme
+
+- [[The Persistent Gravity of Cross Platform]] — When AI can generate four native implementations as easily as one cross-platform codebase, the bottleneck becomes human verification throughput, and one codebase means one review surface rather than four
 - [[HN Opus 4.5 Is Not the Normal AI Agent Experience]] — 1,353-comment HN thread as accidental focus group: compiler-as-guardrail, training-data proximity, and the skeptic-conversion workflow
-- [[HN Don't Fall Into the Anti-AI Hype]] — 1,631-comment HN thread as accidental debate on what LLMs are: entropy/convergence theory, lossy compression vs. learned relations, and the conditions under which LLMs actually work
-- [[How Intercom Uses Claude Code]] — 13 plugins, 100+ skills, hooks, and OpenTelemetry observability: the most comprehensive enterprise Claude Code deployment published
-- [[Inside the AI Workflows of Every's Six Engineers]] — Six engineers, same company, six radically different AI stacks converging on planning-first, multi-model, guardrail-heavy workflows
-- [[Minions — Stripe's One-Shot Coding Agents]] — 1,000+ unattended PRs/week on hundreds of millions of LOC. Forked Goose, 400 MCP tools, two CI rounds max
-- [[Inside OpenAI's In-House Data Agent]] — Codex agents autonomously run OpenAI's 600PB data platform. The hard problem isn't model intelligence — it's making the company's data reality legible to the agent
-- [[Trading Ideas — Claude Equity Research Plugin]] — One-slash-command equity research: structured prompt as institutional analyst, marketplace as distribution, form-over-substance danger
-- [[2389 Plugin Marketplace]] — 26 plugins and 4 MCP servers from 2389 Research: the largest third-party Claude Code plugin collection, and a bet on marketplaces as the distribution model for agent capabilities
-- [[Simmer Skill]] — 2389 Research's iterative artifact refinement skill: judge-generator loops that self-hone via meta-iteration, converging in 3-5 rounds by leveraging pretrained competence plus targeted feedback
-- [[How to Write a Good Spec for Agents]] — Five principles for specs that make agents productive
-- [[Automatic Programming]] — antirez draws a bright line: AI-assisted programming with human vision vs. vibe coding as abdication. "Programming is now automatic, vision is not (yet)"
-- [[The Plan Is the Program]] — Tyler Angert's aphorism unpacked: when tools collapse intent and execution, the plan becomes the atomic unit of work
-- [[The Lifecycle of a Swamp Issue]] — Five-phase state machine for agent-driven development: triage, planning, adversarial review, iteration, implementation. The agent physically cannot skip steps
-- [[Structured-Prompt-Driven Development]] — SPDD: prompts as version-controlled delivery artifacts via a 7-part REASONS Canvas and 6-step workflow
-- [[Spec-Driven Development]] — Specs, tests, and code form a triangle, not a pipeline
-- [[Code Field]] — Resist the urge to over-specify; let the code emerge smaller than your first instinct
-- [[Compound Engineering]] — When you can't trust the output, add a system, not manual review
-- [[ctx – Agentic Development Environment]] — Local-first ADE: multi-agent orchestration with worktree isolation, container sandboxing, and a local merge queue
-- [[recursive-mode]] — File-backed, phase-gated agent workflow: numbered artifacts from requirements through closeout, with recursive audit loops
-- [[AI-Driven Development Life Cycle]] — AWS's three-phase AI-native methodology replacing Agile: bolts not sprints, human checkpoints not human review
-- [[Cognitive Debt]] — When velocity exceeds comprehension. Code is cheaper to produce than to perceive
-- [[Slowing the Fuck Down]] — Deliberate friction in AI-assisted development is a feature, not a bug
-- [[I Don't Want Your PRs Anymore]] — LLMs invert open-source economics: maintainers generate code faster than they can review stranger PRs. The fork as preferred outcome
-- [[Radical Accountability]] — AI eliminates the excuse of insufficient engineering time. Taste is all that's left
-- [[The Mythical Agent-Month]] — Agents attack accidental complexity but generate new accidental complexity
-- [[acceleration-flow]] — AI-assisted coding as slot machine gambling: near-misses create dopamine loops
-- [[Breaking the Spell of Vibe Coding]] — Rachel Thomas diagnoses vibe coding as gambling addiction: dark flow, LDW dopamine hits, and the 40% productivity perception gap
-- [[Five Levels from Spicy Autocomplete to the Dark Software Factory]] — Five-level framework for AI-assisted development, echoing NHTSA driving automation
-- [[The Cult of Vibe Coding Is Insane]] — Bram Cohen torches the "never look at code" extremists: pure vibe coding is a myth, the framework IS the engineering
-- [[Refactor Legacy Code with Copilot]] — Copilot prompt patterns for legacy modernization across four languages; shallow on the hard problems
-- [[A Practical Guide to Brownfield AI Development]] — Pupius's field guide to making agents productive in legacy codebases: tests as system boundaries, docs as context, compromise as strategy. The best brownfield AI piece in the wiki
-- [[On a Year of Multi-Model Development]] — Hoffman's field report on Claude+Codex+Gemini via shared MCP: construction-trade model taxonomy, 25-71x acceleration, specification as bottleneck
-- [[Talking to Transformers]] — Four pillars for effective LLM prompting: attention as budget, domain language as compression
-- [[The Claude C Compiler]] — Lattner's verdict: AI implements known abstractions well but invents nothing new
-- [[Building low-level software with only coding agents]] — Pixo: 38K lines of Rust, 900+ tests, zero hand-written code, $2,871
-- [[Coding Agents and Complexity Budgets]] — Lee Robinson's $260 weekend migration of cursor.com off a headless CMS: agents need grep, not GUIs
-- [[RepoMirror]] — While-loop agent porting: 6 codebases, 1,100 commits, $800, one night. Simple prompts beat complex ones
-- [[Building 200+ Integrations with OpenCode]] — 200 API integrations in 15 minutes for under $20
-- [[Slowing Down in the Age of Coding Agents]] — Odendahl's third in the series: e-ink annotation cycles, vocabulary drift detection, and why the bottleneck is now thinking, not typing
-- [[Simplicity in the Age of AI-Assisted]] — LLMs make it cheap to rebuild without inherited complexity
-- [[The Next Two Years of Software Engineering]] — Junior employment drops 9-10% after AI adoption; senior roles hold steady
-- [[ThoughtWorks Future of Software Engineering Retreat]] — Senior practitioners under Chatham House Rule: ten time-horizoned themes, the "middle loop" of supervisory engineering, cognitive debt, agent topologies as Conway's Law extension, TDD as prompt engineering
-- [[Two Kinds of User Are Emerging]] — Power users vs casual users; many power users are non-technical professionals
-- [[HN RIP Low-Code 2014-2025]] — 157-comment HN focus group on whether AI kills low-code: the consensus is low-code becomes the abstraction layer AI agents need, but maintenance is the real cost
-- [[AI Killing B2B SaaS]] — Vibe coding threatens SaaS, but hastily-built solutions lack security and compliance
-- [[The Road Runner Economy]] — Noah Raford's case that the software industry already crossed the cliff: Christmas 2025 was the phase transition, "one-shat" is the unit of economic destruction, and "this meeting could have been a prompt"
+- [[HN Don't Fall Into the Anti-AI Hype]] — 1,631-comment HN thread on what LLMs actually are: entropy/convergence theory, lossy compression versus learned relations
+- [[Trading Ideas — Claude Equity Research Plugin]] — One-slash-command equity research: structured prompt as institutional analyst, marketplace as distribution
+- [[2389 Plugin Marketplace]] — 26 plugins and 4 MCP servers from 2389 Research: the largest third-party Claude Code plugin collection
+- [[Refactor Legacy Code with Copilot]] — Copilot prompt patterns for legacy modernisation across four languages; shallow on the hard problems
+- [[HN RIP Low-Code 2014-2025]] — 157-comment HN thread on whether AI kills low-code: the consensus is low-code becomes the abstraction layer AI agents need
 - [[Cyborgs Will Kill the Corporation]] — AI agents as human exoskeleton: when transaction costs collapse, the firm decomposes into excorporations, plankton, and protocols
-- [[Claude Chic]] — Wes McKinney's alternative TUI for Claude Code with live roborev review sidebar, built on Textual + Claude Agent SDK
-- [[Claude Code Cheat Sheet]] — Comprehensive reference for Claude Code v2.1.140
 - [[The Claude Code Playbook]] — Five beginner-to-intermediate tips: MCPs, CLAUDE.md, plan mode, Max plan economics, IDE diagnostics
-- [[A Guide to Claude Code 2.0]] — Sankalp's deep tour of CC 2.0: sub-agents, skills, hooks, system reminders, and context engineering as a discipline
-- [[TextForge Case Study]] — Stannard's six-layer discipline for greenfield LLM development: planning, reference architectures, skills, PRDs, verification pipelines, snapshot testing
-- [[There Is No Spoon]] — ML primer built on physical analogies (neurons as polarizing filters, depth as paper folding), conversationally constructed with Claude, designed for interactive AI-aided exploration
-- [[Claude Code on the Go]] — Mobile-first workflow: agents on a cloud VM, controlled from an iPhone
-- [[MobileVibe]] — Mobile app controlling coding agents on your own desktop: local execution, phone as terminal
-- [[Agent Flywheel]] — Jeffrey Emanuel's one-command VPS installer + planning-first Flywheel Methodology for coordinating 10+ agents. Idempotent, 30-min setup, $440-656/month all-in
-- [[CLAUDE.md (Universal)]] — Six token-efficient rules for making Claude behave sensibly
-- [[Writing a Good CLAUDE.md]] — HumanLayer's guide: short, universal, hand-crafted, linters-not-prompts. The instruction-budget case for brevity
-- [[Benchmarking AGENTS.md Changes]] — Stet ran Codex through 8 AGENTS.md iterations against real PRs; the best candidate still regressed on a holdout. AGENTS.md inversion and the case for empirical instruction engineering
-- [[Intent Layer]] — Railly Hugo's hierarchical AGENTS.md at folder boundaries: giving agents the tacit knowledge senior engineers carry
-- [[Anatomy of the .claude/ Folder]] — Avi Chawla's structural reference: every directory and file in .claude/, from CLAUDE.md to agents/, with a five-step setup progression
-- [[claude-code-config (Trail of Bits)]] — Security-conscious Claude Code defaults from Trail of Bits
-- [[claude-ctrl]] — Enforcement via hooks and SQLite, not prompts. "An instruction in context is not a constraint"
-- [[Claude Code is a Beast — Tips from 6 Months of Hardcore Use]] — Solo dev rewrites 300k LOC in 6 months: skills auto-activation via hooks, dev docs system, PM2 pipeline, 11 subagents. Best single-developer Claude Code workflow writeup
-- [[Collaborator]] — Infinite canvas desktop app: agents, terminals, and context files side by side
-- [[Pencil]] — MCP-native design canvas inside your IDE. Agent-driven, open format, Git-versioned design files
+- [[There Is No Spoon]] — ML primer built on physical analogies, conversationally constructed with Claude, designed for interactive AI-aided exploration
+- [[Anatomy of the .claude/ Folder]] — Avi Chawla's structural reference: every directory and file in .claude/, with a five-step setup progression
+- [[claude-code-config (Trail of Bits)]] — Security-conscious Claude Code defaults: sandboxing, hooks, MCP servers, and usage patterns for security audits
+- [[Claude Code is a Beast — Tips from 6 Months of Hardcore Use]] — Solo dev rewrites 300k LOC in six months: skills auto-activation via hooks, dev docs system, 11 subagents
 - [[MinMax Skills]] — Development skills library for coding agents: frontend, mobile, Flutter, media
 - [[Binary RE]] — Binary reverse engineering skills for Claude Code
-- [[OpenSpec]] — Spec-driven planning layer with spec deltas for intent-based review
-- [[Specsmaxxing]] — YAML-based acceptance criteria with stable IDs (ACIDs) threading specs through code, tests, and a review dashboard
 - [[Summarize Meetings Skill]] — Meeting transcript processing expressed as a DOT digraph
-- [[Kata]] — Local-first issue tracker for AI-assisted work. Agent CLI + human TUI, SQLite
-- [[agent-pr-replay]] — Replay merged PRs with Claude Code and compare agent vs human output
-- [[happy]] — Mobile and web client for Claude Code with realtime voice and encryption
-- [[vibes-cli]] — GUI framework for Claude Code designed for non-coders. Single-file HTML apps
-- [[life-system]] — Personal life OS on plain-text markdown with Claude Code as accountability partner
-- [[Scaling LLMs to Larger Codebases]] — Gill's guidance/oversight framework for where to invest engineering resources: prompt libraries and codebase health as feedforward, automated enforcement and verification as feedback
-- [[Designing Agentic Loops]] — Simon Willison names the meta-skill: choosing tools, guardrails, and success criteria so YOLO-mode agents converge. Shell commands beat MCP, tests are the force multiplier
-- [[Simon Willison — Engineering Practices That Make Coding Agents Work]] — Willison's Pragmatic Summit talk: the adoption ladder's newest rung (don't read the code), TDD as the agent unlock, conformance-driven development, the lethal trifecta, and why cognitive exhaustion might save our careers
-- [[MCP Is Dead; Long Live MCP]] — Chen's rebuttal to the CLI-everything pendulum: local MCP is often unnecessary, but HTTP MCP is transformative for orgs. The local/remote split is the missing variable in the debate
-- [[Don't Fear the Dark Factory]] — Matt Wynne's conversion narrative: the dark factory is a validation problem, not a generation problem. Simple loop + good harness, and the TDD parallel
-- [[Don't Wait for Claude]] — The bottleneck isn't Claude's speed, it's managing parallel sessions without losing context. Problem-priority navigation over session-priority
-- [[If AI Is Doing the Investigation, Version the Investigation]] — Fletcher's Cases pattern: commit the AI session transcript next to the code so the investigation survives the session
-- [[Probabilistic Engineering and the 24-7 Employee]] — Tim Davis: the deterministic contract is broken, validation doesn't scale with generation, and the overnight agent fleet creates a training crisis where craft atrophies
-- [[0xSero]] — Agent infrastructure practitioner: REAP-pruned models calibrated for agentic coding, ai-data-extraction toolkit, BYOK long-running autonomous workflows
-- [[Claude Sidecar]] — Parallel AI window alongside Claude Code: share context with Gemini, GPT, DeepSeek, fold results back
-- [[How to Effectively Write Quality Code with AI]] — Heidenstedt's twelve principles: every decision you don't document, the AI will make for you — usually badly
-- [[Codex-maxxing]] — Jason Liu's field report on pushing Codex beyond coding: durable threads, voice input, steering, Heartbeat automations, and an Obsidian vault as agent memory
+- [[Simmer Skill]] — 2389 Research's iterative artifact refinement skill: judge-generator loops that self-hone via meta-iteration
+- [[0xSero]] — Agent infrastructure practitioner: REAP-pruned models, ai-data-extraction toolkit, BYOK long-running autonomous workflows
+- [[Codex-maxxing]] — Jason Liu's field report on pushing Codex beyond coding: durable threads, voice input, Heartbeat automations, and an Obsidian vault as agent memory
+- [[ThoughtWorks Future of Software Engineering Retreat]] — Senior practitioners under Chatham House Rule: ten time-horizoned themes, the "middle loop" of supervisory engineering, agent topologies as Conway's Law extension
+- [[Guardrails and Feedback Loops]] — The case for mechanical enforcement over prompt-level guidance
+- [[Specifications as the Product]] — When code generation is cheap, the spec becomes the durable artifact
+- [[Agent Orchestration]] — Multi-agent systems, coordination patterns, and the challenge of getting agents to work together
+
+---
+
+*Compiled from 101 sources: [[summary/0xSero-tweet-2050607389498372588]], [[summary/2389-plugin-marketplace]], [[summary/a-practical-guide-to-brownfield-ai]], [[summary/acceleration-flow]], [[summary/addy-osmanis-workflow]], [[summary/agent-flywheel]], [[summary/agent-pr-replay]], [[summary/agentic-software-engineering-ahmed-hassan]], [[summary/ai-driven-development-life-cycle]], [[summary/ai-for-product-management]], [[summary/ai-killing-b2b-saas]], [[summary/ai-zealotry]], [[summary/antirez-automatic-programming]], [[summary/awesome-vibez]], [[summary/binary-re]], [[summary/building-200-integrations-with-opencode]], [[summary/building-low-level-software-with-only-coding-agents]], [[summary/claude-chic]], [[summary/claude-code-beast-6-months]], [[summary/claude-code-cheat-sheet]], [[summary/claude-code-config]], [[summary/claude-code-on-the-go]], [[summary/claude-ctrl]], [[summary/claude-sidecar]], [[summary/claudemd]], [[summary/code-field]], [[summary/codex-iterates-agents-md]], [[summary/codex-maxxing]], [[summary/coding-agents-and-complexity-budgets]], [[summary/cognitive-debt]], [[summary/collaborator]], [[summary/compound-engineering]], [[summary/ctx-agentic-development-environment]], [[summary/cyborgs-will-kill-the-corporation]], [[summary/dark-flow]], [[summary/designing-agentic-loops]], [[summary/dont-fear-the-dark-factory]], [[summary/five-levels-from-spicy-autocomplete-to-the-dark-software-factory]], [[summary/gas-town-after-10000-hours-claude-code]], [[summary/gravity-of-cross-platform-apps]], [[summary/happy]], [[summary/hn-dont-fall-into-anti-ai-hype]], [[summary/hn-opus-4-5-coding-agent-experience]], [[summary/hn-pre-commit-lint-checks-discussion]], [[summary/hn-rip-low-code-2014-2025]], [[summary/how-boris-uses-claude-code]], [[summary/how-claude-code-works-in-large-codebases]], [[summary/how-to-effectively-write-quality-code-with-ai]], [[summary/how-to-write-a-good-spec-for-agents]], [[summary/how-we-use-claude-code-today-at-intercom]], [[summary/i-dont-want-your-prs-anymore]], [[summary/if-ai-is-doing-the-investigation-version-the-investigation]], [[summary/inside-our-in-house-data-agent]], [[summary/inside-the-ai-workflows-of-every-s-six-engineers]], [[summary/intent-layer]], [[summary/jc-workflow]], [[summary/kata]], [[summary/life-system]], [[summary/lovelace]], [[summary/mcp-is-dead-long-live-mcp]], [[summary/minimax-skills]], [[summary/minions-stripe-one-shot-coding-agents]], [[summary/mobilevibe]], [[summary/my-experience-with-claude-code-20]], [[summary/on-a-year-of-multi-model-development]], [[summary/openspec]], [[summary/opus-4-5-change-everything]], [[summary/oversight-and-guidance]], [[summary/pencil-dev]], [[summary/pre-commit-lint-checks]], [[summary/probabilistic-engineering-and-the-24-7-employee]], [[summary/radical-accountability]], [[summary/recursive-mode]], [[summary/refactor-legacy-code-with-copilot]], [[summary/repomirror]], [[summary/road-runner-economy]], [[summary/simmer-skill]], [[summary/simon-willison-pragmatic-summit-engineering-practices]], [[summary/simplicity-in-the-age-of-ai-assisted]], [[summary/slowing-down-in-the-age-of-coding-agents]], [[summary/slowing-the-fuck-down]], [[summary/software-2.0-case-study-textforge]], [[summary/spec-driven-development]], [[summary/specsmaxxing]], [[summary/structured-prompt-driven-development]], [[summary/summarize-meetings-skill]], [[summary/talking-to-transformers]], [[summary/the-claude-c-compiler]], [[summary/the-claude-code-playbook]], [[summary/the-cult-of-vibe-coding-is-insane]], [[summary/the-lifecycle-of-a-swamp-issue]], [[summary/the-mythical-agent-month]], [[summary/the-next-two-years-of-software-engineering]], [[summary/the-plan-is-the-program]], [[summary/thereisnospoon]], [[summary/trading-ideas-claude-equity-research]], [[summary/tw-future-of-software-development-retreat-key-takeaways]], [[summary/two-kinds-of-user-are-emerging]], [[summary/vibes-cli]], [[summary/writing-a-good-claude-md]], [[summary/zero-alignment]]*
+*Last compiled: 2026-08-09*
