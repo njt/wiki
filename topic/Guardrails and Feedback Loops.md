@@ -82,6 +82,8 @@ A recurring pattern across the evidence is agents testing their own output — c
 
 [[Morningprint]] demonstrates the same principle at the edge of a physical output device: a TypeScript renderer clamps, truncates, strips control characters, and caps every field of an untrusted LLM art spec before a single byte hits the printer. The `sanitizeArtHistory` read-time filter is defence-in-depth against poisoned rolling context — entries that fail structural checks are dropped on read, so a single degenerate generation cannot contaminate two weeks of future prompts. The renderer is the guardrail; the prompt is the suggestion.
 
+[[Proving It Works]] pushes this one artifact further from code: a Claude Code skill that records narrated proof movies and passes each one through `check-movie`, a deterministic gate that samples picture and sound on one timeline and fails the file when action is front-loaded over a frozen picture, the audio is silent, or subtitles are missing — a lint rule for movies, with a contact sheet standing in for the human review the script can't do.
+
 ### The human role
 
 A thread running through the evidence is what humans still bring. [[Harness Engineering]] captures it: "A coding agent has none of this: no social accountability, no aesthetic disgust at a 300-line function." A good harness "should not necessarily aim to fully eliminate human input, but to direct it to where our input is most important." [[Harness Engineering (OpenAI)]] operationalises this as "humans steer, agents execute" — the engineering discipline is in designing environments, specifying intent, and building feedback loops, not in hand-writing code.

@@ -489,6 +489,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Google Workspace CLI]] — One Rust CLI for all Google Workspace APIs. Dynamic command surface
 - [[Google Workspace CLI Skills]] — Structured skill catalog: 19 services, 25 helpers, 10 personas, 40 recipes. A designed taxonomy for agent-tooling
 - [[VHS]] — Terminal GIF recorder from Charm. Write recordings as scripted .tape files
+- [[Proving It Works]] — Prime Radiant's Claude Code plugin for recording narrated proof/demo movies of software running, then gating them with `check-movie`, a mechanical checker that samples picture and sound on one timeline and fails a movie whose action is front-loaded over a frozen picture, whose audio is silent, or whose subtitles are missing. From Prime Radiant
 - [[Portless]] — Named .localhost URLs for local development. For humans and agents
 - [[QuickEmu]] — QEMU wrapper that auto-configures VMs. Nearly 1000 OS editions
 - [[Maestro (UI Testing)]] — End-to-end UI testing for mobile and web. YAML DSL, visual inspector, enterprise cloud
