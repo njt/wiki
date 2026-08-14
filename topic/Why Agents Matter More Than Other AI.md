@@ -51,5 +51,6 @@ The closing question is the real essay. Everything before it is setup. Albrecht 
 - [[Don't Fear the Dark Factory]] — the dark factory is a validation problem, not a generation problem
 - [[Coding Agents and Complexity Budgets]] — $260 weekend migration, agents need grep not GUIs
 - [[Cloudflare Wallets]] — The payment infrastructure that removes the human from the purchasing loop; agents that can deploy need to be able to pay
+- [[The Funnel of Doom — Hiring for Talent Density]] — the labor-market counter-signal: Adam Ward's "tale of two cities" (AI researchers and forward-deployed engineers at 11/10 while over-specialized ICs and new grads wane) is what Albrecht's replacement thesis looks like from inside the hiring war, where the scarce, time-constrained asset is still the elite human
 
 *Source: [Why agents matter more than other AI](https://substack.morereasonable.com/p/why-agents-matter-more-than-other) — Josh Albrecht, More Reasonable (Substack), 2025-12-19. Ingested 2026-05-22.*

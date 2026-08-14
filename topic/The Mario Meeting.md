@@ -48,6 +48,8 @@ Mario's epitaph. The self-limiting belief that exempts him from the meetings whe
 
 **Style note:** Lopp writes like a senior engineer explaining something to a junior engineer who hasn't yet realized they're being fired. The tone is exasperated affection: "I've told you this three times, Mario." The rhetorical device of addressing a named peer (who may be composite or real) makes the essay feel like a leaked email rather than a blog post — intimate, frustrated, and more persuasive for it.
 
+**Where the headcount comes from:** [[The Funnel of Doom — Hiring for Talent Density]] picks up where Lopp leaves off. Calendar literacy wins the budget; Adam Ward's playbook (treat every hire like an executive search, pursue the top 1% rather than the funnel's remainder) is about *spending* it well. The two are complementary halves of the same argument — Lopp explains how headcount gets allocated, Ward explains how to convert an approved headcount into a talent-dense team rather than a regression to the mean.
+
 ---
 
 *Sources: [[raw/the-mario-meeting]]*

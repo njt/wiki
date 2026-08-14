@@ -143,3 +143,5 @@ The unanswered questions list at the end of the raw notes isn't just a checklist
 YouTube: [Product-minded engineers in an AI-native world](https://www.youtube.com/watch?v=0Cv5763UX70) — The Pragmatic Engineer, 2026-05-18. Speakers: Thomas Pauls (CTO, Linear), Drew (The Product-Minded Engineer), Michelle (co-founder, Flint). Transcribed via ytx.
 
 See also: [[Flint Chart]] — the visualization intermediate language Michelle co-founded, which exemplifies the product-minded engineering philosophy applied to the AI-tools space: a compiler that absorbs complexity so users (both human and agent) can express intent, not implementation.
+
+See also: [[The Funnel of Doom — Hiring for Talent Density]] — Adam Ward's recruiting-side confirmation of the same convergence: demand for engineer/product/design hybrids and forward-deployed engineers is "11 out of 10" while over-specialized ICs wane. The market is now *paying* for the product-minded orientation this panel argues for.

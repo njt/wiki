@@ -66,6 +66,7 @@ Kornbluth is being honest with her community. Bridge funding exists, but it's a 
 - [[Things You're Allowed to Do]] — most constraints are self-imposed; Kornbluth's constraints are externally imposed by policy
 - [[The Usefulness of Useless Knowledge]] — Abraham Flexner's 1939 essay is the foundational document Kornbluth is implicitly defending: the argument that curiosity-driven research, pursued without thought of application, is the ultimate source of practical utility. The same Institute for Advanced Study Flexner describes is what's at stake in the funding crisis she documents.
 - [[The Mundanity of Excellence]] — excellence as qualitative institutional choices; what happens when the institution can no longer afford those choices
+- [[The Funnel of Doom — Hiring for Talent Density]] — Adam Ward's executive-search playbook assumes a deep "top 50 in the world" pool exists to be relentlessly pursued; Kornbluth's shrinking pipeline is the supply-side reason that assumption frays, and why "we're in the talent business" is both institutions' shared worry
 
 ---
 
