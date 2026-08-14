@@ -111,6 +111,7 @@ This is database-company-level testing for a solo project. The chaos module (`in
 - **vs PeerDB**: Both do Postgres CDC. PeerDB targets data warehouses (Snowflake, BigQuery). Streambed targets Iceberg on S3 with an embedded query engine. PeerDB is a company; Streambed is a solo project.
 - **vs pgcapture**: Similar technical approach (pgoutput plugin). pgcapture has multiple sink types. Streambed is Iceberg-only but has the embedded query server and simulation testing.
 - **vs Airbyte/Fivetran**: These are batch ETL/ELT, not CDC. Different latency profile. Streambed has sub-second latency (streaming WAL).
+- **vs Snowflake Data Mirroring**: Snowflake's own Postgres service now ships push-based CDC — a `snowflake_cdc` extension pushes change batches directly into Iceberg on S3, and Snowflake applies them transactionally ([[Postgres to Snowflake Data Mirroring]]). Same destination (Iceberg), opposite control: Snowflake's runs *inside* Postgres and is locked to Snowflake's apply step, while Streambed pulls the WAL from outside and stays warehouse-agnostic.
 
 Streambed is a practical instantiation of the log-centric data integration architecture Jay Kreps laid out in [[The Log — Unifying Abstraction for Real-Time Data]]: the database's WAL is the log, the CDC pipeline is the subscriber that reads and transforms, and Iceberg on S3 is the destination that other systems can consume independently. The entire architecture — single-source-of-truth log, decoupled consumers, each reading at their own pace — is Kreps' blueprint implemented in a single Go binary.
 
