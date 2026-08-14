@@ -85,6 +85,8 @@ A notable absence: the piece doesn't address the *cost* of checking differently.
 
 **Applied to test suites:** [[Test Validation and the Trustworthiness of Tests]] extends the piece's epistemology into the testing domain directly. Typemock's argument that "passing isn't the same as providing confidence" is the same move as "a passing check is a claim, not a fact." Their runtime analysis — inspecting what tests actually *do* at execution time rather than what their source code claims — is "checking differently" applied to the test suite itself. A test that passes while quietly accessing the network, depending on system time, or duplicating another test's logic is the testing equivalent of silence read as success (#7): the instrument registered nothing, but nothing is not the same as confidence.
 
+**Applied to human review:** [[Reviewing Code Is a Skill]] shows the same "check differently" move operating in a person rather than a pipeline. Its three caught bugs — a file-lock race, a CLI-version incompatibility, an S3 checksum ordering — were each surfaced by "thinking in invariants and little proofs" (a different instrument than the trained eye re-scanning the diff), which is why high-end LLM reviewers that merely re-scanned the same surface missed all three.
+
 ---
 *Sources: [[raw/ways-of-checking]]*
 *Last updated: 2026-07-25*
