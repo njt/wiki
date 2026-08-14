@@ -488,6 +488,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Component Model 1.0]] — Bytecode Alliance's roadmap to a stable Wasm Component Model: lazy ABI, browser native support via jco telemetry, spec simplification, and the WIT expressivity gaps that remain
 - [[Git Diff Drivers]] — git's external diff driver interface: the 7-argument contract, `/dev/null` lifecycle sentinels, and a worked `oasdiff` example
 - [[Hunk]] — Terminal diff viewer built for the agentic review workflow: continuous-stream changeset rendering, agent annotations overlaid inline via sidecar pattern, adaptive layout, and keyboard-first navigation
+- [[Meat (Reading Diff)]] — Go CLI that abridges a git diff into a "reading diff": an LLM proposes remove/replace/fold edits in source coordinates and a deterministic compiler validates and renders, so the model never authors output. Stdlib-only, OpenAI Responses + Anthropic Messages backends
 - [[Google Workspace CLI]] — One Rust CLI for all Google Workspace APIs. Dynamic command surface
 - [[Google Workspace CLI Skills]] — Structured skill catalog: 19 services, 25 helpers, 10 personas, 40 recipes. A designed taxonomy for agent-tooling
 - [[VHS]] — Terminal GIF recorder from Charm. Write recordings as scripted .tape files
