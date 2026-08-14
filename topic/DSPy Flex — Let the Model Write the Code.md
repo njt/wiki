@@ -26,6 +26,8 @@ The optimizer describing its own design decision. This meta-commentary is striki
 
 The recurring pattern language. These aren't optimizations — they're architectural refactorings. The optimizer is doing the kind of work a senior engineer does when they look at a monolithic `Predict` call and think "this should be a pipeline." The difference is it does it automatically, guided by a metric.
 
+Shopify's [[Sidekick's Continual Learning Loop]] names GEPA (alongside Agentic Context Engineering) as its judge-calibration optimizer in production — the same reflective prompt evolution, applied to a live merchant agent rather than a benchmark. Real-world confirmation that GEPA's moves generalize past DSPy's eval sets.
+
 ---
 
 ## Key Themes
