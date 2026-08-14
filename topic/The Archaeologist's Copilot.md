@@ -44,6 +44,8 @@ The TestContainers abort is the most honest section and the one most modernizati
 
 What's missing: Malykhin doesn't address the question of whether modernization was actually worth it. The codebase ran; it had been running for 20 years. The essay assumes modernization is self-evidently valuable, but for a system with no active users or maintenance burden, the archaeology might have been the point. A cost-benefit reflection would strengthen an already strong piece.
 
+**The bug-vs-feature judgment generalizes to greenfield migrations.** [[AI Agents Migrate a Site to Astro]] hits the same boundary from the other side: Bizzotto's agents could translate a legacy static site, but couldn't tell which legacy behavior users depended on and which inactive sponsorship/coupon/A-B-test code should be dropped — so he made "intentional exceptions" a first-class part of his migration contract rather than letting agents copy code just because it still existed. Both authors converge on the same rule: the AI accelerates within the constrained space; the human defines the constraints.
+
 ---
 
 *Sources: [[raw/archaeologist-copilot]]*

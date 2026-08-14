@@ -118,6 +118,8 @@ Three weaknesses:
 
 Still: this is the first skill that treats assumption verification as a first-class engineering discipline rather than a byproduct of being careful. For plans where getting an assumption wrong would be genuinely costly — database migrations, auth systems, payment flows, deployment to production — the overhead is justified.
 
+**A worked example from the wild:** [[AI Agents Migrate a Site to Astro]] proves the riskiest assumption exactly the way the skill prescribes — before bulk work. Bizzotto's one uncertain claim ("Astro content collections can preserve my canonical URLs without restructuring the content folder") was validated with a small throwaway prototype that generated all routes and surfaced a global image problem early, rather than discovering it after hundreds of pages had migrated. The prototype *is* the "run code, observe output" validation method applied at architecture scale.
+
 ---
 *Sources: [[summary/skill-load-bearing]]*
 *Related: [[Agent Coding Workflow]], [[Components of a Coding Agent]], [[Orchestrator - Worker Skill]], [[StrongDM Factory Techniques]], [[Guardrails and Feedback Loops]], [[Structural Backpressure Beats Smarter Agents]], [[Agent Orchestration]]*
