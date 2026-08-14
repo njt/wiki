@@ -46,6 +46,8 @@ The strongest argument for manual crafting. `/init` is convenient but reckless. 
 
 The bottom line: pair this with [[CLAUDE.md (Universal)]] — that page gives you *what* to say, this gives you *how much* to say and *why less is more*. Together they're the best current guidance on CLAUDE.md authorship. But neither addresses the Skills interaction, and that's the gap that matters next. Read [[Feedback Loop is All You Need]] to understand why even a perfect CLAUDE.md is never enough.
 
+If you don't want to author from scratch, [[The Clanker Constitution]] is the closest thing to an off-the-shelf answer: seven clauses, ~20 bullets, small enough to respect the instruction budget, and deliberately framed as a *floor* ("direct user instructions override these defaults") rather than a wall of rules. It doesn't answer the CLAUDE.md-vs-Skills priority question either, but it does commit to a placement answer of its own — durable guidance in `AGENTS.md`, with `CLAUDE.md` importing it.
+
 ---
 
 *Sources: [[summary/writing-a-good-claude-md]]*

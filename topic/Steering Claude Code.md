@@ -41,6 +41,7 @@ This post is the **reference manual** for the instruction-placement problem that
 - [[Loop Engineering]] treats skills, subagents, and hooks as composable harness components in a maturity model
 - [[A Guide to Claude Code 2.0]] is the other definitive tour of this feature surface, from daily practice
 - [[James Montemagno — Copilot Custom Instructions]] shows the same instruction-budget problem in GitHub Copilot's ecosystem
+- [[The Clanker Constitution]] is a ready-made payload for the global-system-prompt / CLAUDE.md slot — Kenn's seven-clause default operating principles, with clause 7 taking a concrete stance on the placement question (AGENTS.md as canonical, CLAUDE.md importing it) this page leaves mostly open
 - [[Running an AI-Native Engineering Org]] shows how Anthropic's own team uses these mechanisms at scale
 
 The skills system's full frontmatter surface — 20+ fields controlling invocation, execution context, tool pre-approval, and argument passing — is documented in [[Claude Code Skills System]]. The description budget economics (1% of context window, least-used-skills dropped first) add a quantitative dimension to the "when to use which mechanism" decision: a skill with a long description may silently lose its triggering keywords as the budget fills, which is a failure mode the post's taxonomy doesn't capture.

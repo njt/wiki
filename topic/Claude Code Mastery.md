@@ -71,6 +71,7 @@ The closing punchline and the article's real thesis. Your job shifts from writin
 - [[Spec-Driven Development]] — plan mode as spec-first development
 - [[Planning With Files]] — the "plan before code" pattern generalized
 - [[Benchmarking AGENTS.md Changes]] — empirical evidence that instruction files matter
+- [[The Clanker Constitution]] — a pre-written, versioned seed for the "every mistake becomes a rule" file: Kenn's seven default operating principles, portable across repos and system prompts
 - [[Organizational Intelligence Systems]] — the CLAUDE.md/skill architecture applied beyond code: encoding organizational reasoning processes that combine internal data with expert frameworks for defensible decision-support analysis
 
 ---
