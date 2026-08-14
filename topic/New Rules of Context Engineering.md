@@ -67,6 +67,7 @@ This post sits at the intersection of several threads in the wiki:
 - **[[The New Software Lifecycle]]** identifies context engineering as "the underrated financial lever" in agent-assisted development. Shihipar's post is a concrete guide to pulling that lever.
 - **[[Loop Engineering]]** treats context engineering as the meta-skill — designing the systems that prompt agents rather than prompting agents directly. Progressive disclosure is a loop engineering technique.
 - **[[Guardrails and Feedback Loops]]** provides the framework for distinguishing what should stay as instructions from what should move to deterministic enforcement. Shihipar's "let Claude use judgement" only applies to the former.
+- **[[The Clanker Constitution]]** shows the alternative operationalization of judgment: Kenn writes "act with judgment" *as* an explicit standing rule rather than deleting rules to make room for judgment. Same destination (judgment over rigid constraints), opposite route — a useful contrast for teams deciding between "delete the guardrails" and "write the judgment down."
 
 For teams building custom agent harnesses, the system prompt section ("this is where you should spend a lot of time") pairs with [[Components of a Coding Agent]] and [[The Agentic Product Standard v2.0]]. For the skills-as-lightweight-guides philosophy, see [[PAAD — Defense-in-Depth for AI-Assisted Development]] and [[Cloudflare Security Audit Skill]] for worked examples of skills that encode "particular opinions, knowledge, or best practices" without overconstraining.
 
