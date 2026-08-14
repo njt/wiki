@@ -45,7 +45,7 @@ On technical debt: both AI-generated and human-generated codebases accumulate it
 
 **What's missing:** Cohen doesn't engage with *why* the purity taboo formed. [[Vibe Coding and the Maker Movement]] has the answer: evaluative anesthesia — the dopamine of making eclipses the ability to judge. Cohen treats the ideology as irrational and moves on, but the psychology that sustains it is worth understanding.
 
-This pairs well with [[Vibe Coding and the Maker Movement]] (the cultural analysis Cohen skips), [[Radical Accountability]] (taste as the scarce resource), [[AI Zealotry]] (senior engineers should lead, not abstain), [[Write Only Code]] (the extreme end of not-looking), [[Cognitive Debt]] (what you accumulate when you refuse to inspect), and [[Slowing the Fuck Down]] (deliberate friction as engineering practice).
+This pairs well with [[Vibe Coding and the Maker Movement]] (the cultural analysis Cohen skips), [[Radical Accountability]] (taste as the scarce resource), [[AI Zealotry]] (senior engineers should lead, not abstain), [[Write Only Code]] (the extreme end of not-looking), [[Cognitive Debt]] (what you accumulate when you refuse to inspect), and [[Slowing the Fuck Down]] (deliberate friction as engineering practice). [[Agentic Engineering at Kenn]] restates Cohen's "bad software is a decision you make" as team operating procedure — "vibe coding is not caring at scale" — backed by a spec-plus-adversarial-review-plus-verification pipeline rather than individual willpower.
 
 ---
 *Sources: [[summary/the-cult-of-vibe-coding-is-insane]]*

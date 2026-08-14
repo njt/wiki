@@ -32,7 +32,7 @@ The levels framework helps, but the levels are not linear for every task. [[Simo
 
 [[How Intercom Uses Claude Code]] is the most comprehensive enterprise deployment published: 13 plugins, 100+ skills, hooks that intercept raw `gh pr create` commands, OpenTelemetry observability across 14 session event types, and a forensic flaky test fixer with a 20-category taxonomy. Their session-end analysis uses Claude Haiku to auto-classify gaps (missing skill, missing tool, repeated failure) and post to Slack with pre-filled GitHub issue URLs. Top users include design managers, support engineers, and product leaders — not just engineers.
 
-[[Claude Code is a Beast — Tips from 6 Months of Hardcore Use]] documents a solo dev rewriting 300k LOC over six months with skills auto-activation via hooks, a dev docs system, and 11 subagents. [[Claude Chic]] offers an alternative terminal UI with a live roborev review sidebar, built by Wes McKinney on the Claude Agent SDK.
+[[Claude Code is a Beast — Tips from 6 Months of Hardcore Use]] documents a solo dev rewriting 300k LOC over six months with skills auto-activation via hooks, a dev docs system, and 11 subagents. [[Claude Chic]] offers an alternative terminal UI with a live roborev review sidebar, built by Wes McKinney on the Claude Agent SDK. McKinney's [[Agentic Engineering at Kenn]] documents the full team process behind those tools: a Superpowers-and-roborev loop where "loops are bullshit" only insofar as they're autonomous — human-operator loops are the whole point, and "vibe coding is not caring at scale."
 
 ### The Non-Coder Dimension
 
