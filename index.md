@@ -527,6 +527,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[How to Follow a Drummer]] — Sashyo's field report on building DrumMate: a phase-locked loop with beat-aware front end that lets the drummer lead and the machine follow, inverting forty years of click-track tyranny
 - [[Kreuzberg]] — Polyglot document intelligence: 97+ formats, Rust core, MCP server (superseded by [[Xberg]])
 - [[Xberg]] — Kreuzberg's successor: 101 formats, 15 language bindings, 5 OCR backends, 3 embedding types, MCP/CLI/API/WASM deployment, MIT/Apache 2.0 licensed
+- [[pdf-inspector]] — Firecrawl's Rust PDF classifier and Markdown extractor: detects text-vs-scanned in ~20ms, no OCR or ML, single lopdf dependency, per-page OCR routing
 - [[claude-replay]] — Agent sessions as self-contained embeddable HTML replays
 - [[Mindwalk]] — 3D visualization tool replaying coding-agent sessions as light moving through a night map of your codebase. Go binary, fully local, with sealed LLM session evaluation
 - [[Subtext]] — Real-time Jacobian lens instrument streaming an LLM's internal "silent words" to a browser canvas during live conversation; watches the model plan, judge, and reason before it speaks

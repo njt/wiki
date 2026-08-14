@@ -22,6 +22,8 @@ The Elastic License 2.0 is a yellow flag. ELv2 means you can't offer Kreuzberg a
 
 The breadth-vs-depth tradeoff is real. Supporting 97+ formats means some will be better than others. For critical production use, you'd want to benchmark Kreuzberg against specialized tools for your specific format (e.g., [[Dolphin]] for scanned documents, dedicated PDF extractors for digital PDFs).
 
+For digital-born PDFs, [[pdf-inspector]] is exactly that dedicated extractor: one format, one dependency (`lopdf`), no OCR, tuned to win on tables and reading order where generic engines lose.
+
 Still, for a "just extract text from whatever the user throws at me" use case, nothing else comes close to this coverage.
 
 ---

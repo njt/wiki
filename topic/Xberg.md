@@ -49,6 +49,8 @@ Five OCR backends spanning the spectrum from classical to frontier:
 
 The backend abstraction means you can toggle from offline Tesseract to cloud VLM with a config switch — no code changes.
 
+The opposite philosophy is [[pdf-inspector]]: rather than make OCR cheap and swappable, it avoids OCR entirely for the ~54% of PDFs that are already text-based — classifying in ~20ms and extracting natively with a single `lopdf` dependency — and hands off only the scanned/vector remainder.
+
 ### Embedding Strategy
 
 Three embedding types with distinct retrieval paradigms:
