@@ -18,6 +18,8 @@ The core move -- "you're afraid of AI doing X, but capitalism already does X" --
 
 Pairs naturally with [[Eye of the Master]], which provides the historical foundation for this argument. Where Pasquinelli traces AI's origins to labour management, Blix and Glimmer trace AI fears to labour anxiety.
 
+[[How to Get Rich in America]] supplies the empirical confirmation the authors argue from first principles: labor's share of output falling from 58% to 51% while corporate profits climb 7% to 11.7% is the concrete, measurable mechanism behind the "capitalism anxiety" they name — the AI wealth effect is just its newest installment.
+
 ## Critical Analysis
 
 Strong: the reframing is clarifying. Most AI discourse jumps to science fiction scenarios when the actual near-term harms are mundane capitalism accelerated by automation. The book is useful as a corrective.

@@ -78,6 +78,8 @@ The weakness is that the argument is almost entirely analogical. Neumann doesn't
 
 The other gap: Neumann doesn't engage with the possibility that AI *could* be different from containerization because it's recursive. Containerization made shipping cheaper; AI makes everything cheaper, including AI research itself. That recursion could accelerate the consolidation he predicts, or it could make it impossible — if the cost of building competitive models keeps collapsing, the oligopoly never forms. He can't have it both ways, and he doesn't pick.
 
+A third gap sits one level up from Neumann's frame. He asks who will *capture* the value AI creates; [[How to Get Rich in America]] documents that incumbent asset holders are already getting rich off AI *before* that question is settled — through the stock-market wealth effect, not through building or buying the technology. Distribution is happening now; capture is still unresolved. The two theses coexist, but only if you notice the distinction, and neither author does.
+
 That said, the investment advice is hard to argue with. "Don't invest in model companies, don't invest in app companies, infrastructure is already priced in, go downstream to knowledge-work industries and expect modest returns" — this is exactly the advice every non-salesperson in AI gives privately. Neumann just has the historical framework to make it persuasive rather than cynical.
 
 The most useful sentence in the piece might be: "For decades, the way to make money was to bet on what the new thing was. Now, you have to bet on the opportunities it opens up." That's the mental model shift. Whether you accept his containerization thesis or not, the shift is real.

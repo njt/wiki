@@ -12,7 +12,7 @@ Matteo Pasquinelli's social history of AI argues that the field's foundational l
 
 #ai-history #political-economy #labour #automation #marxism
 
-Pasquinelli's argument is a useful corrective to the "AI = brain" metaphor that dominates popular discussion. By tracing the lineage from Babbage's observation of pin factories to modern algorithmic management, he makes visible the continuity between industrial automation and machine learning. The book sits alongside [[Why We Fear AI]] in treating AI anxiety as fundamentally about capitalism rather than technology, though Pasquinelli is doing historical scholarship while Blix and Glimmer are doing political argument.
+Pasquinelli's argument is a useful corrective to the "AI = brain" metaphor that dominates popular discussion. By tracing the lineage from Babbage's observation of pin factories to modern algorithmic management, he makes visible the continuity between industrial automation and machine learning. The book sits alongside [[Why We Fear AI]] in treating AI anxiety as fundamentally about capitalism rather than technology, though Pasquinelli is doing historical scholarship while Blix and Glimmer are doing political argument. [[How to Get Rich in America]] gives Pasquinelli's history its empirical counterpart: the capital-labor transfer the book traces conceptually — from Babbage's factory to the modern "AI wealth effect" — is measurable today in labor's share of output sliding from 58% to 51% while corporate profits climb.
 
 The "eye of the master" metaphor itself -- Babbage watching workers to extract and codify their knowledge -- maps uncomfortably well onto modern RLHF, where human labelers' judgment gets compressed into model weights.
 

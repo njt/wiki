@@ -66,6 +66,7 @@ The solutions are known (public stakes, antitrust, taxing automated labor, capit
 - [[Cyborgs Will Kill the Corporation]] — Transaction costs collapse, the firm decomposes. The flip side of the same structural shift.
 - [[The Next Two Years of Software Engineering]] — Junior employment drops 9-10% after AI adoption. The "active deskilling" finding in the wild.
 - [[Eye of the Master]] — Pasquinelli's social history of AI as labour automation. The theoretical companion.
+- [[How to Get Rich in America]] — Kyla Scanlon's household-level version of the same structural claim: the economy rewards ownership over effort, "the job is perhaps not enough, what really matters is Stock Market Money." Where McGrann reasons from valuations and incentives, Scanlon reasons from labor-share, wealth-by-age, and ANES data — the same diagnosis reached from the demand side.
 - [[The Lazarus Effect — America's Productivity Miracle]] — AI had almost nothing to do with the productivity surge. Relevant data point for the "this isn't inevitable" argument.
 - [[Welcome to the American Winter]] — Democratic resistance in practice. What McGrann says is needed but doubts is possible.
 - [[Probabilistic Engineering and the 24-7 Employee]] — The deterministic contract is broken, craft atrophies. The micro version of the deskilling argument.

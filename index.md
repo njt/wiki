@@ -758,6 +758,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[Dopamine Fracking]] — German S. coins a diagnostic term for the industrial extraction of dopamine from human experience: optimization that depletes what it extracts, and why you eventually prefer the chemicals to the real thing
 - [[Deciphering Basmala]] — Mark Dominus unpacks the centuries of Arabic calligraphy behind Islam's most important phrase, and the Unicode hack (a single codepoint) that sidesteps font engines built for Latin
 - [[Why We Fear AI]] — AI anxiety is really capitalism anxiety. Blix and Glimmer
+- [[How to Get Rich in America]] — Kyla Scanlon on why the economy now rewards ownership over effort: labor's share falls from 58% to 51%, wealth begets wealth, and the rational response is windfalls, exit, and financial nihilism
 - [[The Market for Doom]] — Partridge on why every generation predicts technological unemployment and every generation is wrong: static vs. dynamic reasoning, horses as the only species that couldn't retrain, economics as the real optimism
 - [[We (As a Society) Peaked in the 90s]] — Blog post + 125-comment HN thread on whether the 90s were a genuine balance point between technology and humanity, or just what getting older feels like
 - [[2026 Global Intelligence Crisis]] — Citadel Securities' macro rebuttal to AI doomerism: S-curves, compute-as-boundary, supply-shock framing, and a report that reversed $2T in market panic
