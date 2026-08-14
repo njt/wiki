@@ -58,6 +58,8 @@ The mechanical, resumable work queue as the backbone of the whole operation. No 
 
 **The tiered-model economics have a dark side the article doesn't mention.** Sonnet-for-implementation / Opus-for-judgment works because Sonnet is good enough at translation and Opus is distinctly better at judgment. If the gap closes — or if a single model becomes good enough at both — the architecture collapses to a simpler form. The article's advice is tied to the current model landscape, which is the most transient thing in AI right now.
 
+**The factory isn't the only shape for AI-assisted migration.** [[AI Agents Migrate a Site to Astro]] is the solo counterpoint: Andrea Bizzotto migrated a 400+ page static site on a two-week holiday running at most two agents in parallel, citing the Bun rewrite as inspiration then rejecting its shape so he could review every session by hand. Where this field report optimizes for throughput, Bizzotto optimizes for reviewability — encoding "feature parity" as a testable migration contract (including intentional exceptions) rather than leaning on a rulebook and volume.
+
 ---
 
 *Sources: [[raw/ai-code-migration]]*

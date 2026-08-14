@@ -68,6 +68,8 @@ The closing aphorism. Jacob's point: the architecture you choose isn't neutral; 
 
 **The Swamp Club framing is both a strength and a limitation.** Swamp provides the primitives (typed models, versioned data, DAG execution) that make this approach natural. But the methodology doesn't require Swamp — any deterministic pipeline (GitHub Actions with explicit steps, a Makefile, a Go program with sequential function calls) can apply the same principle. The risk is that readers interpret this as "install Swamp" when the real message is "find the deterministic program hiding inside your agent workflow and extract it." [[Components of a Coding Agent]] makes the same point about the harness mattering more than the model — but Jacob is showing the *next* step: the harness itself can shed its LLM components as they're understood.
 
+**The same move applies to content migration, not just code review.** [[AI Agents Migrate a Site to Astro]] reached the identical conclusion from a different angle: instead of letting agents do a one-off LLM conversion of 400+ pages of Markdown, Andrea Bizzotto had AI build a deterministic migration tool with its own test harness that *fails loudly on unknown placeholders* rather than guessing — because an agent that guesses produces output that looks right while silently dropping behavior. Deterministic conversion with fail-closed errors is the content-migration instance of Jacob's fail-closed workflow.
+
 ---
 
 ## Cross-Links
