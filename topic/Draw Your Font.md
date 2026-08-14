@@ -94,6 +94,8 @@ Unlike [[Computer Use is 45x More Expensive Than Structured APIs]], which quanti
 
 The project exemplifies the pattern described in [[Layer-First Pattern — Keep Data Out of the LLM Context]]: the LLM only touches what requires judgment (which blob is which letter, does the output look right), and the raw pixel data stays in the deterministic pipeline.
 
+Unlike [[Dithered QR Codes]], which dithers a photo into a QR code's data modules by *spreading* quantization error (Floyd–Steinberg) so the forced bits vanish into the picture, draw-your-font's adaptive threshold must *preserve* every ink pixel faithfully for potrace to trace — the two opposite philosophies of crushing an image to one bit.
+
 ---
 
 *Sources: [[raw/draw-your-font]]*

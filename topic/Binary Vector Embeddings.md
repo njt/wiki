@@ -28,6 +28,8 @@ The infrastructure story is the killer feature. Binary quantization doesn't requ
 
 **Model-dependent variance.** Not all models binarize equally well. `mxbai-embed-large-v1` retains 96.45% while `nomic-embed-text-v1.5` drops to 87.7%. The 9-point spread matters: if you're picking an embedding model and binary search is in your future, test this property during model selection.
 
+The one-bit crush generalises beyond embeddings. [[Dithered QR Codes]] does the same thing to photographs — threshold to one bit, then use error diffusion to push each pixel's quantization error into its neighbours — and the same surprise holds: far more survives the crushing than you'd expect, and the bits you're forced to keep can be hidden inside the error instead of floating on top of the picture.
+
 ## Critical Analysis
 
 The 95%+ retention claim is real and reproducible, but it's worth being precise about what it measures. The MTEB retrieval benchmark tests whether the correct document appears in the top-k results — it says nothing about ranking quality within those results or about fine-grained similarity distinctions. If your application cares about the *ordering* of results more than binary inclusion/exclusion, the practical degradation may be larger than 4%.
