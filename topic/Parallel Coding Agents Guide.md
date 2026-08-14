@@ -38,7 +38,7 @@ The agent selection matrix (Claude Code for complex refactors, Codex for cost-se
 
 - **#pattern** — **Structured task descriptions.** Vague prompts produce unreviewable diffs; detailed prompts with explicit constraints produce scoped, auditable changes. This connects directly to [[How to Write a Good Spec for Agents]] and [[Specifications as the Product]].
 
-- **#concept** — **Orchestration maturity tiers.** Manual worktrees → scripted orchestration → dedicated orchestrator. This is a useful taxonomy even if tier 3 is the Superset pitch. [[Agent Orchestration]] tracks the same progression across the broader ecosystem.
+- **#concept** — **Orchestration maturity tiers.** Manual worktrees → scripted orchestration → dedicated orchestrator. This is a useful taxonomy even if tier 3 is the Superset pitch. [[Agent Orchestration]] tracks the same progression across the broader ecosystem. Spotify's [[Xirp]] is tier-3 made real — and its Portal context layer (Backstage Catalog + Workspaces over MCP) adds an organizational-context axis these tiers don't capture.
 
 ---
 

@@ -97,6 +97,7 @@ When an agent is in `working` state, Orca injects Unicode spinner frames (`⠋�
 - **vs. [[Fleet Supervisor (sermakarevich)]]**: Python supervisor with pluggable backends. Orca's orchestration is more deeply integrated with the OS (PTY, git, SSH) but Fleet Supervisor's backend-agnostic design is more composable.
 - **vs. [[Grok Build]]**: Grok Build IS an agent; Orca orchestrates agents (including Grok). Complementary, not competing.
 - **vs. [[Loop Engineering]]**: Orca is Addy Osmani's concept of "designing systems that prompt agents" made concrete — a desktop app implementing automations + worktrees + skills + connectors + state management as a product.
+- **vs. [[Xirp]]**: Spotify's macOS parallel-agent control plane — same category (persistent terminals + worktree-per-task + one control surface), but Xirp's differentiator is the Spotify Portal context layer (Backstage Software Catalog + Workspaces injected over MCP), not orchestration breadth. Xirp is enterprise-context-first and narrow (macOS, three agents, beta); Orca is breadth-first (20+ agents, SSH, mobile, plugins) with no organizational context layer.
 
 ---
 

@@ -103,6 +103,7 @@ The tool it most resembles is [[Collaborator]] — both are Electron desktop app
 - [[MobileVibe]] — Mobile agent control. Complementary: Broomy on desktop, MobileVibe on phone
 - [[Traycer]] — Open-source multi-agent desktop app that takes the opposite approach: deep per-harness adapters with normalized structured runtime events and real-time Yjs collaboration, vs Broomy's agent-agnostic opaque-terminal design
 - [[Orca]] — The most mature multi-agent Electron orchestrator: shared 590K-line codebase with Broomy's Electron+TypeScript+React stack, but adds daemon-persisted PTYs, SSH remote worktrees, a mobile companion app, computer use, and a plugin system. Broomy is the focused alternative to Orca's platform ambitions
+- [[Xirp]] — Spotify's macOS control surface for parallel agents. Same category, opposite center of gravity: Broomy is agent-agnostic and local-first; Xirp is catalog-backed and enterprise-context-first via Portal/MCP
 
 ---
 *Sources: [[summary/broomy]]*

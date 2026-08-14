@@ -49,6 +49,7 @@ The killer feature is **notification rings** — panes visually highlight when a
 - [[10 Principles for Agent-Native CLIs]] — cmux is a terminal designed for agents; the principles apply to terminal design too
 - [[surf-cli]] — Browser automation via CLI; cmux's in-app browser is a different take on the terminal/browser boundary
 - [[Agent Coding Workflow]] — The daily loop cmux is designed to support: multiple parallel agent sessions needing human attention
+- [[Xirp]] — Spotify's parallel-agent control surface: same "one control surface" instinct as cmux's control-room framing, but adds Backstage Catalog/Workspace context over MCP instead of betting on native terminal ergonomics
 
 ---
 *Source: [[summary/cmux]]*
