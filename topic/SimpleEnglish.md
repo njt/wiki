@@ -65,6 +65,8 @@ The project is a case study in [[Guardrails and Feedback Loops]]'s core thesis �
 
 Unlike most agent skills which focus on code quality (security reviews, architecture checks), SimpleEnglish targets text output — it's a quality guardrail for the prose agents produce. Its honest benchmark methodology and TDD-style prompt development make it a reference implementation for skill authors.
 
+[[I Have ADHD Skill]] is its closest sibling — another output-shaping skill with an eval harness — but they split on measurement: SimpleEnglish uses a deterministic regex linter, while i-have-adhd uses a blind LLM judge over a weighted five-dimension rubric behind a release gate. Same problem (does this prompt actually change output?), answered two ways: deterministic-but-shallow vs. statistical-but-judgment-based.
+
 ---
 *Sources: [[raw/simple-english]]*
 *Tags: #project #tool #writing #guardrails #agents*
