@@ -581,6 +581,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[DeltaDB]] — Zed's version control for the agent era: deltas replace commits, every line of code is bidirectionally linked to the conversation that produced it, CRDT-backed worktrees for concurrent human+agent editing
 - [[Dolphin]] — ByteDance's universal document parsing model. Digital and photographed docs
 - [[QR Generator (delphi.tools)]] — Indie web QR code tool with live preview and deep customization. "No logins. No tracking. Long live the handmade web"
+- [[Dithered QR Codes]] — Andrew T's walkthrough of embedding a photo into a QR code by dithering: shrink the data modules, Floyd–Steinberg the image into the freed space, then a second error-diffusion pass to mask the forced data bits. The aesthetics-vs-scannability trade-off, told honestly
 - [[HeidiSQL]] — Free open-source database GUI for 7 engines, maintained solo since 2002. Delphi/FreePascal, cross-platform, no pricing page
 - [[HTML Table Extractor]] — Simon Willison's browser tool that extracts HTML tables from pasted rich text, exports to 5 formats, and auto-fetches Wikipedia tables via open CORS API
 - [[LLM Cliché Highlighter]] — Simon Willison's browser tool that highlights sentences matching known LLM clichés ("delve," "tapestry," chain patterns) with hover-to-see-which-cliché; practical self-diagnostic for AI-assisted writing

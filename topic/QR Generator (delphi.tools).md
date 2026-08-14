@@ -16,7 +16,7 @@ The style names reward a close reading. "Bouba" and "Kiki" for bit shapes are a 
 
 > Error Correction: L, M, Q, H
 
-The tool exposes QR code error correction levels directly to the user. This is the right call — higher correction lets you embed logos at the cost of density, and the user needs to make that tradeoff based on their use case. Most QR generators hide this behind a "quality" slider or omit it entirely. Exposing the mechanism is honest tool design.
+The tool exposes QR code error correction levels directly to the user. This is the right call — higher correction lets you embed logos at the cost of density, and the user needs to make that tradeoff based on their use case. Most QR generators hide this behind a "quality" slider or omit it entirely. Exposing the mechanism is honest tool design. Andrew T's [[Dithered QR Codes]] spends that same correction budget in the opposite direction — shrinking the data modules and dithering a photo into the freed space, trading scannability for aesthetics rather than preserving it.
 
 ## Key Themes
 
