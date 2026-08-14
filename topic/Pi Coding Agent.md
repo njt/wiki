@@ -42,6 +42,8 @@ Three programmatic integration surfaces. This isn't just a terminal tool — it'
 
 **The extension ecosystem is real.** [[Pi Subagents]] by Nico Bailon is the most architecturally complete Pi extension to date: a single `subagent` tool that adds chain execution, sandboxed JavaScript workflows, async background jobs with a FleetView TUI, adversarial watchdog review, and an RPC protocol for external control. It implements the same orchestration patterns as Claude Code's dynamic workflows but as a Pi extension rather than a platform feature — proof that Pi's extension API is rich enough to support serious multi-agent infrastructure without modifying core.
 
+**The desktop surface arrives.** [[pi-gui]] adds the missing GUI pole to the Pi ecosystem — a Codex-style native desktop app (macOS arm64, Linux AppImage) that wraps `@earendil-works/pi-coding-agent` behind a `SessionDriver` interface and layers on multi-workspace sessions, a real-time agent timeline, and resumable session history. It completes the surface spectrum Pi now spans: terminal TUI (core and [[Oh My Pi (omp)]]), headless RPC ([[Pi-msg — XMPP Bridge for Pi Coding Agent]]), and native desktop. The SessionDriver's "future runtime swaps" language also quietly inverts Pi's own embedding bet — the GUI treats the agent runtime as a swappable backend, not a fixed dependency.
+
 ---
 
 *Sources: [[summary/pi-dev-docs]]*

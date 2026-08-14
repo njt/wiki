@@ -85,6 +85,8 @@ The Sessions tab reads both Claude and Codex JSONL from their respective directo
 
 **vs. [[Lovelace]]**: Both are Tauri-based desktop tools for agent-heavy development with file-based state. Bram enforces process through hash-verified worklists and PreToolUse hooks; Lovelace is a full project management system where tickets, docs, ADRs, and session records ARE the database files, with a Claude Code MCP server for agent access and a self-installing hook chain for orientation, presence tracking, and session-record enforcement.
 
+**vs. [[pi-gui]]**: pi-gui is a single-agent native desktop shell for the Pi coding agent (Codex-style workspaces, agent timeline, resumable sessions) that stops at visibility — no worklist, no PreToolUse enforcement, no gate before the agent edits. Bram and pi-gui sit at opposite ends of the desktop-shell spectrum: gatekeeper vs. viewer.
+
 ## Tags
 #tool #project #agents #coding-agent #desktop-app #tauri #rust #workflow #enforcement #guardrails #git
 

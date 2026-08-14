@@ -56,6 +56,7 @@ The biggest open question: does the Fold format actually serve as effective agen
 - [[Coding Agents and Complexity Budgets]] — Sidecar as a context-preservation strategy: deep-dive without pollution
 - [[Addy Osmani's Workflow]] — Work in focused chunks; Sidecar keeps tangents from fragmenting the main thread
 - [[Claude Code Cheat Sheet]] — The Claude Code surface Sidecar extends
+- [[pi-gui]] — a native desktop shell for the Pi coding agent; the single-agent GUI answer to the same "agents need more than a terminal" problem Sidecar solves with a parallel-window harness
 
 ---
 *Sources: [[summary/claude-sidecar]]*

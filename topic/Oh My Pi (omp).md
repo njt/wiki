@@ -74,6 +74,8 @@ Twelve internal schemes (`pr://`, `issue://`, `agent://`, `skill://`, `rule://`,
 
 **Vs. original Pi**: Pi was a minimal agent surface. omp adds sessions, subagents, slash commands, extensions, memory, compaction, browser, collaboration, ACP, and 30+ more tools. See [[Pi Coding Agent]] for the original philosophy and the tension with platform ambitions.
 
+**Vs. [[pi-gui]]**: omp is terminal-maximalist; pi-gui is native-desktop — a Codex-style GUI over the same Pi core with workspaces, a structured agent timeline, and resumable sessions, decoupling the shell from the runtime via a `SessionDriver` interface. Two surfaces, one agent: the Pi ecosystem now runs both the TUI and GUI bets at once, and omp's RPC mode (Pi-compatible) means pi-gui's runtime-agnostic shell could plausibly front omp too.
+
 **Vs. MiMo Code**: Both target long-horizon tasks with independent writer subagents and checkpointing. MiMo uses code-based orchestration (Dynamic Workflow); omp uses prompt-based orchestration with typed tool results. MiMo splits a single task across time; omp splits across parallel workers. See [[MiMo Code]].
 
 **Vs. Codex**: Codex uses apply_patch; omp uses hashline + ast_edit. omp explicitly detects and rejects apply_patch contamination in the hashline parser. omp's isolation is filesystem-level (pi-iso crate, APFS clones/reflinks) rather than container-level.
