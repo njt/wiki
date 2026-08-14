@@ -48,6 +48,8 @@ The Terminal-Bench data tells a sharp story: in May 2026, a third-party scaffold
 
 But on neutral scaffolds, the story flips: GLM 5.2 trails Opus 4.8 by ~4 points at one-fifth the cost. Open models have no first-party harness to answer with — none appear in the verified top tier of Terminal-Bench 2.1's official board.
 
+Tim O'Reilly reaches the same "harness is the frontier" conclusion by a longer historical road: his 1995 Apache-vs-Netscape story argues that modularity, not features or licenses, was the moat, and that the "architecture of participation" now means unbundling model from harness from context so builders can swap components without a lab's permission ([[Why Open Source Matters for AI]]). The two converge from opposite directions — Mozilla from exit rights, O'Reilly from swap cost — which is independent confirmation that the contest has moved up the stack.
+
 ### The Unsolved Permission Problem
 
 The "write surface" remains the open gap in agent infrastructure. Reads are safe and default-permitted. Writes — sending messages, spending money, modifying records — need confirmation, approval thresholds, cost caps, and revocation. No portable model exists across MCP hosts, A2A peers, and framework boundaries. MCP and A2A both stop at authentication. Knowing who an agent is says nothing about what it may do. Consent fatigue (users approving the large majority of prompts) is itself a write-side failure.
