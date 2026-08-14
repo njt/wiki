@@ -73,6 +73,7 @@ Colleague Douwe's question on waking to 30 overnight AI PRs. Not rhetorical — 
 - [[The solution might be cancelling my AI subscription (Wilson)]] — David Wilson's friction-as-mechanism thesis is the personal answer to Summers's diagnosis
 - [[Canonization and the Overhang]] — Kellan Elliott-McCrea's warning about rewarding only production depleting the cognitive seed corn; Summers's piece is a report from the depletion
 - [[An Honest Review of AI Programming]] — Mathieu Ropert's three-month field report provides the concrete failure modes behind Summers's diagnosis: hours lost to a wild goose chase where Claude confidently "fixed" a PBR lighting bug that was actually a faulty texture, and the self-reinforcing hallucination loop where the model cited the author's own work-in-progress as supporting evidence. The supervision isn't just exhausting — it's structurally dangerous when the tool can't distinguish your draft from established fact
+- [[Agentic Engineering at Kenn]] — Wes McKinney's team-level answer to the exhaustion Summers names: keep the human operator at the design/taste layer and automate the mechanical verification with Superpowers specs and roborev, governed by a "clanker constitution." The loop stays; the question is whether the drudgery inside it moves to the machines or just relocates
 
 ---
 
