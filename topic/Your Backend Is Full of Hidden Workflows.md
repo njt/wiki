@@ -57,6 +57,7 @@ The closer. The article isn't arguing for heavyweight orchestration infrastructu
 - [[Software Engineering Craft]] — The natural home for the accretion-of-complexity observation; this article is a worked example of one specific accretion pattern
 - [[Agent Orchestration]] — Multi-agent coordination patterns hub; the same "hidden workflows" problem appears when agents chain together
 - [[Standard Webhooks]] — webhooks are one of the coordination mechanisms that accrete invisibly; Standard Webhooks is an attempt to bring consistency and shared tooling to at least this one piece of the puzzle
+- [[Rust Scalable Backend Services]] — Kerkour's HTTP → service → repository layering is the *preventative* mirror of this article: strict layer boundaries and a deliberately "dumb" repository stop coordination logic from accreting invisibly in the first place
 
 ---
 *Sources: [[summary/your-backend-is-full-of-hidden-workflows]]*
