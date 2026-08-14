@@ -30,7 +30,7 @@ Alexandr Wang, head of Meta Superintelligence Labs, announced Muse Spark on Apri
 
 Muse Spark is **not open source**. This is the sharpest departure from Meta's Llama strategy and it's barely being discussed. After years of positioning themselves as open-source AI champions, Meta locked the first model from their $14.3B superintelligence team behind a "private preview with unnamed partners." Wang cited safety checks being triggered as the reason. Whether you believe that depends on whether you think safety concerns or competitive positioning drove the decision.
 
-The implications: if Meta can't or won't open models that trigger safety checks, and all capable models trigger safety checks, then the open-source commitment was always contingent on the models not being very good. See [[Local and Open Source Inference]].
+The implications: if Meta can't or won't open models that trigger safety checks, and all capable models trigger safety checks, then the open-source commitment was always contingent on the models not being very good. See [[Local and Open Source Inference]]. Four months later Meta shipped [[Muse Glimmer]] — a 30B model distilled from Muse Spark — under Apache 2.0, the strongest sign yet that the commitment was contingent on model *size and safety profile*, not abandoned outright.
 
 ### Distribution Over Capability #strategy
 
