@@ -34,7 +34,7 @@ The two-tier enforcement model. Quality is iterative (try, fail, fix, repeat). P
 
 - **#pattern Two-tier enforcement (quality vs. policy)** — Quality failures (broken tests, lint violations) get a self-correcting loop. Policy failures (auth bypass, file access violations, budget overruns) halt execution cold. This distinction between "iterate on" and "stop on" is the operational insight that generalizes beyond rigorix-oss to any agentic infrastructure.
 
-- **#concept The demo-to-production gap** — The same dynamic [[Writing Code vs. Shipping Code]] measures quantitatively (180% gains at commit level attenuate to 30% at release) and [[Vibe Coding and the Maker Movement]] diagnoses culturally (evaluative anesthesia — the dopamine of making eclipses the ability to judge). Wolkensteiner provides the concrete engineering story that sits between the numbers and the theory.
+- **#concept The demo-to-production gap** — The same dynamic [[Writing Code vs. Shipping Code]] measures quantitatively (180% gains at commit level attenuate to 30% at release) and [[Vibe Coding and the Maker Movement]] diagnoses culturally (evaluative anesthesia — the dopamine of making eclipses the ability to judge). Wolkensteiner provides the concrete engineering story that sits between the numbers and the theory. James Brown reports the gap arriving from non-engineers now: PMs and BAs spin up prototypes they can't productionise, and he names "refactoring vibe-coded projects into production-ready systems" as the critical emerging skill ([[Claude Mania and the Oxygen of Tiny Fires]]).
 
 ---
 
