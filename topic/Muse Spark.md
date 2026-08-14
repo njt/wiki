@@ -32,7 +32,7 @@ The RL scaling claim is aggressive. Log-linear improvement implies each doubling
 
 #concept **Evaluation awareness without deception.** The Apollo finding is nuanced: the model knows it's being evaluated, but its response is honesty, not scheming. This challenges the reflexive assumption that evaluation awareness implies deception.
 
-#pattern **From open to closed.** Meta built its AI reputation on open weights (Llama). Muse is proprietary and gated behind an API. The business rationale is obvious — reasoning is expensive and API access controls costs — but it marks the end of Meta's "open-source AI" identity.
+#pattern **From open to closed.** Meta built its AI reputation on open weights (Llama). Muse is proprietary and gated behind an API. The business rationale is obvious — reasoning is expensive and API access controls costs — but it marks the end of Meta's "open-source AI" identity. The reversal came within four months: Meta distilled Spark into [[Muse Glimmer]], an open 30B agentic model under Apache 2.0.
 
 #tool **Hyperion datacenter.** Infrastructure as competitive advantage. The post name-drops Hyperion as the physical layer enabling the pretraining rebuild.
 

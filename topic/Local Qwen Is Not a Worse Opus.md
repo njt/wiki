@@ -43,7 +43,7 @@ Ellis names the sovereignty argument in visceral terms. Anthropic removing Fable
 
 #economics — Coding plans are "clearly subsidised." Uber's $1,500/month/developer cap (~12% of median salary) as an existence proof that current pricing isn't sustainable. Fixed-cost hardware vs. variable-cost APIs as a genuine tradeoff.
 
-#failure-mode — The looping problem: models don't know when to stop or ask for help. Q4_0 quantization corrupting KV cache keys. Arithmetic hallucination (27.3K → 273,000). The fundamental unsuitability for unsupervised long-horizon work.
+#failure-mode — The looping problem: models don't know when to stop or ask for help. Q4_0 quantization corrupting KV cache keys. Arithmetic hallucination (27.3K → 273,000). The fundamental unsuitability for unsupervised long-horizon work. Meta's [[Muse Glimmer]] is the first major release trained explicitly against this — its failure-recovery capability ("diagnose the error and retry rather than halt") targets the looping problem directly.
 
 ---
 
