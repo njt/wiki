@@ -46,7 +46,7 @@ The closing metaphor and the thesis of the whole talk. System-level thinking is 
 
 #concept **Software ecology** — Developer environments as complex adaptive systems. Everything connected. Emergent properties you can't see from individual components. This is the most useful framing in the talk and the one most worth stealing.
 
-#concept **AI as amplifier** — Magnitude, not direction. DORA research confirms it. The teams that thrive will be the ones who already had their fundamentals in order. Everyone else amplifies chaos. This single insight reframes every "AI will change everything" claim.
+#concept **AI as amplifier** — Magnitude, not direction. DORA research confirms it. The teams that thrive will be the ones who already had their fundamentals in order. Everyone else amplifies chaos. This single insight reframes every "AI will change everything" claim. James Brown (Developer Voices) gives it the image that sticks — "oxygen to a room of tiny fires" — and adds the XT26 panel consensus that a company's *current* state predicts its AI success ([[Claude Mania and the Oxygen of Tiny Fires]]).
 
 #concept **Shared fate** — How tightly your ecosystem components are coupled. Monorepo = high shared fate (one dev can patch everything). Microservices = low shared fate (blast radius containment). Neither is better; the question is whether you understand the trade-off you've made.
 
