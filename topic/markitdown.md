@@ -22,6 +22,8 @@ The breadth of format support is the real value. Most conversion tools handle a 
 
 The key caveat: this prioritizes structure preservation over human-friendly presentation. The output is meant to be consumed by machines, not read by people. If you want beautiful Markdown from a Word doc, look elsewhere. If you want reliable structure extraction for an LLM to reason over, this is the tool.
 
+For PDF specifically markitdown is the weak link in the family: Firecrawl's opendataloader benchmark scored it 0.589 overall (0.000 on headings, 0.273 on tables) against [[pdf-inspector]]'s 0.875 — a specialized Rust PDF parser that classifies and extracts natively in under 200ms.
+
 The security warning (performs I/O with current process privileges) matters in production. If you're building a document ingestion pipeline, sandbox this. Untrusted documents are a classic attack vector.
 
 For a full document intelligence pipeline (extraction + OCR + embeddings + chunking + NER + classification across 101 formats), see [[Xberg]] — a Rust engine that subsumes markitdown's conversion role within a much larger extraction and enrichment pipeline. Compare with [[docmason]], which takes the opposite approach -- preserving original document structure and enforcing source boundaries for citation. markitdown converts to a flat format; docmason maintains the relational structure. Different problems, complementary tools.

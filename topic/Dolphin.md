@@ -18,6 +18,8 @@ This split makes sense. A photographed whiteboard and a digital PDF are fundamen
 
 Compared to [[Kreuzberg]] (which wraps many extraction backends including VLMs), Dolphin is a single focused model. The tradeoff: Kreuzberg handles 97+ formats through multiple backends, Dolphin handles images and PDFs through one model. For pure document parsing quality, a focused model should win. For format coverage, the multi-backend approach wins.
 
+But digital-born PDFs often need no model at all. [[pdf-inspector]] classifies a PDF as text-based or scanned deterministically in ~20ms and extracts text, tables, and reading order in pure Rust with no ML — routing only the scanned/vector remainder onward. Dolphin is the heavy path for photographed and image-based documents; pdf-inspector is the millisecond fast path for the native-text majority.
+
 The TensorRT-LLM and vLLM acceleration support signals production intent. This isn't just a research model -- ByteDance built it for deployment.
 
 The single VLM backbone means the model is relatively simple to deploy compared to multi-model pipelines, but 3B parameters still requires meaningful compute. The 0.3B version trades quality for accessibility.
