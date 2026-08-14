@@ -50,6 +50,8 @@ The post also implicitly connects to the broader agent architecture conversation
 
 **The rulebook as a seventh-mechanism pattern:** [[AI Code Migration with Claude Code]] introduces the migration rulebook — a living document that agents both follow *and improve*. When systemic issues surface, you add one sentence to the rulebook and regenerate the affected batch. This is CLAUDE.md-as-compile-target: the rulebook is the durable artifact; the generated code is disposable. It sits at the intersection of three steering mechanisms — it has CLAUDE.md's always-loaded persistence, a skill's procedural authority, and a hook's deterministic enforcement (via the compiler/test suite as referee).
 
+**A worked example of stacking the mechanisms:** [[I Have ADHD Skill]] delivers the *same* ruleset through three of the seven mechanisms at once — a skill (`/i-have-adhd`, `disable-model-invocation: true`), a `SessionStart` hook behind an opt-in flag file, and (on Pi) a native extension that re-injects the ruleset after compaction — showing that these mechanisms aren't either/or choices but layers with different persistence guarantees.
+
 ---
 
 *Sources: [[summary/steering-claude-code-skills-hooks-rules-subagents]]*
