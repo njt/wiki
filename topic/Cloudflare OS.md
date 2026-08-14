@@ -247,7 +247,11 @@ Workers — it's designed to exploit Workers-specific primitives:
 
 The tradeoff is platform coupling, but the benefit is that security
 isolation comes from the runtime rather than application-level
-enforcement — a genuinely stronger security posture.
+enforcement — a genuinely stronger security posture. The exit hatch for that
+coupling is [[celld]] — Deno's self-hosted Durable Objects runtime, which keeps
+the same per-object SQLite model (and the "answer with sqlite3 and grep, not a
+status page" ethos) while moving placement and evidence onto infrastructure you
+own.
 
 ---
 

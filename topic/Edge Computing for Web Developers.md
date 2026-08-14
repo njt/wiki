@@ -38,7 +38,7 @@ The platform landscape here parallels [[Best Infrastructure Platforms for Coding
 
 ### What Edge Can't Do #concept
 
-The limitations section is valuable precisely because it's honest. Edge functions are stateless (KV stores are a workaround, not a solution), database connections don't work (HTTP-based DBs only), and runtime constraints are severe (~128 MB memory, restricted Node.js APIs). This isn't a general-purpose compute fabric — it's a specialized layer for lightweight, stateless, latency-sensitive logic.
+The limitations section is valuable precisely because it's honest. Edge functions are stateless (KV stores are a workaround, not a solution), database connections don't work (HTTP-based DBs only), and runtime constraints are severe (~128 MB memory, restricted Node.js APIs). This isn't a general-purpose compute fabric — it's a specialized layer for lightweight, stateless, latency-sensitive logic. The stateful gap is precisely what Cloudflare's Durable Objects fill on the managed side — and what [[celld]] (Deno's self-hosted Durable Objects runtime) now makes portable: the same per-object SQLite + strong-consistency model, with placement and operational evidence on infrastructure you own rather than a shared vendor scheduler.
 
 The emerging AI pattern (edge handles auth/routing/preprocessing, cloud handles inference) is the most interesting architectural idea in the piece. It's the same separation of concerns as [[Smart Models Dumb Pipes]]: the edge is a smart, fast, constrained decision layer; the cloud is an unconstrained but slow execution layer. Route the decision to the edge, route the work to the cloud.
 

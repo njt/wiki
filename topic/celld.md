@@ -11,6 +11,68 @@ the decision core is provably separable from I/O.
 
 ---
 
+## The Sovereignty Argument (celld.dev)
+
+The marketing site makes an argument the README only implies: celld's value isn't
+just architectural elegance, it's **operational sovereignty** — keeping the
+Durable Objects programming model while reclaiming placement, state, and
+evidence:
+
+> "Durable Objects is a strong programming model. celld keeps that model while
+> moving placement, state, and operational evidence into infrastructure you
+> choose."
+
+Three beats, each aimed at a different Cloudflare pain point.
+
+**The bucket as coordinator, restated plainly.** The README describes S3 CAS as
+an implementation detail; the site makes it the headline:
+
+> "The bucket is the coordinator — no membership protocol, no failure detector,
+> no consensus. Ownership is a record in your bucket, claimed with one atomic
+> write. celld's built-in replicator continuously ships each cell's SQLite state
+> to that bucket as LTX segments."
+
+This is the same mechanism as the `ReadingOwner` → `Acquiring` phase machine,
+compressed into a sentence a CTO can repeat. The "one atomic write" is the
+conditional PUT.
+
+**Tenancy isolation, not just failover.** The second beat reframes the lease:
+
+> "A cell's identity isn't fused to a machine — ownership is a lease in your
+> bucket, granted by compare-and-swap. Lose a node and another acquires the
+> lease and restores the cell in seconds: your fleet reading your storage, not a
+> vendor restoring a placement you can't see."
+
+The load-bearing word is "tenancy." What you're buying isn't merely faster
+failover — it's that no shared scheduler or placement layer can couple your
+workload to another customer's:
+
+> "Your fleet still depends on its machines, network, and bucket provider. What
+> changes is tenancy: no shared Durable Objects scheduler or placement layer can
+> couple your application to another customer's workload."
+
+This is the rare self-hosted pitch that declines to oversell. It concedes the
+failure surface doesn't shrink — it *moves*, from "Cloudflare is down" to "my
+machines, network, and bucket provider are down." What you buy is isolation and
+visibility, not reliability.
+
+**Operational evidence, the sharpest claim.** The third beat is the one that
+most cleanly separates celld from a managed service:
+
+> "When a cell misbehaves the evidence is on your disk — the ownership record,
+> the SQLite and LTX files, and the logs. You answer 'what happened to my cell'
+> with sqlite3 and grep, not a status page that declines to say."
+
+The engineering bet is that `sqlite3` and `grep` on files you own beat a managed
+dashboard for debugging, precisely because the answer is provable rather than
+asserted — the same ethos as [[Learning a Few Things About Running SQLite]],
+which treats operations as something you learn by *doing*, against your own data.
+
+Critically, this is marketing copy: pithy where the README is precise, and silent
+about the hard parts the README documents (per-thread V8 isolates, HMAC-only peer
+auth with no TLS, the latency cost of CAS on every cold start). Read the site for
+the *why* and [[raw/celld]] for the *how*.
+
 ## Architecture
 
 celld is a Rust workspace (`crates/celld`, `crates/logic`, `crates/ltx`) with a
@@ -249,5 +311,5 @@ single version to prevent drift — the same "boring infrastructure" discipline.
 
 ---
 
-*Sources: [[raw/celld]], [[summary/celld]]*
-*Last updated: 2026-08-06*
+*Sources: [[raw/celld]], [[summary/celld]], [[raw/celld-dev]], [[summary/celld-dev]]*
+*Last updated: 2026-08-14*
