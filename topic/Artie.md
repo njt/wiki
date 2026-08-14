@@ -50,6 +50,7 @@ The zero-data-retention architecture is both a security differentiator and a con
 
 - [[Streambed]] — Postgres-to-Iceberg CDC in a single Go binary. The opposite philosophy: self-hosted, single-purpose, open-source vs. managed, multi-source, commercial. But both tackle the same core problem (CDC without Kafka).
 - [[Postgres CDC in ClickHouse, A Year in Review]] — Field report on what it actually takes to make CDC reliable at scale. The honesty about edge cases is the counterpoint to Artie's marketing polish.
+- [[Postgres to Snowflake Data Mirroring]] — Snowflake's first-party answer to Artie's exact core use case (Postgres→Snowflake). A `snowflake_cdc` extension pushes change batches into Iceberg and Snowflake applies them transactionally — same "we pre-solved the edge cases" pitch, but only for Snowflake-Postgres-to-Snowflake customers.
 - [[Databases and Data]] — Hub page. The "streaming and real-time" gap identified there is exactly what Artie targets.
 - [[DocDB — Stripe's Zero-Downtime Database]] — Database infrastructure at scale from a company that built it in-house. The relevant comparison: Stripe built DocDB because no vendor product met their needs. Artie's customers are choosing to buy rather than build.
 - [[Materialized Views Are Obviously Useful]] — Sophie Alpert's argument that databases should handle derived data. Artie extends this to cross-database derived data: the warehouse should reflect the operational DB in near-real-time.
