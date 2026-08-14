@@ -40,6 +40,8 @@ This post is a link-blog entry — short, pointing outward, no original reportin
 
 Current AI's framing as "a public option for AI" is significant. In a landscape where open-source AI data is scattered across Hugging Face, GitHub, and arXiv, a curated, scored, MIT-licensed index with citation trails is itself infrastructure. It's the kind of thing that should be public goods — like OpenStreetMap for the AI stack.
 
+Tim O'Reilly cites the same numbers — 24,600 projects tracked, 421 scored in depth across the three layers — and names the next chapter: Current AI's AI Potluck, a roughly $400M-start of a five-year, $2.5B commitment from the French government, DeepMind, Salesforce, and major philanthropies to assemble "a vertically integrated AI product entirely from open source components" ([[Why Open Source Matters for AI]]). The map is the inventory; Potluck is the attempt to actually assemble it into a viable alternative.
+
 ---
 
 ## Critical Analysis
