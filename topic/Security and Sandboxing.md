@@ -50,6 +50,8 @@ Human-in-the-loop works differently here than in traditional sandboxes: rather t
 
 [[OneCLI]] tackles the credential exposure problem from the application layer: an HTTP gateway that intercepts outbound requests and transparently injects real credentials. Agents use placeholder keys and never touch secrets. AES-256-GCM at rest, host-and-path scoped, multi-agent support with scoped access tokens. [[You Dont Want Long-Lived Keys]] provides the complementary principle: ephemeral credentials sidestep the rotation problem entirely — SSH via EC2 Instance Connect, package publishing via trusted publishers, authentication via SSO — and this applies doubly to agents running in sandboxes, where credential lifetime should match session lifetime.
 
+[[Corsair — Agent Integration Layer]] is the application-layer entry in this stack: a TypeScript library wrapping ~120 SaaS integrations behind a typed client, so the agent calls `slack.api.messages.post(...)` while Corsair resolves credentials server-side (envelope-encrypted behind a user-held KEK) and gates every call through a permission matrix backed by a database row the agent cannot write — approval arrives as an expiring review link rather than an in-context prompt. Unlike Clawpatrol's network interception or OneCLI's gateway, it lives inside the harness, which makes the credential-isolation guarantee conditional on the agent not reaching the database.
+
 ### Access Control for the Agentic Era
 
 Execution and network sandboxing prevent agents from doing things they should not. Access control prevents them from seeing things they should not — and ensures they cannot pass that visibility downstream.
