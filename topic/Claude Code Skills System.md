@@ -86,6 +86,8 @@ This is **context economics as feature design**: the system doesn't just enumera
 
 A concrete example of the skills pattern in production: [[Flint Chart]] ships two agent skills (`flint-chart-author` and `flint-theme-author`) that package chart-template catalog knowledge and theme-application guidance as invocable skill directories. These demonstrate the CLAUDE.md-as-facts, skills-as-procedures distinction in practice — the skills don't contain chart rendering code, they contain the procedural knowledge for navigating Flint's 70+ semantic types, 25-38 chart templates per backend, and ten visual theme presets.
 
+[[Proving It Works]] is a closer case: one skill whose `SKILL.md` is a thin router to four route documents, with five bundled Python scripts (`narrate`, `assemble`, `make-subtitles`, `burn-subtitles`, `check-movie`) that the skill executes — using the bundled-scripts-plus-`allowed-tools` pattern to sidestep the permission-prompt loop and give the agent a *deterministic* gate, not just procedural advice.
+
 ---
 *Sources: [[raw/slash-commands]], [[summary/slash-commands]]*
 *Last updated: 2026-08-06*

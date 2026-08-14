@@ -18,6 +18,8 @@ Three open-source tools released under the Prime Radiant banner, all Apache 2.0:
 - **[[Clearance]]** -- Native macOS Markdown viewer/editor with first-class YAML frontmatter support. Swift, local-first.
 - **[[engineering-notebook]]** -- CLI tool that ingests Claude Code and Codex sessions and serves a browsable engineering journal.
 
+A fourth tool, [[Proving It Works]], is a MIT-licensed Claude Code plugin that records narrated proof movies of software running and gates them with a mechanical checker — a different register from the CLI trio, but the same spillover pattern.
+
 The product thesis across these three is coherent: Serf generates output (Markdown specs, code, logs), Clearance reads it, and engineering-notebook records how it got made. Together they form a pipeline where agents write and humans review.
 
 ## The Hiring Problem

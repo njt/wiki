@@ -58,6 +58,7 @@ The Gemini-generated TL;DR in the comments is a perfect accidental demonstration
 - [[The Mundanity of Excellence]] — Excellence in encoding isn't more effort; it's qualitatively different choices about what matters
 - [[Common Diagram Mistakes]] — Same genre: expert catalogues what novices get wrong, explains why it's wrong, gives you the right default
 - [[Better Error Messages]] — Both are practitioner-to-practitioner craft education that improves output by teaching principles, not recipes
+- [[Proving It Works]] — The same craft at the end of a pipeline: an ffmpeg-based Claude Code skill that records narrated proof movies and runs a mechanical gate (`check-movie`) that catches the silent defects (frozen picture, silent audio, subtitles that quit early) before you hand one to anyone — with "use your eyes" on a contact sheet as the final check
 
 ---
 *Sources: [[summary/video-noob-guide]]*
