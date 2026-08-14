@@ -57,6 +57,7 @@ A new term of art: perceptual safety. Not content authenticity, not detection ac
 - [[Goldman Sachs World Model]] — The "world model" concept applied to AI's next leap: internal simulation of reality. If AI can generate convincing video of anything, the world model has escaped the lab and entered the feed. Perceptual safety is what you need when world models go ambient.
 - [[Why We Fear AI]] — AI anxiety as capitalism anxiety. This paper complicates that: some AI anxiety is genuinely perceptual and not economic. You don't need to worry about losing your job to feel distressed when you can't tell what's real.
 - [[The Dead Economy Theory]] — If you can't trust the visual evidence of economic activity, productive capacity without human participation becomes indistinguishable from a Potemkin economy.
+- [[IO Factory]] — The coordinated-influence counterpart: it makes the same "content detection is not enough" argument at the campaign level, showing that isolated messages look ordinary while the coordination across accounts, time, and exposure paths is the real signal — and it builds a simulation to study that signal rather than just assert it.
 
 ---
 *Sources: [[raw/seeing-is-not-believing]]*

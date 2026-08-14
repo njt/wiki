@@ -70,6 +70,8 @@ At $100/hr, the AI's effective hourly cost is whatever the GPU time plus electri
 
 **The open question remains money.** Hedgie is honest about this. We don't know the actual revenue. "$100 per hour" is unverified. Platform fees and conversion rates matter enormously. But Tencent banning AI avatars from livestreams (citing low-quality content) confirms the practice is widespread enough to need regulation — which means someone, somewhere, is making money.
 
+**The same factory, aimed at belief instead of sales.** [[IO Factory]] is the simulation twin of this: the same AI-at-scale persuasion logic — stable synthetic personas, coordinated posting, engagement arbitrage — but run inside a controlled platform where every post's path from creation to exposure to belief-shift is recorded and compared against a no-operators baseline. Livestream factories are the deployed, unmeasured version of the phenomenon IO Factory exists to study defensively. Hedgie asks "where does the money come from?"; IO Factory asks the influence equivalent — "where does the movement actually come from?" — and instruments the answer.
+
 ---
 
 *Sources: [[summary/hedgiemarkets-ai-livestream-factories]]*

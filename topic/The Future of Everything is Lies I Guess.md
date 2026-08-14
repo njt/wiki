@@ -90,6 +90,7 @@ The series is essential reading for anyone in the wiki's audience precisely beca
 - [[Cybersecurity Is Proof of Work Now]] -- security as compute economics, extending his Safety chapter
 - [[The Next Two Years of Software Engineering]] -- data on the labor displacement he fears
 - [[Slowing the Fuck Down]] -- the practitioner version of his "slow down" conclusion
+- [[IO Factory]] -- where Aphyr diagnoses industrialized state propaganda, IO Factory builds a lab bench for it: a simulated platform that replays coordinated AI-influence campaigns as traceable lifecycles, so the "information ecology collapse" becomes a process you can instrument rather than just describe
 
 ---
 *Sources: [[summary/the-future-of-everything-is-lies-i-guess]]*

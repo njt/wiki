@@ -46,6 +46,8 @@ On the domestic side, the SimVoters tradition has evolved into the data infrastr
 
 A contemporary inflection of McKelvey's thesis: [[Tom Barraclough — Sovereign AI Policy]] argues the computational imaginary of law is the next frontier — turning regulation from PDFs into structured, versioned datasets that AI can reason over. Same pattern (render governance computable), new substrate (law, not voters).
 
+And the cleanest counterexample to McKelvey's closing question is [[IO Factory]] — a 2026 simulation of AI-enabled influence campaigns that inverts the SimVoters/SimWorlds goal entirely. Instead of modeling politics to predict or optimize outcomes, it models the *manipulation* of politics to red-team and defend against it. Where the computational imaginary always aimed at making reality legible to the modeler, IO Factory aims at making the *campaign* legible to a defender — an "other computer simulation" that finally treats the modeled subjects as the point rather than the substrate.
+
 ---
 
 *Sources: [[raw/simpolitics]]*
