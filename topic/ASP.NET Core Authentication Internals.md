@@ -88,6 +88,8 @@ The demos are deliberately insecure (in-memory cache, no load balancing, no prop
 
 **Relationship to [[Software Engineering Craft]]:** This talk is worth studying as an example of base-class design done right. The inheritance chain adds exactly one concern per level. The forwarding check happens before the virtual method call. The `AuthenticationProperties` pattern separates round-trip state from in-process state cleanly. These are craft-level decisions that compound — a thousand handlers benefit from the forwarding logic being in one place rather than reimplemented in each.
 
+**Relationship to [[Flexible Authentication (Airbnb)]]:** Klug's `Challenge`/`ForwardChallenge` machinery is the framework-level ancestor of Airbnb's "Identify first, then Challenge" — both hand the *server* the decision of which challenge to present. The difference is altitude: ASP.NET gives you the plumbing to forward a challenge between schemes per request, while Airbnb builds the product layer (policy engine, Challenge Picker, server-driven screens) that decides *per person, per context* which challenge should lead. Airbnb's "the client never decides" is the product-scale expression of the forwarding instinct Klug reads in the source.
+
 ---
 *Sources: [[raw/23c08df43340b155bc4a706d1aaaa937]], [[summary/23c08df43340b155bc4a706d1aaaa937]]*
 *Last updated: 2026-08-07*

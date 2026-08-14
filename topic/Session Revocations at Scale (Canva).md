@@ -76,6 +76,8 @@ ZooKeeper leader election reduces conflicts, but correctness doesn't depend on i
 
 [[Aurora DSQL]] — AWS's serverless active-active SQL database with commit-time optimistic concurrency. Canva's conditional PUT pattern is the object-store analogue of the same idea: let the storage layer enforce consistency, not the application.
 
+[[Flexible Authentication (Airbnb)]] — The complementary half of the "hundreds of millions of users, irregular sessions" problem: Canva optimized *revoking* sessions, Airbnb optimized *starting* them. Both move auth state out of the client and into server-controlled infrastructure; Canva's encrypted-cookie trust model is the *other* end of the lifecycle that Airbnb's server-driven login begins.
+
 ---
 
 *Sources: [[raw/session-revocations-at-scale]]*

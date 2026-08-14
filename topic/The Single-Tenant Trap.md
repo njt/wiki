@@ -40,6 +40,8 @@ Succinct and correct. The Auth0 dashboard is a debugging tool, not an observabil
 
 **The strongest insight is buried: configuration-as-code is the enabler.** The Deploy CLI section is the article's most valuable contribution, because it addresses the real reason teams avoid multi-tenant setups: manual configuration drift between environments is exhausting. Once your tenant config lives in a repo and deploys through CI/CD, adding a second tenant goes from "maintain two parallel manual configurations" to "run the same pipeline with different secrets." That's the unlock, and it deserves more prominence than the dashboard credentials section that precedes it.
 
+**Where Flexible Authentication complicates the MFA picture.** Aguilar's "your integration tests do not need to pass MFA challenges, but your production users absolutely do" assumes challenges are fixed gates. [[Flexible Authentication (Airbnb)]] inverts that: the server picks the challenge most likely to succeed *and* offers a "Try another way" escape on every screen, so production users are never hard-stuck on an MFA step they can't complete. The positions are complementary, not contradictory — Airbnb buys recovery at the cost of letting every challenge degrade to a weaker fallback, a trade-off Aguilar's framing never has to make.
+
 ---
 *Sources: [[raw/the-single-tenant-trap-why-testing-in-production-kills-uptime]]*
 *Last updated: 2026-07-18*

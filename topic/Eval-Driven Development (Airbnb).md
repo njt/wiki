@@ -108,6 +108,7 @@ The meta-lesson: **fix one variable at a time.** Fix model, vary prompt → fix 
 - [[A New Era for Software Testing]] — Airbnb's "look at your data" principle is antirez's checklist-driven QA applied at the evaluation layer.
 - [[The PM's Playbook for Shipping AI Features]] — Airbnb's "collaborate continuously" principle operationalizes Gaurav Savla's quality pyramids with a specific cross-functional workflow.
 - [[Sidekick's Continual Learning Loop]] — Shopify's production flywheel converges on the same calibration recipe (rubric, blind annotation, Cohen's kappa) with two twists worth stealing: 25 *random* samples rather than a curated golden set, and treating human inter-annotator agreement as the judge's ceiling rather than a target to exceed.
+- [[Flexible Authentication (Airbnb)]] — The same company's server-driven auth rebuild is the *other* half of the iteration culture EDD describes: server-driven screens bought the 20+ experiments in three months, and EDD's eval discipline is what measures whether those experiments actually improved login. One move creates velocity, the other makes it trustworthy.
 
 ---
 *Sources: [[raw/eval-driven-development-lessons-from-evaluating-genai-at-scale-e817e5ae5788]], [[summary/eval-driven-development-lessons-from-evaluating-genai-at-scale-e817e5ae5788]]*
