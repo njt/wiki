@@ -49,7 +49,7 @@ The deeper pattern here is that git is full of extension points that are *docume
 
 The caching suggestion (using SHA-1 hashes to skip re-diffing unchanged content) is underdeveloped. It's a one-sentence aside that could be its own post. For repos with many structured files, this is the difference between a diff driver that's pleasant to use and one that's a CPU hog.
 
-Tools like [[Hunk]] sit above this plumbing layer: where git diff drivers produce the raw diff, Hunk renders it as a navigable continuous stream with agent annotations overlaid inline. The diff driver defines *what* the diff contains; Hunk defines *how* a human reads it. The emerging terminal-native review stack stacks these layers: git diff drivers (plumbing) → Hunk (rendering + agent annotations) → [[Local Review]] / [[Subspace]] (human feedback back to agents).
+Tools like [[Hunk]] sit above this plumbing layer: where git diff drivers produce the raw diff, Hunk renders it as a navigable continuous stream with agent annotations overlaid inline. The diff driver defines *what* the diff contains; Hunk defines *how* a human reads it. The emerging terminal-native review stack stacks these layers: git diff drivers (plumbing) → Hunk (rendering + agent annotations) → [[Local Review]] / [[Subspace]] (human feedback back to agents). [[Meat (Reading Diff)]] inserts a transform layer between plumbing and rendering: it consumes the same unified diff a driver produces and abridges it with an LLM plus a deterministic edit-plan compiler, so the reviewer reads the change rather than the mechanical noise.
 
 ---
 
