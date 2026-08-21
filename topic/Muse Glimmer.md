@@ -50,6 +50,8 @@ The failure-recovery claim deserves attention for a different reason: it's aimed
 
 The unanswered question is the teacher-student safety story. Meta says Glimmer was "assessed for open-weight release across all relevant categories" under the Advanced AI Scaling Framework — which reads as a direct response to the "we closed Spark because safety" line. But the framework's thresholds aren't public, so "assessed" is doing a lot of work. If a 30B distilled agent is safe to open but the teacher isn't, that's a defensible policy. If the real reason Spark stayed closed was competitive, Glimmer is Meta laundering its open-source reputation back. Both readings fit the text.
 
+Independent hardware benchmarks now back the local thesis. Hardware Corner's [[Qwen3.8 27B Hardware Tests]] ran Glimmer against Qwen3.8 27B on the same RTX 3090 and found Glimmer faster at every comparable context length (45.30 vs. 40.31 tok/s at 4k, widening to 42.45 vs. 33.95 at 64k) while staying more memory-efficient at long context (~20 GB at 256k vs. Qwen3.8's ~26 GB at 128k). It's the missing third-party confirmation that "fits in 24 GB and stays fast at long context" isn't just Meta's spec sheet — it holds on real hardware, against the closest competing open model.
+
 ---
 
 *Sources: [[raw/introducing-muse-glimmer-open-agentic-model]], [[summary/introducing-muse-glimmer-open-agentic-model]]*

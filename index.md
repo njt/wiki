@@ -623,6 +623,7 @@ Tools that run on your own machines: voice, hardware, local inference, knowledge
 
 - [[Datacenter GPU in a Gaming PC]] — £200 eBay V100 in a gaming rig: hardware hacking, NixOS driver archaeology, and Qwen3.6-27B at 32 tok/s
 - [[Dual GPU RTX 5080 + RTX 3090 Qwen 3.6 Setup]] — iMil's field report: RTX 5080 + RTX 3090 running Qwen 3.6 27B Q8 at 80+ tok/s via tensor-split speculative decoding on an Asus X570-Pro
+- [[Qwen3.8 27B Hardware Tests]] — llama.cpp benchmark: VRAM is the first limit (24 GB → 64k, 32 GB → 128k), RTX 3090 stays the value pick, and Qwen3.8 trails both Qwen3.6 and Muse Glimmer at long context
 - [[GPU Self-Hosting for Coding Agents]] — aistack's ~100-run benchmark of 64 SWEBench Pro tasks across four GPU tiers: DGX Spark (1 user, slow), H200 (32 users), 4×H200 (32 users), 8×B200 (8 users). Three different cost economics depending on model — renting is 35× cheaper than API for Qwen3.6 but more expensive for DeepSeek-V4-Flash; GLM-5.2 matches Opus 4.8 quality and breaks even vs. API at just 15% utilization. vLLM defaults collapse under agentic load
 - [[LocalAI]] — Open-source drop-in replacement for the entire cloud AI stack: inference engine, agent runtime, and memory service in a composable gRPC backend architecture. 40k stars, MIT licensed
 - [[AirLLM]] — Runs 70B+ LLMs on 4GB GPUs by streaming one transformer layer from disk at a time. 405B Llama 3.1 on 8GB, 671B DeepSeek-V3 on ~12GB, no quantization required

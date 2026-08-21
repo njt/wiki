@@ -76,6 +76,7 @@ The AMD tax, quantified. The 7900 XTX has more raw bandwidth (960 GB/s vs. the V
 - [[Honey I Shrunk the Coding Agent]] — 9B local model jumps from 19% to 46% by redesigning the harness; empirical proof that the harness matters more than the model
 - [[MiniMax Models]] — Full model lineup with local MLX deployment option
 - [[Granite 4.1]] — IBM's open-source family; another data point in the local inference landscape
+- [[Qwen3.8 27B Hardware Tests]] — Hardware Corner's benchmark of the Qwen 3.6 successor: same VRAM-first profile (a 24 GB card tops out at 64k context), RTX 3090 as the value pick, and the finding that Qwen3.8 is no faster than Qwen3.6 — Molnar's "same conversation" claim extends to the next point-release without changing the hardware story.
 
 ---
 
