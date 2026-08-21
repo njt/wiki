@@ -52,7 +52,7 @@ The DFlash paper is at [arxiv.org/abs/2602.06036](https://arxiv.org/abs/2602.060
 
 **The commodity GPU claim is the real differentiator.** Cerebras (wafer-scale) and Groq (SRAM-only) both achieved extreme speeds earlier, but on custom silicon that's expensive and scarce. MiMo-TileRT doing 1000 tps on standard 8-GPU nodes is a fundamentally different category — it's reproducible. The open-source release of the FP4-DFlash checkpoint on HuggingFace reinforces this: they want people to run it.
 
-The same codesign methodology, pointed at a moving target, is [[FreeToken — Edge-Native MoE Serving]]: instead of tuning one engine to one fixed 8-GPU node, it continuously remaps expert residency and CPU–GPU execution onto whatever heterogeneous balance an individual laptop or workstation exposes. Where MiMo/TileRT optimized a known rig, FreeToken adapts to *your* rig — the edge-native branch of the same idea.
+The same codesign methodology, pointed at a moving target, is [[FreeToken — Edge-Native MoE Serving Engine]]: instead of tuning one engine to one fixed 8-GPU node, it continuously remaps expert residency and CPU–GPU execution onto whatever heterogeneous balance an individual laptop or workstation exposes. Where MiMo/TileRT optimized a known rig, FreeToken adapts to *your* rig — the edge-native branch of the same idea.
 
 **The selective FP4 strategy is clever and honest.** Quantizing only the MoE Experts (the bulk of parameters) while keeping attention and routing at full precision is a pragmatic tradeoff. They show benchmarks confirming "essentially on par" with FP8 — but notably, they don't claim lossless. The honesty about degradation from "naive FP4 across the entire model" is refreshing compared to quantization papers that bury the caveats.
 
@@ -74,6 +74,7 @@ The same codesign methodology, pointed at a moving target, is [[FreeToken — Ed
 - [[How Far Behind Are Open Models]] — MiMo-V2.5 sits in the open model tier; this speed breakthrough partially closes the practical gap
 - [[Writing Code vs. Shipping Code]] — the coding agent productivity claim here (1000 tps unlocks agents) intersects directly with the Demirer et al. finding that AI productivity gains attenuate at release
 - [[2025 in LLMs]] — Simon Willison's annual survey; MiMo is one of the new entrants worth tracking
+- [[FreeToken — Edge-Native MoE Serving Engine]] — the same MoE-expert-offload and bandwidth-attack thesis, aimed at a single consumer GPU instead of an 8-GPU node
 
 ---
 *Sources: [[summary/mimo-tilert-1000tps]], [MiMo-V2.5-Pro-FP4-DFlash on HuggingFace](https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro-FP4-DFlash), [DFlash paper (arXiv:2602.06036)](https://arxiv.org/abs/2602.06036), [TileRT technical details](https://www.tilert.ai/blog/breaking-1000-tps.html)*
