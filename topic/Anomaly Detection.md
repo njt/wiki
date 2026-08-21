@@ -20,7 +20,7 @@ The hardcoded z-score threshold of 2 (~5% false positive rate) is deliberately s
 
 ## Critical Analysis
 
-This is the right level of sophistication for most monitoring needs. The common mistake is reaching for ML-based anomaly detection when simple statistics would suffice -- and then spending more time tuning the ML system than you would have spent investigating false positives from a z-score check. The limitation is clear: it only detects anomalies in event counts, not in event content or latency distributions. But for the "is something weird happening right now?" question, this is hard to beat. The three-data-point minimum before alerting is a practical concession to cold-start noise.
+This is the right level of sophistication for most monitoring needs. The common mistake is reaching for ML-based anomaly detection when simple statistics would suffice -- and then spending more time tuning the ML system than you would have spent investigating false positives from a z-score check. The limitation is clear: it only detects anomalies in event counts, not in event content or latency distributions. [[Weird Machines in Transport Layer Security]] pushes the same instinct to a different substrate: its "sentinel" system composes TLS primitives to detect anomalous *handshake behavior* — anomalies in protocol state transitions rather than event counts — which is the content-level detection this z-score approach explicitly leaves out. But for the "is something weird happening right now?" question, this is hard to beat. The three-data-point minimum before alerting is a practical concession to cold-start noise.
 
 ---
 *Sources: [[summary/anomaly-detection]]*
