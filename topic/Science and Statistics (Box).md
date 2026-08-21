@@ -80,6 +80,7 @@ One final observation: the paper's most quoted line ("all models are wrong") is 
 - [[Life at Low Reynolds Numbers]] — Another classic science paper that uses vivid, concrete examples to teach fundamental principles.
 - [[The Usefulness of Useless Knowledge]] — Flexner's 1939 essay argues the opposite of Box: curiosity-driven theory without practical problems can be the ultimate source of utility. Box and Flexner are the two poles of the "where does progress come from?" debate, and both are right about different parts of the elephant.
 - [[Software Engineering Craft]] — The fundamentals don't change. Box's paper is 50 years old and reads like it was written yesterday about AI engineering.
+- [[How to Choose a Subproblem]] — An ARC researcher's advice on decomposing 400-hour research problems into subproblems, chosen by whether the answer changes your strategy. Box's "worrying selectively" is the author's "actionable information": know what a subproblem's answer would actually change.
 
 ---
 

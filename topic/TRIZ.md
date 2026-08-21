@@ -58,6 +58,7 @@ This is the third core finding and it's the most actionable for practitioners. Y
 - [[Guardrails and Feedback Loops]] — "Linters beat prompts" is the software equivalent of "the contradiction matrix beats brainstorming." Deterministic enforcement over hope.
 - [[First Principles]] — TRIZ pushes past first principles into a harder claim: not just "reduce to fundamentals," but "the fundamentals follow laws, and those laws are the same across domains."
 - [[A Pattern Language (Christopher Alexander)]] — Alexander's 253 patterns of built-environment design are the architectural parallel to Altshuller's 40 principles: both argue that good design emerges from composable, named solutions to recurring problems, not from unstructured creativity. Where TRIZ resolves technical contradictions, Alexander resolves spatial ones. The core bet is the same: the structure is already there, you just need the language to see it.
+- [[How to Choose a Subproblem]] — An ARC researcher's decomposition toolkit (simpler question, simpler system, fact-finding) is TRIZ's abstraction-and-transfer move restated for research: peel a 20-hour subproblem off a 400-hour one. Where TRIZ abstracts into a contradiction, this abstracts into a *subproblem*.
 
 ---
 
