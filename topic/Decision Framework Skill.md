@@ -71,6 +71,8 @@ The style guide is four lines. It doesn't over-specify tone, persona, or vocabul
 
 **vs. Generic "Act as a Coach" prompts**: The difference is the 12-topic taxonomy. Generic coaching prompts say "ask good questions." Decision Framework provides a specific catalogue of question types from a known practitioner's framework — domain knowledge encoded as instruction structure.
 
+**vs. [[A Smart Bear Skills]]**: Jason Cohen's asb-skills package is the same pattern — a practitioner's business framework encoded as a questioning skill — but pointed in the opposite emotional direction. Decision Framework is neutral coaching ("remain neutral", challenge respectfully); Cohen's Rude Q&A is *adversarial*, asking unfair questions and refusing vague answers to expose the denial the founder can't self-interrogate away. Both share the restraint-as-feature thesis; only Cohen names a mechanism (denial, excuse-making) for why the questions must be hostile.
+
 ---
 
 ## Tags
