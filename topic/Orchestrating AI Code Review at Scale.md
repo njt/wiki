@@ -68,6 +68,8 @@ The article's closing honesty. Cloudflare isn't claiming to have solved code rev
 
 **The comparison with [[OpenCodeReview]] is instructive.** Alibaba's OCR uses a single Go binary with per-file concurrent subagents and a hybrid deterministic+agent architecture. Cloudflare uses OpenCode orchestration with domain-specialized reviewers and a coordinator judge. Both arrived at concurrent subagent review independently, both use structured output, both have a filtering/verification pass. But Cloudflare's system is more ambitious — seven specialized domains vs. a single general reviewer, dynamic model routing vs. static configuration, risk-tiered cost optimization vs. one-size-fits-all. The convergence on "subagents + coordinator" as the right architecture is independently validated.
 
+**A third arrival, this time derived rather than discovered.** [[Building a Production AI PR Review Agent]] reaches four specialists (security, quality, testing, docs) plus an aggregator with a confidence gate — from first principles, with no production traffic, by asking what a senior reviewer actually does and assigning each activity a component. That an unfunded course derivation and a system running 131K reviews a month land on the same topology is the strongest available evidence that the shape is correct rather than incidental. The instructive part is what derivation could *not* produce: risk tiering, the 85.7% cache hit rate from shared-context extraction, and the 0.6% break-glass rate are all thresholds that only traffic can set. Reasoning gets you the architecture; operating it gets you the numbers.
+
 ---
 
 ## See Also
