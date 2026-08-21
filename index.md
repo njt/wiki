@@ -363,6 +363,7 @@ Isolation, credentials, prompt injection defense, and agent safety. **Hub: [[Sec
 
 Craft beyond agents: simplicity, error handling, reliability, specs, and project management. **Hub: [[Software Engineering Craft]]**
 
+- [[The Ten Properties of Software Quality]] — Engineering Atlas's ten-property reframe of quality (Correctness through Compliance); the Correctness chapter reads Dijkstra's "testing shows the presence of bugs" as a design constraint and lands on mutation testing as the honest audit of a safety net
 - [[What Color is Your Function]] — Bob Nystrom's classic diagnosis of the "function coloring" problem: why async/await can't compose freely, why green threads are the real solution, and why Go, Lua, and Erlang got concurrency right while JavaScript, Dart, and C# painted themselves into a corner
 - [[Automatic Layout of Railroad Diagrams]] — Chiplunkar and Pit-Claudel's first formal treatment of railroad/syntax diagram layout as a compilation problem: diagram language → three-pass compiler (align/wrap/justify) → layout language, with wrapping as principled optimization
 - [[Notes on Structured Programming]] — Dijkstra's 1970 foundational monograph: structured programming, step-wise refinement, the testing-versus-correctness argument, and the layered virtual machine model that anticipated microservices, containers, and agent abstractions
