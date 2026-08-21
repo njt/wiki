@@ -32,7 +32,7 @@ The practical escape hatch. When making an illegal state truly unrepresentable i
 
 ### The Boundary Principle
 
-All parsing should happen at the boundary of the system — the JSON deserialization layer, the CLI argument parser, the HTTP request handler — before *any* business logic touches the data. Once inside the system, types carry the proofs and no further checks are needed. This is the same architecture as [[Cloudflare Security Audit Skill]]'s recon-before-action pattern and [[Designing a Passively Safe API]]'s atomic phases: do the dangerous work once, at the edge, so the core never needs to distrust its inputs.
+All parsing should happen at the boundary of the system — the JSON deserialization layer, the CLI argument parser, the HTTP request handler — before *any* business logic touches the data. Once inside the system, types carry the proofs and no further checks are needed. This is the same architecture as [[Cloudflare Security Audit Skill]]'s recon-before-action pattern and [[Designing a Passively Safe API]]'s atomic phases: do the dangerous work once, at the edge, so the core never needs to distrust its inputs. The database is one boundary the essay never reaches, and it is where the lesson bites hardest: [[Acadia]]'s pitch is that converting a precise custom type into JSON or a handful of nullable columns is shotgun parsing by another name — and that the fix is end-to-end types that make the database understand the language's types directly, so a column change surfaces as a compile error.
 
 ### Information-Preserving vs Information-Discarding
 
