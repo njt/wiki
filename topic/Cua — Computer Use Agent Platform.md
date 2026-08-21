@@ -67,6 +67,8 @@ ComputerAgent (cua_agent/agent.py, 1133 lines)
 
 **vs. [[Computer Use is 45x More Expensive Than Structured APIs]]**: Cua's entire existence validates this observation — computer use IS expensive (vision tokens), which is why the platform invests so heavily in image retention callbacks, budget management, and model selection that can route to cheaper VLMs for simpler tasks.
 
+**vs. [[LongHorizon-Harness]]**: Cua builds computer-use *agents* (drivers, VMs, per-model loops); LongHorizon-Harness builds the *loop around existing agents* (Claude Code/Codex/OpenCode) with a Manager/Executor/Auditor verify-and-checkpoint cycle, getting screen control secondhand via MCP plugins rather than native drivers.
+
 ## Tags
 
 #tool #project #agents #computer-use #sdk #macos #sandbox #vlm #browser-automation
