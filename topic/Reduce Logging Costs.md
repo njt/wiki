@@ -59,6 +59,7 @@ The thesis sentence. Everything else — sampling, tiering, vendor-switching —
 - [[Anomaly Detection]] — A concrete example of operational tooling done right: Welford's algorithm, no ML, no config. The kind of targeted signal extraction that makes log volume reduction safe rather than reckless.
 - [[Patreon Notification Fanout]] — Shares the diagnosis that observability/logging data models aren't afterthoughts — they're the feature that makes platforms maintainable. Also shares the organizational bottleneck insight.
 - [[Lean, Not Backpressure]] — The lean manufacturing lens: fixing quality at the source rather than inspecting and filtering downstream. Shpilt's "reduce before it leaves the application" is jidoka for telemetry.
+- [[The Three Pillars of Observability]] — The broader history the cost ladder sits inside: metrics, logs, and traces evolved separately and are now unified in one columnar store. Its cost objection — that wide events preserve full cardinality, keeping metrics cheaper for aggregation — is Shpilt's dilemma seen from the vendor side.
 
 ---
 *Sources: [[raw/reduce-logging-costs]], [[summary/reduce-logging-costs]]*

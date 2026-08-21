@@ -30,7 +30,7 @@ He connects this to the consensus literature: Paxos (via Multi-Paxos), ZAB, RAFT
 
 > "If you have a log of changes, you can apply these changes in order to create the table capturing the current state."
 
-A table is data at rest; a log is data in motion. The log is more fundamental: from the complete log of changes, you can recreate not just the current table but every previous state. This is the insight behind event sourcing ([[Event Sourcing — Set-and-Remove Bi-Temporal Events]]) and source control — `git` is essentially a log of patches. Kreps credits Datomic for productizing the log-centric database, but notes the idea had been in the literature for over a decade.
+A table is data at rest; a log is data in motion. The log is more fundamental: from the complete log of changes, you can recreate not just the current table but every previous state. This is the insight behind event sourcing ([[Event Sourcing — Set-and-Remove Bi-Temporal Events]]) and source control — `git` is essentially a log of patches. Kreps credits Datomic for productizing the log-centric database, but notes the idea had been in the literature for over a decade. The observability world reached the same duality from the opposite direction — [[The Three Pillars of Observability]] traces Observability 2.0's "raw events as primary, metrics and traces as derived views" back to exactly this: the event log as source of truth, the three pillars as projections.
 
 ## Data Integration: The O(N²) Problem
 

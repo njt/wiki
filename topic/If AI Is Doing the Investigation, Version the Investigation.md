@@ -68,6 +68,7 @@ The thesis, distilled. This will age well.
 - [[How Intercom Uses Claude Code]] -- They sync session transcripts to S3 and analyze with Haiku. Cases are the repo-native, lower-infrastructure version
 - [[Slate]] -- Thread-and-episode architecture. Cases are episodes: self-contained investigation records that can be resumed
 - [[Harness Engineering]] -- Feedforward vs. feedback. Cases provide feedforward to the next developer (or yourself six months later) who touches this code
+- [[The Three Pillars of Observability]] -- The same agent-as-investigator scenario one layer down: agents fan out into dozens of abandoned queries against unified telemetry, and the open question is whether observability databases must change to serve a machine that reads rather than a human who browses.
 
 ---
 *Sources: [[summary/if-ai-is-doing-the-investigation-version-the-investigation]]*
