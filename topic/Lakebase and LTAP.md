@@ -70,6 +70,8 @@ LTAP sidesteps all three by unifying at the storage layer instead. Postgres owns
 
 LTAP is an instance of a broader pattern worth watching: **unification at the storage layer rather than the engine layer.** This is the same move [[The Limits of Generalized Sync]] identifies in the sync engine space — read paths generalize; write paths resist. LTAP solves this by making the storage layer the generalization point and keeping write-path engines specialized.
 
+[[Random Access Parquet (RAP)]] is the read-path half of the same pattern: where LTAP gets operational data *into* open columnar formats without a pipeline, RAP gets it *back out* at point-query latency — an external index maps keys to exact file/row/page locations over the same Parquet files, so an interactive lookup needs no copy into a KV store. Read together, they complete the thesis Xin is circling: one governed dataset serving transactions, analytics, and interactive point queries alike.
+
 It also connects to [[Databases and Data]]'s observation about convergent architectures: every database wants to be the one database you need. LTAP inverts that — instead of one database doing everything, it's one storage format serving multiple specialized databases.
 
 The [[Smart Models Dumb Pipes]] resonance is accidental but real: Postgres and Spark are the "smart" engines; the storage layer is the "dumb pipe" that connects them. The pipe is dumb in the best sense — open formats, no transformation logic — and the engines are smart where they need to be.

@@ -36,7 +36,7 @@ GraphAr support (`icebug_format/graphar.py:159-555`) reads GraphAr's YAML graph 
 
 ## Design Decisions
 
-**Scan-optimized over write-convenient.** CSR + columnar Parquet is designed for a graph engine to mount files directly from S3-compatible storage and scan only the tables it needs. The trade-off: you can't incrementally update — every conversion is a full replacement that drops all existing output tables.
+**Scan-optimized over write-convenient.** CSR + columnar Parquet is designed for a graph engine to mount files directly from S3-compatible storage and scan only the tables it needs. The trade-off: you can't incrementally update — every conversion is a full replacement that drops all existing output tables. It's the graph-flavored instance of the same in-place-from-object-storage pattern [[Random Access Parquet (RAP)]] pursues for point queries — point at the file, don't copy it into a serving system.
 
 **SQL over bespoke graph code.** The entire conversion is expressed in SQL (CTEs, window functions, cumulative sums). This leverages DuckDB's battle-tested query optimizer rather than hand-rolling graph algorithms in Python. The cost is that the SQL is non-trivial to read and debug — the indptr construction alone spans a four-CTE query.
 
