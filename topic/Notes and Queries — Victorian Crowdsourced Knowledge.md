@@ -47,6 +47,7 @@ The deeper point, which MacFarlane gestures at but doesn't fully develop, is tha
 - [[First Four Ships]] — the 1850 Christchurch settlement, contemporaneous with *Notes & Queries*, as another example of Victorian systematic thinking applied to a grand project
 - [[TRIZ]] — like *Notes & Queries*, TRIZ is a structured methodology for extracting knowledge from scattered contributions; the Soviet systematization of invention parallels the Victorian systematization of antiquarian finds
 - [[Fruit Jelly Slices]] — another case of how contingent formats (Passover dietary law, a periodical's paragraph-length constraint) shape what knowledge survives
+- [[Engineering Atlas Articles]] — a modern descendant of the same atomization: 5,172 engineering reports each classified along outcome/phase/quality-attribute axes, a format that, like the periodical's paragraph-length note, shapes what gets written down (lessons dominate; migrations are nearly absent)
 
 ---
 *Sources: [[raw/choice-notes-from-notes-and-queries]]*

@@ -62,6 +62,8 @@ This connects to the broader tension in [[The New Software Lifecycle]]: AI compr
 
 The Practice Atlas occupies an interesting niche. It's not a textbook (no narrative arc, no exercises). It's not a wiki (no collaborative editing, no discussion). It's not a search engine (no indexing of the open web). It's a curated map — and "curated by AI" is a genuinely new category, however uncomfortable.
 
+The same site also exposes its raw material directly: the [[Engineering Atlas Articles]] index — 5,172 crawled engineering reports classified along three axes (outcome, phase, quality attribute), where the cards' linked "crawled engineering blog articles" actually live. It is the evidence layer beneath this synthesis layer, and its distribution is telling: lessons (2,734) outnumber wins (1,620) and outages-plus-postmortems (688) combined, while correctness (2,981) is the most-tagged attribute.
+
 In the wiki's landscape:
 - [[Software Engineering Craft]] is the hub for fundamentals, and the Practice Atlas is essentially an external reference that covers much of the same territory in card format
 - [[Patterns.dev]] covers web design and rendering patterns specifically; the Practice Atlas covers those plus everything else
