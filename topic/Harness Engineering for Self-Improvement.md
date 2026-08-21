@@ -38,6 +38,8 @@ From Trehan & Chopra (2026)'s study of autonomous research attempts. These are s
 
 The progression Weng traces is: instruction prompts → structured context → workflow → harness code → optimizer code. As models improve, the optimization target moves rightward — from prompt engineering to harness engineering to meta-harness engineering. Each step is less heuristic and more general. This is a maturity model for the field. #concept
 
+A production instance of the rightward-most rungs is [[Prime Agent (RLM Harness)]]'s Continual Harness: `/refine` reads the agent's own trajectory and applies small, evidence-backed CRUD edits to four editable state kinds (prompts, memories, skills, sub-agent specs) — harness self-improvement as a per-trajectory online loop rather than an offline search. It sits closer to AHE's per-edit decision observability than to Promptbreeder's evolutionary mutation.
+
 ### Context Engineering as a Ladder
 
 ACE (heuristic rules) → MCE (bi-level optimization with evolved skills) → Meta-Harness (optimize the code that does the optimization). Each level abstracts further: from "what's in context" to "how to manage context" to "what code manages context." This connects to [[Context Engineering at the Frontier (Linus Lee)]]'s argument that context engineering IS search engineering, and to [[New Rules of Context Engineering]]'s finding that newer models need fewer guardrails and better interfaces. #concept

@@ -1,43 +1,16 @@
 ---
-url: https://www.primeintellect.ai/blog/prime-agent
+url: https://github.com/PrimeIntellect-ai/prime-agent
 title: "Prime Agent: A Self-Improving RLM Agent"
-author: Seth Karten, Alex L. Zhang, Kevin Thomas, Sebastian Müller, and Prime Intellect Team
-date_published: 2026-08
-date_fetched: 2026-08-06
+author: Prime Intellect
+date_fetched: 2026-08-21
 ---
 
 # Prime Agent: A Self-Improving RLM Agent
 
-Prime Intellect's open-source coding agent harness built around two novel abstractions:
-the **Recursive Language Model (RLM)** and **Continual Harness**. The RLM treats
-context as a variable and subagent delegation as function calls inside a persistent
-IPython kernel REPL — the model programs its own tool use and subagent spawning in
-Python rather than through fixed tool-calling schemas. Continual Harness treats the
-harness's own state (prompts, skills, memory, sub-agents) as CRUD-able from within
-the agent's trajectory, enabling self-improvement through `/refine`, a pipeline that
-reads the agent's own history and proposes minimal harness edits.
+Prime Intellect's open-source coding and research agent for general and long-running work, built around two abstractions. The **Recursive Language Model (RLM)** treats context as a variable and tools like sub-agents as function calls inside a persistent IPython REPL — the model programs its own tool use in Python rather than emitting fixed tool-call schemas. The **Continual Harness** stores prompts, memories, skill descriptions, and reusable sub-agent specs as durable state the agent can refine through small, evidence-backed edits via `/refine`.
 
-The architecture includes a background daemon managing all live sessions over a
-local socket, with an Agents View for navigating the recursive tree of agents and
-sub-agents. Sessions are stored as append-only JSONL with branching support, and
-inactive sessions unload from memory after 30 minutes. Compaction and kernel garbage
-collection run asynchronously.
+The repo is a fork of Pi: the `packages/coding-agent` workspace is literally `@earendil-works/pi-coding-agent` (v0.7.4), and Prime Agent layers its novelty on top of Pi's agent loop. The monorepo spans four TypeScript workspaces (`ai` for the provider layer, `agent` for the loop, `tui` for the terminal, `coding-agent` for the CLI) plus `prime-agent-runtime`, a Python package preloaded into every IPython kernel.
 
-Sub-agents (`rlm("task")`) are full `prime-agent` instances with their own model,
-kernel, and session tree. Communication happens via `agent_message.send()`, and
-sub-agents can be persistent — surviving compaction and kernel restarts, addressable
-by session identifier. Multi-agent communication is scoped to the "nuclear family"
-(parent, sibling, child).
+Execution is split across three processes: a client (TUI or headless print/JSON/RPC) owns rendering; a daemon supervisor owns discovery, routing, and cross-agent message delivery; and a session worker owns one root session, its scheduler, and the IPython kernel. Workers and kernels are separate processes for lifecycle and failure containment — not security sandboxes. Sessions persist as append-only JSONL, and the kernel's Python namespace survives resume via a per-variable `dill` snapshot.
 
-**Evaluations:** On ARC-AGI 3, Prime Agent + Opus 5 achieved 95.5% RHAE Best@1,
-surpassing the human expert baseline of 95.4%. On long-context benchmarks (OOLONG,
-OBLIQ-Bench, LongBench, ManyIH, EmulatorBench), Prime Agent with open-weights
-GLM-5.2 proved competitive against closed-model harnesses. Case studies include
-emulator construction from scratch in Rust, GPU kernel writing on PMPP-Hard, and
-long-horizon game playing in Factorio (where reward hacking via RCON commands was
-observed) and MazeBench.
-
-The authors argue that model-harness co-learning is the dominant paradigm for
-unlocking new capabilities, and that Prime Agent's abstractions are designed for
-models that don't yet exist — current frontier models can use them, but future
-models trained around them will benefit far more.
+Key surface features: sub-agents spawn with `await rlm("task")` and return a handle immediately (results arrive via `agent_message`), sessions keep running in a background daemon and can be reattached, `/refine` never rewrites the immutable base system prompt, skills are importable Python packages, and automatic compaction plus persistent goals, heartbeats, and bounded autonomous mode keep long tasks moving.
