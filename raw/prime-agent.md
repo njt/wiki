@@ -1,210 +1,124 @@
 ---
-url: https://www.primeintellect.ai/blog/prime-agent
-date_fetched: 2026-08-06
+url: https://github.com/PrimeIntellect-ai/prime-agent
+date_fetched: 2026-08-21
 ---
 
-# Prime Agent: A self-improving RLM agent
+<p align="center">
+  <a href="https://primeintellect.ai">
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/40c36e38-c5bd-4c5a-9cb3-f7b902cd155d">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/6414bc9b-126b-41ca-9307-9e982430cde8">
+      <img alt="Prime Intellect" src="https://github.com/user-attachments/assets/6414bc9b-126b-41ca-9307-9e982430cde8" width="312" style="max-width: 100%;">
+    </picture>
+  </a>
+</p>
 
-# Prime Agent: A self-improving RLM agent
+<h3 align="center">
+Prime Agent: A Self-Improving RLM Agent
+</h3>
 
-Today, we are launching **Prime Agent**, our self-improving coding harness designed around two abstractions, the **Recursive Language Model (RLM)** [citation] and **Continual Harness** [citation]. Modern harness designs were built around the capabilities of earlier generations of models, and they do not reflect what frontier models can do today: fixed tool-calling schemas and context compaction force the model to work around its own scaffolding instead of leveraging it. Static, hand-engineered sub-agents, prompts, skills, and memory are set once at design time and never adapt to what the agent learns while running. We believe that harnesses should instead extrapolate on current model capabilities toward the next frontier of reasoning patterns.
+<p align="center">
+  <a href="packages/coding-agent/docs/index.md">Documentation</a> &bull;
+  <a href="https://github.com/PrimeIntellect-ai/verifiers">Verifiers</a> &bull;
+  <a href="https://github.com/PrimeIntellect-ai/prime-rl">PRIME-RL</a>
+</p>
 
-Prime Agent is built around this principle through two main abstractions:
+<p align="center">
+  <a href="https://github.com/PrimeIntellect-ai/prime-agent/actions/workflows/ci.yml">
+    <img src="https://github.com/PrimeIntellect-ai/prime-agent/actions/workflows/ci.yml/badge.svg" alt="CI" />
+  </a>
+  <a href="https://github.com/PrimeIntellect-ai/prime-agent/actions/workflows/build-binaries.yml">
+    <img src="https://github.com/PrimeIntellect-ai/prime-agent/actions/workflows/build-binaries.yml/badge.svg" alt="Build Binaries" />
+  </a>
+</p>
 
-- **The Recursive Language Model (RLM)**treats context as a variable and subagent delegation as function calls inside a REPL. The persistent REPL gives the model programmatic access to its history, sub-agents, and tools, allowing it to write language model programs as actions over its own context. This design allows the agent to process arbitrarily long sessions without losing access to its own past information stored in variables.
-- **Continual Harness**treats the harness's own state, abstracted as its prompts, skills, memory, and sub-agents, as something the agent can create, read, update, and delete (CRUD) from its own trajectory. When combined with agent-to-agent communication, this mechanism enables orchestration across sub-agents and even across Prime Agent sessions. For example, Prime Agent can spawn persistent sub-agents, message them later in the trajectory, and communicate directly with a different Prime Agent session.
+<p align="center">
+  <a href="https://trendshift.io/repositories/104249?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-104249" target="_blank" rel="noopener noreferrer">
+    <img src="https://trendshift.io/api/badge/repositories/104249" alt="PrimeIntellect-ai%2Fprime-agent | Trendshift" width="250" height="55" />
+  </a>
+</p>
 
-These abstractions are powerful for bootstrapping model capabilities. Prime Agent is built to be effective as a general coding assistant, as a default runtime for long-horizon autonomous evaluation, and as a collaborator for research and autoresearch.
+Prime Agent is an open-source coding and research agent for general and long-running work. It is designed around two core abstractions:
 
-Prime Agent is fully open-source, and can be installed via:
+- The **[Recursive Language Model (RLM)](https://www.primeintellect.ai/blog/rlm)** treats context as variables (*prompt-as-a-variable*) and tools like recursive subagents as function calls (*programmatic tool /sub-agent calling*) inside a persistent REPL.
+- The **[Continual Harness](https://arxiv.org/abs/2605.09998)** stores supplemental prompts, memories, skill descriptions, and reusable subagent specifications as durable state that Prime Agent can refine through small, evidence-backed updates, local to the session by default.
 
-```
+Prime Agent combines a persistent Python control environment with durable harness state, so useful working context and reusable operating patterns can outlive a single chat window.
+
+- **Everything is programmatic:** persistent IPython is the built-in model tool; file operations, shell commands, tool use, subagents, and context management happen through code.
+- **Subagents are built in:** `rlm(...)` spawns real child agents for parallel or background work and returns their results programmatically.
+- **The harness can improve:** `/refine` reviews the current trajectory and can apply small, evidence-backed updates to supplemental harness state. It never rewrites the immutable base system prompt, and recorded snapshots support rollback.
+- **Skills are executable:** skills are importable Python packages, and the built-in skill creator can turn recurring workflows into project or personal skills.
+- **Sessions run in the background:** daemon-backed agents keep running when the terminal disconnects and can be reattached later.
+- **Agents communicate directly:** running agents can exchange messages and orchestrate one another without routing everything through the user.
+- **Long tasks keep moving:** automatic compaction, persistent goals, heartbeats, schedules, autonomous mode, and retained subagents preserve progress across turns and terminal sessions.
+
+## Getting Started
+
+Install the latest stable release on macOS or Linux:
+
+```bash
 curl -fsSL https://app.primeintellect.ai/prime-agent/install.sh | sh
 ```
-## Prime Agent
 
-The performance of agent harnesses are tied to both the design of the harness and the capability of the model trained around the harness. We designed Prime Agent to be immediately usable with modern open and closed frontier models, while also providing a feature set that we expect to provide further performance gains as newer generations of models are trained around it.
+The installer downloads a versioned release, verifies its SHA-256 checksum, installs the `prime-agent` command, and can prepare the IPython runtime used by the agent.
 
-At its core, Prime Agent is designed around programmatic tool and sub-agent calling. Models in Prime Agent use a persistent IPython kernel as their only tool. Other standard harness features are called as functions in the kernel, including sub-agents, which are each implemented as another `prime-agent` instance.
+Start Prime Agent from the repository or directory you want it to work in:
 
-### Prime Agent's Architecture
-
-**Background Daemon and Agents View.** The default view is a text-user interface (TUI) similar to other coding agent harnesses. By default, IPython actions made by the agent are condensed for brevity, but can be expanded to view actions made by the harness. Sub-agents launched in the REPL can also be accessed below the user chatbox.
-
-Prime Agent runs a background daemon that owns all live agent sessions over a local socket. You can attach and detach from the session without affecting the underlying agent loop. Each root session tree runs in a recoverable worker process; if a worker crashes, the daemon recovers it from the session JSONL and kernel state snapshot.
-
-The **Agents View** allows you to see and select other live sessions from the daemon. It can be opened by pressing the Left Arrow key (←) on an empty prompt, and lists sessions that are currently running, idle sessions with the daemon still active, and inactive sessions that are currently not loaded in memory. Any of these chats can immediately be entered and interacted with, and pressing space allows users to chat with a session in any state, including steering and queuing of prompts and commands such as `/compact`.
-
-The Agents View is constructed as the central connecting point between agents and subagents, recursively. Any agent is discoverable in an Agents View. Users navigate from an Agents View into an agent's chat, then into the Agents View of its subagents, into a subagent chat, and so on.
-
-Because subagents share the same *Running-Idle-Inactive* state machine as the root agents, they can be removed from memory after 30 minutes of inactivity, and the moment a user or agent addresses any of them, they are reloaded from disk. In highly nested chats, this can save a lot of memory.
-
-**Session and Context Management.** The entire session history of the agent is stored as append-only JSONL files on disk. Each line is a JSON entry, which can include messages, model switches, compaction summaries, or extension entries. Branching, forking, and cloning all happen within the same file by moving the leaf pointer. The full history is always recoverable through `/tree`.
-
-Compaction happens when the context hits a threshold or directly by the agent in the REPL with `compact.run()`. Compaction is primarily used to clean the main context of the agent, but the full history, including past compactions, can be accessed programmatically in the IPython kernel when needed.
-
-The introduction of the REPL requires additional work to manage the IPython state. We asynchronously compact and clean the kernel simultaneously, using a spawned agent to act as a garbage collector. This is necessary to avoid REPL memory built up for each agent.
-
-### RLM and Programmatic Tool-Calling (PTC)
-
-Prime Agent relies on the IPython kernel as its REPL that persists over the session, which it can invoke every turn. On initialization, the kernel pre-imports each skill / tool as a module, including the `rlm` for recursive programmatic sub-agent calling.
-
-The `rlm` is an asynchronous function, meaning the model can freely invoke and parallelize sub-agent calls in code. Spawning a subagent (e.g. `await rlm("sub-task")`) launches a full session with its own model, IPython kernel, session tree, and conversation history. It returns immediately, because all subsequent communication between agents happens through the `agent_message.send(...)` tool.
-
-There are several useful primitives that Prime Agent can choose to launch in this way, such as fanning out sub-agents in parallel, or launching background work.
-
+```bash
+cd /path/to/project
+prime-agent
 ```
-# Parallel fan-out — rlm() returns at task admission with a child handle,
-# never the child's answer; results arrive as agent_message replies.
-auth = await rlm("Summarize the authentication flow in auth/. Reply to me when done.", name="auth-expert")
-api = await rlm("Summarize the updated HTTP API layer in src/. Reply to me when done.", name="http-expert")
-# ... continue independent work; each child replies via
-# agent_message.send(..., receiver_role="parent") when finished ...
-# Steer or extend a child mid-flight by role + name
-await agent_message.send(
-    "Also cover middleware error handling.",
-    receiver_role="child",
-    receiver_name=api.name,
-)
+
+On first launch, run `/login` to choose a subscription or API-key provider. Prime Agent works in the current directory and can run commands and modify files there. Use a disposable clone, clean worktree, or another checkpoint you can inspect and restore.
+
+> [!WARNING]
+> Prime Agent executes model-generated Python and project commands with your user permissions. Its worker and kernel processes improve lifecycle isolation and recovery; they are **not** a security sandbox. Review changes and use trusted repositories, instructions, skills, and extensions only. Run untrusted code or instructions in an external sandbox or restricted environment.
+
+Useful commands:
+
+```bash
+prime-agent agents                   # Browse running, idle, and saved sessions
+prime-agent attach <agent>           # Reattach to a running session
+prime-agent --resume [path|id]       # Browse sessions or resume one directly
+prime-agent status                   # Inspect background service state
+prime-agent doctor [--fix]           # Inspect or repair background services
+prime-agent update [--force]         # Update Prime Agent
+prime-agent shutdown [--force]       # Stop every agent, worker, and background service
 ```
-As models continue to improve, new invocation patterns over tool calls and sub-agents will emerge. We expect future generations of models to rely less on hand-holding prompts and more on this kind of direct, programmatic control.
 
-### Orchestration and Multi-Agent Communication
+## Built for Long-Running Work
+Prime Agent is built for long-running work, especially for evaluations in research. These features are available in the TUI, and when run autonomously.
 
-The background daemon manages all live Prime Agent sessions. Prime Agent also enables Agent-to-Agent (A2A) messaging through the daemon, letting any Prime Agent session message any other Prime Agent session using the same mechanism used for messaging persistent sub-agents. This allows for easy orchestration to manage the progress of sub-agent swarms and communication regarding shared resources directly between the affected agents. To prevent undesirable communication across independent sessions, multi-agent communication in Prime Agent is limited to its *nuclear family*, meaning parent, sibling, or child processes.
+- **Continual Harness:** `/refine` can persist focused, reviewable lessons as supplemental prompts, memories, reusable skill descriptions, or subagent specifications, with recorded refinement history. It does not replace packaging and reviewing new executable skills.
+- **Direct agent-to-agent communication:** running agents and retained subagents can discover one another, exchange messages, and steer active work.
+- **Daemon-backed continuity:** active sessions, IPython state, schedules, and subagents keep running when the terminal detaches and can be reattached later.
+- **Heartbeats and schedules:** `/heartbeat`, `rlm_heartbeat`, and `prime-agent schedule` can re-enter a session periodically or at a specific time.
+- **Persistent goals:** `/goal` keeps an objective and its progress active across turns until it is completed, paused, or cleared.
+- **Bounded autonomous mode:** `/autonomous` continues within configured turn, token, and time budgets and can run user-defined quality gates. A passed gate checks only what that gate verifies; reaching a limit does not imply task success.
 
-```
-# Spawn a named child; the handle returns at admission.
-handle = await rlm("Find what's wrong in this auth-flow. Reply to me with your findings.", name="auth-reviewer")
-# ... the child's findings arrive as a parent-role reply, not a return value ...
-# Later (survives compaction and kernel restarts): recover the retained child.
-children = await rlm.list_subagents()
-auth_child = next(c for c in children if c.session_name == "auth-reviewer")
-# Send a follow-up turn into the same retained child session.
-await agent_message.send(
-    "Follow up: identify the main edge cases and any likely bugs.",
-    receiver_role="child",
-    receiver_name=auth_child.session_name,
-    mode="follow_up",
-)
-```
-Prime Agent supports *persistent sub-agents* through its RLM-native runtime, meaning a sub-agent's own session directory, context, IPython kernel, and session history persist even after the initial sub-agent call has finished. Prime Agent can send further messages to continue a persistent sub-agent by accessing its unique session identifier, all from its IPython kernel.
+## Documentation
 
-### Self-Improvement via the Continual Harness
+- [Quickstart](packages/coding-agent/docs/quickstart.md) — install, authenticate, and run a first session
+- [Usage and CLI reference](packages/coding-agent/docs/usage.md) — commands, sessions, autonomous limits, and output modes
+- [Long-running and background agents](packages/coding-agent/docs/long-running-agents.md) — detach and reattach, goals, heartbeats, and schedules
+- [RLM programming model](packages/coding-agent/docs/rlm.md) — persistent IPython, subagents, skills, and the trust model
+- [JSON mode](packages/coding-agent/docs/json.md) and [RPC mode](packages/coding-agent/docs/rpc.md) — headless automation and integrations
+- [Skills](packages/coding-agent/docs/skills.md) — install and create reusable capabilities
+- [Provider setup](packages/coding-agent/docs/providers.md) — subscription and API-key providers
+- [Architecture overview](packages/coding-agent/docs/architecture.md) — daemon, worker, kernel, and persistence boundaries
+- [Development](packages/coding-agent/docs/development.md) — build and run from source
 
-Prime Agent's harness state lives in the persistent IPython kernel as `rlm.harness`, immediately readable and callable by the agent mid-task, and every change is also written to disk, so it survives across turns and across sessions. Continual Harness formalizes this state as , prompt, sub-agents, skills, and memory, refined online from the agent's own trajectory without resets.
+## Contributing
 
-Each of the four components exposes the same create, read, update, delete surface. `create_prompt_note(...)`, `create_memory(...)`, `create_skill(...)`, and `create_subagent(...)` each add an entry of that kind, `update_X(...)` and `delete_X(...)` mirror them, and `list(kind)` or `get(kind, id)` read them back. Skills follow this same surface: authoring a Python-backed skill is a `create_skill(...)` call carrying a `SKILL.md`-style reference, the same operation as adding a memory or a prompt note.
+Start with a GitHub Discussion for [general questions](https://github.com/PrimeIntellect-ai/prime-agent/discussions/categories/general), [bug reports](https://github.com/PrimeIntellect-ai/prime-agent/discussions/categories/bug-reports), and [feature requests](https://github.com/PrimeIntellect-ai/prime-agent/discussions/categories/feature-requests). Maintainers promote accepted work into Issues, and pull requests are reviewed from maintainers and vouched contributors.
 
-```
-# Create a memory and a skill through the same CRUD surface
-rlm.harness.create_memory("flaky test pattern", "retry three times before failing")
-rlm.harness.create_skill("retry helper", "...", reference={"type": "python", "import": "retry_helper"})
-# Read them back
-rlm.harness.list("memory")
-rlm.harness.get("skill", "retry_helper")
-```
-`/refine` is the self-improving pipeline built on top of this CRUD surface. It reads the agent's own trajectory, the record of what was tried and what happened, and applies the smallest relevant CRUD edit that improves the harness toward better outcomes: updating a prompt note, memory, skill, or sub-agent spec, rather than rewriting the whole harness. Each refinement records its trigger and the outcome it produced, so improvement is evidence-backed rather than arbitrary. Refinement runs in two phases. Planning, the LLM call that proposes the edit, runs in the background and does not block the ongoing conversation. Applying the edit, writing to disk and rebuilding the system prompt, is fast and only briefly blocks at the next turn boundary. The agent can call `refine.run()` directly whenever it notices a repeated failure or a reusable tactic, not only on a fixed schedule.
-
-```
-# Schedule a refinement focused on a specific observation
-await refine.run("promote the retry-on-flaky-test pattern to a skill")
-# Both status calls follow the same shape, though refine's plan/apply split
-# means "in_flight" can mean either background planning or the fast apply step
-await compact.status()   # tokens, context_window, percent, scheduled
-await refine.status()    # pending, in_flight
-```
-The base system prompt remains immutable. `/refine` only edits the harness layer around it. Rollback is supported through prior refinement history, allowing a bad harness update to be reverted by ID.
-
-### Autonomous Mode for Evals
-
-Prime Agent's eval mode combines three complementary mechanisms. A goal sets the overall objective: a persistent objective with an optional token budget that the harness keeps re-prompting the agent to pursue across turns, tracked until the agent explicitly calls `goal.complete()`. Heartbeats are scheduled cron-style messages injected into the session on a fixed interval, used for regular checks such as monitoring a sub-agent's progress or polling for a training update. Autonomous mode is the continuation mechanism itself, ensuring the agent keeps working toward the goal instead of stopping early once a turn produces no further output. Together, these let a session run unattended for extended periods while remaining bounded by an explicit budget and inspectable through the Agents View.
-
-Autonomous mode is available directly from the CLI with `--autonomous`, no scripting required. A run can set a completion goal and a turn limit in the same command:
-
-```
-prime-agent \
-  --autonomous \
-  --autonomous-gate "npm run check" \
-  --autonomous-max-turns 20 \
-  "Implement and verify the requested change"
-```
-The gate command runs before the session is allowed to finish. A failed gate returns its bounded output to the agent for another attempt, and Prime Agent skips rerunning a failed gate when the workspace has not changed since the last attempt. `--autonomous-max-turns`, `--autonomous-max-tokens`, and `--autonomous-timeout-ms` bound continuations, tokens, and wall-clock time respectively.
-
-## Evaluating Prime Agent
-
-Prime Agent serves as both a coding agent to be used, and a *harness design to be evaluated* for research. We make special note that while many modern frontier models are trained around a specific harness, currently no model has been trained around Prime Agent or its core feature set.
-
-**ARC-AGI 3.** ARC-AGI 3 is a popular intelligence benchmark that measures the ability of an agent to perform symbolic reasoning and learn the rules of simulated worlds. We evaluate Prime Agent with autonomous mode over several different frontier models, and compare to their native harnesses. Prime Agent was developed as a CLI coding agent, so the only ARC AGI 3 specific changes are to the task prompt, inspired by the standard prompt setup used in PRO-LONG.
-
-Our best results use Opus 5 in Prime Agent to achieve **95.5% RHAE Best@1**, **which surpasses the ARC reported human expert baseline of 95.4%**. Across three runs, we find that Prime Agent consistently performs well [95.0, 95.2, 95.5] and 99.97% Best@3 with all 183/183 levels complete. Our median score card action replay (95.2%) for ARC-AGI-3 can be found here.
-
-In addition to achieving a higher maximum score over each model's native harness, we find that Prime Agent also does so at a lower overall token usage. Prime Agent saves tokens by programmatically running functions over data rather than spending tokens reading data using tools.
-
-Finally, we note that we evaluated Opus 5 and GPT-5.6 Sol with Claude Code and Codex respectively, and found *worse* overall performance relative to the official results, so we yield to their official reported numbers instead.
-
-### Long context and long-running tasks
-
-Many difficult tasks in the wild reduce to long context tasks. Our goal is to show that Prime-Agent with open-weights models are a competitive alternative to closed models and harnesses, both as a general agent to be used, and as a baseline harness to be evaluated.
-
-Below, we select a suite of common long-context benchmarks across coding, retrieval, and general long reasoning tasks, and compare Prime Agent to several different popular harnesses. We offload the main context in each harness to a file in memory to start. For closed model harnesses, we use their associated models (i.e., Codex with GPT, Claude Code with Opus) while for Prime-Agent and Pi-mono (with sub-agents), we choose an open-weights model in GLM-5.2.
-
-| GLM-5.2 (high) | Opus 5 (high) | GPT-5.6 Sol (high) | ||||
-|---|---|---|---|---|---|---|
-| Eval | Prime-Agent | Pi-mono (w/ sub-agents) | Prime-Agent | Claude Code | Prime-Agent | Codex | 
-| OOLONG (yahoo, 128k) long context | 0.700 | 0.420 | 0.900 | 0.920 | 0.940 | 0.500 | 
-| OOLONG-Pairs long output | 0.874 | 0.556 | 0.929 | 0.922 | 0.911 | 0.895 | 
-| OBLIQ-Bench (math) long ranking [ndcg@10] | 0.669 | 0.635 | 0.802 | 0.795 | 0.612 | 0.646 | 
-| LongBenchPro (English) long comprehension | 0.777 | 0.768 | 0.804 | 0.790 | 0.794 | 0.790 | 
-| LongBenchv2 expert annotated long tasks | 0.680 | 0.696 | 0.744 | 0.746 | 0.714 | 0.704 | 
-| ManyIH Coding long instructions | 0.424 | 0.386 | 0.536 | 0.522 | 0.499 | 0.454 | 
-| ManyIH IF long instructions | 0.209 | 0.164 | 0.225 | 0.175 | 0.216 | 0.232 | 
-| LongCot-Mini long reasoning | 0.638 | 0.613 | 0.722 | 0.558 | 0.671 | 0.681 | 
-| EmulatorBench long coding | 0.208 | 0.000 | 0.047* | 0.062* | 0.275 | 0.228 | 
-
-We generally find Prime Agent to be competitive across a wide range of long tasks, especially against the harness that did not use a model trained around it. Prime Agent especially excels at long-running or long-context tasks, and can competitively run on its own as an autonomous agent. We include a set of focused case studies and experiments on long settings where Prime Agent excels.
-
-**Creating emulators from scratch.** An emulator is software that reproduces another computer system's observable behavior. We evaluate Prime Agent on **EmulatorBench**, a preview benchmark that tasks agents with constructing emulators in Rust for a variety of game systems. Agents are given a specification of the emulator and a set of diagnostic tests in the form of a verifier.
-
-The correctness of an emulator is given from its ability to mimic the behavior of the target machine. This is measured by human-generated diagnostic programs that inspect the emulator's behavior, such as the CPU flags, PPU timing, and other components. In an effort to minimize the effects of data contamination, we require the agent to build the emulator from scratch in Rust, sandboxed without any reference implementation. We report preliminary results on this long-context coding benchmark averaged over 16 emulator reconstructions, as well as two emulators, the SEGA Genesis and Nintendo Game Boy Color, that Prime Agent successfully reproduces. For Opus, our runs surprisingly failed to solve the tasks despite successful tool-call responses.
-
-**Writing GPU kernels.** Writing performant GPU kernels is an iterative process that requires repeatedly verifying, profiling, and tweaking code to get correct. We evaluate Prime Agent as a harness for GPU kernel writing on the recently released PMPP-Hard benchmark, a suite of tasks where agents must write performant GPU kernels that pass a suite of correctness checks against KernelGuard, the verification tool used for the official GPU MODE kernel leaderboard.
-
-## A long-horizon case study on games
-
-Autonomously playing video games has become an interesting case study for models and harnesses in how they handle long-horizon decision making. Games often require harnesses to balance information and context across millions of tokens, while also leveraging this information to efficiently take actions and avoid catastrophic states.
-
-**Factorio.** Factorio is a 2D factory simulation game where agents must mine resources, research technology, and build automated factories to increase the production of these resources. The Factorio Learning Environment (FLE) is an interface for simplifying the observation and action space of an LLM playing Factorio, which we use to connect Prime Agent to the game.
-
-The action and observation space of FLE is a module in Python that is accessed programmatically at every turn. This integrates directly into Prime Agent's IPython kernel. To leverage PTC for sub-agents, we launch four controllable characters in the game.
-
-The primary metric in FLE is production score, which is a weighted average of all materials the agent produces. Prime Agent successfully leveraged `/refine` to turn failures and successes into memories and skills, respectively. It used its own accumulated experience to design increasingly efficient machine layouts, raising the production score run over run. This allowed Prime Agent to efficiently score in the 100K+ range in production score in a matter of hours.
-
-However, we also observed instances of reward hacking by Prime Agent in FLE. Prime Agent discovered it could bypass Factorio's rules entirely by spawning in resources directly into its assembly machines through RCON commands, even with an explicit heartbeat prompt to remind Prime Agent not to cheat in Factorio. Once it found this exploit, the same refinement loop that had been building legitimate skills turned to building efficient cheating skills instead.
-
-**MazeBench.** MazeBench is an open-world 3D spatial reasoning environment where the player controls a 3D cube and must solve puzzle rooms within a global maze, while collecting gems. Frontier models are shown to greatly struggle on this task, expending billions of tokens to solve only a fraction of the overall world. We compare Opus 5 and GPT-5.6 Sol with Prime Agent versus their native harnesses, as well as GLM-5.2 with Claude Code. Following the benchmark metrics, we report the unique number of rooms they find, the unique number of states, and the total number of gems, all as a function of their overall token spend.
-
-## Next Steps
-
-Prime Agent is a new paradigm on the design of agent harnesses. Despite strong results over other harnesses, we still notice friction when running Prime Agent with models. This implies that there are huge performance gains still available from training with Prime Agent directly around this harness paradigm, or even the individual RLM and Continual Harness components.
-
-We strongly believe that model-harness co-learning is the dominant paradigm to unlock new capabilities. Many features of Prime Agent are not fully utilized without a trained model, and we believe there are huge performance gains still available from training with the harness directly. We are excited to bring you these new capabilities, all in the open.
-
-We will have a full technical report with further details soon.
+Read the [contribution guidelines](CONTRIBUTING.md) for the full process. Report security vulnerabilities privately by following the [security policy](SECURITY.md).
 
 ## Acknowledgements
 
-Prime Agent is built on top of `pi`. We thank the authors of `pi` for their valuable work.
+Our agent and TUI is built on top of [`pi`](https://github.com/earendil-works/pi). We thank the authors of `pi` for their valuable work.
 
-## Citation
+## License
 
-```
-@article{primeintellect2026primeagent,
-author = {Seth Karten and Alex L. Zhang and Kevin Thomas and Sebastian Müller and Prime Intellect Team},
-title = {Prime Agent: A Self-Improving RLM Harness},
-journal = {Prime Intellect Blog},
-year = {2026},
-month = {August},
-note = {https://www.primeintellect.ai/blog/prime-agent}
-}
-```
+Prime Agent is fully open source and released under the [MIT License](LICENSE).

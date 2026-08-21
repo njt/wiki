@@ -88,6 +88,36 @@ Prime Agent consistently saved tokens relative to other harnesses by running fun
 
 ---
 
+## Code Architecture (the repository)
+
+The README is a product page; the repo is a fork of Pi. The monorepo ships five workspaces — `packages/ai` (provider layer), `packages/agent` (agent loop), `packages/tui` (terminal UI), `packages/coding-agent` (the CLI), and `prime-agent-runtime` (the Python kernel shim) — and the coding-agent package is literally `@earendil-works/pi-coding-agent` v0.7.4 with `piConfig.name: "prime-agent"`. Prime Agent's novelty is layered on top of Pi's loop, not a rewrite of it.
+
+### Three-process execution model
+
+A session runs across three processes with distinct ownership: the client owns rendering and input; a daemon supervisor owns discovery, routing, and cross-agent message delivery; and a session worker owns one root `AgentSession`, its scheduler, and the IPython kernel. Workers and kernels are separate processes for lifecycle and failure containment, not security sandboxes. Sessions persist as append-only JSONL; child sessions live in `sub-*` directories under the root.
+
+### The host bridge: typed requests over Jupyter comms
+
+Python never owns credentials, provider calls, transcript writes, or scheduling. The kernel shim (`prime-agent-runtime/src/rlm/__init__.py`) sends typed requests through a Jupyter comm channel (`HOST_COMM_TARGET = "host.request"`); `await host_request("rlm.run", ...)` blocks on an asyncio future until the TypeScript host replies. The same trust boundary [[Layer-First Pattern — Keep Data Out of the LLM Context]] advocates: the model writes Python, but authoritative state stays in the host.
+
+### Kernel state snapshot as dill, per-variable
+
+Resume works by serializing the IPython user namespace to a `kernel-state.dill` payload — each top-level name pickled independently with `dill`, so one unpicklable object (open file, socket, GPU tensor) is skipped and reported rather than aborting the snapshot. Caps are 256 MB aggregate / 16 MB per variable; oversized live variables are pruned on an explicit compaction snapshot. It's best-effort resume, not a VM checkpoint.
+
+### Continual Harness is a JSON file with a concurrency guard
+
+The harness store is `harness_state.json` holding four entry kinds (prompt, memory, skill, subagent) plus a refinement log. The non-obvious detail is the mtime guard in `harness.py`: the kernel keeps a long-lived in-memory copy while the host `/refine` rewrites the same file from another process, so every read re-syncs when the file's mtime changed. Refinement is two-phase — an LLM pass plans edits against a captured baseline, then `applyRefinementProposal` re-checks each entry against that baseline (a `JSON.stringify` comparison) and rejects edits that raced another writer.
+
+### Skills are importable Python, MCP is `__getattr__`
+
+Skills are Python packages installed into the kernel and called by import name. MCP integrations subclass `McpIntegration` (`prime-agent-runtime/src/rlm/mcp_base.py`): tools are auto-discovered from the server and bound as async methods via `__getattr__`, so the model writes `await linear.list_issues(team="Engineering")`. Sessions open per call rather than being held across kernel snapshot/restore, and OAuth refresh round-trips through `host_request("mcp.refresh", ...)`.
+
+### Compaction respects turn structure
+
+`compaction.ts` finds cut points that are user/assistant turn boundaries and never cuts at tool results (they must follow their tool call). When a single turn is too large to keep whole, it splits the turn: the prefix gets its own summary, the suffix stays. File operations are extracted from summarized messages and carried forward across compactions.
+
+---
+
 ## Critical Analysis
 
 **The RLM abstraction is genuinely novel.** Most agent harnesses iterate on the same pattern: the model emits tool-call JSON, the harness executes, the model receives results. RLM inverts this: the model writes Python in a persistent REPL, and tools are just modules it imports. This collapses the boundary between "agent trajectory" and "program" — the model's conversation IS source code. It's the logical endpoint of the trend toward programmatic tool calling that [[Dynamic Workflows in Claude Code]] and [[MiMo Code]] approach from different angles, but Prime Agent commits to it as the *only* interface.
@@ -113,4 +143,4 @@ Prime Agent consistently saved tokens relative to other harnesses by running fun
 ---
 
 *Sources: [[raw/prime-agent]], [[summary/prime-agent]]*
-*Last updated: 2026-08-06*
+*Last updated: 2026-08-21*
