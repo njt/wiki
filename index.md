@@ -17,6 +17,7 @@ Cross-cutting analysis that pulls threads across individual pages.
 - [[Local and Open Source Inference]] — Running models on your own hardware. Voice is solved, documents are close, reasoning still needs the cloud
 - [[Software Engineering Craft]] — Fundamentals that don't change: error handling, API design, SRE, project management
 - [[Software Engineering Practice Atlas]] — 4,654-entry AI-generated reference map of software craft: five practice areas, 25 domain guides, and the "when not to use it" field as differentiator
+- [[Engineering Atlas Articles]] — The atlas's article corpus: 5,172 crawled engineering reports classified by outcome (Win/Migration/Lesson/Outage/Postmortem), phase, and quality attribute — the evidence layer beneath the practice cards, where lessons dominate and correctness is the most-tagged attribute
 - [[Databases and Data]] — Storage as a design problem. Git-for-databases, vector search, data quality, convergent database architectures
 - [[Distributed Systems]] — Agent orchestration IS distributed systems. BEAM/OTP as the model. Honest about what's missing
 - [[State-Oriented Consistency]] — Consistency is a property of individual pieces of state, not the system. A practitioner's framework for asking each piece what it actually requires, and the anti-pattern (Uniform Consistency) of defaulting to one answer for everything
