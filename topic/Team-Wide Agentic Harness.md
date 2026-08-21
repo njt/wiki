@@ -32,7 +32,7 @@ The piece is valuable precisely because it's incomplete. Langworth isn't present
 
 Three things the article gets right:
 
-**Skills-as-code is the right frame.** Once you treat a skill as code, the entire software engineering apparatus — review, testing, versioning, rollback — snaps into place. This is a more useful framing than "prompt engineering" because it carries the implicit expectation of review discipline. [[Vibe Coding as a Team Sport]] makes a parallel argument with different machinery (bram's To-Apply/To-Commit gates).
+**Skills-as-code is the right frame.** Once you treat a skill as code, the entire software engineering apparatus — review, testing, versioning, rollback — snaps into place. This is a more useful framing than "prompt engineering" because it carries the implicit expectation of review discipline. [[Vibe Coding as a Team Sport]] makes a parallel argument with different machinery (bram's To-Apply/To-Commit gates). [[CEOS (Claude + EOS)]] is that argument applied to business operations rather than code — a skills package whose data-ownership table (one writer skill per directory) doubles as a concurrency model for a leadership team sharing one git repo.
 
 **The convention layer matters more than the tool layer.** Langworth spends most of the piece on conventions (where files go, how sandboxes work) rather than on specific tools. This aligns with [[Components of a Coding Agent]]'s finding that the harness matters more than the model, and with [[Tuning Claude Code Into a Better Engineering Partner]]'s thesis that workflow beats prompts. The hard part of team-scale agent use isn't picking the right MCP server — it's agreeing on where the `plans/` directory lives and what goes in it.
 

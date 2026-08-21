@@ -90,6 +90,8 @@ A concrete example of the skills pattern in production: [[Flint Chart]] ships tw
 
 Portability is a real consequence of the spec: [[I Have ADHD Skill]] ships one `SKILL.md` that runs unchanged in Claude Code, Codex, Cursor, Copilot, Zed, Qwen, and Hermes, with `disable-model-invocation: true` keeping it opt-in in each — the same "invoke, don't auto-apply" contract documented above, expressed once and inherited everywhere.
 
+[[CEOS (Claude + EOS)]] is the skills package taken to its logical end: nineteen `SKILL.md` files that implement the Entrepreneurial Operating System, with a cross-skill data-ownership table (each skill owns exactly one data directory and only reads the rest) layered on top of the spec — a convention the official reference doesn't provide, and the one thing that lets many skills share a single git repo without colliding on files.
+
 ---
 *Sources: [[raw/slash-commands]], [[summary/slash-commands]]*
 *Last updated: 2026-08-06*
