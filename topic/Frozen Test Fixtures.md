@@ -29,6 +29,8 @@ On the fixtures-vs-factories holy war. Skorić uses both, sometimes in the same 
 
 Skorić's core insight — test the property, not the data — is correct and transferable well beyond Rails. The `assert_equal names, names.sort` pattern is elegant: it tests that sorting happened without caring what was sorted. This is a special case of a deeper principle: **assertions should be stable under valid changes to the system state.**
 
+Kent Beck reaches the same discipline from the opposite direction in [[Composable Tests]]: his rule is that a test should assert only what an earlier test hasn't already established, and he deliberately *deletes* assertions that a prior test strictly subsumes. Skorić's over-asserting tests and Beck's redundant ones are the same pathology — assertions claiming more than the test was written to check — and both freeze the suite, one against fixture change and one against code change.
+
 The article's weakness is that it stops at assertion patterns without addressing the organizational problem. Frozen fixtures don't happen because engineers don't know about `assert_includes` — they happen because nobody feels safe touching the test suite. The fix is as much cultural (making test breakage visible and fixable) as technical. This is where [[Feedback Loop is All You Need]] applies: frozen fixtures are a broken feedback loop. When changing fixtures breaks 100 tests, the correct response isn't "stop changing fixtures" — it's "make the feedback fast enough that fixing those 100 tests is cheap."
 
 The fixtures-vs-factories pragmatism is refreshing but undersold. The real argument for factories isn't that they're "better" — it's that they make the "test only one property" discipline easier by letting you build minimal data per test. Fixtures make that discipline harder because they tempt you to reuse data that carries assumptions you've forgotten. But Skorić is right that you can write correct tests with either tool. The tool matters less than the assertion discipline.
@@ -45,6 +47,7 @@ One gap: the article never addresses what to do with an already-frozen fixture s
 - [[Elements of Code]] — "wrong in correctable ways"; these assertion patterns make test failures correctable
 - [[Compound Engineering]] — frozen fixtures compound silently; the fix adds a system (property-based assertions)
 - [[dotnet Slopwatch]] — the inverse problem: tests that pass without testing anything vs. tests that fail without anything breaking
+- [[Composable Tests]] — Kent Beck's version of "test only what it's meant to test," applied to assertions rather than fixtures
 - [[Software Engineering Craft]] — testing craft as a durable engineering practice
 
 ---
