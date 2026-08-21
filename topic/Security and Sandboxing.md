@@ -36,6 +36,8 @@ For teams that need stronger guarantees than OS-level sandboxing, the isolation 
 
 [[Crabbox]] approaches isolation from the provisioning side: a Go CLI that leases throwaway cloud machines through a Cloudflare Worker broker, keeping provider credentials on the server side and giving the CLI only a bearer token. It supports 16 providers, TTL-bounded machines with monthly spend caps, and warm reuse for repeated runs.
 
+[[Smolbox]] occupies the far end of this spectrum that the container/VM ladder never reaches: a full x86_64 Alpine VM compiled to WebAssembly plus an LLM running in-browser via WebGPU, so there is no server to provision, no credential to scope, and no egress to filter — the blast radius is bounded by construction because the agent cannot reach anything outside the tab. Its argument is that this was always possible, and that a security field fixated on server-side lockdown is neglecting the safe, zero-permission on-ramp the next generation of users needs.
+
 [[Building Agents That Don't Break Themselves]] makes the case for nested sandboxing: even an agent already inside a sandbox should dispatch commands to a *separate* sandbox, verified by ID mismatch on return, so no agent can compromise its own execution environment. The corollary is copy-on-write checkpointing before every risky step — after an agent nukes `/usr/bin/python3` and `/usr/bin/git`, everything is back in about nine seconds. The aphorism: "Telling your agent to be careful is silly. Just make it do things somewhere it doesn't have to be."
 
 ### Moving the Boundary: Network and Credential Layers
