@@ -142,6 +142,8 @@ The middleware chain is powerful but complex. With 27 middlewares, debugging why
 
 **vs. [[Building Reliable Agentic AI Systems]]** (Bayer/PRINCE): Both are production agent harnesses with multi-layer safety. DeerFlow's defense-in-depth (loop detection, safety finish reason, guardrails, circuit breaker, token budgets) mirrors PRINCE's reflection loops. DeerFlow is more configurable; PRINCE is more opinionated.
 
+**vs. [[Local Deep Research]]**: The closest sibling — also a LangGraph deep-research agent built on `create_agent()`. LDR is a single-user *product* (Flask web UI, per-user AES-256 SQLCipher databases, local Ollama default) where the defining middleware is a DLP-style egress policy rather than a 27-middleware chain. DeerFlow optimizes for composable multi-tenant deployment; LDR optimizes for the private, local-first researcher. Both converge on subagent delegation for parallel research.
+
 ## Tags
 
 #tool #project #agents #memory #sandbox #mcp #orchestration
