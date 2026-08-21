@@ -299,6 +299,7 @@ Persistence, retrieval, knowledge management, and context engineering for agents
 - [[New Rules of Context Engineering]] — Anthropic's Thariq Shihipar distills the lessons from removing 80% of Claude Code's system prompt without regression: six "then and now" reversals (rules→judgement, examples→interfaces, upfront→progressive disclosure), and the case that newer models need fewer guardrails and better interfaces
 - [[Giving Claude Agent Memory in 12 Steps]] — Codez's four-layer practitioner's ladder (Chat Memory → Projects → CLAUDE.md → Dreaming) for turning a goldfish agent into one that remembers across weeks; the most detailed public walkthrough of Anthropic's Dreaming research preview
 - [[Cerebras Knowledge Base Architecture]] — Production RAG at 15K queries/day across employees, automations, and agents: four-signal hybrid Slack retrieval, LLM distillation at ingestion, MCP as agent-native interface, and the convergent-evolution architecture (Postgres embeddings + hybrid retrieval + reranker + MCP)
+- [[OzBrain]] — Commercial hosted "shared brain" every agent reads and writes via one MCP URL: structured articles with links, provenance, and freshness, agents — not humans — carrying the maintenance burden, and a positioning bet that cross-tool ferrying (Claude/ChatGPT/Cursor) is the problem memory tools should solve
 
 ## Quality & Guardrails
 

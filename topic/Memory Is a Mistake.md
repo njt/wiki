@@ -145,6 +145,8 @@ The six failure modes are real and well-cited. The persistence of prompt injecti
 
 The essay is strongest as a corrective to "memory is a feature checkbox" thinking and weakest as a blanket prohibition. Required reading before any memory implementation, but not a reason to skip memory for products where continuity actually matters.
 
+[[OzBrain]] is the commercial attempt to answer the maintenance-burden objection directly: its load-bearing claim is that "humans abandon wikis because the maintenance burden grows faster than the value," and its fix is to make agents the maintainers — write-time size discipline, staged/promoted writes, and continuous maintenance as "the designed behavior." That addresses Gupta's sixth failure mode (maintenance) but leaves his harder ones — retrieval policy, the decision swamp, persistent prompt injection — untouched, since it asserts routing and contradiction-checking rather than demonstrating them.
+
 ## See Also
 
 - [[Agent Memory and Context]] — Synthesis of memory approaches across the wiki
