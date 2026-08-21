@@ -480,6 +480,7 @@ Storage engines, query patterns, data quality, and vector/graph databases. **Hub
 - [[Searchable Field-Level Encryption with CipherStash]] — CipherStash brings Data Level Access Control to Supabase/Postgres: field-level encryption with searchable metadata, zero-knowledge key management, and wire-protocol proxy for non-SDK access
 - [[Just Brute Force Your Embeddings]] — Doug Turnbull's empirically-backed case that one line of NumPy handles embedding search for millions of docs: measure the simple thing before reaching for a vector database
 - [[Object-Relational Impedance Mismatch]] — The classic Wikipedia taxonomy of nine structural fractures between OO and relational models: structural, type, transactional, and identity differences that no ORM has ever fully resolved. The underlying theoretical explanation for why [[Constraint Decay]] finds databases as the primary failure driver for coding agents, and why [[Text-to-SQL in the Real World]]'s 10% accuracy isn't just a benchmark problem — it's a permanent feature of having two incommensurable logical models
+- [[The Three Pillars of Observability]] — Greptime's history of metrics, logs, and traces: three signals that evolved independently, a "three pillars" framework applied only in retrospect, unified columnar storage now commoditized, and the open question of whether agents as first-class consumers force the observability database itself to change
 
 ## Developer Tools
 
