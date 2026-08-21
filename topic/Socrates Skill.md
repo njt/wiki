@@ -62,6 +62,8 @@ The core rule is enforced from three directions: the absolute declaration (hard 
 
 **vs. Claude Code's default stance:** The defining tension. Every coding agent defaults to helpfulness — answer questions, solve problems, produce output. Socrates-skill inverts this: helpfulness IS the anti-pattern. The skill's entire design is a harness to keep helpfulness from leaking through.
 
+**vs. [[A Smart Bear Skills]]:** Jason Cohen's Rude Q&A skill is the same "never hand you the answer" stance with the expert/learner roles reversed: here the *human* is the expert and the AI the hostile interrogator. Both skills are masterclasses in negative specification, but for different ends — Socrates refuses to answer in order to teach, Cohen's skills refuse to answer in order to force the founder past their own denial (the "you cannot interrogate yourself" premise). Where Socrates's five anti-patterns name *performative helpfulness*, Rude Q&A's constraint is *won't accept "approximately fine" as a final answer*.
+
 Tags: #tool #project #agents #claude-code #prompt-engineering #pedagogy #socratic-method
 
 ---

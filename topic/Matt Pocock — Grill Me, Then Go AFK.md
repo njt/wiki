@@ -34,6 +34,8 @@ The PRD that follows is a **destination document** — the agent writes it, the 
 
 This is either disciplined trust or dangerous delegation, depending on how good the grilling session was. If the shared understanding is real, the PRD is a formality. If it's not, you're building the wrong thing and won't know until QA.
 
+The grill-me inversion has a business-strategy sibling in [[A Smart Bear Skills]]'s Rude Q&A: the same "AI interviews the human about a plan" shape, but adversarial where grill-me is collaborative. Jason Cohen's skill asks *unfair* questions, refuses vague answers, and stays on each point — the "heavy bat" framing, where you face attacks harder than reality will bring so the real thing feels easier. Grill-me aims to produce shared understanding; Rude Q&A aims to produce one of three honest verdicts (sharper plan, open questions, or "the idea was wrong"). Same inversion, opposite temperature.
+
 ---
 
 ## The Pipeline
