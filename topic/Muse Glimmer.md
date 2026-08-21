@@ -20,7 +20,7 @@ The honest version of "runs on your device." 55 GB → under 20 GB is the whole 
 
 > "Muse Glimmer ships with a lightweight 'drafter' model based on DFlash — a small companion network that proposes entire blocks of tokens at once."
 
-Speculative decoding, packaged as a product feature rather than an infra footnote. The claim that it produces "identical output quality" while generating "significantly faster" is the same DFlash trick already flagged in [[Inference Cost Napkin Math]] — but shipped by the model maker, drafter included, not left to the end user to assemble.
+Speculative decoding, packaged as a product feature rather than an infra footnote. The claim that it produces "identical output quality" while generating "significantly faster" is the same DFlash trick already flagged in [[Inference Cost Napkin Math]] — but shipped by the model maker, drafter included, not left to the end user to assemble. On the Mac, that drafter runs through [[mlx-dspark]] — its `muse_glimmer` target path exists precisely because Glimmer's VLM ships no hidden-state capture hook, forcing a replicated forward plus a load-time faithfulness probe.
 
 > "Muse Glimmer was evaluated under the standards set out in Meta's Advanced AI Scaling Framework."
 

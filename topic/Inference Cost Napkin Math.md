@@ -93,6 +93,7 @@ IBM Research's [[Model Routing Is Simple Until It Isn't]] provides the agent-lev
 - [[Step 3.7 Flash]] — 97% of Opus 4.6 at 1/9th the cost via advisor-executor architecture
 - [[Cohere North Mini Code]] — 30B MoE (3B active) on a single H100, sovereign-developer economics
 - [[In-House LLM Serving at Netflix]] — Production LLM stack at scale: the same bandwidth-and-cache economics this napkin math derives, validated in a real deployment with vLLM, Triton, and constrained decoding
+- [[mlx-dspark]] — Apple-Silicon speculative decoding that measures the verify-width cost curve and tunes draft length per device, the local-inference side of the same bandwidth-bound decode math
 
 ---
 *Sources: [[summary/napkin-inference-cost]]*
