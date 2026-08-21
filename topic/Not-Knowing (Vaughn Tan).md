@@ -57,6 +57,7 @@ The cross-link to [[poietic]] is non-trivial. Tan co-founded poietic with Erik G
 ---
 
 - [[The Art of Decision-Making]] — Rothman's essay extends Tan's taxonomy from the other direction: not just "what type of not-knowing is this?" but "what if the choice changes who I am such that my current values can't evaluate it?" The philosophers Rothman surveys (Ullmann-Margalit, Paul, Callard) are working the same problem as Tan — the inadequacy of decision theory for choices where values aren't stable
+- [[How to Choose a Subproblem]] — Choosing a subproblem is itself a diagnosis problem: the author's red flags (too vague, too hard, too easy, too useless) and the "plan of attack" as a difficulty gauge are a diagnostic-first discipline for research, cousin to Tan's four-type taxonomy.
 
 ---
 *Sources: [[summary/notknowing]]*

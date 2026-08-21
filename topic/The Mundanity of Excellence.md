@@ -24,6 +24,8 @@ This paper has enormous explanatory power beyond swimming. It applies to softwar
 
 The connection to [[Agentic Coding]] is subtle but real: if excellence is about qualitatively different approaches rather than raw volume, then AI tools that increase volume without changing approach won't produce excellence. The human role is to identify which qualitative differences matter -- which the paper argues is the actual hard problem.
 
+[[How to Choose a Subproblem]] names the qualitative difference for research specifically: what separates junior from senior researchers isn't hours but problem-solving strategy — the skill of decomposing a 400-hour problem into the right subproblems, each chosen for the information, skill, or strategic signal it buys.
+
 The limitation is that the paper studies a domain (competitive swimming) with clear, measurable outcomes. In messier domains, "qualitatively different" is harder to identify and easier to fake.
 
 One of those papers everyone should read once and re-read every few years.

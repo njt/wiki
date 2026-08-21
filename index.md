@@ -760,6 +760,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[The Usefulness of Useless Knowledge]] — Abraham Flexner's 1939 foundational essay on science policy: curiosity-driven research as the ultimate source of practical utility, the Institute for Advanced Study's radical institutional design, and the case that poems and proofs need no external justification
 - [[The Flat Curve Society]] — Steve Yegge on the AI plateau: dangerous models locked down like nukes, the discernment horizon, token literacy as the 2026-2027 culture challenge, and SaaS roaring back
 - [[The Mundanity of Excellence]] — Excellence is qualitatively different choices, not quantitatively more effort
+- [[How to Choose a Subproblem]] — An ARC researcher's playbook for decomposing 400-hour research problems into subproblems: simpler question, simpler system, fact-finding; actionable information and human capital as the payoffs, with a pushback against Jacob Steinhardt's fail-fast orthodoxy
 - [[They're Made Out of Weights]] — Leiter's Bisson-homage dialogue: LLMs are "just weights" all the way down, and we've agreed not to care
 - [[Happiest I've Ever Been]] — Happiness from coaching kids, not moving rectangles
 - [[Not-Knowing (Vaughn Tan)]] — Four-type diagnostic framework for uncertainty: risk tools produce false confidence when misapplied to genuine unknowns. Diagnosis before action
