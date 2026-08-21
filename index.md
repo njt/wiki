@@ -352,6 +352,7 @@ Isolation, credentials, prompt injection defense, and agent safety. **Hub: [[Sec
 - [[Visa Vulnerability Agentic Harness (VVAH)]] — Visa's open-source 11-stage agentic SAST pipeline: LLM-driven discovery, adversarial verification, automated remediation, and agentic validation panel — targeting Mean Time to Adapt as primary metric
 - [[Web Application and API Protection (WAAP)]] — PreEmptive's overview of WAAP's four-capability platform (WAF, bot management, DDoS, API security), its perimeter limitation, and why code-level protection fills the gap — especially as AI tools collapse the cost of reverse engineering
 - [[Security Is Hard, Y'all]] — Eric Lawrence mistakes a legitimate Cloudflare product for a phishing attack — and was right to. When real products hit every anti-phishing signal, the failure is the system's, not the user's
+- [[Weird Machines in Transport Layer Security]] — arXiv paper extending "weird machine" theory to TLS: OpenSSL/BoringSSL's legitimate primitives (session cache, renegotiation, certificate verification) compose into an accidental Turing-complete system coupled to trust decisions, demonstrated as both a defensive sentinel and an authentication bypass with no memory corruption
 
 ## Software Engineering
 

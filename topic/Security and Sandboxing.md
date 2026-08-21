@@ -127,6 +127,7 @@ A thread running through multiple sources: declarative policy that mechanically 
 ## Also on This Theme
 
 - [[Resident (ESP32 Sandbox)]] — Inverts the sandbox metaphor for physical devices: sandbox as host, not cage. Lua-based runtime for ESP32 hardware with hot-reload and agent-facing skills, exploring what happens when agents inhabit physical hardware rather than run inside server isolation
+- [[Weird Machines in Transport Layer Security]] — Extends "weird machine" theory to TLS: legitimate OpenSSL/BoringSSL primitives (session cache, renegotiation, certificate verification) compose into an accidental Turing-complete system coupled to trust decisions, and the same primitives yield both a defensive sentinel and an authentication bypass. Latent computation in trusted components is the same class of risk this hub catalogs for agent sandboxes
 
 ---
 
