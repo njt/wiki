@@ -30,7 +30,7 @@ Tensor parallelism has a hard communication floor set by n_layers × all-reduce 
 
 > "Speculative decoding spends spare compute to buy latency; in throughput-saturated serving, that spare compute doesn't exist, and speculation can reduce aggregate throughput."
 
-Speculative decoding is a latency tool, not a throughput tool — the taxonomy again. In compute-bound regimes (large batch), the "spare" compute it depends on doesn't exist. Misusing it is surprisingly common.
+Speculative decoding is a latency tool, not a throughput tool — the taxonomy again. In compute-bound regimes (large batch), the "spare" compute it depends on doesn't exist. Misusing it is surprisingly common. [[mlx-dspark]] is the concrete Apple-Silicon instantiation: it measures the exact verify-width cost curve this implies and specializes on the batch-1 regime where the spare compute genuinely exists.
 
 ## The Hierarchy of Ceilings
 
