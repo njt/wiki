@@ -62,6 +62,7 @@ Not a direct quote from the article, but the pattern visible in the statistics. 
 - [[MiMo-V2.5-Pro-UltraSpeed]] — The extreme end: 1000+ tok/s on commodity GPUs via FP4 + speculative decoding + persistent kernels. What happens when the techniques iMil uses are pushed to production scale.
 - [[JetBrains Mellum2]] — MTP head as dual-use speculative decoding on a 12B MoE model. The same technique iMil uses, in a different context.
 - [[DS4 (DwarfStar 4)]] — antirez's inference engine making different tradeoffs (disk KV cache, single-user focus) on the same class of hardware.
+- [[Qwen3.8 27B Hardware Tests]] — Hardware Corner's llama.cpp benchmark of the Qwen 3.6 successor: the same VRAM-first profile (24 GB → 64k, 32 GB → 128k), a dual RTX 5060 Ti "capacity-per-dollar" result that echoes this page's dual-GPU thesis, and the finding that Qwen3.8 is *slower* than Qwen3.6 at long context.
 
 ---
 
