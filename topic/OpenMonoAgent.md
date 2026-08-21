@@ -47,6 +47,8 @@ The language choice is a flex. Every other coding agent is TypeScript or Python.
 
 **The comparison to [[What I learned building an opinionated and minimal coding agent]] is instructive.** That agent went with four tools, no MCP, full YOLO — competitive on benchmarks through radical minimalism. OpenMonoAgent goes the other direction: 20 tools, MCP, LSP, Playbooks, sub-agents, plan mode. It's a full-platform play, not a minimal viable agent. Whether the kitchen-sink approach holds together in beta remains to be seen.
 
+**The local-first thesis is converging on a shared stack.** [[Magnitude]] makes the same "infrastructure you own" bet on a far more serious foundation: a Rust inference engine (llama.cpp fork with speculative decoding, exact-prefix KV reuse, per-machine hardware profiling) plus an event-sourced multi-agent runtime in Effect-TS. Where OpenMonoAgent optimizes for one binary and a fixed Qwen default, Magnitude optimizes for an owned inference stack that profiles your machine and recommends among a catalog — the "just works" promise without the single-model ceiling.
+
 ---
 
 *Sources: [[summary/openmonoagent]]*

@@ -99,6 +99,8 @@ Grok Build is the **most architecturally ambitious** open-source coding agent. C
 
 - **vs. OpenMonoAgent** (community, C#): Both provide terminal-native experiences. OpenMonoAgent targets local-only, zero-API-key deployment; Grok Build targets the xAI cloud ecosystem with local fallback. Grok Build is roughly 10× the codebase size.
 
+- **vs. [[Magnitude]]** (magnitudedev, TypeScript+Rust): Both pair a Rust native inference layer with a serious agent harness. Magnitude is local-first — embedded llama.cpp (no Ollama), hardware-profiled model recommendation, speculative decoding — and event-sourced (projections over a durable event log) rather than actor-based, splitting TypeScript/Effect for the agent from Rust only for inference. Grok Build is one pure-Rust monolith targeting the xAI cloud; Magnitude owns the whole stack on the user's machine.
+
 What distinguishes Grok Build architecturally is the **formal protocol layer** (tool registration, capability negotiation, JSON-RPC envelope) and the **three-strategy compaction engine** shared across product lines — both suggest an architecture designed for a platform, not a single product.
 
 ---
