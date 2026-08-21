@@ -72,6 +72,7 @@ The DFlash paper is at [arxiv.org/abs/2602.06036](https://arxiv.org/abs/2602.060
 - [[How Far Behind Are Open Models]] — MiMo-V2.5 sits in the open model tier; this speed breakthrough partially closes the practical gap
 - [[Writing Code vs. Shipping Code]] — the coding agent productivity claim here (1000 tps unlocks agents) intersects directly with the Demirer et al. finding that AI productivity gains attenuate at release
 - [[2025 in LLMs]] — Simon Willison's annual survey; MiMo is one of the new entrants worth tracking
+- [[FreeToken — Edge-Native MoE Serving Engine]] — the same MoE-expert-offload and bandwidth-attack thesis, aimed at a single consumer GPU instead of an 8-GPU node
 
 ---
 *Sources: [[summary/mimo-tilert-1000tps]], [MiMo-V2.5-Pro-FP4-DFlash on HuggingFace](https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro-FP4-DFlash), [DFlash paper (arXiv:2602.06036)](https://arxiv.org/abs/2602.06036), [TileRT technical details](https://www.tilert.ai/blog/breaking-1000-tps.html)*
