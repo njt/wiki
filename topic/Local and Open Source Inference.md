@@ -64,6 +64,8 @@ The same conviction shows up in tools that are not about AI at all. [[QMD]] keep
 
 [[Gemma Gem]] runs Google's Gemma 4 entirely in a Chrome browser tab via WebGPU — no server, no API keys, no cloud. The models are modest (~500 MB and ~1.5 GB), but the capability is real: read and analyse webpage content, click buttons, fill forms, answer questions about the current page. Browser-based inference is not a replacement for a local engine like DS4, but it is a zero-install entry point that works anywhere Chrome runs.
 
+[[Smolbox]] pushes the same idea from inference to a whole agent: an x86_64 Alpine VM compiled to WASM plus a WebGPU LLM exposed to it as tool calls, so an entire Claude-Code-like environment runs in one browser tab with no server, no API keys, and no data collection — a zero-install, zero-permission sandbox aimed at school iPads and library computers rather than developer workstations.
+
 [[AI Brain for Flipper]] connects a Flipper Zero to AI through OpenRouter, giving natural-language control over RF, IR, NFC, and BadUSB hardware. The risk-classification architecture — low-risk actions auto-execute, medium-risk show diffs for review, high-risk require explicit confirmation — is the right pattern for any AI-controlled hardware, regardless of where the model runs. The model is in the cloud, but the conviction that the user should control the hardware through an AI interface rather than a menu system is the same local-first instinct applied to embedded devices.
 
 ---
