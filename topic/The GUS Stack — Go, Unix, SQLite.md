@@ -64,6 +64,8 @@ The testing philosophy compressed to a command. Zoschke uses headless Chrome via
 
 **GUS is also a libraries-over-frameworks stack, whether Zoschke says so or not.** Go's standard library, SQLite's C API, and HTMX's attribute-based approach all share a property Tomas Petricek identified as the library ideal: they're called by your code, not the other way around. [[Libraries over Frameworks]] traces why this matters — libraries compose, frameworks don't — and GUS is a concrete instantiation of that principle for the agent era.
 
+**[[Twigg]] is the GUS stack in production at scale.** A full version-control system (~96K lines of Go) where SQLite (via `modernc.org/sqlite`, pure Go — no cgo) is the *only* database across every layer: commits, code reviews, blob metadata, and the CI job queue. Even the blob bytes are an append-only file log indexed by SQLite, running identically on the server and in the CLI client. It's the strongest evidence that "SQLite as the obvious starting point" scales past prototypes to a serious, self-hosted product — the counterexample to the "SQLite doesn't do real workloads" reflex.
+
 ---
 
 *Sources: [[raw/the-gus-stack-go-unix-sqlite]]*

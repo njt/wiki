@@ -96,6 +96,8 @@ Unlike **Radicle** (P2P sovereign forge focused on decentralization via gossip),
 
 Unlike **Gitea/GitHub/GitLab** (traditional: repos on block volumes + metadata in databases), bucketvcs **eliminates the block volume entirely** for Git data. Only auth metadata touches a database (SQLite).
 
+The opposite end of the spectrum is [[Twigg]], which keeps boring local storage (SQLite + an append-only log) but replaces the *protocol and object model* — it's a from-scratch VCS reimplementing Google's Critique with versioned commits and no Git wire protocol at all. bucketvcs proves you can change the storage and keep Git; Twigg proves you can change the VCS and keep the storage boring.
+
 Shares the "object storage as source of truth" pattern with **Graft** (SQLite replicated via object storage), but applies it to Git repos rather than databases.
 
 The custom binary index approach (.bvom, .bvcg, .bvrd) is reminiscent of how **Dolt** builds custom storage formats for Git-like operations on non-Git data.

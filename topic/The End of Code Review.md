@@ -73,6 +73,7 @@ A sharp counter to the "but architecture requires human judgment" objection. The
 - [[Loop Engineering]] — Addy Osmani's meta-skill framing: designing systems that prompt agents rather than prompting them yourself
 - [[Agent Coding Workflow]] — The practitioner's daily loop: the workflow this paper argues should include agent review by default
 - [[Harness Engineering is not Enough]] — The counterargument: human code review remains essential but only if you shift leverage upstream with AI-assisted planning so review is lightweight verification rather than painful discovery
+- [[Twigg]] — The open-source Critique reimplementation: the fullest expression of the pre-agent human-review workflow (LGTM + OWNERS + version-anchored comments) that this paper argues is collapsing — though its "small stacked changes" default is also the mitigation the paper lands on from the other direction
 
 ---
 

@@ -526,6 +526,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Installing VS Compilers From Commandline]] — msvcup: skip Visual Studio, install just the compiler and SDK
 - [[Introducing git-wt — Worktrees Simplified]] — Bash wrapper smoothing git worktree's sharp edges: auto-fetch, upstream tracking, orphan cleanup, fzf switching
 - [[gh-stack]] — GitHub's official `gh` extension for stacked PRs: chain branches into reviewable layers, cascading rebase, TUI editors, batch merge, and bundled AI agent skill
+- [[Twigg]] — Open-source from-scratch reimplementation of Google's Critique: trunk-based VCS with versioned commits (amend/rebase/submit are new versions, not new hashes), hierarchical OWNERS, path-triggered CI, all on a SQLite + append-only-log storage engine in Go
 - [[Code Storage]] — API-first Git infrastructure for machines: programmable repo creation, warm/cold tiering, custom-domain endpoints. The bet that agent-created repos will outnumber human-created ones
 - [[SmolForge]] — Full-stack GitHub clone on Cloudflare Workers/D1/R2/Durable Objects: Git hosting, issues, PRs, CI/CD, deploy previews, repository agents, AI transcript storage, and a comprehensive REST API. Built by swyx, self-hosted on its own platform
 - [[CORS Fetch Tester]] — Simon Willison's browser-based CORS debugging utility: send HTTP requests and inspect exactly what the browser lets you see through CORS
