@@ -180,6 +180,8 @@ The `gh stack sync` command's remote-ahead auto-reconciliation is particularly a
 
 Stacked PRs as a workflow also address a key pain point in agentic development: agents produce large diffs, and stacked PRs break those into reviewable layers. This aligns with the findings in [[Agentic Code Review]] — the bottleneck isn't writing code, it's trusting it. Smaller, layered PRs make verification tractable.
 
+The ultimate version of this idea is [[Twigg]], which reaches the same destination by replacing Git rather than extending it: stacked commits and versioned amends are native to the VCS itself, so the branch-chaining and base-tracking machinery gh-stack exists to manage simply doesn't exist there.
+
 ---
 
 *Sources: [[raw/gh-stack]], [[summary/gh-stack]]*
