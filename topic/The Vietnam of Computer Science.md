@@ -74,7 +74,7 @@ SQL can `SELECT id, first_name, last_name` — return part of a relation. Object
 5. **Integration of relational concepts into languages** — bring sets into the language (pointing to LINQ, Scala, F# — all of which materialized after 2006)
 6. **Integration of relational concepts into frameworks** — build domain frameworks around RowSets/DataSets rather than pure objects
 
-Option 5 is the essay's most prescient prediction. Neward wrote this before LINQ shipped (2007), before Scala gained traction, before F# existed. He saw that the language itself was the right level to solve the impedance mismatch — not a library bolted on top.
+Option 5 is the essay's most prescient prediction. Neward wrote this before LINQ shipped (2007), before Scala gained traction, before F# existed. He saw that the language itself was the right level to solve the impedance mismatch — not a library bolted on top. Two decades on, [[Acadia]] is the purest realization of option 5: Czaplicki's Elm-style language makes the schema a typed value, compiles `map`/`filter`/`select` to SQL at compile time, and answers the ORM question with "No objects!" — sidestepping Neward's six problems by never introducing objects in the first place.
 
 > "Lash yourself to the mast if you wish to hear the song, but let the sailors row."
 
