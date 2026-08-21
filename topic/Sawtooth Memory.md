@@ -80,6 +80,7 @@ Key source files: `middleware.py:229-268` (add_message flow), `worker.py:143-251
 - [[Claude-Mem]] — Claude memory extraction patterns
 - [[All Your Agents Are Going Async]] — Async agent trend
 - [[Elements of Agentic Systems Design]] — Context and Memory as two of ten elements
+- [[Local Deep Research]] — Same local-Ollama default, opposite memory model: Sawtooth is hierarchical *episodic* memory over conversation turns; LDR has no agent-memory hierarchy at all, and its long-term memory is *semantic* — an encrypted library/RAG store where downloaded sources are chunked and embedded for future searches. Useful contrast on what "memory" means for research agents vs. chat agents
 
 ---
 
