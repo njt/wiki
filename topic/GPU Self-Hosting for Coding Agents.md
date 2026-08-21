@@ -81,7 +81,7 @@ The drop from GLM-5.2 (62.5%) to DeepSeek-V4-Flash (39.1%) is steep. You're payi
 
 Published enterprise GPU utilization is 15–22%. A well-run deployment rarely exceeds 25–35%. That means **65–85% of the hardware you bought is idle at any moment** — and you paid for all of it.
 
-The article acknowledges this but doesn't fully explore the implication: the utilization problem means self-hosting is structurally disadvantaged against API pricing for bursty workloads like coding agents. The one counter-trend they identify — automated agents running overnight — is real but nascent. Most teams aren't there yet.
+The article acknowledges this but doesn't fully explore the implication: the utilization problem means self-hosting is structurally disadvantaged against API pricing for bursty workloads like coding agents. The one counter-trend they identify — automated agents running overnight — is real but nascent. Most teams aren't there yet. [[Wall-Clock Time and the Qwen3.8-27B Daily Driver]] is a single-user data point for that counter-trend: a budget 2×RTX 5060 Ti box running Qwen3.8-27B completed a real three-repo bug hunt in ~10 minutes unattended — and the metric that mattered was wall-clock to a correct result, not the throughput/concurrency this benchmark optimizes.
 
 This rhymes with [[Inference Cost Napkin Math]], where duty cycle is "the 5× multiplier nobody measures," and with the broader cloud economics lesson that killed on-premise datacenters: utilization is everything.
 
