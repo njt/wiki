@@ -70,6 +70,7 @@ Provectus's architect on the persistence layer. State snapshots aren't just for 
 - [[celld]] — Deno's self-hosted Durable Objects runtime that uses the same state-machine pattern as Burr, but for distributed infrastructure coordination rather than AI agents. `celld-logic` is a pure, zero-dependency state machine that's replayable under deterministic simulation — the same insight, different domain.
 - [[Agent Orchestration]] — Hub page for multi-agent coordination patterns. Burr's sub-application model is one approach to agent composition.
 - [[n8n]] — Visual workflow automation; Burr is programmatic where n8n is visual. Different audiences, same underlying DAG concept.
+- [[Magnitude]] — A TypeScript+Rust coding agent whose event-core takes the state-machine instinct further: the event log is the source of truth, and every screen of state (context window, task graph, compaction) is a replayable projection over it rather than an explicit developer-authored transition graph. Burr is explicit FSM with snapshots; Magnitude is event-sourced derivation with the same auditability goal.
 
 ---
 *Source: [burr.apache.org](https://burr.apache.org/), fetched 2026-06-11*
