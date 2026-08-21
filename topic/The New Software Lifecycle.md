@@ -68,6 +68,7 @@ The conductor/orchestrator distinction is useful but incomplete. The real spectr
 - [[Writing Code vs. Shipping Code]] — Demirer et al.: 180% AI gains at commit level attenuate to 30% at release
 - [[Human-in-the-Loop is Tired]] — Laura Summers on the psychological cost of reviewing AI output that Osmani doesn't fully address
 - [[The Enterprise Gap from Vibe Coding]] — A concrete field report of the demo-to-production gap Osmani maps economically: half-hardcoded data, zero auth, client-side DB calls — the exact maintenance tax his vibe-coding-vs-agentic-engineering cost curve predicts
+- [[The AI-Native SDLC Playbook]] — Anthropic's official operating manual for this exact map: six stages each committing an artifact the next reads (`intent.md` → `spec.md` → `plan.md`), governance enforced by hooks rather than habits, and maintenance closing the loop autonomously
 
 ---
 *Sources: [[raw/new-software-lifecycle]], [[raw/new-sdlc-vibe-coding]]*

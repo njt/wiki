@@ -72,7 +72,7 @@ The single most consistent finding across the evidence base is that verification
 
 ### Specs as the Durable Artifact
 
-A thread running through multiple sources is that when code generation is cheap, the specification — not the code — becomes the primary artifact. [[Specifications as the Product]] captures the shift: the spec is what you *want* the software to be, and that is what endures when the code becomes disposable.
+A thread running through multiple sources is that when code generation is cheap, the specification — not the code — becomes the primary artifact. [[Specifications as the Product]] captures the shift: the spec is what you *want* the software to be, and that is what endures when the code becomes disposable. Anthropic's [[The AI-Native SDLC Playbook]] scales this to the entire lifecycle: every stage — not just the build — commits an artifact the next stage reads (`intent.md` → `spec.md` → `plan.md`), so the audit trail is the chain of commits and governance (skills as advisory controls, hooks as the deterministic layer) rides on the same files.
 
 [[How to Write a Good Spec for Agents]] provides five principles: start with high-level vision and let AI draft details, structure like a professional PRD, break tasks into modular prompts (the "curse of instructions" — performance drops as instruction count increases), build self-checks and constraints, and treat spec-writing as cyclical rather than linear. The three-tier boundary system (Always do / Ask first / Never do) is a recurring pattern.
 

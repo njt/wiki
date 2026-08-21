@@ -51,6 +51,8 @@ What's missing entirely: verification as a discipline (which [[How Boris Uses Cl
 
 The piece is most useful as a marker of where mainstream Claude Code advice sits in mid-2025: still focused on setup and configuration rather than the feedback loops and compound systems that separate productive users from people who just have expensive subscriptions. It lives at Level 1-2 on the [[Five Levels from Spicy Autocomplete to the Dark Software Factory]] scale.
 
+Anthropic's own [[The AI-Native SDLC Playbook]] is the other end of the spectrum — the same "plan first, CLAUDE.md, feedback loop" advice rebuilt into a full six-stage lifecycle where every stage commits an artifact (`intent.md` → `spec.md` → `plan.md`) and governance is enforced by hooks and evals. This listicle is the getting-started tier; the official playbook is the enterprise answer.
+
 ---
 *Sources: [[summary/the-claude-code-playbook]]*
 *Last updated: 2026-05-14*
