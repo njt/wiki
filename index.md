@@ -629,6 +629,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 
 Tools that run on your own machines: voice, hardware, local inference, knowledge apps. **Hub: [[Local and Open Source Inference]]**
 
+- [[FreeToken — Edge-Native MoE Serving]] — arXiv (Aug 2026): edge-native MoE serving that treats a personal machine as an elastic inference platform, continuously remapping expert residency and CPU–GPU execution — 35B on a laptop, 284B on a gaming desktop, 753B GLM-5.2 on a single workstation GPU
 - [[Datacenter GPU in a Gaming PC]] — £200 eBay V100 in a gaming rig: hardware hacking, NixOS driver archaeology, and Qwen3.6-27B at 32 tok/s
 - [[Dual GPU RTX 5080 + RTX 3090 Qwen 3.6 Setup]] — iMil's field report: RTX 5080 + RTX 3090 running Qwen 3.6 27B Q8 at 80+ tok/s via tensor-split speculative decoding on an Asus X570-Pro
 - [[Qwen3.8 27B Hardware Tests]] — llama.cpp benchmark: VRAM is the first limit (24 GB → 64k, 32 GB → 128k), RTX 3090 stays the value pick, and Qwen3.8 trails both Qwen3.6 and Muse Glimmer at long context

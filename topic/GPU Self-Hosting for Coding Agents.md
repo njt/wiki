@@ -28,6 +28,8 @@ The DGX Spark couldn't push past 1–2 concurrent users without "an avalanche of
 
 At the other extreme, GLM-5.2 on 8×B200 — the most powerful hardware tested — only comfortably serves **8 concurrent sessions** before tasks take 3× longer than the Claude Code (Opus 4.8 API) baseline. Stacking eight B200s to serve eight developers is a brutal ratio.
 
+That conclusion is worth holding against [[FreeToken — Edge-Native MoE Serving]], which claims the same 753B GLM-5.2 can run on a *single* workstation GPU via bandwidth-adaptive CPU–GPU execution. If the claim survives scrutiny, it would overturn "frontier quality needs a B200 rack" — but the abstract offers no latency or concurrency numbers, so it cannot yet be weighed against the 8-concurrent-session ceiling measured here.
+
 The sweet spot is the middle: a single H200 running Qwen3.6 comfortably handles **32 concurrent sessions**, and 4×H200s with DeepSeek-V4-Flash does the same at higher quality.
 
 ### The Collapse Problem: vLLM Defaults Break Under Load
