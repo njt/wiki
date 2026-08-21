@@ -26,6 +26,8 @@ The prescription: invest downstream, not upstream. Not in the companies building
 
 Why the PC revolution created wealth and AI won't: in the 1970s, nobody was watching. IBM didn't care. The NYT mentioned PCs four times in all of 1976. That distributed, permissionless, no-one-is-looking experimentation is the essential precondition for an irruption phase. AI has had the opposite: every incumbent had a strategic plan on day one. #concept
 
+Neumann's "uncertainty as a moat" gets a name in [[Moats — 80 Strategies for Competitive Advantage]]: Ango calls it "obscurity" (survival by remaining unknown or undetected) and "unpredictability" (surprise, confusion, variability) — both edges that work precisely *because* the incumbent isn't watching, and both of which AI's hype cycle foreclosed.
+
 ## Key Themes
 
 ### Carlota Perez's Wave Theory as Investment Framework

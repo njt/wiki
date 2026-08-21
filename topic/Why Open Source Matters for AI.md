@@ -8,7 +8,7 @@ Tim O'Reilly's case that the open-source AI debate has been asking the wrong que
 
 > "Modularity, not features, was the moat."
 
-The sentence the whole essay turns on. Apache didn't beat Netscape and Microsoft by shipping more features; it beat them by shipping a clean extension layer and *staying out of the way*. O'Reilly is doing something subtle here: relocating open source's value from the license to the interface design. That reframing is the load-bearing move of the piece.
+The sentence the whole essay turns on. Apache didn't beat Netscape and Microsoft by shipping more features; it beat them by shipping a clean extension layer and *staying out of the way*. O'Reilly is doing something subtle here: relocating open source's value from the license to the interface design. That reframing is the load-bearing move of the piece. Worth noting it's a *choice*, not a law: [[Moats — 80 Strategies for Competitive Advantage]] lists modularity as one edge among eighty, with its direct rivals — bundling, completeness, secrecy — sitting in the same table. "Modularity was the moat" is an argument for a specific moat, not a description of all moats.
 
 > "What keeps a market open isn't the license on any single component. It's how easy it is to swap out one component for another when a better one appears."
 

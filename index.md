@@ -746,6 +746,7 @@ EVs, batteries, power systems, and physical products.
 Books, essays, geopolitics, math, medicine, and interesting oddities.
 
 - [[A Pattern Language (Christopher Alexander)]] — Christopher Alexander's 253 composable design patterns for towns, buildings, and construction; Clayton Dorge's Twitter-summarization as a compression experiment that reveals the provocative core of each pattern
+- [[Moats — 80 Strategies for Competitive Advantage]] — Steph Ango's taxonomy of eighty competitive strategies — usership, chokepoint, obscurity, antifragility, and more — each drawn from biology and business and grouped into thirteen categories. A pattern language for how things win
 - [[20-20-20 Rule — Digital Eye Strain Study]] — Johnson & Rosenfield (SUNY Optometry, 2023): the 20-20-20 rule fails a controlled trial — scheduled 20-second breaks had no effect on eye strain symptoms, reading speed, or accuracy
 - [[AI Superforecasters]] — Scott Alexander's 2026 field report on the moment AI forecasting scaffolds caught up to top human superforecasters: the John Henry moment, calibrated probability as AI's "opinion layer," and why machine forecasts are non-adversarial in a way prediction markets can't match
 - [[America Is Slow-Walking Into a Polymarket Disaster]] — Desai's Atlantic polemic on the media's embrace of prediction markets: manipulation, insider trading, and the gamblification of civic life
