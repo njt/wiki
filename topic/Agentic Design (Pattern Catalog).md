@@ -46,7 +46,7 @@ The site claims 280+ patterns but the homepage doesn't name a single one. There'
 
 The agent design space is filling in. [[Elements of Agentic Systems Design]] gives you the ten-element taxonomy. [[The Agentic Product Standard v2.0]] gives you the production standard and Claude Code skills to apply it. [[Agent-Native Architectures (Every)]] gives you the five principles for building applications around agents. Agentic Design gives you the pattern catalog — the connective tissue between these frameworks, organized by constraint rather than taxonomy. It's the reference manual in a stack that already has the textbook and the field guide.
 
-A useful comparison: [[Software Engineering Practice Atlas]] takes the opposite approach — AI-generated breadth (4,654 cards across all of software craft) versus human-curated depth (280+ patterns in one domain). Together they form a natural experiment in whether curation or scale produces better patterns.
+A useful comparison: [[Software Engineering Practice Atlas]] takes the opposite approach — AI-generated breadth (4,654 cards across all of software craft) versus human-curated depth (280+ patterns in one domain). Together they form a natural experiment in whether curation or scale produces better patterns. [[Agent-Building Playbook (Ramparte)]] sits at a third point on the axis: open and git-native — 113 patterns with a validated flat-frontmatter contract — rather than a proprietary web catalog, optimising for machine-ingestibility and PR-driven contribution over interactive search.
 
 ### The KORTEXYA Question
 
