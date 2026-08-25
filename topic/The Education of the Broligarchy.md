@@ -128,6 +128,7 @@ The institutional inheritance argument is the essay's most underrated contributi
 - [[Radical Accountability]] — Taste is all that's left when AI eliminates execution constraints; but taste is exactly what an arrested canon fails to develop
 - [[Why Does AI Write Like That]] — Sam Kriss on AI prose tics as class markers; parallel to Smith's "no taste beyond hunger" diagnosis
 - [[Slowing the Fuck Down]] — Deliberate friction as a feature; the canon read slowly might produce different people than the canon inhaled at 15
+- [[Why We Like Things]] — the essay that supplies what the canon lacks: an account of taste as a trainable, social faculty, and a critique of the Girard-style mimesis the Valley prizes (citing Girard is "often imitating the tastes of his former student, Peter Thiel")
 
 ---
 *Sources: [[summary/education-broligarchy-silicon-valley-canon]]*

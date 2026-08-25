@@ -36,6 +36,8 @@ Michelle offers the most practical framing. Taste is built through **exposure**:
 
 This is important because it counters the mystification of "taste" as something designers have and engineers don't. **Taste is pattern-matching trained on a corpus of experiences**. The implication: if you want product-minded engineers, give them time and permission to develop taste — exposure to products, customer conversations, and the space to make quality judgments.
 
+One dimension the panel underplays is that taste is trained not just by exposure but by *explaining* it to others. [[Why We Like Things]] traces this to Kant's "enlarged mentality" (via Arendt): you judge your private reaction alongside the imagined reactions of others, and articulating that judgment is what sharpens it. Exposure supplies the corpus; critique supplies the calibration — the same loop the Bauhaus's Vorkurs and peer crits were built around.
+
 ---
 
 ## Quality as Strategy

@@ -96,7 +96,7 @@ Every one of these follows the same cadence: assertion → negation → more-pro
 
 ### The Meta Point
 
-The most valuable thing about Slop Score isn't the numbers — it's the word lists. Reading through the slop words and trigrams is an education in AI's default voice: overwrought sensory detail, fantasy-name-dropping, the compulsive "not X, but Y" structure. Once you see these patterns, you can't un-see them. The benchmark is a diagnostic tool for developing taste, not just a leaderboard. In that sense, it's more useful to human writers trying to clean up their own prose than to model evaluators comparing APIs.
+The most valuable thing about Slop Score isn't the numbers — it's the word lists. Reading through the slop words and trigrams is an education in AI's default voice: overwrought sensory detail, fantasy-name-dropping, the compulsive "not X, but Y" structure. Once you see these patterns, you can't un-see them. The benchmark is a diagnostic tool for developing taste, not just a leaderboard. In that sense, it's more useful to human writers trying to clean up their own prose than to model evaluators comparing APIs. This is where [[Why We Like Things]] takes over: taste isn't merely exposure to a corpus — it's articulating your judgments to others (Kant's "enlarged mentality"), which is why a published slop lexicon works as a shared vocabulary for critique rather than a private vibe.
 
 ---
 
