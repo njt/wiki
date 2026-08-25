@@ -8,7 +8,7 @@ Packages the Pi Coding Agent into a self-hosted Debian sandbox with a streaming 
 
 #self-hosted #agent-infrastructure #docker #web-ui #pi-agent
 
-PiClaw is notable for taking the "self-hosted agent" idea seriously -- not just "run a model locally" but the full operational package: authentication (passkeys, TOTP), persistent storage, scheduled tasks, MCP support, and deployment docs for Azure VMs. It's thinking about hosting as a first-class concern, which most agent tools ignore.
+PiClaw is notable for taking the "self-hosted agent" idea seriously -- not just "run a model locally" but the full operational package: authentication (passkeys, TOTP), persistent storage, scheduled tasks, MCP support, and deployment docs for Azure VMs. It's thinking about hosting as a first-class concern, which most agent tools ignore. The same "single container, auth as first-class concern, no subscription" discipline shows up outside AI in [[BookOrbit]], a self-hosted reading library that swaps passkeys/TOTP for OIDC/SSO.
 
 This connects to the [[maclocal-api]] (local inference) and [[What I learned building an opinionated and minimal coding agent]] (the pi agent it packages) threads. Zechner built the minimal agent; PiClaw (by Rui Carmo) wraps it for deployment. The relationship between the two illustrates the "build vs. deploy" gap in agent tooling -- building a good agent and operating one reliably are different problems.
 

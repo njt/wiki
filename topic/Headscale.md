@@ -23,7 +23,7 @@ This is the most interesting governance detail. A Tailscale employee actively ma
 #tool #self-hosting #networking #open-source
 
 - **Control plane decoupling.** WireGuard handles the data plane. Tailscale clients handle the UX. Headscale replaces only the coordination server. This is a textbook example of targeting the narrowest possible architectural seam.
-- **Self-hosting as sovereignty.** Your network topology, your DNS, your ACLs, your data -- never touching someone else's servers. For the same reasons people run [[Self-Hosted LLMs]] or [[PiClaw]], some people need their VPN coordination to be fully under their control.
+- **Self-hosting as sovereignty.** Your network topology, your DNS, your ACLs, your data -- never touching someone else's servers. For the same reasons people run [[Self-Hosted LLMs]] or [[PiClaw]], some people need their VPN coordination to be fully under their control. The reflex extends past infrastructure to media: [[BookOrbit]] applies the same "files stay on my hardware" logic to a reading library of ebooks and audiobooks.
 - **Ecosystem parasitism (the good kind).** Headscale doesn't fork the Tailscale clients. It reimplements the server protocol so the official clients just work. This means it gets every client improvement for free, but it also means Tailscale can break compatibility at will. The power asymmetry is structural.
 
 ## Critical Analysis
