@@ -140,6 +140,8 @@ Skills are Python packages installed into the kernel and called by import name. 
 
 **Comparison with [[Loop Engineering]]:** Osmani's five-component loop (automations + worktrees + skills + connectors + sub-agents) is the manual version of what Prime Agent automates. Where Osmani says "design systems that prompt agents," Prime Agent says "design a system where agents redesign the system that prompts them." It's Loop Engineering with the engineer partially removed from the loop — exactly the step Osmani's closing line warns about.
 
+**Comparison with [[Headlong — Persistent Agent Microharness]]:** Laude's harness shares Prime Agent's premises — RLM as core abstraction (`shellm` is a Bash RLM), a trajectory as DAG of jsonl on disk with fork and merge, context as a projection of that trajectory. But the two diverge on what they optimize for. Prime Agent is Python-on-Pi chasing benchmark task performance; Headlong is "Bash all the way down" chasing *persistent agency* — a self-guided inner-monologue loop where the agent never sleeps and human messages are just observations in one shared thought stream. Where Prime Agent's Continual Harness refines the harness on evidence, Headlong's agent modifies its own fork directly and its commits get pulled back into main (50+ of them). They are the two poles of the RLM lineage: harness-as-benchmark-engine versus harness-as-continuous-existence.
+
 ---
 
 *Sources: [[raw/prime-agent]], [[summary/prime-agent]]*
