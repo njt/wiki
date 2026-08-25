@@ -30,6 +30,8 @@ The three failure modes are chilling: production code becomes dangerous as syste
 
 Directly connected to [[The Mythical Agent-Month]] (the codebase-level version of the same problem), [[Slowing the Fuck Down]] (the practitioner's response), [[acceleration-flow]] (the psychological experience), and [[Compound Engineering]] (one approach to building the systems that close the comprehension gap).
 
+A senior cousin is [[Silently Resolved Ambiguity Is Comprehension Debt of Intent]]: where this page's debt is "code cheaper to produce than to perceive," that one's is a decision made silently with no signature at all — so the comprehension gap never even registers as a gap to measure.
+
 ## Critical Analysis
 
 The diagnosis is sharp. The prescription is where it falls short -- the article identifies the problem but offers no concrete mechanism for making comprehension legible to performance systems. The actionable versions come from elsewhere: [[Pre-Commit Lint Checks]] forces engagement with quality, [[engineering-notebook]] creates a forensic record, [[napkin]] builds an explicit knowledge artifact. But the underlying insight -- that we are optimizing for what we can measure while the thing that matters is unmeasurable -- is not just about coding. It's about every domain where AI accelerates output.

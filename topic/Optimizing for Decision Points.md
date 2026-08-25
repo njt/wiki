@@ -55,6 +55,8 @@ Most agent workflow design focuses on parameters (did the code compile? do tests
 
 The `AskUserQuestion` pattern — where an agent recognizes ambiguity and surfaces a specific question — is framed as a design primitive, not a failure mode. The agent doesn't need good judgment to be useful; it needs good *meta-judgment* (knowing when its judgment is insufficient). This inverts the [[Guardrails and Feedback Loops]] framing: instead of catching agent mistakes post-hoc, design the workflow to prevent them at decision boundaries.
 
+[[Silently Resolved Ambiguity Is Comprehension Debt of Intent]] gives this the missing urgency: the cost of *not* building that meta-judgment isn't merely a safe default baked in — it's a decision made with no author and no record, a debt entry that never surfaces at all. Simister answers *how* to surface decision points; bl00cyb explains *why the silent ones are the expensive ones*.
+
 Simister's insight about emergent patterns (prefer ESM-compatible libraries, prototype before testing, use streaming events) becoming reusable agent rules is essentially [[Loop Engineering]] in microcosm — encode taste into the system so you can reserve your attention for genuinely novel decisions.
 
 ### Atelier and the Kanban-as-Interface
