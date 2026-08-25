@@ -42,6 +42,7 @@ That said, the core insight is real and under-discussed: teams deploy WAAP and f
 - [[Security and Sandboxing]] — the hub for all security pages in this wiki; WAAP and code protection sit on the traditional-appsec side of the house rather than the agent-sandboxing side, but the defense-in-depth principle is the same
 - [[Agentic AI Security Stack]] — Lucktemberg's comprehensive threat model covers attack surfaces across the stack; WAAP fits as the network-layer component
 - [[DeepSeek Reverse Engineers TeamSpeak Licensing]] — the most vivid recent demonstration that AI tools have collapsed the cost of binary reverse engineering, exactly the threat the article's code-protection argument depends on
+- [[Everything I Own, Owned]] — the firmware corollary: WAAP argues client-side *binaries* are exposed; schlarp shows *firmware* is now equally exposed, with five peripherals broken open in ~13 hours of agent churn, and a threat model that treats any attached device as potentially implanted
 - [[Software Engineering Craft]] — the DevSecOps integration angle: WAAP platforms with management APIs fit into CI/CD pipelines rather than sitting outside them
 - [[AI Security Framework for DevSecOps]] — the complement from the same company: WAAP covers the network perimeter while the AI security framework extends defense-in-depth through the full AI development lifecycle, from model risk to prompt security to application hardening
 

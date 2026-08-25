@@ -54,6 +54,8 @@ Together they mapped out health values, enemy rosters, and the memory flags chec
 
 **[[Kuna — Agent-First Decompiler]] takes the feedback-loop insight one level up.** Langworth's LLM drives a decompiler to analyze ROMs; Basque's LLM *writes* the decompiler itself, using benchmark-driven refinement — the same feedback-loop pattern applied to tool construction rather than tool use. The loop is the primitive; whether it's aimed at a binary or at the tool's own output is just a matter of what you measure.
 
+**[[Everything I Own, Owned]] points the same loop at hardware you actually own.** Schlarp ran the identical pattern — agent + a target with a data connection and an update mechanism — against five live peripherals (webcam, monitor, mic, capture card, key light) and came away with working shells and patched firmware in ~13 hours of churn. The notable difference: Langworth's target was a sandboxed emulator, so the stakes were curiosity; schlarp's targets were the devices on his desk, so the conclusion is a threat model — if this is *cheap* now, assume any attached device may already be implanted. Same loop, one pointed at a ROM, one pointed at your microphone.
+
 ---
 
 *Source: [ai.statico.io](https://ai.statico.io/2026/07/02/giving-your-agent-eyes-with-game-boy-hacking/), Ian Langworth, 2026-07-02*

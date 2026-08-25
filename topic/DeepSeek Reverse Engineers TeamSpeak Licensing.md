@@ -86,6 +86,8 @@ The comment thread reveals a broader truth: the harness matters more than the mo
 
 **The logical next step is [[Kuna — Agent-First Decompiler]]: an LLM building the RE tool, not just using one.** Zion Basque's experiment flips the relationship — instead of an LLM driving Ghidra via MCP, an LLM writes the entire decompiler, studying its own benchmark failures against IDA Pro to self-improve. If DeepSeek+TeamSpeak proved LLMs can *do* RE, Kuna asks whether they can *build the tools* for RE.
 
+**The refusal contrast gets sharper with [[Everything I Own, Owned]].** Schlarp's Claude Opus 5 did not refuse to disable a webcam's recording LED or flash a microphone — because the goals were framed as interoperability and security research on hardware the operator owns. Claude Code's prohibition here is apparently soft enough to be satisfied by "it's my device," whereas the TeamSpeak crack tripped it outright. The variable isn't the capability (both models have it) or even the harness (both used Claude Code); it's whether the task reads as "attack someone else's product" or "understand my own." That's a fragile line, and it's the same line the author's closing AI-worm speculation is worried about — the attacker running the same loop with no such scruple.
+
 ---
 
 *Sources: [[summary/deepseek-reverse-engineers-teamspeak]]*
