@@ -130,6 +130,7 @@ A thread running through multiple sources: declarative policy that mechanically 
 
 - [[Resident (ESP32 Sandbox)]] — Inverts the sandbox metaphor for physical devices: sandbox as host, not cage. Lua-based runtime for ESP32 hardware with hot-reload and agent-facing skills, exploring what happens when agents inhabit physical hardware rather than run inside server isolation
 - [[Weird Machines in Transport Layer Security]] — Extends "weird machine" theory to TLS: legitimate OpenSSL/BoringSSL primitives (session cache, renegotiation, certificate verification) compose into an accidental Turing-complete system coupled to trust decisions, and the same primitives yield both a defensive sentinel and an authentication bypass. Latent computation in trusted components is the same class of risk this hub catalogs for agent sandboxes
+- [[Extensible Software in the Age of LLMs]] — Jeremy Morrell generalizes this hub's problem to *user-authored* web extensions: the capability shape (IFTTT's `twitter.post_new_tweet()`, not an API key) beats raw `fetch` and proxy filtering, and the isolation-primitive choice (V8 isolates, microVMs, WASM) is the deployment question behind "Software for One"
 
 ---
 

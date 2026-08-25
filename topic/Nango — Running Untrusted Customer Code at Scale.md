@@ -36,6 +36,8 @@ The article's most honest moment. One faction says per-customer Lambdas with war
 
 **The WASM path not taken.** Knative and WASM-based runtimes were considered and rejected as "similar to Lambda with far less maturity." Cloudflare Workers' V8 isolates are noted as a weaker boundary than microVMs, and V8 can't safely sandbox arbitrary npm packages — which is what Nango's customers actually run. The WASM sandboxing story is real ([[Component Model 1.0]]) but not yet mature enough for arbitrary Node.js code with third-party dependencies.
 
+[[Extensible Software in the Age of LLMs]] reaches the opposite conclusion for a different workload: Morrell argues V8 isolates (Cloudflare Dynamic Workers) are the closest production-ready primitive for *extensible web apps*, where LLMs author extensions against a typed capability surface rather than shipping arbitrary third-party npm. The isolation strength you need depends on whether the untrusted code brings its own dependency tree.
+
 ## Critical Analysis
 
 This is a valuable article because it's honest about trade-offs in a way most vendor engineering blogs aren't. The internal debate section — where the team openly disagrees about whether per-customer Lambdas are progress or a workaround — is the kind of content that builds trust. Most companies would sand that edge off before publishing.

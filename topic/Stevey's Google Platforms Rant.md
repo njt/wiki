@@ -64,6 +64,8 @@ The synthesis. Yegge argues that no single product team can predict what every u
 
 **Compare to** [[HTTP API Design Guide (Heroku)]]: Heroku's 2013 API guide is the tactical implementation of Yegge's strategic argument. Yegge says "make everything a service interface designed for external consumption." Heroku says "here's exactly how to design that interface: version in Accept headers, UUIDs as identifiers, structured errors as a contract." The guide operationalizes the mandate.
 
+**Compare to** [[Extensible Software in the Age of LLMs]]: Morrell modernizes the platform thesis for the LLM era — Salesforce's Apex platform (since 2007) is the proof that safely running customer code on the web works at immense scale, and LLMs collapse the *authoring* cost of the extensions Yegge's "locked-out users" could never afford to write. Yegge's Accessibility argument finds its mechanical enabler: "in the past year your users have suddenly acquired the ability to speak code into existence."
+
 ---
 
 *Sources: [[raw/1281611]], [[summary/1281611]]*

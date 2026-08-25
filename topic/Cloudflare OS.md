@@ -207,6 +207,8 @@ would be absurd. In an AI world, the agent does the customization work,
 and the sandboxing prevents the customization from becoming a security
 risk.
 
+[[Extensible Software in the Age of LLMs]] names the general category this instantiates — LLM-native software, a battle-tested core users extend by asking — and argues the web is where it should happen next, with Salesforce's Apex platform as the two-decade proof that safely running customer code at scale works. Cloudflare OS is that thesis applied to an entire organization, and Dynamic Workers are the sandbox primitive that makes per-user extension cheap enough to ship.
+
 ### Capability-Based Access Over Ambient Permissions
 
 Agents and gadgets start with access to *nothing*. Even if the workspace
