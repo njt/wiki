@@ -1,6 +1,6 @@
 # Wiki Index
 
-508 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
+509 pages across 14 sections. Synthesis pages provide cross-cutting analysis; section listings live in the hub pages.
 
 ## Synthesis
 
@@ -418,6 +418,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 - [[Stevey's Google Platforms Rant]] — Steve Yegge's legendary 2011 internal Google+ post comparing Amazon and Google: Bezos' six-point API mandate transformed Amazon into a service-oriented platform, while Google remained a product company that "doesn't get platforms." The canonical text on why platform-ized products always beat platform-less ones, the dogfood rule, and Accessibility as the most important thing in computing
 - [[Extensible Software in the Age of LLMs]] — Jeremy Morrell's thesis that LLMs make "Software for One" affordable and the web the next extensibility frontier: narrow capabilities over API keys, Salesforce as two decades of proof, and Cloudflare Dynamic Workers as the production-ready sandbox primitive
 - [[The 10 Levels of Building a Data Grid]] — Ly Jacky Nhiayi's frontend performance taxonomy: ten optimization levels from brute-force DOM to GPU-texture icon tricks, with the shadow-table pattern and SVG background-image hack as standout contributions
+- [[The Wicked Reason Removing Code Beats Better Scheduling]] — Alex Russell's case that removing code beats reordering as a performance remediation strategy: both share the same deep-understanding cost, but deferred bytes still hit the main thread as INP "thuds," scheduling is brittle and coordination-heavy, and moving from poor to decent performance is a management/culture problem, not a technical one
 - [[The Cost YAGNI Was Never About]] — Kent Beck reframes YAGNI as options pricing + NPV, not thrift: cheap AI generation amplifies the trap, not the escape
 - [[Locality of Behaviour]] — Carson Gross's principle that the behaviour of a unit of code should be obvious on inspection: the distance-as-severity heuristic, the distinction between surfacing behaviour and inlining implementation, and the honest treatment of LoB's tradeoffs with DRY and Separation of Concerns
 - [[Character Sets and Unicode]] — Joel Spolsky's canonical 2003 primer: code points vs. encodings, why "plain text" doesn't exist, and the UTF-8 triumph — the one thing every programmer must know about text

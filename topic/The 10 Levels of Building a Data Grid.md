@@ -64,6 +64,8 @@ The author's description of reading AG-Grid's source code. The meta-lesson: the 
 
 **The meta-lesson is studying source code.** Level 10's admission that the best techniques came from reading AG-Grid's source is the most valuable takeaway for engineers. The performance tricks that ship in commercial products are documented nowhere else; reading their source is genuinely "the single highest-value study habit in frontend performance." This applies far beyond data grids.
 
+**[[The Wicked Reason Removing Code Beats Better Scheduling]] supplies the governance frame this article deliberately omits.** Russell's ten levels of *remediation* — reduce code, move work to the server, only then reorder — position Nhiayi's ten levels of *rendering* as exactly the "special occasion food" of deep technical optimization. The data-grid work succeeds because it's one bespoke, trace-driven component with a single author; Russell's warning is that this same virtuosity becomes a management error when a team reaches for scheduling tricks while its wire size is still out of control.
+
 ---
 *Sources: [[raw/visualeaf-10-levels-data-grid]]*
 *Last updated: 2026-07-25*

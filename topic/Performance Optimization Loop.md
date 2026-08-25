@@ -75,6 +75,7 @@ The best one-liner in the talk, and also the most dangerous. Developer intuition
 - [[Lean, Not Backpressure]] — Lean manufacturing applied to software; Gordon's optimization loop is single-piece flow applied to code changes
 - [[React useMemo and useCallback]] — Josh Comeau applies the same measurement-first discipline to React: profile with the React Profiler before reaching for `useMemo` or `useCallback`, and wrap only the hot paths — the frontend instance of Gordon's loop
 - [[Push Ifs Up And Fors Down]] — Alex Kladov's "push fors down" heuristic (batch as base case, scalar as special case) is the code-organization counterpart to Gordon's measurement-driven loop; batching amortizes setup costs and unlocks vectorization, but only Gordon's loop tells you whether it actually moved the needle in production
+- [[The Wicked Reason Removing Code Beats Better Scheduling]] — Alex Russell scopes Gordon's loop precisely: it's the *decent→excellent* technical challenge. Most teams, Russell argues, are stuck on *poor→decent*, which is a management/culture problem that code removal — not measurement-driven optimization — must solve first
 
 ---
 *Sources: [[raw/34460de457cb2f63069845db0e3f7d4d]], [[summary/34460de457cb2f63069845db0e3f7d4d]]*

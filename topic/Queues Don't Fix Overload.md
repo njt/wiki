@@ -60,6 +60,8 @@ El-Deeb's [[Hidden Inefficiencies Behind Delivery Delays]] extends Hebert's argu
 
 [[State-Oriented Consistency]] diagnoses the same structural error in a different domain: reaching for strong consistency everywhere (like reaching for queues) without first identifying what each piece of state actually requires. The Keel IoT team's "Uniform Consistency" is a close cousin to Hebert's queue-as-default — both are trusted mechanisms applied by habit rather than by need.
 
+[[The Wicked Reason Removing Code Beats Better Scheduling]] extends the same structural error to frontend performance: resource scheduling/reordering is the queue — it defers bytes rather than eliminating them, and in the tail of the connection curve the deferred work still lands on the main thread as "thuds" that show up in INP data. Removing code is the load-shedding equivalent — cut the bytes on the wire rather than resequence them.
+
 ---
 
 *Source: Fred Hebert, [ferd.ca](https://ferd.ca/queues-don-t-fix-overload.html), November 19, 2014. Fetched 2026-06-12.*

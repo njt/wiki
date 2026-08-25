@@ -84,6 +84,7 @@ The constraint decay paper ([[Constraint Decay]]) finds that "convention-heavy f
 - [[Code-First Developer]] — Khalil Stemmler's five-phase model of developer craft; Fowler's human-guided refactoring suggests craft still matters — agents can execute refactorings but not discover them.
 - [[The Wrong Abstraction]] — Sandi Metz's companion thesis: refactoring toward better decomposition is valuable, but the direction matters. When you've landed on the wrong abstraction, the fastest way forward is back — inline first, then re-extract from evidence. Fowler's experiment measures the payoff of good refactoring; Metz diagnoses the cost of preserving bad abstractions.
 - [[Push Ifs Up And Fors Down]] — Alex Kladov's two heuristics (push conditionals to callers, batch data operations) are concrete refactoring patterns that produce the kind of structural decomposition Fowler measures. Both rules centralize decision-making and reduce the surface area agents must read — the same mechanism behind Fowler's 83% token savings.
+- [[The Wicked Reason Removing Code Beats Better Scheduling]] — Alex Russell's performance-engineering cousin of the same reduction-over-rearrangement instinct: remove code sent to the client rather than reorder when it loads, because reordering defers but doesn't eliminate the cost. Fowler shows less code to *read* is cheaper; Russell shows less code to *load* is more durable.
 
 ---
 *Sources: [[raw/refactoring-economic-benefit-html]], [[summary/refactoring-economic-benefit-html]]*
