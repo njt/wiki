@@ -100,6 +100,8 @@ When `execute()` gets a `cwd` or `env` override, it forks the session rather tha
 
 **vs. Direct SDK usage**: Most agent harnesses give agents per-service SDKs. Mirage argues this doesn't scale — every SDK has different semantics and auth models. The filesystem abstraction normalizes these into one interface.
 
+**vs. per-task isolated copies**: [[We Built a Scalable Agent Sandbox]] makes the opposite VFS bet — Mirage's unified tree lets agents touch everything they can see; CloudSquid gives each of 100 parallel agents a permissioned copy of only the files its task may touch, so collision is impossible by construction. Unified-tree optimizes for fluency across many backends; per-task copies optimize for concurrency safety over shared enterprise data.
+
 ---
 
 ## Related
