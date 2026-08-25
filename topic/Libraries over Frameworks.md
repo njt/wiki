@@ -64,6 +64,7 @@ The parting shot. Package holidays (frameworks) handle everything but constrain 
 - [[The GUS Stack — Go, Unix, SQLite]] — boring, composable libraries over monolithic frameworks as the agent-optimized stack
 - [[Software Engineering Craft]] — the hub page covering API design, simplicity, and the fundamentals that frameworks often obscure
 - [[Specifications as the Product]] — if code is disposable, the spec is the durable artifact; frameworks that own the control flow make specs harder to extract
+- [[Bookshelf (Self-Hosted Ebook Library)]] — the library thesis instantiated: an app written against a narrow `Storage` interface whose provider packages (R2, filesystem) are libraries swapped at a single composition root
 
 ---
 

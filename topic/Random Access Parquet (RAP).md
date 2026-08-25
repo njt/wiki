@@ -52,7 +52,7 @@ The AI-agent motivation is more than a garnish. An agent answering "what was I l
 
 ## Connections
 
-This is the interactive-lookup pole of the columnar story [[Wes McKinney on Pandas, Arrow, and Data Infrastructure]] tells: the last-mile problem of moving data between systems doesn't go away, it just moves. RAP's answer to the "serialization boundary" is to not cross it — point the query at the lake file itself. It also rhymes with [[Icebug Format]]'s trick of querying Parquet in-place from object storage, and with [[Databases and Data]]'s convergent-architectures observation — here the convergence is a single storage format serving two access patterns rather than a single engine doing two jobs.
+This is the interactive-lookup pole of the columnar story [[Wes McKinney on Pandas, Arrow, and Data Infrastructure]] tells: the last-mile problem of moving data between systems doesn't go away, it just moves. RAP's answer to the "serialization boundary" is to not cross it — point the query at the lake file itself. It also rhymes with [[Icebug Format]]'s trick of querying Parquet in-place from object storage, and with [[Databases and Data]]'s convergent-architectures observation — here the convergence is a single storage format serving two access patterns rather than a single engine doing two jobs. [[Bookshelf (Self-Hosted Ebook Library)]] runs the same collapse at book scale: a ZIP central directory (or a PDF cross-reference table) acts as the inline index, so ranged reads fetch one chapter from a 40 MB archive without transferring it.
 
 ---
 *Sources: [[raw/indexing-the-data-lake-for-online-point-queries]], [[summary/indexing-the-data-lake-for-online-point-queries]]*
