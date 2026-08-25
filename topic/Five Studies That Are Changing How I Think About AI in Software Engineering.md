@@ -42,6 +42,8 @@ Storey argues the technical debt metaphor is insufficient. AI helps with technic
 
 The three debts compound: intent debt → cognitive debt → technical debt → amplifies cognitive debt. This is the taxonomy that explains why AI-assisted codebases feel different from hand-built ones even when all tests pass.
 
+[[Silently Resolved Ambiguity Is Comprehension Debt of Intent]] sharpens the intent-debt half from the process side: the *moment* intent debt is born is a silently-resolved ambiguity — an issue underdetermines a behavior, the agent picks something statistically probable, and no artifact records that a choice was made at all. Storey's intent debt is the accumulation; bl00cyb names the mechanism by which it accrues invisibly.
+
 ---
 
 ## The Synthesis
