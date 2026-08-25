@@ -51,6 +51,7 @@ The companion piece to this would be "Just Brute Force Your Full-Text Search" �
 - [[Playing with Vision Embeddings]] — Jensen's deep dive into what embeddings actually encode; Turnbull's post is about what you do with them once you have them
 - [[Learning a Few Things About Running SQLite]] — Julia Evans' field report on the gap between "X is fine" and actually operating X; the same gap exists for brute-force embedding search in production
 - [[Your Distributed System Is Slower Than a Laptop]] — The COST paper's core argument, applied to vector search: single-machine brute force often beats distributed approximate systems on both cost and latency
+- [[Grimmory]] — A self-hosted digital library shipping the thesis in production: book recommendations from hand-rolled 128-dim hashed feature vectors and brute-force cosine over the whole catalog, stored as JSON in a MariaDB column — no vector database, no ANN index
 
 ---
 

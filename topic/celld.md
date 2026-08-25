@@ -73,6 +73,8 @@ about the hard parts the README documents (per-thread V8 isolates, HMAC-only pee
 auth with no TLS, the latency cost of CAS on every cold start). Read the site for
 the *why* and [[raw/celld]] for the *how*.
 
+[[Grimmory]] runs the same sovereignty argument one layer up the stack: where celld reclaims serverless compute state, Grimmory reclaims reading data — a self-hosted digital library whose catalog persists as JSON sidecar files next to the books, exportable and movable rather than locked inside a vendor account.
+
 ## Architecture
 
 celld is a Rust workspace (`crates/celld`, `crates/logic`, `crates/ltx`) with a
