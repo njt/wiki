@@ -16,7 +16,7 @@ The MCP server integration is notable -- agents using Claude Code or Cursor can 
 
 The CLI (`osb`) covers creation, execution, file operations, and diagnostics. The Sandbox Protocol spec defines lifecycle and execution APIs, which is useful for building compatible implementations.
 
-Contrast with [[Navaris]] (lighter, focused on container vs. microVM abstraction without the full platform), [[OneCLI]] (credential management to pair with sandbox execution), and [[llm-guard]] (prompt-level defense vs. execution-level isolation).
+Contrast with [[Navaris]] (lighter, focused on container vs. microVM abstraction without the full platform), [[OneCLI]] (credential management to pair with sandbox execution), [[llm-guard]] (prompt-level defense vs. execution-level isolation), and [[SmolVM]] (minimalist: a single library-VMM binary with portable `.smolmachine` artifacts, no daemon, no platform).
 
 ## Critical Analysis
 
