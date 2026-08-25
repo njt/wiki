@@ -647,6 +647,7 @@ Tools that run on your own machines: voice, hardware, local inference, knowledge
 - [[Indexing 669 GB of GoPro Videos with Local ML]] — Ilias Haddad's local-first pipeline for semantic video search: Whisper + YOLO + DeepFace + Qwen2.5-VL on an M1 Max, 67h compute for 15h of footage. The Docker-on-Mac GPU gap as a real constraint on local ML tools
 - [[Local Qwen Is Not a Worse Opus]] — Alex Ellis's founder field report: local models are a different tool from frontier models, not a worse version. Revenue recovery that paid for a $12K GPU, the looping problem, and the "analysis not interpretation" boundary
 - [[Wall-Clock Time and the Qwen3.8-27B Daily Driver]] — A solo founder's three-day field report running Qwen3.8-27B on a budget dual-GPU rig: wall-clock time to a correct result — not tokens-per-second — is the metric that matters, because a "slower" model that finishes unattended beats a faster one that keeps you in the loop
+- [[BookOrbit]] — Open-source (AGPL-3.0) self-hosted reading server for ebooks, audiobooks, comics, and PDFs: one Compose file, per-user libraries with OIDC/SSO, Kobo/KOReader sync, OPDS catalog — "your files stay on your hardware, no subscription"
 
 ## AI Research & Models
 

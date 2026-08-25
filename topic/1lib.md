@@ -16,6 +16,8 @@ The site was unreachable when fetched (ECONNREFUSED), which is typical for shado
 
 Whether you consider these services piracy or access-to-knowledge activism depends on your politics. Either way, they exist and they're used.
 
+The self-hosted counterpoint is [[BookOrbit]] — instead of renting access through an ephemeral shadow library, you serve the books you already own from your own hardware. Same need (a personal library), opposite politics.
+
 ---
 *Sources: [[summary/1lib]]*
 *Last updated: 2026-05-14*
