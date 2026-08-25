@@ -32,7 +32,7 @@ Directly connected to [[The Mythical Agent-Month]] (the codebase-level version o
 
 ## Critical Analysis
 
-The diagnosis is sharp. The prescription is where it falls short -- the article identifies the problem but offers no concrete mechanism for making comprehension legible to performance systems. The actionable versions come from elsewhere: [[Pre-Commit Lint Checks]] forces engagement with quality, [[engineering-notebook]] creates a forensic record, [[napkin]] builds an explicit knowledge artifact. But the underlying insight -- that we are optimizing for what we can measure while the thing that matters is unmeasurable -- is not just about coding. It's about every domain where AI accelerates output.
+The diagnosis is sharp. The prescription is where it falls short -- the article identifies the problem but offers no concrete mechanism for making comprehension legible to performance systems. The actionable versions come from elsewhere: [[Pre-Commit Lint Checks]] forces engagement with quality, [[engineering-notebook]] creates a forensic record, [[napkin]] builds an explicit knowledge artifact. [[Agents and Acquiring Debt]] supplies the mechanism this diagnosis lacks — agents answer *what*, not *why* (state and commits, not folklore or rejected alternatives) — and a concrete fix: ADRs written at decision time, which agents are their hungriest readers. But the underlying insight -- that we are optimizing for what we can measure while the thing that matters is unmeasurable -- is not just about coding. It's about every domain where AI accelerates output.
 
 ---
 *Sources: [[summary/cognitive-debt]]*

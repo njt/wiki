@@ -49,7 +49,7 @@ Simister's application of Donella Meadows' "Leverage Points: Places to Intervene
 2. **System rules** (high leverage) — architecture, dependency choices, API contracts
 3. **Mental models** (highest leverage) — what problem you're solving, who the user is, what "good" looks like
 
-Most agent workflow design focuses on parameters (did the code compile? do tests pass?). Simister argues for shifting attention upward — toward the decisions that *produce* the code. This connects directly to [[Discovery Debt]] (untested assumptions compounding invisibly) and [[Load-Bearing Assumptions]] (surfacing falsifiable claims before they become architecture).
+Most agent workflow design focuses on parameters (did the code compile? do tests pass?). Simister argues for shifting attention upward — toward the decisions that *produce* the code. This connects directly to [[Discovery Debt]] (untested assumptions compounding invisibly) and [[Load-Bearing Assumptions]] (surfacing falsifiable claims before they become architecture). [[Agents and Acquiring Debt]] frames the same move in debt terms: cheap early information lets you defer commitments to "the last responsible moment," shifting *when* you accrue debt rather than whether — with holding costs as the discipline that keeps deferral from becoming procrastination.
 
 ### Escalation as Agent Capability
 
