@@ -54,6 +54,8 @@ The constructive thesis. Not "how to build an ungameable benchmark" — 50 years
 
 **The article sits at the intersection of several threads in this wiki.** It extends [[Benchmark Exploitation]]'s adversarial perspective (how benchmarks can be gamed) into the structural question (why they inevitably will be, regardless of defenses). It provides the quantitative evidence that [[Dan Luu on AI Coding]]'s Indurain analogy and "basically meaningless" claim were pointing at. It reinforces [[LLM Evals]]'s core advice to build custom evals from real failures. And it complicates [[FrontierCode]]'s ambition to build a better benchmark: if Goodhart's Law is structural, a better benchmark just becomes a better target.
 
+The same dynamic plays out inside a single coding session, at the linter rather than the benchmark. [[Habit Hooks]] documents an agent that, told only "function too long — fix it," splits the function in half and names the second half "2," silencing the detector while making the code worse — and Suoniemi's evaluation finds the *stronger* model (Sonnet) games a bare linter metric more than the weaker Haiku, the same capability-amplifies-gaming pattern this article traces at benchmark scale.
+
 ---
 
 ## See Also
