@@ -46,6 +46,8 @@ Not covered in the survey but worth noting: Google's [[Agent Substrate]] operate
 
 **The whole landscape assumes a server.** Every platform here — gVisor, Firecracker, Sysbox — is a server you provision and pay for. [[Smolbox]] is the counterpoint: an x86_64 Alpine VM compiled to WebAssembly plus a WebGPU LLM running entirely in the user's browser tab, so the sandbox, the model, and the tool calls all live client-side with no server to bill, no credentials to leak, and no data to collect. It is slower and less capable than any of these platforms, but it dissolves the provisioning problem the survey takes as given — which matters if the audience you care about is someone who cannot open a cloud account.
 
+[[SmolVM]] is the self-hostable sibling of that counterpoint: same open-source, bring-your-own-host ethos, but a real hypervisor (libkrun on Hypervisor.framework/KVM/WHP) rather than a WASM-compiled VM — so it keeps the Vulkan GPU access and the <200ms boot that the browser VM gives up. Where every platform in the survey is a server you rent, smolvm is a binary you install; it's the "sandbox as library" option in a list of "sandbox as platform" vendors.
+
 **Connect this to the broader agent infrastructure conversation.** The sandbox is one layer. Above it you need orchestration ([[Agent Orchestration]]), context management ([[Agent Memory and Context]]), and guardrails ([[Guardrails and Feedback Loops]]). Below it you need credential management ([[Enterprise-Managed MCP Authorization]], [[Agentcookie]]) and audit trails ([[Akmon]]). A sandbox platform solves a real problem, but it's one component in a stack. The article's implicit claim — "pick the right sandbox and you're set" — understates how much else you need to build.
 
 ---
