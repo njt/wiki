@@ -69,6 +69,7 @@ The conductor/orchestrator distinction is useful but incomplete. The real spectr
 - [[Human-in-the-Loop is Tired]] — Laura Summers on the psychological cost of reviewing AI output that Osmani doesn't fully address
 - [[The Enterprise Gap from Vibe Coding]] — A concrete field report of the demo-to-production gap Osmani maps economically: half-hardcoded data, zero auth, client-side DB calls — the exact maintenance tax his vibe-coding-vs-agentic-engineering cost curve predicts
 - [[The AI-Native SDLC Playbook]] — Anthropic's official operating manual for this exact map: six stages each committing an artifact the next reads (`intent.md` → `spec.md` → `plan.md`), governance enforced by hooks rather than habits, and maintenance closing the loop autonomously
+- [[Shipping AI Agents to Production]] — the enterprise restatement of the same map: "a verification problem, not a modeling problem," with the five-component production feedback loop and the "context is the moat" thesis as the harness-over-model argument aimed at CTOs
 
 ---
 *Sources: [[raw/new-software-lifecycle]], [[raw/new-sdlc-vibe-coding]]*

@@ -63,7 +63,7 @@ The title's reference to "Attention Is All You Need" is well-earned. Just as att
 
 The economics are unanswerable. $200/month in tooling that catches one production bug per quarter has already paid for itself. A custom lint rule takes an afternoon to write and prevents an entire bug class forever. Senior engineers cost $150-200/hour. If you're not doing this, you're paying for it in ways you won't see until Friday night.
 
-The article is strongest on linting and CI, weaker on observability and the "Tasks" link in the loop — how exactly do Sentry issues become agent tasks? The companion repo (vigiles) may fill that gap, but the article itself gestures at it.
+The article is strongest on linting and CI, weaker on observability and the "Tasks" link in the loop — how exactly do Sentry issues become agent tasks? The companion repo (vigiles) may fill that gap, but the article itself gestures at it. [[Shipping AI Agents to Production]] fills that exact gap from the production side: its five-component feedback loop (OpenTelemetry traces, layered evaluators, production traces as golden data, pre-ship experiments, CI gating on evals) is the observability-and-eval half of the loop Ernie's piece only points at, and it lands on the same conclusion from a different direction — the sensors, not the model, are the durable advantage.
 
 The Karpathy framing — "leverage without quality compromise" — is the right north star. Most agent discourse oscillates between "go fast and break things" and "agents aren't ready." Ernie's position is that agents are ready, but _you_ aren't — and the fix is infrastructure, not a better model.
 
