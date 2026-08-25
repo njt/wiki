@@ -62,6 +62,7 @@ The closing claim, and the real moat. A one-off fine-tune is a point in time; th
 - [[Prompt Debt]] — The rubric-as-reward-signal is the "measurement, not prose" antidote applied end-to-end.
 - [[Unit Economics of AI Software]] — The $27M → $1M serving-cost reduction is the micro case study for the margin argument.
 - [[Guardian Angels]] — A kindred vision of continual learning and dynamic evaluation, but Shopify's runs on merchant traffic at 2,000 requests per minute today.
+- [[The Lifecycle of LLM-as-a-Judge]] — Netflix's production account of the same judge-calibration flywheel, extended into a four-phase lifecycle Shopify stops short of: reasoning-aligned rubric tuning (RART) on agreed-fail examples, and Phase IV drift monitoring that holds the judge within two standard deviations of the average human rater before triggering re-tuning.
 
 ---
 

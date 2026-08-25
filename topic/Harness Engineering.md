@@ -84,6 +84,7 @@ The "harnessability" concept deserves its own future page. The idea that your ch
 - [[dotnet Slopwatch]] — agent-specific sensors for the maintainability harness
 - [[Fresh Eyes]] — inferential feedback via cross-model review
 - [[Write Only Code]] — what happens when the harness is absent
+- [[The Lifecycle of LLM-as-a-Judge]] — inferential feedback running in production at Netflix: an LLM judge serving as both quality gate and self-reflection critic, with Phase IV drift monitoring (a ±2σ band below the average human rater) as the steering loop that re-tunes the sensor itself
 
 ---
 *Sources: [[summary/harness-engineering-for-coding-agent-users]]*

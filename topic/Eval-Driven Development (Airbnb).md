@@ -109,6 +109,7 @@ The meta-lesson: **fix one variable at a time.** Fix model, vary prompt → fix 
 - [[The PM's Playbook for Shipping AI Features]] — Airbnb's "collaborate continuously" principle operationalizes Gaurav Savla's quality pyramids with a specific cross-functional workflow.
 - [[Sidekick's Continual Learning Loop]] — Shopify's production flywheel converges on the same calibration recipe (rubric, blind annotation, Cohen's kappa) with two twists worth stealing: 25 *random* samples rather than a curated golden set, and treating human inter-annotator agreement as the judge's ceiling rather than a target to exceed.
 - [[Flexible Authentication (Airbnb)]] — The same company's server-driven auth rebuild is the *other* half of the iteration culture EDD describes: server-driven screens bought the 20+ experiments in three months, and EDD's eval discipline is what measures whether those experiments actually improved login. One move creates velocity, the other makes it trustworthy.
+- [[The Lifecycle of LLM-as-a-Judge]] — Netflix extends Airbnb's calibration recipe into a full production lifecycle: the same rubric-plus-rationale benchmark, but then *deploys* the judge as both gate and revision critic, and *monitors* it with a weekly 300-example human-in-the-loop drift check (a ±2σ band below the average rater) rather than re-calibrating only periodically.
 
 ---
 *Sources: [[raw/eval-driven-development-lessons-from-evaluating-genai-at-scale-e817e5ae5788]], [[summary/eval-driven-development-lessons-from-evaluating-genai-at-scale-e817e5ae5788]]*
