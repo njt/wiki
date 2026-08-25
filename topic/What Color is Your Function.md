@@ -66,6 +66,8 @@ The key distinction. In Go, concurrency is an architectural choice. In JavaScrip
 
 **2026 relevance: agents amplify the coloring problem.** Every [[Agent Memory and Context|agent]] that writes code inherits its language's coloring model. An agent writing JavaScript will produce async functions and then struggle to compose them correctly — the same way humans do, but faster and with less judgment. An agent writing Go doesn't have this problem. In this sense, Nystrom's article is a harness-engineering argument disguised as a language rant: pick a colorless language and your agents produce more composable code with fewer categories of bug. The function-coloring property of a language becomes a multiplier on agent reliability.
 
+**[[Copyparty]] is a live counterexample to the async orthodoxy.** Copyparty, a Python file server, deliberately skips `asyncio` and keeps all its request-handling code synchronous and threaded — then gets parallelism by running one worker *process* per CPU core, glued together with a queue-based RPC. It's the "just use threads" escape hatch Nystrom describes, paid for in multiprocessing tax rather than function coloring.
+
 ---
 
 *Sources: [[raw/what-color-is-your-function]], [[summary/what-color-is-your-function]]*

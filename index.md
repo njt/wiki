@@ -517,6 +517,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Chawan]] — Text-mode web browser and pager in memory-safe Nim: vi-inspired UI, opt-in JavaScript via QuickJS, per-site process sandboxing, and protocol support spanning HTTP to Gopher/Gemini/Finger
 - [[Common Expression Language (CEL)]] — Google's embeddable expression language for policy and validation: non-Turing complete by design, nanosecond-to-microsecond evaluation, protobuf-native
 - [[RustDesk]] — Open-source self-hostable remote desktop in Rust with Flutter UI: P2P with NAT traversal, end-to-end encryption, and multi-codec video streaming
+- [[Copyparty]] — Portable single-file Python file server (HTTP/WebDAV/FTP/SFTP/TFTP/SMB) on a hub-plus-workers process model: multiprocessing queue RPC, resumable segmented `up2k` uploads with content-addressed dedup, bytes-first filesystem layer, one mandatory dependency (Jinja2)
 - [[CI Forge (ciforge)]] — Zero-dependency Python CI tool bundling ~25 scanners: code quality, secrets, IaC, dead code, CVE, cloud cost, AI review across 3 providers, and an MCP server. AGPLv3, replaces Snyk/SonarQube for solo devs
 - [[Nektos Act]] — Run GitHub Actions workflows locally in Docker: full expression evaluator, YAML-level interpolation, and composable functional executor pipeline
 - [[Component Model 1.0]] — Bytecode Alliance's roadmap to a stable Wasm Component Model: lazy ABI, browser native support via jco telemetry, spec simplification, and the WIT expressivity gaps that remain

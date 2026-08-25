@@ -54,6 +54,8 @@ This is what a P2P architecture uniquely enables that a hosted API structurally 
 
 Each approach optimizes a different constraint. Petals is the only one that sacrifices reliability for radical access — if you can find peers, you can run anything. But "if" is doing a lot of work there.
 
+A smaller-scale echo of the same idea is [[Copyparty]], a file server that segments uploads into chunks named by a content hash (a "wark") and dedups by content address — the same content-addressed, coordinator-plus-workers shape, applied to files instead of model blocks.
+
 ---
 *Sources: [[raw/petals]]*
 *Last updated: 2026-07-25*

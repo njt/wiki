@@ -86,6 +86,7 @@ Cross-process sync exclusion uses atomic file creation (`wx` flag) on `.stash/sy
 - [[Git Diff Drivers]] — git's external diff driver interface; Stash uses diff-match-patch instead
 - [[Software Engineering Craft]] — the craft hub; Stash is an exemplar of clean architecture with explicit boundary rules
 - [[Obsidian Introduction]] — Obsidian Sync uses the same diff-match-patch merge algorithm
+- [[Copyparty]] — the inverse philosophy: no sync at all, serve files as-is from one canonical folder
 
 ---
 Source: https://github.com/telepath-computer/stash (Telepath Computer, 2026). Fetched 2026-06-11.
