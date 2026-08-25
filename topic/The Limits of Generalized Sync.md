@@ -72,6 +72,7 @@ The taxonomy is the thesis's main contribution: it's the first systematic classi
 - [[SQLite is All You Need for Durable Workflows]] — SQLite on the client is the engine sync engines are built on
 - [[Streambed]] — Postgres WAL streaming as infrastructure; sync engines use the same mechanism for different ends
 - [[Building an AI Agent in Rails (Ionescu)]] — Production adoption of sync-like patterns in an existing application
+- [[Copyparty]] — a file server whose author rejects generalized sync outright, betting instead on one-directional resumable uploads
 
 ---
 *Source*: Siidorow, M. (2026). The Limits of Generalized Sync: A Taxonomy of Architectures, Trade-offs, and Decision Factors. Master's thesis, Aalto University. [aaltodoc.aalto.fi](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d485ca46-ef01-41bc-ae4c-d468afb209a8/content)
