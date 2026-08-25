@@ -46,6 +46,8 @@ The connection to [[The solution might be cancelling my AI subscription (Wilson)
 
 Laura Summers names the developer-specific instance of this as the "human reward function problem" in [[Human-in-the-Loop is Tired]]: hand-coding provided small, frequent dopamine hits (solving problems, watching code compile) that LLM-assisted work replaces with the cognitive load of supervision. "The satisfying part shrank. The exhausting part grew." It's dopamine fracking applied to the programmer's own reward system — the extraction depletes what it extracts.
 
+The neuroscience behind this split is now mapped at circuit level. [[An Integrative Appraisal Model of Epistemic Curiosity]] distinguishes "wanting" — dopaminergic reward anticipation (SN/VTA, OFC), the part an engagement economy can feed indefinitely — from "liking," the hedonic-hotspot circuit (nucleus accumbens shell, ventral pallidum) that actually delivers the pleasure. The two are separate and can diverge, which is exactly the strawberry analogy's prediction stated in mechanism: you can keep extracting the wanting while the liking dies, and the person "prefers the chemicals." German's metaphor intuited the divergence; the appraisal model names the two wires being fracked.
+
 ---
 
 *Sources: [[summary/dopamine-fracking]]*

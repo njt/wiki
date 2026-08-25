@@ -111,7 +111,7 @@ This is the paper's sharpest theoretical move and the one most likely to survive
 
 ### The violation-elicited family is the most generative for future work
 
-Grouping amusement, awe, curiosity, and positive surprise under "expectation violation" connects positive psychology to predictive processing and Bayesian brain theories in a way the other families don't. It suggests a mechanism: enjoyable emotions arise when the world violates expectations in safe, manageable ways. The authors note that all four emotions in this family involve a "shift of attention toward the stimuli in an effort to understand" — they're learning emotions. This is empirically richer than the temporal or arousal-based groupings.
+Grouping amusement, awe, curiosity, and positive surprise under "expectation violation" connects positive psychology to predictive processing and Bayesian brain theories in a way the other families don't. It suggests a mechanism: enjoyable emotions arise when the world violates expectations in safe, manageable ways. The authors note that all four emotions in this family involve a "shift of attention toward the stimuli in an effort to understand" — they're learning emotions. This is empirically richer than the temporal or arousal-based groupings. [[An Integrative Appraisal Model of Epistemic Curiosity]] picks up this thread for the curiosity member specifically: Erdemli et al. specify the appraisal profile (relevance, novelty, coping potential) that routes a violated expectation into curiosity rather than anxiety — the mechanism the Graham taxonomy posits by grouping but doesn't supply.
 
 ### The real gap is function
 
