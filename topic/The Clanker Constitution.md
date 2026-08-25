@@ -58,6 +58,7 @@ The injection-flavored footnote, repeated twice in a seven-clause document (here
 - [[Guardrails and Feedback Loops]] — the linters-beat-prompts thesis is the mirror of this document: Kenn's constitution is pure instruction with zero enforcement, which is exactly the category the hub argues must be supplemented by deterministic checks.
 - [[Claude Code Mastery]] — "CLAUDE.md is compounding infrastructure, every mistake becomes a rule"; the constitution is a *pre-written* version of that, a shared seed of the mistakes everyone makes.
 - [[AI Code Migration with Claude Code]] — the rulebook pattern: a living behavioral document agents follow *and* improve, closest sibling to what Kenn is shipping as a fixed, versioned artifact.
+- [[Fences, not Sandboxes]] — the *emergent* counterpart to Kenn's hand-written constitution: Steve Yegge's 50-agent Wheelhouse spontaneously grew its own legal system, and its rule lifecycle (custom → advisory → law → mechanical enforcement) ships exactly the deterministic enforcement layer the Clanker Constitution deliberately leaves to the adopter.
 
 ---
 

@@ -333,6 +333,8 @@ Evals, testing, linting, feedback loops, and keeping agent output trustworthy. *
 
 Isolation, credentials, prompt injection defense, and agent safety. **Hub: [[Security and Sandboxing]]**
 
+- [[Fences, not Sandboxes]] — Steve Yegge reports from inside a ~50-agent Fable-5 software factory where his agents spontaneously grew a constitutional legal system; fences (polite refusals) as the governance model that replaces sandboxes once models reach adult judgment
+
 - [[The Agent Access Model]] — Cloudflare Research's access control model for AI agents: five principles (task-scoped credentials, harness+network enforcement, exceptional oversight, grant review from evidence, Trust Ratchet), four active controls, and the honest admission that multiplayer access control remains unsolved
 - [[Beyond Zero — Enterprise Security for the AI Era]] — Google/Alphabet Security's successor to BeyondCorp: shrink the trust boundary from application to individual action, couple static policy floors with AI-driven reasoning ceilings, and authorize at machine speed for the agentic era. The floor/ceiling architecture and graduated challenge/containment response as the cleanest articulation of where enterprise security must go
 - [[AI Security Framework for DevSecOps]] — PreEmptive's practical guide to operationalizing AI security across the DevSecOps lifecycle: CI/CD enforcement, application hardening, and the framework taxonomy (NIST/EU/OWASP/MITRE/SAIF) that are complementary but not interchangeable
