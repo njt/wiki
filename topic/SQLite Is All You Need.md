@@ -57,6 +57,8 @@ The Postgres side of that breakpoint is what [[Rust Scalable Backend Services]] 
 
 The [[DuckDB ADBC Extension]] page documents a parallel story: a single-file database that handles analytical workloads that used to require clusters. SQLite for OLTP, DuckDB for OLAP — together they cover most of what small teams actually need. [[Your Distributed System Is Slower Than a Laptop]] makes the same argument from the infrastructure side: measure the single-machine baseline before building a distributed system. These three articles are the same thesis applied to different layers of the stack. [[The GUS Stack — Go, Unix, SQLite]] codifies this position as a full-stack prescription specifically optimized for AI coding agents: Go for the language, Unix for the OS layer, SQLite for persistence, and HTMX for server-rendered interactivity — a stack the models already know.
 
+[[Grimmory]] extends the same discipline to a client-server stack: a MariaDB-backed self-hosted library that caps its Hikari pool at 5 connections, runs on virtual threads, and computes recommendations by brute-force cosine over hand-rolled embeddings — shrinking every component to the traffic a single household actually produces, rather than provisioning for a fleet that may never arrive.
+
 ---
 
 *Sources: [[raw/sqlite-is-all-you-need]]*
