@@ -55,7 +55,7 @@ Three files do the work:
 
 ## Comparison notes
 
-[[Streambed]] also embeds DuckDB (for Iceberg queries via psql-wire) but targets CDC from Postgres rather than ad-hoc S3 analytics. [[AliSQL]] grafts DuckDB's columnar engine into MySQL — same insight that DuckDB's embedded engine is the right primitive. [[Shaper]] uses DuckDB for SQL-to-chart dashboards. All share the pattern: DuckDB as the zero-infrastructure analytical SQL engine.
+[[Streambed]] also embeds DuckDB (for Iceberg queries via psql-wire) but targets CDC from Postgres rather than ad-hoc S3 analytics. [[AliSQL]] grafts DuckDB's columnar engine into MySQL — same insight that DuckDB's embedded engine is the right primitive. [[Shaper]] uses DuckDB for SQL-to-chart dashboards. All share the pattern: DuckDB as the zero-infrastructure analytical SQL engine. [[Drilldown Dashboards from a Single Parquet File]] takes that zero-infrastructure logic to its endpoint — Hyparquet, an 18KB browser Parquet reader, does the range scans client-side, so a customer dashboard runs with no Lambda, no DuckDB, no engine at all; the precomputed data-cube layout does the database work.
 
 The cost-model inversion (compute pricing beats scan pricing for complex queries) applies to any scan-priced service: Redshift Spectrum, BigQuery (on-demand pricing), even Snowflake's credit model for certain workloads.
 
