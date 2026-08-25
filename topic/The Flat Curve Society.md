@@ -38,7 +38,7 @@ The bell-curve insight applied to AI usage. Beginners should be "absolute token 
 
 - **#concept SaaS Resurgence** — The buy-vs-build pendulum swinging back. Models capable of rebuilding SaaS exist, but access and cost make it impractical. Companies that blew yearly AI budgets in months are returning to SaaS. This contradicts [[The Road Runner Economy]]'s "one-shat" thesis — or at least pushes its timeline out.
 
-- **#person Steve Yegge** — Veteran engineer (Amazon, Google, Grab). Known for long-form, opinionated essays. Previously wrote the canonical [[Stevey's Google Platforms Rant]] at Google, which traced Amazon's Bezos-mandated SOA transformation and diagnosed Google's failure to internalize platform thinking. This essay reads as a return to form after years of cheerleading AI acceleration.
+- **#person Steve Yegge** — Veteran engineer (Amazon, Google, Grab). Known for long-form, opinionated essays. Previously wrote the canonical [[Stevey's Google Platforms Rant]] at Google, which traced Amazon's Bezos-mandated SOA transformation and diagnosed Google's failure to internalize platform thinking. This essay reads as a return to form after years of cheerleading AI acceleration. His follow-up [[Fences, not Sandboxes]] reports from inside that future: a ~50-agent factory where he found his Fable agents had spontaneously built a constitutional legal system.
 
 - **#person Ezra Savard (Netflix)** — Ran the AI literacy study Yegge cites. His training data — teams of 5-10 with their manager, real work, instructor facilitation, two 5-hour courses — is the benchmark for organizational AI literacy programs.
 
