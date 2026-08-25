@@ -34,6 +34,8 @@ The GSLB-based hostname rotation means static blocklists are worthless. This is 
 
 **This research validates the "runtime analysis über alles" security philosophy.** Static analysis and vendor documentation would have revealed the SDK's existence but not the full payload contents, the 14 identifiers, or the downstream data pipeline. The article makes the case — convincingly — that runtime traffic analysis is the only method that surfaces what data actually leaves the device. This is a direct parallel to the agent security world's shift from prompt-level instructions to execution-level observation ([[How We Contain Claude]], [[agentsh]]).
 
+**[[Everything I Own, Owned]] shows how the entry cost to this whole class of problem just collapsed.** Transsion's surveillance required an OEM-scale operation and a team of researchers to unpack; schlarp got a plaintext shell in a Shure MV7 microphone — with arbitrary memory read/write and an LED that can lie about mute state — from an evening of agent-driven RE on hardware he owns. The "your device is not your own" condition is now something one person can impose on a $250 peripheral, not just something a manufacturer ships to 200 million phones. Where Transsion is institutionalized surveillance by design, schlarp's five devices are surveillance-by-default: the same weakness, waiting for any competent attacker now that agents have removed the skill barrier.
+
 ---
 
 *Sources: [[raw/transsion-telemetry-research]]*
