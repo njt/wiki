@@ -100,6 +100,7 @@ This is one of the more useful frames I've read on the agent memory problem, pre
 - [[StrongDM Factory Techniques]] — Filesystem-as-memory pattern. Repo-local artifacts as agent substrate.
 - [[Agent-Native Architectures (Every)]] — Files as universal interface. The repo-as-boundary idea taken to its logical conclusion.
 - [[Components of a Coding Agent]] — Harness matters more than model. Continuity is a harness concern.
+- [[Agentic Context Management]] — Maximem's arXiv paper independently reaches the same "memory is the wrong framing" conclusion but lands on the opposite remedy: a five-primitive lifecycle (architecting, ingesting, scoping, anticipating, compacting & consolidation) served by a multi-tenant platform with organizational scoping, versus repo-local continuity. The naming critique is shared; the substrate is the fork.
 
 ---
 
