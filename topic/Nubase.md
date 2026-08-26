@@ -103,6 +103,7 @@ Each project gets its own HikariCP connection pool. The `RoutingDataSource` lazi
 - **vs [[Xano]]**: Xano is a no-code backend with visual builder. Nubase has no visual builder — it's designed for agents to drive via MCP tools and REST.
 - **vs [[Agent Memory and Context]] (hub)**: The wiki's memory taxonomy distinguishes between agent-side middleware ([[Sawtooth Memory]], [[Memento]], [[Mnemo]]) and server-side platforms. Nubase is server-side, multi-tenant, with hybrid retrieval (vector + BM25 + entity boost) and auth-integrated ownership scoping. Like [[MELT]], it tracks lifecycle dynamics (ADD/UPDATE/DELETE/NONE), but does so as a production service rather than a benchmark harness.
 - **vs [[TradingGoose Bear Researcher]]**: That project uses Supabase Edge Functions for agent orchestration. Nubase replaces both the Supabase backend and the function runtime.
+- **vs [[A Convention Is Not a Constraint]]**: Simple Thread's schema-per-tenant field report sits one rung below Nubase on the isolation ladder — one shared Postgres with per-tenant schemas, where isolation is rebuilt as a per-tenant role whose grants confine the connection, rather than a separate physical database per tenant. Cheaper to operate, but the enforcer is a convention (search_path) backed by a constraint (role grants), not the connection string itself — the opposite end of the trade Nubase accepts.
 
 ---
 *Sources: [[summary/nubase]]*
