@@ -52,6 +52,7 @@ The coda. AI-era telemetry — agent and AI workloads emitting faster than any h
 
 ## Cross-References
 
+- [[Observability Cost Saving Strategies]] — Shpilt's seven tactics confirm the loop from the practitioner side: every strategy is a volume trim (or, with BYOC, a change of billing *unit*) rather than a fix to the incentive misalignment, and none asks *which* signals earn their keep. The one partial exception is BYOC, which at least renegotiates the pricing model instead of trimming within it.
 - [[Reduce Logging Costs]] — The tactical complement: Shpilt's five strategies are how you trim; Petkovic's cycle is why the trim doesn't stick. One treats the symptom, the other names the disease.
 - [[The Three Pillars of Observability]] — The same vendor economics from the history side: "three separate invoices" as a pricing artifact, pillars persisting partly because unifying meant incumbents giving up pricing power. Petkovic is the customer-side account of that same incentive.
 - [[Queues Don't Fix Overload]] — The shared structural lens: treat causes, not symptoms. The cycle recurs because the cause — incentive misalignment plus filters nobody re-tunes — is never addressed, only the symptom (the bill).

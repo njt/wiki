@@ -55,6 +55,7 @@ The thesis sentence. Everything else — sampling, tiering, vendor-switching —
 
 ## Cross-References
 
+- [[Observability Cost Saving Strategies]] — Shpilt's later companion piece repeats two of these five strategies and adds the meter-aware layer this one lacks: BYOC (which changes the billing *unit* to node count), DPM reduction with the sharp caveat that it does nothing for Datadog's per-series billing, logs-to-metrics conversion, cardinality monitoring, and tiered log levels. The two articles together form the full program — this one supplies the thesis, that one supplies the vendor-specific tactics.
 - [[The Future of Software Engineering is SRE]] — The article that establishes observability and operations as the scarce skill in an AI-coding world. Shpilt's strategies are the cost side of that equation.
 - [[Software Engineering Craft]] — The hub page covering operations, simplicity, and the judgment calls that matter more when code generation is cheap.
 - [[Queues Don't Fix Overload]] — The same structural insight applied to a different domain: downstream bandaids (sampling, tiering) treat symptoms; fixing at the source (in-code cleanup) treats causes.

@@ -50,6 +50,7 @@ The thesis distilled. Interface-layer answers (MCP, natural-language querying, A
 
 ## Cross-References
 
+- [[Observability Cost Saving Strategies]] — The logs-to-metrics conversion is the cost-side confirmation of this article's claim that metrics stay far cheaper for aggregation: intercepting HTTP/load-balancer logs at the Collector, incrementing a counter, and dropping the source log is precisely the move the pillar split's economics predict, and it saves the indexing portion that is 80–90% of a DataDog-style bill.
 - [[Reduce Logging Costs]] — The cost side of the same story. Observability 2.0's wide events preserve full cardinality, and the article names cost as the paradigm's most common objection — metrics stay far cheaper for aggregation.
 - [[If AI Is Doing the Investigation, Version the Investigation]] — The agent-as-investigator scenario this article is building toward: read-only production access, distributed traces, and an audit trail for every query an agent fans out.
 - [[The Log — Unifying Abstraction for Real-Time Data]] — Observability 2.0's "raw events as primary, pillars as derived views" is Kreps' tables/events duality applied to telemetry: the event stream is the log, metrics and traces are projections.
