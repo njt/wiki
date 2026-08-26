@@ -50,6 +50,7 @@ This is a good article that could have been great with more skepticism. Wolf is 
 ## Cross-Links
 
 - [[Distributed Systems]] -- the observability gap Wolf's choreography preference creates; microservice architectures need Jaeger/OpenTelemetry tooling that agent orchestration systems also lack
+- [[Aspire]] -- the tooling that closes that gap and lowers the cost of Wolf's changeability thesis: a code-first app model that injects OTel wiring and runs the whole topology locally via its Developer Control Plane, so the boundary is one builder call away
 - [[Software Engineering Craft]] -- this is software architecture craft: knowing when boundaries pay for themselves
 - [[Make the Easy Change Hard]] -- Wolf's argument inverted: microservices make easy changes hard (network calls, distributed transactions) so that hard changes become tractable (independent deployability, bounded contexts)
 - [[Building an AI Agent in Rails (Ionescu)]] -- a monolith that works; the counterpoint to Wolf's thesis

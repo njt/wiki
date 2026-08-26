@@ -48,7 +48,7 @@ This section needs to be honest about the gaps, because they're large.
 
 **Distributed transactions.** An agent that needs to update a database AND send an email AND commit code is executing a distributed transaction. [[Designing a Passively Safe API]]'s outbox/inbox pattern solves this for HTTP APIs. Nobody has generalized it for agent tool-use workflows.
 
-**Observability at scale.** [[AgentsView]] provides analytics for 24+ coding agents. But distributed systems observability (distributed tracing, causality tracking, latency histograms) is absent from the agent tooling space. When 50 agents are working on related tasks, understanding what happened requires the same tools (Jaeger, OpenTelemetry) that microservice architectures use.
+**Observability at scale.** [[AgentsView]] provides analytics for 24+ coding agents. But distributed systems observability (distributed tracing, causality tracking, latency histograms) is absent from the agent tooling space. When 50 agents are working on related tasks, understanding what happened requires the same tools (Jaeger, OpenTelemetry) that microservice architectures use — with [[Aspire]] as the .NET reference point: its app model injects `OTEL_*` env vars into every resource and its dashboard hosts an in-memory OTLP server, making traces/logs/metrics a build-time default rather than a per-service wiring job.
 
 **Formal verification.** Distributed systems use TLA+ and similar tools to verify protocol correctness before implementation. Agent orchestration protocols are specified informally (if at all). As these systems take on higher-stakes work, formal verification of coordination protocols will become necessary.
 

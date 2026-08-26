@@ -55,6 +55,7 @@ The thesis distilled. Interface-layer answers (MCP, natural-language querying, A
 - [[If AI Is Doing the Investigation, Version the Investigation]] — The agent-as-investigator scenario this article is building toward: read-only production access, distributed traces, and an audit trail for every query an agent fans out.
 - [[The Log — Unifying Abstraction for Real-Time Data]] — Observability 2.0's "raw events as primary, pillars as derived views" is Kreps' tables/events duality applied to telemetry: the event stream is the log, metrics and traces are projections.
 - [[DDB — Source-Level Interactive Debugging for Distributed Applications]] — Traces as the third pillar in action: cross-RPC backtraces and fault localization that beat GDB+OpenTelemetry — the signal that only became pressing once microservices spread.
+- [[Aspire]] — Microsoft's code-first distributed-app toolchain that bakes the three pillars in at the app-model layer: the dashboard hosts an in-memory OTLP server and the app host injects `OTEL_*` env vars into every service, so logs/metrics/traces are a default of the definition rather than a bolt-on after deployment.
 
 ---
 *Sources: [[raw/2026-08-11-observability-three-pillars-history]], [[summary/2026-08-11-observability-three-pillars-history]]*
