@@ -20,6 +20,8 @@ The four-layer model (human owns intent/judgment, agent owns planning/outcomes, 
 
 The "progressive authority" concept -- autonomy expands as agents demonstrate competence -- connects directly to [[Chief of Staff]]'s graduated autonomy model (three levels with measurable graduation criteria, rolling 90-day trust window). Kemple provides the theory; De Jesus provides the implementation.
 
+[[AI UX Patterns — User Transparency]] is the concrete UI layer for this: Nanz enumerates what "make the authority structure visible" means in practice — granular permissions (read vs. send, reference vs. delete), a revocable memory ledger, up-front cost estimates, and a visual marker for when the agent is acting autonomously. It strengthens Kemple's "transparent, steerable, resilient" principle by turning it into a buildable checklist, though its assumption of a careful, consenting user is exactly what [[How We Contain Claude]]'s 93% approval rate undermines.
+
 The "drift" failure mode (context management lapses, agent's understanding becomes stale) is the UX manifestation of what [[Elements of Agentic Systems Design]] calls the Context element. It's also the core problem [[Cord]] tries to solve with runtime task decomposition -- maintaining coherent context across complex multi-step work.
 
 ## Critical Analysis

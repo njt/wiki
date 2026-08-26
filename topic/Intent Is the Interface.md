@@ -58,6 +58,8 @@ The implication is that responsive design was a special case of a general proble
 
 When agents act first and surface for approval, the interface becomes "a negotiation you manage" rather than "a tool you operate." This is a fundamentally different interaction model that most design tools and patterns don't support.
 
+[[AI UX Patterns — User Transparency]] supplies one concrete rendering of this inversion: a persistent banner/sidebar marking when the agent is acting autonomously, so the user knows they are no longer the one driving. It's the smallest possible "negotiation surface" — a state indicator rather than a control — and it operationalizes the exact moment Marc identifies as the polarity reversal.
+
 [[From AI Studio to AI Forge]] describes this as "human changes altitude" — the human moves from operating controls to supervising decisions. Marc provides the interaction-design vocabulary for what McCormick described architecturally.
 
 ---

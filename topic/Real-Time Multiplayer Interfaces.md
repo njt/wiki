@@ -30,6 +30,8 @@ Bidirectional interruption is the hardest human-element problem. Agents interrup
 - #pattern **Rehearsal as edge-case surfacing** — The fifth principle ("learns with us, does not calcify") is the wicked one. Adaptive interfaces can only respond to situations they've seen. Marc's solution: low-stakes, Duolingo-like rehearsal interactions that surface edge cases before high-risk moments, not during them. This is a genuinely novel approach to the cold-start problem in adaptive UX.
 - #concept **Interruption as first-class design act** — In both directions. When should an agent interrupt a human? When should a human interrupt an agent? This is not an implementation detail — it *is* the interface. The protocol for interruption matters more than the content of any single interaction.
 
+[[AI UX Patterns — User Transparency]] lands the same point from the product side: a visible "the AI is now driving" marker exists *so that* the human doesn't unintentionally interrupt an ongoing process. Nanz's framing (transparency as coordination, not just disclosure) is the missing precondition for interruption-as-design — you cannot interrupt correctly if you cannot see the agent's current mode.
+
 ## Critical Analysis
 
 Marc is writing at the right altitude. Most "agent UX" writing either stays at the screen level (where should the chat box go?) or ascends to hand-wavy philosophy. This piece lands in the productive middle: design principles grounded in a specific architectural claim (durable state → multiplayer by default), with concrete open questions that admit they're unsolved.

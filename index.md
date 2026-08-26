@@ -208,6 +208,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Fleet Supervisor (sermakarevich)]] — Production Python supervisor for parallel coding agents: pluggable coder backends (Claude/agy/codex/opencode), atomic beads queue, web UI, Telegram HITL, MCP question broker, context-pressure auto-termination
 - [[Intent Is the Interface]] — The screen was a constraint we mistook for the product. Design capabilities and intents, derive interfaces from context
 - [[Real-Time Multiplayer Interfaces]] — Ramon Marc extends his "intent is the interface" thesis: durable agents make every interface multiplayer, and the design primitives become interruption, attention economics, and rehearsal
+- [[AI UX Patterns — User Transparency]] — Kathryn Grayson Nanz's practitioner checklist for the transparency layer of AI UX: granular revocable permissions, "remember implies forget" memory, up-front cost estimates, and a visual signal when the AI acts autonomously
 - [[The Dark Factory is a DOT File]] — The pipeline DOT file is the valuable artifact; factory code is disposable
 - [[Dippin (Language)]] — Indentation-sensitive DSL for AI agent workflows: compiler pipeline with IR, 24 CLI tools, LSP, simulator, cost estimator, and bundle format. Language separate from runtime
 - [[TradingGoose Bear Researcher]] — Production reference: position-aware AI prompting, multi-round agent debate, coordinator-worker orchestration in a Supabase Edge Function
