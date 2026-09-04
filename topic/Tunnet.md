@@ -74,6 +74,8 @@ Unlike ngrok or Cloudflare Tunnel (SaaS-only), Tunnet's relay is self-hosted. Tu
 
 Unlike [[ZeroTier]] (custom P2P protocol with root servers), Tunnet uses standard QUIC and a CRDT document for membership. Tunnet also bundles SSH, file transfer, and serve features that ZeroTier lacks.
 
+Unlike [[Tailcat]] (Tailscale's data plane with the control plane deleted, identity collapsed into a single bearer-capability address), Tunnet keeps a real identity system and policy engine; tailcat has no membership or ACL beyond a node-key allowlist, at the cost of losing mesh routing and multi-party semantics entirely.
+
 The key architectural difference: Tunnet is a **single identity system with a unified policy engine** where mesh, serve, tunnel, send, and SSH all share the same routing table, ACL, and connection pool. Most competitors treat these as separate products or bolt them on.
 
 #tool #project #networking #vpn #p2p #security

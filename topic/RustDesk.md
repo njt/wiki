@@ -149,6 +149,7 @@ Opt-in via `plugin_framework` Cargo feature. Native DLLs loaded at runtime, each
 ## Comparison Notes
 
 - **[[Tunnet]]**: Both are Rust networking tools, but RustDesk is remote desktop (application layer) while Tunnet is mesh VPN (network layer). Complementary: you could use Tunnet to provide the encrypted network and RustDesk for the remote desktop protocol on top.
+- **[[Tailcat]]**: Tailscale's netcat — the same NAT-traversal-plus-encrypted-relay-fallback shape, generalized from remote desktop to an arbitrary encrypted pipe (stdin/stdout, ports, UDP, files, SSH) with no account and no control plane.
 
 ## Related Pages
 

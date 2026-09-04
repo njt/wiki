@@ -662,6 +662,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Celly — Native .NET CEL Implementation]] — Pure C# implementation of Google's Common Expression Language: 100% spec conformance, zero dependencies, faster than the Go reference on comprehension-heavy workloads
 - [[Document Generation in .NET]] — Deepika Kathiravan's four-way taxonomy of C# document generation: code-built, HTML-to-PDF, headless libraries, and template-based with editor — with the organizational question "who owns the template?" as the real decision criterion
 - [[Tunnet]] — Open-source mesh VPN platform bundling mesh networking, serve, tunnel, send, and SSH under one identity system and policy engine. Rust (~26K lines) on iroh/QUIC, two modes (Managed with control plane, Direct with CRDT membership), self-hosted relay
+- [[Tailcat]] — Tailscale's data plane with the control plane deleted: a netcat-like encrypted pipe (WireGuard + magicsock NAT traversal + DERP relay) addressed by a compact `tc…` bearer-capability address. Go library + CLI serving pipes, ports, exit nodes, SSH, and SFTP, plus a WASM web demo
 
 ## Local & Personal Computing
 
