@@ -36,7 +36,7 @@ This is the most interesting governance detail. A Tailscale employee actively ma
 
 **Connections:** This sits in the same self-hosting ecosystem as [[Self-Hosted LLMs]] (run your own AI inference), [[PiClaw]] (run your own agent), [[Portless]] (run your own local dev routing), and [[tolaria]] (run your own knowledge base). The pattern is consistent: take a SaaS product, identify the piece you can't tolerate being cloud-dependent, and reimplement just that piece. Headscale is arguably the most successful example of this pattern in the networking space. It also connects to [[Security and Sandboxing]] -- if you're sandboxing agents and controlling their network access, you might want the network itself to be self-hosted too. And the governance question -- a commercial company's employee maintaining the open alternative -- echoes tensions discussed in [[AI Killing B2B SaaS]] about open-source disrupting commercial software.
 
-The networking layer is notably absent from this wiki so far. Headscale is a useful anchor for a "self-hosted infrastructure" thread that connects VPN, inference, agents, and knowledge management.
+The networking layer is notably absent from this wiki so far. Headscale is a useful anchor for a "self-hosted infrastructure" thread that connects VPN, inference, agents, and knowledge management. The clean counterpoint is [[Tailcat]]: where Headscale reimplements the control server, tailcat deletes it — Tailscale's data plane alone, identity collapsed into a single bearer-capability address with no membership or ACL.
 
 ---
 *Sources: [[summary/headscale]]*
