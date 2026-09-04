@@ -62,6 +62,8 @@ El-Deeb's [[Hidden Inefficiencies Behind Delivery Delays]] extends Hebert's argu
 
 [[The Wicked Reason Removing Code Beats Better Scheduling]] extends the same structural error to frontend performance: resource scheduling/reordering is the queue — it defers bytes rather than eliminating them, and in the tail of the connection curve the deferred work still lands on the main thread as "thuds" that show up in INP data. Removing code is the load-shedding equivalent — cut the bytes on the wire rather than resequence them.
 
+Autoscaling is the capacity-side cousin of this argument: instead of back-pressure or load-shedding, you add pods to absorb the load — but [[The Component Substitution Fallacy]] shows the red arrow can hide in a place your scaling policy never watches. In GitHub's 2026 outage a saturated Istio sidecar went unscaled because the policy only watched host load, and Hochstein's deeper point is that fixing that component still wouldn't explain the outage: the failure was an interaction of traffic, policy, sidecar saturation, retry logic, and HAProxy load, not one broken part.
+
 ---
 
 *Source: Fred Hebert, [ferd.ca](https://ferd.ca/queues-don-t-fix-overload.html), November 19, 2014. Fetched 2026-06-12.*

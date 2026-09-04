@@ -61,6 +61,7 @@ Commentary: The blameless postmortem truism, restated with precision. Dave doesn
 - [[Fixing Bugs in Event Sourcing is Hard]] — The event-sourcing-specific variant of step 4 (fix and verify): event immutability means the original inputs survive the fix, so verification doesn't require reconstructing the past from guesswork
 - [[Guardrails and Feedback Loops]] — The single control Dave asks for in step 6 is a guardrail; the blameless review is a feedback loop
 - [[AI-Assisted Database Work — The Machine Reads, The Human Decides]] — Dave's later field report extends the pattern from reactive data quality to proactive AI-assisted understanding: the machine reads at volume, the human verifies and decides. The same verification discipline that underlies this playbook (step 4: "a fix you haven't verified is a hopeful edit") is the structural keystone of all nine AI-assisted workflows
+- [[The Component Substitution Fallacy]] — David Woods's warning that post-incident review fixates on the defective component; the interaction of factors is what actually took the system down. The same systems lens Dave's step 6 (blameless review) is built to preserve — hunt the interaction, not the single broken part.
 
 ---
 *Sources: [[raw/bad-data-production-response-playbook]]*
