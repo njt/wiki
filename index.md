@@ -337,6 +337,7 @@ Evals, testing, linting, feedback loops, and keeping agent output trustworthy. *
 - [[Prompt Debt]] — Drew Breunig names the technical debt unique to AI systems: natural-language prompts degrade from asset to liability as edge cases, repeated instructions, and model-specific fixes accumulate. The antidote: specify behavior with measurements (evals, metrics, typed specs) and stop writing prompts by hand — search the prompt space algorithmically instead
 - [[Shipping AI Agents to Production]] — HBR sponsored (AWS/Arize): the production-agent gap is a verification problem, not a modeling one — agents break the deterministic-testing playbook, so the fix is a five-component feedback loop (traces, layered evals, production traces as golden data, pre-ship experiments, CI gating) and the thesis that context, not the model, is the durable advantage
 - [[Shieldstral]] — Mistral's 3B Apache 2.0 multimodal safety classifier: policy-as-prompt at inference time, matches models 7× its size on content moderation, runs on a single 16GB GPU
+- [[Analytical AI]] — Sutro's named category for LLMs that *decide* rather than *create*: processing unstructured data into scaled operational decisions. Measurable against ground truth, discriminative not generative, latency-tolerant (batch/OLAP). The key move: evals and judges are themselves analytical AI
 
 ## Security & Sandboxing
 

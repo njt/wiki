@@ -58,6 +58,7 @@ Even after the opaque-ID trick, the remaining 8% error is dominated by one confu
 - [[Tone LLM]] — The contract/adapter pattern: LLM fills a constrained output schema, deterministic code handles the rest. Helgevold's opaque IDs are the same pattern at smaller scale
 - [[Smart Models Dumb Pipes]] — LLMs as judgment machines, not Q&A machines. Classification is judgment; the two-char code output makes it a dumb pipe downstream
 - [[A Non-Anthropomorphized View of LLMs]] — LLMs as functions through ℝⁿ. Fine-tuning for classification is a particularly clean case: you're optimizing a function to map questions to categories, nothing more
+- [[Analytical AI]] — Sutro generalizes Helgevold's move into a principle: analytical tasks are discriminative, so "the task can often be run on the smallest possible model that's been evaluated for task accuracy." A 600M-parameter classifier is the textbook case — decide, don't create, and shrink the model until the eval says stop
 
 ---
 *Sources: [[summary/fine-tuning-local-llm-categorize-questions]]*
