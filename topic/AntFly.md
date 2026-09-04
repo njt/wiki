@@ -115,7 +115,11 @@ distributed system designed for production AI workloads at scale. Unlike [[Strea
 analytics connector. Its multi-Raft design contrasts with [[Meerkat — QuePaxa Consensus
 at Cloudflare]], which uses leader-optional QuePaxa for throughput over Raft's stronger
 consistency guarantees. Like [[Nubase]], it bundles backend infrastructure (database,
-auth, storage) for AI-native applications.
+auth, storage) for AI-native applications. [[LatticeDB]] is the same hybrid
+graph+vector+BM25 thesis at the opposite pole: an embedded, single-file,
+single-writer Zig library with no consensus, no cluster, and no write-time AI
+enrichment — where AntFly distributes the engine, LatticeDB shrinks it to one
+machine for Graph RAG and agent-memory workloads.
 
 The algebraic sidecar research is conceptually related to [[Context Graphs]]' thesis that
 typed edges beat vector similarity for retrieval — both treat database state as structured
