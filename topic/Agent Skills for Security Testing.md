@@ -98,6 +98,8 @@ Using `log.txt` + grep rather than structured mitmproxy parsing is the project's
 
 - **vs. [[Audit Skills for AI Coding Agents (metacircu1ar)]]**: Another flat skill library for AI coding agents, but working against source code (static analysis) rather than runtime traffic. Audit-skills covers broader surface area (resilience, performance, type safety, iOS launch) with 624 lines across 11 skills; security-skills is narrower but deeper, with 4,000+ HackerOne reports backing its vulnerability-specific grep patterns. Complementary: use audit-skills for broad launch-readiness, then security-skills for deep vulnerability hunting on deployed applications.
 
+- **vs. [[bt-re-controller — Bluetooth Firmware RE Skill]]**: Both encode domain expertise as agent skills, but the shapes are opposite. This library is 16 flat, independent grep recipes that trust the model's synthesis; bt-re-controller is one deep ~35-phase DAG with deterministic Python tooling and a rule that the model must *never* name anything from memory — it looks up spec opcode tables instead. The contrast is "many shallow skills" vs. "one deep pipeline."
+
 The project occupies a unique niche: it's a **knowledge transfer mechanism** that encodes human pentesting expertise into LLM-consumable skill prompts. The "4,000+ HackerOne reports" is the moat — the skills encode patterns only learnable from large-scale bounty analysis, not from reading documentation.
 
 ---
