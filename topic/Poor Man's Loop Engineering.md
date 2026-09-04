@@ -55,6 +55,8 @@ The closing warning, and the article's most important sentence. It echoes Osmani
 
 **Where it sits in the wiki:** this is the *lower bound* counterpart to [[Loop Engineering]]'s taxonomy and the *single-agent-plus-review* counterpart to [[Designing Agentic Loops]]'s "tests as the force multiplier." Willison argues tests make loops converge; this article argues that convergence still needs an independent reviewer, because a passing test suite can't catch a wrong goal or a missing requirement. The two are complementary, not competing.
 
+**The autonomous version of this floor** is [[Building Autonomous Goal Loops That Deliver]], which names exactly what "poor man's" leaves implicit: a harness that exposes a real failure, locates the missing capability, and preserves the lesson across sessions. It splits the test suite into a deterministic *floor* (behavior already earned) versus *direction* (driving a real request and inspecting the shortfall), and adds a Free/Propose/Frozen authority model so the scorer itself can't be gamed by the loop it measures.
+
 ---
 
 *Sources: [[raw/poor-mans-loop-engineering]], [[summary/poor-mans-loop-engineering]]*
