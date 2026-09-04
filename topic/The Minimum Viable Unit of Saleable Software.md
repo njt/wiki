@@ -56,6 +56,8 @@ The strongest part is the Jira break-even math, because it's falsifiable and spe
 
 Brandur's pricing insight — sublinear, team-based, not per-seat — is genuinely underrated. Per-seat pricing is the SaaS industry's original sin: it creates an incentive for customers to minimize usage while the vendor maximizes features. Team-based pricing (River Pro at $125/mo for up to 20 devs) aligns incentives: the vendor wins when the team grows, and the customer doesn't pay a tax on headcount. More SaaS products should price this way, and the AI-displacement threat might finally force them to.
 
+[[The Golden Age of Open Source Applications]] complicates the framework from a third angle Brandur never considers: adoption instead of building. Graham's company doesn't rebuild Jira — it takes an existing open-source clone 80% of the way there and has an agent wire up the last 20%. That route has no build cost and no novelty requirement, so it slips entirely past the zone-of-viability filter. The cost it doesn't escape is maintenance — which lands on the open-source maintainer, not the company.
+
 **Verdict:** A crisp, useful framework wrapped in a founder's self-talk. The zone-of-viability model is portable to any SaaS product decision. The 37-month Jira break-even is the specific number worth remembering. The open question — how fast the "sufficient novelty" bar rises as LLMs improve — is the one Brandur is betting his livelihood on.
 
 ---
@@ -68,6 +70,7 @@ Brandur's pricing insight — sublinear, team-based, not per-seat — is genuine
 - [[Writing Code vs. Shipping Code]] — the gap between AI generation speed and real-world delivery: 180% gains at commit level, 30% at release
 - [[Things You're Allowed to Do]] — the permission structure Brandur is operating within: quitting a job to build a paid product
 - [[Software Engineering Craft]] — hub for fundamentals that LLMs accelerate but don't eliminate
+- [[The Golden Age of Open Source Applications]] — the "adopt + customize" route that bypasses Brandur's build-vs-buy filter entirely
 
 ---
 

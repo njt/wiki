@@ -72,6 +72,8 @@ The Jevons paradox rebuttal to the "costs are falling" argument is the most impo
 
 **The unanswered question:** What's the new LTV/CAC math? The piece says the old playbook stops working but doesn't sketch what replaces it. At 52% margins, with usage-based pricing, with variable cost-to-serve — what does "good unit economics" actually look like? The ICONIQ data suggests companies are getting better at cost management (41% → 52% over two years), but even at 52%, the venture math is fundamentally different. Someone needs to do that math.
 
+The demand-side mirror of this piece is [[The Golden Age of Open Source Applications]], whose closing comparison — "$300/month SaaS vs. free software my agent installed" — quietly assumes the installing agent is cheap. If agent labor itself runs on per-token inference, a company that fires its SaaS subscription in favor of an open-source project plus an agent has not escaped the variable-cost trap this page describes; it has relabeled it.
+
 ---
 
 ## Related
@@ -85,6 +87,7 @@ The Jevons paradox rebuttal to the "costs are falling" argument is the most impo
 - [[AI Value Chain]] — Where durable value sits across the AI stack; the three questions that determine who captures margin
 - [[Managing AI Coding Costs at Scale]] — The solutions companion: Databricks's cross-company playbook (Stripe, Coinbase, Uber, Ramp) for the cost problem this page diagnoses — efficiency-frontier model selection, meta-harnesses, progressive budgets, context reduction, and the AI Gateway as infrastructure
 - [[The AI Productivity Paradox]] — Output vs. outcomes; this piece adds: even *good* outcomes may not produce good margins
+- [[The Golden Age of Open Source Applications]] — the demand-side companion: open source becomes cheaper to *consume* via agents, but only if agent inference stays cheaper than the SaaS premium
 
 ---
 
