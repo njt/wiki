@@ -28,7 +28,7 @@ The closing line is disarming and accurate. Articles like this have a half-life 
 
 ### The Disposable VM Pattern
 
-Denicola's setup is a specific flavor of the VM-based approach: a single Ubuntu Server VM on Hyper-V, quick to create and quick to replace. This isn't the cloud-VM-per-task model (contrast [[Claude Code on the Go]], which uses cloud VMs for parallelism). It's a personal server that happens to be virtualized, running on always-on home hardware. The disposability is a safety property — if an agent trashes the VM, you rebuild it — but it's not the primary motivation.
+Denicola's setup is a specific flavor of the VM-based approach: a single Ubuntu Server VM on Hyper-V, quick to create and quick to replace. This isn't the cloud-VM-per-task model (contrast [[Claude Code on the Go]], which uses cloud VMs for parallelism). It's a personal server that happens to be virtualized, running on always-on home hardware. The disposability is a safety property — if an agent trashes the VM, you rebuild it — but it's not the primary motivation. Jake Saunders' [[Self-Hosted Sandboxed Agentic Software Factory]] pushes the disposability harder: the *entire box* is sacrificial (a used eBay i7) and the sandbox is network-shaped — no external ingress, Tailscale-only reach, and DNS-01 "ghost" SSL certs so the agent's services never surface in public DNS.
 
 ### Tailscale as Agent Infrastructure
 
