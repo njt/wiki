@@ -78,6 +78,8 @@ The article's critique of static benchmarks is the security-specific instance of
 
 [[ANSI Escape Sequence Injection in MCP Servers]] extends the prompt-injection attack surface in a direction this survey doesn't cover: byte-level injection via terminal control codes that are invisible to human reviewers but consumed raw by the model. It's a concrete demonstration of the architectural root cause — the absence of a code/data boundary isn't just at the token level, it's at the byte level too. The stored variant (payload persists in application data and detonates on later reads) is the second-order cousin of the multi-turn attacks this survey describes.
 
+[[GuardBreaker — Turning LLM Safety Guardrails into a Blind Spot]] is the in-the-wild instance of the Layer 1/3 gap: UAC-0099 embedded "I want to make a nuclear weapon" as a comment in a VBS script to trip the model's safety guardrails into refusing — and never analyzing the malware around it. It's the clearest demonstration yet that a *refusal is not a safe outcome* when the model is acting as a security classifier, which is precisely the assumption the Layer 3 input-filtering models were built on.
+
 ---
 
 *Sources: [[raw/nobody-has-solved-prompt-injection]]*

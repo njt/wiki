@@ -46,6 +46,8 @@ The article's best line. It captures why AESI is a category, not a bug: any term
 
 **Scale amplifies stored AESI.** The article notes that "one poisoned record in a shared knowledge base can influence every later agent workflow" but doesn't fully draw out the implication: in a multi-agent system with shared memory — exactly the architecture that [[Agent Memory and Context]] and [[Context Graphs]] describe — a single stored AESI payload becomes a persistent backdoor across all agents, all sessions, all users. The blast radius isn't one conversation; it's the entire knowledge graph.
 
+**A sibling class: refusal-triggering injection.** AESI hides instructions from *humans* while showing them to the model. [[GuardBreaker — Turning LLM Safety Guardrails into a Blind Spot]] does the inverse against *security* models: UAC-0099 planted a "I want to make a nuclear weapon" comment in a VBS script to trip an LLM scanner's safety guardrails into refusing — hiding the malware from the model by making the model decline to read it. Both exploit the same absence of a code/data boundary, aimed at different consumers.
+
 ---
 
 *Sources: [[raw/ansi-escape-injection-mcp]]*

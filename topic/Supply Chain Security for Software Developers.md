@@ -88,6 +88,8 @@ This is the same argument made in [[Security and Sandboxing]]: no single constra
 
 **The registry-level response is arriving.** In August 2026, Microsoft announced NuGet.org will cut API key lifetimes from 365 days to 30 days and expire all legacy keys by November 2026, while pushing publishers toward OIDC-based Trusted Publishing. This is the same architectural pattern that failed axios — and the same coexistence danger applies: teams must delete old API keys after migrating, not leave them sitting in CI variables alongside the new OIDC flow. See [[NuGet API Key Lifetime Reduction]].
 
+**The TeamPCP follow-up landed in September 2026.** Two alleged members — Ruben Ian Thomson (21) and Louis Michael Gaebler (23), both of Western Australia — were arrested for the supply-chain spree, and Flare's report traced the TeamPCP/DeadCatx3 personas to Thomson as leader. The same group's Mini Shai-Hulud campaign added a new twist: fake biological- and nuclear-weapons instructions planted in Python packages to force AI security scanners into a refusal state — the anti-analysis tactic documented in [[GuardBreaker — Turning LLM Safety Guardrails into a Blind Spot]].
+
 **The missing piece: developer experience.** The gist is configuration-focused, but nobody talks about what happens when a package is blocked by the age gate and a developer can't get their work done. The workflow for "consciously bypass the gate for this specific CVE fix" needs to be just as smooth as the gate itself, or the gate will be disabled wholesale.
 
 ---
