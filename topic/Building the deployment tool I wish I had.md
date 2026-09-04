@@ -67,6 +67,7 @@ For teams, the optimistic concurrency model would break. The article admits this
 - [[Software Engineering Craft]] — this is craft: recognizing that a Python script won't scale, building the right abstraction, shipping it
 - [[Headscale]] — self-hosted infrastructure tooling; same spirit of running your own stack
 - [[Microservices for the Benefits, Not the Hustle]] — Deptool is microservice-scale tooling for personal infra: the right amount of architecture for the problem
+- [[Miren]] — the opposite end of the deployment spectrum: a "one tool, every target" PaaS that bundles databases, auth, previews, and per-sandbox workload identity in declared config, versus Deptool's single-user config-distribution minimalism
 
 ---
 
