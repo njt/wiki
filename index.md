@@ -29,6 +29,8 @@ Cross-cutting analysis that pulls threads across individual pages.
 
 Practices, workflows, and opinions about building software with AI coding agents. **Hub: [[Agent Coding Workflow]]**
 
+- [[Dmitry Sotnikov's LLM Workflow]] — Dmitry Sotnikov's (yogthos, Jolt) practical workflow for LLM-assisted development: the agentic loop as a genetic algorithm with tests as selection pressure, the evil-genie naive-implementation trap, revert-don't-debug, and Behavior Trees demoting the model to a leaf node in a deterministic control structure
+
 - [[The End of Code Review]] — Martin Monperrus argues coding agents have crossed the threshold where mandatory human code review is indefensible; the review bottleneck, rubber-stamp collapse, and agent-in-the-loop verification as resolution
 - [[Agentic Code Review]] — Addy Osmani's definitive 2026 field guide: the bottleneck shifted from writing code to trusting it (861% churn, 441% longer reviews), human-on-the-loop as the resolution, and seven concrete practices for teams
 - [[Poor Man's Loop Engineering]] — The minimum viable agent loop: give the agent a way to test its own work plus independent adversarial review by two fresh, cross-model agents. The "poor man's" two-ingredient counterpoint to [[Loop Engineering]]'s full taxonomy
