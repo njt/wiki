@@ -64,6 +64,8 @@ An honest limitation statement that names a real failure mode. Single-voice TTS 
 
 [[MiniMax Models]] covers a commercial speech API with 40 languages; Inflect is the open-source counterpoint — one language, one voice, zero API calls.
 
+[[Piano Autocomplete — On-Device Music Copilot]] is the same compact-model-on-device move in a different modality: a 125M-parameter transformer doing next-note prediction at ~108 notes/sec on an iPhone 15. Inflect's 9.4M-param TTS and that 125M-param piano model are two data points in an emerging genre — a complete, useful model per modality, small enough to run with no cloud.
+
 ---
 
 *Sources: [[raw/inflect-micro-v2]]*

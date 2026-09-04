@@ -53,6 +53,7 @@ Smart funnel design. 20 seconds is enough to verify accuracy on the hardest pass
 - [[Handy]] — Free open-source speech-to-text. The open-source alternative pattern: local, free, no account. Klangio's opposite: cloud, paid, account-based. The tradeoffs are genuine, not marketing.
 - [[ytx How to Write Interesting Chord Progressions]] — Music theory analysis. Klangio's transcription output is the input to this kind of analysis — transcribe a song, then analyze its harmonic structure.
 - [[All of Me Jazz Standard Analysis]] — Same pipeline logic: transcribe first, analyze second. Klangio automates step one.
+- [[Piano Autocomplete — On-Device Music Copilot]] — the forward direction around MIDI. Klangio reads what was played (audio → notes); autocomplete predicts what comes next (notes → continuation). Both make MIDI the machine interface to music, in opposite directions.
 
 ---
 *Sources: [[summary/klangio-transcription-studio]], https://klang.io/transcription-studio/*
