@@ -55,6 +55,7 @@ The pattern also applies at the UI feature level, not just the architecture leve
 - [[The Dark Factory is a DOT File]] — The pipeline spec is the judgment layer; the factory code is the dumb pipe
 - [[Feedback Loop is All You Need]] — The self-tightening loop that McCormick's clean separation does not account for
 - [[Organizational Intelligence Systems]] — a production instantiation of the pattern applied to organizational analysis: internal data is the evidence layer (dumb pipe), expert frameworks (Google SRE, Team Topologies) are the judgment layer (smart model), and neither substitutes for the other
+- [[Analytical AI]] — Sutro names the category this pattern lives in: "if the AI's job is to decide something, rather than create something, it's analytical AI." The judgment work McCormick isolates is a decision task, which is why it's measurable against ground truth and can run on the smallest evaluated model rather than the largest
 
 ---
 
