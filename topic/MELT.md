@@ -110,7 +110,7 @@ MELT is the only benchmark that systematically tests **temporal memory dynamics*
 
 [[Agentic Context Management]] reaches the same conclusion from the vendor side: Maximem's arXiv paper reports 92.0% LongMemEval / 93.2% LoCoMo but explicitly disclaims that these benchmarks measure recall, not latency, token efficiency, or context-rot resistance — the same per-axis honesty MELT enforces structurally. Its residual errors concentrate in LongMemEval's multi-session category (75.2%), which the paper names as the "reasoning-sufficiency regime" — exactly the temporal, cross-session dynamics MELT's lifecycle axes are built to probe and static retrieval benchmarks cannot.
 
-Related memory infrastructure that could be evaluated through MELT's SUT adapter contract: [[Sawtooth Memory]], [[Mnemo]], [[LocalAI]] (includes memory service), [[Claude-Mem]].
+Related memory infrastructure that could be evaluated through MELT's SUT adapter contract: [[Sawtooth Memory]], [[Mnemo]], [[LocalAI]] (includes memory service), [[Claude-Mem]], [[Lemmalog — LLM Memory as Program Analysis]] (whose retractions and validity intervals are a direct implementation of MELT's correction, contradiction, and as-of-recall axes).
 
 ---
 
