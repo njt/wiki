@@ -76,6 +76,8 @@ Unlike [[ZeroTier]] (custom P2P protocol with root servers), Tunnet uses standar
 
 The key architectural difference: Tunnet is a **single identity system with a unified policy engine** where mesh, serve, tunnel, send, and SSH all share the same routing table, ACL, and connection pool. Most competitors treat these as separate products or bolt them on.
 
+[[Tailport]] is the minimal counterpoint: instead of building its own mesh it delegates entirely to Tailscale — shelling out to the `tailscale` CLI for serve/funnel and layering only a TUI, a port registry, and a Caddy-edge publish path on top.
+
 #tool #project #networking #vpn #p2p #security
 
 ---

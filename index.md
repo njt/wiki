@@ -654,6 +654,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Subspace]] — AI agent skill that opens a Markdown file in a native terminal TUI for human review and returns structured, validated feedback (comments + suggested edits with text-selector anchoring) to the same agent session — without granting approval authority. Plugin for Claude Code and Codex, backed by a proprietary TUI binary
 - [[Celly — Native .NET CEL Implementation]] — Pure C# implementation of Google's Common Expression Language: 100% spec conformance, zero dependencies, faster than the Go reference on comprehension-heavy workloads
 - [[Document Generation in .NET]] — Deepika Kathiravan's four-way taxonomy of C# document generation: code-built, HTML-to-PDF, headless libraries, and template-based with editor — with the organizational question "who owns the template?" as the real decision criterion
+- [[Tailport]] — Go TUI that lists locally listening TCP ports and toggles `tailscale serve`/`funnel` (or a Caddy-edge publish) per port, making a dev server tailnet- or publicly reachable in one keystroke. Reachability derived from bind scope; conflict-safe Caddy edge via optimistic concurrency and byte-faithful undo
 - [[Tunnet]] — Open-source mesh VPN platform bundling mesh networking, serve, tunnel, send, and SSH under one identity system and policy engine. Rust (~26K lines) on iroh/QUIC, two modes (Managed with control plane, Direct with CRDT membership), self-hosted relay
 
 ## Local & Personal Computing
