@@ -79,6 +79,7 @@ These aren't framed as "best practices." They're framed as what you must do beca
 - [[Thinking Hard Burns Almost No Calories]] — mental fatigue isn't energy depletion, it's adenosine hijacking perceived exertion; related but orthogonal to working memory limits
 - [[The Art of Decision-Making]] — Rothman's essay names the same problem from the other side: bounded rationality means our biggest life choices can't be optimized, and the philosophers he surveys argue that's a feature — transformative choices reconfigure the values by which we'd evaluate them
 - [[The Wrong Abstraction]] — Sandi Metz diagnoses the sunk cost fallacy as a bounded-cognition failure in software design: the cognitive load of questioning an existing abstraction exceeds working memory, so engineers default to adding one more parameter instead. Her prescription — inline first, let callers reveal their true needs — is a cognitive offload in Williams's terms: moving complexity out of your head and onto the page.
+- [[The Component Substitution Fallacy]] — David Woods's diagnosis that reliability work fixates on the defective component, when the interaction is what fails. Hochstein's corollary lands in Williams's territory: an autoscaling policy is a bespoke control system handed to a service owner who isn't an autoscaling expert — designing for the constrained operator, or pretending the constraint away.
 
 ---
 *Source: [[summary/bounded-cognition]]*
