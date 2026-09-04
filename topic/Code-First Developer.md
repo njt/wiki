@@ -38,7 +38,7 @@ Stemmler's advice is to go *depth-first* on a single stack: "Build an informatio
 
 This is Stemmler's sharpest claim and the one that's aged best. He observed — pre-GPT-4, even — that AI tools were about to make code-generation ability a commodity and shift value toward people who could think in systems, not syntax. The "Value Differential" is the gap between what the market will pay for pure coding skill versus what it will pay for architectural judgment.
 
-This connects directly to [[Writing Code vs. Shipping Code]], which finds empirically that AI-driven commit gains attenuate from 180% to 30% at the release level: writing code got cheap, but shipping software didn't.
+This connects directly to [[Writing Code vs. Shipping Code]], which finds empirically that AI-driven commit gains attenuate from 180% to 30% at the release level: writing code got cheap, but shipping software didn't. [[DDD Matters More When AI Writes Your Code]] makes the same bet from the modeling side: when AI writes the code, the scarce skill shifts from syntax to understanding the domain well enough to guide the agent — DDD's knowledge crunching, not framework expertise.
 
 ## Burnout and the Mastery Thesis
 
