@@ -120,6 +120,8 @@ Prime Intellect's [[Prime Agent (RLM Harness)]] takes the harness-engineering ph
 
 The organizational identity question — whose job *is* this? — has a convergent answer: [[Platform Engineering as the AI Control Plane]] argues that harness engineering isn't a new discipline but platform engineering with an AI-specific layer. Model approval, cost governance, agent authorization, and the feedback loops that route lint/security findings back into the agent all fall naturally under the platform team's existing remit of "building shared toolchains that reduce friction." The article's prediction that more engineers will end up on the platform side than the product side is the logical endpoint of Lopopolo's 3-7 person team producing what once required dozens.
 
+**The scorer and outer loop, added:** [[Building Autonomous Goal Loops That Deliver]] fills the article's biggest gap — what gates the gatekeeper. Its four-role harness (development agent, driver, scorer, controller) plus a Free/Propose/Frozen authority model keeps the loop from grading its own repair, and it assigns the direction loop to a human who reads a batch of evidence and decides continue, redirect, or stop. Where Lopopolo encodes judgment as lint rules, the jx0.ca design also constrains the *measure* — the scorer is part of the threat model, not just the agent.
+
 ---
 
 *Sources: [[summary/harness-engineering-openai]]*
