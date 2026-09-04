@@ -176,6 +176,7 @@ Using a decoder-only architecture (rather than encoder-decoder like T5, or full 
 - **vs Chronos (Amazon)**: Both are pretrained time series transformers. Chronos uses a T5-style encoder-decoder and tokenizes by binning values into a fixed vocabulary. TimesFM uses decoder-only with patch tokenization — more similar to how GPT handles text. Chronos is larger (200M–710M params vs TimesFM's 200M) but TimesFM supports longer context (16K vs Chronos's 512).
 - **vs Lag-Llama**: Lag-Llama uses lag features as tokens in a decoder-only model. TimesFM's patching approach is simpler — no need to choose which lags matter — but potentially less interpretable.
 - **vs TimeGPT (Nixtla)**: TimeGPT is a commercial API with a similar "one model forecasts everything" promise. TimesFM is open-source, runs locally, and the Flax version can leverage TPU parallelism. TimeGPT has a more polished API but you can't inspect, modify, or self-host it.
+- **Beyond time series**: the decoder-only, next-token-prediction recipe isn't unique to forecasting. [[Piano Autocomplete — On-Device Music Copilot]] tokenizes MIDI notes and predicts the next note on-device (125M params, ~108 notes/sec on an iPhone) — the same "GPT for X" move, applied to music.
 
 ---
 
