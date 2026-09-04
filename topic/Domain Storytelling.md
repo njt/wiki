@@ -64,7 +64,7 @@ Henning Schwentner's three rules for a first workshop are deceptively simple and
 
 **What's missing:** The Event Sourcing gap is honest but the proposed fix (switch to Event Storming for technical design) sidesteps the deeper question: can a scenario-based, cooperation-focused modeling method ever produce good event-driven architectures, or does it naturally bias toward synchronous, request-response thinking? The sentence grammar (subject-verb-object) maps cleanly to commands, but events — things that *happened* — don't have a natural actor in the same way. This isn't a flaw in Domain Storytelling so much as a recognition that different modeling grammars reveal different aspects of a system.
 
-**The AI angle is tantalizing but thin:** The interview mentions that domain stories are being used to feed domain knowledge into LLMs to generate mock-ups and APIs. This is a throwaway line but it points at something significant: a structured, sentence-level domain model is exactly the kind of artifact an LLM could consume to generate implementation scaffolding. If Domain Storytelling's grammar becomes machine-readable (Egon.io already has an open format), it could become a bridge between domain experts and AI-assisted implementation.
+**The AI angle is tantalizing but thin:** The interview mentions that domain stories are being used to feed domain knowledge into LLMs to generate mock-ups and APIs. This is a throwaway line but it points at something significant: a structured, sentence-level domain model is exactly the kind of artifact an LLM could consume to generate implementation scaffolding. If Domain Storytelling's grammar becomes machine-readable (Egon.io already has an open format), it could become a bridge between domain experts and AI-assisted implementation. [[DDD Matters More When AI Writes Your Code]] builds that bridge from the DDD side: Smółka argues the model's value is the team's shared understanding, not an artifact an agent can generate — so a machine-readable domain story is exactly what an agent should consume, and exactly what the team must still own.
 
 **Henning vs. Stefan:** The interview doesn't distinguish their contributions enough. Hofer comes across as the practitioner with war stories; Schwentner as the methodologist who names the patterns. Both are necessary, but the practitioner voice is more persuasive. "We tried it and it worked" beats "here's the theory" every time.
 
@@ -76,6 +76,7 @@ Henning Schwentner's three rules for a first workshop are deceptively simple and
 - [[Engineering for Bounded Cognition]] — Working memory as the constraint; Domain Storytelling's sentence-at-a-time iteration is designed for the ~4-chunk working memory limit
 - [[The Joy and Power of Understanding]] — Understanding as pragmatic path and intrinsic reward; Domain Storytelling is a method for achieving shared understanding
 - [[Discovery Debt]] — The accumulated weight of untested assumptions; Domain Storytelling is a discovery-debt prevention technique
+- [[DDD Matters More When AI Writes Your Code]] — Smółka's argument that DDD's ideas (knowledge crunching, ubiquitous language, design before code) matter more when AI writes the code; domain stories are the shared understanding an agent can't substitute for
 
 ---
 *Sources: [[summary/domain-storytelling-interview]]*
