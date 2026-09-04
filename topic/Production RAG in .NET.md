@@ -95,5 +95,9 @@ The earliest post in the series (Part 7, September 2024) implements 100% local R
 
 ---
 
+**Convergent confirmation on the cheap-stack bet.** [[Scaling RAG — Chunking, Reranking, and Cost Optimization]] reports the same conclusion from a different ecosystem, with the numbers attached: on a 500k-document system, the expensive stack (text-embedding-3-large + Pinecone Pro + Cohere rerank) ran $684/month at 78% recall, while the cheap stack (local embeddings + self-hosted Weaviate + local reranker) ran $120/month at 81% recall. Better chunking plus hybrid retrieval plus a local reranker beat a large embedding model over garbage chunks — the same "fix chunking before buying a bigger model" lesson Maguire arrives at via zombie vectors and `GroupBy` deduplication.
+
+---
+
 *Sources: [[raw/rag-in-net-the-complete-series]], [[summary/rag-in-net-the-complete-series]]*
 *Last updated: 2026-08-07*

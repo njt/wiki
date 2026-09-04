@@ -53,6 +53,7 @@ The companion piece to this would be "Just Brute Force Your Full-Text Search" �
 - [[Learning a Few Things About Running SQLite]] — Julia Evans' field report on the gap between "X is fine" and actually operating X; the same gap exists for brute-force embedding search in production
 - [[Your Distributed System Is Slower Than a Laptop]] — The COST paper's core argument, applied to vector search: single-machine brute force often beats distributed approximate systems on both cost and latency
 - [[Grimmory]] — A self-hosted digital library shipping the thesis in production: book recommendations from hand-rolled 128-dim hashed feature vectors and brute-force cosine over the whole catalog, stored as JSON in a MariaDB column — no vector database, no ANN index
+- [[Scaling RAG — Chunking, Reranking, and Cost Optimization]] — The same "measure before you buy infrastructure" instinct applied to the whole RAG stack: local embeddings + self-hosted Weaviate + a local reranker at $120/month beat a $684/month managed stack on recall, because the cheap path forces you to fix chunking instead of papering over it with a large model
 
 ---
 

@@ -40,6 +40,8 @@ The infrastructure simplicity argument — "just change the distance function" �
 
 The emergent-property observation is the deepest insight in the post. If model trainers started explicitly optimizing for binary-retrieval retention during training, the 95% number would likely go higher. This is an underexplored axis in embedding model development — most benchmarks still report float32 numbers, creating no pressure to preserve the sign-only signal.
 
+**The cost framing connects to the broader stack.** [[Scaling RAG — Chunking, Reranking, and Cost Optimization]] reaches the same destination from the other direction: its 5.7× cost reduction comes from swapping to local embeddings *and* self-hosted retrieval *and* a local reranker at once, and it reports the cheap stack scored *higher* recall (81% vs 78%) because it forced better chunking. Binary quantization is one more lever in that same drawer — another way to make the cheap local path fast enough that you never need the managed one.
+
 ---
 
 *Sources: [[raw/binary-vector-embeddings-are-so-cool]]*
