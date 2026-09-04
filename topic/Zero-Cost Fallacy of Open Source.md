@@ -57,6 +57,8 @@ The "gas town" identity crisis from the retreat has a parallel here: just as ind
 
 Compared to [[Who Owns the Code Claude Wrote]], which focuses on the legal question of AI-generated code ownership and copyright, this article addresses the economic question beneath the legal one: even if we sorted out ownership, the system still wouldn't work because value flows one way. Compared to [[Software Engineering at the Tipping Point]], Adam Bender's "AI is a 10× amplifier" thesis maps directly onto Ford and Gall's argument — AI amplifies whatever's already happening, and what was already happening in open source was slow-motion economic collapse.
 
+Against this, [[The Golden Age of Open Source Applications]] is the supply-side optimistic counter — Charlie Graham reads the same AI explosion as a Cambrian boom where open source becomes a deliberate distribution strategy (failed paid products open-sourced, free clones built from day one) rather than an exploited commons. The two accounts converge at exactly one point: Graham concedes "most of it will disappear," which is Ford and Gall's slow-motion collapse seen from the winning projects' side.
+
 The article's relationship to [[The Cost YAGNI Was Never About]] is worth noting: Kent Beck reframes YAGNI as options pricing; Ford and Gall are making a parallel argument about open source dependencies. Treating them as free is the ultimate YAGNI violation — you're deferring the cost to an unknown future where it may be catastrophic.
 
 ---
@@ -80,6 +82,7 @@ The article's relationship to [[The Cost YAGNI Was Never About]] is worth noting
 - [[Constraint Decay]] — LLMs lose accuracy under structural constraints; the spec-over-code thesis depends on models being able to faithfully implement specs, which this paper suggests is far from guaranteed
 - [[Don't Trust the Label — License Laundering in AI Supply Chains]] — the empirical measurement Ford and Gall's diagnosis implies: 62.3% of AI supply chains touch unlicensed artifacts, and the Permissive attractor strips obligations at every hop
 - [[The Open-Weight Deceleration Thesis]] — the same structural argument applied to AI models rather than code: free weights destroy the investment case for frontier training, exactly as free software destroyed the investment case for shrink-wrap
+- [[The Golden Age of Open Source Applications]] — the optimistic counter-reading: AI makes open source cheap to consume as well as build, monetized through hosting and support rather than the code itself
 
 ---
 *Sources: [[raw/zero-cost-fallacy-open-source-agentic-era]]*
