@@ -47,6 +47,7 @@ The companion piece to this would be "Just Brute Force Your Full-Text Search" �
 
 - [[Databases and Data]] — The hub page's "local vs. distributed" tension and the zvec entry ("billions of vectors on one machine") is the same argument applied to vector databases
 - [[zvec]] — Alibaba's in-process vector DB: the "embedded library, not a service" philosophy applied to vectors at larger scale
+- [[LatticeDB]] — an embedded property-graph database whose HNSW index claims 0.83 ms at 1M vectors with 100% recall: the "reach for a real ANN index" rung above brute force, bundled with graph traversal and BM25 in one file rather than sold as a standalone vector store
 - [[SQLite Is All You Need]] — The same argument for relational databases: modern hardware makes the "toy" option viable for production. Turnbull is doing for vector search what DB Pro did for SQLite
 - [[Playing with Vision Embeddings]] — Jensen's deep dive into what embeddings actually encode; Turnbull's post is about what you do with them once you have them
 - [[Learning a Few Things About Running SQLite]] — Julia Evans' field report on the gap between "X is fine" and actually operating X; the same gap exists for brute-force embedding search in production
