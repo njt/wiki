@@ -56,6 +56,7 @@ The pattern also applies at the UI feature level, not just the architecture leve
 - [[Feedback Loop is All You Need]] — The self-tightening loop that McCormick's clean separation does not account for
 - [[Organizational Intelligence Systems]] — a production instantiation of the pattern applied to organizational analysis: internal data is the evidence layer (dumb pipe), expert frameworks (Google SRE, Team Topologies) are the judgment layer (smart model), and neither substitutes for the other
 - [[Analytical AI]] — Sutro names the category this pattern lives in: "if the AI's job is to decide something, rather than create something, it's analytical AI." The judgment work McCormick isolates is a decision task, which is why it's measurable against ground truth and can run on the smallest evaluated model rather than the largest
+- [[How I Actually Use Agents]] — The personal endpoint of the same thesis: execution stopped being the bottleneck, judgment did, so the product becomes capturing and tracing your own judgment (a judgment graph with provenance and a correction loop) rather than executing work
 
 ---
 
