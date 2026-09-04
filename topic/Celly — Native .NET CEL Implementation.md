@@ -46,7 +46,7 @@ The .NET ecosystem has historically used home-grown expression evaluators or emb
 
 **The bet:** If you're building a .NET service that needs CEL — for policy evaluation, feature flags with complex conditions, or protovalidate integration — this is the clear choice. The conformance story alone justifies the dependency over rolling your own or using a less-complete alternative. But you're betting on a solo maintainer's continued investment.
 
-**For agentic systems:** CEL is the expression language that could let coding agents safely generate and evaluate policy rules. An agent writing `request.region in ['us-east', 'eu-west'] && request.tier >= 3` is far safer than one generating arbitrary C# or JavaScript. Celly makes that pattern available in .NET. Combined with the protovalidate package, it's a building block for agent-generated validation rules with deterministic, verifiable semantics.
+**For agentic systems:** CEL is the expression language that could let coding agents safely generate and evaluate policy rules. An agent writing `request.region in ['us-east', 'eu-west'] && request.tier >= 3` is far safer than one generating arbitrary C# or JavaScript. Celly makes that pattern available in .NET. Combined with the protovalidate package, it's a building block for agent-generated validation rules with deterministic, verifiable semantics. In [[Authorization Terminology]]'s terms, CEL sits on the *authorization policy* axis — the shape a rule takes — which is why a system can be ABAC in model and CEL in policy at once: two labels answering different questions, not competing.
 
 ## Related
 
