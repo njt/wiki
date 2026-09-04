@@ -26,6 +26,8 @@ Weak: cascading updates from single changes can be expensive (tokens and time). 
 
 The deepest limitation: the LLM's synthesis is only as good as the sources. Garbage in, well-formatted garbage out. The human's curation role is understated in the original proposal.
 
+A sharper dissent comes from [[Keep AI Out of Your (Obsidian) Vault]]: for a *personal* second brain, the problem isn't only garbage-in — it's that AI-written notes and AI-made connections aren't yours at all. mehdio argues the pattern automates away the very act of linking an idea yourself, which is where insight comes from, and that "your notes will be prompts or libraries for AI tomorrow, but not if you generate them." The pattern is safest as retrieval and cross-referencing; generation is where it starts to eat the human's thinking.
+
 ---
 *Sources: [[summary/llm-wiki]]*
 *Last updated: 2026-05-14*

@@ -64,6 +64,8 @@ The thread split into two camps:
 
 Both sides are right about different things. The skeptics are right that agent-generated wikis degrade without human review. The practitioners are right that the alternative isn't a human-maintained wiki — it's no wiki at all. The question isn't "are agent wikis as good as human ones?" but "are agent wikis better than the context rot that happens without any wiki?"
 
+For a *personal* vault rather than a team's, [[Keep AI Out of Your (Obsidian) Vault]] lands squarely with the skeptics: mehdio quotes the same Reddit thread that dismissed Karpathy's auto-generated "LLM Wiki" as "not a useful way to actually learn," and argues that automating the links skips the thinking where your own ideas actually come from. The team-agent wiki's saving grace — that its reader is the next agent, not a human — doesn't apply when the vault is your second brain.
+
 ### Context Infrastructure as a Category
 
 WUPHF is part of an emerging category: tools that manage agent context as first-class infrastructure. This wiki itself is an instance of the same pattern. Other entries in this space:

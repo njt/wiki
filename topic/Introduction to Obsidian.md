@@ -30,6 +30,8 @@ The interesting tension: Hogan advocates minimal plugins and simple organization
 
 The "file over app" philosophy is the most durable insight here. Apps come and go; markdown files survive. Every tool in this wiki that stores knowledge in plain text -- [[life-system]], [[robot.wtf]], [[napkin]], [[Planning With Files]] -- is making the same bet Obsidian made, and it keeps paying off.
 
+A harder-line cousin of Hogan's minimalism is [[Keep AI Out of Your (Obsidian) Vault]]: it extends "keep it simple" into "keep the AI out," arguing that generated notes become "AI slop" that drowns out your own writing, and that search (Omnisearch, Smart Connections) is the one place AI genuinely earns its keep in a personal vault. Same file-over-app premise, opposite conclusion about how much of the vault should be machine-written.
+
 ---
 *Sources: [[summary/obsidian-introduction]]*
 *Last updated: 2026-05-14*
