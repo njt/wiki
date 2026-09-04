@@ -73,6 +73,7 @@ The closing punchline and the article's real thesis. Your job shifts from writin
 - [[Benchmarking AGENTS.md Changes]] — empirical evidence that instruction files matter
 - [[The Clanker Constitution]] — a pre-written, versioned seed for the "every mistake becomes a rule" file: Kenn's seven default operating principles, portable across repos and system prompts
 - [[Organizational Intelligence Systems]] — the CLAUDE.md/skill architecture applied beyond code: encoding organizational reasoning processes that combine internal data with expert frameworks for defensible decision-support analysis
+- [[Organizing Claude Code for Product Work]] — the same "compounding infrastructure" thesis, packaged for a non-technical PM: three folders keyed to rate of change, "nouns go in files, verbs go in skills," and "if you've said it twice, it belongs in a file"
 
 ---
 

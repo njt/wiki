@@ -68,6 +68,8 @@ This is a good article. It's not the best Claude Code field guide — [[Claude C
 
 **What's missing:** No discussion of *how* skills auto-activate or how to trigger them reliably. As [[Claude Code is a Beast — Tips from 6 Months of Hardcore Use]] discovered, the native Skills feature sometimes doesn't fire. The author's "just load them when needed" prescription needs an activation mechanism — hooks, conventions, or explicit `/skill` invocations — that's never addressed. Also, the multi-model review panel assumes access to all three models, which at current pricing ($200/mo Max plan minimum) isn't cheap. [[Thrifty (Tiered Delegation for Claude Code)]] offers a cheaper alternative by tiering between Sonnet and Haiku.
 
+**The PM filing system is the same thesis, different audience.** [[Organizing Claude Code for Product Work]] arrives at "workflow over prompts" from a non-technical direction — the switch from "how well you prompt" to "how well you file," a three-folder workspace keyed to rate of change, and "if you've said it twice, it belongs in a file" as the Two Corrections Rule reworded as a filing habit. Its rate-of-change axis (stale context confidently reused as *the* LLM failure mode) is a sharper version of this article's "less, but better organized, context."
+
 **The bottom line:** If you read one Claude Code configuration article, make it [[Steering Claude Code]] for the taxonomy or [[Claude Code Mastery]] for the density. But if you've already read those and want the practitioner's bridge from "I know about these features" to "here's exactly how I use them," this is the article. The Two Corrections Rule alone might save you more time than the rest of the advice combined.
 
 ---
