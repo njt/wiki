@@ -32,7 +32,7 @@ The bridge that connects extensible software to agent execution platforms — an
 - **#pattern LLM-native software** — a stable core plus extension hooks, where the ecosystem (not the vendor) absorbs the long tail. Pi's TypeScript extensions and shareable packages are the model.
 - **#pattern Capability-based extensibility** — narrow, explicit references handed to untrusted code instead of ambient I/O and credentials. Object-capability thinking (Cap'n Web) as the general mechanism.
 - **#tool Cloudflare Dynamic Workers** — Morrell's pick for the closest production-ready primitive: V8 isolates plus observability, Durable Objects/R2 storage, durable workflows, built-in source control, and hosted LLMs. He discloses working at Cloudflare, which should discount but not dismiss the conclusion.
-- **#security sandboxing primitives** — interpreters (Lua/QuickJS), V8 isolates, microVMs (Firecracker, `libkrun`), and WASM+WASI, with the honest note that none are mutually exclusive.
+- **#security sandboxing primitives** — interpreters (Lua/QuickJS), V8 isolates, microVMs (Firecracker, `libkrun`), and WASM+WASI, with the honest note that none are mutually exclusive. [[Wanix — Wasm-Native Unix Sandboxing for the Web]] is a live instance of the WASM pole: a browser-native Unix composed from HTML elements, where Plan 9 namespaces and 9P-over-WebSocket imports do the capability-passing Morrell argues for, expressed as file semantics instead of function references.
 
 ## Critical Analysis
 

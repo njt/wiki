@@ -115,6 +115,7 @@ When `execute()` gets a `cwd` or `env` override, it forks the session rather tha
 - [[Smart Models Dumb Pipes]] — similar philosophy: the model makes judgments, the infrastructure executes
 - [[Scaling Long-Running Agents]] — context management is the real challenge; Mirage's cache reduces network round-trips
 - [[Planning With Files]] — filesystem as the persistence primitive
+- [[Wanix — Wasm-Native Unix Sandboxing for the Web]] — the same everything-is-a-file bet applied to *execution environments* rather than services: Plan 9 per-process namespaces over Wasm and x86 programs in the browser, composed from HTML elements and importable across origins via 9P
 
 Tags: #tool #project #agents #filesystem #infrastructure
 
