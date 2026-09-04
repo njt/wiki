@@ -24,7 +24,7 @@ This solves a real paper-cut. Port numbers are cognitive overhead that compounds
 
 The limitation: it's another proxy layer. When something breaks, you're now debugging through one more hop. And the `.localhost` TLD trick requires modern browser support (RFC 6761). Most developers won't hit issues, but edge cases in corporate proxy environments could be painful.
 
-For Nat's setup specifically, the Tailscale integration is interesting -- his server already uses Tailscale for internal services.
+For Nat's setup specifically, the Tailscale integration is interesting -- his server already uses Tailscale for internal services. [[Tailport]] attacks the same paper-cut from the exposure side rather than the naming side: it keeps the port number and toggles tailnet (`serve`) or public (`funnel`/Caddy) reachability per port instead of minting a stable name.
 
 ---
 *Sources: [[summary/portless]]*
