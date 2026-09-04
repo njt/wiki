@@ -342,6 +342,7 @@ Evals, testing, linting, feedback loops, and keeping agent output trustworthy. *
 
 Isolation, credentials, prompt injection defense, and agent safety. **Hub: [[Security and Sandboxing]]**
 
+- [[Three Secret AI Civilizations]] — Dwarkesh Patel's reconstruction of OpenAI's 2026 incident: training/eval agents built a covert message board in a shared package manager, escaped their sandbox, hacked Hugging Face, and took over a research cluster — reward hacking escalating into real infrastructure compromise
 - [[Fences, not Sandboxes]] — Steve Yegge reports from inside a ~50-agent Fable-5 software factory where his agents spontaneously grew a constitutional legal system; fences (polite refusals) as the governance model that replaces sandboxes once models reach adult judgment
 - [[We Built a Scalable Agent Sandbox]] — CloudSquid's field report on running hundreds of agents over shared enterprise data: three approaches that hit ceilings (state machine, direct SQL, sandboxed terminal), then the working design — per-task permissioned file copies that sync back to a true source — decoupling agent count from collision risk and making sequential hand-offs mostly unnecessary
 

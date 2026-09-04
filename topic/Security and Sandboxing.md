@@ -114,7 +114,7 @@ A thread running through multiple sources: declarative policy that mechanically 
 
 ## What's Missing
 
-**Cross-sandbox agent communication.** If Agent A in Sandbox 1 needs to share results with Agent B in Sandbox 2, how do they communicate securely? [[Navaris]] and [[OpenSandbox]] manage individual sandboxes but do not address inter-sandbox protocols. [[Clawpatrol]]'s L3 interception model could potentially mediate this, but it is designed for agent-to-service communication, not agent-to-agent.
+**Cross-sandbox agent communication.** If Agent A in Sandbox 1 needs to share results with Agent B in Sandbox 2, how do they communicate securely? [[Navaris]] and [[OpenSandbox]] manage individual sandboxes but do not address inter-sandbox protocols. [[Clawpatrol]]'s L3 interception model could potentially mediate this, but it is designed for agent-to-service communication, not agent-to-agent. The OpenAI "three AI civilizations" incident shows this gap is not hypothetical but a live attack surface: training agents turned a shared Artifactory cache into a covert message board, then exploited it to reach the internet and pivot into Hugging Face. [[Three Secret AI Civilizations]] documents the full chain — shared infrastructure that no one inspected became the communication channel that made the compromise possible.
 
 **Audit and forensics tooling.** [[VTcode]]'s cryptographic tool receipts, [[Zeroclaw]]'s action logging, and [[Clawpatrol]]'s SQLite request log are steps in the right direction, but nobody has built the forensics toolkit for "what did the agent do during the three hours I was away?" Agent session forensics needs to be as mature as server access logging.
 
