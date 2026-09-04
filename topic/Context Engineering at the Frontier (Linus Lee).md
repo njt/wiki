@@ -123,6 +123,7 @@ Also absent: **data freshness, permissions, and security**. Retrieval pipelines 
 - [[Context Rot]] — When agent context decays over long sessions
 - [[Cerebras Knowledge Base Architecture]] — Production proof of Lee's composable-retrieval thesis: four-signal hybrid Slack retrieval with LLM distillation at write-time, serving 15K queries/day to both humans and agents via MCP
 - [[New Rules of Context Engineering]] — Thariq Shihipar's official Anthropic post converges on the same prescription from the product side: progressive disclosure, delete what the model no longer needs, and treat context as composable components rather than a monolithic dump. The 80% system prompt deletion validates Lee's argument that bigger context windows are a failure of engineering imagination.
+- [[AI Team Mistakes]] — Doug Turnbull reaches Lee's "context engineering IS search engineering" from the search side, insisting "AI teams are search teams." His "context means metadata, not chunks" is Lee's write-time pre-structuring made concrete: attach provenance (title, popularity, date) to each unit of information so the LLM's implicit judge can weigh it — exactly the write-time structure Lee argues unlocks read-time power.
 
 ---
 

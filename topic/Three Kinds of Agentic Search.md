@@ -65,6 +65,7 @@ The piece also works as an implicit argument for why [[Context Engineering at th
 - **[[The New Software Lifecycle]]** — Osmani's "harness over model" maps to Turnbull's argument that harness-centric approaches (judges, feedback, query plans) are where the near-term value lives, even if models eventually absorb them.
 - **[[Text-to-SQL in the Real World]]** — Stonebraker's finding that enterprise data warehouses humble LLMs to 10% accuracy is the same domain-intuition problem Turnbull opens with: agents don't know your data's idiosyncrasies.
 - **[[Local Deep Research]]** — A concrete instance of the taxonomy: its `langgraph-agent` strategy is harness-centric (the agent steers, engines lead it by the nose), while its encrypted library/RAG search is retrieval-centric. Its egress policy even pre-filters forbidden search engines out of the tool list *before* the LLM sees them — harness engineering of the same shape as Turnbull's judge-in-the-loop, applied to which tools may exist rather than which results are relevant.
+- **[[AI Team Mistakes]]** — Turnbull's companion piece and the team-level prequel to this taxonomy: it argues AI teams are search teams, that "retrieval dictates AI quality," and that context means metadata + provenance rather than chunks — the "cool story bro" mismatch generalized from a retrieval failure into a positive RAG prescription.
 
 ---
 *Sources: [[raw/three-kinds-of-agentic-search]]*
