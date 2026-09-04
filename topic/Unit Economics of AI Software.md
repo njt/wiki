@@ -68,6 +68,8 @@ The Jevons paradox rebuttal to the "costs are falling" argument is the most impo
 
 **Compared to [[The Road Runner Economy]]:** Raford argues software becomes trivially replicable. This piece adds a crucial complication: replicable doesn't mean free to *run*. You can one-shot a competitor's product, but if running it requires inference calls that eat your margins, one-shotting it might still be a bad business. The Road Runner thesis needs to account for the operating economics this piece describes.
 
+**Measured at the story level:** [[What a User Story Actually Costs in a Dark Code Factory]] supplies the empirical per-unit number this page argues for in the abstract — $10.88 per delivered user story (median $9.56), from a factory that meters its own token bill. Its sharpest confirmation of the margin-pressure thesis is the flat-fee asymmetry: a $200/month subscription absorbing ~$1,088 of API-equivalent work, with quota (rate-limit stalls) rather than money as the binding constraint. That's the per-user variable cost made concrete, at a single-operator scale.
+
 **The unanswered question:** What's the new LTV/CAC math? The piece says the old playbook stops working but doesn't sketch what replaces it. At 52% margins, with usage-based pricing, with variable cost-to-serve — what does "good unit economics" actually look like? The ICONIQ data suggests companies are getting better at cost management (41% → 52% over two years), but even at 52%, the venture math is fundamentally different. Someone needs to do that math.
 
 ---

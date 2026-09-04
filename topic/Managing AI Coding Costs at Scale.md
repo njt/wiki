@@ -74,6 +74,8 @@ The progressive budget approach also has a subtle problem: it assumes developers
 
 **Relationship to [[Inference Cost Napkin Math]]:** That page's technical insight — "KV-cache hit rate IS your margin" — is the engineering reality behind this article's caching recommendation. The 50% token reduction Databricks achieved through harness and cache tuning is a real-world validation of the napkin math's claim that caching is the highest-leverage cost intervention.
 
+**Relationship to [[What a User Story Actually Costs in a Dark Code Factory]]:** fxmartin's metered dark-factory run validates this playbook's core claims with hard numbers and sharpens two of them. Cache writes are only 3.3% of tokens but 31.2% of the bill — so the "caching settings" Databricks tuned are exactly where the money is, and cost optimization is cache management rather than prompt shortening. And the meter itself is untrustworthy by default: the ledger silently missed a sixth of real consumption until cross-checked against session logs. Cost observability, like the code it measures, needs its own verification loop.
+
 **The open question:** The article says "the single greatest cost lever is moving coding spend to more efficient models as they are released." But this assumes a steady stream of more efficient models. What happens when the efficiency frontier stops advancing — or when the only models that advance it are from vendors you can't use (export controls, compliance, procurement)? The playbook works as long as model competition keeps delivering cheaper intelligence. If that slows, the other techniques (context reduction, caching, routing) become not just complementary but load-bearing.
 
 ---
