@@ -58,6 +58,7 @@ The conclusion in a sentence. Diffusion's economic win is node-count reduction f
 - [[Performance per dollar is getting faster and cheaper]] — The CUDA moat eroding in real time; diffusion's tooling story is the next chapter
 - [[Local Models in Mid-2026]] — The engineering advances that made open-weights competitive; diffusion is one of them
 - [[GPU-Free AI Datacenters]] — The networking problem behind distributed training; adjacent infrastructure thinking
+- [[Continuous Diffusion Language Models]] — Sander Dieleman's 2026 survey that splits "text diffusion" into continuous vs. discrete: the distillability advantage that lets few-step sampling capture token correlations belongs to the *continuous* branch, and the field's GenPPL evaluation metric is the weak spot to watch before believing its benchmarks
 
 ---
 *Sources: [[raw/tokens-you-cant-wait-for]]*
