@@ -32,7 +32,7 @@ This tool's real value isn't catching other people's AI text — it's catching y
 
 ### #concept — The Cliché as an Emergent Property
 
-LLM clichés are not bugs in the training data. They're the model doing exactly what it was trained to do — maximize probability. "Delve," "tapestry," "not just X but Y" are not random noise; they're the global maximum of "sounds like good writing" across an internet-scale training corpus. The overfitting mechanism [[Why Does AI Write Like That]] describes — associating surface features of quality with quality itself — is what produces these clichés. The highlighter is a map of the probability landscape's peaks.
+LLM clichés are not bugs in the training data. They're the model doing exactly what it was trained to do — maximize probability. "Delve," "tapestry," "not just X but Y" are not random noise; they're the global maximum of "sounds like good writing" across an internet-scale training corpus. The overfitting mechanism [[Why Does AI Write Like That]] describes — associating surface features of quality with quality itself — is what produces these clichés. The highlighter is a map of the probability landscape's peaks. Anthropic's own [[Prompting Claude Fable 5.1]] guide now ships a canonical definition of the anti-pattern — "mannered prose" substitutes "a dial worth turning" for "a parameter worth varying" — and instructs the model to "say what you mean." That's the vendor confirming the tic is real, nameable, and addressable by an explicit instruction rather than a pattern list.
 
 ### #comparison — The Two Approaches to AI Writing Detection
 

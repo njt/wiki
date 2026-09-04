@@ -45,7 +45,7 @@ Raschka's closing line, and he's right in one sense and wrong in another. Automa
 
 **Raschka's role in the wiki:** This is Raschka's third article covered here, after [[Recent Developments in LLM Architectures]] (the KV-cache compression survey) and [[Components of a Coding Agent]] (the harness taxonomy). Together they form a triptych: the model architecture determines the cost envelope, the training technique determines the capability range, and the harness determines whether any of it reaches production. Raschka is the best bridge between research and practice in the LLM space right now — he reads the papers so practitioners don't have to, and he writes clearly enough that they actually want to.
 
-**Who should read this:** Anyone paying for reasoning-model API calls. If you're using Opus 4.8 or GPT-5.6 with reasoning enabled, understanding effort control is the difference between a $50 agent run and a $5 one that produces the same answer. Also relevant for anyone building agent harnesses — effort selection should be a harness concern, not a user-facing setting.
+**Who should read this:** Anyone paying for reasoning-model API calls. If you're using Opus 4.8 or GPT-5.6 with reasoning enabled, understanding effort control is the difference between a $50 agent run and a $5 one that produces the same answer. Also relevant for anyone building agent harnesses — effort selection should be a harness concern, not a user-facing setting. One caveat the research side doesn't cover: [[Prompting Claude Fable 5.1]] warns that effort level *names* don't map to the same amount of thinking across model generations, so a new release silently invalidates whatever effort calibration you measured — the knob is real, but its markings aren't portable.
 
 ---
 

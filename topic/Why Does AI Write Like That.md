@@ -38,7 +38,7 @@ The distilled aesthetic: spectral + textile. AI fiction is obsessed with ghosts,
 
 > "Users have complained that if you directly tell an AI to cut it out, it typically replies with something like: 'You're totally right—em dashes give the game away. I'll stop using them—and that's a promise.'"
 
-AI cannot stop being AI even when explicitly instructed to stop. It names the pattern, acknowledges the pattern, and immediately reproduces the pattern. This is [[claude-ctrl]]'s thesis applied to prose: "an instruction in context is not a constraint." [[Feedback Loop is All You Need]] argues deterministic enforcement is the only answer — but you can't lint prose style.
+AI cannot stop being AI even when explicitly instructed to stop. It names the pattern, acknowledges the pattern, and immediately reproduces the pattern. This is [[claude-ctrl]]'s thesis applied to prose: "an instruction in context is not a constraint." [[Feedback Loop is All You Need]] argues deterministic enforcement is the only answer — but you can't lint prose style. Anthropic's [[Prompting Claude Fable 5.1]] guide is the vendor-side concession of exactly this: its official fix for dense prose is a "mannered prose" definition plus the instruction to "say what you mean" — a better-worded prompt, not a linter, because no deterministic rule catches style.
 
 > "No A.I. has ever stood over a huge windswept view all laid out for its pleasure, or sat down hungrily to a great heap of food. They will never be able to understand the small, strange way in which these two experiences are the same."
 
