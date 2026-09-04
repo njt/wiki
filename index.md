@@ -805,6 +805,7 @@ EVs, batteries, power systems, and physical products.
 
 Books, essays, geopolitics, math, medicine, and interesting oddities.
 
+- [[AI, Tools and Transformation]] — Benedict Evans on why "AI will sweep away enterprise software" misunderstands how companies change: the hard part was never making tools but knowing you need one, software lives on an institutionalised-to-improvised spectrum, and "give everyone the model" produces pilots, not transformation
 - [[A Pattern Language (Christopher Alexander)]] — Christopher Alexander's 253 composable design patterns for towns, buildings, and construction; Clayton Dorge's Twitter-summarization as a compression experiment that reveals the provocative core of each pattern
 - [[Moats — 80 Strategies for Competitive Advantage]] — Steph Ango's taxonomy of eighty competitive strategies — usership, chokepoint, obscurity, antifragility, and more — each drawn from biology and business and grouped into thirteen categories. A pattern language for how things win
 - [[Startup Anti-Patterns]] — Itamar Novick & Simeon Simeonov's series intro on named, repeatable patterns of startup failure: the thesis that studying failure beats studying success, and a ~70-item negative checklist from Elephant hunting to Zombie. The mirror image of [[Moats — 80 Strategies for Competitive Advantage]]

@@ -18,7 +18,7 @@ The argument: vibe coding threatens B2B SaaS by letting customers build their ow
 
 The $30K cancellation anecdote is the kind of thing that terrifies SaaS boards. But the public S3 bucket example is the necessary corrective: vibe-coded replacements trade visible features for invisible infrastructure (encryption, audit logs, access control, compliance). The people building replacements don't know what they don't know.
 
-The "become a system of record" strategy connects to lock-in dynamics. If your SaaS is the source of truth for customer data, AI can enhance it but not replace it. This echoes [[Two Kinds of User Are Emerging]]'s observation that legacy SaaS with data lock-in will bottleneck productivity gains.
+The "become a system of record" strategy connects to lock-in dynamics. If your SaaS is the source of truth for customer data, AI can enhance it but not replace it. This echoes [[Two Kinds of User Are Emerging]]'s observation that legacy SaaS with data lock-in will bottleneck productivity gains. Benedict Evans' [[AI, Tools and Transformation]] frames the same dynamic from the buyer's side: improvised, bottom-up tools (Excel, email, and now AI-built apps) get institutionalised — "you pave the desire path and pay someone to set it in stone" — once a task becomes repetitive, cross-departmental, and risky, which is precisely when the company buys rather than builds.
 
 ## Critical Analysis
 
