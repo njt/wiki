@@ -86,6 +86,7 @@ User hits retry → system resumes from the failed node, skipping completed step
 - [[Cerebras Knowledge Base Architecture]] — Convergent-evolution confirmation: Cerebras independently landed on the same patterns (hybrid retrieval, write-time LLM distillation, MCP for agent access, scoped search) at 15K queries/day across chip-design and cloud-platform domains
 - [[Production RAG in .NET]] — Jamie Maguire's .NET field manual converges on the same operational concerns from a different angle: the gap between tutorials and production, the need for admin tooling to detect index drift and "zombie" vectors, and the finding that token-count logging is the single most useful diagnostic in a slow RAG pipeline
 - [[Local Deep Research]] — The harness-engineering half in a self-hosted research tool: its egress PDP + runtime backstop + PEP-578 audit hook is a control layer around the agent, but it notably lacks PRINCE's *data-sufficiency* reflection loop — it trusts the agent's "when you have enough information" judgment rather than checking it separately
+- [[AI Team Mistakes]] — Doug Turnbull's field report is the search-side thesis PRINCE instantiates: "retrieval dictates AI quality" and "context means metadata, not chunks." PRINCE's dedicated *metadata filter generation* step and its data-sufficiency reflection loop are both eval-first, retrieval-as-the-product disciplines — the production confirmation that Turnbull's four team-level mistakes (evals, retrieval, metadata, multidisciplinarity) are exactly the gaps Bayer had to close.
 
 ---
 
