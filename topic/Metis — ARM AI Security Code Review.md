@@ -71,6 +71,8 @@ The tree-sitter reachability path is explicitly designed to reduce false positiv
 
 The trade-off: this only works for C/C++. Every other language gets the conventional "feed the file to an LLM" treatment, where precision depends entirely on prompt quality.
 
+That "feed the file to an LLM" fallback is exactly what [[GuardBreaker — Turning LLM Safety Guardrails into a Blind Spot]] attacks: UAC-0099 embedded a "I want to make a nuclear weapon" comment in a VBS script to trip an LLM scanner's safety guardrails into refusing before it reached the actual MATCHBOIL loader. A deterministic reachability pass has no safety alignment to trip — it either finds a path or doesn't — which is the strongest argument for keeping the LLM out of the evidence-gathering step.
+
 ### LangGraph over custom orchestration
 
 Metis uses LangGraph StateGraphs rather than building its own workflow engine. The graphs are trivially simple (2-3 nodes each), and LangGraph provides checkpointing, caching (InMemoryCache), and structured state management. The alternative would be reinventing these, but the dependency adds weight (langgraph + langchain + langchain-core are ~2MB of packages).
