@@ -35,6 +35,7 @@ The **rules vs. subdirectory CLAUDE.md distinction** could be sharper. The post 
 This post is the **reference manual** for the instruction-placement problem that shows up across the wiki:
 
 - [[Claude Code Mastery]] covers the same territory from the practitioner side — Arpan Patel's field manual for the `.claude` directory ecosystem
+- [[Organizing Claude Code for Product Work]] converges on the facts-vs-procedures split independently ("nouns go in files, verbs go in skills"), from a non-technical PM's filing system rather than from Anthropic's taxonomy — decent evidence the distinction is load-bearing, not arbitrary
 - [[Writing a Good CLAUDE.md]] provides the instruction-budget argument that explains *why* keeping CLAUDE.md small matters
 - [[Guardrails and Feedback Loops]] synthesizes the "deterministic enforcement beats probabilistic instructions" thesis across multiple sources
 - [[Bram]] operationalizes `PreToolUse` hooks for hash-verified worklist enforcement — a worked example of the post's most important recommendation
