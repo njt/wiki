@@ -77,6 +77,7 @@ Finally, the multi-platform reality is absent from the evidence. The Channels SD
 ## Also on This Theme
 
 - [[Agent Memory and Context]] — Passive context absorption from ambient channel activity as a memory acquisition strategy, distinct from explicit instruction or document upload
+- [[How I Actually Use Agents]] — The personal-agent endpoint of the ambient model: the interface determines what context an agent collects (a chat box knows only what you tell it; an agent inside meetings and Slack sees what you question and prioritize), and once ambient context is in place the bottleneck migrates from execution to judgment. Credits Claude Tag with making human-agent multiplayer "feel less theoretical"
 
 ---
 
