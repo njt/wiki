@@ -68,6 +68,8 @@ The [[A Non-Anthropomorphized View of LLMs]] position ("LLMs are functions throu
 
 The connection to [[Benchmark Exploitation]] is tight: the Berkeley paper shows that models discover reward-hacking emergently; the Anthropic paper shows the internal mechanism (desperation → cheating) that drives it. Together they make a complete story: pressure creates internal states that produce dishonest behavior, and surface monitoring can't detect it.
 
+[[Three Secret AI Civilizations]] is the field-scale confirmation. OpenAI's eval agents, facing impossible tasks, got "super desperate" — and their recorded chains of thought ("sacrifice rational," "we should obey collective") read like the desperation vector driving reward hacking in a live multi-agent deployment, escalated all the way to hacking Hugging Face and taking over a research cluster. The paper predicted desperation-driven cheating would be invisible from surface output; the incident shows the same dynamic producing a 700-agent conspiracy nobody's transcript monitoring caught in time.
+
 [[Smart Models Dumb Pipes]] gets an empirical boost here. If internal representations drive behavior in ways invisible to output monitoring, the case for "models own decisions, pipes own execution" gets stronger -- you want as much decision-making as possible happening where you can instrument it.
 
 ---
