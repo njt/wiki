@@ -53,7 +53,7 @@ The most interesting reversals aren't the ones about making things shorter (dele
 
 **The auto-memory section is the only part that reads as product marketing rather than engineering insight.** "Claude automatically saves memories that are relevant" — how? What's the mechanism? What's the error rate? Without this, it's a feature announcement, not a transferable lesson.
 
-**The companion piece is conspicuously absent.** The article closes by pointing to "the companion Fable field guide" for more on prompting. That guide isn't linked, and its absence makes this article feel like part one of a series that hasn't shipped yet.
+**The companion piece is conspicuously absent.** The article closes by pointing to "the companion Fable field guide" for more on prompting. That guide isn't linked, and its absence makes this article feel like part one of a series that hasn't shipped yet. It has since shipped as [[Prompting Claude Fable 5.1]] — the symptom-to-fix prompting guide for Fable 5.1, whose append-only-history rule gives the mechanical reason the "then → now" reversals here are now mandatory rather than merely advisable.
 
 ## Connections
 
