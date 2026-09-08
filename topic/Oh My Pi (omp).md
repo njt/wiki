@@ -74,6 +74,8 @@ Twelve internal schemes (`pr://`, `issue://`, `agent://`, `skill://`, `rule://`,
 
 **Vs. original Pi**: Pi was a minimal agent surface. omp adds sessions, subagents, slash commands, extensions, memory, compaction, browser, collaboration, ACP, and 30+ more tools. See [[Pi Coding Agent]] for the original philosophy and the tension with platform ambitions.
 
+**Vs. [[Jouzu]]**: Shisa AI's Jouzu takes the same batteries-included stance as omp but through curation rather than maximalism — it pins Pi as a dependency instead of forking it, ships a hand-picked subset of daily workflows (goals, background jobs, child agents, session recall), and adds a cleanly fenced Shisa API layer. Where omp bets a coding agent should ship complete, Jouzu bets that shipping *the workflows your team actually uses* beats shipping everything.
+
 **Vs. [[pi-gui]]**: omp is terminal-maximalist; pi-gui is native-desktop — a Codex-style GUI over the same Pi core with workspaces, a structured agent timeline, and resumable sessions, decoupling the shell from the runtime via a `SessionDriver` interface. Two surfaces, one agent: the Pi ecosystem now runs both the TUI and GUI bets at once, and omp's RPC mode (Pi-compatible) means pi-gui's runtime-agnostic shell could plausibly front omp too.
 
 **Vs. MiMo Code**: Both target long-horizon tasks with independent writer subagents and checkpointing. MiMo uses code-based orchestration (Dynamic Workflow); omp uses prompt-based orchestration with typed tool results. MiMo splits a single task across time; omp splits across parallel workers. See [[MiMo Code]].
