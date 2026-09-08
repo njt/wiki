@@ -40,7 +40,7 @@ The essay's most portable insight: functions that return `()` after a check are 
 
 ### Types as Proof Objects
 
-`NonEmpty a` is not just a data structure — it's a *proof* that the list contains at least one element. The proof lives in the type system and is checked at compile time. This is the functional-programming analogue of [[Correct by Construction]]'s anchor/attribute/link framework: both argue that correctness should be a structural property of the data rather than a check performed after the fact. The difference is that King's approach uses the language's type system as the enforcement mechanism, while Correct by Construction uses normalized schemas. The two are complementary: types prevent logic errors, schemas prevent data quality errors.
+`NonEmpty a` is not just a data structure — it's a *proof* that the list contains at least one element. The proof lives in the type system and is checked at compile time. This is the functional-programming analogue of [[Correct by Construction]]'s anchor/attribute/link framework: both argue that correctness should be a structural property of the data rather than a check performed after the fact. The difference is that King's approach uses the language's type system as the enforcement mechanism, while Correct by Construction uses normalized schemas. The two are complementary: types prevent logic errors, schemas prevent data quality errors. [[Kale — Transformation-Safe Spreadsheets]] is the same move outside any type system — a spreadsheet whose syntax simply forbids arbitrary rectangular range references, making the unstable reference unrepresentable at the grammar level so the safety property holds by construction rather than by check.
 
 ### Shotgun Parsing as a Security Pattern
 

@@ -20,7 +20,7 @@ This is the essay's central question, and Williams is careful to say it can't be
 
 > "Designing for the most constrained user isn't some charity that the rest of us put up with."
 
-The OXO Good Grips parable — a vegetable peeler designed for arthritic hands that became a mass-market bestseller. The same principle applies to software: systems designed for the tired, distracted, or novice engineer end up being the systems *everyone* reaches for when their attention narrows. This inverts the usual "junior-proofing" framing. Designing for the weakest moment isn't dumbing down; it's designing for reality.
+The OXO Good Grips parable — a vegetable peeler designed for arthritic hands that became a mass-market bestseller. The same principle applies to software: systems designed for the tired, distracted, or novice engineer end up being the systems *everyone* reaches for when their attention narrows. This inverts the usual "junior-proofing" framing. Designing for the weakest moment isn't dumbing down; it's designing for reality. [[Kale — Transformation-Safe Spreadsheets]] is the empirical proof in a domain where the constrained user is everyone: spreadsheet users answer reference-transformation questions at a ~47% success rate, so Kale forbids the reference forms that break under restructuring — design for the constrained case, applied to a formula language.
 
 ## The AI Connection
 

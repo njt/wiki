@@ -129,6 +129,8 @@ Unlike **Notion databases**, Grist handles much larger datasets (10K+ rows in a 
 
 Unlike **NocoDB/Baserow** (other open-source Airtable alternatives), Grist's Python formulas and dependency graph are more sophisticated. The self-contained SQLite file format makes Grist documents genuinely portable in a way API-centric alternatives aren't.
 
+Unlike **Kale**, Grist maximizes what formulas can express; Kale takes the opposite pole by *restricting* references to single cells, whole columns, and whole rows so structural edits (row insertions, sorts, moves) can never silently change what a formula points to. Where Grist accepts reference complexity and manages it with a dependency graph, [[Kale — Transformation-Safe Spreadsheets]] eliminates it by making the unstable references unrepresentable — two opposite answers to the same spreadsheet-error problem.
+
 The most technically distinctive comparison: most spreadsheet engines use topological sort for formula evaluation. Grist's OrderError-based cooperative scheduling is more flexible — it handles dynamic dependencies and lazy evaluation that a static sort cannot express.
 
 ---
