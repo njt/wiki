@@ -101,6 +101,8 @@ Grok Build is the **most architecturally ambitious** open-source coding agent. C
 
 - **vs. [[Magnitude]]** (magnitudedev, TypeScript+Rust): Both pair a Rust native inference layer with a serious agent harness. Magnitude is local-first — embedded llama.cpp (no Ollama), hardware-profiled model recommendation, speculative decoding — and event-sourced (projections over a durable event log) rather than actor-based, splitting TypeScript/Effect for the agent from Rust only for inference. Grok Build is one pure-Rust monolith targeting the xAI cloud; Magnitude owns the whole stack on the user's machine.
 
+- **vs. [[Shelley]]** (Bold Software, Go): Grok Build is TUI-first and pure Rust; Shelley is web-first and Go. Both compile to a single binary and both treat the harness as the product, but Shelley bets on a phone-reachable SSE UI and a single pi-ported compaction strategy, while Grok Build ships a three-strategy compaction engine and a formal JSON-RPC tool protocol.
+
 What distinguishes Grok Build architecturally is the **formal protocol layer** (tool registration, capability negotiation, JSON-RPC envelope) and the **three-strategy compaction engine** shared across product lines — both suggest an architecture designed for a platform, not a single product.
 
 ---

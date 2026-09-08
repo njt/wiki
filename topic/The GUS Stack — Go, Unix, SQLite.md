@@ -66,6 +66,8 @@ The testing philosophy compressed to a command. Zoschke uses headless Chrome via
 
 **[[Twigg]] is the GUS stack in production at scale.** A full version-control system (~96K lines of Go) where SQLite (via `modernc.org/sqlite`, pure Go — no cgo) is the *only* database across every layer: commits, code reviews, blob metadata, and the CI job queue. Even the blob bytes are an append-only file log indexed by SQLite, running identically on the server and in the CLI client. It's the strongest evidence that "SQLite as the obvious starting point" scales past prototypes to a serious, self-hosted product — the counterexample to the "SQLite doesn't do real workloads" reflex.
 
+**[[Shelley]] is the exe.dev GUTS stack realized as a shipping product** — the Go backend, sqlc-generated SQLite persistence, and Vue/TypeScript frontend the article treats as a hypothetical, compiled into one binary and served to a phone over SSE. It's the strongest evidence that the "boring, agent-legible foundation" prescription scales from a design doc to a working coding agent.
+
 ---
 
 *Sources: [[raw/the-gus-stack-go-unix-sqlite]]*
