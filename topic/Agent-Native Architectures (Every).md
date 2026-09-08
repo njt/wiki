@@ -67,3 +67,5 @@ The legibility heuristic. Files are self-documenting in a way databases aren't. 
 *Last updated: 2026-08-01*
 
 For a complementary resource organized as a searchable catalog of design patterns rather than a principle-based guide, see [[Agentic Design (Pattern Catalog)]], which maps 280+ connected patterns to concrete constraints (reliability, latency, cost, safety) with side-by-side trade-off comparisons.
+
+The same company's [[Compound Engineering Plugin]] applies the guide's principles to the engineering process itself: learnings and plans are files (the "files as universal interface" pattern), capability improves without redeploying code (a new `docs/solutions/` learning changes the next run's behavior), and "improvement over time" is literal — the toolset gets smarter each loop. It's the guide's blind spot answered from the coding side, since a codebase is exactly the file-first, legibility-friendly environment the guide assumes.
