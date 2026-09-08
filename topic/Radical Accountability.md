@@ -30,7 +30,7 @@ Connects to [[The Claude C Compiler]] (Lattner's "deciding what should be built"
 
 The thesis is provocative and largely correct at the individual level. Solo developers with good taste can now build alternatives to mediocre enterprise software at remarkable speed.
 
-The weakness: organizations aren't solo developers. The "radical accountability" frame works for indie tools and personal software but doesn't address the coordination problems that [[Zero Alignment]] identifies. A team of ten with AI doesn't automatically produce better software than a team of one -- it often produces worse software, faster. The accountability McKinney describes requires both taste and the authority to act on it, which most engineers in most organizations don't have.
+The weakness: organizations aren't solo developers. The "radical accountability" frame works for indie tools and personal software but doesn't address the coordination problems that [[Zero Alignment]] identifies. A team of ten with AI doesn't automatically produce better software than a team of one -- it often produces worse software, faster. The accountability McKinney describes requires both taste and the authority to act on it, which most engineers in most organizations don't have. kaeruct's [[Conquering Entropy — Cultivating Trust]] is the team-scale attempt at that missing authority — accountability ("you are accountable for what you ship") paired with explicit agency and deterministic tooling — though it, too, stops short of saying who grants the agency when managers won't.
 
 ---
 *Sources: [[summary/radical-accountability]]*
