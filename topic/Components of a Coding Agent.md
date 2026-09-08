@@ -65,6 +65,8 @@ The most extreme production instantiation of Raschka's thesis is [[Oh My Pi (omp
 
 Raschka's six components describe the *software* scaffold. [[Warp Agent CLI]] pushes the taxonomy further by adding a *system-level* scaffold: the PTY multiplexing layer. Warp's harness sits between the agent and the shell itself — a tmux-like indirection that means the agent session survives directory changes, SSH hops, and interactive TUI control. This is a seventh component Raschka's taxonomy doesn't capture: the execution substrate. Whether it belongs in the harness taxonomy or is a separate architectural concern is an open question, but Warp's bet is that terminal-native multiplexing unlocks capabilities (persistent sessions, agent-driven full-screen apps, remote agents without binary install) that a pure software harness can't match.
 
+[[Shelley]] is a production example of all six components running behind a model-agnostic `llm.Service` interface: live repo context from the SQLite conversation store, cache-stable prompt prefixing, a 10-tool validated registry, pi-ported context compaction, SQLite-persisted session memory, and subagents bound by supersession watermarks — the taxonomy as a Go monolith serving a phone over SSE.
+
 ## Critical Analysis
 
 Raschka's strength is clarity: he names things precisely and draws distinctions that many practitioners blur. The LLM/reasoning-model/agent/harness taxonomy alone is worth the read -- it gives you vocabulary for design conversations that otherwise collapse into "the model is good" or "the model is bad."

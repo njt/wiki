@@ -46,6 +46,8 @@ The most consequential fork is [[Prime Agent (RLM Harness)]] — Prime Intellect
 
 **The desktop surface arrives.** [[pi-gui]] adds the missing GUI pole to the Pi ecosystem — a Codex-style native desktop app (macOS arm64, Linux AppImage) that wraps `@earendil-works/pi-coding-agent` behind a `SessionDriver` interface and layers on multi-workspace sessions, a real-time agent timeline, and resumable session history. It completes the surface spectrum Pi now spans: terminal TUI (core and [[Oh My Pi (omp)]]), headless RPC ([[Pi-msg — XMPP Bridge for Pi Coding Agent]]), and native desktop. The SessionDriver's "future runtime swaps" language also quietly inverts Pi's own embedding bet — the GUI treats the agent runtime as a swappable backend, not a fixed dependency.
 
+**[[Shelley]]** (Bold Software's exe.dev agent) is another pi-mono descendant of a different stripe: it ports pi-mono's distillation prompt nearly verbatim into its Go backend, but wraps it in a web-first, SQLite-backed monolith rather than a terminal harness — proof that pi's compaction algorithm has legs well beyond the TypeScript ecosystem.
+
 ---
 
 *Sources: [[summary/pi-dev-docs]]*
