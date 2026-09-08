@@ -48,6 +48,8 @@ Cagan is right about the diagnosis — the project model was always output-obses
 
 Tim O'Reilly frames the same problem as the new Solow paradox — "you can see the computer age everywhere except in the productivity statistics" — and argues it disappeared for computers in the late 90s not because computers got faster but because companies reorganized around them. [[AI as an Enterprise Operating System]] provides the most concrete public recipe for that reorganization: capability ladders, hackathons as training infrastructure, curated skills marketplaces, and "scar tissue turned into infrastructure" — organizational redesign as mechanism design, not procurement or communications.
 
+The structural prescription Cagan leaves implicit gets spelled out at the backlog level in [[Backlog Hierarchy Problem]]: its two-backlog principle — an opportunity backlog for discovery, a delivery backlog for committed work — is Cagan's discovery/delivery split made concrete, and its three-tier hierarchy (objectives → initiatives → ideas) is what stops mixed-altitude items from being ranked as peers, the comparison every scoring framework silently assumes away.
+
 ## Related Pages
 
 - [[Discovery Debt]] — The accumulated weight of untested assumptions that compounds invisibly until products are expensively wrong

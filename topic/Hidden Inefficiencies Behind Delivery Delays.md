@@ -58,6 +58,8 @@ The deepest insight is also the most uncomfortable: the meta-inefficiency is tha
 
 In the AI coding agent era, this paper takes on new urgency. If AI compresses implementation time but doesn't touch review latency, coupling overhead, or priority churn, then the five drivers become the binding constraints on the entire delivery pipeline. We're about to find out whether faster coding makes invisible queues more visible — or just makes them hurt more.
 
+Priority churn in particular traces upstream to the flat backlog [[Backlog Hierarchy Problem]] diagnoses: when mixed-altitude items compete as peers, every sprint relitigates what matters, and the recency bias that drives churn is the flat list's default prioritization mode. The fix there — scoring within a level, inside a hierarchy — is the same "measure the invisible, not just the visible" principle El-Deeb applies to delivery.
+
 ---
 
 *Sources: [[raw/el-deeb-five-inefficiencies]]*
