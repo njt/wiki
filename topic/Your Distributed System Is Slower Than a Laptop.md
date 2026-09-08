@@ -48,6 +48,8 @@ The closer. McSherry et al. proved the laptop won in 2015. Hardware has improved
 
 **The article works best as a diagnostic question, not a prescription.** Before you build a distributed system, ask: have you measured the single-machine baseline? If the answer is no, you're not making an architectural decision — you're following fashion. The article doesn't need to be right about the $57K number to be right about this.
 
+The authors of the Dataflow Model reach the same verdict from inside the streaming establishment: their Test of Time retrospective [[The Dataflow Model Revisited]] calls the batch-versus-streaming war "mostly semantic" and argues the real destination for streaming analytics is to *disappear into the database* — declare a query and a freshness bound, let the engine stream, never hand the user a pipeline. On that read, the seven-figure Kafka+Flink pipeline this article dissects isn't just over-provisioned; it's the residue of a wrong turn that never should have been built at all.
+
 ---
 
 *Sources: [[raw/your-distributed-system-slower-than-laptop]]*

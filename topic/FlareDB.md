@@ -55,7 +55,7 @@ Unlike [[Materialize]] (SQL materialized views over Kafka), FlareDB uses the Bea
 
 The streams-and-tables unification echoes [[Kafka Streams]]' KTable concept and the [[Lakebase and LTAP]] vision of a single storage layer serving both operational and analytical workloads, but FlareDB does it within the Beam ecosystem.
 
-Unlike most [[Databases and Data]] projects that separate compute from storage, FlareDB's "PCollection as Arrow table" design makes every pipeline intermediate a database table — the boundary between processing and storing is deliberately dissolved.
+Unlike most [[Databases and Data]] projects that separate compute from storage, FlareDB's "PCollection as Arrow table" design makes every pipeline intermediate a database table — the boundary between processing and storing is deliberately dissolved. That dissolution is exactly the destination named in [[The Dataflow Model Revisited]]: streaming analytics disappearing into the database, the engine internalizing the streams so the user only ever sees a table.
 
 The harness-communication pattern (background task draining gRPC stream, per-key channel fan-out) resembles the multiplexing patterns seen in [[Components of a Coding Agent]] and [[Loop Engineering]], where independent work streams share a single transport.
 

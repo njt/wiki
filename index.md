@@ -497,6 +497,7 @@ Craft beyond agents: simplicity, error handling, reliability, specs, and project
 
 Storage engines, query patterns, data quality, and vector/graph databases. **Hub: [[Databases and Data]]**
 
+- [[The Dataflow Model Revisited]] — The Dataflow Model's authors grade their own 2015 paper for its VLDB Test of Time award: the physics aged well (event time, no-wait-for-completeness, strong consistency), the interface didn't (windows-as-consistency, triggers, retractions). The confession — streaming analytics was always the materialized-view maintenance problem, and its destination is to disappear into the database
 - [[The Log — Unifying Abstraction for Real-Time Data]] — Jay Kreps' 2013 manifesto: the append-only log is the single most important abstraction in software engineering — present at the heart of databases, replication, consensus, data integration, and stream processing. The foundational theory behind Kafka, CDC, event sourcing, and log-centric architectures
 - [[Text-to-SQL in the Real World]] — Stonebraker & Chen: public benchmarks (90%+ accuracy) are "of academic interest only"; real enterprise data warehouses with schema rot, idiosyncratic data, and complex queries humble the best LLMs to 10%
 - [[DeepSQL]] — Self-hosted database agent for Postgres/MySQL that answers BI questions in plain English, built on correctness-over-autonomy: the LLM drafts SQL, deterministic fences (schema whitelist, EXPLAIN validation, database-enforced read-only) own every safety-critical decision
