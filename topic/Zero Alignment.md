@@ -32,6 +32,8 @@ Appleton correctly identifies the gap: all the agent tooling optimizes for indiv
 
 The weakness: Ace is a prototype from GitHub Next, not a shipping product. The vision is compelling but the execution path is unclear. Synchronous collaborative development works for collocated teams; distributed teams (most of the industry) need something that works asynchronously too. Still, naming the problem -- zero alignment as the failure mode -- is the necessary first step.
 
+The structural answer to "should we build it" is the hierarchy [[Backlog Hierarchy Problem]] describes: separate objectives from initiatives from ideas so the "what matters" conversation happens at one altitude instead of being relitigated per item, and keep a two-backlog split (opportunity vs delivery) so planning doesn't have to share a column with execution. Its critique of Jira epics as "buckets, not strategic constructs" is the same single-player-interface gap Appleton identifies, stated at the backlog level.
+
 ---
 *Sources: [[summary/zero-alignment]]*
 *Last updated: 2026-05-14*
