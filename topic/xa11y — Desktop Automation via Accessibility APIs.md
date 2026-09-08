@@ -41,7 +41,7 @@ This is the right architecture for desktop automation in the age of computer-use
 
 The "no fallbacks" design decision is quietly radical. Most cross-platform libraries paper over differences with heuristic matching and best-effort translations that work 90% of the time and fail silently the other 10%. xa11y refuses to guess. If a macOS app uses a non-standard action name, the library surfaces the raw platform data rather than trying to map it to a canonical equivalent that might be wrong. This is harder to use but impossible to silently break — exactly the tradeoff you want in testing and automation.
 
-The comparison to [[Webwright]] is instructive. Webwright gives coding models a terminal with Playwright and lets them write imperative scripts. xa11y gives agents a structured element tree with selector-based interaction. Both are reactions against vision-based computer use, but from opposite directions: Webwright says "let the model write code," xa11y says "give the model structured data." The xa11y approach is more efficient per-step; the Webwright approach is more flexible for open-ended exploration. The best computer-use agents will likely combine both — structured access for known UI patterns, script-based fallback for everything else.
+The comparison to [[Webwright]] is instructive. Webwright gives coding models a terminal with Playwright and lets them write imperative scripts. xa11y gives agents a structured element tree with selector-based interaction. Both are reactions against vision-based computer use, but from opposite directions: Webwright says "let the model write code," xa11y says "give the model structured data." The xa11y approach is more efficient per-step; the Webwright approach is more flexible for open-ended exploration. The best computer-use agents will likely combine both — structured access for known UI patterns, script-based fallback for everything else. [[Macotron — macOS Host API for Coding Agents]] points at a third option: skip discovery entirely and publish a curated `macotron.*` host API the agent calls directly, self-documented for agents via an auto-written `AGENTS.md`.
 
 The Linux performance story is a warning. AT-SPI2 over D-Bus with per-property round trips is architecturally slow in a way that no amount of optimization can fix — you can mitigate it with smarter traversal (as xa11y does) but you can't eliminate it. This is the same class of problem as the vision tax: the interface imposes a structural cost floor. If Linux desktop automation takes off, AT-SPI2 will need a bulk-read analog or a more efficient transport than D-Bus.
 
@@ -57,6 +57,7 @@ What's missing from the article is the agent integration story. The library is d
 - [[FlaUInspect]] — Windows UI Automation inspector for browsing UIA trees. Complements xa11y's Windows backend
 - [[Maestro (UI Testing)]] — YAML-based mobile/web UI testing. xa11y brings the same locator pattern to desktop
 - [[surf-cli]] — Browser automation via CLI. Same "structured access over screenshots" philosophy for web
+- [[Macotron — macOS Host API for Coding Agents]] — A third approach: a curated macOS host API (`macotron.*`) of Apple-shipped tools rather than AX-tree discovery, self-documented for agents via generated `AGENTS.md`
 
 ---
 
