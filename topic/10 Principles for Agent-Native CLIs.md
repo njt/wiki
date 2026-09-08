@@ -65,6 +65,8 @@ GitHub's [[gh-stack]] CLI applies these principles to a git workflow tool: `--js
 
 What's missing: Chow doesn't address auth in the agent context. Agents need to authenticate differently than humans (service accounts, OAuth device flow, MCP auth). The profile system (principle 9) could carry credentials but Chow doesn't go there. Also, the framework inherits the CLI model's assumption that text streams over pipes is the right interop layer — agents may eventually want something richer, like structured event streams with typed schemas.
 
+[[aispace]], a bot-first file-drop CLI, closes that auth gap in practice: it authenticates agents with per-key bot tokens (`AISPACE_KEY` / `aispace login`), treats age X25519 decryption identities as credentials, and collapses every failure into one of five stable exit codes so an agent knows whether to retry, stop, or give up on quota.
+
 Still, this is the document I'd hand to any team building a CLI today. The principles are concrete enough to implement, the "what good looks like" sections give clear targets, and the blocker/friction/optimization framework makes prioritization obvious.
 
 ---

@@ -51,7 +51,7 @@ The legibility heuristic. Files are self-documenting in a way databases aren't. 
 
 ## Critical Analysis
 
-**What it gets right**: This is the best articulation of agent-native architecture I've read. The five principles are well-chosen and the operational detail (anti-patterns, success criteria, mobile patterns) shows hard-won experience. The "files as universal interface" section is particularly strong—it's a design philosophy that scales from simple apps to complex systems, and it aligns with how agents actually work rather than how we wish they worked.
+**What it gets right**: This is the best articulation of agent-native architecture I've read. The five principles are well-chosen and the operational detail (anti-patterns, success criteria, mobile patterns) shows hard-won experience. The "files as universal interface" section is particularly strong—it's a design philosophy that scales from simple apps to complex systems, and it aligns with how agents actually work rather than how we wish they worked. [[aispace]] gives that philosophy an off-machine form: a file-drop primitive with expiring links, revocation, and client-side age encryption, so the filesystem-style interface survives when the two parties are different agents (or an agent and a human) rather than one process.
 
 **The blind spot**: The guide is shaped entirely by mobile (iOS) development experience and Claude Code. The file-first philosophy is excellent for single-user, mobile-first apps but underdeveloped for multi-user web applications, where databases, permissions, and real-time sync dominate. The authors flag this honestly ("Dan doesn't have a strong opinion there yet"), but it's a significant gap for anyone building agent-native SaaS.
 

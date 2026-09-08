@@ -552,6 +552,7 @@ Storage engines, query patterns, data quality, and vector/graph databases. **Hub
 
 CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 
+- [[aispace]] — Go CLI for bot-friendly temporary file sharing: streaming uploads, expiring links, stable exit codes 0–5, and optional local age X25519 encryption — a file drop designed for AI agents first
 - [[ascdraw]] — Native Rust desktop app for drawing diagrams on an infinite Unicode text grid: keyboard-first, sparse BTreeMap canvas with layered editing, Skia rendering at 120+ FPS, and line routing via direction-bit connection calculus
 - [[Draw Your Font]] — Node.js CLI and Claude Code skill turning photos of handwriting into real fonts (TTF/WOFF/WOFF2): adaptive threshold binarization, potrace vectorization, per-character em-square metrics, winding correction, zero system dependencies. AI only labels and judges — it never draws
 - [[BESSER]] — Open-source low-code platform combining model-driven engineering with AI: model a system once, generate APIs, databases, and AI agents across 15+ technology stacks. MIT-licensed, academic-led (LIST / University of Luxembourg)
