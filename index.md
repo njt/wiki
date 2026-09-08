@@ -241,6 +241,7 @@ How to build agents: frameworks, runtimes, design patterns, and production conce
 - [[Pi Coding Agent]] — The productized Pi: TypeScript extensions, SDK, RPC mode, and the tension between minimalist philosophy and platform ambitions
 - [[pi-gui]] — Codex-style native desktop app (macOS arm64, Linux AppImage) for the Pi coding agent: multi-workspace sessions, real-time agent timeline, resumable session history, and a SessionDriver interface decoupling the shell from the runtime
 - [[Pi Observers]] — File-defined background observer agents for Pi: Markdown + YAML frontmatter, hermetically sealed sessions, arrival-driven delivery, and a reconciler with adversarial budget defense against model-chosen identifiers
+- [[Jouzu]] — Shisa AI's batteries-included repackaging of the Pi coding agent: a curated distribution (not a fork) with goals/loops, background jobs, child agents, session-history recall, CJK-safe rendering, and a fenced, opt-in Shisa API layer
 - [[Hermes]] — Open-source personal agent framework with self-improving skills loop. 149k stars
 - [[Skill Retriever]] — LLM-navigated 10K-category capability taxonomy plugin for Hermes: replaces flat skill catalog with semantic search, finds skills embedding similarity misses
 - [[clawdBot]] — Open-source personal AI on every messaging platform. One-line install, runs locally

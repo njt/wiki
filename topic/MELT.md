@@ -112,6 +112,8 @@ MELT is the only benchmark that systematically tests **temporal memory dynamics*
 
 Related memory infrastructure that could be evaluated through MELT's SUT adapter contract: [[Sawtooth Memory]], [[Mnemo]], [[LocalAI]] (includes memory service), [[Claude-Mem]], [[Lemmalog — LLM Memory as Program Analysis]] (whose retractions and validity intervals are a direct implementation of MELT's correction, contradiction, and as-of-recall axes).
 
+Shisa's own [[Jouzu]] harness is the applied counterpart to this eval: its `pi-vcc` compaction plus `vcc_recall` retrieval implements, in a shipping daily-driver, the compaction-and-recall lifecycle MELT measures in the lab — the benchmark and its tool shipping from the same shop, with the harness's "scanning is not a guarantee of safety" humility matching MELT's "one score is never enough."
+
 ---
 
 *Tags: #tool #benchmark #ai-memory #evaluation*
