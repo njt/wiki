@@ -69,6 +69,8 @@ ComputerAgent (cua_agent/agent.py, 1133 lines)
 
 **vs. [[LongHorizon-Harness]]**: Cua builds computer-use *agents* (drivers, VMs, per-model loops); LongHorizon-Harness builds the *loop around existing agents* (Claude Code/Codex/OpenCode) with a Manager/Executor/Auditor verify-and-checkpoint cycle, getting screen control secondhand via MCP plugins rather than native drivers.
 
+**vs. [[Macotron — macOS Host API for Coding Agents]]**: Cua is the maximalist computer-use stack — native drivers, VMs, sandboxes, per-model loops. Macotron is the minimalist counterpoint: a Swift + QuickJS plugin host exposing one `macotron.*` namespace of Apple-shipped tools, self-documented via auto-generated `AGENTS.md`. Where Cua lets a vision model explore arbitrary pixels, Macotron hands a coding agent a curated, named surface.
+
 ## Tags
 
 #tool #project #agents #computer-use #sdk #macos #sandbox #vlm #browser-automation
