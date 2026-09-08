@@ -573,6 +573,7 @@ CLIs, utilities, document tools, code analysis, recording, and infrastructure.
 - [[Maestro (UI Testing)]] — End-to-end UI testing for mobile and web. YAML DSL, visual inspector, enterprise cloud
 - [[FlaUInspect]] — Windows UI Automation inspector for browsing UIA trees. Open-source Inspect.exe replacement with UIA2/UIA3 backends, overlay highlighting, and XML export
 - [[Flint Chart]] — Microsoft Research visualization intermediate language: three-stage compiler (semantics → layout → codegen) emitting Vega-Lite, ECharts, Chart.js, Plotly, or native Excel from a single semantic spec. 70+ semantic types, ten visual theme presets, group-theoretic pivot model for view transformations, MCP server for agent integration. ~78K lines TypeScript
+- [[TALA (Diagram Layout Engine)]] — Terrastruct's open-source orthogonal autolayout engine for D2: whiteboard-style layout vs. DAG-based engines, multi-objective aesthetics, and a placement-to-model / routing-to-engine division of labor aimed at agentic diagram generation
 - [[Sampo]] — Changelog and release automation across monorepos and registries
 - [[Windows in Docker]] — Headless Windows 11 in Docker over SSH. No GUI, just Claude Code on Windows
 - [[Dev Containers]] — VS Code's infrastructure-as-code for dev environments: container as the source of truth, Features as composable toolchain components, pre-built images as self-describing specs
