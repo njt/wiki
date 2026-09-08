@@ -166,6 +166,8 @@ The theme system's insistence on never naming backend properties is architectura
 
 Flint's compiler architecture — three stages, IR-based, backend-agnostic core — is the same pattern powering [[Kuna — Agent-First Decompiler]] (decompilation as compilation) and [[sem]] (semantic version control via tree-sitter IR). The compiler-as-architecture pattern is recurring across tools that need to map between abstraction levels.
 
+[[TALA (Diagram Layout Engine)]] is the same instinct in the diagram domain: let the agent place nodes (its strength) and compile edge routing deterministically (its weakness). Flint and TALA converge on the principle that the *mechanical* half of visual output should never be the model's job.
+
 ---
 *Sources: [[raw/flint-chart]], [[summary/flint-chart]]*
 *Last updated: 2026-08-06*
