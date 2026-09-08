@@ -92,6 +92,8 @@ Portability is a real consequence of the spec: [[I Have ADHD Skill]] ships one `
 
 [[CEOS (Claude + EOS)]] is the skills package taken to its logical end: nineteen `SKILL.md` files that implement the Entrepreneurial Operating System, with a cross-skill data-ownership table (each skill owns exactly one data directory and only reads the rest) layered on top of the spec — a convention the official reference doesn't provide, and the one thing that lets many skills share a single git repo without colliding on files.
 
+[[Compound Engineering Plugin]] is the scale test of the same spec: 33 skills engineered around the prompt-budget truncation this page notes as an undocumented failure mode — it ships to 14 hosts, so each skill's body is deliberately reduced to a "phase-loaded kernel" with load-bearing content moved into `references/` files behind load stubs, precisely because every known host truncation silently drops the tail of a body.
+
 ---
 *Sources: [[raw/slash-commands]], [[summary/slash-commands]]*
 *Last updated: 2026-08-06*
