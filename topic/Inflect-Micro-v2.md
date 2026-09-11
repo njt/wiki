@@ -66,7 +66,7 @@ An honest limitation statement that names a real failure mode. Single-voice TTS 
 
 [[Piano Autocomplete — On-Device Music Copilot]] is the same compact-model-on-device move in a different modality: a 125M-parameter transformer doing next-note prediction at ~108 notes/sec on an iPhone 15. Inflect's 9.4M-param TTS and that 125M-param piano model are two data points in an emerging genre — a complete, useful model per modality, small enough to run with no cloud.
 
-[[AuK]] is the opposite pole of the same spectrum: Tencent's 1.5B MIT-licensed foundation model does reference-voice TTS, editing, and separation through one natural-language interface. Where Inflect optimizes for footprint (one fixed English voice, under 10M params, deterministic), AuK optimizes for coverage (any voice, any task) at ~160× the parameter count — the two answers to "does TTS need to be a foundation model or a component?"
+[[AuK]] is the opposite pole of the same spectrum: Tencent's 1.5B MIT-licensed foundation model unifies reference-voice TTS, editing, enhancement, and separation across five task families behind one natural-language instruction interface. Where Inflect bets a fixed English voice under 10M parameters (deterministic, ~160× smaller) satisfies "known voice, small footprint" deployments, AuK bets a shared instruction interface beats task-specific models on editing and zero-shot voice. They bracket the design space rather than compete — the two answers to "does TTS need to be a foundation model or a component?"
 
 ---
 

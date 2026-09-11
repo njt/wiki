@@ -51,7 +51,7 @@ The usual Meta claim. The subjective eval scores (3-4.5 range across categories)
 - [[Local and Open Source Inference]] — SAM Audio is open-weight and locally runnable (Python, CUDA GPU). The model sizes (small/base/large) give a practical quality-vs-compute tradeoff
 - [[2025 in LLMs]] — part of the 2025 wave of open model releases, though this is a domain-specific model rather than a general-purpose LLM
 - [[A Non-Anthropomorphized View of LLMs]] — Halvar Flake's framing applies here too: this is a function through a latent space, not a proto-ear. The model doesn't "hear"; it maps prompts to separation masks via learned representations
-- [[AuK]] — Tencent's 1.5B MIT-licensed speech foundation model that folds separation into a wider instruction interface: speech enhancement, source/music separation, and target speaker extraction are just a few of the tasks behind one natural-language interface, alongside TTS and editing. Where SAM Audio is separation-only, AuK treats separation as one task among many — but without SAM Audio's judge model and eval set.
+- [[AuK]] — Tencent's 1.5B MIT-licensed 2026 sibling that takes the "one prompted interface" bet further: same rectified-flow DiT family and open-weights posture, but a single foundation spanning separation *and* generation *and* editing across five task families. Speech enhancement, source/music separation, and target speaker extraction are just a few tasks behind one natural-language interface, alongside TTS and editing. SAM Audio unified the prompting of one task; AuK claims the interface scales to the whole speech stack — but ships without SAM Audio's judge model and eval set
 
 ---
 

@@ -51,6 +51,7 @@ The background vocal separation claim is specific and defensible — most stem s
 ## Connections
 
 - [[SAM Audio]] — Meta's open-source research model for prompted audio separation. The research counterpart to Moises' productized approach. Where SAM Audio has span prompting and open weights, Moises has background vocal separation and a mobile app
+- [[AuK]] — the open-source model-level realization of the separation-to-generation flywheel: one foundation trained across separation, generation, and editing, routing tasks by instruction. Moises' product thesis, published as a model
 - [[Building Production-Ready Voice Agents]] — Adjacent lesson from audio AI in production: 50% of effort goes to the admin portal. Moises' infrastructure challenge is similar — the AI is table stakes; the UX around it (cloud processing, export formats, mobile performance) is the product
 - [[MiniMax Models]] — Full model lineup including music generation. The other end of the spectrum: API-level music AI vs. Moises' consumer-app approach
 - [[Suno Training Data Breach]] — Suno's scraped-everything approach is the shadow twin to Moises' separation-first philosophy. Both face the same training data question; Moises' stem-separation pipeline may be legally safer than Suno's dragnet, but the fair use frontier hasn't been settled for either

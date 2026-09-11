@@ -32,6 +32,8 @@ The insight from [[Doing]] is worth dwelling on: "LLMs know what you mean, even 
 
 Local text-to-speech is equally viable. [[Pocket TTS]] (Kyutai, 100M parameters) runs voice cloning on CPU with no GPU required. [[Inflect-Micro-v2]] pushes the boundary further: 9.4M parameters, 37.5 MB on disk, competitive quality at 6× real-time on CPU. It scored a 66.2% blind preference rate against comparable models with a UTMOS22 naturalness score of 4.395. The trade-off is narrow scope — English only, single synthetic voice, no cloning — but for embedded and privacy-sensitive deployments, the size makes deployment almost frictionless.
 
+The compact models solve single-purpose TTS. At the other end of the scale sits [[AuK]], a just-released open foundational model that unifies speech generation *and* editing behind one instruction interface — the open-source answer to the unification problem the small models deliberately leave aside. "Voice is solved" now has two meanings: the 9.4M-parameter local chip, and the open general foundation.
+
 Document intelligence has crossed the same threshold. [[Dolphin]] (ByteDance, ACL 2025) achieves 89.78 on OmniDocBench with a 3B-parameter model, handling both digital and photographed documents through a document-type-aware two-stage architecture. [[Capybara]], also from ByteDance, unifies text-to-image, text-to-video, and instruction-based editing in a single model with FP8 quantization and ComfyUI integration — production-grade visual generation that runs on local GPUs.
 
 ### Safety Does Not Require the Cloud
