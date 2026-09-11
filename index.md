@@ -304,6 +304,7 @@ Multi-agent systems, task graphs, kanban boards, and coordination patterns. **Hu
 - [[Pi Subagents]] — Nico Bailon's multi-agent extension for Pi: single subagent tool with chain execution, sandboxed JavaScript workflows, async FleetView TUI, adversarial watchdog, RPC protocol, and six built-in agents. The most architecturally complete subagent system for any open-source coding agent
 - [[Paca]] — Self-hosted AI-native project management where agents are first-class Scrum teammates. WASM plugin sandbox, Docker-sandboxed agent execution, MCP throughout. Apache 2.0
 - [[bb — The Agent Orchestrator as Normalizer]] — Open-source orchestrator wrapping Claude Code, Codex, Pi, Cursor, and other ACP agents behind a unified JSON-RPC interface with a two-shape adapter architecture (in-process protocol adapters + bridge-process SDK/ACP adapters). Normalizes heterogeneous harness output into a shared thread-event timeline
+- [[Paperclip]] — Open-source "company runtime" for zero-human companies: hire AI agents into an org chart with per-agent budgets, heartbeats, board-level governance, and multi-company isolation, on top of any heartbeat-capable agent. MIT, self-hosted
 
 ## Memory & Context
 
