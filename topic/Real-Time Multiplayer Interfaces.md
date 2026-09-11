@@ -46,6 +46,7 @@ Marc is writing at the right altitude. Most "agent UX" writing either stays at t
 
 ## Related Pages
 
+- [[The Invention of the MMO]] — Habitat (1989) was the first real-time multiplayer interface, and its history is a pre-prototype of Marc's primitives: performers synchronized over 300-baud latency using stopwatches and phone calls (rehearsal as edge-case surfacing), and players paid $4.80/hour for the connection — the original attention-economics bargain.
 - [[Intent Is the Interface]] — Marc's earlier piece on deriving interfaces from intent rather than designing for screens; this is the temporal/real-time extension of that argument
 - [[Experience Design for Agents]] — Kemple's four-layer responsibility model; Marc's "appropriate load" maps to Kemple's "aligned autonomy levels"
 - [[All Your Agents Are Going Async]] — Knill on the architectural gap when agents outlive connections; Marc is arguing the UX side of the same shift

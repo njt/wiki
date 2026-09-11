@@ -929,6 +929,7 @@ Books, essays, geopolitics, math, medicine, and interesting oddities.
 - [[One Year of Keeping a Tada List]] — Daily to-done lists: the hidden chain of effort behind finished work, and the artifact that outlasts the practice
 - [[Duck, Duck, Duck! (IDEO)]] — IDEO's rubber duck as open-source hardware, developer-culture in-joke, and design methodology disguised as whimsy
 - [[1000 Players Simulate Civilization]] — A Minecraft social experiment that became 2025's best film; emergent storytelling and the economics of taste
+- [[The Invention of the MMO]] — Virginia Postrel's history of Habitat, the first virtual world: the Commodore 64's surplus capacity, avatars and in-game currency born in 1989, the first dupe bug, and the coral-reef lesson that anonymity yields both churches and scams
 - [[ytx How to Write Interesting Chord Progressions]] — Michael Keithson's radial model of harmony: seven independent strands radiating from a key centre, with practical shortcuts for improvisers
 - [[All of Me Jazz Standard Analysis]] — Chord-scale dissection of a 1931 standard: the radial model applied to a real tune. Secondary dominants, bebop scales, and the gap between knowing theory and applying it
 - [[AGI Is Here (Robin Sloan)]] — Sloan declares AGI arrived with GPT-3 in 2020, argues the reluctance is strategic, and asks the PC revolution's dangling question: "what now?"
