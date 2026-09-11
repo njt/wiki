@@ -40,6 +40,8 @@ The dam metaphor captures the temporal dimension: queues separate cause from eff
 
 **Queues as Optimization, Not Architecture.** Queues are legitimate for smoothing transient bursts. They become catastrophic when elevated to an architectural primitive that hides systemic overload. Hebert's one allowed use case: inter-process messaging in languages that lack proper IPC (PHP, Ruby), and even then he calls it "marginally better than using a MySQL table." [[ZeroMQ — Universal Messaging Library]] is that legitimate use case built out to full strength — a whole library whose job is carrying atomic messages over sockets with pub-sub, push-pull, and request-reply patterns, and whose pitch stops at transport and topology rather than promising durability, which is what keeps it a queue instead of a database masquerading as one.
 
+That "proper IPC" niche is precisely what ZeroMQ occupies — it abstracts poll/recv/send/listen/bind behind messaging patterns (req/rep, pub/sub) over "almost any kind of socket." [[VSOCK with libzmq]] shows the abstraction paying off on an exotic transport: because libzmq already had a VMCI transport, adding VSOCK was nearly a copy-paste, and the patterns plus Curve auth came along for free. The lesson generalizes Hebert's point — the right layer to fix isn't the socket, it's the pattern library on top of it.
+
 **The End-to-End Principle.** Persistent queues break the end-to-end principle by creating fire-and-forget boundaries where errors can't propagate back to callers. Hebert ties this to idempotency: an idempotent API lets callers safely retry, which means you can shed load with confidence that dropped work will be retried successfully.
 
 ---
