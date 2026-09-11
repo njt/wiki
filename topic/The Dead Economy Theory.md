@@ -73,6 +73,7 @@ The solutions are known (public stakes, antitrust, taxing automated labor, capit
 - [[The Future of Everything is Lies I Guess]] — Aphyr on capital consolidation and information ecology collapse. The systems-level companion.
 - [[AGI Is Here (Robin Sloan)]] — "What now?" The question McGrann answers with "the person who exists now is the unit of account."
 - [[The Metamorphosis of Prime Intellect]] — Roger Williams' 1994 novel anticipated McGrann's argument in fiction: a perfectly benevolent AI that eliminates all scarcity destroys meaning, not just livelihoods. McGrann says "people want purpose, not a check"; Williams dramatizes that proposition at the scale of an entire universe.
+- [[Paperclip]] — an open-source "zero-human company" runtime that markets the dead economy as a product: hire AI employees into an org chart, set a goal, and run the business yourself as its board. The literal, installable version of the productive-capacity-without-participation thesis — with the quiet caveat that a human budget-holder stays on top.
 
 ---
 *Sources: [[summary/the-dead-economy-theory]]*

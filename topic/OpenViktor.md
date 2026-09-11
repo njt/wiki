@@ -29,6 +29,8 @@ OpenViktor was open source; Jared is not. The pattern is familiar — build in p
 
 OpenViktor/Jared sits in the same conceptual space as [[Minions — Stripe's One-Shot Coding Agents]] and [[Chief of Staff]]: AI that doesn't wait for instructions. The difference is scope — OpenViktor targeted the whole org (Slack, email, docs, payments), not just engineering. This is the [[Long Live Systems of Record]] thesis in action: the AI employee doesn't replace tools, it sits on top of them.
 
+The category kept maturing after OpenViktor's pivot: [[Paperclip]] is a 2026 open-source entry that takes the "AI employee" framing but adds the governance layer OpenViktor conspicuously lacked — org charts, approval gates, per-agent budgets, and an immutable audit log, with the human positioned as the board rather than a spectator.
+
 ## Critical Analysis
 
 The password-protected blog post is the most telling artifact here. Jacniacki wrote something about OpenViktor that he's not ready (or not willing) to make public. Given the pivot to Jared, the post is likely a postmortem — what worked, what didn't, why the rebuild. The fact that it's gated while Jared is live suggests one of: (a) the post contains strategic detail the team doesn't want competitors to see, (b) the post is critical of decisions made during the pivot and isn't cleared by the company, or (c) the post was written for a specific audience (investors, early users) and was never meant to be public.
