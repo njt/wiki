@@ -50,7 +50,7 @@ A recurring claim across ADAS, AFlow, Meta-Harness, Darwin Gödel Machine, and A
 
 ### Evolutionary Search as the Right Hammer
 
-Harness search fits evolutionary methods well: vast, weirdly shaped search space, hard to optimize with gradients, easy to evaluate solutions. Promptbreeder evolved prompts through mutation operations where the mutation prompts themselves evolved. Darwin Gödel Machine evolved harness code. The challenge is compute efficiency and the tendency toward diversity collapse — exploitation of known high-reward patterns at the expense of exploration. This connects to [[What Broke and Why — RL Post-Training]]'s entropy collapse problem. #pattern
+Harness search fits evolutionary methods well: vast, weirdly shaped search space, hard to optimize with gradients, easy to evaluate solutions. Promptbreeder evolved prompts through mutation operations where the mutation prompts themselves evolved. Darwin Gödel Machine evolved harness code. The challenge is compute efficiency and the tendency toward diversity collapse — exploitation of known high-reward patterns at the expense of exploration. This connects to [[What Broke and Why — RL Post-Training]]'s entropy collapse problem. [[Procedural Graphs]] applies the same mutation-and-gate loop one level down — an LLM refiner edits the topology and attributes of a procedure graph, gated by held-out validation and a rejection memory that suppresses re-proposed failures — and shows it can also *repair* a flawed expert prior, not just build from scratch. #pattern
 
 ### Observability as the Bottleneck
 

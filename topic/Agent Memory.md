@@ -14,7 +14,7 @@ Jones distinguishes seven memory types that most practitioners lump into one:
 
 **Episodic memory** — "the 'what happened' layer." Events, workflows, sequences. Benefits from structured storage because ordering matters and vector similarity alone misses temporal relationships.
 
-**Procedural memory** — reusable *how-to* knowledge. Approaches and processes that apply across situations. The most under-exploited type in current systems.
+**Procedural memory** — reusable *how-to* knowledge. Approaches and processes that apply across situations. The most under-exploited type in current systems. [[Procedural Graphs]] is a direct implementation of this quadrant: an attributed graph of (procedure, relation, procedure) transitions whose self-evolution loop edits topology and attributes from execution feedback, outside the model weights.
 
 **Entity memory** — facts scoped to specific people, accounts, projects, or objects. Requires filtered retrieval: "What do we know about Acme Corp?" should not return every memory in the system.
 
