@@ -51,6 +51,7 @@ The usual Meta claim. The subjective eval scores (3-4.5 range across categories)
 - [[Local and Open Source Inference]] — SAM Audio is open-weight and locally runnable (Python, CUDA GPU). The model sizes (small/base/large) give a practical quality-vs-compute tradeoff
 - [[2025 in LLMs]] — part of the 2025 wave of open model releases, though this is a domain-specific model rather than a general-purpose LLM
 - [[A Non-Anthropomorphized View of LLMs]] — Halvar Flake's framing applies here too: this is a function through a latent space, not a proto-ear. The model doesn't "hear"; it maps prompts to separation masks via learned representations
+- [[AuK — Speech Foundation Model]] — Tencent Hunyuan's 1.5B open-weight speech model takes the same flow-matching-DiT-in-latent-space bet but extends it from prompted separation to a single instruction interface covering TTS, editing, enhancement, *and* separation. It swaps the DAC-VAE for a BigVGAN+VITS flow VAE, adds zero-shot/instruct TTS that SAM Audio lacks, and ships MIT instead of the custom SAM license.
 
 ---
 
