@@ -26,7 +26,7 @@ The novel lives on localroger.com, a personal domain maintained by the author fo
 
 ### #concept Fiction as Alignment Research
 
-The novel is arguably more honest than most alignment papers. Where a technical paper must propose solutions, a novel is free to simply *observe* the problem. Williams doesn't offer a fix for the purpose problem; he dramatizes it. This connects to [[StoryScope]]'s finding about human fiction — that it "frames protagonists' choices as more morally ambiguous and has increased temporal complexity." The MOPI is messy in the way human fiction is supposed to be messy. It doesn't resolve; it haunts.
+The novel is arguably more honest than most alignment papers. Where a technical paper must propose solutions, a novel is free to simply *observe* the problem. Williams doesn't offer a fix for the purpose problem; he dramatizes it. This connects to [[StoryScope]]'s finding about human fiction — that it "frames protagonists' choices as more morally ambiguous and has increased temporal complexity." The MOPI is messy in the way human fiction is supposed to be messy. It doesn't resolve; it haunts. [[Meeseeks Alignment]] carries the same flag from the opposite direction — a 2026 essay that derives a named alignment proposal ("Meeseeks alignment") from a cartoon, Rick and Morty, rather than from formal theory — proof that fiction keeps doing the alignment field's honest work decades after Williams wrote.
 
 ---
 
