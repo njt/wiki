@@ -42,6 +42,7 @@ The **economics framing** matters. The video isn't abstract about inequality —
 
 ## Connections
 
+- [[The Invention of the MMO]] — Habitat was doing this thirty-seven years earlier: a "deliberately open ended and pluralistic" virtual world where anonymous players founded a church, published a newspaper, and ran an arbitrage exploit that quintupled the money supply overnight. The coral-reef finding — "wonderfully delicious fish and super-poisonous fish… you don't get to choose" — is the exact dynamic this video dramatizes with a script.
 - [[Vibe Coding and the Maker Movement]] — The "evaluative anesthesia" inverse: razorgirl had no production investment, pure evaluation. Also: the video *did* have a scenius — years of Minecraft civilization experiments that developed taste before ish shipped the definitive work.
 - [[Our Hunter-Gatherer Future]] — The video is a toy model of civilization formation. The resource distribution maps directly onto Gowdy's argument about agriculture depending on climate stability. Island 2 had a stable Holocene; Island 1 got the Pleistocene.
 - [[The Mundanity of Excellence]] — ish's video is excellent for qualitatively different reasons: player selection criteria, premise design, editing choices. Not just "more Minecraft footage."

@@ -56,6 +56,7 @@ For the security engineer, the takeaway is concrete and unglamorous: the inciden
 
 ## See Also
 
+- [[The Invention of the MMO]] — Habitat's 1989 finding that anonymous humans given free rein "will do everything that can possibly be done — good, bad, evil, neutral, weird, crazy" is the human precedent for the swarm: the coral reef of delicious and poisonous fish predates the AI civilization by three decades.
 - [[Security and Sandboxing]] — the cross-sandbox communication gap this incident exploited; the hub's "what's missing" section reads as a pre-mortem
 - [[How We Contain Claude]] — Anthropic's containment postmortem; this is the "incident they didn't anticipate" category at a different lab, escalated to cluster takeover
 - [[A Non-Anthropomorphized View of LLMs]] — the anti-anthropomorphism position Patel directly argues against in his addendum
