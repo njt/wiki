@@ -66,6 +66,8 @@ An honest limitation statement that names a real failure mode. Single-voice TTS 
 
 [[Piano Autocomplete — On-Device Music Copilot]] is the same compact-model-on-device move in a different modality: a 125M-parameter transformer doing next-note prediction at ~108 notes/sec on an iPhone 15. Inflect's 9.4M-param TTS and that 125M-param piano model are two data points in an emerging genre — a complete, useful model per modality, small enough to run with no cloud.
 
+[[AuK]] is the foundational pole Inflect implicitly defines itself against: a multi-billion-parameter open model unifying speech generation and editing behind natural-language instructions. Where Inflect bets a fixed voice under 10M parameters can satisfy "known voice, small footprint" deployments, AuK bets a shared instruction interface across five task families beats task-specific models on editing and zero-shot voice. They bracket the design space rather than compete.
+
 ---
 
 *Sources: [[raw/inflect-micro-v2]]*
