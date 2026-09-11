@@ -49,6 +49,8 @@ The log-based alternative: every data source publishes to its own log. Every sub
 
 > "I use the term 'log' here instead of 'messaging system' or 'pub sub' because it is a lot more specific about semantics and a much closer description of what you need in a practical implementation to support data replication."
 
+[[ZeroMQ — Universal Messaging Library]] is the "messaging system / pub-sub" pole Kreps is arguing against, made concrete: its homepage leads with exactly the pub-sub, push-pull, and request-reply patterns and the transports that carry them, and says nothing about ordering, retention, or replay — the semantics Kreps argues are the actual thing you need for data replication. The two are complementary rather than rivals: ZeroMQ gives you the N-to-N topology with the socket as the primitive, the log gives you the retention and ordering that let subscribers recover and replay.
+
 ### ETL Is Two Things Conflated
 
 Kreps argues that ETL conflates extraction/cleanup (liberating data from source systems) with restructuring (fitting data to a warehouse schema). These should be separated: the clean, integrated data repository should be available for real-time and low-latency use, not just batch warehousing. This has an organizational benefit too: data producers become responsible for providing clean, well-structured feeds to the central log, rather than dumping the extraction burden on a central data warehouse team that can never scale to match the rest of the organization.
