@@ -30,6 +30,8 @@ The design explicitly rejects Docker containers in favor of Firecracker micro-VM
 
 The vsock (virtual socket) channel between guest and host is what makes the snapshot architecture work. Agents inside the VM can't access the host filesystem directly — but they *can* signal over vsock to trigger a ZFS snapshot. This is an elegant separation of concerns: the agent owns execution, the host owns persistence. Compare with [[VTcode]]'s tree-sitter-based command validation — different layer of the stack, same philosophy of architectural constraint over prompt-level pleading.
 
+For a richer vsock channel than raw signaling, [[VSOCK with libzmq]] shows how to get ZeroMQ's messaging patterns (req/rep, pub/sub) and CurveZMQ authentication onto AF_VSOCK — the same guest↔host boundary Stockyard uses, upgraded from bare socket calls to a higher-level messaging library with encryption on tap.
+
 ### Secrets as Namespaced Infrastructure
 
 Secrets follow a clean `op://Stockyard/<instance>/<key>` hierarchy in 1Password, with an abstraction layer for future migration to AWS Secrets Manager. Cloud-init injects them at VM boot. The agent never sees real credentials in its configuration — it just uses them. This is the same pattern as [[OneCLI]]'s transparent proxy injection, applied at the VM provisioning layer rather than the network layer.
