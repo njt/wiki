@@ -59,7 +59,7 @@ The background vocal separation claim is specific and defensible — most stem s
 - [[Computer Use is 45x More Expensive Than Structured APIs]] — The cost gap analysis applies to audio too. Moises' cloud processing costs are orders of magnitude higher than a structured API approach would be. Local on-device inference would invert this entirely
 - [[Local and Open Source Inference]] — Moises is the opposite of this philosophy. Cloud-only, proprietary models, no API. The contrast is useful: some AI tools succeed through distribution and UX despite (or because of) being cloud-walled
 - [[Piano Autocomplete — On-Device Music Copilot]] — the local, single-instrument mirror image: one developer, a 125M-parameter transformer, and next-note autocomplete at ~108 notes/sec on an iPhone, no server. Proves the on-device path that Moises' cloud dependency is structurally exposed to.
-- [[AuK]] — Tencent's open-source MIT speech foundation model handles music separation and lyric editing (rewrite the lyrics of a singing recording while preserving melody and voice) through a plain instruction interface, with no cloud and no per-track pricing. It's the research-grade, self-hosted version of the stem workflow Moises productizes.
+- [[AuK]] — Tencent Hunyuan's open-source MIT 1.5B speech foundation model makes music separation and lyric editing (rewrite the lyrics of a singing recording while preserving melody and voice) single instructions among fourteen tasks, with no cloud and no per-track pricing. It's the research-grade, self-hosted version of the stem workflow Moises productizes — and a sign that the "separation as generation training" flywheel Moises built on is being commoditized at the open-weights research layer.
 
 ---
 
