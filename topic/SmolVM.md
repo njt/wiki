@@ -16,7 +16,7 @@ Default-deny at the network layer, with per-host egress allowlisting as the esca
 
 > "No daemon — the VMM is a library linked into the smolvm binary."
 
-The architectural claim that separates smolvm from Firecracker and QEMU, both of which run as a separate process you have to supervise. A library VMM means there's no long-lived privileged daemon to compromise — the isolation boundary is a hypervisor, but the orchestrator's attack surface collapses to a single short-lived process.
+The architectural claim that separates smolvm from Firecracker and QEMU, both of which run as a separate process you have to supervise. A library VMM means there's no long-lived privileged daemon to compromise — the isolation boundary is a hypervisor, but the orchestrator's attack surface collapses to a single short-lived process. [[You Should Be Using Rootless Containers]] is the concrete mechanism behind that fear: a root-owned Docker daemon is a passwordless root-escalation vector (`docker run -v /:/host ...`), so removing the daemon isn't aesthetic — it deletes the escalation path.
 
 > "GPU — Yes (Vulkan) … macOS native — Yes"
 
