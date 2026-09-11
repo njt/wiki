@@ -18,7 +18,7 @@ Halvar Flake (Thomas Dullien) -- the reverse-engineering legend behind BinDiff a
 
 #LLMs #alignment #philosophy #anti-anthropomorphism #concept
 
-**LLMs as dynamical systems.** Text generation is a path through ℝⁿ space, steered by context prefixes. The mathematical framing -- strange attractors, probability distributions, intractable integration over undesirable sequences -- strips away the mysticism. Alignment becomes: can you bound the probability of bad outputs? That is a computational problem, not a philosophical one.
+**LLMs as dynamical systems.** Text generation is a path through ℝⁿ space, steered by context prefixes. The mathematical framing -- strange attractors, probability distributions, intractable integration over undesirable sequences -- strips away the mysticism. Alignment becomes: can you bound the probability of bad outputs? That is a computational problem, not a philosophical one. [[Fractal Basins Trap Latent Reasoning]] makes the strange-attractor analogy quantitative: the Gilpin Lab varies a reasoning model's initial latent state and finds its convergence time forms a fractal basin, with "overthinking" emerging as transient chaos near nearly-correct solutions — the dynamical-systems framing, measured rather than asserted.
 
 **The meteorological simulation test.** Flake's most effective move: every time someone asks "could an LLM become conscious?" substitute "could a weather simulation become conscious?" If the substitution makes the question obviously absurd, the original question was anthropomorphizing. This is a genuinely useful heuristic.
 
