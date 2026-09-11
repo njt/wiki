@@ -18,6 +18,8 @@ Kurtis Kemple argues that experience design -- not model capability -- is the si
 
 The four-layer model (human owns intent/judgment, agent owns planning/outcomes, workflow owns automation, tool owns execution) is a clean taxonomy for thinking about where responsibility lives. The key insight: judgment cannot be delegated. The human always owns intent, even when the agent has significant autonomy over execution.
 
+The "steerable" condition gets a concrete rendering in [[Agentation]] — an annotation tool that turns the human's visual judgment into selector/path/component coordinates the agent can act on, which is "make the authority structure visible" implemented as an input surface rather than a dashboard.
+
 The "progressive authority" concept -- autonomy expands as agents demonstrate competence -- connects directly to [[Chief of Staff]]'s graduated autonomy model (three levels with measurable graduation criteria, rolling 90-day trust window). Kemple provides the theory; De Jesus provides the implementation.
 
 [[AI UX Patterns — User Transparency]] is the concrete UI layer for this: Nanz enumerates what "make the authority structure visible" means in practice — granular permissions (read vs. send, reference vs. delete), a revocable memory ledger, up-front cost estimates, and a visual marker for when the agent is acting autonomously. It strengthens Kemple's "transparent, steerable, resilient" principle by turning it into a buildable checklist, though its assumption of a careful, consenting user is exactly what [[How We Contain Claude]]'s 93% approval rate undermines.

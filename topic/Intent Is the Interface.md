@@ -95,6 +95,7 @@ The final vision — intent zones on a canvas, hover to see projections across s
 - [[Two Kinds of User Are Emerging]] — the interface as negotiation surface favors power users who can steer agents
 - [[Elements of Agentic Systems Design]] — ten-element taxonomy; Marc's eight intents are a candidate interaction-level complement
 - [[The Dark Factory is a DOT File]] — one pipeline spec, many runners; one intent model, many projection surfaces
+- [[Agentation]] — a concrete instantiation of "the page is the interface": point at a rendered element and the tool emits selector/path/component coordinates the agent can grep, replacing lossy description with machine-actionable intent
 
 ---
 *Sources: [[summary/intent-is-the-interface]]*
