@@ -85,6 +85,7 @@ A small but significant thread in the evidence asks whether orchestration should
 - [[Omnigent]] — open-source infrastructure attempting cross-harness agent orchestration, mentioned alongside [[bb — The Agent Orchestrator as Normalizer]] and [[Warp Agent CLI]] as part of the same movement
 - [[Orchestrator - Worker Skill]] — a single skill file combining orchestrator and worker roles rather than separating them, trading separation of concerns for reduced coordination overhead
 - [[Agent-Building Playbook (Ramparte)]] — an open pattern language that names the same findings as transferable pearls: 16 orchestration patterns (workflows-vs-agents, single-threaded-default, three-primitives, match-topology-to-the-work) each with an explicit "when NOT to" contraindication
+- [[Paperclip]] — an open-source control plane that ships the whole coordination stack (org chart, per-agent budgets, heartbeat execution, atomic checkout, provider-neutral run outcomes) as one product for running teams of heterogeneous agent CLIs
 
 ---
 

@@ -72,6 +72,7 @@ The daemon is the boundary between bb's world (projects, environments, permissio
 - [[Agent Host Protocol (AHP)]] — Microsoft's JSON-RPC protocol for multi-client agent sessions; bb's server-daemon-runtime RPC pipeline is a convergent design
 - [[Components of a Coding Agent]] — harness > model; bb is the harness one level up
 - [[Open Source Agent Toolkit 2026]] — orchestration as a distinct layer; bb fits the orchestration slot
+- [[Paperclip]] — normalizes one level up from bb: where bb translates in-thread provider events into a shared timeline, Paperclip translates whole-run outcomes (done/blocked/needs_review/yielded) and layers org charts, budgets, and governance on top
 
 ---
 *Sources: [[raw/73beb12a47851dc0b3ce34aef4d8d529]], [[summary/73beb12a47851dc0b3ce34aef4d8d529]]*
