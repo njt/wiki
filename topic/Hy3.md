@@ -46,7 +46,7 @@ This claim about scaffolding-agnostic performance echoes an emerging design prin
 
 **Hy3 sits in an increasingly crowded lane.** [[Step 3.7 Flash]] (196B/11B), [[Cohere North Mini Code]] (30B/3B), [[JetBrains Mellum2]] (12B/2.5B), [[MiMo-V2.5-Pro-UltraSpeed]] (1T total) — there are now at least five serious open-weight MoE models competing for the "agent workhorse" position. Hy3's differentiator is the combination of scale (largest active params in the open MoE tier), Apache 2.0 licensing, and the scaffolding-stability claim. Whether that's enough depends on whether the stability claim replicates.
 
-**The Tencent model ecosystem is becoming a thing.** Hunyuan → Hy3 Preview → Hy3, with AngelSlim for compression and dedicated deployment guides for vLLM and SGLang. This isn't a one-off model drop; it's a platform play. The question is whether the open-source community adopts Tencent's stack or just strips the weights and runs them through existing infrastructure.
+**The Tencent model ecosystem is becoming a thing.** Hunyuan → Hy3 Preview → Hy3, with AngelSlim for compression and dedicated deployment guides for vLLM and SGLang. This isn't a one-off model drop; it's a platform play. The question is whether the open-source community adopts Tencent's stack or just strips the weights and runs them through existing infrastructure. The platform now spans modalities too: [[AuK]], Tencent's 1.5B MIT speech foundation model, shipped the same month with the same Day 0 SGLang support pattern — text/code and speech under one open-weight umbrella.
 
 ---
 
