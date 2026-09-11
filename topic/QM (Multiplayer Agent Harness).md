@@ -50,6 +50,8 @@ This is the open-source, self-hosted answer to [[Introducing Claude Tag]]: where
 
 [[The Agent Access Model]] is the most direct conceptual neighbor: QM's scope + ACL-grant + keychain + command-policy stack is a concrete, running attempt at the "multiplayer access control" that Cloudflare Research said "we are not comfortable saying can be built end to end today." QM's posture-composition (org floor, scopes can only tighten) echoes AAM's Trust Ratchet spirit at coarser granularity. Also relevant: [[Security and Sandboxing]] (the four sandbox backends), [[Agent Memory and Context]] (the notebook/scratch-promote tiering), and [[Cloudflare OS]] (another org-wide agent platform with per-user sandboxes). [[OtoDock]] is the productized version of this same category — a self-hosted "agentic company OS" with departments, per-agent roles, and a kernel-sandbox default, but running on the customer's own Claude Code/Codex subscription rather than a swappable harness core.
 
+[[Paperclip]] is the same "agents as company infrastructure" bet with the emphasis inverted: QM organizes around scopes and gives each agent a memory, keychain, and sandbox; Paperclip organizes around an org chart and gives each agent a role, a boss, and a monthly budget. QM optimizes for tenancy, Paperclip for governance.
+
 #tool #project #agents #memory #security #slack
 
 ---
