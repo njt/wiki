@@ -5,7 +5,7 @@ author: 2389 Research Inc
 date_fetched: 2026-05-14
 date_published: 2026
 topics:
-  - agent-coding-workflow
+  - claude-code
 ---
 
 # Claude Code Plugin Marketplace | 2389 Research

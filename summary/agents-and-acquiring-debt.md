@@ -5,6 +5,7 @@ author: bl00cyb (with Tom Henderson and Mark)
 date_fetched: 2026-08-25
 date_published: 2026-07
 topics:
+  - software-engineering-craft
   - agent-coding-workflow
 ---
 

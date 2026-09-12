@@ -5,7 +5,7 @@ author: Rian van der Merwe (Elezea)
 date_fetched: 2026-05-14
 date_published: 2025-12-14
 topics:
-  - agent-coding-workflow
+  - ai-product-and-business
 ---
 
 # How I Use AI for Product Work

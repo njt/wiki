@@ -4,7 +4,7 @@ url: https://moldandyeast.substack.com/p/acceleration-flow
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
 topics:
-  - agent-coding-workflow
+  - ideas-and-culture
 ---
 
 # Acceleration Flow - Ramon Marc

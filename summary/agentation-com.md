@@ -5,6 +5,7 @@ author: unknown
 date_fetched: 2026-09-11
 date_published: n.d.
 topics:
+  - developer-tools
   - agent-coding-workflow
 ---
 

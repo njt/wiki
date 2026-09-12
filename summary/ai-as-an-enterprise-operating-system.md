@@ -5,6 +5,7 @@ author: Tim O'Reilly
 site: O'Reilly Radar
 date_fetched: 2026-08-07
 topics:
+  - ai-product-and-business
   - agent-coding-workflow
 ---
 

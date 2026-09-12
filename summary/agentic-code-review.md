@@ -6,7 +6,7 @@ date_fetched: 2026-07-05
 date_published: 2026-06-26
 site: O'Reilly Radar
 topics:
-  - agent-coding-workflow
+  - ai-code-review
 ---
 
 # Agentic Code Review
