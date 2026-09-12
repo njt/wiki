@@ -99,3 +99,14 @@
 - https://www.youtube.com/watch?v=NMs8C2_3M0w — backfill thin/empty (124 chars) via HTTP; retry with surf (ramp-lessons-building-ai-product) 2026-07-05
 - https://www.youtube.com/watch?v=JMA9D8J9EyI — backfill thin/empty (124 chars) via HTTP; retry with surf (ytx-linus-lee-context-engineering) 2026-07-05
 - https://www.youtube.com/watch?v=i1tZN41VKcE — backfill thin/empty (124 chars) via HTTP; retry with surf (ytx-uber-agentic-shift) 2026-07-05
+- https://archive.is/2026.07.23-215056/https://www.forbes.com/sites/lauriewinkless/2026/07/24/why-your-city-feels-built-for-cars-not-people/ — fetch empty (exit 3); surf hit archive.is CAPTCHA wall; direct forbes.com renders in surf (45 KB grab) but LLM 402 before ingest 2026-09-13
+- https://queue.acm.org/doi/10.1145/3819083 — fetch empty (exit 3); surf grab OK (32 KB, "Beyond Zero: Enterprise security for the AI era") but LLM 402 before ingest 2026-09-13
+- http://bair.berkeley.edu/blog/2026/07/26/abbel/ — fetch empty (exit 3); surf navigate timed out / content script not loaded; retry with surf 2026-09-13
+- https://github.com/bscott/rdc — --repo; LLM 402 Insufficient Balance (dscldy/deepseek-v4-pro) 2026-09-13
+- https://martinfowler.com/articles/exploring-gen-ai/tdd-in-the-agent-loop.html — LLM 402 Insufficient Balance 2026-09-13
+- https://www.pentestpartners.com/security-blog/reverse-engineering-the-tesla-firmware-update-process/ — LLM 402 Insufficient Balance 2026-09-13
+- https://code.claude.com/docs/en/cross-session-messaging — LLM 402 Insufficient Balance 2026-09-13
+- https://deniskyashif.com/2026/07/25/modeling-facts-and-reactions-with-domain-events/ — LLM 402 Insufficient Balance 2026-09-13
+- https://brittany-ellich.offprint.app/a/3mrjj34puva23-108-prs-in-eight-days-accidentally-discovering-loop-engineering — LLM 402 Insufficient Balance 2026-09-13
+- https://www.dbreunig.com/2026/03/26/winchester-mystery-house.html — LLM 402 Insufficient Balance 2026-09-13
+- https://lalitm.com/post/find-problems-staff-engineer/ — LLM 402 Insufficient Balance 2026-09-13
