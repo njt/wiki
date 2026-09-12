@@ -5,7 +5,7 @@ date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
 topics:
   - agent-coding-workflow
-  - agent-orchestration
+  - specifications-as-the-product
 ---
 
 Maggie Appleton argues that the current paradigm of individual developers commanding fleets of AI agents misses a fundamental truth: software development is inherently collaborative.
