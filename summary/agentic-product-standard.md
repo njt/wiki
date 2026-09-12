@@ -5,8 +5,8 @@ author: Moai Team LLC (Alex Duch)
 date_fetched: 2026-06-09
 date_published: 2026-06-06
 topics:
-  - agent-architecture
   - guardrails-and-feedback-loops
+  - specifications-as-the-product
 ---
 
 # The Agentic Product Standard v2.0 — Full Analysis

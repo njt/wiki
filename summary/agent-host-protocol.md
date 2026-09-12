@@ -5,6 +5,7 @@ author: Microsoft
 date_fetched: 2026-07-25
 date_published: 2026
 topics:
+  - mcp-and-tool-protocols
   - agent-architecture
 ---
 

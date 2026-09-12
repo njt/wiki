@@ -5,7 +5,8 @@ author: Adam Jacob
 date_fetched: 2026-07-25
 date_published: 2026-07-16
 topics:
-  - agent-architecture
+  - agent-orchestration
+  - ai-code-review
 ---
 
 Adam Jacob presents a case study and practical guide for dramatically reducing LLM token consumption in AI-assisted code review by replacing coordinator-agent architectures with deterministic workflow code.

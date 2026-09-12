@@ -5,7 +5,8 @@ author: Michael Segner (based on migrations run by Jarred Sumner and engineering
 date_fetched: 2026-07-25
 date_published: 2026-07-16
 topics:
-  - agent-architecture
+  - agent-coding-workflow
+  - agent-orchestration
 ---
 
 Anthropic's playbook for using Claude Code to run large-scale code migrations,

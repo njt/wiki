@@ -6,7 +6,7 @@ date_fetched: 2026-06-04
 date_published: 2026-06-04
 source: AI Engineer Conference talk, transcribed by njt
 topics:
-  - agent-architecture
+  - agent-coding-workflow
 ---
 
 # Your Coding Agent Should Do AI System Engineering

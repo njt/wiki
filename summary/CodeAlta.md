@@ -5,6 +5,7 @@ author: Alexandre Mutel (xoofx)
 date_fetched: 2026-07-05
 date_published: 2025
 topics:
+  - coding-agents-and-frameworks
   - agent-architecture
 ---
 

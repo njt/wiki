@@ -8,7 +8,7 @@ date_fetched: 2026-06-02
 date_published: unknown
 surf_verified: true
 topics:
-  - agent-architecture
+  - personal-agents
 ---
 
 # Agentcookie
