@@ -934,6 +934,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Arabic Typography]] — larrasket's interactive essay tracing Arabic typography from Ibn Muqla's 10th-century proportions through the Unicode fossil layer to the modern web where no browser can justify Arabic: kashida vs. inter-word spacing, the jstf standoff, and how HarfBuzz and Amiri became critical volunteer-maintained infrastructure for 400M+ speakers
 - [[Quadrangular Holes Govern Path Multiplicity]] — Wu et al. (2026): chordless 4-cycles are the microscopic mechanism governing path multiplicity in complex networks, validated across 140 empirical networks and 8 synthetic models. Simple local motif → complex global behavior, in the Watts-Strogatz/Barabási-Albert tradition
 - [[AI Mania Is Eviscerating Global Decision-Making]] — Ludicity's field report from ~300 meetings: AI investment at 0% success rate, the executive prisoner's dilemma that makes honesty a dominated strategy, and the AI-native purity tests distorting organizational resource allocation
+- [[Diary of a CEO and the Success-Podcast Grift]] — Barry's Economics Today argues Diary of a CEO stops listeners succeeding on purpose: Tetlock's hedgehog/fox selection, Watts' Music Lab randomness, Gazzaniga's press-office brain, Wald's survivorship bias, and the anxiety-monetisation cycle
 
 ## Miscellany
 
