@@ -308,6 +308,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Lemmalog — LLM Memory as Program Analysis]] — A vulnerability researcher's Datalog engine for agent memory: splits "memory" into retrieval vs. truth-maintenance, deriving and retracting conclusions with provenance and validity intervals. 0.463 LongMemEval / 0.533 LoCoMo F1 at ~38× less reader context than full transcripts
 - [[engineering-notebook]] — Automatic engineering diary from Claude Code and Codex sessions
 - [[Recursive Language Models]] — Alex Zhang's inference strategy wrapping LMs in a REPL environment for recursive context decomposition: GPT-5-mini + RLM > GPT-5 alone on long-context benchmarks, positioning RLMs as a third axis of inference-time scaling after CoT and ReAct
+- [[Vedana — Domain Models as Agent Context]] — Olga Tataranova's Epoch8 webinar on making LLMs answer domain questions correctly by feeding them a hand-built domain model (anchors, attributes, links) as context, then letting the agent query Memgraph with Cypher for exact, traceable answers instead of guessing from chunks
 
 ## Guardrails and Feedback Loops
 
