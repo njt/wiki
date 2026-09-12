@@ -118,6 +118,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[The Flat Curve Society]] — Steve Yegge on the AI plateau: dangerous models locked down like nukes, the discernment horizon, token literacy as the 2026-2027 culture challenge, and SaaS roaring back
 - [[Awesome Vibez]] — Curated project list from Nat's WhatsApp coding community
 - [[TDD Inside the Agent Loop — Theater or Actual Value?]] — Thoughtworks experiment: TDD-prescribed agent runs show no quality gain over non-TDD runs (per blind Opus judging) at 3–8x the tokens; most TDD benefits were human-psychology mechanisms, so monitor outcomes (mutation testing, structure review) instead of prescribing process
+- [[108 PRs in Eight Days — Accidentally Discovering Loop Engineering]] — Brittany Ellich's eight-day field report: an agent working a markdown task board shipped 108 PRs (vs a 5–10/week baseline) through a protocol/loop/worker system with single-writer board discipline, a self-terminating /loop, and a hard-capped memory whose recurring defects graduate into tasks — while the human bottleneck moved to spec-writing and QA at both ends of the pipeline
 
 ## Claude Code
 
