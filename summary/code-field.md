@@ -6,7 +6,6 @@ fetched_via: "x.com via surf browser automation"
 section: "AI-enhanced Coding"
 topics:
   - agent-coding-workflow
-  - guardrails-and-feedback-loops
 ---
 
 # Code Field - BLUECOW009 (NeoVertex1)

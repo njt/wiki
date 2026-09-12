@@ -5,7 +5,7 @@ author: John Renaldi (jrenaldi79)
 date_fetched: 2026-05-15
 date_published: 2026-03-15 (v0.5.2)
 topics:
-  - agent-coding-workflow
+  - claude-code
 ---
 
 # Claude Sidecar

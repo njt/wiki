@@ -7,6 +7,7 @@ date_published: 2026-05-10
 tags: [codex, agent-workflow, heartbeats, memory, voice, browser-automation]
 topics:
   - agent-coding-workflow
+  - agent-memory-and-context
 ---
 
 # Codex-maxxing

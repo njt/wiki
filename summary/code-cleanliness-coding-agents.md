@@ -6,6 +6,7 @@ date_fetched: 2026-07-08
 date_published: 2026-05
 topics:
   - agent-coding-workflow
+  - software-engineering-craft
 ---
 
 This paper from SonarSource asks whether code cleanliness (measured by static-analysis violations and cognitive complexity) changes how well coding agents can navigate and modify a codebase. The key methodological contribution is **minimal-pair repositories**: behaviorally equivalent codebases that differ only on cleanliness, created either by degrading a clean codebase (Slopify) or cleaning up a messy one (Vibeclean).

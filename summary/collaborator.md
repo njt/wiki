@@ -4,6 +4,7 @@ url: https://github.com/collaborator-ai/collab-public
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
 topics:
+  - developer-tools
   - agent-coding-workflow
 ---
 

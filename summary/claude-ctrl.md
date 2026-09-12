@@ -4,8 +4,8 @@ url: https://github.com/juanandresgs/claude-ctrl
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
 topics:
-  - agent-coding-workflow
   - guardrails-and-feedback-loops
+  - agent-orchestration
 ---
 
 # Claude-Ctrl (ClauDEX v5.0)

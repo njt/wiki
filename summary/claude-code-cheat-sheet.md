@@ -4,7 +4,7 @@ url: https://cc.storyfox.cz/
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
 topics:
-  - agent-coding-workflow
+  - claude-code
 ---
 
 Comprehensive reference guide for Claude Code v2.1.140 (updated May 12, 2026).

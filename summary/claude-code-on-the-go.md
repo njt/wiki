@@ -4,8 +4,7 @@ url: https://granda.org/en/2026/01/02/claude-code-on-the-go/
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
 topics:
-  - agent-coding-workflow
-  - personal-agents
+  - claude-code
 ---
 
 # Claude Code On-The-Go

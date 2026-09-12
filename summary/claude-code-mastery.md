@@ -13,7 +13,7 @@ tags:
   - workflow
   - devtools
 topics:
-  - agent-coding-workflow
+  - claude-code
 ---
 
 # Beyond the Prompt: Claude Code

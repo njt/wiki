@@ -5,7 +5,8 @@ author: Zach Lloyd
 date_fetched: 2026-07-25
 date_published: 2026-07-14
 topics:
-  - agent-coding-workflow
+  - agent-orchestration
+  - ai-product-and-business
 ---
 
 Zach Lloyd (CEO of Warp) lays out the case for cloud software factories — centralized, automated systems that run the SDLC loop (triage → spec → implement → review → verify → ship → monitor) with agents doing most of the work and humans steering as needed. The article is aimed at engineering leaders evaluating the shift from interactive coding agents to factory-style automation.

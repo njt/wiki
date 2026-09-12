@@ -6,6 +6,7 @@ date_fetched: 2026-05-14
 date_published: 2025-12
 topics:
   - agent-coding-workflow
+  - software-engineering-craft
 ---
 
 Lee Robinson recounts how he migrated cursor.com from a headless CMS back to raw code and Markdown. What he expected to take weeks with an agency was "able to finish the migration in three days with $260 in tokens and hundreds of agents."
