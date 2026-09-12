@@ -7,7 +7,8 @@ date_published: 2026-06-16
 publication: martinfowler.com
 coauthors: Adam Zalewski, Annika Kreuchwig, Carlos Henrique Vieira-Vieira, Jobst Löffler, Jonas Münch (Bayer team); Bala Hari, Balu Saravanan (Thoughtworks team)
 topics:
-  - misc
+  - agent-orchestration
+  - agent-memory-and-context
 ---
 
 # Building Reliable Agentic AI Systems

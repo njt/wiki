@@ -4,7 +4,7 @@ url: https://github.com/elder-plinius/V3SP3R
 date_fetched: 2026-05-14
 section: "Random"
 topics:
-  - misc
+  - security-and-sandboxing
 ---
 
 # V3SP3R: AI-Powered Flipper Zero Control

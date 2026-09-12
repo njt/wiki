@@ -5,7 +5,7 @@ author: Gavin Li (lyogavin)
 date_fetched: 2026-07-03
 date_published: 2023-11-20
 topics:
-  - misc
+  - local-and-open-source-inference
 ---
 
 # AirLLM — Full Repository Analysis

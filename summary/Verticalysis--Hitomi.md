@@ -5,7 +5,8 @@ author: Verticalysis
 date_fetched: 2026-06-12
 date_published: unknown
 topics:
-  - misc
+  - developer-tools
+  - databases-and-data
 ---
 
 # Hitomi — Deep Architecture Analysis

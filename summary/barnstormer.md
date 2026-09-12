@@ -5,7 +5,8 @@ author: 2389 Research, Inc.
 date_fetched: 2026-05-31
 date_published: 2026-02-10
 topics:
-  - misc
+  - specifications-as-the-product
+  - coding-agents-and-frameworks
 ---
 
 # barnstormer — Agentic Spec Builder

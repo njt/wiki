@@ -6,7 +6,8 @@ date_fetched: 2026-07-05
 date_published: 2026-04
 site: Modal Blog
 topics:
-  - misc
+  - ai-infrastructure-and-hardware
+  - coding-agents-and-frameworks
 ---
 
 # Best Infrastructure Platforms for Coding Agents in 2026

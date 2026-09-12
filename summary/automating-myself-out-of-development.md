@@ -5,7 +5,7 @@ author: Nune Isabekyan
 date_fetched: 2026-06-15
 date_published: 2026-04-28
 topics:
-  - misc
+  - agent-coding-workflow
 ---
 
 # Automating Myself Out of Development

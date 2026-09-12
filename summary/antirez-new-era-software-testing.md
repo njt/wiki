@@ -5,7 +5,8 @@ author: "antirez (Salvatore Sanfilippo)"
 date_fetched: 2026-06-12
 date_published: 2026-06-08
 topics:
-  - misc
+  - software-engineering-craft
+  - agent-coding-workflow
 ---
 
 # A new era for software testing

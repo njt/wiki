@@ -5,7 +5,7 @@ author: Avi Chawla
 date_fetched: 2026-05-15
 date_published: 2026-03-23
 topics:
-  - misc
+  - claude-code
 ---
 
 # Anatomy of the .claude/ Folder

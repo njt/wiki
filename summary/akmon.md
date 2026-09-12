@@ -5,7 +5,8 @@ author: radotsvetkov
 date_fetched: 2026-06-09
 date_published: 2025
 topics:
-  - misc
+  - guardrails-and-feedback-loops
+  - security-and-sandboxing
 ---
 
 # Akmon — Full Repository Analysis

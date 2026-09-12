@@ -5,7 +5,7 @@ author: George Michaelson
 date_fetched: 2026-06-15
 date_published: 2025-12-08
 topics:
-  - misc
+  - distributed-systems
 ---
 
 # 21 years and counting of 'eight fallacies of distributed computing'
