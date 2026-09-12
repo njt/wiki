@@ -7,6 +7,7 @@ date_published: 2026-02-06
 tags: [Ethics, AI-Assisted Coding, AI, Productivity, Coding, Technology, Software Development, Golang]
 topics:
   - agent-coding-workflow
+  - software-engineering-craft
 ---
 
 ## Core Premise

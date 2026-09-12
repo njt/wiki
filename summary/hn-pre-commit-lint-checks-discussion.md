@@ -5,8 +5,8 @@ date_fetched: 2026-05-15
 date_published: 2026-01-14
 author: akshay326
 topics:
-  - agent-coding-workflow
   - guardrails-and-feedback-loops
+  - agent-coding-workflow
 ---
 
 # HN Discussion: Pre-commit lint checks: Vibe coding's kryptonite

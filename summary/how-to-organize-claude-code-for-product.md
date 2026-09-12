@@ -11,7 +11,8 @@ tags:
   - context-engineering
   - product-management
 topics:
-  - agent-coding-workflow
+  - claude-code
+  - agent-memory-and-context
 ---
 
 # How to Organize Claude Code for Product

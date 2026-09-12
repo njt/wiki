@@ -6,6 +6,7 @@ date_fetched: 2026-07-18
 date_published: 2026-02-18
 topics:
   - agent-coding-workflow
+  - ideas-and-culture
 ---
 
 Summers argues that LLM-assisted programming is both useful and destabilizing, and that

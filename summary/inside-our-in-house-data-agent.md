@@ -5,7 +5,8 @@ author: Bonnie Xu, Aravind Suresh, and Emma Tang
 date_fetched: 2026-05-18
 date_published: 2026-01-29
 topics:
-  - agent-coding-workflow
+  - agent-architecture
+  - databases-and-data
 ---
 
 Data powers how systems learn, products evolve, and how companies make choices. But getting answers quickly, correctly, and with the right context is often harder than it should be. To make this easier as OpenAI scales, we built our own bespoke in-house AI data agent that explores and reasons over our own platform.

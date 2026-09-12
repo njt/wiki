@@ -6,6 +6,7 @@ url: https://www.linkedin.com/pulse/how-we-use-claude-code-today-intercom-brian-
 fetched: 2026-05-14
 type: article
 topics:
+  - claude-code
   - agent-coding-workflow
 ---
 

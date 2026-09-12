@@ -6,6 +6,7 @@ date_fetched: 2026-07-18
 date_published: 2026-06-25
 topics:
   - agent-coding-workflow
+  - guardrails-and-feedback-loops
 ---
 
 Emily Bache argues that the same code-quality skills she has always taught — working in small steps with frequent feedback — apply directly to working with agentic AI, under the banner of **Harness Engineering**.

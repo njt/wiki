@@ -5,7 +5,8 @@ author: Anthropic Applied AI team (Alon Krifcher, Charmaine Lee, Chris Concannon
 date_fetched: 2026-05-16
 date_published: 2026-05-14
 topics:
-  - agent-coding-workflow
+  - claude-code
+  - agent-memory-and-context
 ---
 
 # How Claude Code works in large codebases: Best practices and where to start

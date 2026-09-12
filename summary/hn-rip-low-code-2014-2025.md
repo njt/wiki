@@ -5,6 +5,7 @@ author: Zack Liscio (original article), 157+ HN commenters
 date_fetched: 2026-05-15
 date_published: 2025-05-10
 topics:
+  - ai-product-and-business
   - agent-coding-workflow
 ---
 
