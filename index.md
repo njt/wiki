@@ -498,6 +498,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[YAGNI]] — Martin Fowler's canonical 2015 bliki entry: the four-cost framework for presumptive features (build, delay, carry, repair), the enabling relationship with refactoring, and why deferring features is correct economics even when your predictions are right
 - [[Grug Brain Developer]] — Cult-classic essay on software development disguised as caveman-speak: complexity is the apex predator, "no" is the best weapon, wait for cut points before abstracting, integration tests are the sweet spot, and impostor syndrome is universal. The folk-wisdom companion to [[Software Engineering Craft]]
 - [[Installing VS Compilers From Commandline]] — msvcup: skip Visual Studio, install just the compiler and SDK
+- [[Mutation Testing]] — Stryker's docs intro to mutation testing: seed deliberate bugs ("mutants") into source, run the suite, and count how many get killed — a surviving mutant is a behaviour no test pinned down. The contrast with coverage (execution vs. assertion) and Stryker's source-only mutation rule, pitched as "no false positives"
 
 ## Databases and Data
 
