@@ -4,6 +4,7 @@ url: https://martinalderson.com/posts/two-kinds-of-ai-users-are-emerging/
 date_fetched: 2026-05-14
 section: "Management/Business"
 topics:
+  - ai-product-and-business
   - agent-coding-workflow
 ---
 

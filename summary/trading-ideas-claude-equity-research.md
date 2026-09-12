@@ -5,7 +5,7 @@ author: quant-sentiment-ai
 date_fetched: 2026-05-15
 date_published: 2025-09-09
 topics:
-  - agent-coding-workflow
+  - claude-code
 ---
 
 # Claude Equity Research Plugin

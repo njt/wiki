@@ -8,7 +8,7 @@ publication: Proof of Concept (Substack)
 issue: 276
 status: partial (paywalled)
 topics:
-  - agent-coding-workflow
+  - specifications-as-the-product
 ---
 
 Issue 276 of David Hoang's *Proof of Concept* newsletter. The piece opens attributing the title phrase to Tyler Angert, who said it while working on Amjad Masad's TED Talk. Hoang writes that the remark captured "how modern tools collapse intent and execution." He now considers the phrase less metaphorical and more literally descriptive of contemporary work. The piece frames this as an observation about knowledge engineering and plans as an atomic unit -- not just an LLM observation but about how humans work when tools stop distinguishing between planning and doing.
