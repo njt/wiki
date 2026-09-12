@@ -5,7 +5,8 @@ author: Emma Yusufu
 date_fetched: 2026-06-15
 date_published: 2025-06-01
 topics:
-  - misc
+  - developer-tools
+  - security-and-sandboxing
 ---
 
 # Tessera — Deep Architecture Analysis

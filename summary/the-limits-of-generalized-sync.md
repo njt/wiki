@@ -5,7 +5,8 @@ author: Mikael Siidorow
 date_fetched: 2026-07-03
 date_published: 2026-05-25
 topics:
-  - misc
+  - distributed-systems
+  - databases-and-data
 ---
 
 # The Limits of Generalized Sync: A Taxonomy of Architectures, Trade-offs, and Decision Factors

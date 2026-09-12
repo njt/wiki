@@ -5,7 +5,7 @@ author: Keel IoT team
 date_published: 2026
 date_fetched: 2026-08-07
 topics:
-  - misc
+  - distributed-systems
 ---
 
 A team building a clustered MQTT broker (Keel MQTT Gateway) discovers the hard way that asking "which consistency model should the cluster use?" is the wrong question. The right one: "which consistency guarantee does *this specific piece of state* actually need?"

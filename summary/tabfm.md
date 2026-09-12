@@ -5,7 +5,7 @@ author: Google Research
 date_fetched: 2026-07-03
 date_published: 2026-06-29
 topics:
-  - misc
+  - ai-research-and-models
 ---
 
 # TabFM — Raw Ingest Analysis

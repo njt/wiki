@@ -5,7 +5,7 @@ author: Pete Johnson
 date_fetched: 2026-06-22
 date_published: 2026-06-17
 topics:
-  - misc
+  - ai-product-and-business
 ---
 
 # The Case Against Building Your Own Agent Platform

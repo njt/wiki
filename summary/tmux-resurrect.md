@@ -5,7 +5,7 @@ author: tmux-plugins (Bruno Sutic)
 date_fetched: 2026-05-22
 date_published: 2014
 topics:
-  - misc
+  - developer-tools
 ---
 
 # Tmux Resurrect — Full Analysis

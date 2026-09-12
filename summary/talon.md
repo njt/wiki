@@ -5,7 +5,7 @@ author: Ryan Hileman (lunixbochs)
 date_fetched: 2026-05-31
 section: "Local & Personal Computing"
 topics:
-  - misc
+  - developer-tools
 ---
 
 # Talon: Hands-Free Computer Control

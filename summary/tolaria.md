@@ -4,7 +4,7 @@ url: https://github.com/refactoringhq/tolaria
 date_fetched: 2026-05-14
 section: "Random"
 topics:
-  - misc
+  - developer-tools
 ---
 
 # Tolaria: Desktop Markdown Knowledge Base Manager

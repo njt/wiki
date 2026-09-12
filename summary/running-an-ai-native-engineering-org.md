@@ -5,7 +5,7 @@ author: "Fiona Fung"
 date_fetched: 2026-06-15
 date_published: 2026-06-03
 topics:
-  - misc
+  - agent-coding-workflow
 ---
 
 # Running an AI-Native Engineering Org

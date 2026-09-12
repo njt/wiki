@@ -5,7 +5,8 @@ author: Alex Weil
 date_fetched: 2026-07-05
 date_published: 2026
 topics:
-  - misc
+  - guardrails-and-feedback-loops
+  - ai-research-and-models
 ---
 
 # How good a detective is an AI?

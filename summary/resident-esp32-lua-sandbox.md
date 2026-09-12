@@ -5,7 +5,8 @@ author: inanimate-tech (Jesse Vincent / obra)
 date_fetched: 2026-05-22
 date_published: 2025-01
 topics:
-  - misc
+  - developer-tools
+  - security-and-sandboxing
 ---
 
 # Resident — Full Architectural Analysis

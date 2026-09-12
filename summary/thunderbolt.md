@@ -5,7 +5,8 @@ author: Thunderbird (MZLA Technologies Corporation)
 date_fetched: 2026-05-14
 date_published: null
 topics:
-  - misc
+  - personal-agents
+  - local-and-open-source-inference
 ---
 
 # Thunderbolt

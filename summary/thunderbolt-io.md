@@ -5,7 +5,7 @@ author: MZLA Technologies Corporation
 date_fetched: 2026-05-14
 date_published: null
 topics:
-  - misc
+  - ai-product-and-business
 ---
 
 # Thunderbolt Marketing Site (thunderbolt.io)
