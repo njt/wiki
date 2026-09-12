@@ -4,6 +4,7 @@ url: https://nango.dev/blog/learned-building-200-api-integrations-with-opencode/
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
 topics:
+  - guardrails-and-feedback-loops
   - agent-coding-workflow
 ---
 

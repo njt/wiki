@@ -4,7 +4,7 @@ url: https://github.com/danshapiro/awesome-vibez
 date_fetched: 2026-05-14
 section: "Random"
 topics:
-  - agent-coding-workflow
+  - coding-agents-and-frameworks
   - personal-agents
 ---
 

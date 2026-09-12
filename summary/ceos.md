@@ -5,7 +5,7 @@ author: Brad Feld
 date_fetched: 2026-08-21
 date_published: 2026-08-04
 topics:
-  - agent-coding-workflow
+  - claude-code
 ---
 
 CEOS is a Claude Code skills package that implements the Entrepreneurial Operating System (EOS) — the business-management framework from Gino Wickman's *Traction*, used by ~250,000 companies — as AI-assisted workflows. Brad Feld (Foundry Group VC, von Hippel student) built it so a leadership team can run vision, accountability, Rocks, scorecards, L10 meetings, and the rest of EOS without a SaaS subscription: all EOS data lives as markdown files with YAML frontmatter in a git repo, and the "tools" are 19 `SKILL.md` files Claude Code discovers via symlinks in `~/.claude/skills/`.

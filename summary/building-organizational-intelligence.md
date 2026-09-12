@@ -5,7 +5,8 @@ author: "An O'Reilly engineering leader (unnamed)"
 date_fetched: 2026-08-07
 site: "O'Reilly Radar"
 topics:
-  - agent-coding-workflow
+  - ai-product-and-business
+  - mcp-and-tool-protocols
 ---
 
 An O'Reilly engineering leader describes how they built an organizational intelligence system that combines internal data, AI reasoning, expert frameworks, and human review to produce actionable, defensible recommendations rather than generic data summaries.

@@ -6,6 +6,7 @@ author: Jake Saunders
 date_fetched: 2026-09-04
 date_published: null
 topics:
+  - security-and-sandboxing
   - agent-coding-workflow
 ---
 

@@ -5,7 +5,7 @@ author: Max Tikhomirov
 date_fetched: 2026-07-25
 date_published: 2026-06-06
 topics:
-  - agent-coding-workflow
+  - guardrails-and-feedback-loops
 ---
 
 A library of 11 focused audit skills for AI coding agents, each a self-contained markdown playbook (42–77 lines) that an agent runs against a real codebase to produce concrete findings with file paths, line numbers, impact, and suggested fixes.

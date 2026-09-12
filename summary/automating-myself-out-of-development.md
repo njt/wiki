@@ -6,6 +6,7 @@ date_fetched: 2026-06-15
 date_published: 2026-04-28
 topics:
   - agent-coding-workflow
+  - claude-code
 ---
 
 # Automating Myself Out of Development

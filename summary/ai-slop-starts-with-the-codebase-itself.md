@@ -6,6 +6,7 @@ date_fetched: 2026-07-11
 date_published: 2026-07-09
 topics:
   - agent-coding-workflow
+  - software-engineering-craft
 ---
 
 The author argues that AI coding assistants perform dramatically better with
