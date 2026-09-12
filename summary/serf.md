@@ -4,8 +4,7 @@ url: https://github.com/prime-radiant-inc/serf
 date_fetched: 2026-05-14
 section: "LLMs"
 topics:
-  - personal-agents
-  - agent-architecture
+  - coding-agents-and-frameworks
 ---
 
 # Serf: Non-Interactive Coding Agent

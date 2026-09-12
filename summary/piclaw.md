@@ -5,7 +5,7 @@ date_fetched: 2026-05-14
 section: "LLMs"
 topics:
   - personal-agents
-  - agent-architecture
+  - coding-agents-and-frameworks
 ---
 
 # PiClaw: Self-Hosted AI Workspace

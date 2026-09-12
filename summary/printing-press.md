@@ -5,7 +5,7 @@ author: Matt Van Horn (@mvanhorn)
 date_fetched: 2026-05-22
 date_published: unknown
 topics:
-  - agent-architecture
+  - mcp-and-tool-protocols
 ---
 
 # Printing Press

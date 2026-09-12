@@ -4,6 +4,7 @@ title: "Prime Agent: A Self-Improving RLM Agent"
 author: Prime Intellect
 date_fetched: 2026-08-21
 topics:
+  - coding-agents-and-frameworks
   - agent-architecture
 ---
 

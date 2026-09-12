@@ -5,7 +5,7 @@ author: trpevski.com (unattributed)
 date_fetched: 2026-09-04
 ingested: 2026-09-04
 topics:
-  - agent-architecture
+  - agent-memory-and-context
 ---
 
 # Scaling RAG: Chunking, Reranking, and Cost Optimization — Summary

@@ -1,6 +1,7 @@
 ---
 topics:
-  - agent-architecture
+  - coding-agents-and-frameworks
+  - agent-orchestration
 ---
 # Ruflo — Summary
 

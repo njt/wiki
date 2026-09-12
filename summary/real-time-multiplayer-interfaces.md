@@ -5,6 +5,7 @@ author: Ramon Marc
 date_fetched: 2026-07-05
 date_published: 2026-06-08
 topics:
+  - ideas-and-culture
   - agent-architecture
 ---
 

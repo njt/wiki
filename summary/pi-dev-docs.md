@@ -5,7 +5,7 @@ author: Earendil Inc.
 date_fetched: 2026-05-15
 date_published: unknown
 topics:
-  - agent-architecture
+  - coding-agents-and-frameworks
 ---
 
 # Pi Coding Agent — Official Documentation

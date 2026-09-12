@@ -5,7 +5,7 @@ author: Zach Manson (zachpmanson)
 site: github.com
 date_fetched: 2026-08-06
 topics:
-  - agent-architecture
+  - coding-agents-and-frameworks
 ---
 
 # pi-msg

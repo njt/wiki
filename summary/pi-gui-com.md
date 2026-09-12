@@ -5,7 +5,7 @@ author: minghinmatthewlam (GitHub)
 date_fetched: 2026-08-14
 date_published: unknown
 topics:
-  - agent-architecture
+  - coding-agents-and-frameworks
 ---
 
 pi-gui is a "Codex-style" native desktop app for the `pi` coding agent, in beta for macOS arm64 and Linux (AppImage), installed from GitHub Releases or Homebrew cask. It wraps `@earendil-works/pi-coding-agent` behind a desktop shell that manages workspaces, runs sessions, and reviews agent work.
