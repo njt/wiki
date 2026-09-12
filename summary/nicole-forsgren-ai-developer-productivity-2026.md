@@ -6,7 +6,8 @@ date_fetched: 2026-07-04
 date_published: 2026-05-18
 source: The Pragmatic Engineer (YouTube), transcribed via ytx gist
 topics:
-  - misc
+  - agent-coding-workflow
+  - ai-product-and-business
 ---
 
 # Nicole Forsgren on AI and Developer Productivity

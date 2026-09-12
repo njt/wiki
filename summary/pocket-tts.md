@@ -4,7 +4,8 @@ url: https://kyutai.org/blog/2026-01-13-pocket-tts
 date_fetched: 2026-05-14
 section: "Random"
 topics:
-  - misc
+  - local-and-open-source-inference
+  - ai-research-and-models
 ---
 
 # Pocket TTS

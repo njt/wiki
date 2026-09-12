@@ -6,7 +6,7 @@ date_fetched: 2026-06-22
 date_published: 2026-05-31
 tags: [software-economics, build-vs-buy, llm, saas, pricing, indie-dev]
 topics:
-  - misc
+  - ai-product-and-business
 ---
 
 # The Minimum Viable Unit of Saleable Software

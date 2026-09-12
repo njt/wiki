@@ -10,7 +10,7 @@ youtube_url: https://www.youtube.com/watch?v=0Cv5763UX70
 channel: The Pragmatic Engineer
 duration: 34m 50s
 topics:
-  - misc
+  - software-engineering-craft
 ---
 
 # Product-Minded Engineers in an AI-Native World

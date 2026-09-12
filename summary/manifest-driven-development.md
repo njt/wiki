@@ -5,7 +5,8 @@ author: CL Kao (Chia-liang Kao)
 date_fetched: 2026-07-05
 date_published: 2026-06-25
 topics:
-  - misc
+  - specifications-as-the-product
+  - agent-coding-workflow
 ---
 
 In my 35 years of tinkering with software, coding agents have made every other technical breakthrough look like an ergonomics improvement or an evolution. Those were great, but they no longer seem revolutionary now. I think we need to talk about a new emerging paradigm. This is not just vibe-coding, agentic-engineering, or the move from test-driven to spec-driven. Those augmented our current way of working, to the extent that one can build what used to take a team. It's a hyper-multiplier for those with experience in software engineering and/or running software teams. But I think there's a new paradigm that is fundamentally different. I call it manifest-driven development for now, and it is most obvious when building out agentic systems with the system itself.

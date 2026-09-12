@@ -15,7 +15,8 @@ tags:
   - model-capability
   - ECI
 topics:
-  - misc
+  - ai-research-and-models
+  - local-and-open-source-inference
 ---
 
 # Open models lag state-of-the-art closed models by 4 months

@@ -5,7 +5,7 @@ author: unknown
 date_fetched: 2026-06-09
 date_published: unknown
 topics:
-  - misc
+  - developer-tools
 ---
 
 Process Flow is a SaaS service orchestration platform for API-first teams. It uses a choreography pattern: each workflow stage is an HTTP endpoint that returns JSON specifying the next stage's URL, execution time, and updated state. There is no central workflow definition — workflows emerge as chains of stages, each designating its successor.

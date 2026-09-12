@@ -4,7 +4,8 @@ url: https://github.com/snarktank/ralph
 date_fetched: 2026-05-14
 section: "LLMs"
 topics:
-  - misc
+  - coding-agents-and-frameworks
+  - agent-architecture
 ---
 
 # Ralph: Autonomous AI Agent Loop

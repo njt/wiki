@@ -6,7 +6,8 @@ date_fetched: 2026-06-05
 date_published: 2025
 tags: [ai, agent, self-hosted, chat, local-first, fastapi, python, mcp, tool-use]
 topics:
-  - misc
+  - personal-agents
+  - coding-agents-and-frameworks
 ---
 
 # Odysseus — Full Repository Analysis

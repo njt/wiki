@@ -12,7 +12,8 @@ date_fetched: 2026-07-04
 date_published: 2026-05-18
 transcribed_by: njt
 topics:
-  - misc
+  - ai-product-and-business
+  - agent-architecture
 ---
 
 # Ramp: Lessons from Building a New AI Product - The Pragmatic Summit

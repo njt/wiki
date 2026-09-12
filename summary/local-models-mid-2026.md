@@ -11,7 +11,8 @@ tags:
   - "#hardware"
   - "#concept"
 topics:
-  - misc
+  - local-and-open-source-inference
+  - ai-research-and-models
 ---
 
 # Local models in mid-2026: the engineering that closed the gap

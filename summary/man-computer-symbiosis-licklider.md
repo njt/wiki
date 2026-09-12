@@ -6,7 +6,7 @@ date_fetched: 2026-06-11
 date_published: 1960-03
 publication: "IRE Transactions on Human Factors in Electronics, volume HFE-1, pages 4–11"
 topics:
-  - misc
+  - ideas-and-culture
 ---
 
 # Man-Computer Symbiosis

@@ -5,7 +5,7 @@ author: Fred Hebert (mononcqc)
 date_fetched: 2026-06-12
 date_published: 2014-11-19
 topics:
-  - misc
+  - distributed-systems
 ---
 
 # Queues Don't Fix Overload
