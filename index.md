@@ -117,6 +117,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Martin Fowler and Kent Beck on Reinventing Software]] — Two Agile Manifesto authors on AI's unprecedented magnitude, total skepticism as discipline, the re-soloing illusion, DX=AgentX convergence, and why nobody has the answers anymore
 - [[The Flat Curve Society]] — Steve Yegge on the AI plateau: dangerous models locked down like nukes, the discernment horizon, token literacy as the 2026-2027 culture challenge, and SaaS roaring back
 - [[Awesome Vibez]] — Curated project list from Nat's WhatsApp coding community
+- [[TDD Inside the Agent Loop — Theater or Actual Value?]] — Thoughtworks experiment: TDD-prescribed agent runs show no quality gain over non-TDD runs (per blind Opus judging) at 3–8x the tokens; most TDD benefits were human-psychology mechanisms, so monitor outcomes (mutation testing, structure review) instead of prescribing process
 
 ## Claude Code
 
