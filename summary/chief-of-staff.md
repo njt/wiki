@@ -5,7 +5,7 @@ date_fetched: 2026-05-14
 section: "LLMs"
 topics:
   - personal-agents
-  - agent-architecture
+  - agent-memory-and-context
 ---
 
 # I Built an AI Chief of Staff

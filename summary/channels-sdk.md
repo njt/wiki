@@ -4,8 +4,8 @@ title: Channels SDK
 author: CopilotKit
 date_fetched: 2026-08-07
 topics:
+  - coding-agents-and-frameworks
   - personal-agents
-  - agent-architecture
 ---
 
 # CopilotKit Channels SDK — Summary

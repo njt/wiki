@@ -6,6 +6,7 @@ date_fetched: 2026-07-11
 date_published: 2026-06-02
 topics:
   - agent-architecture
+  - distributed-systems
 ---
 
 Cursor's engineering team reflects on the challenges of building coding agents that run

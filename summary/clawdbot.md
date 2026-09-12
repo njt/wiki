@@ -5,7 +5,7 @@ date_fetched: 2026-05-14
 section: "Personal Agents"
 topics:
   - personal-agents
-  - agent-architecture
+  - local-and-open-source-inference
 ---
 
 # OpenClaw (formerly clawdBot): Personal AI Assistant

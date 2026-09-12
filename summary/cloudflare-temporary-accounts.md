@@ -6,7 +6,8 @@ date_fetched: 2026-06-22
 date_published: 2026-06-19
 source_domain: blog.cloudflare.com
 topics:
-  - agent-architecture
+  - developer-tools
+  - mcp-and-tool-protocols
 ---
 
 # Temporary Cloudflare Accounts for AI agents

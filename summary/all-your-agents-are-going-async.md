@@ -6,6 +6,7 @@ date_fetched: 2026-05-15
 date_published: 2026-04-20
 topics:
   - agent-architecture
+  - distributed-systems
 ---
 
 # All your agents are going async

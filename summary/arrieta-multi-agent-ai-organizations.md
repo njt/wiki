@@ -5,7 +5,8 @@ author: "Jose Arrieta, Vivianna Fang He, Phanish Puranam, Yash Raj Shrestha"
 date_fetched: 2026-07-21
 date_published: 2025
 topics:
-  - agent-architecture
+  - agent-orchestration
+  - ideas-and-culture
 ---
 
 Argues that multi-agent AI systems are not merely technical architectures but *organizations* in the formal sense identified by a century of Carnegie-tradition organization science. Whenever multiple bounded agents pursue system-level goals, four universal problems arise: task division, task allocation, information provision, and reward (objective) distribution. Multi-agent AI systems face these problems by construction, not by analogy.

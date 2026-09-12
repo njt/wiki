@@ -7,6 +7,7 @@ date_published: 2025-12-26
 tags: ruby-on-rails, ruby, llm, ai-agent, tool-calling
 topics:
   - agent-architecture
+  - mcp-and-tool-protocols
 ---
 
 # Building an AI agent inside a 7-year old Rails application

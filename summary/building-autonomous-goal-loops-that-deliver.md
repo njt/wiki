@@ -6,6 +6,7 @@ date_fetched: 2026-09-04
 date_published: undated
 topics:
   - agent-architecture
+  - guardrails-and-feedback-loops
 ---
 
 # Building Autonomous Goal Loops That Deliver

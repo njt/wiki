@@ -6,7 +6,8 @@ date_fetched: 2026-06-09
 date_published: 2026-06-05
 source_type: substack
 topics:
-  - agent-architecture
+  - agent-memory-and-context
+  - agent-coding-workflow
 ---
 
 A practical reflection on why coding agents lose the thread between sessions, and why the repository itself is the right place to preserve it.

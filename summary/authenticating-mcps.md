@@ -5,7 +5,8 @@ author: Matthew Johnston
 date_fetched: 2026-07-05
 date_published: 2026-07-01
 topics:
-  - agent-architecture
+  - mcp-and-tool-protocols
+  - security-and-sandboxing
 ---
 
 # Authenticating MCPs: three ways we do it

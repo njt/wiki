@@ -5,7 +5,8 @@ author: Doug Turnbull
 date_fetched: 2026-09-04
 date_published: 2026-08-29
 topics:
-  - agent-architecture
+  - guardrails-and-feedback-loops
+  - agent-memory-and-context
 ---
 
 Doug Turnbull, a search/RAG consultant who has watched a dozen-plus budding AI

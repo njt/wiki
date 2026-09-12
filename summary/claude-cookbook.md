@@ -5,6 +5,7 @@ author: Anthropic
 date_fetched: 2026-07-25
 date_published: continuously updated
 topics:
+  - claude-code
   - agent-architecture
 ---
 
