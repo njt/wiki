@@ -50,7 +50,7 @@ The .NET ecosystem has historically used home-grown expression evaluators or emb
 
 ## Related
 
-- [[CQRS Pattern in C# and Clean Architecture]] — another .NET ecosystem pattern
+- [[CQRS Pattern in CSharp and Clean Architecture]] — another .NET ecosystem pattern
 - [[OpenMono Agent]] — .NET coding agent that could leverage CEL for policy evaluation
 - [[Accordant]] — Microsoft's model-based testing for .NET; shares the "spec as executable artifact" philosophy
 - [[Security and Sandboxing]] — CEL's termination guarantees are a sandboxing primitive
