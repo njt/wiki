@@ -501,6 +501,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Grug Brain Developer]] — Cult-classic essay on software development disguised as caveman-speak: complexity is the apex predator, "no" is the best weapon, wait for cut points before abstracting, integration tests are the sweet spot, and impostor syndrome is universal. The folk-wisdom companion to [[Software Engineering Craft]]
 - [[Installing VS Compilers From Commandline]] — msvcup: skip Visual Studio, install just the compiler and SDK
 - [[Mutation Testing]] — Stryker's docs intro to mutation testing: seed deliberate bugs ("mutants") into source, run the suite, and count how many get killed — a surviving mutant is a behaviour no test pinned down. The contrast with coverage (execution vs. assertion) and Stryker's source-only mutation rule, pitched as "no false positives"
+- [[Modeling Facts and Reactions with Domain Events]] — Denis Kyashif's DDD-series mechanics of domain events: record the immutable, past-tense fact inside the aggregate where the decision is made, dispatch independent handlers after commit, translate to integration events at bounded-context boundaries, and model the cross-aggregate consistency gap explicitly rather than hiding it in one transaction
 
 ## Databases and Data
 
