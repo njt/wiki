@@ -5,7 +5,7 @@ author: ChonSong / Hermes Skill Retriever Contributors
 date_fetched: 2026-07-08
 date_published: 2025
 topics:
-  - agent-architecture
+  - agent-memory-and-context
 ---
 
 Skill Retriever is a semantic skill-retrieval plugin for Hermes Agent that

@@ -5,7 +5,8 @@ author: Dan Shapiro (danshapiro)
 date_fetched: 2026-06-03
 date_published: 2026-05
 topics:
-  - agent-architecture
+  - specifications-as-the-product
+  - claude-code
 ---
 
 # skill-load-bearing — Load-Bearing Assumptions

@@ -5,7 +5,7 @@ author: David McCowan (dbmcco)
 date_fetched: 2026-06-05
 date_published: 2025-2026
 topics:
-  - agent-architecture
+  - databases-and-data
 ---
 
 # State System — Full Repo Analysis

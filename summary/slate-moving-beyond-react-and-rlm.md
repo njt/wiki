@@ -6,6 +6,7 @@ date_fetched: 2026-05-14
 date_published: unknown (estimated mid-2025 based on references to "early 2025" as past)
 topics:
   - agent-architecture
+  - agent-memory-and-context
 ---
 
 # Slate: moving beyond ReAct and RLM

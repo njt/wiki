@@ -7,7 +7,8 @@ date_published: 2026-06-10
 source: O'Reilly Radar
 tags: AI, product management, production engineering, evaluation, A/B testing, latency, model drift, prompt engineering
 topics:
-  - agent-architecture
+  - ai-product-and-business
+  - software-engineering-craft
 ---
 
 # The PM's Playbook for Shipping AI Features That Actually Work in Production

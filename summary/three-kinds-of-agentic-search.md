@@ -5,7 +5,7 @@ author: Doug Turnbull
 date_fetched: 2026-08-01
 date_published: 2026-06-08
 topics:
-  - agent-architecture
+  - agent-memory-and-context
 ---
 
 Doug Turnbull argues that "agentic search" is a confusing term that actually

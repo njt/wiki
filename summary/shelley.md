@@ -5,6 +5,7 @@ author: Bold Software, Inc.
 date_fetched: 2026-09-08
 date_published: unknown
 topics:
+  - coding-agents-and-frameworks
   - agent-architecture
 ---
 

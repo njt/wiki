@@ -6,6 +6,7 @@ date_fetched: 2026-06-09
 date_published: 2026-04-09
 topics:
   - agent-architecture
+  - claude-code
 ---
 
 # The Advisor Strategy: Give Sonnet an Intelligence Boost with Opus

@@ -5,7 +5,7 @@ author: Adam J. Davidson (@adamjdavidson)
 date_fetched: 2026-06-04
 date_published: unknown
 topics:
-  - agent-architecture
+  - claude-code
 ---
 
 # Thought Refiner Skill

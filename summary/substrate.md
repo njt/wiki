@@ -4,8 +4,8 @@ title: Agent Substrate
 author: Google (not officially supported)
 date_fetched: 2026-08-08
 topics:
+  - agent-orchestration
   - security-and-sandboxing
-  - agent-architecture
 ---
 
 # Agent Substrate — Summary

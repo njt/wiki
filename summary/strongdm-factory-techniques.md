@@ -5,7 +5,8 @@ author: StrongDM (Justin McCarthy)
 date_fetched: 2026-05-15
 date_published: unknown
 topics:
-  - agent-architecture
+  - agent-coding-workflow
+  - agent-memory-and-context
 ---
 
 # Techniques | StrongDM Software Factory
