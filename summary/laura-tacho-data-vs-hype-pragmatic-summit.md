@@ -8,8 +8,8 @@ source: The Pragmatic Summit (YouTube: The Pragmatic Engineer)
 original_url: https://www.youtube.com/watch?v=LOHgRw43fFk
 ytx_gist: https://gist.github.com/njt/a394507d48e3135a19de8cb3a50a369f
 topics:
-  - agent-coding-workflow
   - ai-product-and-business
+  - agent-coding-workflow
 ---
 
 # Data vs Hype: How Orgs Actually Win with AI

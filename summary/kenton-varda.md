@@ -5,7 +5,7 @@ author: Simon Willison
 date_fetched: 2026-07-11
 date_published: 2026-07-08
 topics:
-  - agent-coding-workflow
+  - ai-code-review
 ---
 
 Kenton Varda (creator of Cap'n Proto, Sandstorm, and former Google engineer)

@@ -5,6 +5,7 @@ author: MobileVibe (product website, no byline)
 date_fetched: 2026-05-15
 date_published: unknown (copyright 2026)
 topics:
+  - developer-tools
   - agent-coding-workflow
 ---
 

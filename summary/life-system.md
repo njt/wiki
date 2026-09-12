@@ -4,8 +4,8 @@ url: https://github.com/davidhariri/life-system
 date_fetched: 2026-05-14
 section: "Personal Agents"
 topics:
-  - agent-coding-workflow
   - personal-agents
+  - agent-coding-workflow
 ---
 
 # Life System Starter Kit
