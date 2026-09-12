@@ -264,6 +264,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[MCP and Tool Protocols]] — How agents reach tools and services: MCP servers and gateways, tool and function calling, agent-facing APIs and CLIs, structured outputs, and authentication for tools.
 
+- [[rdc — Remote Desktop Control for AI Agents]] — One Rust binary, three roles (daemon/CLI/MCP server), that lets an agent screenshot and drive another computer's desktop over Tailscale — auth via tailscaled whois instead of tokens, capability-scoped grants, JSON-lines audit log, screenshot-pixel coordinates.
+
 ## Agent Orchestration
 
 [[Agent Orchestration]] — Many agents working together: multi-agent topologies, delegation, subagents, queues and schedulers, coordination protocols, and the control planes that run fleets of agents.
