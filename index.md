@@ -651,6 +651,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Music Decoy]] — macOS utility that stops Music.app from auto-launching by impersonating its bundle ID. Zero CPU, zero work
 - [[magika]] — Google's AI file type detection: 200+ types in 5ms, deployed at Gmail scale
 - [[smui]] — Terminal-aesthetic theme for shadcn/ui. Nord palette, monospace, zero radius
+- [[uiui — Dense Console UI Kit]] — One-CSS-file design system for dense operations UIs (Unifi-console-inspired): 31px rows, tabular figures, semantic color rules, light/dark, plus a shadcn variable set and a skill.md so coding agents generate pages that mean the same thing
 - [[json-render]] — Vercel Labs' generative UI framework: LLM outputs JSON constrained to a Zod component catalog, rendered progressively. 15k stars
 - [[Extend UI]] — Open source React component library for document apps: PDF/DOCX/XLSX viewers, bounding box citations, e-signing, schema builder. 560 stars, targets agent-built document UIs
 - [[Phoenix LiveView]] — Server-rendered real-time UI without JavaScript: each view is a BEAM process, state changes push HTML diffs over WebSocket. The UI layer of the concurrency model agents keep reinventing
