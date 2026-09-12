@@ -6,7 +6,7 @@ date_fetched: 2026-05-18
 date_published: 2026-05-14
 tags: [inference, c, metal, cuda, deepseek, gguf, quantization, local-ai]
 topics:
-  - misc
+  - local-and-open-source-inference
 ---
 
 ## Source Analysis

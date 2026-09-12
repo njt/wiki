@@ -5,7 +5,8 @@ author: Deven Jarvis
 date_fetched: 2026-06-12
 date_published: 2026-05
 topics:
-  - misc
+  - ideas-and-culture
+  - developer-tools
 ---
 
 # Lathe — Full Analysis

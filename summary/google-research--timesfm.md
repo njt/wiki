@@ -5,7 +5,7 @@ author: "Rajat Sen, Yichen Zhou, Abhimanyu Das, Petros Mol, Michael Chertushkin 
 date_fetched: 2026-07-03
 date_published: 2023-10 (arXiv), 2024 (ICML)
 topics:
-  - misc
+  - ai-research-and-models
 ---
 
 # Full Analysis

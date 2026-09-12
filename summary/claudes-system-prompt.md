@@ -4,7 +4,7 @@ url: https://raw.githubusercontent.com/asgeirtj/system_prompts_leaks/refs/heads/
 date_fetched: 2026-05-14
 section: "LLMs"
 topics:
-  - misc
+  - claude-code
 ---
 
 # Claude's System Prompt — Complete Reference

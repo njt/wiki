@@ -5,7 +5,8 @@ author: Nathan Lambert
 date_fetched: 2026-07-05
 date_published: 2026-06-22
 topics:
-  - misc
+  - local-and-open-source-inference
+  - ai-research-and-models
 ---
 
 # GLM-5.2 is the step change for open agents

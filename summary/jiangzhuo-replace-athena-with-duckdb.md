@@ -5,7 +5,7 @@ author: jiangzhuo
 date_fetched: 2026-06-21
 date_published: 2023
 topics:
-  - misc
+  - databases-and-data
 ---
 
 # A Cheap Alternative to AWS Athena: Lambda × DuckDB

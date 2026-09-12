@@ -7,7 +7,8 @@ date_published: 2026-05-28
 source: LessWrong
 tags: [ai, benchmarks, open-source, models, evaluation]
 topics:
-  - misc
+  - local-and-open-source-inference
+  - ai-research-and-models
 ---
 
 # How far behind are open models?

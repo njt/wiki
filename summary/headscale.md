@@ -5,7 +5,8 @@ author: Juan Font Alonso, Kristoffer Dalby
 date_fetched: 2026-05-14
 date_published: null
 topics:
-  - misc
+  - developer-tools
+  - distributed-systems
 ---
 
 # Headscale

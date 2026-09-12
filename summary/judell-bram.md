@@ -5,7 +5,8 @@ author: Jon Udell
 date_fetched: 2026-06-22
 date_published: 2026-06-02
 topics:
-  - misc
+  - agent-coding-workflow
+  - claude-code
 ---
 
 # Bram — Full Architectural Analysis

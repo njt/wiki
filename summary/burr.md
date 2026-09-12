@@ -5,7 +5,7 @@ author: Apache Software Foundation / DAGWorks Inc.
 date_fetched: 2026-06-11
 date_published: unknown
 topics:
-  - misc
+  - coding-agents-and-frameworks
 ---
 
 # Apache Burr — Full Page Content (WebFetch)

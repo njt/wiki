@@ -6,7 +6,8 @@ date_fetched: 2026-05-15
 date_published: unknown
 section: "Developer Tools"
 topics:
-  - misc
+  - specifications-as-the-product
+  - agent-memory-and-context
 ---
 
 # lat.md: Knowledge Graph for Your Codebase

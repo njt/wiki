@@ -5,7 +5,8 @@ author: Waldek Mastykarz
 date_fetched: 2026-06-09
 date_published: 2026-05-27
 topics:
-  - misc
+  - mcp-and-tool-protocols
+  - agent-architecture
 ---
 
 You ship an SDK, a CLI, an API, and developers use it. Now AI coding agents use it too, except they use it differently than humans do. Most of the time you have no idea what's actually happening between "developer types a prompt" and "agent generates code with your technology." Is the agent reading your docs? Is it calling your MCP server? Is it ignoring both and guessing from memory?

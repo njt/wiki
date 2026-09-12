@@ -6,7 +6,8 @@ date_fetched: 2026-06-12
 date_published: 2026-06-08
 tags: [coding-benchmark, eval, agents, code-quality, mergeability]
 topics:
-  - misc
+  - ai-research-and-models
+  - ai-code-review
 ---
 
 # Introducing FrontierCode | Cognition

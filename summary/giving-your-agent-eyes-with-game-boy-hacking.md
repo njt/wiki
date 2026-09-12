@@ -5,7 +5,8 @@ author: Ian Langworth
 date_fetched: 2026-07-03
 date_published: 2026-07-02
 topics:
-  - misc
+  - mcp-and-tool-protocols
+  - developer-tools
 ---
 
 # Giving Your Agent Eyes with Game Boy Hacking

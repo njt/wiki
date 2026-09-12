@@ -4,7 +4,8 @@ url: https://doing.tools/
 date_fetched: 2026-05-14
 section: "Random"
 topics:
-  - misc
+  - developer-tools
+  - local-and-open-source-inference
 ---
 
 # Doing: Voice Transcription Tool
