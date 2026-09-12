@@ -1,0 +1,17 @@
+---
+url: https://code.claude.com/docs/en/cross-session-messaging
+title: Cross-session messaging
+author: Anthropic
+date_fetched: 2026-09-13
+topics:
+  - claude-code
+  - agent-orchestration
+---
+
+Anthropic's official reference for Claude Code cross-session messaging (v2.1.224+ on macOS/Linux/WSL 2, v2.1.234+ on native Windows), on by default with nothing to enable. Independent sessions discover each other with `ListAgents` and exchange plain-text messages with `SendMessage`; Claude decides to send on its own — after a change that affects another session's work, say — or on your prompt. The named use cases: handing a finding or decision to the session working the affected area instead of re-explaining it there, coordinating parallel worktrees, long-running migrations or test runs reporting back, and reaching sessions on other machines or the web. `@`-mentions address sessions by name (v2.1.232+), and `notify_when_idle` (v2.1.236+) gets a one-shot notice when a watched session next goes idle or exits — no polling by either side, 12-hour TTL.
+
+Delivery is a three-state contract: **Delivered**, **Held** (set aside until a mode/settings change or your approval allows it), or **Refused** (dropped, reason reported to the sender). `crossSessionInbound` (`accept`/`hold`/`refuse`) sets the per-session inbound policy; with no value applied, Claude Code decides per message from the two sessions' permission-mode classes — sessions that bypass permission prompts in one class, everything else (including `acceptEdits`, `dontAsk`) in the other. The trust rule underneath: a message from another session never counts as your consent. It can't answer a pending permission prompt, can't change permission settings or `CLAUDE.md`, and slash commands in message text arrive as plain text, never executed. `isolatePeerMachines` requires your approval before any send leaves the machine, and deny rules on `SendMessage`/`ListAgents` stop sending and listing.
+
+Same-machine transport is local-first: each session binds an inbox socket — a Unix domain socket on macOS/Linux/WSL 2, a named pipe on native Windows — registered in files on disk, so "two sessions can reach each other only when they can see the same files." Containers are islands, WSL 2 and native Windows can't reach each other, and delivery never passes through Anthropic servers. Hooks and Bash commands get the socket path and a per-session auth token (`CLAUDE_CODE_MESSAGING_SOCKET`, `CLAUDE_CODE_MESSAGING_TOKEN`); own-child messages are verified by process evidence or the token, and reply targets that fail safety checks (symlinked target, wrong process endpoint) are refused. `claude -p` sessions bind inboxes like interactive ones — unattended workers need `crossSessionInbound: accept` in `--settings`, otherwise held messages expire at the `dialogExpiry` deadline (five minutes default). Cross-machine messaging routes through Remote Control with claude.ai sign-in — unavailable with an API key or on Bedrock/Google Cloud's Agent Platform/Foundry — and offline targets get store-and-forward.
+
+The channel's limits are anti-loop by design: plain text only (structured agent-team protocol stays within a team), a ~1M-character size cap on same-machine sends, burst refusal at the sender once a rapid burst exhausts the receiver's inbox, per-sender rate limits, identical-repeat dropping, and a 50-message queue cap — so "a message loop between two sessions therefore stops on its own." `/list-agents` (also `/peers`) lists reachable sessions; `/status` shows the session's own inbox address.
