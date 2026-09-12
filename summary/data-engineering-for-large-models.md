@@ -5,7 +5,7 @@ date_fetched: 2026-05-14
 section: "Databases and Data"
 topics:
   - databases-and-data
-  - agent-architecture
+  - ai-research-and-models
 ---
 
 # Data Engineering for Large Models: Architecture, Algorithms & Projects

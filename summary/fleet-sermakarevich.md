@@ -6,7 +6,7 @@ date_fetched: 2026-06-15
 date_published: unknown
 topics:
   - agent-orchestration
-  - agent-architecture
+  - coding-agents-and-frameworks
 ---
 
 # fleet — Python supervisor for running coding agents in parallel

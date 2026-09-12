@@ -5,7 +5,7 @@ author: "valis (Visa Knuuttila)"
 date_fetched: 2026-07-05
 date_published: 2026-06-05
 topics:
-  - agent-architecture
+  - claude-code
 ---
 
 # Guiding Opus 4.8 Back to Sanity

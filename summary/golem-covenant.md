@@ -5,7 +5,7 @@ author: Kristopher Kubicki
 date_fetched: 2026-05-31
 date_published: 2026-05-30
 topics:
-  - agent-architecture
+  - security-and-sandboxing
 ---
 
 # The Golem Covenant — Full Analysis

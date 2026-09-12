@@ -5,7 +5,8 @@ author: 2389 Research
 date_fetched: 2026-05-31
 date_published: 2025
 topics:
-  - agent-architecture
+  - coding-agents-and-frameworks
+  - agent-orchestration
 ---
 
 # Dippin Language — Full Architectural Analysis

@@ -5,7 +5,7 @@ author: wesen
 date_fetched: 2026-05-15
 date_published: 2026-05-03
 topics:
-  - agent-architecture
+  - developer-tools
 ---
 
 Complete source of `app.js` from the kanban example in wesen's goja-hosting-site repository. The file implements a "Trail Notes: Cascade Loop" kanban board using goja-site's DSL-based web framework (kanban.dsl, ui.dsl, express). The application supports full CRUD for cards with drag-and-drop, session-based multi-user support, SQLite persistence, and a distinctive field-notes aesthetic. The DSL is a chainable, composable API that builds the board declaratively: columns, data binding, features (search, drag-drop, precise move), custom rendering, and action handlers. The code includes inline migration logic, seed data, CSS-in-JS styling, and both server-rendered HTML pages and a JSON API.

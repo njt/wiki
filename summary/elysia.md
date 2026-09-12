@@ -5,6 +5,7 @@ author: Weaviate
 date_fetched: 2026-05-14
 date_published: 2025-11-04
 topics:
+  - coding-agents-and-frameworks
   - agent-architecture
 ---
 

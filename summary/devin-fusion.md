@@ -5,6 +5,7 @@ author: The Cognition Team
 date_fetched: 2026-07-18
 date_published: 2026-06-29
 topics:
+  - coding-agents-and-frameworks
   - agent-architecture
 ---
 

@@ -5,7 +5,8 @@ author: Braydon McCormick
 date_fetched: 2026-05-14
 date_published: 2026-03-06
 topics:
-  - agent-architecture
+  - ideas-and-culture
+  - agent-coding-workflow
 ---
 
 # From AI Studio to AI Forge

@@ -5,7 +5,7 @@ author: Control Plane (no individual author listed)
 date_fetched: 2026-05-14
 date_published: unknown
 topics:
-  - agent-architecture
+  - mcp-and-tool-protocols
 ---
 
 # Control Plane MCP Server — Overview
