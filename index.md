@@ -940,6 +940,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[AI Mania Is Eviscerating Global Decision-Making]] — Ludicity's field report from ~300 meetings: AI investment at 0% success rate, the executive prisoner's dilemma that makes honesty a dominated strategy, and the AI-native purity tests distorting organizational resource allocation
 - [[Diary of a CEO and the Success-Podcast Grift]] — Barry's Economics Today argues Diary of a CEO stops listeners succeeding on purpose: Tetlock's hedgehog/fox selection, Watts' Music Lab randomness, Gazzaniga's press-office brain, Wald's survivorship bias, and the anxiety-monetisation cycle
 - [[Engagement Is Not Wellbeing — Mosseri's Defense of the Instagram Algorithm]] — Adam Mosseri defends Instagram's ranking as a benefit (50% engagement drop, "satisfaction falls off a cliff"), while Australia's Duty of Care bill treats engagement and time-on-platform as the harm; the one number that would settle it — wellbeing — is never produced
+- [[The Cathedral, the Bazaar, and the Winchester Mystery House]] — Drew Breunig's third model of software development for the agentic era: when code is cheap and feedback isn't, developers build idiosyncratic, sprawling, fun personal tools; the bazaar drowns as machine-speed implementation hits human-speed coordination, and the new bottleneck is attention
 
 ## Miscellany
 
