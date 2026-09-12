@@ -5,7 +5,8 @@ author: Thariq Shihipar and Sid Bidasaria
 date_fetched: 2026-07-29
 date_published: 2026-06-02
 topics:
-  - agent-coding-workflow
+  - claude-code
+  - agent-orchestration
 ---
 
 Anthropic blog post announcing dynamic workflows in Claude Code — a feature

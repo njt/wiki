@@ -16,7 +16,8 @@ tags:
   - pair-programming
   - agents
 topics:
-  - agent-coding-workflow
+  - ideas-and-culture
+  - software-engineering-craft
 ---
 
 # Summary: Martin Fowler & Kent Beck on The Pragmatic Engineer

@@ -6,6 +6,7 @@ date_fetched: 2026-07-18
 date_published: 2026-07-10
 topics:
   - agent-coding-workflow
+  - software-engineering-craft
 ---
 
 Brian Houck surveys five recent research papers that converge on a shared

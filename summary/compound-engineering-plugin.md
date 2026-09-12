@@ -6,6 +6,7 @@ date_fetched: 2026-09-08
 date_published: 2026 (v3.24.0)
 topics:
   - agent-coding-workflow
+  - coding-agents-and-frameworks
 ---
 
 # Compound Engineering Plugin

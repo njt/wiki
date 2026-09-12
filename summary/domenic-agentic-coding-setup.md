@@ -6,6 +6,7 @@ date_fetched: 2026-07-25
 date_published: 2026-07-23
 topics:
   - agent-coding-workflow
+  - claude-code
 ---
 
 Domenic Denicola describes his AI-assisted coding setup as of July 2026, built around a

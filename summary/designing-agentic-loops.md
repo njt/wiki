@@ -8,6 +8,7 @@ tags: [definitions, ai, generative-ai, llms, ai-assisted-programming, ai-agents,
 series: "How I use LLMs and ChatGPT (entry #30)"
 topics:
   - agent-coding-workflow
+  - security-and-sandboxing
 ---
 
 # Designing agentic loops

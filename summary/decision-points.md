@@ -6,6 +6,7 @@ date_fetched: 2026-07-05
 date_published: 2026-03-11
 topics:
   - agent-coding-workflow
+  - specifications-as-the-product
 ---
 
 # Optimizing for Decision Points

@@ -5,7 +5,8 @@ author: luca-ctx
 date_fetched: 2026-05-15
 date_published: 2026-04-04
 topics:
-  - agent-coding-workflow
+  - agent-orchestration
+  - developer-tools
 ---
 
 # ctx – an Agentic Development Environment (ADE)

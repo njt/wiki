@@ -5,6 +5,7 @@ date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
 topics:
   - agent-coding-workflow
+  - specifications-as-the-product
 ---
 
 # The Five Levels of AI-Assisted Software Development - Dan Shapiro

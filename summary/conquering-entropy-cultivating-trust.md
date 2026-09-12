@@ -5,6 +5,7 @@ author: kaeruct
 date: 2026-09-06
 topics:
   - agent-coding-workflow
+  - guardrails-and-feedback-loops
 ---
 
 A practitioner's essay (part of the "Conquering Entropy" series) arguing that the real problem with AI-generated code is not the code but trust. The author walks through a chain of trust questions — the ticket, the PR, the agent's implementation, the test suite, CI/CD, observability, the AI SRE, even GitHub itself — and concludes that trust is hard to earn and easy to lose, so engineering teams must deliberately cultivate it.

@@ -5,7 +5,8 @@ author: Octopusyarn
 date_fetched: 2026-05-15
 date_published: 2026-04-09
 topics:
-  - agent-coding-workflow
+  - ideas-and-culture
+  - ai-product-and-business
 ---
 
 # Cyborgs Will Kill the Corporation — On Excorporations and the Death of the Firm

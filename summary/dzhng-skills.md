@@ -6,6 +6,7 @@ date_fetched: 2026-07-21
 date_published: unknown
 topics:
   - agent-coding-workflow
+  - coding-agents-and-frameworks
 ---
 
 A personal library of domain-agnostic agent skills designed to be small, composable, hackable, and harness-agnostic — compatible with Claude Code, Codex, Cursor, and 70+ other harnesses. MIT licensed. Installed via `npx skills add dzhng/skills`.
