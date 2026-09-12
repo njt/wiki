@@ -5,7 +5,8 @@ author: magnitudedev
 date_fetched: 2026-08-21
 date_published: unknown
 topics:
-  - agent-architecture
+  - coding-agents-and-frameworks
+  - local-and-open-source-inference
 ---
 
 # Magnitude — précis

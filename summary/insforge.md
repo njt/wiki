@@ -5,7 +5,7 @@ author: InsForge
 date_fetched: 2026-05-18
 date_published: 2026-03-06 (v2.0.0)
 topics:
-  - agent-architecture
+  - mcp-and-tool-protocols
 ---
 
 # InsForge Full Analysis

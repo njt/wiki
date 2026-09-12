@@ -6,6 +6,7 @@ date_fetched: 2026-08-21
 date_published: 2026-08
 topics:
   - agent-architecture
+  - guardrails-and-feedback-loops
 ---
 
 # LongHorizon-Harness

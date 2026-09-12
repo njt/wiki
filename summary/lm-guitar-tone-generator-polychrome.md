@@ -7,7 +7,7 @@ date_published: 2026-05-31
 categories: Code, AI × Music
 github: https://github.com/vishwanath79/tonellm
 topics:
-  - agent-architecture
+  - misc
 ---
 
 # Dialing In the Ghost in the Machine: LLMs for guitar tones

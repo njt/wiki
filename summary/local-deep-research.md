@@ -5,7 +5,8 @@ author: LearningCircuit
 date_fetched: 2026-08-21
 date_published: 2025
 topics:
-  - agent-architecture
+  - agent-orchestration
+  - local-and-open-source-inference
 ---
 
 # Local Deep Research — Précis

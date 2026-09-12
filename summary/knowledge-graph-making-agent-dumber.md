@@ -5,7 +5,7 @@ author: Praveen Vijayan
 date_fetched: 2026-07-25
 date_published: 2026-07-24
 topics:
-  - agent-architecture
+  - agent-memory-and-context
 ---
 
 Praveen Vijayan put Graphify — a tool that converts a codebase into a knowledge graph for AI agents — through a realistic test on a 605-file TypeScript monorepo. He asked three real development questions and compared graph-based queries against plain ripgrep + manual file reads.

@@ -5,7 +5,7 @@ author: Shisa AI
 date_fetched: 2026-09-08
 date_published: undated (alpha v0.1.8)
 topics:
-  - agent-architecture
+  - coding-agents-and-frameworks
 ---
 
 # jouzu

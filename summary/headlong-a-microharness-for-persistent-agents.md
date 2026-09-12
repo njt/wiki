@@ -6,6 +6,7 @@ date_fetched: 2026-08-25
 date: 2026-08
 topics:
   - agent-architecture
+  - agent-memory-and-context
 ---
 
 # Headlong: a microharness for persistent agents

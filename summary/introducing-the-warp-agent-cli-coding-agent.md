@@ -5,8 +5,8 @@ author: Warp
 site: warp.dev
 date_fetched: 2026-08-06
 topics:
+  - coding-agents-and-frameworks
   - agent-orchestration
-  - agent-architecture
 ---
 
 Warp launched a standalone CLI version of their multi-model coding agent, decoupling it from the Warp Terminal app so it can run in any terminal (Ghostty, iTerm 2, VS Code, Windows Terminal). The CLI is built on Warp's terminal infrastructure, giving it a unique multiplexing architecture that manages PTY connections with a layer of indirection between the agent and the underlying shell — similar to how tmux works.

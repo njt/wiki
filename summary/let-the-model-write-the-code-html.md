@@ -5,7 +5,7 @@ author: Michael Isaac (guest post, implemented Flex for DSPy)
 site: cmpnd.ai
 date_fetched: 2026-08-08
 topics:
-  - agent-architecture
+  - coding-agents-and-frameworks
 ---
 
 DSPy introduces `Flex`, a module that exposes not just a program's instructions but its *code* to the optimizer. Where previous DSPy optimizers like BootstrapFewShot and MIPROv2 could only rewrite prompts and pick examples, Flex lets GEPA — a reflective optimizer — rewrite the module's Python source, authoring helper functions, routing logic, and decomposed signatures alongside the prompt.
