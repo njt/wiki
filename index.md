@@ -123,6 +123,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Claude Code]] — Claude Code the product: skills, hooks, plugins, CLAUDE.md and steering files, subagents, prompting Claude models, cost and context management inside it, and write-ups of how people configure it. Generic agent-coding practice that would apply to any tool goes to agent-coding-workflow.
 
+- [[Cross-Session Messaging]] — Anthropic's official docs for peer messaging between independent Claude Code sessions: ListAgents/SendMessage, per-session inbox sockets that never touch Anthropic servers (same-machine), Remote Control for cross-machine, delivered/held/refused inbound controls computed from permission-mode classes, the rule that peer messages never count as user consent, one-shot idle notices without polling, and loop-killing throttles (burst refusal, repeat-drop, 50-message queue cap)
+
 ## AI Code Review
 
 [[AI Code Review]] — Review done by or with agents: PR review bots, review-at-scale systems, AI-written change descriptions, standards enforcement in the review path, and arguments about what review becomes when agents write the code.
