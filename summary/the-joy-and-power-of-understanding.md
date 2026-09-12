@@ -5,6 +5,7 @@ author: Igor Roztropiński
 date_fetched: 2026-07-03
 date_published: 2026-06-22
 topics:
+  - software-engineering-craft
   - agent-coding-workflow
 ---
 

@@ -5,7 +5,7 @@ author: Marcelo Bairros
 date_fetched: 2026-05-14
 date_published: 2025-06-20
 topics:
-  - agent-coding-workflow
+  - claude-code
 ---
 
 # The Claude Code Playbook: 5 Tips Worth $1000s in Productivity

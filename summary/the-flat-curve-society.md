@@ -7,7 +7,7 @@ date_published: 2026-06-20
 platform: Medium
 reading_time: 18 min
 topics:
-  - agent-coding-workflow
+  - ideas-and-culture
 ---
 
 # The Flat Curve Society

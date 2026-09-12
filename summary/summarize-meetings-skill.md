@@ -4,8 +4,8 @@ url: https://github.com/harperreed/dotfiles/blob/master/.claude/skills/summarize
 date_fetched: 2026-05-14
 section: "Random"
 topics:
-  - agent-coding-workflow
   - personal-agents
+  - claude-code
 ---
 
 Harper Reed's monthly batch processing of meeting transcripts, expressed as a Claude Code skill. His workflow is notable for expressing the processing pipeline as a DOT digraph, making the workflow visually inspectable and debuggable.

@@ -5,7 +5,7 @@ author: Alex Haldeman
 date_fetched: 2026-07-18
 date_published: 2026-07-06
 topics:
-  - guardrails-and-feedback-loops
+  - claude-code
   - agent-coding-workflow
 ---
 

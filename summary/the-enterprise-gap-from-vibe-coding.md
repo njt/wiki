@@ -5,8 +5,8 @@ author: Wolkensteiner
 site: wolkensteiner.substack.com
 date_fetched: 2026-08-06
 topics:
+  - specifications-as-the-product
   - guardrails-and-feedback-loops
-  - agent-coding-workflow
 ---
 
 A non-technical colleague built a working app in a single day using an AI app builder. To leadership, it looked like magic. But under the hood, the system was held together by duct tape: half the data lived in Supabase, half was hardcoded mock JSON in frontend components; zero backend logic with every database call made straight from the client; zero authentication — no SSO, no roles, no audit logging.

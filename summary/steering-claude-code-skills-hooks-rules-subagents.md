@@ -5,7 +5,7 @@ author: Anthropic (Claude Code team)
 date_fetched: 2026-07-05
 date_published: 2026-06-18
 topics:
-  - agent-coding-workflow
+  - claude-code
 ---
 
 Claude Code offers seven distinct methods for delivering instructions: CLAUDE.md files (root and subdirectory), rules, skills, subagents, hooks, output styles, and appended system prompts. Each method differs in when instructions load into context, how they survive compaction, and how much context they consume. The post provides a comparison table and detailed guidance on when to use each.

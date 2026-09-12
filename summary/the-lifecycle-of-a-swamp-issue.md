@@ -7,7 +7,8 @@ date_published: 2026-04-08
 publication: "The View from the AI Frontier (stack72.dev)"
 tags: Swamp, agent-workflow, issue-lifecycle, state-machine
 topics:
-  - agent-coding-workflow
+  - coding-agents-and-frameworks
+  - guardrails-and-feedback-loops
 ---
 
 # The Lifecycle of a Swamp Issue

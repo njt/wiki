@@ -5,6 +5,7 @@ author: Anthropic
 date_fetched: 2026-08-22
 date_published: undated
 topics:
+  - specifications-as-the-product
   - agent-coding-workflow
 ---
 

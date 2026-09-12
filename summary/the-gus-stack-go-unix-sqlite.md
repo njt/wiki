@@ -5,6 +5,7 @@ author: Noah Zoschke
 date_fetched: 2026-07-18
 date_published: 2026-07-14
 topics:
+  - developer-tools
   - agent-coding-workflow
 ---
 

@@ -5,6 +5,7 @@ author: Wei Zhang and Jessie Jie Xia
 date_fetched: 2026-05-18
 date_published: 2026-04-28
 topics:
+  - specifications-as-the-product
   - agent-coding-workflow
 ---
 
