@@ -5,7 +5,7 @@ author: Umans
 date_fetched: 2026-07-05
 date_published: unknown
 topics:
-  - agent-architecture
+  - ai-product-and-business
 ---
 
 # Umans Code for Organizations

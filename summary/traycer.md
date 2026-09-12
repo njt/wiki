@@ -1,6 +1,7 @@
 ---
 topics:
-  - agent-architecture
+  - agent-orchestration
+  - coding-agents-and-frameworks
 ---
 # Traycer (Summary)
 

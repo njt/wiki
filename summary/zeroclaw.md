@@ -4,8 +4,8 @@ url: https://github.com/zeroclaw-labs/zeroclaw
 date_fetched: 2026-05-14
 section: "LLMs"
 topics:
+  - personal-agents
   - security-and-sandboxing
-  - agent-architecture
 ---
 
 # ZeroClaw: Personal AI Assistant Infrastructure

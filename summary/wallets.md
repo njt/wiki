@@ -5,7 +5,8 @@ author: Cloudflare
 date_published: 2025-08-06
 date_fetched: 2026-08-06
 topics:
-  - agent-architecture
+  - mcp-and-tool-protocols
+  - ai-product-and-business
 ---
 
 # Cloudflare Wallets

@@ -5,7 +5,8 @@ author: jagg-ix
 date_fetched: 2026-08-01
 date_published: 2026
 topics:
-  - agent-architecture
+  - databases-and-data
+  - specifications-as-the-product
 ---
 
 ZIL (ZIL is a Language) is a small relational language for describing named objects, their relationships, and Horn-clause rules that derive additional relationships. It uses relation tuples (`subject ── relation ──▶ object`) influenced by Google's Zanzibar authorization paper, applied to project metadata: requirements coverage, dependency tracking, change impact analysis, formal verification scheduling, and agent context handoff.

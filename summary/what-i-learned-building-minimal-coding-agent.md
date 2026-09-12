@@ -5,6 +5,7 @@ date_fetched: 2026-05-14
 section: "LLMs"
 topics:
   - agent-architecture
+  - security-and-sandboxing
 ---
 
 # What I Learned Building an Opinionated and Minimal Coding Agent
