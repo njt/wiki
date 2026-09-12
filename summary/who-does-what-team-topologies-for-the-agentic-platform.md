@@ -6,7 +6,8 @@ date_fetched: 2026-06-24
 date_published: 2026-06-22
 tags: [AI, agents, architecture, platform, team-topologies, agentic-engineering]
 topics:
-  - misc
+  - agent-coding-workflow
+  - ai-product-and-business
 ---
 
 # Who Does What? Team Topologies for the Agentic Platform

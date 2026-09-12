@@ -5,7 +5,8 @@ author: Josh Albrecht
 date_fetched: 2026-05-22
 date_published: 2025-12-19
 topics:
-  - misc
+  - ai-product-and-business
+  - ideas-and-culture
 ---
 
 # Why agents matter more than other AI

@@ -5,7 +5,7 @@ author: Anthropic
 date_fetched: 2026-08-09
 date_published: 2026-05-18
 topics:
-  - misc
+  - security-and-sandboxing
 ---
 
 Anthropic's guide to applying Zero Trust principles to autonomous AI agent

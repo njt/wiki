@@ -5,7 +5,7 @@ author: TryCua
 date_fetched: 2026-06-15
 date_published: 2025
 topics:
-  - misc
+  - coding-agents-and-frameworks
 ---
 
 # Full Analysis: trycua/cua

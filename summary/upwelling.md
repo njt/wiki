@@ -4,7 +4,8 @@ url: https://www.inkandswitch.com/upwelling/
 date_fetched: 2026-05-14
 section: "Random"
 topics:
-  - misc
+  - developer-tools
+  - software-engineering-craft
 ---
 
 # Upwelling: Real-Time Collaboration with Version Control for Writers

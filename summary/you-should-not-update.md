@@ -5,7 +5,8 @@ author: Olivier Gambier
 date_fetched: 2026-05-31
 date_published: 2026-05-26
 topics:
-  - misc
+  - security-and-sandboxing
+  - ai-code-review
 ---
 
 # You should not update your dependencies in 2026
