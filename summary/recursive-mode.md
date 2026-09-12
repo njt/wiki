@@ -5,6 +5,7 @@ author: try-works
 date_fetched: 2026-05-14
 date_published: unknown
 topics:
+  - specifications-as-the-product
   - agent-coding-workflow
 ---
 

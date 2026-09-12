@@ -6,6 +6,7 @@ date_fetched: 2026-07-04
 date_published: 2026-05
 source: Google for Developers (via ytx gist 173c9612198301ea5cc2be4d274602d9)
 topics:
+  - software-engineering-craft
   - agent-coding-workflow
 ---
 

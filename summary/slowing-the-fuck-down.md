@@ -5,6 +5,7 @@ date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
 topics:
   - agent-coding-workflow
+  - software-engineering-craft
 ---
 
 # Thoughts on Slowing the Fuck Down - Mario Zechner

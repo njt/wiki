@@ -5,7 +5,8 @@ author: Michael Sugimura
 date_fetched: 2026-05-15
 date_published: 2026-03-13
 topics:
-  - agent-coding-workflow
+  - guardrails-and-feedback-loops
+  - claude-code
 ---
 
 # Simmer: A Self Honing Skill

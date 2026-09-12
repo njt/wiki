@@ -5,6 +5,7 @@ author: Felipe Fontoura
 date_fetched: 2026-07-18
 date_published: 2026-06-11
 topics:
+  - specifications-as-the-product
   - agent-coding-workflow
 ---
 

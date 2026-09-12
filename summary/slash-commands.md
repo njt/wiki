@@ -4,7 +4,7 @@ title: Slash Commands (Skills)
 author: Anthropic
 date_fetched: 2026-08-06
 topics:
-  - agent-coding-workflow
+  - claude-code
 ---
 
 Anthropic's official reference documentation for Claude Code's skill system — the `/`-prefixed commands that replaced the older custom commands mechanism. A skill is a directory containing a `SKILL.md` file with YAML frontmatter and markdown instructions; Claude loads skill content on invocation and can automatically activate skills when their description matches the user's task. Skills live at three levels (personal, project, enterprise), support nested monorepo variants, and can run inline or as forked subagents.

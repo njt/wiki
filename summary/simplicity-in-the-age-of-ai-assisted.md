@@ -4,8 +4,8 @@ url: https://gogogolems.substack.com/p/simplicity-in-the-age-of-ai-assisted
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
 topics:
+  - software-engineering-craft
   - agent-coding-workflow
-  - specifications-as-the-product
 ---
 
 LLMs don't change what good programming looks like, but they enable us to achieve simplicity by making it cheap to rebuild systems without inherited complexity.

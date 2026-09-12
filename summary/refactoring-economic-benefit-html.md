@@ -7,6 +7,7 @@ date_fetched: 2026-08-07
 series: Exploring Gen AI
 topics:
   - agent-coding-workflow
+  - software-engineering-craft
 ---
 
 # The Economic Benefit of Refactoring — Summary
