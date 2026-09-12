@@ -5,6 +5,8 @@ author: Winston Chou, Adrien Alexandre, Lars Olds, Yi Zhang, Garrett Hagemann, N
 date_fetched: 2026-06-22
 date_published: 2026-06-08
 source: Netflix TechBlog
+topics:
+  - agent-architecture
 ---
 
 ## Summary

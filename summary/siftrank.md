@@ -3,6 +3,8 @@ title: "siftrank"
 url: https://github.com/noperator/siftrank
 date_fetched: 2026-05-14
 section: "LLMs"
+topics:
+  - databases-and-data
 ---
 
 # SiftRank: LLM-Based Document Ranking

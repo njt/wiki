@@ -3,6 +3,8 @@ title: "Planning With Files"
 url: https://github.com/OthmanAdi/planning-with-files
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-memory-and-context
 ---
 
 # Planning with Files: Manus-Style AI Agent Workflow

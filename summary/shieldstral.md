@@ -4,6 +4,8 @@ title: Shieldstral
 author: Mistral AI
 date_published: 2026
 date_fetched: 2026-08-06
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 Shieldstral is Mistral AI's 3B-parameter open-weights multimodal safety classifier, released under Apache 2.0. It frames content moderation as a binary question-answering task: a policy is supplied as a plain-language query at inference time, and the model returns a calibrated yes/no safety score from a single forward pass. This policy-adaptive design means one checkpoint adapts to new deployment contexts without retraining — a departure from traditional guardrail models that bake fixed taxonomies of harm categories into their weights.

@@ -5,6 +5,8 @@ author: "@1st1 (github.com/1st1/lat.md)"
 date_fetched: 2026-05-15
 date_published: unknown
 section: "Developer Tools"
+topics:
+  - misc
 ---
 
 # lat.md: Knowledge Graph for Your Codebase

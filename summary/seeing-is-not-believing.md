@@ -2,6 +2,8 @@
 url: https://www.media.mit.edu/publications/seeing-is-not-believing/
 title: "Seeing Is Not Believing: Realistic AI Videos Disrupt Confidence in Authentic Videos and Perceived Reality"
 date_fetched: 2026-07-25
+topics:
+  - ideas-and-culture
 ---
 
 # Seeing Is Not Believing — Summary

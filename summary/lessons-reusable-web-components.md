@@ -4,6 +4,8 @@ title: Lessons for Reusable Web Components
 author: Daniel De Pietro
 date_fetched: 2026-06-09
 date_published: 2026-06-07
+topics:
+  - software-engineering-craft
 ---
 
 # Lessons for Reusable Web Components

@@ -4,6 +4,8 @@ title: Observability Cost Saving Strategies
 author: Michael Shpilt
 site: Michael's Coding Spot
 date_fetched: 2026-08-26
+topics:
+  - software-engineering-craft
 ---
 
 Michael Shpilt frames observability spend as a conflict of interest: vendors bill per data volume or per node, both of which have exploded over the last decade, so asking your vendor to help you save money is "asking the fox to guard the henhouse." He then lays out seven cost-reduction strategies the vendor won't volunteer.

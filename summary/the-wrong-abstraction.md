@@ -4,6 +4,8 @@ title: The Wrong Abstraction
 author: Sandi Metz
 date_published: 2016-01-20
 date_fetched: 2026-08-08
+topics:
+  - software-engineering-craft
 ---
 
 Sandi Metz's influential essay on the cost of wrong abstractions in software. Originally written for her Chainline Newsletter and lightly edited for her blog, the piece expands on a claim from her RailsConf 2014 talk: "duplication is far cheaper than the wrong abstraction."

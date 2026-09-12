@@ -3,6 +3,9 @@ title: "mimiclaw"
 url: https://github.com/memovai/mimiclaw
 date_fetched: 2026-05-14
 section: "LLMs"
+topics:
+  - personal-agents
+  - agent-architecture
 ---
 
 # MimiClaw: AI Assistant on ESP32

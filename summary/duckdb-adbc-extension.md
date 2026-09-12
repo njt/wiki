@@ -4,6 +4,8 @@ title: "Announcing the DuckDB ADBC Extension"
 author: Sam Arch
 date_fetched: 2026-07-11
 date_published: 2026-07-08
+topics:
+  - databases-and-data
 ---
 
 Sam Arch announces the DuckDB ADBC extension, a community extension that lets DuckDB connect outward to any database with an ADBC (Arrow Database Connectivity) driver — including Snowflake, Databricks, BigQuery, PostgreSQL, MySQL, and 25+ others. Built on Apache Arrow, it enables fast columnar data transfer and avoids the row/column conversion overhead of ODBC and JDBC.

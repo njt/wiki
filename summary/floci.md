@@ -3,6 +3,8 @@ title: "floci"
 url: https://github.com/hectorvent/floci
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - developer-tools
 ---
 
 # Floci: Free Local AWS Emulator

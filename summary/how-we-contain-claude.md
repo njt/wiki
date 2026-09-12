@@ -4,6 +4,8 @@ title: How we contain Claude across products
 author: Max McGuinness, Mikaela Grace, Jiri De Jonghe, Jake Eaton, Abel Ribbink
 date_fetched: 2026-06-15
 date_published: 2026-05-25
+topics:
+  - security-and-sandboxing
 ---
 
 # How we contain Claude across products

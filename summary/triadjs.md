@@ -4,6 +4,8 @@ title: "TriadJS — Single-source-of-truth TypeScript API framework"
 author: justhamade
 date_fetched: 2026-06-11
 date_published: unknown
+topics:
+  - developer-tools
 ---
 
 # TriadJS — Full Repo Analysis

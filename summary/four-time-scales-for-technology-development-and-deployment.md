@@ -5,6 +5,8 @@ author: Rodney Brooks
 site: Rodney Brooks (personal blog)
 date_fetched: 2026-08-06
 date_published: 2026
+topics:
+  - ideas-and-culture
 ---
 
 Rodney Brooks — roboticist, former MIT CSAIL director, and co-founder of iRobot, Rethink Robotics, and Robust.AI — identifies four distinct time scales that govern how technologies develop and deploy, and argues that conflating them produces outrageously wrong predictions.

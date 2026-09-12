@@ -4,6 +4,8 @@ title: Learn AI Layer by Layer
 author: Rob Ennals
 date_fetched: 2026-05-31
 date_published: unknown (work in progress; first release covered through Transformers)
+topics:
+  - ai-research-and-models
 ---
 
 # Learn AI Layer by Layer

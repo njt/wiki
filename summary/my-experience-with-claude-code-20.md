@@ -4,6 +4,8 @@ title: "A Guide to Claude Code 2.0 and getting better at using coding agents"
 author: Sankalp
 date_fetched: 2026-05-15
 date_published: 2025-12-27
+topics:
+  - agent-coding-workflow
 ---
 
 # A Guide to Claude Code 2.0 and getting better at using coding agents

@@ -3,6 +3,9 @@ title: "Spec-Driven Development"
 url: https://www.dbreunig.com/2026/03/04/the-spec-driven-development-triangle.html
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-coding-workflow
+  - specifications-as-the-product
 ---
 
 Spec-driven development isn't a linear process (specs -> tests -> code) but a feedback loop where implementation informs and improves specifications. Introduces "Plumb," a tool to keep specs, tests, and code synchronized.

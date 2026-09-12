@@ -4,6 +4,9 @@ title: "What building Shippy taught us about building agents"
 author: Kyle Wiggers (Ai2Comms)
 date_fetched: 2026-07-18
 date_published: 2026-07-15
+topics:
+  - guardrails-and-feedback-loops
+  - security-and-sandboxing
 ---
 
 Shippy is a maritime AI agent built by the Skylight team at Ai2 (Allen Institute for AI). It provides real-time ocean domain awareness to government agencies and NGOs, drawing on Skylight's vessel tracking, satellite imagery, and boundary data. The article is a technical postmortem on what made the agent reliable enough for operational use.

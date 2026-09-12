@@ -5,6 +5,8 @@ author: Drive EV
 date_fetched: 2026-07-05
 date_published: unknown
 site: Drive EV (shop.driveev.co.nz)
+topics:
+  - ai-infrastructure-and-hardware
 ---
 
 # Tesla V2L Discharger

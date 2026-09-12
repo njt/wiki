@@ -4,6 +4,8 @@ title: "How to build a `git diff` driver"
 author: Jamie Tanna
 date_fetched: 2026-05-15
 date_published: 2026-04-11
+topics:
+  - developer-tools
 ---
 
 # How to build a `git diff` driver

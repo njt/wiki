@@ -3,6 +3,9 @@ title: "Verbose Deployment"
 url: https://github.com/alistaircroll/verbose-deployment
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - guardrails-and-feedback-loops
+  - specifications-as-the-product
 ---
 
 A 10-phase deployment pipeline skill for Claude Code and similar agents. Checks build, tests, deploys, and produces a detailed report. Improves itself as it learns your environment. Inspired by the Superpowers methodology of composable skills.

@@ -4,6 +4,8 @@ title: Having a Creative Practice as a Programmer
 author: Manuel (the.scapegoat.dev)
 date_fetched: 2026-05-31
 date_published: 2022-11-28
+topics:
+  - software-engineering-craft
 ---
 
 # Having a Creative Practice as a Programmer

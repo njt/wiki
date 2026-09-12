@@ -11,6 +11,8 @@ speakers:
   - Rajeev Rajan (CTO, Atlassian)
   - Thomas Dohmke (CEO, Entire; former CEO, GitHub)
 duration: 33m 36s
+topics:
+  - agent-coding-workflow
 ---
 
 # Building World-Class Engineering Teams in the Age of AI — The Pragmatic Summit

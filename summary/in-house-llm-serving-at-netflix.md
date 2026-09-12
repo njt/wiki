@@ -4,6 +4,8 @@ title: "In-House LLM Serving at Netflix"
 author: Netflix Technology Blog (AI Platform's Model Runtime team and Inference team)
 date_fetched: 2026-07-21
 date_published: 2026-07
+topics:
+  - ai-infrastructure-and-hardware
 ---
 
 Netflix runs its full LLM stack in-house rather than consuming hosted APIs. The post walks through the key architectural decisions where alternatives were seriously considered: engine choice, model packaging, API design, deployment strategy, and constrained decoding at scale.

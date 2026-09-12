@@ -6,6 +6,8 @@ date: 2026-06-02
 ingested: 2026-06-05
 tags: [ai-engineering, foundation-models, agents, rag, finetuning, inference, evaluation, prompting]
 source_domain: lucavallin.com
+topics:
+  - misc
 ---
 
 # AI Engineering for Developers

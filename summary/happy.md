@@ -3,6 +3,9 @@ title: "happy"
 url: https://github.com/slopus/happy
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-coding-workflow
+  - personal-agents
 ---
 
 # Happy - Mobile and Web Client for Claude Code & Codex

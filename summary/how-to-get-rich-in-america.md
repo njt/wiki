@@ -5,6 +5,8 @@ author: "Kyla Scanlon"
 date_fetched: 2026-08-14
 date_published: 2026
 site: "Substack (kyla.substack.com)"
+topics:
+  - ideas-and-culture
 ---
 
 # How to Get Rich in America

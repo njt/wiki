@@ -3,6 +3,8 @@ title: "sql-crack"
 url: https://github.com/buva7687/sql-crack
 date_fetched: 2026-05-14
 section: "Databases and Data"
+topics:
+  - databases-and-data
 ---
 
 # SQL Crack: Visual SQL Query Analysis (VS Code Extension)

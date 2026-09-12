@@ -5,6 +5,8 @@ author: royalbhati
 date_fetched: 2026-06-15
 date_published: 2024
 tags: [database, visualization, sql, erd, canvas, browser, open-source]
+topics:
+  - developer-tools
 ---
 
 # SQL to ER Diagram — Full Analysis

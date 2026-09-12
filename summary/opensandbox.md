@@ -3,6 +3,9 @@ title: "OpenSandbox"
 url: https://github.com/alibaba/OpenSandbox
 date_fetched: 2026-05-14
 section: "Security"
+topics:
+  - security-and-sandboxing
+  - databases-and-data
 ---
 
 # OpenSandbox: AI Application Sandbox Platform (Alibaba)

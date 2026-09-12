@@ -3,6 +3,8 @@ title: "How I've Run Major Projects"
 url: https://www.benkuhn.net/pjm/
 date_fetched: 2026-05-14
 section: "Management/Business"
+topics:
+  - software-engineering-craft
 ---
 
 # How I've Run Major Projects - Ben Kuhn

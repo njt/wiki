@@ -4,6 +4,8 @@ title: "Stop Blaming QA and Start Diagnosing the Hidden Inefficiencies Behind De
 author: Ahmed El-Deeb
 date_fetched: 2026-07-21
 date_published: 2026-04
+topics:
+  - software-engineering-craft
 ---
 
 Ahmed El-Deeb argues that the common reflex — blaming QA for delivery delays — is a misdiagnosis driven by visibility bias: QA is a named stage with timestamps, so it's the easy target. In reality, deeper structural inefficiencies consume far more time and yield no value.

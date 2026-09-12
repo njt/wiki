@@ -4,6 +4,8 @@ title: "Paras Chopra on interactive HTML iteration with Claude Code"
 author: Paras Chopra (@paraschopra)
 date_fetched: 2026-07-05
 date_published: 2026-05-26
+topics:
+  - agent-coding-workflow
 ---
 
 Thread by Paras Chopra introducing his Claude Code skill "make-pages-interactive" which enables generating static HTML files as outputs (reports, explorations, code structure, mockups) and iterating on them via browser comments that Claude Code watches and responds to. Published May 26, 2026.

@@ -4,6 +4,8 @@ title: Object–relational impedance mismatch
 author: Wikipedia contributors
 date_published: 2007-03-21
 date_fetched: 2026-08-08
+topics:
+  - databases-and-data
 ---
 
 # Object–relational impedance mismatch

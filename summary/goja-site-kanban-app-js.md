@@ -4,6 +4,8 @@ title: "app.js — Goja-Site Kanban Example"
 author: wesen
 date_fetched: 2026-05-15
 date_published: 2026-05-04
+topics:
+  - agent-architecture
 ---
 
 Full source of the kanban board example from wesen's goja-hosting-site. 326 lines, 15 functions. A complete kanban application built from two interlocking JavaScript DSLs (`kanban.dsl` for board composition, `ui.dsl` for HTML generation) plus SQLite for persistence, Express for routing, and a template-literal CSS stylesheet. The board is composed as a single fluent builder chain and mounted on a route handler.

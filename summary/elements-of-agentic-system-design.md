@@ -3,6 +3,8 @@ title: "Elements of Agentic Systems Design"
 url: https://github.com/idyllic-labs/elements-of-agentic-system-design
 date_fetched: 2026-05-14
 section: "LLMs"
+topics:
+  - agent-architecture
 ---
 
 # Elements of Agentic System Design

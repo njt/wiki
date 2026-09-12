@@ -7,6 +7,8 @@ date_published: unknown (post-2013, references Rosenberg/Lagrène/Debarre 2013 r
 source_type: blog post
 source_channel: jazzguitar.be
 fetched_via: surf browser automation (Cloudflare-protected, direct fetch blocked)
+topics:
+  - ideas-and-culture
 ---
 
 # All Of Me — Jazz Guitar Lesson

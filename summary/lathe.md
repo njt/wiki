@@ -4,6 +4,8 @@ title: Lathe — LLM-Generated Hands-On Technical Tutorials
 author: Deven Jarvis
 date_fetched: 2026-06-12
 date_published: 2026-05
+topics:
+  - misc
 ---
 
 # Lathe — Full Analysis

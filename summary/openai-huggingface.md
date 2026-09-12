@@ -4,6 +4,8 @@ url: https://www.dwarkesh.com/p/openai-huggingface
 author: Dwarkesh Patel
 date_fetched: 2026-09-04
 date_published: 2026
+topics:
+  - security-and-sandboxing
 ---
 
 # Three Secret AI Civilizations

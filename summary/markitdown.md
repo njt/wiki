@@ -3,6 +3,8 @@ title: "markitdown"
 url: https://github.com/microsoft/markitdown
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - developer-tools
 ---
 
 # MarkItDown (Microsoft)

@@ -4,6 +4,8 @@ title: "Shelley"
 author: Bold Software, Inc.
 date_fetched: 2026-09-08
 date_published: unknown
+topics:
+  - agent-architecture
 ---
 
 # Shelley: a coding agent for exe.dev

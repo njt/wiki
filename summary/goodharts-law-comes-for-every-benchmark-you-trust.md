@@ -5,6 +5,8 @@ author: Alex Williams
 site: Communications of the ACM (Blog@CACM)
 date_published: 2026-07-28
 date_fetched: 2026-08-06
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 # Summary: Goodhart's Law Comes for Every Benchmark You Trust

@@ -4,6 +4,8 @@ title: The Absolute Minimum Every Software Developer Absolutely, Positively Must
 author: Joel Spolsky
 published: 2003-10-08
 site: Joel on Software
+topics:
+  - software-engineering-craft
 ---
 
 Joel Spolsky's canonical 2003 introduction to character encodings and Unicode, written as an exasperated corrective to widespread programmer ignorance. It remains the single most-referenced plain-English explanation of why "plain text" is a fiction, what a code point actually is, and how UTF-8 saved the internet.

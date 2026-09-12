@@ -5,6 +5,8 @@ author: Aaron Brethorst
 date_fetched: 2026-05-15
 date_published: 2026-01-07
 tags: [git, rebase, version-control, workflow, open-source]
+topics:
+  - software-engineering-craft
 ---
 
 # Git Rebase for the Terrified

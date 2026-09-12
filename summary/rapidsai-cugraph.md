@@ -4,6 +4,8 @@ title: "cuGraph — GPU-Accelerated Graph Analytics"
 author: NVIDIA / RAPIDS
 date_fetched: 2026-08-01
 date_published: 2019
+topics:
+  - databases-and-data
 ---
 
 cuGraph is NVIDIA's GPU-accelerated graph analytics library, part of the RAPIDS data science ecosystem. It provides a comprehensive suite of graph algorithms — PageRank, BFS, Louvain, Leiden, SSSP, Triangle Counting, and many more — implemented in CUDA C++ with Python bindings that interoperate with cuDF, cuML, and NetworkX.

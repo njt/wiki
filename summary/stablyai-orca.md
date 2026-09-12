@@ -4,6 +4,9 @@ title: "Orca"
 author: stablyai
 date_fetched: 2026-08-01
 date_published: 2025
+topics:
+  - agent-orchestration
+  - developer-tools
 ---
 
 Orca is a cross-platform Electron desktop app that acts as an AI orchestrator — it runs multiple CLI AI coding agents (Claude Code, Codex, OpenCode, Pi, Grok, and 20+ others) in parallel git worktrees, with a React Native mobile companion for monitoring and steering agents from a phone. It's a meta-tool: it doesn't implement AI models but provides the environment, coordination, and persistence layer for running existing CLI agents at scale. The codebase is substantial — ~590,000 lines of TypeScript across ~9,500 source files, MIT licensed.

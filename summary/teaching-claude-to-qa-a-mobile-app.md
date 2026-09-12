@@ -4,6 +4,8 @@ title: "Teaching Claude to QA a Mobile App"
 author: Christopher Meiklejohn
 date: 2026-03-22
 fetched: 2026-05-14
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 # Teaching Claude to QA a Mobile App

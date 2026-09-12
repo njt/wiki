@@ -4,6 +4,8 @@ title: atifact — Convert agent logs to ATIF trajectories
 author: Waldek Mastykarz
 date_fetched: 2026-06-09
 date_published: 2026-04 (v0.1.0), latest v0.8.0
+topics:
+  - developer-tools
 ---
 
 # atifact — Full Repo Analysis

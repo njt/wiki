@@ -4,6 +4,8 @@ title: "A Harness for Every Task: Dynamic Workflows in Claude Code"
 author: Thariq Shihipar and Sid Bidasaria
 date_fetched: 2026-07-29
 date_published: 2026-06-02
+topics:
+  - agent-coding-workflow
 ---
 
 Anthropic blog post announcing dynamic workflows in Claude Code — a feature

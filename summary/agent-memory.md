@@ -5,6 +5,8 @@ author: Angie Jones
 date_fetched: 2026-07-05
 date_published: 2026-06-29
 site: O'Reilly Radar
+topics:
+  - agent-memory-and-context
 ---
 
 # Agent Memory

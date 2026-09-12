@@ -4,6 +4,8 @@ title: Engineering for Bounded Cognition
 author: Matt Williams
 date_fetched: 2026-07-03
 date_published: 2026-02-03
+topics:
+  - software-engineering-craft
 ---
 
 # Engineering for Bounded Cognition

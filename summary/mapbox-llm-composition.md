@@ -4,6 +4,8 @@ title: "Mapping with In-Memory Layers to Reduce LLM Overload"
 author: Allan Bogh
 date_fetched: 2026-07-05
 date_published: 2026-06-18
+topics:
+  - agent-architecture
 ---
 
 # Mapping with In-Memory Layers to Reduce LLM Overload

@@ -4,6 +4,8 @@ title: CORS Fetch Tester
 author: Simon Willison
 date_fetched: 2026-07-05
 date_published: unknown
+topics:
+  - developer-tools
 ---
 
 # CORS Fetch Tester

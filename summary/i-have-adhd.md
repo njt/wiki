@@ -5,6 +5,8 @@ author: ayghri (Ayoub G.)
 date_fetched: 2026-08-14
 date_published: unknown
 license: MIT
+topics:
+  - agent-architecture
 ---
 
 `i-have-adhd` is a coding-assistant skill that reshapes an AI agent's output for

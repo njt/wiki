@@ -5,6 +5,8 @@ author: Tomas Petricek
 site: tomasp.net
 date_published: 2015-03-03
 date_fetched: 2026-08-08
+topics:
+  - software-engineering-craft
 ---
 
 # Library patterns: Why frameworks are evil — Summary

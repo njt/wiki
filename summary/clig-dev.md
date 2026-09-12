@@ -4,6 +4,8 @@ title: "Command Line Interface Guidelines"
 author: Aanand Prasad, Ben Firshman, Carl Tashian, Eva Parish
 date_fetched: 2026-07-18
 date_published: 2021
+topics:
+  - software-engineering-craft
 ---
 
 An open-source guide to CLI design by the co-creators of Docker Compose and

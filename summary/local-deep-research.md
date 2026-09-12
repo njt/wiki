@@ -4,6 +4,8 @@ title: Local Deep Research
 author: LearningCircuit
 date_fetched: 2026-08-21
 date_published: 2025
+topics:
+  - agent-architecture
 ---
 
 # Local Deep Research — Précis

@@ -4,6 +4,8 @@ title: Misha Glenny
 author: Wikipedia contributors
 date_fetched: 2026-05-15
 date_published: various (continuously updated)
+topics:
+  - ideas-and-culture
 ---
 
 # Misha Glenny

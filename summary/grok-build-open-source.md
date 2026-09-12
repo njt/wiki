@@ -4,6 +4,8 @@ title: "xai-org/grok-build, now open source"
 author: Simon Willison
 date_fetched: 2026-07-18
 date_published: 2026-07-15
+topics:
+  - agent-architecture
 ---
 
 Simon Willison reports on xAI open-sourcing the Grok Build coding-agent codebase under Apache 2.0, a move made hours after community backlash over a data-upload incident.

@@ -4,6 +4,8 @@ title: "The MCP Gateway Iceberg"
 author: Mihai Parparita
 date_fetched: 2026-07-25
 date_published: 2026-07-22
+topics:
+  - agent-architecture
 ---
 
 Sierra built a single MCP-powered gateway to connect its internal AI agents (led by "Pinecone") to 45+ SaaS tools — Slack, GitHub, Salesforce, data warehouses, and more. What looked straightforward on the surface turned out to be an engineering iceberg. The article distills seven lessons from the build.

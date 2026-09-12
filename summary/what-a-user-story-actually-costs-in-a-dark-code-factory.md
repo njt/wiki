@@ -5,6 +5,8 @@ site: O'Reilly Radar
 author: fxmartin
 date_published: 2026-07
 date_fetched: 2026-09-04
+topics:
+  - agent-coding-workflow
 ---
 
 fxmartin built a production application of 861,601 lines — 696 user stories and 779 merged PRs over 105 days — but couldn't say what it cost. The first-generation autonomous SDLC framework driving Claude Code kept no usage records, and Claude Code's 30-day transcript retention erased the only other trace. The lesson that frames the whole piece: **if measurement isn't part of the pipeline, it doesn't exist.**

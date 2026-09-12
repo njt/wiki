@@ -5,6 +5,8 @@ author: Sid Chatterjee, Celso Martinho, Brendan Irvine-Broque
 date_fetched: 2026-06-22
 date_published: 2026-06-19
 source_domain: blog.cloudflare.com
+topics:
+  - agent-architecture
 ---
 
 # Temporary Cloudflare Accounts for AI agents

@@ -6,6 +6,8 @@ date_fetched: 2026-07-05
 date_published: 2026-07-02
 site: EventSourcingDB Blog
 category: Interview
+topics:
+  - software-engineering-craft
 ---
 
 # Use Model With Domain: An Interview on Domain Storytelling

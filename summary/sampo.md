@@ -3,6 +3,8 @@ title: "Sampo"
 url: https://github.com/bruits/sampo
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - developer-tools
 ---
 
 # Sampo: Changelog and Release Automation

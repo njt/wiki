@@ -4,6 +4,8 @@ title: "If You Think You Can Do Real-World Text-to-SQL"
 author: Michael Stonebraker, Peter Baile Chen
 date_fetched: 2026-07-25
 date_published: 2026-07-20
+topics:
+  - databases-and-data
 ---
 
 Stonebraker and Chen argue that existing text-to-SQL benchmarks (Spider,

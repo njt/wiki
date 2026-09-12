@@ -4,6 +4,8 @@ title: "Accordant: Executable behavioral specifications for .NET"
 author: Microsoft
 date_fetched: 2026-06-15
 date_published: 2025
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 # Accordant: Executable behavioral specifications for .NET

@@ -4,6 +4,8 @@ title: Malloy — A Semantic Modeling and Query Language
 author: Malloy Contributors
 date_fetched: 2026-07-18
 date_published: 2021
+topics:
+  - databases-and-data
 ---
 
 # Malloy (Précis)

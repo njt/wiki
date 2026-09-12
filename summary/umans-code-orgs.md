@@ -4,6 +4,8 @@ title: Umans Code for Organizations
 author: Umans
 date_fetched: 2026-07-05
 date_published: unknown
+topics:
+  - agent-architecture
 ---
 
 # Umans Code for Organizations

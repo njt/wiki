@@ -4,6 +4,8 @@ title: "Project Glasswing: What Mythos Showed Us"
 author: Grant Bourzikas
 date_fetched: 2026-05-18
 date_published: 2026-05-18
+topics:
+  - security-and-sandboxing
 ---
 
 # Project Glasswing: What Mythos Showed Us

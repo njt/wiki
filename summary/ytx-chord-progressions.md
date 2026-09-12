@@ -7,6 +7,8 @@ date_published: 2026-05-14
 source_type: gist
 source_channel: Michael Keithson (YouTube)
 source_url: https://youtu.be/l_gV-2jU7zE
+topics:
+  - ideas-and-culture
 ---
 
 # ytx: How to write interesting chord progressions — Michael Keithson

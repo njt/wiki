@@ -4,6 +4,8 @@ title: "grudge — A constant-memory sketch that holds grudges and forgives"
 author: Mihir Sathe (satmihir)
 date_fetched: 2026-07-11
 date_published: 2025
+topics:
+  - databases-and-data
 ---
 
 grudge is a Go library implementing a constant-memory decaying-score sketch. It maps an unbounded key space to scalar scores that update with feedback and decay toward zero autonomously — the behavioral-score analogue of a count-min sketch. Extracted from the FAIR project (Stochastic Fair BLUE-based fairness throttling).

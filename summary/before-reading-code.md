@@ -3,6 +3,8 @@ title: "Before Reading Code"
 url: https://piechowski.io/post/git-commands-before-reading-code/
 date_fetched: 2026-05-14
 section: "Producing and Operating Software"
+topics:
+  - software-engineering-craft
 ---
 
 Five git log commands that provide diagnostic insights into a codebase's health and history before examining any actual code files.

@@ -4,6 +4,8 @@ title: "Let your Coding Agent debug your browser session with Chrome DevTools MC
 author: Sebastian Benz and Alex Rudenko
 date_fetched: 2026-05-15
 date_published: 2025-12-11
+topics:
+  - developer-tools
 ---
 
 # Let your Coding Agent debug your browser session with Chrome DevTools MCP

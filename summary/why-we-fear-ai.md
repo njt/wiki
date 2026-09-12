@@ -3,6 +3,8 @@ title: "Why We Fear AI"
 url: https://www.commonnotions.org/why-we-fear-ai
 date_fetched: 2026-05-14
 section: "LLMs"
+topics:
+  - ideas-and-culture
 ---
 
 # Why We Fear AI: On the Interpretation of Nightmares

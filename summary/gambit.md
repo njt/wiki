@@ -3,6 +3,8 @@ title: "Gambit"
 url: https://github.com/bolt-foundry/gambit
 date_fetched: 2026-05-14
 section: "LLMs"
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 # Gambit: Agent Harness Framework

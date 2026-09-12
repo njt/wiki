@@ -4,6 +4,8 @@ title: "The Invention of the MMO"
 author: Virginia Postrel
 date_fetched: 2026-09-11
 date_published: n.d.
+topics:
+  - ideas-and-culture
 ---
 
 Virginia Postrel's history of Habitat, the first massively multiplayer virtual world, and the unlikely machine that made it possible. Habitat ran on the Commodore 64 — 64 kilobytes of memory, 100 kilobytes of disk, 300-baud modems — yet introduced almost every term and mechanic now taken for granted in online worlds: the word "avatar," in-game currency, paid cosmetics, player-to-player trade, and the first "dupe bug."

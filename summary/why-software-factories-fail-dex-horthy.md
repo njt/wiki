@@ -4,6 +4,8 @@ title: "Why Software Factories Fail (or: harness engineering is not enough)"
 author: Dex Horthy (HumanLayer)
 date_fetched: 2026-08-01
 date_published: 2026-07-31
+topics:
+  - agent-coding-workflow
 ---
 
 Dex Horthy argues that "lights-off" software factories — where no human reads or writes code — fundamentally cannot work because today's coding models can't maintain codebase quality over time.

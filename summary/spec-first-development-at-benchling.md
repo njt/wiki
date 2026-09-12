@@ -3,6 +3,9 @@ title: "Fragmentation to Framework: Spec-First Development at Benchling"
 url: https://benchling.engineering/fragmentation-to-framework-spec-first-development-at-benchling-9b97302bddcf
 date_fetched: 2026-05-14
 section: "Producing and Operating Software"
+topics:
+  - specifications-as-the-product
+  - software-engineering-craft
 ---
 
 (Fetch failed due to certificate error; content from annotation.)

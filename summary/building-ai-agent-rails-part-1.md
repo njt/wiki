@@ -5,6 +5,8 @@ author: Catalin Ionescu
 date_fetched: 2026-05-14
 date_published: 2025-12-26
 tags: ruby-on-rails, ruby, llm, ai-agent, tool-calling
+topics:
+  - agent-architecture
 ---
 
 # Building an AI agent inside a 7-year old Rails application

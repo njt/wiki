@@ -5,6 +5,8 @@ author: remyhax
 site: remyhax.xyz
 date_fetched: 2026-08-21
 date_published: unknown
+topics:
+  - security-and-sandboxing
 ---
 
 # Agentic AI in a Smolbox

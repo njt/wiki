@@ -4,6 +4,8 @@ title: The behavioral cost of personalized pricing
 author: Bobbie Chen
 date_fetched: 2026-05-15
 date_published: 2026-01-25
+topics:
+  - ideas-and-culture
 ---
 
 # The behavioral cost of personalized pricing

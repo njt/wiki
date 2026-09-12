@@ -4,6 +4,8 @@ title: "Slowing Down in the Age of Coding Agents: Using AI for Deep Thinking, no
 author: Manuel Odendahl
 date_fetched: 2026-05-15
 date_published: 2026-03-21
+topics:
+  - agent-coding-workflow
 ---
 
 The third in Odendahl's series on AI-assisted development (following pieces on simplicity and notation). Argues that as coding agents proliferate, the bottleneck has shifted from writing code to thinking about what code should be written. His response: deliberately slow down with analog tools, annotation cycles, and vocabulary tracking.

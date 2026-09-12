@@ -3,6 +3,8 @@ url: https://event-driven.io/en/fixing-bugs-in-event-sourcing-is-hard/
 title: "Fixing bugs in Event Sourcing is hard, for real?"
 author: Oskar Dudycz
 date_fetched: 2026-08-07
+topics:
+  - databases-and-data
 ---
 
 # Fixing bugs in Event Sourcing is hard, for real?

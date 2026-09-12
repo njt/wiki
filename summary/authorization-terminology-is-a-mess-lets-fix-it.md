@@ -3,6 +3,8 @@ url: https://idpro.org/authorization-terminology-is-a-mess-lets-fix-it/
 title: Authorization Terminology Is a Mess — Let's Fix It
 author: Andrea Chiarelli
 date_fetched: 2026-09-04
+topics:
+  - security-and-sandboxing
 ---
 
 Andrea Chiarelli argues that authorization's terminology problem isn't a lack of vocabulary — it's too much vocabulary, accumulated across research, vendors, and standards, all funneled into one flat question: "what model is this?" MAC, DAC, RBAC, ABAC, ReBAC, ACL, and PBAC get compared as if they were competing answers to the same question, when most of them answer different ones.

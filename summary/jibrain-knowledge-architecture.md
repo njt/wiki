@@ -4,6 +4,8 @@ title: "Switchboard/jibrain: A Production Knowledge Architecture for AI Agents"
 author: Joi
 date_fetched: 2026-05-14
 date_published: 2026-03-28
+topics:
+  - agent-memory-and-context
 ---
 
 # Switchboard/jibrain: A Production Knowledge Architecture for AI Agents

@@ -4,6 +4,8 @@ author: Sophie Alpert
 date: 2025-08-22
 url: https://sophiebits.com/2025/08/22/materialized-views-are-obviously-useful
 fetched: 2026-05-14
+topics:
+  - databases-and-data
 ---
 
 # Materialized Views Are Obviously Useful

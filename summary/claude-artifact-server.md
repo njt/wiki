@@ -4,6 +4,8 @@ url: https://artifacts.yolo.scapegoat.dev/
 author: unknown
 date_fetched: 2026-05-22
 date_published: 2026-03-29
+topics:
+  - developer-tools
 ---
 
 # Claude Artifact Server

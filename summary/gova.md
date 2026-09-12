@@ -4,6 +4,8 @@ title: "Gova: Declarative GUI Framework for Go"
 author: NV404
 date_fetched: 2026-05-22
 date_published: 2025
+topics:
+  - developer-tools
 ---
 
 # Gova — Declarative Native GUI Framework for Go

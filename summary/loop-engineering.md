@@ -4,6 +4,9 @@ title: Loop Engineering
 author: Addy Osmani
 date_fetched: 2026-06-15
 date_published: 2026-06-07
+topics:
+  - agent-orchestration
+  - agent-coding-workflow
 ---
 
 # Loop Engineering

@@ -6,6 +6,8 @@ published: 2026-01-05
 last_updated: 2026-03-16
 fetched: 2026-05-14
 tags: [obsidian, productivity, note-taking, knowledge-management]
+topics:
+  - misc
 ---
 
 # Introduction to Obsidian

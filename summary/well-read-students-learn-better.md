@@ -7,6 +7,8 @@ date_published: 2019-08-23
 source_type: academic-paper
 venue: "arXiv:1908.08962 (cs.CL)"
 doi: "10.48550/arXiv.1908.08962"
+topics:
+  - ai-infrastructure-and-hardware
 ---
 
 # Well-Read Students Learn Better: On the Importance of Pre-training Compact Models

@@ -4,6 +4,8 @@ title: "HTML table extractor"
 author: Simon Willison
 date_fetched: 2026-07-05
 date_published: 2026-06-29
+topics:
+  - developer-tools
 ---
 
 # HTML table extractor

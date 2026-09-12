@@ -4,6 +4,8 @@ title: "SimpleEnglish — Write Like an Aerospace Manual"
 author: AminBlg (Amin Baig)
 date_fetched: 2026-08-01
 date_published: 2026-07
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 A Claude Code skill that forces LLMs to write technical documentation in ASD-STE100 Simplified Technical English — the controlled language aerospace and defense manufacturers have used since 1983 for maintenance manuals. The core insight: STE's rules (max 20–25 word sentences, one word per meaning, simple tenses, active voice, no hedging, condition before command) are a near-perfect negative of every AI writing tell. Applying a 40-year-old aerospace standard produces text that is both technically rigorous and free of AI-generated clichés.

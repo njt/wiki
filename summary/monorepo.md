@@ -4,6 +4,8 @@ title: Twigg — open-source Critique (trunk-based code review VCS)
 author: twigg-vc (Twigg)
 date_fetched: 2026-08-21
 date_published: 2026
+topics:
+  - developer-tools
 ---
 
 # Twigg

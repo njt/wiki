@@ -3,6 +3,8 @@ title: "14 More lessons from 14 years at Google"
 url: https://addyo.substack.com/p/14-more-lessons-from-14-years-at
 date_fetched: 2026-05-14
 section: "Management/Business"
+topics:
+  - software-engineering-craft
 ---
 
 # 14 More Lessons from 14 Years at Google - Addy Osmani

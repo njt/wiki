@@ -4,6 +4,8 @@ title: "The solution might be cancelling my AI subscription"
 author: David Wilson (dw@hmmz.org)
 date_fetched: 2026-06-15
 date_published: 2026-05-31
+topics:
+  - ideas-and-culture
 ---
 
 David Wilson's confessional-critique of AI-assisted programming from 31 May 2026, updated 3 June. Published on thoughts.hmmz.org. Links to a Cal Newport YouTube video on pseudo-productivity.

@@ -4,6 +4,8 @@ title: "Life at low Reynolds number"
 author: E. M. Purcell
 date_fetched: 2026-08-09
 date_published: 1977-01
+topics:
+  - ideas-and-culture
 ---
 
 Purcell takes his audience into the world of very low Reynolds numbers — the

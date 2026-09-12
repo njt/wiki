@@ -3,6 +3,8 @@ title: "MarkText"
 url: https://github.com/marktext/marktext
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - developer-tools
 ---
 
 # MarkText: Markdown Editor

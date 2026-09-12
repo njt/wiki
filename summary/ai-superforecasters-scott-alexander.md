@@ -4,6 +4,8 @@ title: "The AI Superforecasters Are Here"
 author: Scott Alexander
 date_fetched: 2026-07-29
 date_published: 2026-07-02
+topics:
+  - ideas-and-culture
 ---
 
 Scott Alexander reports from the annual prediction market conference on the emergence of AI superforecasters — frontier models augmented with specialized "scaffolds" that guide them through extensive research processes to produce calibrated probability estimates.

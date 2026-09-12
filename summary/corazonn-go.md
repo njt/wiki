@@ -4,6 +4,8 @@ title: "TDD Coordinator (go.md)"
 author: schuyler
 date_fetched: 2026-05-14
 date_published: unknown
+topics:
+  - agent-orchestration
 ---
 
 # TDD Coordinator (go.md)

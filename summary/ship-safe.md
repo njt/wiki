@@ -3,6 +3,8 @@ url: https://github.com/asamassekou10/ship-safe
 title: Ship Safe
 author: asamassekou10
 date_fetched: 2026-08-06
+topics:
+  - security-and-sandboxing
 ---
 
 # Ship Safe — Summary

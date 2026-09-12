@@ -5,6 +5,8 @@ author: Matt Wynne
 date_fetched: 2026-07-05
 date_published: 2026-05-16
 site: mattwynne.net
+topics:
+  - agent-coding-workflow
 ---
 
 # Lean Software Production

@@ -6,6 +6,8 @@ date_fetched: 2026-07-05
 date_published: 2026-06-16
 site: Entropic Thoughts
 tags: [systems, management, organisations, ai]
+topics:
+  - software-engineering-craft
 ---
 
 # Lean, not backpressure

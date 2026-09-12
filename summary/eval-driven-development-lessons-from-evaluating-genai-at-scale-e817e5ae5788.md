@@ -5,6 +5,8 @@ author: Rohit Girme, Dan Miller, Mia Zhao, Lifan Yang, Clint Kelly
 site: Airbnb Engineering (Medium)
 date_published: 2026-07-29
 date_fetched: 2026-08-07
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 Airbnb's infrastructure team shares production-hardened evaluation practices for LLM-powered features. The central argument: evaluation is not a QA afterthought — it's a first-class engineering discipline that should consume a meaningful share of project effort. Without deliberate strategy, teams fall into three traps: false confidence from generic metrics, undetected regressions from unmeasured dimensions, and wasted effort on eval pipelines uncorrelated with outcomes.

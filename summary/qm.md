@@ -3,6 +3,8 @@ url: https://github.com/yc-software/qm
 title: "QM — a multiplayer agent harness for work"
 author: yc-software
 date_fetched: 2026-08-14
+topics:
+  - agent-architecture
 ---
 
 QM is an open-source (MIT) multiplayer agent harness for whole-company use, built for startups. Where most agents are personal assistants, QM gives every employee their own isolated workspace *and* lets them collaborate with the agent in Slack channels, group messages, and projects. Each person and each room owns scoped memory, files, a keychain view, permissions, crons, web apps, and a durable sandbox.

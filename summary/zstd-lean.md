@@ -4,6 +4,8 @@ title: "We have proof automation now"
 author: Adam Langley
 date_fetched: 2026-07-29
 date_published: 2026-07-26
+topics:
+  - software-engineering-craft
 ---
 
 Langley explores whether LLMs can automate the proof-writing burden that has

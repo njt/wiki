@@ -3,6 +3,9 @@ title: "clawdBot"
 url: https://clawd.bot/
 date_fetched: 2026-05-14
 section: "Personal Agents"
+topics:
+  - personal-agents
+  - agent-architecture
 ---
 
 # OpenClaw (formerly clawdBot): Personal AI Assistant

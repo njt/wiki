@@ -4,6 +4,8 @@ title: "\"I Can't Do That, Dave\" — No Agent Yet"
 author: "Alex Wolf, Reed"
 date_fetched: 2026-05-14
 date_published: 2026-03-05
+topics:
+  - agent-architecture
 ---
 
 # "I Can't Do That, Dave" — No Agent Yet

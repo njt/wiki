@@ -4,6 +4,8 @@ title: "Headlong: a microharness for persistent agents"
 author: Laude Institute (MIT)
 date_fetched: 2026-08-25
 date: 2026-08
+topics:
+  - agent-architecture
 ---
 
 # Headlong: a microharness for persistent agents

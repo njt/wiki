@@ -4,6 +4,8 @@ title: "Leaky Language Models: Stealing Architecture and Inference Optimizations
 author: "Sadegh Majidi, Niloofar Mireshghallah, Kazem Taram"
 date_fetched: 2026-07-25
 date_published: 2026-07-22
+topics:
+  - ai-research-and-models
 ---
 
 Majidi et al. (Purdue / CMU) show that fine-grained per-token generation timing — observable through any standard streaming API — leaks both deployment optimizations and architectural details of remote LLMs. No privileged access is needed; only timestamps between streamed tokens.

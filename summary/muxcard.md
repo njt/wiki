@@ -4,6 +4,8 @@ title: Muxcard
 author: krauseler
 date_fetched: 2026-06-02
 date_published: 2026-03-31
+topics:
+  - developer-tools
 ---
 
 # Muxcard — A Fully Working Computer the Size of a Credit Card

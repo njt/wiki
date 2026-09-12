@@ -8,6 +8,8 @@ hn_url: https://news.ycombinator.com/item?id=46850350
 hn_author: stog
 hn_points: 68
 hn_comments: 125
+topics:
+  - ideas-and-culture
 ---
 
 # "We (as a society) peaked in the 90s"

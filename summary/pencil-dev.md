@@ -3,6 +3,8 @@ title: "Pencil – Design on canvas. Land in code."
 url: https://www.pencil.dev/
 fetched: 2026-05-14
 type: product-homepage
+topics:
+  - agent-coding-workflow
 ---
 
 # Pencil – Design on canvas. Land in code.

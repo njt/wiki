@@ -3,6 +3,8 @@ title: "Building Agents for Production Systems with MCP"
 url: https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp
 date_fetched: 2026-05-14
 section: "LLMs"
+topics:
+  - agent-architecture
 ---
 
 # Building Agents That Reach Production Systems with MCP - Anthropic Blog (April 2026)

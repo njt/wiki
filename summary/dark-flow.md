@@ -4,6 +4,8 @@ title: "Breaking the Spell of Vibe Coding"
 author: Rachel Thomas
 date_fetched: 2026-05-15
 date_published: 2026-01-28
+topics:
+  - agent-coding-workflow
 ---
 
 # Breaking the Spell of Vibe Coding

@@ -4,6 +4,8 @@ title: "You inherited a .NET codebase with zero tests. Now what?"
 author: Ebrahim Sayed Ebrahim
 date_fetched: 2026-07-18
 date_published: 2025-03-27
+topics:
+  - software-engineering-craft
 ---
 
 A practical guide for .NET developers facing a legacy codebase with no test

@@ -4,6 +4,8 @@ title: "Introducing git-wt: Worktrees Simplified"
 author: Ahmed El Gabri
 date_fetched: 2026-05-15
 date_published: 2026-02-04
+topics:
+  - developer-tools
 ---
 
 # Introducing git-wt: Worktrees Simplified

@@ -4,6 +4,8 @@ title: "audit: Cloudflare-style 8-stage vulnerability discovery agent"
 author: evilsocket (Simone Margaritelli)
 date_fetched: 2026-05-22
 date_published: 2026-05
+topics:
+  - security-and-sandboxing
 ---
 
 # audit — Full Repo Analysis

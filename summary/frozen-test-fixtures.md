@@ -5,6 +5,8 @@ author: Radan Skorić
 date_fetched: 2026-05-14
 date_published: 2025-12-09
 tags: [rails, testing, fixtures]
+topics:
+  - software-engineering-craft
 ---
 
 ## The Core Problem (Act 1)

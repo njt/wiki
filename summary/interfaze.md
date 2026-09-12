@@ -7,6 +7,8 @@ date_fetched: 2026-05-15
 date_published: 2026-05-11
 hn_score: 163
 hn_descendants: 43
+topics:
+  - ai-research-and-models
 ---
 
 # Interfaze: A new model architecture built for high accuracy at scale

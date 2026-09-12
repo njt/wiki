@@ -4,6 +4,8 @@ title: "Why Does A.I. Write Like … That?"
 author: Sam Kriss
 date_fetched: 2026-05-18
 date_published: 2025-12-03
+topics:
+  - ideas-and-culture
 ---
 
 # Why Does A.I. Write Like … That?

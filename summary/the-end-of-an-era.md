@@ -4,6 +4,8 @@ title: "The End of an Era"
 author: Hugh Howey
 date_fetched: 2026-08-01
 date_published: 2026-07-31
+topics:
+  - ideas-and-culture
 ---
 
 Howey reflects on the closing of two "lucky windows" for authors. The first — cheap digital publishing without gatekeepers — let him bypass agents and publishers when he started writing in 2009. The second — a stretch when publishing was easy but writing was still genuinely hard — he now estimates lasted barely ten years, roughly 2014 to 2024. With AI-generated prose now good enough to spark bidding wars and confound provenance, he argues both windows have shut for good.

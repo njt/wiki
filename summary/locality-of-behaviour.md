@@ -4,6 +4,8 @@ title: Locality of Behaviour (LoB)
 author: Carson Gross
 site: htmx.org
 date_fetched: 2026-08-08
+topics:
+  - software-engineering-craft
 ---
 
 # Locality of Behaviour (LoB) — Summary

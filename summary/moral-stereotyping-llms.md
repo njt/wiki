@@ -4,6 +4,8 @@ title: "Moral stereotyping in large language models"
 author: Aliah Zewail, Alexandra Figueroa, Jesse Graham, Mohammad Atari
 date_fetched: 2026-07-25
 date_published: 2026-03-04
+topics:
+  - ai-research-and-models
 ---
 
 This paper asks whether LLMs can accurately estimate moral values across 48

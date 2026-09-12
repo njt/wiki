@@ -7,6 +7,8 @@ date_published: 2026-01
 publication: Colossus, Issue 05
 illustrations: Paul Blow
 status: complete
+topics:
+  - ideas-and-culture
 ---
 
 One of the most conspicuous paradoxes of Silicon Valley has been that the leadership of the tech sector, with all its power, wealth, and influence for remaking our world, failed to maintain a decent quality of life in the one major city where it's concentrated, San Francisco. Academics and journalists, who tend to scorn Silicon Valley's ambitions as absurd or dangerous, and to dismiss its achievements as superficial, inadequate, or pernicious versions of what a government headed by a proper set of intellectuals (i.e., by us) would accomplish, have likewise claimed that the mutual disappointments of the last year's alliance of MAGA populism and tech elites should have been predictable from the start. After all, they argue, the latter had until recently expressed their political interests mainly by dreaming of independent city states, while failing to make the kinds of contributions to society and culture that even the robber barons of the Gilded Age had made. So what did you expect from their foray into Washington power politics?

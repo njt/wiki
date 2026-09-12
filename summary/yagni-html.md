@@ -5,6 +5,8 @@ author: Martin Fowler
 site: martinfowler.com
 date_published: 2015-05-26
 date_fetched: 2026-08-08
+topics:
+  - software-engineering-craft
 ---
 
 # Yagni

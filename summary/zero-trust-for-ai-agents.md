@@ -4,6 +4,8 @@ title: "Zero Trust for AI Agents"
 author: Anthropic
 date_fetched: 2026-08-09
 date_published: 2026-05-18
+topics:
+  - misc
 ---
 
 Anthropic's guide to applying Zero Trust principles to autonomous AI agent

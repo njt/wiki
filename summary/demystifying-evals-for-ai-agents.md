@@ -3,6 +3,9 @@ title: "Demystifying Evals for AI Agents"
 url: https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents
 date_fetched: 2026-05-14
 section: "LLMs"
+topics:
+  - guardrails-and-feedback-loops
+  - security-and-sandboxing
 ---
 
 # Demystifying Evals for AI Agents - Article Summary

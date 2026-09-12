@@ -4,6 +4,8 @@ title: "oh-my-pi (omp) — A Coding Agent with the IDE Wired In"
 author: Can Bölük (fork of Mario Zechner's pi-mono)
 date_fetched: 2026-07-11
 date_published: 2025
+topics:
+  - agent-architecture
 ---
 
 oh-my-pi (omp) is an open-source, terminal-first coding agent harness — a fork of

@@ -4,6 +4,8 @@ title: "How to give your Claude agent a memory in 12 steps: from first setup to 
 author: Codez (@0xCodez)
 date_fetched: 2026-07-08
 date_published: 2026-05-23
+topics:
+  - agent-memory-and-context
 ---
 
 A practical walkthrough for giving Claude agents persistent memory that survives

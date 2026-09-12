@@ -3,6 +3,9 @@ title: "Chief of Staff"
 url: https://doneyli.substack.com/p/i-built-an-ai-chief-of-staff-that
 date_fetched: 2026-05-14
 section: "LLMs"
+topics:
+  - personal-agents
+  - agent-architecture
 ---
 
 # I Built an AI Chief of Staff

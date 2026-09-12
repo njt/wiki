@@ -4,6 +4,8 @@ title: "Tailport: a TUI for exposing local ports across your tailnet via tailsca
 author: Michael E. Gruen
 date_fetched: 2026-09-04
 date_published: null
+topics:
+  - developer-tools
 ---
 
 # Tailport

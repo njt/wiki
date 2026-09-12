@@ -3,6 +3,8 @@ url: https://github.com/PrimeIntellect-ai/prime-agent
 title: "Prime Agent: A Self-Improving RLM Agent"
 author: Prime Intellect
 date_fetched: 2026-08-21
+topics:
+  - agent-architecture
 ---
 
 # Prime Agent: A Self-Improving RLM Agent

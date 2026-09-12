@@ -3,6 +3,9 @@ title: "OpenSpec"
 url: https://openspec.dev/
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-coding-workflow
+  - specifications-as-the-product
 ---
 
 Open-source, spec-driven framework serving as a universal planning layer for code development across multiple AI coding agents. No API keys or MCP integration required.

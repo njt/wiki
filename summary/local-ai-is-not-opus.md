@@ -6,6 +6,8 @@ date_fetched: 2026-07-05
 date_published: 2026-06-17
 site: alexellis.io
 tags: [llm, localai, agents, openfaas, qwen, llama.cpp, gpu, hardware]
+topics:
+  - local-and-open-source-inference
 ---
 
 # Local Qwen isn't a worse Opus, it's a different tool

@@ -4,6 +4,8 @@ title: "Metis — AI-Powered Security Code Review"
 author: Arm Product Security Team (open-source-office@arm.com)
 date_fetched: 2026-07-08
 date_published: 2025
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 Metis is an open-source, agentic AI security framework from Arm's Product Security

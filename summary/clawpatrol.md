@@ -4,6 +4,8 @@ title: clawpatrol — The security firewall for agents
 author: Deno Land Inc.
 date_fetched: 2026-05-31
 date_published: 2026-05-31
+topics:
+  - security-and-sandboxing
 ---
 
 # clawpatrol — Deep Architectural Analysis

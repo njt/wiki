@@ -9,6 +9,8 @@ gist_id: 3948a8decc055472d9f429e4586be273
 youtube_url: https://www.youtube.com/watch?v=0Cv5763UX70
 channel: The Pragmatic Engineer
 duration: 34m 50s
+topics:
+  - misc
 ---
 
 # Product-Minded Engineers in an AI-Native World

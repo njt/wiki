@@ -5,6 +5,8 @@ author: Shopify Engineering
 date_fetched: 2026-08-14
 date_published: unknown
 section: "AI Research & Models"
+topics:
+  - ai-research-and-models
 ---
 
 # Sidekick's Continual Learning Loop

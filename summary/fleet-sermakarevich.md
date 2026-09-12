@@ -4,6 +4,9 @@ title: fleet — Python supervisor for running coding agents in parallel
 author: sermakarevich
 date_fetched: 2026-06-15
 date_published: unknown
+topics:
+  - agent-orchestration
+  - agent-architecture
 ---
 
 # fleet — Python supervisor for running coding agents in parallel

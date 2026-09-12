@@ -5,6 +5,8 @@ author: Shiv
 site: Shiv After Dark (shvbsle.in)
 date_fetched: 2026-05-31
 date_published: 2026-05-28
+topics:
+  - ideas-and-culture
 ---
 
 # Various LLM smells

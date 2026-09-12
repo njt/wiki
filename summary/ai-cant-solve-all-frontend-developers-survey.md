@@ -4,6 +4,8 @@ title: "AI Can't Solve It All: Here's What 120+ Frontend Developers Say They Sti
 author: Kathryn Grayson Nanz
 date_fetched: 2026-07-18
 date_published: 2026-07-06
+topics:
+  - agent-coding-workflow
 ---
 
 Informal whiteboard survey of ~120 frontend developers across JSNation and React Summit 2026, asking what they hate building and what AI still gets wrong in React.

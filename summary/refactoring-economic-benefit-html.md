@@ -5,6 +5,8 @@ author: Martin Fowler (Thoughtworks technologists series)
 date_published: 2026-07-30
 date_fetched: 2026-08-07
 series: Exploring Gen AI
+topics:
+  - agent-coding-workflow
 ---
 
 # The Economic Benefit of Refactoring — Summary

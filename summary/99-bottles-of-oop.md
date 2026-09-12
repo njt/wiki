@@ -4,6 +4,8 @@ title: "99 Bottles of OOP — 2nd Edition"
 author: Sandi Metz
 date_fetched: 2026-06-11
 date_published: 2020 (2nd edition); 2016 (1st edition)
+topics:
+  - software-engineering-craft
 ---
 
 # 99 Bottles of OOP — 2nd Edition by Sandi Metz

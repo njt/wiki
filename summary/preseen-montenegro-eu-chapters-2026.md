@@ -4,6 +4,8 @@ title: "How many of the negotiating chapters required to join the EU will Monten
 author: Preseen (preseen.com)
 date_fetched: 2026-07-29
 date_published: 2026-07-19
+topics:
+  - ideas-and-culture
 ---
 
 A Preseen forecast estimating how many of the EU's 33 negotiating

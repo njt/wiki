@@ -4,6 +4,8 @@ title: Streambed — Postgres-to-Iceberg CDC Engine
 author: viggy28
 date_fetched: 2026-06-05
 date_published: 2025
+topics:
+  - databases-and-data
 ---
 
 # Streambed — Full Repo Analysis

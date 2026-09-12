@@ -3,6 +3,8 @@ title: "Optimise Anything"
 url: https://gepa-ai.github.io/gepa/blog/2026/02/18/introducing-optimize-anything/
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - agent-architecture
 ---
 
 # optimize_anything: A Universal API for Optimizing any Text Parameter

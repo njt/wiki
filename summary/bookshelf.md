@@ -4,6 +4,8 @@ url: https://github.com/murerkinn/bookshelf
 author: Murat Erkin Cicek
 date_fetched: 2026-08-25
 date_published: 2026-08-24
+topics:
+  - developer-tools
 ---
 
 # Bookshelf: A Self-Hosted Ebook Library Over Object Storage

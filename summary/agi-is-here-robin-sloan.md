@@ -5,6 +5,8 @@ author: Robin Sloan
 date_fetched: 2026-05-15
 date_published: 2026-01-04
 publication: Winter Garden (pop-up newsletter)
+topics:
+  - ideas-and-culture
 ---
 
 Robin Sloan -- novelist, programmer, and newsletter writer -- declares that AGI has arrived, arguing the 2020 paper "Language Models are Few-Shot Learners" (GPT-3) marked the threshold. Published as the first edition of *Winter Garden*, a six-edition pop-up newsletter that will self-destruct.

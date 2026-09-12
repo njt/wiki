@@ -4,6 +4,8 @@ title: "Xirp — What Xirp provides"
 author: Spotify Backstage
 date_fetched: 2026-08-14
 date_published: unknown
+topics:
+  - developer-tools
 ---
 
 Xirp is a macOS desktop app in Spotify's Backstage ecosystem for running parallel AI coding sessions. It runs Claude Code, Codex, or Gemini in persistent terminal sessions, lets you switch between them without losing state, and gives each task its own Git worktree so agents can work in parallel without touching the same checkout. One app manages terminals, Git changes, files, rules, skills, session status, and layouts.

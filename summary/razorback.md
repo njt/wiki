@@ -4,6 +4,8 @@ title: "Razorback"
 author: CL Kao (clkao@datarecce.io)
 date_fetched: 2026-07-18
 date_published: 2025-06
+topics:
+  - agent-architecture
 ---
 
 Razorback is a Python CLI (`rk`) for reproducible agentic benchmark research, built on Harbor 0.6.6. It turns benchmark runs into defensible numbers through a pipeline of freeze, run, score, and audit.

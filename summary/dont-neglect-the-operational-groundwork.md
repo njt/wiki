@@ -4,6 +4,8 @@ title: "Don't Neglect the Operational Groundwork"
 author: Michelle Smith
 date_fetched: 2026-07-18
 date_published: 2026-07-15
+topics:
+  - security-and-sandboxing
 ---
 
 A report from O'Reilly's AI Superstream on OpenClaw and locally run agents, where five speakers explored the operational risks of running autonomous agents in production. The unifying theme: governance, hygiene, and human oversight matter more than chasing the next model capability.

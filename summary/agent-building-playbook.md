@@ -4,6 +4,8 @@ title: "Agent-Building Playbook"
 author: ramparte (Amplifier team)
 date_fetched: 2026-08-22
 date_published: 2026
+topics:
+  - agent-architecture
 ---
 
 # Agent-Building Playbook — Repository Analysis

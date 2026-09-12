@@ -4,6 +4,9 @@ title: "PAAD — Defense-in-Depth for AI-Assisted Development"
 author: Curtis "Ovid" Poe
 date_fetched: 2026-07-25
 date_published: 2026-03-14
+topics:
+  - guardrails-and-feedback-loops
+  - agent-coding-workflow
 ---
 
 PAAD is a Claude Code plugin marketplace and multi-platform skill suite that

@@ -4,6 +4,8 @@ title: "Authenticating MCPs: three ways we do it"
 author: Matthew Johnston
 date_fetched: 2026-07-05
 date_published: 2026-07-01
+topics:
+  - agent-architecture
 ---
 
 # Authenticating MCPs: three ways we do it

@@ -3,6 +3,8 @@ title: "The Future of Software Engineering is SRE"
 url: https://swizec.com/blog/the-future-of-software-engineering-is-sre/
 date_fetched: 2026-05-14
 section: "Producing and Operating Software"
+topics:
+  - software-engineering-craft
 ---
 
 As AI makes code generation easier, Site Reliability Engineering (SRE) will become the most valued skill in software development.

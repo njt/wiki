@@ -4,6 +4,8 @@ title: "Dithered QR codes"
 author: Andrew T
 date_fetched: 2026-08-14
 date_published: unknown
+topics:
+  - developer-tools
 ---
 
 # Dithered QR codes

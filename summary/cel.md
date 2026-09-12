@@ -3,6 +3,8 @@ url: https://cel.dev/
 title: "Common Expression Language (CEL)"
 author: Google
 date_fetched: 2026-07-18
+topics:
+  - developer-tools
 ---
 
 CEL is an embeddable expression language from Google, designed for fast,

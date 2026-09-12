@@ -4,6 +4,8 @@ title: "barnstormer: Agentic Spec Builder"
 author: 2389 Research, Inc.
 date_fetched: 2026-05-31
 date_published: 2026-02-10
+topics:
+  - misc
 ---
 
 # barnstormer — Agentic Spec Builder

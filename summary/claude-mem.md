@@ -3,6 +3,8 @@ title: "Claude-Mem"
 url: https://github.com/thedotmack/claude-mem
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-memory-and-context
 ---
 
 # Claude-Mem: Persistent Memory System for AI Agents

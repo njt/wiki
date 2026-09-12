@@ -4,6 +4,8 @@ title: "Grok Build"
 author: SpaceXAI (xAI)
 date_fetched: 2026-07-18
 date_published: 2025
+topics:
+  - agent-architecture
 ---
 
 Grok Build (`grok`) is xAI's open-source terminal-based AI coding agent, written

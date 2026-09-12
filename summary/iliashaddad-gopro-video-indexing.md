@@ -4,6 +4,8 @@ title: "I indexed 669 GB of my GoPro videos using my M1 Max computer and local M
 author: Ilias Haddad
 date_fetched: 2026-06-15
 date_published: 2026-06 (approximate; original URL returned 503, content reconstructed from HN discussion, GitHub repo, and cnblogs analysis)
+topics:
+  - local-and-open-source-inference
 ---
 
 # I indexed 669 GB of my GoPro videos using my M1 Max computer and local ML models

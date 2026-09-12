@@ -3,6 +3,8 @@ url: https://celld.dev/
 title: celld
 author: Deno Land Inc.
 date_fetched: 2026-08-14
+topics:
+  - databases-and-data
 ---
 
 # celld.dev — Summary

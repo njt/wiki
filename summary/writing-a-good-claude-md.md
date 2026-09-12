@@ -6,6 +6,8 @@ date_published: 2025-11-25
 date_fetched: 2026-05-14
 type: blog
 tags: [claude-code, CLAUDE.md, context-engineering, best-practices]
+topics:
+  - agent-coding-workflow
 ---
 
 # Writing a good CLAUDE.md

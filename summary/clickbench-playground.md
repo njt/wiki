@@ -4,6 +4,8 @@ title: ClickBench Playground — How I Host 100 Database Systems for an Interact
 author: Alexey Milovidov
 site: ClickHouse Blog
 date_fetched: 2026-08-06
+topics:
+  - databases-and-data
 ---
 
 # ClickBench Playground — How I Host 100 Database Systems for an Interactive Benchmark

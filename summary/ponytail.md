@@ -4,6 +4,8 @@ title: "Ponytail — Lazy Senior Dev Mode for AI Coding Agents"
 author: Dietrich Gebert
 date_fetched: 2026-06-21
 date_published: 2024-11-15
+topics:
+  - developer-tools
 ---
 
 # Ponytail — Full Source Analysis

@@ -3,6 +3,9 @@ title: "mira-OSS"
 url: https://github.com/taylorsatula/mira-OSS
 date_fetched: 2026-05-14
 section: "Personal Agents"
+topics:
+  - agent-memory-and-context
+  - personal-agents
 ---
 
 # MIRA OS: Comprehensive Project Summary

@@ -3,6 +3,8 @@ title: "yolo-cage"
 url: https://github.com/borenstein/yolo-cage
 date_fetched: 2026-05-14
 section: "LLMs"
+topics:
+  - security-and-sandboxing
 ---
 
 # yolo-cage: Autonomous AI Coding Agents with Safety Constraints

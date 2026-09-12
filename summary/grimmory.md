@@ -3,6 +3,8 @@ url: https://github.com/grimmory-tools/grimmory
 title: Grimmory
 author: grimmory-tools (community fork of Booklore)
 date_fetched: 2026-08-25
+topics:
+  - local-and-open-source-inference
 ---
 
 Grimmory is a self-hosted digital library server for "people who take their reading seriously" — an independent community fork of Booklore. It indexes and serves eBooks (EPUB, MOBI, AZW3, FB2), PDFs, comics (CBZ/CBR/CB7), and audiobooks (M4B, MP3, etc.) from a browser, with rule-based "smart shelves," metadata lookup from Google Books / Open Library / Amazon (plus Goodreads, Audible, ComicVine, Hardcover, Douban, and others), and per-user progress, annotations, and highlights.

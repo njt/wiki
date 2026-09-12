@@ -4,6 +4,8 @@ title: Principal Drift in Practice
 author: Unknown (O'Reilly Radar)
 date_fetched: 2026-08-25
 date_published: 2026
+topics:
+  - agent-coding-workflow
 ---
 
 # Principal Drift in Practice

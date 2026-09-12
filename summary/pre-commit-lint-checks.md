@@ -3,6 +3,9 @@ title: "Pre-Commit Lint Checks: Vibe Coding's Kryptonite"
 url: https://www.getseer.dev/blogs/pre-commit-linting-vibe-coding
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-coding-workflow
+  - guardrails-and-feedback-loops
 ---
 
 # Pre-Commit Lint Checks: Vibe Coding's Kryptonite

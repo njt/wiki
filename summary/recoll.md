@@ -3,6 +3,8 @@ url: https://www.recoll.org/
 title: "Recoll"
 author: Jean-Francois Dockes
 date_fetched: 2026-07-11
+topics:
+  - developer-tools
 ---
 
 Recoll is an open-source (GPL) full-text desktop search engine built on top of

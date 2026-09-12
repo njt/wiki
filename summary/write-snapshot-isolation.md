@@ -3,6 +3,8 @@ title: "Write Snapshot Isolation"
 url: https://remy.wang/blog/si.html
 date_fetched: 2026-05-14
 section: "Databases and Data"
+topics:
+  - databases-and-data
 ---
 
 # Simple and Correct Snapshot Isolation

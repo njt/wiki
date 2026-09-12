@@ -3,6 +3,8 @@ title: "Learn from PRs Skill"
 url: https://github.com/NTCoding/claude-skillz/blob/main/learn-from-prs/commands/learn-from-prs.md
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 # Learn From PR Feedback Command

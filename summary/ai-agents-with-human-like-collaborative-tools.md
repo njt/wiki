@@ -3,6 +3,9 @@ title: "AI Agents with Human-Like Collaborative Tools"
 url: https://arxiv.org/html/2509.13547v1
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-memory-and-context
+  - personal-agents
 ---
 
 # AI Agents with Human-Like Collaborative Tools: Adaptive Strategies for Enhanced Problem-Solving

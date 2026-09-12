@@ -4,6 +4,8 @@ title: "GLM-5.2 is the step change for open agents"
 author: Nathan Lambert
 date_fetched: 2026-07-05
 date_published: 2026-06-22
+topics:
+  - misc
 ---
 
 # GLM-5.2 is the step change for open agents

@@ -5,6 +5,8 @@ author: Stephen Batifol
 date_fetched: 2026-06-09
 date_published: 2026-06-04
 source: Black Forest Labs (Hugging Face Blog)
+topics:
+  - ai-research-and-models
 ---
 
 # Fine-tune FLUX.2 [klein] with a LoRA under 60 minutes

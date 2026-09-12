@@ -4,6 +4,8 @@ title: "DeepSQL"
 author: DeepSQL (DeepSQLAI)
 date: 2026-08-22
 date_fetched: 2026-08-22
+topics:
+  - databases-and-data
 ---
 
 DeepSQL is a self-hosted "database agent" for PostgreSQL and MySQL. You point it at a database and ask questions in plain English; it answers BI queries, analyzes slow queries, recommends indexes, and watches your schema. The pitch is that you bring your own model (OpenAI, Azure OpenAI, Anthropic, LiteLLM, or a local Ollama/vLLM/LM Studio server) while everything else — database credentials, the vault, the agent runtime — runs in your own infrastructure.

@@ -4,6 +4,8 @@ title: "Five studies changing how I think about AI in software engineering"
 author: Brian Houck
 date_fetched: 2026-07-18
 date_published: 2026-07-10
+topics:
+  - agent-coding-workflow
 ---
 
 Brian Houck surveys five recent research papers that converge on a shared

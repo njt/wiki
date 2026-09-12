@@ -5,6 +5,8 @@ author: Nick Cosentino
 date_fetched: 2026-07-05
 date_published: 2024-07-02
 site: Dev Leader (Medium)
+topics:
+  - software-engineering-craft
 ---
 
 # CQRS Pattern in C# and Clean Architecture - A Simplified Beginner's Guide

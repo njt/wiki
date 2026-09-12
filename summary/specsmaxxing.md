@@ -4,6 +4,9 @@ title: "Specsmaxxing"
 author: unknown (acai.sh blog)
 date_fetched: 2026-05-14
 date_published: unknown
+topics:
+  - agent-coding-workflow
+  - specifications-as-the-product
 ---
 
 # Specsmaxxing

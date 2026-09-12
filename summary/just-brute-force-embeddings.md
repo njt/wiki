@@ -4,6 +4,8 @@ title: "Just Brute Force Your Embeddings"
 author: Doug Turnbull
 date_fetched: 2026-08-01
 date_published: 2026-07-29
+topics:
+  - databases-and-data
 ---
 
 Doug Turnbull argues that teams with moderate embedding workloads — roughly a million documents, low query traffic, and up-front embedding writes — should skip vector databases and use brute-force NumPy dot products instead.

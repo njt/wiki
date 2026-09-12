@@ -4,6 +4,8 @@ title: Agents and Acquiring Debt
 author: bl00cyb (with Tom Henderson and Mark)
 date_fetched: 2026-08-25
 date_published: 2026-07
+topics:
+  - agent-coding-workflow
 ---
 
 # Agents and Acquiring Debt

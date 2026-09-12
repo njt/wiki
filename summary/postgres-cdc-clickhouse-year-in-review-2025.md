@@ -4,6 +4,8 @@ title: "Postgres CDC in ClickHouse, A Year in Review"
 author: Sai Srirampur
 date_fetched: 2026-05-14
 date_published: 2025-12-03
+topics:
+  - databases-and-data
 ---
 
 # Postgres CDC in ClickHouse, A year in review

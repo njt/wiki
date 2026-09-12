@@ -4,6 +4,8 @@ title: "You Just Found Bad Data in Production. Now What?"
 author: Pinal Dave
 date_fetched: 2026-07-18
 date_published: 2026-07-17
+topics:
+  - databases-and-data
 ---
 
 Pinal Dave argues that data quality incidents are a widespread operational blind spot. Teams plan for server failures but rarely for wrong data, which is uniquely dangerous because it *looks* correct — dashboards render, APIs return values, and bad decisions compound before anyone notices.

@@ -4,6 +4,8 @@ title: "ARIES: A Transaction Recovery Method Supporting Fine-Granularity Locking
 author: C. Mohan, Don Haderle, Bruce Lindsay, Hamid Pirahesh, Peter Schwarz
 date_fetched: 2026-08-09
 date_published: 1992-03
+topics:
+  - databases-and-data
 ---
 
 The canonical paper on write-ahead logging (WAL) recovery in database systems. ARIES (Algorithm for Recovery and Isolation Exploiting Semantics) is the recovery method that underpins IBM DB2, Starburst, and numerous other industrial-strength transaction processing systems. Published in ACM Transactions on Database Systems (Vol. 17, No. 1, March 1992, pp. 94–162), it remains one of the most-cited papers in the database systems literature.

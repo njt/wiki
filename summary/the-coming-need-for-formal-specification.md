@@ -4,6 +4,8 @@ title: "The Coming Need for Formal Specification"
 author: Ben Congdon
 date_fetched: 2026-05-14
 date_published: 2025-12-12
+topics:
+  - software-engineering-craft
 ---
 
 As AI increasingly handles code generation, software engineering's scarce resource shifts from writing code to specifying what code should do. Code itself is a poor map for system territory — modeling individual molecules tells you nothing about braking distance. Congdon engages with Martin Kleppmann's prediction that "AI will make formal verification go mainstream" and Hillel Wayne's observation that "you can probably fit every TLA+ expert in the world in a large schoolbus." The thesis: as generation costs plummet while review costs lag, systematic tooling for the mismatch becomes necessary. Congdon envisions a workflow starting with high-level English specs, decomposed into TLA+ models at multiple component specificity levels, with critical load-bearing components formally verified in Rocq and remaining components LLM-audited for spec conformance. He argues undergraduate CS programs should allocate curriculum to formal verification as students delegate implementation to AI.

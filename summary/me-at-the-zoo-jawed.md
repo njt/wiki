@@ -7,6 +7,8 @@ date_published: 2026-05-14
 source: ytx gist (YouTube transcript + LLM summary)
 video_url: https://www.youtube.com/watch?v=jNQXAC9IVRw
 duration: 19 seconds
+topics:
+  - misc
 ---
 
 # Me at the zoo — jawed

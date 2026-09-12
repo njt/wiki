@@ -5,6 +5,8 @@ author: Santi (oldskultxo)
 date_fetched: 2026-06-09
 date_published: 2026-06-05
 source: Substack (also published on dev.to)
+topics:
+  - misc
 ---
 
 A practical reflection on why coding agents lose the thread between sessions, and why the repository itself is the right place to preserve it.

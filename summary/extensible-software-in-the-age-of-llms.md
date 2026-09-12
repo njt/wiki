@@ -4,6 +4,8 @@ title: "Extensible Software in the Age of LLMs"
 author: Jeremy Morrell
 date_fetched: 2026-08-25
 date_published: 2026
+topics:
+  - software-engineering-craft
 ---
 
 # Extensible Software in the Age of LLMs

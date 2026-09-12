@@ -3,6 +3,8 @@ title: "workgraph"
 url: https://github.com/graphwork/workgraph
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-orchestration
 ---
 
 # Workgraph (wg)

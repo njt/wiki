@@ -4,6 +4,8 @@ title: "Introducing Muse Spark: Scaling Towards Personal Superintelligence"
 author: Meta Superintelligence Labs (corporate blog, no individual byline)
 date_fetched: 2026-05-15
 date_published: 2026-04-08
+topics:
+  - ai-infrastructure-and-hardware
 ---
 
 # Introducing Muse Spark: Scaling Towards Personal Superintelligence

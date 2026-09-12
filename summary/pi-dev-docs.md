@@ -4,6 +4,8 @@ title: Pi Coding Agent — Documentation
 author: Earendil Inc.
 date_fetched: 2026-05-15
 date_published: unknown
+topics:
+  - agent-architecture
 ---
 
 # Pi Coding Agent — Official Documentation

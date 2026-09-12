@@ -4,6 +4,9 @@ title: "The Persistent Gravity of Cross Platform"
 author: Allen Pike
 date_fetched: 2026-07-11
 date_published: 2021-09-01
+topics:
+  - agent-coding-workflow
+  - software-engineering-craft
 ---
 
 Allen Pike (Steamclock) argues that the standard "native = better UX, cross-platform = cheaper" framing misses what actually drives platform decisions at scale. The real force is coordination cost: as product organizations grow, maintaining consistency across multiple native codebases gets quadratically harder. Cross-platform tools let teams coordinate feature work across platforms from a single codebase, and at sufficient scale that beats the UX polish native gives you.

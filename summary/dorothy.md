@@ -5,6 +5,8 @@ repo: https://github.com/Charlie85270/Dorothy
 author: Charlie85270
 date_fetched: 2026-05-14
 date_published: 2025
+topics:
+  - agent-orchestration
 ---
 
 # Dorothy: AI Agent Orchestration Platform

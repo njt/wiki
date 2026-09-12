@@ -6,6 +6,8 @@ date_fetched: 2026-07-04
 date_published: 2026-06-01
 source_type: ytx-gist
 gist_id: a80e60a6ff03bd5a853c91b130d22bd0
+topics:
+  - agent-coding-workflow
 ---
 
 # Matt Pocock on AI-Assisted Development — The Smart Zone and AFK Pipeline

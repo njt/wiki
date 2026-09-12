@@ -4,6 +4,8 @@ title: "Stash: Persistent Memory for AI Agents"
 author: alash3al (Mohamed Al Ashaal)
 date_fetched: 2026-05-22
 date_published: 2026-05
+topics:
+  - agent-memory-and-context
 ---
 
 # Stash: Persistent Memory for AI Agents

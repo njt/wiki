@@ -7,6 +7,8 @@ date_published: 2026-01-26
 source_type: bluesky_post
 linked_article: "Welcome to the American Winter" by Robert F. Worth, The Atlantic, 2026-01-25
 linked_article_url: https://www.theatlantic.com/politics/2026/01/minneapolis-uprising/685755/
+topics:
+  - ideas-and-culture
 ---
 
 ## Post text

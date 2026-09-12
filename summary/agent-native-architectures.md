@@ -4,6 +4,8 @@ title: Agent-native Architectures
 author: Dan Shipper / Every
 date_fetched: 2026-05-15
 date_published: 2026-01-17
+topics:
+  - agent-architecture
 ---
 
 A technical guide for building applications where agents are first-class citizens.

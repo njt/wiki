@@ -5,6 +5,8 @@ author: Music AI (Geraldo Ramos, CEO)
 date_fetched: 2026-05-22
 date_published: various (founded ~2019, AI Studio launched 2025-08-20)
 fetched_via: web_search + moises.ai/newsroom (WebFetch returned 403 on main domain; product pages fetched successfully)
+topics:
+  - ai-research-and-models
 ---
 
 # Moises.ai

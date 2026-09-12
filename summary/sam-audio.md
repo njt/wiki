@@ -4,6 +4,8 @@ title: SAM Audio — Segment Anything in Audio
 author: Meta AI Research (Bowen Shi, Andros Tjandra, John Hoffman, et al.)
 date_fetched: 2026-05-14
 date_published: 2025-12
+topics:
+  - ai-research-and-models
 ---
 
 ## Source Content

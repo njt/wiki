@@ -4,6 +4,8 @@ title: "KV Cache Locality: The Hidden Variable in Your LLM Serving Cost"
 author: Minds Aspire (Ranvier project)
 date_fetched: 2026-05-18
 date_published: 2026-04-30
+topics:
+  - ai-infrastructure-and-hardware
 ---
 
 # KV Cache Locality: The Hidden Variable in Your LLM Serving Cost

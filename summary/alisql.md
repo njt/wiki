@@ -3,6 +3,8 @@ title: "AliSQL"
 url: https://github.com/alibaba/AliSQL
 date_fetched: 2026-05-14
 section: "Databases and Data"
+topics:
+  - databases-and-data
 ---
 
 # AliSQL: Alibaba's Enterprise MySQL Branch

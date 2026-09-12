@@ -4,6 +4,8 @@ title: "AI-Driven Development Life Cycle: Reimagining Software Engineering"
 author: Raja SP
 date_fetched: 2026-05-14
 date_published: 2025-07-31
+topics:
+  - agent-coding-workflow
 ---
 
 # AI-Driven Development Life Cycle: Reimagining Software Engineering

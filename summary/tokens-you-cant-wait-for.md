@@ -4,6 +4,8 @@ title: "The Tokens You Can't Wait For: Text diffusion, the GPU hangover, and the
 author: Shreshta Shyamsundar and Anmol Jain
 date_fetched: 2026-07-21
 date_published: 2026-07-20
+topics:
+  - ai-infrastructure-and-hardware
 ---
 
 This O'Reilly Radar piece examines the mismatch between how standard autoregressive LLMs generate text and how enterprises need to use them — and makes the case that text diffusion models solve a specific, expensive subset of that mismatch.

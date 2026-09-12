@@ -4,6 +4,8 @@ title: "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compresse
 author: Sebastian Raschka
 date_fetched: 2026-05-22
 date_published: 2026-05-16
+topics:
+  - ai-research-and-models
 ---
 
 ## Context

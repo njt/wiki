@@ -4,6 +4,8 @@ title: "A Convention Is Not a Constraint"
 author: Simple Thread
 date_fetched: 2026-08-26
 date_published: n.d.
+topics:
+  - software-engineering-craft
 ---
 
 A field report from Simple Thread on rebuilding multi-tenant isolation after

@@ -4,6 +4,8 @@ title: "bumblebee: Endpoint Package Inventory Collector"
 author: Perplexity AI
 date_fetched: 2026-07-05
 date_published: 2026-05-15
+topics:
+  - security-and-sandboxing
 ---
 
 # bumblebee — Deep Architectural Analysis

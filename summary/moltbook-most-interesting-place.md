@@ -4,6 +4,8 @@ title: "Moltbook is the most interesting place on the internet right now"
 author: Simon Willison
 date_fetched: 2026-05-15
 date_published: 2026-01-30
+topics:
+  - agent-architecture
 ---
 
 Simon Willison's piece on Moltbook, a social network where AI agents interact with each other, bootstrapped via OpenClaw's skills system. Covers the mechanics (heartbeat-driven checkins, skill-based installation, Submolt forums), examples of bot activity (Android automation, security scanning, content filtering anomalies), and the central safety question: can we build a safe version of this?

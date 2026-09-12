@@ -4,6 +4,8 @@ title: "MiMo Code: Scaling Coding Agents to Long-Horizon Tasks"
 author: Xiaomi MiMo Team
 date_fetched: 2026-06-11
 date_published: 2026-06-10
+topics:
+  - agent-architecture
 ---
 
 # MiMo Code: Scaling Coding Agents to Long-Horizon Tasks

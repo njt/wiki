@@ -4,6 +4,8 @@ title: "How to Follow a Drummer"
 author: Sashyo
 date_fetched: 2026-07-11
 date_published: 2026-07
+topics:
+  - developer-tools
 ---
 
 A blog post from the creator of DrumMate explaining the engineering problems behind

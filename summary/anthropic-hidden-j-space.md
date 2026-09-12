@@ -4,6 +4,8 @@ title: "Anthropic found a hidden space where Claude puzzles over concepts"
 author: Will Douglas Heaven
 date_fetched: 2026-07-18
 date_published: 2026-07-09
+topics:
+  - ai-research-and-models
 ---
 
 Anthropic developed a new interpretability tool called the Jacobian lens (J-lens) and used it to discover a hidden computational region inside Claude Opus 4.6 they named J-space. The J-space contains words related to what the model is likely to say in the near future — not just the very next token, but concepts it's working through before articulating them.

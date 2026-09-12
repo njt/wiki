@@ -4,6 +4,8 @@ title: DeepSeek V4 Flash 0731
 author: DeepSeek / ARC Prize
 date_published: 2026-07-31
 date_fetched: 2026-08-08
+topics:
+  - ai-research-and-models
 ---
 
 # DeepSeek V4 Flash 0731 — ARC-AGI Results

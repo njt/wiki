@@ -4,6 +4,8 @@ title: "SQLite Is All You Need"
 author: Jay
 date_fetched: 2026-07-18
 date_published: 2026-07-14
+topics:
+  - databases-and-data
 ---
 
 Jay builds Chirp, a social network with 50,000 users and 1 million posts, running entirely on a single 343MB SQLite file — to test whether SQLite can serve production workloads. Every write is a durable, committed transaction. The backend is one Node process talking directly to the file; there is no database server, no connection pool, and no network round-trips.

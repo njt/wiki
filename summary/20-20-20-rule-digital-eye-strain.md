@@ -4,6 +4,8 @@ title: "20-20-20 Rule: Are These Numbers Justified?"
 author: Sophia Johnson, Mark Rosenfield
 date_fetched: 2026-07-18
 date_published: 2023-01-01
+topics:
+  - ideas-and-culture
 ---
 
 This peer-reviewed study from SUNY College of Optometry tested whether the

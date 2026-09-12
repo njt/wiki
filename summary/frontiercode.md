@@ -5,6 +5,8 @@ author: "Eric Lu, Ben Pan, Deniz Birlikci, Sam Lee, Ray Wang, Rohan Choudhury, F
 date_fetched: 2026-06-12
 date_published: 2026-06-08
 tags: [coding-benchmark, eval, agents, code-quality, mergeability]
+topics:
+  - misc
 ---
 
 # Introducing FrontierCode | Cognition

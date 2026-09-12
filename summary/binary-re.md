@@ -3,6 +3,8 @@ title: "Binary RE"
 url: https://github.com/2389-research/claude-plugins/tree/main/binary-re
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-coding-workflow
 ---
 
 # Binary RE - Claude Plugins

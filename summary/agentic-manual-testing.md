@@ -4,6 +4,8 @@ title: Agentic manual testing
 author: Simon Willison
 date_fetched: 2026-05-15
 date_published: 2026-03-06
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 # Agentic manual testing

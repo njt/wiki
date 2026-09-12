@@ -4,6 +4,8 @@ title: "The State of Open Source AI — V1.0"
 author: Mozilla (Raffi Krikorian, CTO)
 date_fetched: 2026-07-18
 date_published: 2026-07
+topics:
+  - ai-research-and-models
 ---
 
 Mozilla's inaugural assessment of the open-source AI ecosystem, published July 2026. It maps capability gaps, adoption economics, the operational tooling stack, sovereign investment, and the emerging agentic harness layer — arguing that open weights have reached near-parity on coding and general tasks while trailing on reasoning, and that the next contest is over the harness (orchestration, memory, permissions) rather than the model itself.

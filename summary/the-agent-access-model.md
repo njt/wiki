@@ -3,6 +3,8 @@ url: https://blog.cloudflare.com/the-agent-access-model/
 title: The Agent Access Model
 author: Cloudflare Research
 date_fetched: 2026-08-06
+topics:
+  - security-and-sandboxing
 ---
 
 Cloudflare proposes an access control model purpose-built for AI agents, arguing that the controls built for human users (BeyondCorp, SSO, conditional access) fail quietly when applied to agents — granting too much, seeing too little, and trusting for too long. The Agent Access Model (AAM) shifts from trusting the task execution graph to authorizing every individual action against the task and its accumulated state.

@@ -3,6 +3,8 @@ title: "AI PR Reviewer"
 url: https://dev.to/adamai/i-built-an-ai-pr-reviewer-and-it-already-caught-bugs-i-missed-115p
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 # AI PR Reviewer - AdamAI

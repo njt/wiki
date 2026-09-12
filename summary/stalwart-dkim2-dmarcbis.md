@@ -4,6 +4,8 @@ title: "DKIM2 and DMARCbis Have Landed, and Stalwart Speaks Them First"
 author: Mauro D. (Project Maintainer)
 date_fetched: 2026-07-11
 date_published: 2026-07-06
+topics:
+  - security-and-sandboxing
 ---
 
 Stalwart v0.16.12 is the first mail server to ship both DKIM2 (draft-ietf-dkim-dkim2-spec) and DMARCbis (RFCs 9989, 9990, 9991, published May 2026). The post explains both protocols in detail, why they were needed, and how they work — accompanied by a browser-based playground that compiles the same Rust library to WebAssembly.

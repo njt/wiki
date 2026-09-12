@@ -4,6 +4,8 @@ title: Frontier Labs, Enterprises, and the AI Value Chain
 author: lhl
 date_fetched: 2026-07-05
 date_published: 2026-07-03
+topics:
+  - ai-research-and-models
 ---
 
 The document examines whether AI labs extract durable value from enterprise customers during deployment engagements, and where defensible value sits across the AI stack.

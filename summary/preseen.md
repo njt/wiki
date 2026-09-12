@@ -4,6 +4,8 @@ title: "Preseen — AI-Powered Forecasting Platform"
 author: Preseen (Venia Veselovsky, Theo Summer, Jordan Berman, James Shinn, James Evans, Daniel Proskurka, Robert de Neufville, Scott Eastman, Geoff Odlum)
 date_fetched: 2026-07-29
 date_published: 2026
+topics:
+  - ideas-and-culture
 ---
 
 Preseen is an AI-powered forecasting platform that generates calibrated

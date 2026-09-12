@@ -4,6 +4,8 @@ title: AI as an Enterprise Operating System
 author: Tim O'Reilly
 site: O'Reilly Radar
 date_fetched: 2026-08-07
+topics:
+  - agent-coding-workflow
 ---
 
 Tim O'Reilly interviews Dan Guido, CEO of Trail of Bits, about what it actually takes to make a company AI-native. The framing: most enterprises are deploying AI wrong — handing out ChatGPT licenses and waiting for magic. The Solow paradox of AI (90% of executives report no measurable productivity gain) isn't evidence that AI doesn't work; it's evidence that almost nobody has done the necessary organizational work.

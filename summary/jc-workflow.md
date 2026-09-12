@@ -4,6 +4,8 @@ title: "Don't Wait for Claude"
 author: Jay McCarthy
 date_fetched: 2026-05-15
 date_published: 2026-03-27
+topics:
+  - agent-coding-workflow
 ---
 
 # Don't Wait for Claude

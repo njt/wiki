@@ -4,6 +4,8 @@ title: bucketvcs — Git server backed by cloud object storage
 author: Eran S. (erans)
 date_fetched: 2026-05-31
 date_published: 2025
+topics:
+  - databases-and-data
 ---
 
 # bucketvcs — Raw Analysis

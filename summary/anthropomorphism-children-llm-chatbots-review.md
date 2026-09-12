@@ -4,6 +4,8 @@ title: "Anthropomorphism in Children's Interactions with LLM Chatbots: A Systema
 author: Hansinie Madushika Jayathilake, Renkai Ma
 date_fetched: 2026-07-25
 date_published: 2026-05-09
+topics:
+  - ai-research-and-models
 ---
 
 A systematic review of 35 empirical studies (2022–2025) examining how children anthropomorphize LLM-based chatbots. Uses Epley's SEEK theory (Elicited Agent Knowledge, Effectance Motivation, Sociality Motivation) as its theoretical anchor and follows PRISMA guidelines.

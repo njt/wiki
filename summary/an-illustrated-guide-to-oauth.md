@@ -5,6 +5,8 @@ source: "https://www.ducktyped.org/p/an-illustrated-guide-to-oauth"
 publication: "DuckTyped (Substack)"
 date: 2025-08-25
 fetched: 2026-05-14
+topics:
+  - security-and-sandboxing
 ---
 
 # An Illustrated Guide to OAuth

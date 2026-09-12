@@ -4,6 +4,8 @@ fetched: 2026-05-14
 type: blog post / hackathon writeup
 title: "We Put a Coding Agent in a While Loop and It Shipped 6 Repos Overnight"
 authors: RepoMirror team (Simon Farshid / @yonom, @AVGVSTVS96, @dexhorthy, @Lantos1618)
+topics:
+  - agent-coding-workflow
 ---
 
 # We Put a Coding Agent in a While Loop and It Shipped 6 Repos Overnight

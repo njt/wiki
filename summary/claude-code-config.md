@@ -3,6 +3,9 @@ title: "claude-code-config"
 url: https://github.com/trailofbits/claude-code-config
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-coding-workflow
+  - guardrails-and-feedback-loops
 ---
 
 # Trail of Bits Claude Code Config

@@ -3,6 +3,8 @@ url: https://claytondorge.com/patterns-list
 title: "🏡 List of 253 Patterns — Clayton Dorge"
 author: Clayton Dorge
 date_fetched: 2026-07-25
+topics:
+  - ideas-and-culture
 ---
 
 Clayton Dorge read Christopher Alexander's *A Pattern Language* in full and

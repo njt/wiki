@@ -5,6 +5,8 @@ author: NuGet Team (Microsoft)
 site: Microsoft DevBlogs
 date_published: 2026-08-06
 date_fetched: 2026-08-07
+topics:
+  - security-and-sandboxing
 ---
 
 # Summary: Strengthening NuGet Supply Chain Security

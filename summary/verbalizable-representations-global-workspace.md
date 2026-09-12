@@ -4,6 +4,8 @@ title: "Verbalizable Representations Form a Global Workspace in Language Models"
 author: "Wes Gurnee*, Nicholas Sofroniew*, Adam Pearce, Mateusz Piotrowski, Isaac Kauvar, Runjin Chen, Anna Soligo, Paul Bogdan, Euan Ong, Rowan Wang, Ben Thompson, David Abrahams, Subhash Kantamneni, Emmanuel Ameisen, Joshua Batson, Jack Lindsey*†"
 date_fetched: 2026-07-08
 date_published: 2026-07-06
+topics:
+  - ai-research-and-models
 ---
 
 Anthropic researchers present evidence that language models have a privileged set of internal representations — a "global workspace" — available for verbal report, modulation, and flexible reasoning, sitting atop a much larger volume of automatic processing.

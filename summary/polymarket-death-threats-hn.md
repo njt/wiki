@@ -6,6 +6,8 @@ date_fetched: 2026-05-15
 date_published: ~2026-03-15
 source_type: hacker-news-discussion
 points: 1606
+topics:
+  - ideas-and-culture
 ---
 
 Original post submitted by `defly`, sourced from a Times of Israel article about a journalist covering an Iran missile story who was threatened with death by Polymarket users whose bets would be affected by the reporting.

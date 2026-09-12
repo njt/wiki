@@ -4,6 +4,8 @@ url: https://www.anthropic.com/research/emotion-concepts-function
 author: Anthropic Interpretability team
 date_fetched: 2026-05-15
 date_published: 2026-04-02
+topics:
+  - ai-research-and-models
 ---
 
 # Emotion Concepts and Their Function in a Large Language Model

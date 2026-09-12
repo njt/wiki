@@ -4,6 +4,8 @@ title: "VulnHunter"
 author: Capital One
 date_fetched: 2026-07-18
 date_published: 2025
+topics:
+  - security-and-sandboxing
 ---
 
 Capital One's open-source agentic AI security tool for source code vulnerability hunting. Built as a suite of Claude Code skills (pure prompt engineering) plus Python helper packages that form a closed-loop Hunt → Fix → Verify pipeline.

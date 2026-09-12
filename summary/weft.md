@@ -3,6 +3,8 @@ title: "weft"
 url: https://github.com/jonesphillip/weft
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-orchestration
 ---
 
 # Weft: AI Agent Task Management

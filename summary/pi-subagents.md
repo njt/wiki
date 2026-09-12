@@ -3,6 +3,8 @@ url: https://github.com/nicobailon/pi-subagents
 title: pi-subagents
 author: Nico Bailon
 date_fetched: 2026-08-07
+topics:
+  - agent-orchestration
 ---
 
 # pi-subagents

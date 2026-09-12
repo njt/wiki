@@ -4,6 +4,8 @@ title: "Notes from the AI Now Summit by Mistral"
 author: Koen van Gilst
 date_fetched: 2026-05-31
 date_published: 2026-05-29
+topics:
+  - ai-research-and-models
 ---
 
 # Notes from the AI Now Summit by Mistral

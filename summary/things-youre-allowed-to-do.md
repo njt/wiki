@@ -3,6 +3,8 @@ title: "Things You're Allowed to Do"
 url: https://milan.cvitkovic.net/writing/things_youre_allowed_to_do/
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - ideas-and-culture
 ---
 
 # Things You're Allowed to Do

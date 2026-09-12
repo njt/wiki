@@ -4,6 +4,8 @@ title: "Pretext — Fast, accurate & comprehensive text measurement & layout"
 author: Cheng Lou
 date_fetched: 2026-05-14
 date_published: unknown
+topics:
+  - developer-tools
 ---
 
 # Pretext

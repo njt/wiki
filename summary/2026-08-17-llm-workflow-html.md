@@ -5,6 +5,8 @@ author: Dmitry Sotnikov
 date_fetched: 2026-09-04
 date_published: 2026-08-17
 site: yogthos.net
+topics:
+  - agent-coding-workflow
 ---
 
 # A practical workflow for LLM-assisted development

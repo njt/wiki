@@ -8,6 +8,8 @@ stars: 178
 language: Swift (95.3%), CSS (2.2%), Shell (2.1%), HTML (0.4%)
 license: Apache-2.0
 latest_release: "1.3.3 (2026-04-14)"
+topics:
+  - developer-tools
 ---
 
 # Clearance

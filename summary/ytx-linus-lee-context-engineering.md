@@ -8,6 +8,8 @@ date_published: 2026-05-14
 channel: AI Council
 duration: 16m 48s
 ytx_by: njt
+topics:
+  - misc
 ---
 
 # Everyone wants bigger context windows. Linus Lee thinks that's the wrong instinct

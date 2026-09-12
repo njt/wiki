@@ -5,6 +5,9 @@ author: Cloudflare Blog
 date_fetched: 2026-08-06
 date_published: 2026-08-05
 site: Cloudflare Blog
+topics:
+  - guardrails-and-feedback-loops
+  - specifications-as-the-product
 ---
 
 Cloudflare built the **Cloudflare Codex**, a governed set of engineering standards expressed as RFCs (using SHOULD/MUST from RFC 2119), with a dedicated governance model that divides the corpus into domains (architecture, security, reliability, TypeScript, Rust, etc.) each led by a domain owner. RFCs go through rounds of review, and enforcement is gated behind a separate "enforced" lifecycle state that gives teams time to absorb new requirements before they become blocking.

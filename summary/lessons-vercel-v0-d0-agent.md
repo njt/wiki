@@ -9,6 +9,8 @@ event: The Pragmatic Summit, San Francisco, February 11, 2026
 youtube_url: https://www.youtube.com/watch?v=_f2WpsmW76Y
 transcription_date: 2026-05-18
 tags: [agent-design, simplicity, coding-agents, organizational-design, vercel]
+topics:
+  - agent-architecture
 ---
 
 # Summary

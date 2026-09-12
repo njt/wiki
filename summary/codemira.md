@@ -3,6 +3,8 @@ title: "CodeMira"
 url: https://github.com/taylorsatula/CodeMira
 date_fetched: 2026-05-14
 section: "LLMs"
+topics:
+  - agent-memory-and-context
 ---
 
 # CodeMira: Developer Memory System

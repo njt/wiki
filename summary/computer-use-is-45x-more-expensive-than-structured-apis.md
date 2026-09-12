@@ -4,6 +4,8 @@ title: "Computer Use is 45x More Expensive Than Structured APIs"
 author: Palash Awasthi
 date_fetched: 2026-05-14
 date_published: 2026
+topics:
+  - ideas-and-culture
 ---
 
 # Computer Use is 45x More Expensive Than Structured APIs

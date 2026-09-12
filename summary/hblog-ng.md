@@ -4,6 +4,8 @@ title: "hblog-ng: Obsidian Knowledge Graph Blog"
 author: Halit Alptekin
 date_fetched: 2026-07-03
 date_published: 2024
+topics:
+  - developer-tools
 ---
 
 ## Repository Analysis

@@ -3,6 +3,8 @@ title: "Systems Ideas That Sound Good"
 url: https://hardcoresoftware.learningbyshipping.com/p/225-systems-ideas-that-sound-good
 date_fetched: 2026-05-14
 section: "Producing and Operating Software"
+topics:
+  - software-engineering-craft
 ---
 
 Steven Sinofsky argues certain engineering patterns sound appealing but fail in practice approximately 9 out of 10 times.

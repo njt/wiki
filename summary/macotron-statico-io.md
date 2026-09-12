@@ -4,6 +4,8 @@ title: Macotron
 author: statico
 date_fetched: 2026-09-08
 date_published: unknown
+topics:
+  - developer-tools
 ---
 
 # Macotron — Raw Ingest

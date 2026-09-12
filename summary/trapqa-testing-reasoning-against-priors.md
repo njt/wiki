@@ -4,6 +4,8 @@ title: "TrapQA: Understanding Why Language Models Hallucinate — Testing Reason
 author: Yangfan Hu, Xuhan Tong, Haoyue Bai, Xi Ding, Shashank Muralidhar Bharadwaj, Siyang Cao, Robert Nowak, Jiawei Zhang
 date_fetched: 2026-07-05
 date_published: 2026
+topics:
+  - ai-research-and-models
 ---
 
 # TrapQA: Understanding Why Language Models Hallucinate — Testing Reasoning Against Priors

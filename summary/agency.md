@@ -4,6 +4,8 @@ url: https://github.com/agentbureau/agency
 author: Vaughn Tan (@arbois) / Agent Bureau
 date_fetched: 2026-05-15
 date_published: 2026-03-31 (v1.2.4.2)
+topics:
+  - misc
 ---
 
 # Agency: AI Agent Composition, Assignment, and Evolution Engine

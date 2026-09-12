@@ -5,6 +5,8 @@ author: DPC (dpc.pw)
 date_fetched: 2026-05-15
 date_published: 2026-04-06
 tags: [dev, ai, open-source, pull-requests, llm]
+topics:
+  - agent-coding-workflow
 ---
 
 # I don't want your PRs anymore

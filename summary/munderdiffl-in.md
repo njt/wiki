@@ -3,6 +3,8 @@ url: https://munderdiffl.in/
 title: "Munder Difflin — free, open-source multi-agent harness of personal clones"
 author: Munder Difflin (no byline)
 date_fetched: 2026-08-21
+topics:
+  - agent-architecture
 ---
 
 Munder Difflin is a free, MIT-licensed multi-agent harness that wraps the agent CLI you already use — Claude Code, Codex, Grok, Kimi Code, Antigravity, Qwen, OpenCode, Crush, Pi, or Copilot — and turns it into an always-on "clone" of you. One download, runs on your own laptop, and uses your existing subscriptions or API keys under their hourly limits; nothing leaves your machine.

@@ -6,6 +6,8 @@ site: joshwcomeau.com
 date_published: unknown
 date_fetched: 2026-08-08
 last_updated: 2025-12-03
+topics:
+  - software-engineering-craft
 ---
 
 Josh Comeau's definitive explainer on React's two most misunderstood hooks. He builds from first principles — what a re-render actually is, why reference equality matters in JavaScript, and how `React.memo` interacts with both — to make the case that `useMemo` and `useCallback` are tools for two distinct problems: skipping expensive recalculations and preserving object/function references across renders to keep pure components pure.

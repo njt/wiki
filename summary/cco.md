@@ -4,6 +4,8 @@ title: cco — Claude Container (Sandboxed AI Coding Agent Wrapper)
 author: nikvdp
 date_fetched: 2026-06-24
 date_published: 2025
+topics:
+  - security-and-sandboxing
 ---
 
 # cco — Full Architectural Analysis

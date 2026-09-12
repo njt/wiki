@@ -4,6 +4,8 @@ title: "Your Distributed System Is Slower Than a Laptop"
 author: CodeGood (no individual byline)
 date_fetched: 2026-07-11
 date_published: 2026-07-05
+topics:
+  - software-engineering-craft
 ---
 
 This piece argues that distributed stream-processing architectures are the

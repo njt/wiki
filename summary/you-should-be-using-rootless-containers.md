@@ -4,6 +4,8 @@ title: "You Should be Using Rootless Containers"
 author: Miguel Grinberg
 date_fetched: 2026-09-11
 date_published: unknown (not present in fetched text; post discusses Ubuntu 26.04, so ~2026)
+topics:
+  - security-and-sandboxing
 ---
 
 # You Should Be Using Rootless Containers

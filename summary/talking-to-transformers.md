@@ -3,6 +3,9 @@ title: "Talking to Transformers"
 url: https://miraos.org/blog/2026/05/02/talking-to-transformers
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-coding-workflow
+  - guardrails-and-feedback-loops
 ---
 
 Taylor's four pillars for effective prompting of LLMs:

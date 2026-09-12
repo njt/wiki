@@ -4,6 +4,8 @@ title: "Paca — AI-Native Open-Source Project Management"
 author: Paca-AI
 date_fetched: 2026-06-21
 date_published: 2025
+topics:
+  - agent-orchestration
 ---
 
 # Source Analysis: Paca (github.com/Paca-AI/paca)

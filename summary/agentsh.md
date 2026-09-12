@@ -7,6 +7,8 @@ date_published: unknown
 source_urls:
   - https://www.agentsh.org/docs/
   - https://raw.githubusercontent.com/canyonroad/agentsh/main/README.md
+topics:
+  - security-and-sandboxing
 ---
 
 # agentsh

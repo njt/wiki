@@ -4,6 +4,8 @@ title: "What the Transsion Telemetry Research Means for Mobile Security"
 author: Buchodi and David Weinstein
 date_fetched: 2026-07-11
 date_published: 2026-07-08
+topics:
+  - security-and-sandboxing
 ---
 
 Transsion — the world's fourth-largest smartphone maker (TECNO, Infinix, itel) — ships all devices with a first-party Android telemetry framework consisting of **Athena** (event collection) and **oneID** (cross-app tracking), both phoning home to `*.shalltry.com`.

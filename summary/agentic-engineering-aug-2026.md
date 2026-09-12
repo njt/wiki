@@ -4,6 +4,8 @@ title: How Kenn is doing Agentic Engineering
 author: Wes McKinney
 date_fetched: 2026-08-14
 date_published: 2026-08
+topics:
+  - agent-coding-workflow
 ---
 
 # How Kenn is doing Agentic Engineering

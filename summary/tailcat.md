@@ -4,6 +4,8 @@ title: Tailcat
 author: Tailscale Inc
 date_fetched: 2026-09-04
 published: 2026-08
+topics:
+  - developer-tools
 ---
 
 # Tailcat

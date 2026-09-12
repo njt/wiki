@@ -6,6 +6,8 @@ date_fetched: 2026-07-05
 date_published: 2026-06-13
 site: imil.net
 tags: [ai, llm, gpu, local-inference, llama.cpp]
+topics:
+  - local-and-open-source-inference
 ---
 
 # Background

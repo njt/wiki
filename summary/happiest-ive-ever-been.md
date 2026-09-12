@@ -3,6 +3,8 @@ title: "Happiest I've Ever Been"
 url: https://ben-mini.com/2026/the-happiest-ive-ever-been
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - ideas-and-culture
 ---
 
 # The Happiest I've Ever Been

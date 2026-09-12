@@ -4,6 +4,8 @@ title: "Why agents matter more than other AI — Seven advantages that AI agents
 author: Josh Albrecht
 date_fetched: 2026-05-22
 date_published: 2025-12-19
+topics:
+  - misc
 ---
 
 # Why agents matter more than other AI

@@ -4,6 +4,9 @@ title: "Building Agents that Don't Break Themselves"
 author: Daniel Botha
 date_fetched: 2026-07-08
 date_published: 2026-06-08
+topics:
+  - security-and-sandboxing
+  - agent-architecture
 ---
 
 Daniel Botha argues that AI agents sabotage themselves when they run

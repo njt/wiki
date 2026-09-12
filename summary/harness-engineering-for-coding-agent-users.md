@@ -4,6 +4,8 @@ title: "Harness Engineering for Coding Agent Users"
 author: Birgitta Böckeler
 date_fetched: 2026-05-14
 date_published: 2026-04-02
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 # Harness Engineering for Coding Agent Users

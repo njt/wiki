@@ -4,6 +4,8 @@ title: "Announcing Bonsai 27B — The First 27B-Class Model to Run on a Phone"
 author: PrismML
 date_fetched: 2026-07-18
 date_published: 2026-07-14
+topics:
+  - local-and-open-source-inference
 ---
 
 PrismML announced Bonsai 27B, a multimodal model built on Qwen3.6 27B that they

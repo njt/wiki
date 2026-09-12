@@ -4,6 +4,8 @@ title: "Algorithms on billion-scale graph using 10GB RAM: I love DataFusion!"
 author: Sem Sinchenko
 date_fetched: 2026-08-01
 date_published: 2026-07-05
+topics:
+  - databases-and-data
 ---
 
 Sem Sinchenko demonstrates running graph algorithms — PageRank and weakly

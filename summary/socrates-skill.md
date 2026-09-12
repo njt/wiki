@@ -4,6 +4,8 @@ title: "Socrates Skill"
 author: Choi Wontak (RoundTable02)
 date_fetched: 2026-08-01
 date_published: 2026-04-02
+topics:
+  - agent-architecture
 ---
 
 A Claude Code Agent Skill that implements the Socratic method: the agent reads the material silently, then guides the user to answers through progressive questioning — it never gives a direct answer. The entire skill is a single 73-line markdown file (no code, no dependencies, no state).

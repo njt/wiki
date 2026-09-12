@@ -4,6 +4,8 @@ title: Wall-Clock Time and the Qwen3.8-27B Daily Driver
 author: OVERBRING Labs (unnamed)
 date_published: 2026-08-17
 date_fetched: 2026-08-21
+topics:
+  - local-and-open-source-inference
 ---
 
 A solo founder's three-day field report on running the newly released Qwen3.8-27B as a daily-driver coding agent on a budget two-GPU rig (two RTX 5060 Ti 16 GB, 32 GB total VRAM). The central thesis: for agentic coding, **wall-clock time to a correct result** — not tokens-per-second (`pp`/`tg`) — is the metric that matters, because a "slower" model that finishes a task unattended beats a faster one that keeps you in the loop.

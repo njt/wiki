@@ -4,6 +4,9 @@ title: "CI Forge (ciforge)"
 author: Tahiram32
 date_fetched: 2026-07-11
 date_published: 2026-07-09
+topics:
+  - guardrails-and-feedback-loops
+  - developer-tools
 ---
 
 CI Forge (ciforge) is a zero-dependency Python CI tool (~3,040 lines) that bundles roughly 25 scanning and code-quality capabilities into a single package. It includes multi-provider AI review (OpenAI, Anthropic, Ollama via raw `urllib.request`), an MCP server interface, and four user interfaces (CLI, interactive wizard, desktop GUI, chat). Licensed AGPLv3 with commercial dual licensing via GitHub Sponsors, it targets solo developers as a free replacement for a constellation of paid services (Snyk, SonarQube, etc.).

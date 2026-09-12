@@ -5,6 +5,8 @@ author: Firecrawl
 date_fetched: 2026-08-14
 date_published: 2026-08-13
 section: "Developer Tools"
+topics:
+  - developer-tools
 ---
 
 # pdf-inspector

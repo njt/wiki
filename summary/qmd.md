@@ -3,6 +3,8 @@ title: "qmd"
 url: https://github.com/tobi/qmd
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - developer-tools
 ---
 
 # QMD: Query Markup Documents

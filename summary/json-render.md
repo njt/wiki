@@ -2,6 +2,8 @@
 source_url: https://json-render.dev/
 fetched: 2026-05-14
 type: project homepage
+topics:
+  - developer-tools
 ---
 
 # json-render: The Generative UI Framework

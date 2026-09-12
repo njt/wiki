@@ -4,6 +4,8 @@ title: "SimPolitics: America's Quest to Solve Politics with Computers"
 author: Fenwick McKelvey
 date_fetched: 2026-07-11
 date_published: 2026
+topics:
+  - ideas-and-culture
 ---
 
 Fenwick McKelvey traces the entwined history of politics and computer simulation from the 1960s through the late 1980s. He examines how programmers, consultants, political scientists, and peace activists built models to win elections, predict coups, and forecast political futures — part of a broader effort to render politics as computationally legible.

@@ -5,6 +5,8 @@ author: Gorilla Sun
 date_fetched: 2026-09-08
 date_published: undated
 site: gorillasun.de
+topics:
+  - ideas-and-culture
 ---
 
 # The Importance of Sketching with Code

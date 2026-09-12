@@ -5,6 +5,8 @@ date: 2026-03-18
 url: https://www.linkedin.com/pulse/how-we-use-claude-code-today-intercom-brian-scanlan-eb7cc
 fetched: 2026-05-14
 type: article
+topics:
+  - agent-coding-workflow
 ---
 
 # How We Use Claude Code Today at Intercom

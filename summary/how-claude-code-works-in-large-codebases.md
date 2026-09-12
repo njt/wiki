@@ -4,6 +4,8 @@ title: "How Claude Code works in large codebases: Best practices and where to st
 author: Anthropic Applied AI team (Alon Krifcher, Charmaine Lee, Chris Concannon, Harsh Patel, Henrique Savelli, Jason Schwartz, Jonah Dueck, Kirby Kohlmorgen; feedback from Amit Navindgi, Zoox)
 date_fetched: 2026-05-16
 date_published: 2026-05-14
+topics:
+  - agent-coding-workflow
 ---
 
 # How Claude Code works in large codebases: Best practices and where to start

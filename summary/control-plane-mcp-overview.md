@@ -4,6 +4,8 @@ title: MCP Server
 author: Control Plane (no individual author listed)
 date_fetched: 2026-05-14
 date_published: unknown
+topics:
+  - agent-architecture
 ---
 
 # Control Plane MCP Server — Overview

@@ -4,6 +4,8 @@ title: "Writing Style Guides for Better UIs"
 author: Ian Langworth
 date_fetched: 2026-07-18
 date_published: 2026-07-14
+topics:
+  - agent-coding-workflow
 ---
 
 Langworth argues that UI text quality improves dramatically when you give a coding agent a writing style guide and tell it to apply the rules to every user-facing string — buttons, labels, error messages, menus — in a single pass.

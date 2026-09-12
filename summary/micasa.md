@@ -3,6 +3,8 @@ title: "Micasa"
 url: https://github.com/cpcloud/micasa
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - developer-tools
 ---
 
 # Micasa: Home Maintenance TUI

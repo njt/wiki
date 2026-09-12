@@ -3,6 +3,9 @@ url: https://github.com/CopilotKit/channels-sdk
 title: Channels SDK
 author: CopilotKit
 date_fetched: 2026-08-07
+topics:
+  - personal-agents
+  - agent-architecture
 ---
 
 # CopilotKit Channels SDK — Summary

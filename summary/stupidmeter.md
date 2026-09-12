@@ -3,6 +3,8 @@ title: "stupidmeter"
 url: https://aistupidlevel.info/models/188
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - ideas-and-culture
 ---
 
 # stupidmeter (AI Stupid Level)

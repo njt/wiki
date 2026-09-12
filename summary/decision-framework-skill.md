@@ -4,6 +4,8 @@ title: Decision Framework Skill
 author: Fero Volar
 date_fetched: 2026-07-03
 date_published: 2026
+topics:
+  - agent-architecture
 ---
 
 # Decision Framework Skill — Full Analysis

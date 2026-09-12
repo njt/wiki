@@ -4,6 +4,8 @@ title: "Tracker: Pipeline orchestration engine for multi-agent LLM workflows"
 author: 2389 Research
 date_fetched: 2026-05-31
 date_published: 2026-04-01 (earliest tracked release)
+topics:
+  - agent-orchestration
 ---
 
 # Tracker — Full Architectural Analysis

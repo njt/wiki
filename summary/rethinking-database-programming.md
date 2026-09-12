@@ -4,6 +4,8 @@ title: Rethinking Database Programming
 author: Evan Czaplicki
 date: 2026-08-18
 date_fetched: 2026-08-21
+topics:
+  - databases-and-data
 ---
 
 Evan Czaplicki (creator of Elm) announces the public alpha of Acadia, a language that "brings the benefits of 'languages like Elm' to SQL." Four goals: store precise custom types directly in the database (no hand-rolled binary layouts, JSON, or nullable-column encodings); compiler-verified migrations (no more "body on high alert" when touching a live database); friendly error messages; and end-to-end types shared across client, server, and database.

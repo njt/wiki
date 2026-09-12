@@ -4,6 +4,8 @@ title: "har-extractor"
 author: azu
 date_fetched: 2026-08-01
 date_published: 2018-06-20
+topics:
+  - developer-tools
 ---
 
 A small CLI tool and library (MIT, by azu) that extracts HTTP response bodies from

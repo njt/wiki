@@ -3,6 +3,8 @@ title: "AI Killing B2B SaaS"
 url: https://nmn.gl/blog/ai-killing-b2b-saas
 date_fetched: 2026-05-14
 section: "Management/Business"
+topics:
+  - agent-coding-workflow
 ---
 
 # AI is Killing B2B SaaS

@@ -4,6 +4,8 @@ title: "Dean Ball on Kimi, Open Weights, and the Deceleration Thesis"
 author: Dean W. Ball (@deanwball)
 date_fetched: 2026-07-21
 date_published: 2026-07-17
+topics:
+  - ai-research-and-models
 ---
 
 Dean Ball, reacting to the release of the Kimi open-weight model, lays out a

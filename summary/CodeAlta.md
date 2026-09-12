@@ -4,6 +4,8 @@ title: CodeAlta
 author: Alexandre Mutel (xoofx)
 date_fetched: 2026-07-05
 date_published: 2025
+topics:
+  - agent-architecture
 ---
 
 # CodeAlta — Terminal AI Coding Agent Workspace

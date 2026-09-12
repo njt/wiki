@@ -3,6 +3,8 @@ url: https://brightsec.com/research/detecting-ansi-escape-sequence-injection-in-
 title: "Detecting ANSI Escape Sequence Injection in MCP Servers with DAST"
 author: Bright Security
 date_fetched: 2026-07-21
+topics:
+  - security-and-sandboxing
 ---
 
 ANSI escape sequences are invisible terminal control codes (cursor movement, screen clear, color changes) that a human never sees in rendered output but that a language model reads as raw bytes. Bright Security coins the term **ANSI Escape Sequence Injection (AESI)** for attacks exploiting this gap in MCP-based AI agents, where servers stream untrusted text into model-consumable fields.

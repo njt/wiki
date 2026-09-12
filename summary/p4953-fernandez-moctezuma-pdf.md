@@ -5,6 +5,8 @@ author: Tyler Akidau, Rafael J. Fernández-Moctezuma, Reuven Lax, Daniel Mills
 date: 2026
 date_fetched: 2026-09-08
 site: vldb.org
+topics:
+  - databases-and-data
 ---
 
 # The Dataflow Model Revisited

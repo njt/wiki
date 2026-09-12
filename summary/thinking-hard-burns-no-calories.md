@@ -4,6 +4,8 @@ title: Thinking Hard Burns Almost No Calories—But Destroys Your Next Workout
 author: Xipu Li
 date_fetched: 2026-05-15
 date_published: 2026-02-16
+topics:
+  - ideas-and-culture
 ---
 
 # Thinking Hard Burns Almost No Calories—But Destroys Your Next Workout

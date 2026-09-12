@@ -3,6 +3,9 @@ title: "Prefix Effects"
 url: https://antimemeticai.com/prefix-effects
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - guardrails-and-feedback-loops
+  - specifications-as-the-product
 ---
 
 Research demonstrating that semantic naming conventions significantly influence how AI agents generate code. Early naming decisions create a "gravity effect" that persists through subsequent development.

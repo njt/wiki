@@ -3,6 +3,8 @@ url: https://github.com/github/gh-stack
 title: GitHub Stacked PRs (gh-stack)
 author: github
 date_fetched: 2026-08-07
+topics:
+  - developer-tools
 ---
 
 # gh-stack

@@ -4,6 +4,8 @@ title: "LLM-as-a-Verifier: A General-Purpose Verification Framework"
 author: Jacky Kwok, Shulu Li, Pranav Atreya, Yuejiang Liu, Yixing Jiang, Chelsea Finn, Marco Pavone, Ion Stoica, Azalia Mirhoseini
 date_fetched: 2026-07-18
 date_published: 2026-07
+topics:
+  - ai-research-and-models
 ---
 
 A training-free, general-purpose verification framework that produces fine-grained

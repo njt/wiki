@@ -3,6 +3,8 @@ title: "How HTML Changes in ePub"
 url: https://www.htmhell.dev/adventcalendar/2025/11/
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - software-engineering-craft
 ---
 
 # How HTML Changes in ePub

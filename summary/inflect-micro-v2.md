@@ -4,6 +4,8 @@ title: "Inflect-Micro-v2"
 author: Owen Song
 date_fetched: 2026-07-29
 date_published: 2026
+topics:
+  - ai-research-and-models
 ---
 
 Inflect-Micro-v2 is a local text-to-speech system by independent developer Owen Song. It delivers end-to-end text-to-waveform synthesis in under 10 million parameters (37.5 MB FP32), outputting 24 kHz mono audio with a single fixed English male voice. It runs on CPU and CUDA, with an ONNX Runtime variant also available. License: Apache-2.0.

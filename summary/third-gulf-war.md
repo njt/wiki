@@ -3,6 +3,8 @@ title: "Third Gulf War"
 url: https://wiki.thirdgulfwar.com/
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - ideas-and-culture
 ---
 
 # Third Gulf War Research Wiki

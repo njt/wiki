@@ -4,6 +4,9 @@ title: The Pragmatic Summit
 author: Gergely Orosz / The Pragmatic Engineer
 date_fetched: 2026-05-18
 date_published: 2026-02-11
+topics:
+  - software-engineering-craft
+  - agent-coding-workflow
 ---
 
 # The Pragmatic Summit 2026

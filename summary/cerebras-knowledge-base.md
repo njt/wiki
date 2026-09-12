@@ -4,6 +4,8 @@ title: "How We Built Our Knowledge Base"
 author: Cerebras (@cerebras, authors: Isaac, Daniel, Zenghao)
 date_fetched: 2026-07-25
 date_published: 2026-07-16
+topics:
+  - agent-memory-and-context
 ---
 
 Cerebras announced Cerebras Knowledge, an internal RAG system handling 15,000+ employee queries per day. The thread links to their full technical blog post on the architecture.

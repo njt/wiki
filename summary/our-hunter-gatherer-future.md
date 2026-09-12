@@ -9,6 +9,8 @@ publication: "Futures, Volume 115, January 2020, Article 102488"
 license: "CC BY 4.0"
 keywords: ["Agricultural transition", "Climate change", "Collapse", "Holocene", "Hunter-gatherers", "Mega-greenhouse effect"]
 section: "Ideas & Culture"
+topics:
+  - ideas-and-culture
 ---
 
 # Our Hunter-Gatherer Future: Climate Change, Agriculture and Uncivilization

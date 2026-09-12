@@ -4,6 +4,8 @@ title: "They're Made Out of Weights"
 author: Max Leiter
 date_fetched: 2026-06-06
 date_published: 2026-06-03
+topics:
+  - ideas-and-culture
 ---
 
 # They're Made Out of Weights

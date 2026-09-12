@@ -4,6 +4,8 @@ title: "AntFly"
 author: AJ Roetker and contributors
 date_fetched: 2026-07-11
 date_published: 2025
+topics:
+  - databases-and-data
 ---
 
 AntFly is a distributed search engine and AI-native database built on etcd's Raft

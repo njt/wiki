@@ -3,6 +3,9 @@ title: "DAB"
 url: https://learn.microsoft.com/en-us/azure/data-api-builder/
 date_fetched: 2026-05-14
 section: "Databases and Data"
+topics:
+  - databases-and-data
+  - agent-architecture
 ---
 
 # Data API Builder (DAB) - Microsoft

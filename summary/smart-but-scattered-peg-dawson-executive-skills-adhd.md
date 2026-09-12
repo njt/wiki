@@ -7,6 +7,8 @@ date_published: unknown
 source_type: gist
 source_channel: Radnor Township School District / Dr. Peg Dawson
 source_url: unknown (YouTube video, transcribed to gist)
+topics:
+  - ideas-and-culture
 ---
 
 # ytx: Smart But Scattered — Dr. Peg Dawson on Executive Skills in Children with ADHD

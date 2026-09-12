@@ -4,6 +4,8 @@ url: https://x.com/geoffreylitt/status/2008941866515824748
 date_fetched: 2026-05-14
 fetched_via: "x.com via surf browser automation"
 section: "AI-enhanced Coding"
+topics:
+  - agent-orchestration
 ---
 
 # Managing Agents via Kanban Boards - Geoffrey Litt

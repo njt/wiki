@@ -5,6 +5,8 @@ author: Eran Sandler
 date_fetched: 2026-05-18
 date_published: 2026
 section: "LLMs"
+topics:
+  - misc
 ---
 
 # GPU Memory Calculator for Self-Hosted LLM Inference

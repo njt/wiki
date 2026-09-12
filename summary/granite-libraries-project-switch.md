@@ -4,6 +4,8 @@ title: "Building AI more like software"
 author: Mike Murphy
 date_fetched: 2026-06-09
 date_published: 2026-06-04
+topics:
+  - ai-research-and-models
 ---
 
 # Building AI more like software

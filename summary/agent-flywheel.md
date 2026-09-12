@@ -4,6 +4,8 @@ title: "Agent Flywheel — AI Agents Coding For You"
 author: Jeffrey Emanuel (@doodlestein, Dicklesworthstone)
 date_fetched: 2026-05-22
 date_published: unknown
+topics:
+  - agent-coding-workflow
 ---
 
 # Agent Flywheel — AI Agents Coding For You

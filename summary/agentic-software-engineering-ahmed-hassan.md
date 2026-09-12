@@ -4,6 +4,8 @@ title: "Agentic Software Engineering: Building Trustworthy Software with Stochas
 author: Ahmed E. Hassan
 date_fetched: 2026-08-09
 date_published: 2026
+topics:
+  - agent-coding-workflow
 ---
 
 Ahmed E. Hassan argues that agentic coding tools are not the end of software engineering — they are the moment the discipline becomes genuinely essential. His central thesis: **Agentic Software Engineering** is the discipline of producing trustworthy software from stochastic contributors (AI and human alike) by engineering the full SE system — actors, process, tools, and artifacts — not by hoping for perfect agents.

@@ -3,6 +3,8 @@ title: "Building 200+ Integrations with OpenCode"
 url: https://nango.dev/blog/learned-building-200-api-integrations-with-opencode/
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-coding-workflow
 ---
 
 # What We Learned Building 200+ API Integrations with OpenCode

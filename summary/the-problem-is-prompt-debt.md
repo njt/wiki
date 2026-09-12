@@ -5,6 +5,9 @@ author: Drew Breunig
 date_published: 2025
 date_fetched: 2026-08-07
 site: O'Reilly Radar (originally published on Drew Breunig's blog)
+topics:
+  - guardrails-and-feedback-loops
+  - specifications-as-the-product
 ---
 
 Drew Breunig diagnoses a specific form of technical debt unique to AI systems: **prompt debt**. Natural language prompts enable rapid prototyping but become a trap as systems grow. The imprecision of prose paired with probabilistic models means every hot-fix added to a prompt risks regressing earlier instructions, makes the prompt illegible to teammates, and locks the application to a single model — because fixes tuned for one model's weights fail on others.

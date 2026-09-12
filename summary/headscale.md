@@ -4,6 +4,8 @@ title: "Headscale: An open source, self-hosted implementation of the Tailscale c
 author: Juan Font Alonso, Kristoffer Dalby
 date_fetched: 2026-05-14
 date_published: null
+topics:
+  - misc
 ---
 
 # Headscale

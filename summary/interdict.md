@@ -4,6 +4,8 @@ title: "Interdict — Safety Layer Between AI Agents and Postgres"
 author: Prisha Rai (pr482@cornell.edu)
 date_fetched: 2026-07-08
 date_published: 2026-06
+topics:
+  - security-and-sandboxing
 ---
 
 Interdict is a Python runtime safety layer that sits between AI coding agents (via MCP) and PostgreSQL. It parses every SQL statement using the real Postgres parser (libpg_query), classifies it, checks it against a deterministic YAML policy, and gates writes before they reach the database.

@@ -3,6 +3,8 @@ title: "Spicy Takes Feed"
 url: https://www.spicytakes.org/feed
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - ideas-and-culture
 ---
 
 # Spicy Takes: A Tech Commentary Feed

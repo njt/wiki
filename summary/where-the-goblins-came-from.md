@@ -4,6 +4,8 @@ title: "Where the Goblins Came From"
 author: OpenAI
 date_fetched: 2026-05-15
 date_published: 2026-04-29
+topics:
+  - ai-research-and-models
 ---
 
 ## Full Article

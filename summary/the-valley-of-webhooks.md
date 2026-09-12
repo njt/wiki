@@ -3,6 +3,8 @@ url: https://weli.dev/blog/the-valley-of-webhooks/
 title: The Valley of Webhooks
 author: weli.dev
 date_fetched: 2026-08-06
+topics:
+  - software-engineering-craft
 ---
 
 # The Valley of Webhooks

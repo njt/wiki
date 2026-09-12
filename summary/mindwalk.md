@@ -4,6 +4,8 @@ title: mindwalk
 author: Ricko Yu (cosmtrek)
 date_fetched: 2026-07-18
 date_published: 2026
+topics:
+  - developer-tools
 ---
 
 mindwalk replays coding-agent sessions on a 3D map of your codebase. It draws the

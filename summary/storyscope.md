@@ -4,6 +4,8 @@ title: "StoryScope: Investigating idiosyncrasies in AI fiction"
 author: Jenna Russell, Rishanth Rajendhran, Chau Minh Pham, Mohit Iyyer, John Wieting
 date_fetched: 2026-06-22
 date_published: 2026-04-03
+topics:
+  - ai-research-and-models
 ---
 
 # StoryScope: Investigating idiosyncrasies in AI fiction

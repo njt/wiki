@@ -6,6 +6,8 @@ site: ssp.sh
 published: undated
 fetched: 2026-09-04
 tags: [obsidian, ai-slop, note-taking, second-brain, knowledge-management]
+topics:
+  - ideas-and-culture
 ---
 
 # Keep AI Out of Your (Obsidian) Vault

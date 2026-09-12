@@ -5,6 +5,8 @@ author: Bob Nystrom
 site: journal.stuffwithstuff.com
 date_published: 2015-02-01
 date_fetched: 2026-08-08
+topics:
+  - software-engineering-craft
 ---
 
 # What Color is Your Function? — Summary

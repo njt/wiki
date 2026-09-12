@@ -5,6 +5,8 @@ author: antirez (Salvatore Sanfilippo)
 date_fetched: 2026-05-15
 date_published: 2026-01-31
 publication: antirez.com
+topics:
+  - agent-coding-workflow
 ---
 
 antirez introduces "Automatic Programming" as his term for writing software with AI assistance — a practice he believes will soon simply be called "the process of writing software." He draws a sharp distinction from "vibe coding," which he defines as generating software using AI without being part of the process at all.

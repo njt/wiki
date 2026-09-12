@@ -3,6 +3,8 @@ url: https://github.com/denoland/celld
 title: celld
 author: Deno Land Inc.
 date_fetched: 2026-08-06
+topics:
+  - databases-and-data
 ---
 
 # celld — Summary

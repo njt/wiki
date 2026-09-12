@@ -5,6 +5,8 @@ author: Freddie Spirit (@freddie_spirit)
 date_fetched: 2026-07-05
 date_published: 2026-07-02
 source: https://coffee.freddiespirit.com/
+topics:
+  - ai-infrastructure-and-hardware
 ---
 
 Theoretical Bottlenecks for Scaling LLM Inference to Get Higher Token per Second

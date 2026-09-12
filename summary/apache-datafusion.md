@@ -4,6 +4,8 @@ title: "Apache DataFusion — Extensible Query Engine"
 author: Apache Software Foundation
 date_fetched: 2026-08-01
 date_published: 2024
+topics:
+  - databases-and-data
 ---
 
 Apache DataFusion is a query engine written in Rust, built on Apache Arrow's

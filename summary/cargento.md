@@ -4,6 +4,8 @@ title: "Cargento — Agnostic Agent Cartography and Visualization"
 author: spacedock-dev
 date_fetched: 2026-08-01
 date_published: 2025
+topics:
+  - developer-tools
 ---
 
 Cargento is a local web dashboard that passively maps live coding-agent activity

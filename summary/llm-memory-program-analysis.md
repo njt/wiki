@@ -5,6 +5,8 @@ author: unknown
 site: pwning.systems
 date_fetched: 2026-09-04
 date_published: unknown
+topics:
+  - agent-memory-and-context
 ---
 
 # I accidentally turned LLM memory into program analysis (precis)

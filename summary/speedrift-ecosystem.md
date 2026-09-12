@@ -3,6 +3,9 @@ title: "speedrift-ecosystem"
 url: https://github.com/dbmcco/speedrift-ecosystem
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-orchestration
+  - specifications-as-the-product
 ---
 
 # Speedrift Ecosystem

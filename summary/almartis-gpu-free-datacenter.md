@@ -7,6 +7,8 @@ date_published: 2026-05
 source_type: blog
 publication: Almartis
 category: Infrastructure
+topics:
+  - ai-infrastructure-and-hardware
 ---
 
 # AI Datacenters Were Built for GPUs. What Happens When You Remove the GPUs?

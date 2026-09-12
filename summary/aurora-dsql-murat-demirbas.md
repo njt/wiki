@@ -4,6 +4,8 @@ title: "Aurora DSQL: Scalable, Multi-Region OLTP"
 author: Murat Demirbas
 date_fetched: 2026-08-01
 date_published: 2026-07-23
+topics:
+  - databases-and-data
 ---
 
 Murat Demirbas reviews the Aurora DSQL paper (arXiv:2607.13276) from the perspective of an insider who worked on the AWS team that designed and built it during 2022–23. His one-sentence summary: DSQL took a traditional monolithic database and blew every component out into an independent, horizontally scalable service.

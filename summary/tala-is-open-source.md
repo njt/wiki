@@ -3,6 +3,8 @@ url: https://d2lang.com/blog/tala-is-open-source/
 title: TALA is open-source
 author: Terrastruct (d2lang)
 date_fetched: 2026-09-08
+topics:
+  - developer-tools
 ---
 
 # TALA is open-source

@@ -7,6 +7,8 @@ author: Simon Willison
 date_published: 2026-02-11
 date_fetched: 2026-05-18
 tags: [coding-agents, tdd, sandboxing, prompt-injection, open-source, vibe-coding]
+topics:
+  - agent-coding-workflow
 ---
 
 ## Summary

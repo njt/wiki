@@ -3,6 +3,8 @@ title: "How Boris Uses Claude Code"
 url: https://threadreaderapp.com/thread/2007179832300581177.html
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-coding-workflow
 ---
 
 # How Boris Uses Claude Code - Boris Cherny

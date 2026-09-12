@@ -4,6 +4,8 @@ title: Claude Equity Research Plugin — Trading Ideas Command
 author: quant-sentiment-ai
 date_fetched: 2026-05-15
 date_published: 2025-09-09
+topics:
+  - agent-coding-workflow
 ---
 
 # Claude Equity Research Plugin

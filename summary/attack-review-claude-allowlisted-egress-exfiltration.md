@@ -4,6 +4,8 @@ url: https://gist.github.com/lhl/7c6d7085185931978ad6ed2d2de72081
 author: lhl
 date_fetched: 2026-05-15
 date_published: 2026-04-07
+topics:
+  - security-and-sandboxing
 ---
 
 # Attack Review: Claude Allowlisted-Egress Exfiltration

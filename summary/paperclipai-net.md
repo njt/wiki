@@ -4,6 +4,8 @@ title: "Paperclip — Open-Source Orchestration for Zero-Human Companies"
 author: Paperclip
 date_fetched: 2026-09-11
 date_published: unknown
+topics:
+  - agent-orchestration
 ---
 
 # Source Analysis: Paperclip (paperclipai.net)

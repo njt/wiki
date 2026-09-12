@@ -3,6 +3,9 @@ title: "engineering-notebook"
 url: https://github.com/prime-radiant-inc/engineering-notebook
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-memory-and-context
+  - developer-tools
 ---
 
 # Engineering Notebook

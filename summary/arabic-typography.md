@@ -4,6 +4,8 @@ title: "An interactive introduction to the terrific experience of rendering Arab
 author: larrasket (lr0.org)
 date_fetched: 2026-07-03
 date_published: 2026-06-10
+topics:
+  - ideas-and-culture
 ---
 
 # An interactive introduction to the terrific experience of rendering Arabic typography and its technical debt

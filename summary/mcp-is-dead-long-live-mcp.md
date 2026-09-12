@@ -4,6 +4,8 @@ title: "MCP is Dead; Long Live MCP!"
 author: Charles Chen (@chrlschn)
 date_fetched: 2026-05-15
 date_published: 2026-03-14
+topics:
+  - agent-coding-workflow
 ---
 
 # MCP is Dead; Long Live MCP!

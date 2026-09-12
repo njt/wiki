@@ -4,6 +4,8 @@ title: FreeToken
 author: FlashML-org (Shuo Yang, Xiaoze Fan, Melissa Pan, Haocheng Xi, Zhe Wang, Shanlin Sun, Kurt Keutzer, Song Han, Matei Zaharia, Chenfeng Xu, Ion Stoica)
 date_fetched: 2026-08-22
 date_published: 2026
+topics:
+  - local-and-open-source-inference
 ---
 
 # FreeToken — Repository Analysis

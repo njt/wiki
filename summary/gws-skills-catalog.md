@@ -3,6 +3,8 @@ title: "Google Workspace CLI Skills"
 url: https://github.com/googleworkspace/cli/blob/main/docs/skills.md
 date_fetched: 2026-05-15
 section: "Agentic Development"
+topics:
+  - developer-tools
 ---
 
 # Skills Index

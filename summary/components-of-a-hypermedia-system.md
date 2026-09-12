@@ -3,6 +3,8 @@ url: https://hypermedia.systems/components-of-a-hypermedia-system/
 title: Components of a Hypermedia System
 author: Carson Gross, Adam Stepinski, Deniz Akşimşek
 date: 2023
+topics:
+  - software-engineering-craft
 ---
 
 A chapter from the book *Hypermedia Systems* that lays out the theoretical

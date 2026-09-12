@@ -3,6 +3,8 @@ title: "Five Levels from Spicy Autocomplete to the Dark Software Factory"
 url: https://www.danshapiro.com/blog/2026/01/the-five-levels-from-spicy-autocomplete-to-the-software-factory/
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-coding-workflow
 ---
 
 # The Five Levels of AI-Assisted Software Development - Dan Shapiro

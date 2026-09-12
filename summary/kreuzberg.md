@@ -3,6 +3,8 @@ title: "Kreuzberg"
 url: https://github.com/kreuzberg-dev/kreuzberg
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - developer-tools
 ---
 
 # Kreuzberg: Document Intelligence Framework

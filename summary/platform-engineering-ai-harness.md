@@ -3,6 +3,8 @@ url: https://thenewstack.io/platform-engineering-ai-harness/
 title: "Every Software Company Will Become a Dev Tools Company"
 author: The New Stack
 date_fetched: 2026-08-07
+topics:
+  - agent-coding-workflow
 ---
 
 The article argues that platform engineering is absorbing AI toolchain ownership and becoming the control plane of software organizations. As AI generates more application code, the team responsible for building the machinery to control, verify, and scale that code generation is platform engineering. "Harness engineering" — building the feedback loops, guardrails, and context agents need to work safely — is not a new discipline but platform engineering with an AI-specific layer.

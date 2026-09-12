@@ -9,6 +9,8 @@ date_updated: 2026-05-13
 source_type: paper
 venue: arXiv:2409.02038v3 [cs.CL]
 license: CC BY 4.0
+topics:
+  - databases-and-data
 ---
 
 # BEAVER: An Enterprise Benchmark for Text-to-SQL

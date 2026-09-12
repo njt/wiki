@@ -3,6 +3,9 @@ title: "How Hightouch Built Their Long-Running Agent Harness"
 url: https://www.amplifypartners.com/blog-posts/how-hightouch-built-their-long-running-agent-harness
 date_fetched: 2026-05-14
 section: "LLMs"
+topics:
+  - agent-orchestration
+  - agent-memory-and-context
 ---
 
 # How Hightouch Built Their Long-Running Agent Harness

@@ -5,6 +5,8 @@ author: Rhea Purohit
 date_fetched: 2026-05-14
 date_published: 2025-10-27
 publication: Every (Source Code)
+topics:
+  - agent-coding-workflow
 ---
 
 Rhea Purohit interviews six engineers at Every about their personalized AI stacks. Each engineer runs a different configuration of tools, models, and workflows to build and maintain four AI products (Sparkle, Cora, Spiral, Monologue), a consulting business, and a daily newsletter.

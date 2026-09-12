@@ -4,6 +4,8 @@ title: "Chunker: Hierarchical Document Chunking with Multi-Level Summaries"
 author: sermakarevich
 date_fetched: 2026-06-15
 date_published: 2025
+topics:
+  - developer-tools
 ---
 
 # Full Analysis

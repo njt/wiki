@@ -3,6 +3,8 @@ url: https://thegustafson.com/series
 title: "Holding the LLM Stack in Your Head"
 author: Nick Gustafson
 date_fetched: 2026-07-21
+topics:
+  - ai-research-and-models
 ---
 
 Nick Gustafson's series walks the full modern LLM stack, bottom to top: from

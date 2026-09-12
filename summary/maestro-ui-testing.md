@@ -2,6 +2,8 @@
 source_url: https://maestro.dev/
 fetched: 2026-05-14
 type: product-page
+topics:
+  - developer-tools
 ---
 
 # Maestro — End-to-End UI Testing Platform

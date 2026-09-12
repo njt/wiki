@@ -3,6 +3,9 @@ title: "Cognitive Debt"
 url: https://www.rockoder.com/beyondthecode/cognitive-debt-when-velocity-exceeds-comprehension/
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-coding-workflow
+  - software-engineering-craft
 ---
 
 # Cognitive Debt: When Velocity Exceeds Comprehension

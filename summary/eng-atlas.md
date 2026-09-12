@@ -2,6 +2,8 @@
 url: https://eng-atlas.dev/
 title: "The Software Engineering Practice Atlas"
 date_fetched: 2026-08-01
+topics:
+  - software-engineering-craft
 ---
 
 The Software Engineering Practice Atlas is a curated collection of software

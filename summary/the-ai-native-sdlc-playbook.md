@@ -4,6 +4,8 @@ title: "The AI-Native SDLC Playbook"
 author: Anthropic
 date_fetched: 2026-08-22
 date_published: undated
+topics:
+  - agent-coding-workflow
 ---
 
 # The AI-Native SDLC Playbook

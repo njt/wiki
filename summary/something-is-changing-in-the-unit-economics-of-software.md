@@ -3,6 +3,8 @@ url: https://nicolo.xyz/note/something-is-changing-in-the-unit-economics-of-soft
 title: Something Is Changing in the Unit Economics of Software
 author: Nicolo
 date_fetched: 2026-08-06
+topics:
+  - specifications-as-the-product
 ---
 
 Software's defining superpower was zero marginal cost: build once, serve millions. That created the 75-85% gross margins and "grow now, margins later" playbook that defined SaaS. AI breaks this. Every LLM call costs real money, making per-user compute costs that scale directly with usage. AI turns software's cost of goods sold from negligible to large, sticky, and inseparable from the core experience.

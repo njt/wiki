@@ -3,6 +3,8 @@ title: "The Goeckerman Regimen for the Treatment of Moderate to Severe Psoriasis
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3735239/
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - ideas-and-culture
 ---
 
 # The Goeckerman Regimen for Psoriasis

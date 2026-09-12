@@ -1,3 +1,7 @@
+---
+topics:
+  - agent-architecture
+---
 # Ruflo — Summary
 
 Ruflo (formerly Claude Flow, v3.32.2) is an open-source TypeScript meta-harness that wraps Claude Code and Codex with 35 plugins providing multi-agent swarm coordination, self-learning vector memory, federated cross-machine agent communication, and enterprise security controls. Install via `npx ruflo init`.

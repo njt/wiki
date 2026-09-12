@@ -4,6 +4,8 @@ title: "The Hitchhiker's Guide to Agentic AI: From Foundations to Systems"
 author: Haggai Roitman
 date_fetched: 2026-07-08
 date_published: 2026-06-22
+topics:
+  - ai-research-and-models
 ---
 
 A 603-page practitioner's reference covering the full stack of building autonomous AI systems, from transformer internals through production deployment. The survey's organizing thesis is that building effective agentic systems demands understanding every layer of the pipeline.

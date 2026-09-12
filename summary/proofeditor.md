@@ -4,6 +4,8 @@ title: Proof — Agent-first collaborative document editor
 author: Every Inc. (every.to)
 date_fetched: 2026-05-14
 date_published: unknown
+topics:
+  - agent-architecture
 ---
 
 # ProofEditor

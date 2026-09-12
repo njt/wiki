@@ -6,6 +6,8 @@ date_fetched: 2026-07-05
 date_published: 2026-06-15
 site: DBOS Blog
 category: DBOS Architecture
+topics:
+  - databases-and-data
 ---
 
 # Postgres Transactions are a Distributed Systems Superpower

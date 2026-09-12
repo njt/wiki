@@ -4,6 +4,8 @@ title: BookOrbit
 author: BookOrbit (project)
 date_fetched: 2026-08-25
 published: n.d.
+topics:
+  - local-and-open-source-inference
 ---
 
 BookOrbit is an open-source (AGPL-3.0), self-hosted "reading space" for ebooks, audiobooks, comics, and PDFs. The landing page reduces the pitch to three promises: your files stay on your own hardware, every device stays in sync, and there's no subscription.

@@ -4,6 +4,8 @@ url: https://magazine.sebastianraschka.com/p/components-of-a-coding-agent
 author: "Sebastian Raschka, PhD"
 date_fetched: 2026-05-15
 date_published: 2026-04-04
+topics:
+  - agent-architecture
 ---
 
 # Components of A Coding Agent - Sebastian Raschka

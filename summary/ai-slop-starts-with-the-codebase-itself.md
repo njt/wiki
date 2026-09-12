@@ -4,6 +4,8 @@ title: "AI slop starts with the codebase itself."
 author: Unknown (originally published on LinkedIn)
 date_fetched: 2026-07-11
 date_published: 2026-07-09
+topics:
+  - agent-coding-workflow
 ---
 
 The author argues that AI coding assistants perform dramatically better with

@@ -5,6 +5,8 @@ author: Gavriel Cohen (@Gavriel_Cohen)
 site: X/Twitter (via xcancel.com)
 date_fetched: 2026-07-05
 date_published: 2026-07-01
+topics:
+  - agent-coding-workflow
 ---
 
 Fable open sourced NanoClaw's agent factory. It cost $800.

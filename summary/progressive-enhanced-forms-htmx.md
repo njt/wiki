@@ -3,6 +3,8 @@ url: https://www.rafa.ee/articles/progressive-enhanced-forms-htmx/
 title: Building Progressively Enhanced Forms Using htmx
 author: Rafa
 date_fetched: 2026-08-07
+topics:
+  - software-engineering-craft
 ---
 
 Rafa describes building a bookmark-editing form for their app "ties" using progressive enhancement: the form works without JavaScript, then HTMX adds niceties (active search, loading spinners) when JS is available. The article catalogs the techniques and tradeoffs discovered along the way.

@@ -4,6 +4,8 @@ title: "So Long and Thanks for All the Context"
 author: Andrew Stellman
 date_fetched: 2026-07-18
 date_published: 2026-06-25
+topics:
+  - agent-memory-and-context
 ---
 
 Stellman explores the "U-shape" failure — the well-documented tendency of LLMs to attend strongly to the beginning and end of context while ignoring the middle. The problem is structural: a 2026 paper by Borun Chowdhury at Meta proved it exists at model initialization, before any training. Larger context windows make single-fact retrieval better but make the middle larger and more dangerous for sustained agent work.

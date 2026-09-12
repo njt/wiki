@@ -5,6 +5,8 @@ fetched: 2026-05-14
 description: Live, queryable per-token pricing for AI model APIs across major providers.
 doc_version: "1.0"
 last_updated: "2026-05-07"
+topics:
+  - developer-tools
 ---
 
 # AI Pricing

@@ -4,6 +4,8 @@ title: "How to Choose a Subproblem"
 author: millicosm (Substack handle; an ARC researcher — byline not stated in fetched text)
 date_fetched: 2026-08-21
 date_published: unknown
+topics:
+  - ideas-and-culture
 ---
 
 # How to Choose a Subproblem

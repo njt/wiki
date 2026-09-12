@@ -4,6 +4,8 @@ title: "Least privilege for AI agents: Identity, access, and tool binding"
 author: Yesenia Yser, Toby Kohlenberg
 date_fetched: 2026-07-18
 date_published: 2026-07-16
+topics:
+  - security-and-sandboxing
 ---
 
 A Microsoft Security Blog post arguing that AI agents — now planning, chaining

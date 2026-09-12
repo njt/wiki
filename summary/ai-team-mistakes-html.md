@@ -4,6 +4,8 @@ title: "AI Team Mistakes"
 author: Doug Turnbull
 date_fetched: 2026-09-04
 date_published: 2026-08-29
+topics:
+  - agent-architecture
 ---
 
 Doug Turnbull, a search/RAG consultant who has watched a dozen-plus budding AI

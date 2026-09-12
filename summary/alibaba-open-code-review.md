@@ -4,6 +4,8 @@ title: OpenCodeReview — AI-Powered Code Review CLI
 author: Alibaba Group
 date_fetched: 2026-06-12
 date_published: 2025
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 # OpenCodeReview — Full Analysis

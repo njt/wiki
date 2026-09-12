@@ -3,6 +3,8 @@ url: https://semiceu.github.io/LinkedDataEventStreams/releases/1.0.0/index.html
 title: Linked Data Event Streams (LDES) — Consumer Specification v1.0
 author: SEMIC (Semantic Interoperability Community)
 date_fetched: 2026-08-06
+topics:
+  - databases-and-data
 ---
 
 # Linked Data Event Streams — Specification Summary

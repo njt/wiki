@@ -3,6 +3,8 @@ title: "napkin"
 url: https://github.com/blader/napkin
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-memory-and-context
 ---
 
 # Napkin: Persistent Memory for Claude Code

@@ -3,6 +3,8 @@ url: https://maguyva.ai/
 title: "Maguyva — Remote MCP Server for AI Coding Agents"
 author: UT International PTE. LTD.
 date_fetched: 2026-07-21
+topics:
+  - agent-architecture
 ---
 
 Maguyva is a remote MCP server that gives AI coding agents pre-indexed codebase

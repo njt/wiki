@@ -3,6 +3,8 @@ title: "World Monitor"
 url: https://github.com/koala73/worldmonitor
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - ideas-and-culture
 ---
 
 # World Monitor: Real-Time Global Intelligence Dashboard

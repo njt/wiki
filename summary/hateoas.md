@@ -3,6 +3,8 @@ url: https://htmx.org/essays/hateoas/
 title: HATEOAS
 author: htmx.org
 date_fetched: 2026-08-08
+topics:
+  - software-engineering-craft
 ---
 
 # HATEOAS — Summary

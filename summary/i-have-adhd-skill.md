@@ -3,6 +3,8 @@ url: https://github.com/ayghri/i-have-adhd/blob/main/skills/i-have-adhd/SKILL.md
 title: "i-have-adhd (SKILL.md)"
 author: ayghri
 date_fetched: 2026-08-01
+topics:
+  - agent-architecture
 ---
 
 A Claude Code skill that reformats LLM output for readers with ADHD. The rules

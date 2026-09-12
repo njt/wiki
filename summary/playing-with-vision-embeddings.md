@@ -4,6 +4,8 @@ title: Playing with Vision Embeddings
 author: Preston Jensen
 date_fetched: 2026-06-09
 date_published: 2026-06
+topics:
+  - ai-research-and-models
 ---
 
 # Playing with Vision Embeddings

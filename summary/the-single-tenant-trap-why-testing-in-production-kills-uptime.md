@@ -4,6 +4,8 @@ title: "The Single-Tenant Trap: Why Testing in Production Kills Uptime"
 author: Carlos Aguilar — Customer Advocate at Auth0
 date_fetched: 2026-07-18
 date_published: 2026-07-06
+topics:
+  - software-engineering-craft
 ---
 
 An Auth0 blog post arguing that early-stage companies drift into running a single production tenant for speed, then discover the hard way that it cannot be safely partitioned into environments. Workarounds like conditional routing in Actions break down because MFA triggers, global database connections, and session cookies span the whole tenant — any change hits every live user at once.

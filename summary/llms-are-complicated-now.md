@@ -4,6 +4,8 @@ title: "LLMs are complicated now"
 author: Ian Barber
 date_fetched: 2026-07-05
 date_published: 2026-06-19
+topics:
+  - ai-research-and-models
 ---
 
 # LLMs are complicated now

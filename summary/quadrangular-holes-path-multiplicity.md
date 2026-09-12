@@ -8,6 +8,8 @@ date_published: 2026-06-19
 tags: [network-science, complex-networks, graph-theory, shortest-path, path-multiplicity, chordless-cycle, motifs]
 license: "CC BY 4.0"
 status: abstract_only
+topics:
+  - ideas-and-culture
 ---
 
 ## Fetch Status

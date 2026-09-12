@@ -5,6 +5,8 @@ author: Martin Monperrus
 date_fetched: 2026-06-24
 date_published: 2026-06-11
 source: arXiv 2606.13175v1 [cs.SE]
+topics:
+  - agent-coding-workflow
 ---
 
 # The End of Code Review: Coding Agents Supersede Human Inspection

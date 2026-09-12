@@ -5,6 +5,8 @@ author: Slime Mold Time Mold
 site: slime mold time mold
 date_published: 2026-08-05
 date_fetched: 2026-09-11
+topics:
+  - ideas-and-culture
 ---
 
 # Summary: A Stupid Idea for AI Alignment We Came Up With by Looking at the List of Specification Gaming Behaviours

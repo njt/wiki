@@ -4,6 +4,8 @@ title: "redb 3.3.0: an enterprise .NET stack you actually own — typed store, a
 author: Rinat Kozin
 date_fetched: 2026-07-18
 date_published: 2026-07-09
+topics:
+  - databases-and-data
 ---
 
 Rinat Kozin announces the 3.3.0 release of redb, a three-layer open-source .NET stack: **redb** (typed POCO store with LINQ, no migrations, multiple database providers), **redb.Route** (integration engine in the Apache Camel mold with route DSL and 30+ connectors), and **redb.Tsak** (runtime with dashboard, hot-reload, and clustering).

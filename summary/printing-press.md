@@ -4,6 +4,8 @@ title: "Printing Press — Print the best agent-designed CLI of all time"
 author: Matt Van Horn (@mvanhorn)
 date_fetched: 2026-05-22
 date_published: unknown
+topics:
+  - agent-architecture
 ---
 
 # Printing Press

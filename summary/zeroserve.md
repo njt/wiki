@@ -4,6 +4,8 @@ title: zeroserve — Zero-config, fast, scriptable io_uring HTTPS server
 author: losfair
 date_fetched: 2026-06-15
 date_published: 2025
+topics:
+  - developer-tools
 ---
 
 # zeroserve — Full Architectural Analysis

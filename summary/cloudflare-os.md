@@ -3,6 +3,9 @@ url: https://blog.cloudflare.com/cloudflare-os/
 title: "Cloudflare OS: an open platform for agents, apps, and work"
 author: Cloudflare
 date_fetched: 2026-08-06
+topics:
+  - agent-memory-and-context
+  - security-and-sandboxing
 ---
 
 Cloudflare announces the open-source release of Cloudflare OS, a platform that gives every person in an organization an agent workspace grounded in company context, skills, and internal systems. It was already deployed internally at Cloudflare — thousands of employees across every function use it daily — and is now available for any organization to deploy and customize.

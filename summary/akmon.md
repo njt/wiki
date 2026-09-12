@@ -4,6 +4,8 @@ title: Akmon
 author: radotsvetkov
 date_fetched: 2026-06-09
 date_published: 2025
+topics:
+  - misc
 ---
 
 # Akmon — Full Repository Analysis

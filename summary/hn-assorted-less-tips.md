@@ -6,6 +6,8 @@ date_fetched: 2026-05-15
 date_published: 2025-11-11
 score: 238
 comments: 55
+topics:
+  - software-engineering-craft
 ---
 
 # Assorted less(1) tips — HN Discussion

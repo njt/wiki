@@ -4,6 +4,8 @@ title: The Case Against Building Your Own Agent Platform
 author: Pete Johnson
 date_fetched: 2026-06-22
 date_published: 2026-06-17
+topics:
+  - misc
 ---
 
 # The Case Against Building Your Own Agent Platform

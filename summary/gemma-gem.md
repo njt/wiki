@@ -3,6 +3,8 @@ title: "Gemma Gem"
 url: https://github.com/kessler/gemma-gem
 date_fetched: 2026-05-14
 section: "LLMs"
+topics:
+  - personal-agents
 ---
 
 # Gemma Gem: On-Device AI Assistant

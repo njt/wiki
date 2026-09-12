@@ -4,6 +4,8 @@ title: Qwopus3.6-27B-v2
 author: Jackrong
 date_published: 2026
 date_fetched: 2026-08-07
+topics:
+  - ai-research-and-models
 ---
 
 Qwopus3.6-27B-v2 is a community experimental fine-tune of Qwen3.6-27B by Jackrong (with hardware engineer Kyle Hessling), released on Hugging Face. It supports vision and tool-use capabilities and achieves 5,301 downloads in its first month.

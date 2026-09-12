@@ -4,6 +4,8 @@ title: "The Archaeologist's Copilot"
 author: Nik Malykhin
 date_fetched: 2026-07-18
 date_published: 2026-07-16
+topics:
+  - agent-coding-workflow
 ---
 
 Nik Malykhin describes a method for modernizing a 20-year-old Java 1.5 "Big Ball of Mud" codebase using AI and Docker, published on Martin Fowler's blog. The core insight: naively asking an LLM "How do I run this?" produces plausible but wrong answers — the "Tourist Prompt" trap. AI defaults to optimism, hallucinating modern toolchains and APIs that don't match the legacy reality.

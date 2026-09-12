@@ -4,6 +4,8 @@ title: "I want to wash my car. The car wash is 50 meters away. Should I walk or 
 author: novemp (original post on mastodon.world)
 date_fetched: 2026-05-15
 date_published: ~2026-02-15
+topics:
+  - ai-research-and-models
 ---
 
 Original mastodon post by @knowmadd@mastodon.world, submitted to HN by novemp. 1,516 points, 949 comments.

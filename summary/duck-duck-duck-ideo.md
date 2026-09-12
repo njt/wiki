@@ -4,6 +4,8 @@ title: "Duck, Duck, Duck!"
 author: IDEO LLC
 date_fetched: 2026-05-15
 date_published: 2026
+topics:
+  - ideas-and-culture
 ---
 
 # Duck, Duck, Duck! by IDEO

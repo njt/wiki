@@ -4,6 +4,8 @@ title: "local-review"
 author: Malthe Rosenbjerg
 date_fetched: 2026-07-11
 date_published: 2026-06
+topics:
+  - developer-tools
 ---
 
 `local-review` is a local, single-user git review tool: review a branch's diff,

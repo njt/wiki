@@ -4,6 +4,8 @@ title: "Automating Myself Out of Development"
 author: Nune Isabekyan
 date_fetched: 2026-06-15
 date_published: 2026-04-28
+topics:
+  - misc
 ---
 
 # Automating Myself Out of Development

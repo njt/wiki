@@ -3,6 +3,8 @@ title: "We Built a Scalable Agent Sandbox"
 url: https://newsletter.cloudsquid.io/p/we-built-a-scalable-agent-sandbox
 author: CloudSquid
 date_fetched: 2026-08-25
+topics:
+  - security-and-sandboxing
 ---
 
 # We Built a Scalable Agent Sandbox

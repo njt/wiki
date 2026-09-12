@@ -4,6 +4,8 @@ title: "Magnitude"
 author: magnitudedev
 date_fetched: 2026-08-21
 date_published: unknown
+topics:
+  - agent-architecture
 ---
 
 # Magnitude — précis

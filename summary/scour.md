@@ -3,6 +3,8 @@ url: https://scour.ing/
 title: "Scour"
 author: Evan Schwartz
 date_fetched: 2026-08-01
+topics:
+  - developer-tools
 ---
 
 Scour is a personalized content feed built by solo developer Evan Schwartz. It

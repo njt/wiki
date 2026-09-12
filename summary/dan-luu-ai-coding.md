@@ -4,6 +4,8 @@ title: "Agentic test processes, LLM benchmarks, and other notes on agentic codin
 author: Dan Luu
 date_fetched: 2026-07-29
 date_published: 2026-07
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 Dan Luu reflects on how the testing practices from his decade at Centaur (a hardware company) apply to modern AI-assisted software development, and reports benchmark results on LLM coding performance including "caveman mode" and model comparisons.

@@ -4,6 +4,8 @@ title: Extend UI — Open Source UI Kit for Modern Document Apps
 author: Extend AI
 date_fetched: 2026-06-11
 date_published: unknown
+topics:
+  - developer-tools
 ---
 
 # Extend UI

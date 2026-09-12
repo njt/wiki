@@ -4,6 +4,8 @@ title: "Unnecessary Optimization in Rust: Hamming Distances, SIMD, and Auto-Vect
 author: Evan Schwartz
 date_fetched: 2026-08-01
 date_published: 2024-12-22
+topics:
+  - software-engineering-craft
 ---
 
 Evan Schwartz got "nerd sniped" into benchmarking Hamming distance

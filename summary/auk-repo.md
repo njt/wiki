@@ -4,6 +4,8 @@ title: AuK — An Open-Source Foundational Model for Speech Generation and Editi
 author: Tencent Hunyuan (Ziyang Ma, Zhikang Niu, Wenming Tu, et al.)
 date_fetched: 2026-09-11
 date_published: 2026-09-09
+topics:
+  - ai-research-and-models
 ---
 
 ## Source Content

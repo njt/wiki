@@ -4,6 +4,8 @@ title: "Slate: moving beyond ReAct and RLM"
 author: Random Labs
 date_fetched: 2026-05-14
 date_published: unknown (estimated mid-2025 based on references to "early 2025" as past)
+topics:
+  - agent-architecture
 ---
 
 # Slate: moving beyond ReAct and RLM

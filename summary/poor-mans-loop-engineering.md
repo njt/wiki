@@ -4,6 +4,8 @@ title: Poor Man's Loop Engineering
 author: Unknown
 date_fetched: 2026-08-21
 date_published: undated
+topics:
+  - agent-coding-workflow
 ---
 
 # Poor Man's Loop Engineering

@@ -4,6 +4,8 @@ title: AgentMail
 author: OpenAlternative
 date_fetched: 2026-07-05
 date_published: unknown
+topics:
+  - agent-architecture
 ---
 
 # AgentMail

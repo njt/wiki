@@ -4,6 +4,8 @@ title: "Security Skills for CLI Agents"
 author: instavm
 date_fetched: 2026-07-18
 date_published: 2025
+topics:
+  - security-and-sandboxing
 ---
 
 A collection of 16 specialized security testing skills for AI coding agents (Claude Code, Gemini CLI, or any agent supporting MCP/Skills). Each skill is a self-contained markdown file — no code, pure prompt engineering — distilled from analysis of over 4,000 paid HackerOne bug bounty reports.

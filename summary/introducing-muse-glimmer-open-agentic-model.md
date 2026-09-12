@@ -5,6 +5,8 @@ author: Meta Superintelligence Labs
 date_fetched: 2026-08-14
 published: 2026-08 (undated in article)
 tags: [model, agentic, local, open-weights, distillation]
+topics:
+  - ai-research-and-models
 ---
 
 Meta Superintelligence Labs open-sources **Muse Glimmer**, a 30-billion-parameter agentic model optimized for always-on local agent workflows, under a permissive Apache 2.0 license. It runs on a Mac or PC with a single consumer GPU and targets local agents, function calling, local coding, and LLM-as-a-judge evaluation.

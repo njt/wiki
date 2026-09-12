@@ -3,6 +3,8 @@ title: "hackaprompt dataset"
 url: https://huggingface.co/datasets/hackaprompt/hackaprompt-dataset
 date_fetched: 2026-05-14
 section: "LLMs"
+topics:
+  - security-and-sandboxing
 ---
 
 # HackAPrompt Dataset

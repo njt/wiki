@@ -3,6 +3,8 @@ title: "Building Production-Ready Voice Agents"
 url: https://shekhargulati.com/2026/01/03/building-production-ready-voice-agents/
 date_fetched: 2026-05-14
 section: "Producing and Operating Software"
+topics:
+  - agent-architecture
 ---
 
 Shekhar Gulati documents building a production voice agent platform for IT support at higher education institutions. Three developers, handling password resets, FAQ responses, and call routing.

@@ -5,6 +5,8 @@ author: Microsoft
 site: github.com/microsoft/aspire
 date_fetched: 2026-08-26
 date_published: 2024-05-21
+topics:
+  - developer-tools
 ---
 
 # Aspire

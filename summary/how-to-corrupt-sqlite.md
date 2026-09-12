@@ -4,6 +4,8 @@ title: "How To Corrupt An SQLite Database File"
 author: The SQLite Team (D. Richard Hipp et al.)
 date_fetched: 2026-07-18
 date_published: 2026-04-13
+topics:
+  - databases-and-data
 ---
 
 SQLite is highly resistant to corruption — it automatically rolls back

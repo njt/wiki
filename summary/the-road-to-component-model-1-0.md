@@ -4,6 +4,8 @@ title: "The Road to Component Model 1.0"
 author: Eric Gregory
 date_fetched: 2026-06-11
 date_published: 2026-06-08
+topics:
+  - developer-tools
 ---
 
 # The Road to Component Model 1.0

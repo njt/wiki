@@ -4,6 +4,8 @@ title: "Analytical AI — What It Is and Why It Matters"
 author: Sutro
 date_fetched: 2026-09-04
 site: handbook.sutro.sh
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 Sutro's handbook introduces **Analytical AI** as a distinct usage pattern that emerged alongside the 2022 "ChatGPT moment" but got less attention: data, research, ops, and product teams using foundation models to process unstructured data and make scaled operational decisions. The one-sentence definition: **if the AI's job is to decide something rather than create something, it's analytical AI.**

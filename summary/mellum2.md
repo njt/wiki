@@ -6,6 +6,8 @@ date_fetched: 2026-06-04
 date_published: 2026-06-01
 primary_source: https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/
 primary_authors: Anton Semenkin, Nikita Pavlichenko (JetBrains)
+topics:
+  - ai-research-and-models
 ---
 
 # Mellum2 Goes Open Source: A Fast Model for AI Workflows

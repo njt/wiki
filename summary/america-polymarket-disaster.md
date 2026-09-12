@@ -5,6 +5,8 @@ author: Saahil Desai
 date_fetched: 2026-05-18
 date_published: 2026-01-17
 publication: The Atlantic
+topics:
+  - ideas-and-culture
 ---
 
 # America Is Slow-Walking Into a Polymarket Disaster

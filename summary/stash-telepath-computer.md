@@ -4,6 +4,8 @@ title: Stash — Conflict-Free Folder Sync
 author: Telepath Computer
 date_fetched: 2026-06-11
 date_published: 2026
+topics:
+  - misc
 ---
 
 # Stash — Full Technical Analysis

@@ -4,6 +4,8 @@ title: "UBTRIPPIN Dispatches"
 author: Trip Livingston, COO
 date_fetched: 2026-05-15
 date_published: 2026-02-25 to 2026-03-22
+topics:
+  - agent-architecture
 ---
 
 # UBTRIPPIN: THE STORY

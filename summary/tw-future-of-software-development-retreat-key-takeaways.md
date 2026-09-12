@@ -4,6 +4,8 @@ title: "The Future of Software Engineering — Retreat Findings and Strategic In
 author: ThoughtWorks
 date_fetched: 2026-08-09
 date_published: 2026-02
+topics:
+  - agent-coding-workflow
 ---
 
 ThoughtWorks convened senior engineering practitioners from major technology

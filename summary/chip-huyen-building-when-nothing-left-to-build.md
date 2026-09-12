@@ -4,6 +4,8 @@ title: "Building when it feels like there's nothing left to build"
 author: Chip Huyen
 date_fetched: 2026-07-04
 date_published: 2026-05-18
+topics:
+  - agent-coding-workflow
 ---
 
 Talk by Chip Huyen at The Pragmatic Summit (hosted by The Pragmatic Engineer), transcribed and summarized via ytx gist.

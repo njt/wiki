@@ -5,6 +5,8 @@ title: "Claude Code is a Beast – Tips from 6 Months of Hardcore Use"
 author: u/JokeGold5455 (Diet-Coder on dev.to)
 date_fetched: 2026-05-15
 date_published: 2025-10-29
+topics:
+  - agent-coding-workflow
 ---
 
 Original Reddit post (r/ClaudeCode, Oct 29 2025) by a SWE with ~7 years experience. Six months of using Claude Code (Max 20x plan, $200/mo) to single-handedly refactor a ~100k LOC internal web app into ~300-400k LOC, migrating from React 16 JS → React 19 TypeScript, Material UI v4 → MUI v7, etc.

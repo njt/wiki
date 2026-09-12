@@ -4,6 +4,8 @@ title: Hitomi — Lightweight Streaming Data Viewer and Analyzer
 author: Verticalysis
 date_fetched: 2026-06-12
 date_published: unknown
+topics:
+  - misc
 ---
 
 # Hitomi — Deep Architecture Analysis

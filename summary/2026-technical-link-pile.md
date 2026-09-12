@@ -1,3 +1,7 @@
+---
+topics:
+  - misc
+---
 # Nat’s 2026 Technical Link Pile
 
 Author: Nat Torkington <<nathan@torkington.com>>

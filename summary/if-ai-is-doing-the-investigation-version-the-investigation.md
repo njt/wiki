@@ -4,6 +4,8 @@ title: "If AI Is Doing the Investigation, Version the Investigation"
 author: Mark Fletcher
 date_published: 2026-02-26
 date_fetched: 2026-05-14
+topics:
+  - agent-coding-workflow
 ---
 
 # If AI Is Doing the Investigation, Version the Investigation

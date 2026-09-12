@@ -7,6 +7,8 @@ date_published: 2026-05-28
 source_type: academic-paper
 venue: "MIT Sloan Research Paper (forthcoming), also NBER Working Paper No. w35275"
 pages: 96
+topics:
+  - agent-coding-workflow
 ---
 
 ## Abstract

@@ -5,6 +5,8 @@ date: 2025-08-24
 url: https://www.seangoedecke.com/good-api-design/
 fetched: 2026-05-14
 tags: [api-design, software-engineering]
+topics:
+  - software-engineering-craft
 ---
 
 # Everything I Know About Good API Design

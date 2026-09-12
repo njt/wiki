@@ -5,6 +5,8 @@ author: erahim3 (ARahim3)
 date_fetched: 2026-08-21
 published: 2026 (repo; v0.14.0)
 tags: [tool, inference, speculative-decoding, mlx, apple-silicon]
+topics:
+  - local-and-open-source-inference
 ---
 
 **mlx-dspark** is a speculative-decoding inference library for Apple Silicon built on MLX (`mlx-lm` / `mlx-vlm`). It runs the DSpark and DFlash drafter families — semi-autoregressive and block-diffusion drafters trained for target models like Bonsai 27B and Muse-Glimmer — plus a drafter-free n-gram "lookup" mode, and wraps them in a hardware-aware auto-calibration layer that tunes the draft length to whatever Mac it's running on.

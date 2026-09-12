@@ -4,6 +4,8 @@ title: "Vertical Slice Architecture"
 author: JasperFx Software (Wolverine)
 date_fetched: 2026-08-26
 site: wolverinefx.io
+topics:
+  - software-engineering-craft
 ---
 
 # Vertical Slice Architecture

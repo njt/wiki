@@ -4,6 +4,8 @@ title: Proving It Works
 author: Prime Radiant, Inc. (Jesse Vincent)
 date_fetched: 2026-08-14
 date_published: 2026-08-12
+topics:
+  - developer-tools
 ---
 
 # Proving It Works

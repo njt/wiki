@@ -4,6 +4,8 @@ title: "Session revocations at scale"
 author: Llew Vallis
 date_fetched: 2026-08-01
 date_published: 2026-07-22
+topics:
+  - software-engineering-craft
 ---
 
 Canva manages sessions for hundreds of millions of users, with every backend request requiring user identity — answered hundreds of thousands of times per second. They use encrypted browser cookies containing identity, permissions, and roles so gateways can trust cookie details without a networked datastore lookup per request. When users are logged out or permissions change, revocations must propagate near real time.

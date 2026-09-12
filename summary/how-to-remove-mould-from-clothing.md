@@ -4,6 +4,8 @@ title: How to Remove Mould from Clothing and Stop It Growing in Wardrobes and Dr
 author: Kellie Scott (for ABC)
 date_fetched: 2026-05-15
 date_published: 2026-03-17
+topics:
+  - ideas-and-culture
 ---
 
 # How to Remove Mould from Clothing and Stop It Growing in Wardrobes and Drawers

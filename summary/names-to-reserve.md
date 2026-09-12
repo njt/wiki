@@ -5,6 +5,8 @@ author: Geoffrey Thomas (geofft)
 date_fetched: 2026-05-14
 date_published: 2015-11-26
 license: CC-BY-SA
+topics:
+  - security-and-sandboxing
 ---
 
 # Hostnames and Usernames to Reserve

@@ -1,3 +1,7 @@
+---
+topics:
+  - developer-tools
+---
 # OpenWiki — Summary
 
 OpenWiki is LangChain's CLI tool (npm `openwiki`, v0.2.0, MIT) that generates and maintains codebase documentation wikis using DeepAgents. It runs an LLM-powered agent with filesystem tools, git access, and built-in connectors (GitHub repos, Gmail, Notion, Slack, X/Twitter, Web Search, Hacker News) to read source evidence and produce structured wiki output in Google's Open Knowledge Format (OKF) v0.1.

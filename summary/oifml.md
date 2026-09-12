@@ -5,6 +5,8 @@ author: Jay Kreps
 site: LinkedIn Engineering Blog
 date_published: 2013-12-16
 date_fetched: 2026-08-06
+topics:
+  - databases-and-data
 ---
 
 Jay Kreps, then Principal Staff Engineer at LinkedIn and later co-founder/CEO of Confluent, argues that the append-only log is the single most underappreciated abstraction in software engineering. Drawing on his experience building LinkedIn's distributed data infrastructure — including Kafka — he traces the log from its database origins through distributed systems to data integration and stream processing, making the case that the log is the natural data structure for handling data flow between systems.

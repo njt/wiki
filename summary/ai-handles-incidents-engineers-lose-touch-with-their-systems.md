@@ -4,6 +4,8 @@ title: AI handles incidents, engineers lose touch with their systems
 author: Sylvain Kalache
 date_fetched: 2026-09-08
 date_published: undated
+topics:
+  - software-engineering-craft
 ---
 
 Sylvain Kalache — AI Labs lead and DevRel at Rootly, formerly an SRE at LinkedIn and co-founder of Holberton School — argues that AI-assisted incident response ("AI SREs") is quietly robbing engineers of the one thing that makes them good at incidents: practice. The better these tools get at auto-resolving routine incidents, the less experience human responders accumulate, so that when a genuinely novel, high-severity incident arrives — the kind automation cannot solve — engineers take over with less intuition than the previous generation had.

@@ -4,6 +4,8 @@ title: "Stockyard Design Session (gist)"
 author: Jesse Vincent (obra)
 date_fetched: 2026-05-15
 date_published: 2026-01-16
+topics:
+  - security-and-sandboxing
 ---
 
 Full transcript of a design session between Jesse Vincent and Claude Code (v2.0.76) for a new project called stockyard. Fresh repo, true greenfield, no commits yet. Working directory: /home/jesse/git/stockyard on a machine called flower-garden with Docker pre-installed.

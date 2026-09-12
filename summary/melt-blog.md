@@ -4,6 +4,8 @@ title: "MELT: Testing Long-Lived Memory for Agentic AI"
 author: Leonard Lin
 date_fetched: 2026-07-18
 date_published: 2026-07-13
+topics:
+  - agent-memory-and-context
 ---
 
 # MELT Blog Post — Summary

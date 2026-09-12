@@ -4,6 +4,8 @@ url: https://1lib.sk/
 date_fetched: 2026-05-14
 fetch_attempts: "Original (ECONNREFUSED), web.archive.org (stuck on Cloudflare browser check), archive.is (blocked by WebFetch)"
 section: "Random"
+topics:
+  - ideas-and-culture
 ---
 
 # 1lib

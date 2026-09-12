@@ -4,6 +4,8 @@ title: "The Founder's Playbook: Building an AI-Native Startup"
 author: Anthropic
 date_fetched: 2026-08-09
 date_published: 2026-05-06
+topics:
+  - agent-coding-workflow
 ---
 
 A practical guide from Anthropic for founders building startups where AI is

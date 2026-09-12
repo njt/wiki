@@ -4,6 +4,8 @@ title: "Ways of Checking"
 author: Rincón, D., with Claude
 date_fetched: 2026-07-25
 date_published: 2026
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 A catalogue of ten ways automated checks fail silently, drawn from a single audit day on the author's own site. Every defect sat behind a check that had already passed.

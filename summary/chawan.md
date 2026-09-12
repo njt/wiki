@@ -3,6 +3,8 @@ url: https://chawan.net/
 title: "Chawan — TUI Web Browser"
 author: bptato
 date_fetched: 2026-07-25
+topics:
+  - developer-tools
 ---
 
 Chawan is a text-mode web browser and pager for Unix-like systems, written from

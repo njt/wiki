@@ -4,6 +4,8 @@ title: "waveloop: what fable left me"
 author: neynt
 date_fetched: 2026-07-03
 date_published: 2026-06
+topics:
+  - misc
 ---
 
 # waveloop: what fable left me

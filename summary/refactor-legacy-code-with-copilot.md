@@ -7,6 +7,8 @@ fetched: 2026-05-14
 tags: [refactoring, productivity, GitHub Copilot, .NET, Python, TypeScript, JavaScript, best practices]
 level: Intermediate
 read_time: 2 minutes
+topics:
+  - agent-coding-workflow
 ---
 
 # Refactor Legacy Code Faster with GitHub Copilot

@@ -4,6 +4,8 @@ title: "Why Open Source Matters for AI"
 author: Tim O'Reilly
 date_fetched: 2026-08-14
 date_published: 2026-08
+topics:
+  - ai-research-and-models
 ---
 
 Tim O'Reilly argues that the debate over open-source AI is misframed: it has fixed on model weights, licenses, and national security, when those are only "table stakes." The thing that actually made open source matter historically — and will again — is architecture, not licensing.

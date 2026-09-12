@@ -4,6 +4,9 @@ title: morningprint
 author: Matt Horn
 date_fetched: 2026-08-06
 published: 2026
+topics:
+  - guardrails-and-feedback-loops
+  - agent-architecture
 ---
 
 # morningprint — Summary

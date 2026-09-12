@@ -4,6 +4,8 @@ title: "TimesFM: A Decoder-Only Foundation Model for Time-Series Forecasting"
 author: "Rajat Sen, Yichen Zhou, Abhimanyu Das, Petros Mol, Michael Chertushkin (Google Research)"
 date_fetched: 2026-07-03
 date_published: 2023-10 (arXiv), 2024 (ICML)
+topics:
+  - misc
 ---
 
 # Full Analysis

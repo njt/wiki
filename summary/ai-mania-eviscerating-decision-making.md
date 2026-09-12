@@ -4,6 +4,8 @@ title: "AI Mania Is Eviscerating Global Decision-Making"
 author: Ludicity
 date_fetched: 2026-07-21
 date_published: 2026-07-18
+topics:
+  - ideas-and-culture
 ---
 
 Ludicity (a pseudonymous consultant) argues that AI hype has captured large

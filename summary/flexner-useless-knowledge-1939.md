@@ -4,6 +4,8 @@ title: "The Usefulness of Useless Knowledge"
 author: Abraham Flexner
 date_fetched: 2026-07-29
 date_published: 1939-06
+topics:
+  - ideas-and-culture
 ---
 
 Flexner argues that the most transformative practical advances in science and technology have come not from goal-directed invention but from curiosity-driven "useless" research. His central claim: institutions of learning should cultivate curiosity without regard to immediate application, because history shows that undirected inquiry consistently produces undreamed-of utility.

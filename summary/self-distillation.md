@@ -3,6 +3,8 @@ title: "Self-Distillation"
 url: https://arxiv.org/abs/2604.01193
 date_fetched: 2026-05-14
 section: "LLMs"
+topics:
+  - ai-research-and-models
 ---
 
 # Simple Self-Distillation for Code Generation

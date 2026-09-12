@@ -6,6 +6,8 @@ date_fetched: 2026-09-04
 date_published: undated
 site: threedots.tech
 category: Essay
+topics:
+  - software-engineering-craft
 ---
 
 # Domain-Driven Design matters more when AI writes your code

@@ -3,6 +3,8 @@ title: "Theories of Deep Learning"
 url: https://astledsa.substack.com/p/theories-of-deep-learning
 date_fetched: 2026-07-18
 section: "AI Research & Models"
+topics:
+  - ai-research-and-models
 ---
 
 # Theories of Deep Learning — astle dsa (Theoretical Limits)

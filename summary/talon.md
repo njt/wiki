@@ -4,6 +4,8 @@ url: https://talonvoice.com/
 author: Ryan Hileman (lunixbochs)
 date_fetched: 2026-05-31
 section: "Local & Personal Computing"
+topics:
+  - misc
 ---
 
 # Talon: Hands-Free Computer Control

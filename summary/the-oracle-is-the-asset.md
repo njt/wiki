@@ -4,6 +4,8 @@ title: The Oracle Is the Asset
 author: Sam Ruby
 date_fetched: 2026-06-15
 date_published: 2026-06-12
+topics:
+  - databases-and-data
 ---
 
 # The Oracle Is the Asset

@@ -4,6 +4,8 @@ title: "Subspace Beta"
 author: Spacedock
 date_fetched: 2026-07-25
 date_published: 2025
+topics:
+  - developer-tools
 ---
 
 Subspace is a bridge between AI coding agents and human reviewers. An agent hands off a markdown file; Subspace opens it in a native terminal TUI, lets a human annotate it, and returns structured, validated JSON feedback the agent can consume immediately.

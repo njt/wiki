@@ -4,6 +4,8 @@ title: "Introducing DeltaDB"
 author: Nathan Sobo
 date_fetched: 2026-06-12
 date_published: 2026-06-11
+topics:
+  - developer-tools
 ---
 
 # Software Is Made Between Commits — Full Article Summary

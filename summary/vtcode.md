@@ -3,6 +3,8 @@ title: "VTcode"
 url: https://github.com/vinhnx/VTCode
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - security-and-sandboxing
 ---
 
 # VT Code: Open-Source Coding Agent

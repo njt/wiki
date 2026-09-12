@@ -4,6 +4,8 @@ title: "matrix³ — An experimental content policy manager for Chrome MV3"
 author: Tavis Ormandy (taviso)
 date_fetched: 2026-05-18
 date_published: unknown
+topics:
+  - security-and-sandboxing
 ---
 
 # matrix³

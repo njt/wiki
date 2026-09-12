@@ -4,6 +4,8 @@ title: Thought Refiner Skill
 author: Adam J. Davidson (@adamjdavidson)
 date_fetched: 2026-06-04
 date_published: unknown
+topics:
+  - agent-architecture
 ---
 
 # Thought Refiner Skill

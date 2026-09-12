@@ -4,6 +4,8 @@ title: "Engineering Atlas — The Ten Properties of Software Quality"
 author: Unknown (site is unsigned)
 date_fetched: 2026-08-21
 date_published: unknown
+topics:
+  - software-engineering-craft
 ---
 
 The Engineering Atlas guide opens with a reframe: stop asking whether a system

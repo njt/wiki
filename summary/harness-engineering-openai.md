@@ -4,6 +4,8 @@ title: "Harness Engineering: Leveraging Codex in an Agent-First World"
 author: Ryan Lopopolo, Member of the Technical Staff, OpenAI
 date_fetched: 2026-05-18
 date_published: 2026-02-11
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 # Harness Engineering: Leveraging Codex in an Agent-First World

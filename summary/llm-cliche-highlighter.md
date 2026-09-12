@@ -3,6 +3,8 @@ url: https://tools.simonwillison.net/llm-cliche-highlighter
 title: "LLM Cliché Highlighter"
 author: Simon Willison
 date_fetched: 2026-07-21
+topics:
+  - developer-tools
 ---
 
 A browser-based tool that scans text for phrases commonly overused by large language models. Paste text or load from a URL; sentences matching known LLM clichés are highlighted inline. Hovering over a highlight reveals which specific cliché triggered the match.

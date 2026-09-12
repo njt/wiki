@@ -3,6 +3,8 @@ title: "Zheng Dong Wang's 2025 Letter"
 url: https://zhengdongwang.com/2025/12/30/2025-letter.html
 date_fetched: 2026-05-14
 section: "LLMs"
+topics:
+  - ai-research-and-models
 ---
 
 # 2025 Letter by Zhengdong Wang

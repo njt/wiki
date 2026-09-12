@@ -4,6 +4,8 @@ url: https://www.stephendiehl.com/posts/field_guide_to_bugs/
 author: Stephen Diehl
 date_published: 2026-04-19
 date_fetched: 2026-05-22
+topics:
+  - software-engineering-craft
 ---
 
 # A Field Guide to Bugs

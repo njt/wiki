@@ -3,6 +3,8 @@ title: "Mist"
 url: https://mist.inanimate.tech/
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - developer-tools
 ---
 
 # Mist: Collaborative Markdown Editor

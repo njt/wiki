@@ -3,6 +3,8 @@ title: "Windows in Docker"
 url: https://blog.fsck.com/releases/2026/03/11/windows-in-docker/
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - developer-tools
 ---
 
 # Headless Windows 11 in Docker Over SSH

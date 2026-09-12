@@ -4,6 +4,8 @@ title: "The Mario Meeting"
 author: Rands (Michael Lopp)
 date_fetched: 2026-07-18
 date_published: 2026-07-06
+topics:
+  - ideas-and-culture
 ---
 
 Rands uses a recurring peer — "Mario," a Senior Director — to illustrate how senior

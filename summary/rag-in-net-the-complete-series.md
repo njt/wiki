@@ -4,6 +4,8 @@ title: "RAG in .NET: The Complete Series"
 author: Jamie Maguire
 date: 2026-08-01
 ingested: 2026-08-07
+topics:
+  - agent-architecture
 ---
 
 # RAG in .NET: The Complete Series — Summary

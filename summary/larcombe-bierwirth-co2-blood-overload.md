@@ -4,6 +4,8 @@ title: "Carbon dioxide overload, detected in human blood, suggests a potentially
 author: Alexander N. Larcombe, Phil N. Bierwirth
 date_fetched: 2026-07-18
 date_published: 2026-02-26
+topics:
+  - ideas-and-culture
 ---
 
 Larcombe and Bierwirth (2026) analyse two decades of NHANES blood-chemistry data from the U.S. population and find a steady, population-level rise in serum bicarbonate (HCO₃⁻) that closely tracks the rise in atmospheric CO₂. Over the same period (1999–2020), serum calcium and phosphorus both declined.

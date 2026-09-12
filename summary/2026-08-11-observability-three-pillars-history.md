@@ -5,6 +5,8 @@ author: Greptime
 site: Greptime
 date_fetched: 2026-08-21
 date_published: 2026-08-11
+topics:
+  - databases-and-data
 ---
 
 A history of the "three pillars" of observability — metrics, logs, traces — arguing they were never a designed framework but three signals that evolved independently and were grouped together only later. Greptime's central claim: unified storage (all three signals in one columnar store, queryable together, at production scale) is now a solved, even commoditized problem, so the interesting question has moved down a layer — to whether agents, as first-class consumers of observability data, force the database itself to change.

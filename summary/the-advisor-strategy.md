@@ -4,6 +4,8 @@ title: "The Advisor Strategy: Give Sonnet an Intelligence Boost with Opus"
 author: Anthropic
 date_fetched: 2026-06-09
 date_published: 2026-04-09
+topics:
+  - agent-coding-workflow
 ---
 
 # The Advisor Strategy: Give Sonnet an Intelligence Boost with Opus

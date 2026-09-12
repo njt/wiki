@@ -3,6 +3,8 @@ title: "RedGridLink"
 url: https://github.com/RedGridTactical/RedGridLink
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - misc
 ---
 
 # RedGridLink: Offline Team Navigation

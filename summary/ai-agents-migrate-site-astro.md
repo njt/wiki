@@ -3,6 +3,8 @@ url: https://codewithandrea.com/articles/ai-agents-migrate-site-astro/
 title: "AI Agents Migrate a Site to Astro"
 author: Andrea Bizzotto
 date_fetched: 2026-08-14
+topics:
+  - agent-architecture
 ---
 
 A case study of using AI coding agents to migrate Code With Andrea — a 400+ page

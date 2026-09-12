@@ -4,6 +4,8 @@ title: zeromem — Zero-token memory operations for LLM agents
 author: Panat Taranat
 date_fetched: 2026-08-06
 source: https://arxiv.org/abs/2607.29377 (Zero-Mem paper by Xiao et al.)
+topics:
+  - agent-memory-and-context
 ---
 
 # zeromem (summary)

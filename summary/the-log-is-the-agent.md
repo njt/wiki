@@ -4,6 +4,8 @@ title: "The Log is the Agent: Event-Sourced Reactive Graphs for Auditable, Forka
 author: Yohei Nakajima
 date_fetched: 2026-07-05
 date_published: 2026-05-21
+topics:
+  - agent-architecture
 ---
 
 # The Log is the Agent: Event-Sourced Reactive Graphs for Auditable, Forkable Agentic Systems

@@ -4,6 +4,8 @@ title: "The Reasoning Trap: How Enhancing LLM Reasoning Amplifies Tool Hallucina
 author: "Chenlong Yin, Zeyang Sha, Shiwen Cui, Changhua Meng, Zechao Li"
 date_fetched: 2026-07-05
 date_published: 2026-04-17
+topics:
+  - ai-research-and-models
 ---
 
 # The Reasoning Trap: How Enhancing LLM Reasoning Amplifies Tool Hallucination

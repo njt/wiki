@@ -4,6 +4,8 @@ title: thrifty — A Tiered-Delegation Execution System for Claude Code
 author: 2389 Research Inc
 date_fetched: 2026-07-03
 date_published: 2026
+topics:
+  - agent-architecture
 ---
 
 # thrifty — Agent Systems Plugin for Claude Code

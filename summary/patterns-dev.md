@@ -4,6 +4,8 @@ title: Patterns.dev — Modern Design, Rendering, and Performance Patterns for W
 author: Lydia Hallie, Addy Osmani
 date_fetched: 2026-05-14
 date_published: unknown
+topics:
+  - software-engineering-craft
 ---
 
 # Patterns.dev

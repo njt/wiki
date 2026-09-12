@@ -5,6 +5,8 @@ date: 2025-08-22
 url: https://blog.appliedcomputing.io/p/make-the-easy-change-hard
 publication: Applied Computing Research Labs (Substack)
 fetched: 2026-05-14
+topics:
+  - software-engineering-craft
 ---
 
 # Make the easy change hard

@@ -5,6 +5,8 @@ author: Ramon Marc
 date_fetched: 2026-05-15
 date_published: 2026-01-25
 publication: Mold&Yeast (Substack)
+topics:
+  - agent-architecture
 ---
 
 # Intent Is the Interface

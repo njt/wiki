@@ -4,6 +4,8 @@ title: "The New Rules of Context Engineering for Claude 5 Generation Models"
 author: Thariq Shihipar
 date_fetched: 2026-07-29
 date_published: 2026-07-24
+topics:
+  - agent-memory-and-context
 ---
 
 Thariq Shihipar (Anthropic) argues that prompting is only one part of what Claude sees — the rest comes from system prompts, Skills, CLAUDE.md files, memory, and other sources collectively called "context engineering." The article draws lessons from Anthropic's work simplifying Claude Code's own context for Claude 5 generation models, where they removed over 80% of the system prompt with no measurable loss on coding evaluations.

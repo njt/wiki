@@ -4,6 +4,8 @@ title: "HN Discussion: RIP Low-Code 2014-2025"
 author: Zack Liscio (original article), 157+ HN commenters
 date_fetched: 2026-05-15
 date_published: 2025-05-10
+topics:
+  - agent-coding-workflow
 ---
 
 Original article: https://www.zackliscio.com/posts/rip-low-code-2014-2025/

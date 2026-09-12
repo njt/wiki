@@ -3,6 +3,8 @@ title: "2025 in LLMs"
 url: https://simonwillison.net/2025/Dec/31/the-year-in-llms/
 date_fetched: 2026-05-14
 section: "LLMs"
+topics:
+  - ai-research-and-models
 ---
 
 # 2025: The Year in LLMs - Simon Willison

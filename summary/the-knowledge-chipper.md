@@ -3,6 +3,9 @@ url: https://jg.gg/2026/08/04/the-knowledge-chipper/
 title: The Knowledge Chipper
 author: jg (jg.gg)
 date: 2026-08-04
+topics:
+  - agent-memory-and-context
+  - agent-coding-workflow
 ---
 
 A practitioner's lament about the enormous waste in AI-assisted development: agents build up rich mental models of codebases across thousands of tokens of context-gathering, then nearly all that knowledge vanishes when the session ends. What remains is a commit message and whatever code comments the LLM deemed fit.

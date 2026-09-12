@@ -3,6 +3,9 @@ title: "How to Write a Good Spec for Agents"
 url: https://addyosmani.com/blog/good-spec/
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-coding-workflow
+  - specifications-as-the-product
 ---
 
 # How to Write a Good Spec for AI Agents - Addy Osmani

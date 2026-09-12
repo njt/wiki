@@ -5,6 +5,8 @@ author: njt (notes), Ben Burtenshaw (speaker, Hugging Face)
 date_fetched: 2026-06-04
 date_published: 2026-06-04
 source: AI Engineer Conference talk, transcribed by njt
+topics:
+  - agent-architecture
 ---
 
 # Your Coding Agent Should Do AI System Engineering

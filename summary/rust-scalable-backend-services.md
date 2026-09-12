@@ -4,6 +4,8 @@ title: "Building scalable backend services with Rust and PostgreSQL"
 author: Sylvain Kerkour
 date_fetched: 2026-08-14
 date_published: 2026-08-12
+topics:
+  - software-engineering-craft
 ---
 
 Sylvain Kerkour distills the patterns he uses to build medium-sized backend

@@ -3,6 +3,8 @@ title: "Addy Osmani's Workflow"
 url: https://addyosmani.com/blog/ai-coding-workflow/
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-coding-workflow
 ---
 
 # My LLM Coding Workflow Going Into 2026 - Addy Osmani

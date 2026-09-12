@@ -4,6 +4,9 @@ title: "Constraint Decay: The Fragility of LLM Agents in Backend Code Generation
 author: Francesco Dente (EURECOM), Dario Satriani (University of Basilicata), Paolo Papotti (EURECOM)
 date_fetched: 2026-07-05
 date_published: 2026-05-07
+topics:
+  - databases-and-data
+  - ai-research-and-models
 ---
 
 Full paper content fetched from arXiv. Original URL: https://arxiv.org/html/2605.06445v1

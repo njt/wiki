@@ -4,6 +4,8 @@ title: "Build a Secure C# MCP App with Cross App Access (XAA)"
 author: Aasawari Sahasrabuddhe
 date_fetched: 2026-07-18
 date_published: 2026-07-16
+topics:
+  - agent-architecture
 ---
 
 An Okta Developer Blog tutorial walking through Cross App Access (XAA), an

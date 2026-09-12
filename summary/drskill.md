@@ -4,6 +4,8 @@ title: "drskill"
 author: dbreunig (David Breunig)
 date_fetched: 2026-07-25
 date_published: 2026-07-25
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 `drskill` is a Python CLI that acts as `brew doctor` for AI coding agent skill

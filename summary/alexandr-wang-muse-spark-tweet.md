@@ -4,6 +4,8 @@ url: https://x.com/alexandr_wang/status/2041909376508985381
 author: Alexandr Wang (@alexandr_wang)
 date_fetched: 2026-05-18
 date_published: 2026-04-08
+topics:
+  - ai-research-and-models
 ---
 
 # Alexandr Wang Announces Meta Muse Spark

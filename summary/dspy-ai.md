@@ -3,6 +3,9 @@ url: https://dspy.ai/
 title: DSPy — Program, don't prompt, your LLMs
 author: Stanford NLP / DSPy team
 date_fetched: 2026-08-08
+topics:
+  - specifications-as-the-product
+  - agent-architecture
 ---
 
 DSPy is a Python framework for building AI systems that replaces hand-written prompts with structured, typed signatures. The tagline — "Program, don't prompt, your LLMs" — captures the thesis: natural language prompts are a poor specification medium for probabilistic systems, and the alternative is to express tasks as typed inputs and outputs that the framework compiles into optimized prompts.

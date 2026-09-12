@@ -4,6 +4,8 @@ title: InsForge — Open-Source Backend-as-a-Service for Agentic Coding
 author: InsForge
 date_fetched: 2026-05-18
 date_published: 2026-03-06 (v2.0.0)
+topics:
+  - agent-architecture
 ---
 
 # InsForge Full Analysis

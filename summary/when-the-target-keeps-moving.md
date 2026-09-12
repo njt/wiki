@@ -3,6 +3,8 @@ title: "When the Target Keeps Moving"
 url: https://www.alistaircroll.com/updates/when-the-target-keeps-moving/
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - software-engineering-craft
 ---
 
 # When the Target Keeps Moving - Alistair Croll

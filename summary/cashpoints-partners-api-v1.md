@@ -4,6 +4,8 @@ title: Cashpoints Partners API v1
 author: Cashpoints (NZ) Limited
 date_fetched: 2026-05-18
 date_published: 2026-01-20
+topics:
+  - software-engineering-craft
 ---
 
 # Cashpoints Partners API v1

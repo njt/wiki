@@ -4,6 +4,8 @@ title: Fetching the Next Page — SQL Pagination Patterns
 author: Markus Winand
 site: Use The Index, Luke
 date_fetched: 2026-08-08
+topics:
+  - databases-and-data
 ---
 
 Markus Winand compares the two fundamental approaches to SQL pagination: the widely-used **offset method** and the more performant **seek method** (also known as keyset pagination).

@@ -14,6 +14,8 @@ tags:
   - AI-benchmarks
   - model-capability
   - ECI
+topics:
+  - misc
 ---
 
 # Open models lag state-of-the-art closed models by 4 months

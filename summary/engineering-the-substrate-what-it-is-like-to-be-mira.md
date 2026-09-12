@@ -4,6 +4,8 @@ title: "Engineering the Substrate: What It Is Like to Be Mira"
 author: Taylor (via Mira)
 date_fetched: 2026-05-14
 date_published: 2026-05-02
+topics:
+  - agent-memory-and-context
 ---
 
 # Engineering the Substrate: What It Is Like to Be Mira

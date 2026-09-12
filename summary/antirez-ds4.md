@@ -5,6 +5,8 @@ author: antirez (Salvatore Sanfilippo)
 date_fetched: 2026-05-16
 date_published: 2026-05-15
 publication: antirez.com
+topics:
+  - misc
 ---
 
 antirez reflects on the rapid popularity of DwarfStar 4 (DS4), hosted on GitHub under antirez/ds4, a single-model integration focused local AI experience.

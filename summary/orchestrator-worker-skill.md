@@ -3,6 +3,8 @@ title: "Orchestrator - Worker Skill"
 url: https://github.com/numman-ali/n-skills/blob/main/skills/workflow/orchestration/SKILL.md
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-orchestration
 ---
 
 # Orchestrator - Worker Skill

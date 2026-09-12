@@ -4,6 +4,8 @@ title: "The AI Productivity Paradox"
 author: Marty Cagan
 date_fetched: 2026-07-25
 date_published: 2026-07-23
+topics:
+  - agent-coding-workflow
 ---
 
 Marty Cagan addresses the growing recognition that AI accelerates output without delivering corresponding business outcomes — the "AI Productivity Paradox."

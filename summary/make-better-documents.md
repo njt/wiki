@@ -4,6 +4,8 @@ title: "Make better documents"
 author: Anil Dash
 date_fetched: 2026-08-01
 date_published: 2024-03-10
+topics:
+  - software-engineering-craft
 ---
 
 Anil Dash distills recurring advice he gives people about making everyday

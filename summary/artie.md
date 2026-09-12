@@ -5,6 +5,8 @@ author: Artie (artie-labs)
 date_fetched: 2026-06-11
 date_published: unknown
 tags: [cdc, data-replication, streaming, postgres, snowflake, data-warehouse]
+topics:
+  - databases-and-data
 ---
 
 ## Source Content

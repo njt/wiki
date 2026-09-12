@@ -4,6 +4,8 @@ title: Open Source AI Map
 author: CurrentAI.org
 date_fetched: 2026-07-05
 date_published: 2025
+topics:
+  - ai-research-and-models
 ---
 
 # Open Source AI Map — Architectural Analysis

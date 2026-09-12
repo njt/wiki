@@ -4,6 +4,9 @@ url: https://ghuntley.com/ralph/
 author: Geoffrey Huntley
 date_published: 2025-07-14
 date_fetched: 2026-05-15
+topics:
+  - agent-orchestration
+  - personal-agents
 ---
 
 # Ralph - Geoffrey Huntley

@@ -4,6 +4,8 @@ title: "The Lindy Effect in Software"
 author: Clément Sauvage
 date_fetched: 2026-07-08
 date_published: 2023-06-17
+topics:
+  - software-engineering-craft
 ---
 
 Clément Sauvage applies the Lindy effect — the idea that a thing's remaining life expectancy is proportional to how long it's already survived — to technology choices in software engineering.

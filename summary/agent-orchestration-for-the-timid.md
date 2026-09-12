@@ -5,6 +5,8 @@ author: Mark Ferree
 date_fetched: 2026-05-22
 date_published: 2026-01-24
 platform: Substack (markferree.substack.com)
+topics:
+  - agent-orchestration
 ---
 
 # Agent Orchestration for the Timid

@@ -4,6 +4,8 @@ title: LocalAI
 author: Ettore Di Giacinto
 date_fetched: 2026-07-04
 date_published: 2026-06-02
+topics:
+  - local-and-open-source-inference
 ---
 
 # LocalAI

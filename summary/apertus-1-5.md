@@ -4,6 +4,8 @@ title: "Apertus 1.5"
 author: ETH AI Center & EPFL AI Center
 date_fetched: 2026-07-25
 date_published: 2026-07-24
+topics:
+  - ai-research-and-models
 ---
 
 Apertus 1.5 is a continued pretraining of the Apertus 1.0 models, released

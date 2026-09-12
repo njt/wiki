@@ -4,6 +4,8 @@ title: "icebug-format"
 author: Ladybug Memory
 date_fetched: 2026-08-01
 date_published: 2025
+topics:
+  - databases-and-data
 ---
 
 A Python CLI and library that converts property graphs stored as relational tables

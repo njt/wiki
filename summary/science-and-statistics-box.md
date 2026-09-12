@@ -4,6 +4,8 @@ title: "Science and Statistics"
 author: George E. P. Box
 date_fetched: 2026-08-09
 date_published: 1976-12
+topics:
+  - ideas-and-culture
 ---
 
 Box's 1976 R.A. Fisher Memorial Lecture argues that scientific progress comes from a motivated iteration between theory and practice — not from pure theory alone, nor from undirected data collection. He uses Fisher's decade at Rothamsted Experimental Station (1919–1927) to illustrate how a scientist who stays in close contact with real problems can drive rapid theoretical advance.

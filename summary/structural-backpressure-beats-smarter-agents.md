@@ -4,6 +4,8 @@ title: Structural Backpressure Beats Smarter Agents
 author: Reuben Brooks
 date_fetched: 2026-05-22
 date_published: 2026-05-18
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 # Structural Backpressure Beats Smarter Agents

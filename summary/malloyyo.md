@@ -4,6 +4,8 @@ title: "Malloyyo"
 author: Malloy Foundation (malloydata)
 date_fetched: 2026-07-18
 date_published: 2025
+topics:
+  - agent-architecture
 ---
 
 Malloyyo is a Next.js 16 monorepo (~9.5K lines of TypeScript) that turns Malloy semantic models into MCP endpoints for AI agents, with a companion web UI and CLI for publishing models. It lets an AI query a database through a curated semantic surface — the model author defines what's queryable, and the engine enforces it.

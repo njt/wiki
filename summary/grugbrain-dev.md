@@ -4,6 +4,8 @@ title: The Grug Brained Developer
 author: grug brain developer (anonymous/pseudonymous)
 date_fetched: 2026-08-08
 date_published: unknown (circa 2022-2023)
+topics:
+  - software-engineering-craft
 ---
 
 A cult-classic essay on software development, written in a deliberately simple

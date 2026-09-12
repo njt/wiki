@@ -3,6 +3,8 @@ title: "You don't want long-lived keys"
 url: https://argemma.com/blog/long-lived-keys/
 date_fetched: 2026-05-14
 section: "Security"
+topics:
+  - security-and-sandboxing
 ---
 
 # You Don't Want Long-Lived Keys

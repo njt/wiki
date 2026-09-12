@@ -4,6 +4,8 @@ title: "My Unvarnished Guide to Solution Engineering"
 author: Max Halford
 date_fetched: 2026-07-05
 date_published: 2026-06-04
+topics:
+  - software-engineering-craft
 ---
 
 # My Unvarnished Guide to Solution Engineering

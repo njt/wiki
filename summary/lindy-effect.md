@@ -4,6 +4,8 @@ title: "The Lindy Effect"
 author: Dr. Milan Milanović
 date_fetched: 2026-07-08
 date_published: 2026-04-15
+topics:
+  - software-engineering-craft
 ---
 
 The Lindy Effect states that the longer something non-perishable has survived,

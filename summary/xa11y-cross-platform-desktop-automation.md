@@ -4,6 +4,8 @@ title: "Cross-platform desktop automation through accessibility APIs"
 author: crowecawcaw
 date_fetched: 2026-06-09
 date_published: 2026-05-30
+topics:
+  - agent-architecture
 ---
 
 # Cross-platform desktop automation through accessibility APIs

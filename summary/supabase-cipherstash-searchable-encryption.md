@@ -4,6 +4,8 @@ title: "Searchable field-level encryption on Supabase with CipherStash"
 author: bilharmer
 date_fetched: 2026-07-21
 date_published: 2026-07-09
+topics:
+  - databases-and-data
 ---
 
 Announces the CipherStash integration for Supabase — a Data Level Access

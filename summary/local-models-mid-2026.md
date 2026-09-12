@@ -10,6 +10,8 @@ tags:
   - "#AI-research"
   - "#hardware"
   - "#concept"
+topics:
+  - misc
 ---
 
 # Local models in mid-2026: the engineering that closed the gap

@@ -4,6 +4,8 @@ title: "Agent Host Protocol (AHP)"
 author: Microsoft
 date_fetched: 2026-07-25
 date_published: 2026
+topics:
+  - agent-architecture
 ---
 
 AHP is a portable, standalone server protocol that gives multiple clients a

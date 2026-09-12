@@ -4,6 +4,8 @@ title: "The Premise: The Lead User and the Machines That Build Machines"
 author: Brad Feld
 date_fetched: 2026-07-05
 date_published: 2026-05-29
+topics:
+  - agent-coding-workflow
 ---
 
 # The Premise: The Lead User and the Machines That Build Machines

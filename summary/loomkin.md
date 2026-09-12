@@ -3,6 +3,8 @@ title: "Loomkin"
 url: https://github.com/pass-agent/loomkin
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-orchestration
 ---
 
 Multi-agent platform built on Erlang/OTP (actually Elixir). Agents form teams, spawn specialists in milliseconds, share discoveries in real-time, review each other's work, debate approaches and vote on decisions, self-heal when things break, verify output before moving on.

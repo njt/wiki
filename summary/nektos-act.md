@@ -4,6 +4,8 @@ title: "nektos/act — Run GitHub Actions Locally"
 author: Casey Lee (cplee) and contributors
 date_fetched: 2026-07-08
 date_published: 2019-02-27
+topics:
+  - developer-tools
 ---
 
 `act` is a Go CLI tool (~23K lines) that runs GitHub Actions workflows locally using

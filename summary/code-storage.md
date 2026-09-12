@@ -4,6 +4,8 @@ title: "code.storage — Off the shelf Git infrastructure for your AI applicatio
 author: Pierre Computer Company (CEO: Jacob, jacob@pierre.co)
 date_fetched: 2026-05-31
 date_published: unknown
+topics:
+  - developer-tools
 ---
 
 # code.storage

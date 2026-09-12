@@ -4,6 +4,8 @@ title: "Reality Check — A framework for rigorous, systematic analysis of claim
 author: Leonard Lin
 date_fetched: 2026-05-14
 date_published: 2026
+topics:
+  - agent-memory-and-context
 ---
 
 # Reality Check

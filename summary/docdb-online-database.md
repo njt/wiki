@@ -4,6 +4,8 @@ title: "Stripe's DocDB: How Zero-Downtime Data Movement Powers Trillion-Dollar P
 author: Jimmy Morzaria (Staff Software Engineer, Stripe)
 date_fetched: 2026-05-18
 date_published: 2026-04-30
+topics:
+  - databases-and-data
 ---
 
 # Stripe's DocDB: Presentation Summary

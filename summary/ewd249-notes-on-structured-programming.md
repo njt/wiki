@@ -4,6 +4,8 @@ title: "Notes on Structured Programming"
 author: Prof.dr. Edsger W. Dijkstra
 date_fetched: 2026-07-18
 date_published: 1970-04
+topics:
+  - software-engineering-craft
 ---
 
 Dijkstra's foundational monograph on structured programming, originally written in 1969 and published as a T.H. Eindhoven technical report. It is the document that introduced the term "structured programming" and laid out its intellectual foundations.

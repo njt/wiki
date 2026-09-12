@@ -3,6 +3,8 @@ title: "Designing a Passively Safe API"
 url: https://www.danealbaugh.com/articles/passively-safe-apis
 date_fetched: 2026-05-14
 section: "Producing and Operating Software"
+topics:
+  - software-engineering-craft
 ---
 
 A passively safe system "is designed to fail gracefully." In APIs, this means "failures (crashes, timeouts, retries, partial outages) can't produce duplicate work, surprise side effects, or unrecoverable state."

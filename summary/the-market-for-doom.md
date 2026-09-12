@@ -6,6 +6,8 @@ date_fetched: 2026-06-21
 date_published: 2026-06-12
 publication: Roger Partridge I Plain Thinking (Substack)
 series: "An ongoing series on liberalism, democracy, and the international order"
+topics:
+  - ideas-and-culture
 ---
 
 # The Market for Doom: Why We Keep Predicting the End of Work

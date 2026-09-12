@@ -5,6 +5,8 @@ author: Manthan Gupta (@manthanguptaa)
 date_fetched: 2026-05-18
 date_published: 2026-01-26
 section: "Memory & Context"
+topics:
+  - agent-memory-and-context
 ---
 
 # How Clawdbot Remembers Everything — Manthan Gupta

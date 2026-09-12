@@ -3,6 +3,8 @@ title: "bcc"
 url: https://github.com/iovisor/bcc
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - developer-tools
 ---
 
 # BCC (BPF Compiler Collection)

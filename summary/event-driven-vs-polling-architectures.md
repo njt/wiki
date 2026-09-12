@@ -5,6 +5,8 @@ author: Michel Tricot
 date_fetched: 2026-06-05
 date_published: 2026-05-14
 publication: Agent Blueprint (Substack)
+topics:
+  - misc
 ---
 
 # Event-Driven vs. Polling Architectures for Agent Triggers

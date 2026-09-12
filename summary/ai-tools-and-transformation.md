@@ -5,6 +5,8 @@ author: Benedict Evans
 site: ben-evans.com
 published: 2026-09-03
 date_fetched: 2026-09-04
+topics:
+  - ideas-and-culture
 ---
 
 Benedict Evans argues the popular hope that AI will sweep away the sprawling mess of enterprise software misunderstands where software comes from and how companies change. The typical big company has hundreds or thousands of pieces of software — SAP and Workday at one end, a 10-megabyte spreadsheet running a department at the other — and yet is full of repetitive tasks. The tempting vision is that with AI you can now build the tool in five minutes, or just have the model do the task itself, and software becomes dynamic, generative, and spontaneous.

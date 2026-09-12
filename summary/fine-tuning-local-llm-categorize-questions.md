@@ -4,6 +4,8 @@ title: "Fine Tuning a Local LLM to Categorize Questions"
 author: "Torgeir Helgevold"
 date_published: "2026-06-16"
 date_fetched: "2026-06-22"
+topics:
+  - ai-research-and-models
 ---
 
 # Fine Tuning a Local LLM to Categorize Questions

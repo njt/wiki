@@ -5,6 +5,9 @@ author: Kevin Griffin
 date_fetched: 2026-05-18
 date_published: 2025-05-01
 section: "C# and .NET"
+topics:
+  - software-engineering-craft
+  - databases-and-data
 ---
 
 # How C# Strings Silently Kill Your SQL Server Indexes in Dapper

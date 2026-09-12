@@ -4,6 +4,8 @@ title: "Bringing MCP 2026-07-28 to Claude"
 author: Anthropic
 date_fetched: 2026-08-01
 date_published: 2026-07-28
+topics:
+  - agent-architecture
 ---
 
 Anthropic announces the fifth spec release of the Model Context Protocol

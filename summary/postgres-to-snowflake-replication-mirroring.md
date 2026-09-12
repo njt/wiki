@@ -5,6 +5,8 @@ author: Snowflake Engineering
 date_fetched: 2026-08-14
 date_published: unknown
 tags: [cdc, postgres, snowflake, iceberg, replication, data-mirroring]
+topics:
+  - databases-and-data
 ---
 
 ## Source Content

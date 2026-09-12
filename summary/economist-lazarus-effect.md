@@ -5,6 +5,8 @@ author: The Economist
 date_fetched: 2026-05-15
 date_published: 2026-05-11
 via: razorgirl (@razorgirl.diy)
+topics:
+  - ideas-and-culture
 ---
 
 ## Original Article

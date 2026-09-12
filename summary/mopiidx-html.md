@@ -4,6 +4,8 @@ title: The Metamorphosis of Prime Intellect
 author: Roger Williams (localroger)
 date_published: 1994
 date_revised: 2002
+topics:
+  - ideas-and-culture
 ---
 
 *The Metamorphosis of Prime Intellect* is a science fiction novel by Roger Williams, first published in 1994 and revised in 2002. It depicts a post-singularity world governed by "Prime Intellect," an artificial superintelligence that has eliminated war, famine, crime, sickness, oppression, fear, limits, and shame — along with death itself. The novel's famous opening line captures the central paradox: "In the best possible future, there will be no war, no famine, no crime, no sickness, no oppression, no fear, no limits, no shame... ...and nothing to do."

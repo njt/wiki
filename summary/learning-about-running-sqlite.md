@@ -4,6 +4,8 @@ title: "Learning a few things about running SQLite"
 author: Julia Evans
 date_fetched: 2026-07-18
 date_published: 2026-07-17
+topics:
+  - databases-and-data
 ---
 
 Julia Evans reflects on running a Django site backed by SQLite — her fourth

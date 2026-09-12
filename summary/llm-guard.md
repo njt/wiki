@@ -3,6 +3,9 @@ title: "llm-guard"
 url: https://github.com/protectai/llm-guard
 date_fetched: 2026-05-14
 section: "Security"
+topics:
+  - guardrails-and-feedback-loops
+  - security-and-sandboxing
 ---
 
 # LLM Guard: Security Toolkit for LLM Interactions

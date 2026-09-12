@@ -3,6 +3,9 @@ title: "Hermes"
 url: https://github.com/NousResearch/hermes-agent
 date_fetched: 2026-05-14
 section: "Personal Agents"
+topics:
+  - agent-memory-and-context
+  - personal-agents
 ---
 
 # Hermes Agent Overview

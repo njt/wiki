@@ -4,6 +4,9 @@ title: "Parse, Don't Validate"
 author: Alexis King
 date_fetched: 2026-08-08
 date_published: 2019-11-05
+topics:
+  - guardrails-and-feedback-loops
+  - software-engineering-craft
 ---
 
 # Parse, Don't Validate

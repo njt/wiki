@@ -4,6 +4,8 @@ title: "Optimizing for Decision Points"
 author: Shawn Simister
 date_fetched: 2026-07-05
 date_published: 2026-03-11
+topics:
+  - agent-coding-workflow
 ---
 
 # Optimizing for Decision Points

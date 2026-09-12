@@ -5,6 +5,8 @@ author: Modal Team (Engineering)
 date_fetched: 2026-07-05
 date_published: 2026-04
 site: Modal Blog
+topics:
+  - misc
 ---
 
 # Best Infrastructure Platforms for Coding Agents in 2026

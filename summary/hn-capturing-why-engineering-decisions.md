@@ -4,6 +4,8 @@ title: "How do you capture WHY engineering decisions were made, not just what?"
 author: zain__t
 date_fetched: 2026-05-22
 date_published: 2026-03-14
+topics:
+  - software-engineering-craft
 ---
 
 Original post by zain__t on Hacker News. 41 points, 64 comments. [flagged].

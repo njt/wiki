@@ -4,6 +4,8 @@ author: "halvar.flake (Thomas Dullien)"
 date: 2025-07-06
 url: https://addxorrol.blogspot.com/2025/07/a-non-anthropomorphized-view-of-llms.html
 fetched: 2026-05-14
+topics:
+  - ai-research-and-models
 ---
 
 # A Non-Anthropomorphized View of LLMs

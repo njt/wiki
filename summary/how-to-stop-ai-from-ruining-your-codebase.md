@@ -5,6 +5,8 @@ author: Ivett Ördög (interview), Modern Software Engineering channel
 site: coding-is-like-cooking.info
 date_published: 2026-08
 date_fetched: 2026-08-25
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 # Summary: How to Stop AI from Ruining Your Codebase

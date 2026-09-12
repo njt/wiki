@@ -4,6 +4,8 @@ title: "Introducing Meerkat: an experiment in global consensus"
 author: James Larisch, Bob Halley, João Pedro Leite
 date_fetched: 2026-07-11
 date_published: 2026-07-08
+topics:
+  - databases-and-data
 ---
 
 Cloudflare Research introduces Meerkat, a consensus service built on the

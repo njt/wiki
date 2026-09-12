@@ -4,6 +4,8 @@ title: "Simulating everything, sort of: The promise and limits of world models"
 author: Samuel Axon
 date_fetched: 2026-07-18
 date_published: 2026-07-13
+topics:
+  - ai-research-and-models
 ---
 
 Samuel Axon surveys the emerging field of world models — AI systems that simulate physical environments rather than work with language — through interviews with three practitioners: Vincent Sitzmann (MIT), Anastasis Germanidis (Runway), and Ben Mildenhall (World Labs). The piece frames world models as a potential off-ramp from LLM disillusionment, with billions in funding flowing to companies like World Labs, Runway, and Yann LeCun's Advanced Machine Intelligence.

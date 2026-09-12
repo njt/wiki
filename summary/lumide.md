@@ -3,6 +3,8 @@ url: https://lumide.dev/
 title: "Lumide — The Flutter IDE with Agentic Sidebar"
 author: Lumide
 date_fetched: 2026-07-08
+topics:
+  - developer-tools
 ---
 
 Lumide is a Flutter IDE built with Flutter and Dart itself, avoiding Electron entirely

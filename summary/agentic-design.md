@@ -3,6 +3,8 @@ url: https://agentic-design.ai/
 title: "Agentic Design — Architecture Catalog for AI Builders"
 author: KORTEXYA SAS
 date_fetched: 2026-08-01
+topics:
+  - agent-architecture
 ---
 
 Agentic Design is a free architecture catalog for building AI agents in

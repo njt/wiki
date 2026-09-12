@@ -4,6 +4,8 @@ title: "The New Software Lifecycle"
 author: Addy Osmani
 date_fetched: 2026-07-18
 date_published: 2026-07-15
+topics:
+  - agent-coding-workflow
 ---
 
 Addy Osmani's essay on how AI coding agents reshape the software development lifecycle, drawing from a Google whitepaper co-authored with Shubham Saboo and Sokratis Kartakis. Originally published on Osmani's blog and republished on O'Reilly Radar.

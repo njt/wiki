@@ -4,6 +4,8 @@ title: "Introducing Omnigent: A Meta-Harness to Combine, Control and Share Your 
 author: Matei Zaharia, Kasey Uhlenhuth, Corey Zumar
 date_fetched: 2026-07-03
 date_published: 2026-06-13
+topics:
+  - misc
 ---
 
 Introducing Omnigent: A Meta-Harness to Combine, Control and Share Your Agents

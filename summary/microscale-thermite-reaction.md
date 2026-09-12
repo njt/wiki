@@ -4,6 +4,8 @@ title: Microscale Thermite Reaction
 author: Harvard Natural Sciences Lecture Demonstrations
 date_fetched: 2026-05-15
 date_published: unknown
+topics:
+  - ideas-and-culture
 ---
 
 # Microscale Thermite Reaction

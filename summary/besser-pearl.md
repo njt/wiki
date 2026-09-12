@@ -3,6 +3,9 @@ url: https://besser-pearl.org/
 title: "BESSER"
 author: LIST (Luxembourg Institute of Science and Technology) and SnT / University of Luxembourg
 date_fetched: 2026-07-25
+topics:
+  - specifications-as-the-product
+  - developer-tools
 ---
 
 BESSER is an open-source low-code platform for building smart, AI-enhanced

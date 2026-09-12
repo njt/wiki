@@ -4,6 +4,8 @@ title: Cua — Computer Use Agent Platform
 author: TryCua
 date_fetched: 2026-06-15
 date_published: 2025
+topics:
+  - misc
 ---
 
 # Full Analysis: trycua/cua

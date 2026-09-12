@@ -4,6 +4,8 @@ title: "FlareDB"
 author: Ganesh Sivakumar
 date_fetched: 2026-07-08
 date_published: 2025
+topics:
+  - databases-and-data
 ---
 
 FlareDB is an Apache Beam-native streaming database written in Rust (v0.1.8,

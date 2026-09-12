@@ -4,6 +4,8 @@ title: "USB Type-C and Power Delivery Application Note (SLYY228)"
 author: Adam McGaffin, Nate Enos, Brian Gosselin, Taylor Vogt, Eric Beljaars, Ghouse Mohiuddin, Undrea Fields, David Liu, Mike Campbell, Nicholaus Malone, Joe Li
 date_fetched: 2026-07-25
 date_published: 2024-11
+topics:
+  - ai-infrastructure-and-hardware
 ---
 
 A 72-page Texas Instruments e-book (SLYY228) that serves as a comprehensive

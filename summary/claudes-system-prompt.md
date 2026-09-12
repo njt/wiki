@@ -3,6 +3,8 @@ title: "Claude's System Prompt"
 url: https://raw.githubusercontent.com/asgeirtj/system_prompts_leaks/refs/heads/main/claude.txt
 date_fetched: 2026-05-14
 section: "LLMs"
+topics:
+  - misc
 ---
 
 # Claude's System Prompt — Complete Reference

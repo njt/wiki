@@ -4,6 +4,9 @@ title: "Cloudflare Security Audit Skill"
 author: Cloudflare
 date_fetched: 2026-07-18
 date_published: 2025
+topics:
+  - security-and-sandboxing
+  - agent-coding-workflow
 ---
 
 A Claude Code skill that orchestrates multiple parallel agents into a security

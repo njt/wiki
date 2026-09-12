@@ -4,6 +4,8 @@ title: "The Mundanity of Excellence: An Ethnographic Report on Stratification an
 author: Daniel F. Chambliss
 date_fetched: 2026-05-14
 date_published: 1989-01-01
+topics:
+  - ideas-and-culture
 ---
 
 An ethnographic study of competitive swimming that argues excellence is not the

@@ -4,6 +4,8 @@ title: "How I Use HTMX with Go"
 author: Alex Edwards
 date_fetched: 2026-07-18
 date_published: 2026-06-27
+topics:
+  - software-engineering-craft
 ---
 
 # How I Use HTMX with Go — Summary

@@ -4,6 +4,8 @@ title: "Engineering Atlas — Articles"
 author: Unknown (site is unsigned)
 date_fetched: 2026-08-21
 date_published: unknown
+topics:
+  - misc
 ---
 
 The article corpus behind the Software Engineering Practice Atlas: 5,172 crawled

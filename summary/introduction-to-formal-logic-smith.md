@@ -4,6 +4,8 @@ title: "An Introduction to Formal Logic, 2nd Edition"
 author: Peter Smith
 date_fetched: 2026-07-29
 date_published: 2020
+topics:
+  - software-engineering-craft
 ---
 
 Peter Smith's textbook is a rigorous introduction to classical first-order

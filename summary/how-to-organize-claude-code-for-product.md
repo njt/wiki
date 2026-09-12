@@ -10,6 +10,8 @@ tags:
   - CLAUDE.md
   - context-engineering
   - product-management
+topics:
+  - agent-coding-workflow
 ---
 
 # How to Organize Claude Code for Product

@@ -3,6 +3,8 @@ title: "Estimating Pi with a Coin"
 url: https://arxiv.org/abs/2602.14487
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - ideas-and-culture
 ---
 
 # Estimating Pi with a Coin

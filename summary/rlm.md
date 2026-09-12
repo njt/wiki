@@ -4,6 +4,9 @@ title: Recursive Language Models
 author: Alex Zhang (MIT), with Omar Khattab
 date: 2025-10
 date_fetched: 2026-08-06
+topics:
+  - agent-memory-and-context
+  - ai-research-and-models
 ---
 
 # Recursive Language Models — Summary

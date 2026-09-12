@@ -4,6 +4,8 @@ title: "sx: Your team's private npm for AI assets"
 author: sleuth-io
 date_fetched: 2026-05-16
 date_published: 2025
+topics:
+  - developer-tools
 ---
 
 # sx — Package Manager for AI Coding Assistants

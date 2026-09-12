@@ -3,6 +3,8 @@ title: "smui"
 url: https://smui.statico.io/
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - developer-tools
 ---
 
 # SMUI: A Terminal-Inspired shadcn/ui Theme

@@ -3,6 +3,8 @@ title: "Building low-level software with only coding agents"
 url: https://leerob.com/pixo
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-coding-workflow
 ---
 
 # Building Low-Level Software with Only Coding Agents - Lee Robinson

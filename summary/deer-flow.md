@@ -4,6 +4,8 @@ title: DeerFlow — ByteDance's LangGraph-based AI Super-Agent
 author: ByteDance
 date_fetched: 2026-07-03
 date_published: 2025
+topics:
+  - agent-architecture
 ---
 
 # DeerFlow — Raw Analysis

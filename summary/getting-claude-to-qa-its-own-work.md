@@ -5,6 +5,8 @@ author: Suchintan Singh
 date_fetched: 2026-05-15
 date_published: 2026-04-03
 source: Skyvern Blog
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 Skyvern built an MCP server with 33 browser tools (sessions, navigation, form filling, data extraction, credential management, workflows) and integrated it with Claude Code so that after every frontend change, Claude would "check its own work by opening the page, looking at the pixels, and running the interactions." Two skills were released: `/qa` (local, ~700 lines) and `/smoke-test` (CI, ~300 lines).

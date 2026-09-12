@@ -4,6 +4,8 @@ title: "Hy3 — Tencent's Large MoE Language Model"
 author: Tencent Hy Team
 date_fetched: 2026-07-11
 date_published: 2026
+topics:
+  - ai-research-and-models
 ---
 
 Hy3 is Tencent's large Mixture-of-Experts model: 295B total parameters with 21B active and 3.8B in a multi-token prediction (MTP) layer. It supports a 256K context window, uses 192 experts (top-8 activated), and is Apache 2.0 licensed.

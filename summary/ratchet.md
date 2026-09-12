@@ -4,6 +4,8 @@ title: Ratchets in Software Development
 author: qntm (Sam Hughes)
 date_fetched: 2026-05-15
 date_published: 2021-11-21
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 So there's a thing we use at work which I call a ratchet.

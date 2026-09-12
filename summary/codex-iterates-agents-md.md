@@ -4,6 +4,8 @@ title: "I had Codex iterate on its own AGENTS.md 8 times and measured each versi
 author: Stet (stet.sh)
 date_fetched: 2026-05-31
 date_published: 2026-05-27
+topics:
+  - agent-coding-workflow
 ---
 
 # I had Codex iterate on its own AGENTS.md 8 times and measured each version against real PRs

@@ -4,6 +4,8 @@ title: "DDB: Source-Level Interactive Debugging for Distributed Applications"
 author: Yibo Yan, Junzhou He, Seo Jin Park
 date_fetched: 2026-07-11
 date_published: 2026-07-07
+topics:
+  - software-engineering-craft
 ---
 
 A 2026 USENIX ATC paper from USC that extends interactive source-level debugging (GDB-style breakpoints, call stacks, variable inspection) to distributed applications — a workflow long considered impractical across process boundaries.

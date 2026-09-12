@@ -6,6 +6,8 @@ date_fetched: 2026-06-05
 date_published: 2026-05-28
 source: LessWrong
 tags: [ai, benchmarks, open-source, models, evaluation]
+topics:
+  - misc
 ---
 
 # How far behind are open models?

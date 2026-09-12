@@ -6,6 +6,8 @@ date_fetched: 2026-08-21
 date_published: n.d.
 site: hardware-corner.net
 tags: [qwen, local-inference, llama.cpp, gpu, hardware, vram, benchmark]
+topics:
+  - local-and-open-source-inference
 ---
 
 # Qwen3.8 27B Hardware Tests

@@ -4,6 +4,8 @@ title: Type Safety Back and Forth
 author: Matt Parsons
 date_published: 2017-10-11
 date_fetched: 2026-08-08
+topics:
+  - software-engineering-craft
 ---
 
 Matt Parsons distinguishes two directions for handling potential failure in a type system: pushing responsibility **forward** (using `Maybe`/`Either` to signal that a function might fail, leaving callers to handle it) and pushing responsibility **backward** (using restrictive types like `NonZero Int` or `NonEmpty a` so the function *cannot* fail in the first place).

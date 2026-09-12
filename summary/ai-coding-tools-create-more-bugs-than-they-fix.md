@@ -6,6 +6,8 @@ published: 2025-07-02
 retrieved: 2026-05-14
 type: article
 tags: [ai-security, vibe-coding, vulnerabilities, mobb]
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 # AI Coding Tools Create More Bugs Than They Fix

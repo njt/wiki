@@ -4,6 +4,8 @@ title: "The Art of Decision-Making"
 author: Joshua Rothman
 date_fetched: 2026-08-01
 date_published: 2019-01-14
+topics:
+  - ideas-and-culture
 ---
 
 A New Yorker essay exploring how people make (or fail to make) life's biggest

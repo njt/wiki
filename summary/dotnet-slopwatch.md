@@ -3,6 +3,9 @@ title: "dotnet Slopwatch"
 url: https://github.com/Aaronontheweb/dotnet-slopwatch
 date_fetched: 2026-05-14
 section: "C# and .NET"
+topics:
+  - guardrails-and-feedback-loops
+  - software-engineering-craft
 ---
 
 # Slopwatch: LLM Anti-Cheat for .NET

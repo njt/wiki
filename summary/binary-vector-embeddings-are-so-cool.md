@@ -4,6 +4,8 @@ title: "Binary vector embeddings are so cool"
 author: Evan Schwartz
 date_fetched: 2026-08-01
 date_published: 2024-11-11
+topics:
+  - databases-and-data
 ---
 
 Evan Schwartz explains binary quantization for vector embeddings: convert each float32 dimension to a single bit (1 if positive, 0 otherwise). This enables similarity search via Hamming distance — XOR plus popcount, a single CPU instruction — instead of floating-point cosine similarity across thousands of dimensions.

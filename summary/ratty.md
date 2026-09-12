@@ -4,6 +4,8 @@ title: "Ratty: A GPU-Rendered Terminal Emulator with Inline 3D Graphics"
 author: Orhun Parmaksız
 date_fetched: 2026-05-31
 date_published: 2025-09-28 (initial)
+topics:
+  - developer-tools
 ---
 
 # Ratty — Deep Analysis

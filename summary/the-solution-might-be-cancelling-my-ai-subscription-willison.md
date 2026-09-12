@@ -4,6 +4,8 @@ title: "The solution might be cancelling my AI subscription"
 author: Simon Willison
 date_fetched: 2026-06-15
 date_published: 2026-05-31
+topics:
+  - ideas-and-culture
 ---
 
 Simon Willison's link-blog response to David Wilson's piece of the same title at thoughts.hmmz.org, also drawing on the Hacker News discussion. Posted on simonwillison.net, tagged: productivity, ai, generative-ai, llms, coding-agents, ai-misuse.

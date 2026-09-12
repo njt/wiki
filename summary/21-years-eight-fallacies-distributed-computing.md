@@ -4,6 +4,8 @@ title: "21 years and counting of 'eight fallacies of distributed computing'"
 author: George Michaelson
 date_fetched: 2026-06-15
 date_published: 2025-12-08
+topics:
+  - misc
 ---
 
 # 21 years and counting of 'eight fallacies of distributed computing'

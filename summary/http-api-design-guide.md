@@ -4,6 +4,8 @@ title: "HTTP API Design Guide"
 author: Wesley Beary (geemus) and the Heroku Platform API team
 date_fetched: 2026-07-08
 date_published: 2013
+topics:
+  - software-engineering-craft
 ---
 
 A set of HTTP+JSON API design conventions extracted from the team that built

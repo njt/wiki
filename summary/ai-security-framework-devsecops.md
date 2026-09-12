@@ -4,6 +4,9 @@ title: "How to Build an AI Security Framework for DevSecOps Teams"
 author: Michelle Pruitt
 date_fetched: 2026-07-18
 date_published: 2026-07-16
+topics:
+  - guardrails-and-feedback-loops
+  - security-and-sandboxing
 ---
 
 A guide to building a practical AI security framework for DevSecOps teams, published by PreEmptive. It argues that traditional AppSec — SAST, SCA, endpoint scanning — doesn't cover AI-specific risks like prompt injection, insecure output handling, model supply chain issues, and adversarial abuse. The response is a lifecycle-wide framework spanning governance, model risk, data and prompt security, application hardening, and runtime controls.

@@ -4,6 +4,8 @@ title: The Clanker Constitution
 author: Kenn (Wes McKinney / Kenn Software LLC)
 date_fetched: 2026-08-14
 date_published: 2026
+topics:
+  - agent-coding-workflow
 ---
 
 # The Clanker Constitution

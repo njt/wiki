@@ -4,6 +4,8 @@ title: SmolForge — llms.txt
 author: swyx (Shawn Wang)
 site: SmolForge (forge.smol.ai)
 date_fetched: 2026-08-07
+topics:
+  - developer-tools
 ---
 
 # SmolForge (forge.smol.ai) — Summary

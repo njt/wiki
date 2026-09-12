@@ -3,6 +3,8 @@ title: "Dolt"
 url: https://docs.dolthub.com/
 date_fetched: 2026-05-14
 section: "Databases and Data"
+topics:
+  - databases-and-data
 ---
 
 # Dolt: A Version-Controlled SQL Database

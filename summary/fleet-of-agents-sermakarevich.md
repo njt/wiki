@@ -4,6 +4,8 @@ title: "From one Claude agent to a fleet — in five small steps"
 author: sermakarevich
 date_fetched: 2026-05-22
 date_published: unknown
+topics:
+  - agent-orchestration
 ---
 
 # Fleet of Agents (sermakarevich/claude)

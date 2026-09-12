@@ -4,6 +4,8 @@ title: "C# Document Generation: A Developer's Guide for .NET"
 author: Deepika Kathiravan
 date_fetched: 2026-07-18
 date_published: 2026-07-08
+topics:
+  - developer-tools
 ---
 
 A survey of four approaches to generating documents (PDF, DOCX, HTML) from

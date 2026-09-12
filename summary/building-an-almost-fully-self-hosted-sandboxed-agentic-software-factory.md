@@ -5,6 +5,8 @@ site: blog.jakesaunders.dev
 author: Jake Saunders
 date_fetched: 2026-09-04
 date_published: null
+topics:
+  - agent-coding-workflow
 ---
 
 Jake Saunders set out to build a fully remote agentic development environment where the LLM is *structurally contained* rather than merely trusted — give it one instruction and have it autonomously walk the whole SDLC (research, code, tests, commit, CI, deploy) on his home server, at no ongoing cost beyond a £20/month Codex subscription. The tl;dr is that it worked: from a single prompt it created a repo, wrote an app and its tests, got CI green, provisioned Postgres, and deployed the finished app behind HTTPS without another message.

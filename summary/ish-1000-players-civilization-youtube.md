@@ -4,6 +4,8 @@ title: "1000 Players Simulate Civilization: Rich & Poor"
 author: ish
 date_fetched: 2026-05-15
 date_published: 2025-07-11
+topics:
+  - ideas-and-culture
 ---
 
 YouTube video by ish (@ish). 2h34m (9240s). Published 2025-07-11.

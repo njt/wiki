@@ -12,6 +12,8 @@ doi: 10.1080/17439760.2017.1402074
 date_published: 2017-11-21
 date_fetched: 2026-05-18
 fetched_via: surf browser automation (full text from PDF)
+topics:
+  - ideas-and-culture
 ---
 
 # Finding a family: A categorization of enjoyable emotions

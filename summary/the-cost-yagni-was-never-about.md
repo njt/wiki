@@ -5,6 +5,8 @@ author: Kent Beck
 date_fetched: 2026-07-03
 date_published: 2026-06-25
 source: Software Design — Tidy First? (Substack)
+topics:
+  - agent-coding-workflow
 ---
 
 # The Cost YAGNI Was Never About

@@ -4,6 +4,8 @@ title: "Claude Cookbook"
 author: Anthropic
 date_fetched: 2026-07-25
 date_published: continuously updated
+topics:
+  - agent-architecture
 ---
 
 The Claude Cookbook is Anthropic's canonical collection of 84 practical guides and code examples for using Claude effectively. Entries span from August 2023 to June 2026, organized newest-first.

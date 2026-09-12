@@ -1,3 +1,7 @@
+---
+topics:
+  - agent-architecture
+---
 # Traycer (Summary)
 
 Traycer is an open-source AI orchestration desktop application (Electron + React) that wraps 17+ coding agents (Claude Code, Codex, Cursor, OpenCode, and others) under a unified interface with real-time collaboration via Yjs CRDTs. The open-source repo contains the client UI, CLI, and a sophisticated versioned RPC protocol layer; the actual agent runtime is a closed-source host binary provisioned separately.

@@ -4,6 +4,8 @@ title: Fast drilldown dashboards from a single Parquet file
 author: Hamilton Ulmer
 date_fetched: 2026-08-25
 date_published: 2026-08-21
+topics:
+  - databases-and-data
 ---
 
 Hamilton Ulmer (MotherDuck) tests whether a customer-facing analytics dashboard can be served from a single Parquet file in object storage — with no database and no query engine.

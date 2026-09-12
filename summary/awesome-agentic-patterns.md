@@ -3,6 +3,8 @@ title: "Awesome Agentic Patterns"
 url: https://github.com/nibzard/awesome-agentic-patterns
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 # Awesome Agentic Patterns

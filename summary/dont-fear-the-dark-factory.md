@@ -4,6 +4,8 @@ title: "Don't Fear the Dark Factory"
 author: Matt Wynne
 date_fetched: 2026-05-15
 date_published: 2026-05-12
+topics:
+  - agent-coding-workflow
 ---
 
 Matt Wynne recounts being challenged by his boss to adopt the Dark Factory pattern for agentic software development, inspired by Justin McCarthy's work at StrongDM — specifically their commitment to producing software where "humans neither read or wrote the code."

@@ -4,6 +4,8 @@ title: Building the deployment tool I wish I had
 author: Ruud van Asseldonk
 date_fetched: 2026-05-18
 date_published: 2026-05-06
+topics:
+  - developer-tools
 ---
 
 # Building the deployment tool I wish I had

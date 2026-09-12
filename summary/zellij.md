@@ -4,6 +4,8 @@ title: "Zellij"
 author: Aram Drevekenin and contributors
 date_fetched: 2026-07-18
 date_published: 2021-04-06
+topics:
+  - developer-tools
 ---
 
 Zellij is a terminal multiplexer (like tmux) written in Rust, distinguished by a

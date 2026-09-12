@@ -4,6 +4,8 @@ title: "archive.today is directing a DDOS attack against my blog"
 author: Jani Patokallio (jpatokal)
 date_fetched: 2026-05-15
 date_published: 2026-02-01
+topics:
+  - ideas-and-culture
 ---
 
 # archive.today is directing a DDOS attack against my blog

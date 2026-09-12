@@ -5,6 +5,8 @@ author: Paperclip Labs, Inc.
 date_fetched: 2026-09-11
 date_published: 2026
 source_type: GitHub repository
+topics:
+  - agent-orchestration
 ---
 
 Paperclip is an open-source (MIT) "control plane" for running teams of AI agents as a company. Where an individual coding agent (OpenClaw, Claude Code, Codex, Cursor) is an "employee," Paperclip is the "company": it supplies the org chart, goals, budgets, governance, approval gates, and coordination that make many agents produce work rather than collide. It is a Node.js server plus a React UI that schedules agents on heartbeats, hands them tickets, and tracks their output and spend from a task-manager-style dashboard.

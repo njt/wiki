@@ -4,6 +4,8 @@ title: "performative-ui: AI-native React Components"
 author: vorpus (Nathaniel J. Smith)
 date_fetched: 2026-06-09
 date_published: unknown
+topics:
+  - ideas-and-culture
 ---
 
 # performative-ui

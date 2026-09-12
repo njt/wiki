@@ -4,6 +4,8 @@ title: Resident — Sandboxed Lua Runtime for ESP32 with Hot Reload
 author: inanimate-tech (Jesse Vincent / obra)
 date_fetched: 2026-05-22
 date_published: 2025-01
+topics:
+  - misc
 ---
 
 # Resident — Full Architectural Analysis

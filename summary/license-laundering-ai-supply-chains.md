@@ -4,6 +4,8 @@ title: "Don't Trust the Label: License Laundering in AI Supply Chains"
 author: James Jewitt, Hao Li, Gopi Krishnan Rajbahadur, Bram Adams, Ahmed E. Hassan
 date_fetched: 2026-07-25
 date_published: 2026-07-22
+topics:
+  - ai-research-and-models
 ---
 
 An empirical study tracing 232,270 dataset→model→application chains across Hugging Face and GitHub to measure "license laundering" — the systematic stripping or replacement of legal rights as artifacts move through AI supply chains.

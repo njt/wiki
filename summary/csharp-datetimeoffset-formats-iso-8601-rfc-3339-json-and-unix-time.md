@@ -4,6 +4,8 @@ title: C# DateTimeOffset Formats — ISO 8601, RFC 3339, JSON, and Unix Time
 author: Sebastian Nilsson
 site: sebnilsson.com
 date_fetched: 2026-08-07
+topics:
+  - software-engineering-craft
 ---
 
 A practical field guide to formatting and parsing `DateTimeOffset` in C# for API boundaries, files, logs, and frontends. Uses a single timestamp (2026-07-14T09:11:30.123+02:00) to compare 13 formats against the only metric that matters: what survives the round trip. The table at the top is the article's thesis in one glance.

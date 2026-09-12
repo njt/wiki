@@ -5,6 +5,8 @@ author: Nick Lichtenberg, Business Editor
 date_fetched: 2026-05-22
 date_published: 2026-04-23
 publication: Fortune
+topics:
+  - ai-research-and-models
 ---
 
 Goldman Sachs Global Institute report arguing "world models" are the next major leap in AI — moving beyond pattern-matching text prediction toward systems that internally understand physical and social reality.

@@ -3,6 +3,9 @@ title: "Installing VS Compilers From Commandline"
 url: https://marler8997.github.io/blog/fixed-windows/
 date_fetched: 2026-05-14
 section: "C# and .NET"
+topics:
+  - software-engineering-craft
+  - developer-tools
 ---
 
 # I Fixed Windows Native Development

@@ -4,6 +4,8 @@ title: How we monitor internal coding agents for misalignment
 author: Marcus Williams, Hao Sun, Swetha Sekhar, Micah Carroll, David G. Robinson, Ian Kivlichan
 date_fetched: 2026-09-08
 date_published: 2026-03-19
+topics:
+  - security-and-sandboxing
 ---
 
 # How we monitor internal coding agents for misalignment

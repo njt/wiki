@@ -5,6 +5,8 @@ author: Rosmine (Ben Rosmine)
 date_fetched: 2026-07-05
 date_published: 2026-05-18
 site: Rosmine ML Blog
+topics:
+  - ai-research-and-models
 ---
 
 # Fixing LLM writing with Distribution Fine Tuning

@@ -5,6 +5,8 @@ author: Nikola Petkovic
 site: nikola-petkovic.com
 date_fetched: 2026-08-25
 date_published: 2026-08-07
+topics:
+  - software-engineering-craft
 ---
 
 Nikola Petkovic names a pattern he argues is endemic to mainstream observability platforms: the **Observability Pain Cycle**. Vendors push a "store-everything-up-front" model — ingest all telemetry and charge from minute one, regardless of how much of it ever yields value. A large share of what's stored is noise (an average vanilla Kubernetes cluster emits almost 100,000 time series out of the box), yet nothing tracks which series actually feed a dashboard or alert, so the only signal that triggers cleanup is the invoice. When the bill crosses the pain threshold, an engineer hunts for telemetry to trim, applies coarse filters (drop log levels, sample traces, exclude prefixes), and a few months later the volume silently regrows and the cycle repeats.

@@ -4,6 +4,8 @@ title: "Lorenz and Little: How Much Does Your Tail Cost?"
 author: Marc Brooker
 date_fetched: 2026-08-01
 date_published: 2026-07-29
+topics:
+  - software-engineering-craft
 ---
 
 Marc Brooker adapts the Lorenz curve — an economics tool for measuring income inequality — to latency analysis. For any percentile P, 1 − L(P) gives the fraction of mean latency contributed by requests at or above that threshold. A worked example shows p50 requests contribute ~99% of mean latency, p90 ~93%, p99 ~52%, and p99.9 ~10%.

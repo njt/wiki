@@ -4,6 +4,8 @@ title: Step 3.7 Flash
 author: StepFun
 date_fetched: 2026-05-31
 date_published: 2026-05-29
+topics:
+  - ai-research-and-models
 ---
 
 # Step 3.7 Flash — See. Think. Act.

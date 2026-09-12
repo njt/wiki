@@ -6,6 +6,8 @@ date_fetched: 2026-06-04
 date_published: 2026-05-27
 publication: The New Stack
 tags: security, ai-agents, supply-chain, packages, aikido
+topics:
+  - security-and-sandboxing
 ---
 
 ## Summary

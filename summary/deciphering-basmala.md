@@ -6,6 +6,8 @@ date_fetched: 2026-07-03
 date_published: 2026-06-23
 source: The Universe of Discourse (blog)
 category: language
+topics:
+  - ideas-and-culture
 ---
 
 # Deciphering basmala

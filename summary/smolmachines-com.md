@@ -5,6 +5,8 @@ author: smolmachines
 site: smolmachines.com
 date_fetched: 2026-08-25
 date_published: unknown
+topics:
+  - security-and-sandboxing
 ---
 
 # smolvm — Run Any Workload in a Hardware-Isolated Linux VM

@@ -4,6 +4,8 @@ url: https://pierce.dev/notes/a-deep-dive-on-agent-sandboxes
 author: Pierce Freeman
 date_fetched: 2026-05-15
 date_published: 2025-09-26
+topics:
+  - security-and-sandboxing
 ---
 
 # A Deep Dive on Agent Sandboxes

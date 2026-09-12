@@ -4,6 +4,8 @@ title: "Mission Control: How We Built an AI Agent Squad with OpenClaw"
 author: Bhanu Teja (@pbteja1998, SiteGPT.ai)
 date_fetched: 2026-05-15
 date_published: 2026-02
+topics:
+  - agent-orchestration
 ---
 
 # Mission Control: How We Built an AI Agent Squad with OpenClaw

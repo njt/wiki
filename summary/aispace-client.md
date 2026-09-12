@@ -5,6 +5,8 @@ author: aispace-sh (Luigi Agosti)
 date_fetched: 2026-09-08
 date_published: 2026-09-08
 source_type: GitHub repository
+topics:
+  - developer-tools
 ---
 
 aispace is a single-binary Go CLI for "bot-friendly file drops" — temporary file storage designed to be driven by AI agents rather than humans. It uploads files (or stdin) to a hosted service with a raw streaming POST, optionally mints separately-expiring public share links, and can encrypt payloads client-side with age X25519 so the storage operator never sees plaintext. The server, billing, and deployment are operated separately; this repo holds only the client, an agent skill, and integration examples.

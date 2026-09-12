@@ -5,6 +5,8 @@ author: Owen McGrann
 date_fetched: 2026-05-31
 date_published: 2026-05-01
 publication: The Palimpsest (Substack)
+topics:
+  - ideas-and-culture
 ---
 
 # The Dead Economy Theory

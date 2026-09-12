@@ -4,6 +4,8 @@ title: "Harness Engineering is not Enough: Why Software Factories Fail"
 author: Dex Horthy (HumanLayer)
 date_fetched: 2026-07-31
 date_published: 2026-07-31
+topics:
+  - agent-coding-workflow
 ---
 
 Dex Horthy's AI Engineer talk argues that the push toward "lights-off" software factories — where agents write all code and no human reads it — is breaking codebases. Rising outages, plummeting review quality, and more bugs per developer are direct consequences, not skill issues.

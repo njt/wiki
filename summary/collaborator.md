@@ -3,6 +3,8 @@ title: "Collaborator"
 url: https://github.com/collaborator-ai/collab-public
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-coding-workflow
 ---
 
 End-to-end environment for agentic development. Terminals, context files, and running code arranged on an infinite canvas. Native desktop app for macOS, Windows, and Linux.

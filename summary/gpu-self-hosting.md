@@ -4,6 +4,8 @@ title: "How many devs can you fit on a GPU? — self-hosting explained"
 author: Steven L., Wouter V.d.B., Michaël M., Ioana F., Jan F., Christian M., Maxim C., Arathy U., Bohdan D., Sepideh P., Baptist V., Jeroen B., Robbert V.C., Mathias F., Hendrik M., Jannick V. (aistack / imec)
 date_fetched: 2026-08-01
 date_published: 2026-07-23
+topics:
+  - local-and-open-source-inference
 ---
 
 The aistack (imec) team benchmarks self-hosting open-weight LLMs for coding

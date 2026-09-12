@@ -5,6 +5,8 @@ author: Sander Dieleman
 site: sander.ai
 published: 2026-08-24
 fetched: 2026-09-04
+topics:
+  - ai-research-and-models
 ---
 
 Sander Dieleman (Google DeepMind) surveys the five-year history of **continuous diffusion language models (CDLMs)** — the branch of diffusion research that applies Gaussian-noise corruption to continuous embeddings of discrete tokens, rather than corrupting the tokens themselves (the **discrete diffusion language model / DDLM** approach). It is an insider's update: Dieleman co-authored two of the early 2022 CDLM papers (SED and CDCD) and admits to having been "wistful" when continuous methods went extinct.

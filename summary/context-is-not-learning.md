@@ -4,6 +4,8 @@ title: Context Is Software, Weights Are Hardware
 author: Aravind Jayendran
 date_fetched: 2026-05-15
 date_published: 2026-04-18
+topics:
+  - agent-memory-and-context
 ---
 
 # Context Is Software, Weights Are Hardware

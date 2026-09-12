@@ -4,6 +4,8 @@ title: Clipfan
 author: Prime Radiant, Inc. (Jesse Vincent)
 date_fetched: 2026-06-11
 date_published: 2026-05-28
+topics:
+  - misc
 ---
 
 # Clipfan — Fleet Clipboard Sync with Headless Image Paste

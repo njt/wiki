@@ -4,6 +4,8 @@ title: TRIZ — Wikipedia
 author: Wikipedia contributors
 date_fetched: 2026-06-11
 date_published: unknown
+topics:
+  - ideas-and-culture
 ---
 
 # TRIZ — Wikipedia Article (fetched 2026-06-11)

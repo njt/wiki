@@ -4,6 +4,9 @@ title: "Cloudflare OS: An AI productivity environment"
 author: Cloudflare Workers team
 date_fetched: 2026-08-06
 date_published: 2026-08
+topics:
+  - agent-memory-and-context
+  - security-and-sandboxing
 ---
 
 Cloudflare OS is an open-source "operating system" for AI productivity built by

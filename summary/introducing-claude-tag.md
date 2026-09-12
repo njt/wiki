@@ -4,6 +4,8 @@ title: Introducing Claude Tag
 author: Anthropic
 date_fetched: 2026-06-24
 date_published: 2026-06-23
+topics:
+  - misc
 ---
 
 Claude Tag is Anthropic's new approach for teams to collaborate with Claude, starting on Slack. Claude joins a Slack workspace as a team member, accesses selected channels, and connects to tools, data, and codebases. Users tag @Claude to delegate tasks.

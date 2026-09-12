@@ -4,6 +4,8 @@ title: "Citations for Accurate Long Form Content"
 author: Ian (statico)
 date_fetched: 2026-05-22
 date_published: 2026-05-22
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 # Citations for Accurate Long Form Content

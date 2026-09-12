@@ -4,6 +4,8 @@ title: Bram — AI-Assisted Software Development Desktop Shell
 author: Jon Udell
 date_fetched: 2026-06-22
 date_published: 2026-06-02
+topics:
+  - misc
 ---
 
 # Bram — Full Architectural Analysis

@@ -4,6 +4,8 @@ url: https://maggieappleton.com/gastown
 author: Maggie Appleton
 date_fetched: 2026-05-15
 date_published: 2026-02
+topics:
+  - agent-orchestration
 ---
 
 # Gas Town's Agent Patterns, Design Bottlenecks, and Vibecoding at Scale

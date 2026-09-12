@@ -4,6 +4,8 @@ url: https://www.prodpad.com/blog/backlog-hierarchy-problem/
 author: ProdPad
 date_fetched: 2026-09-08
 site: ProdPad blog
+topics:
+  - software-engineering-craft
 ---
 
 # Your Backlog Has a Hierarchy Problem

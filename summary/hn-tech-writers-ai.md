@@ -4,6 +4,8 @@ title: "To Those Who Fired or Didn't Hire Tech Writers Because of AI"
 author: theletterf (original article), nicbou (top commenter), various HN users
 date_fetched: 2026-05-15
 date_published: 2026-02-15
+topics:
+  - ideas-and-culture
 ---
 
 Hacker News discussion (266 comments, 352 points) on an article at passo.uno arguing against replacing technical writers with AI. The original article is by "theletterf." The standout contribution is nicbou's top-voted comment: a professional technical writer's defense of empathy, observation, and first-hand data gathering as the core of the work — not just putting words on a page.

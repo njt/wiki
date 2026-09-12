@@ -12,6 +12,8 @@ tags:
   - MCP
   - workflow
   - devtools
+topics:
+  - agent-coding-workflow
 ---
 
 # Beyond the Prompt: Claude Code

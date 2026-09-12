@@ -4,6 +4,8 @@ title: "The zero-cost fallacy: Open source software in the agentic era"
 author: Chris Ford, Richard Gall
 date_fetched: 2026-07-18
 date_published: 2026-07-09
+topics:
+  - software-engineering-craft
 ---
 
 Open source software is widely treated as free, but that perception papers over the real human cost of maintenance. This ThoughtWorks piece argues that the asymmetry between value extracted and value returned to maintainers is a structural failure — one that generative AI is now intensifying.

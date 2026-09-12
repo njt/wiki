@@ -5,6 +5,8 @@ author: Jon Udell
 date_fetched: 2026-06-22
 date_published: 2026-06-17
 platform: blog.jonudell.net
+topics:
+  - agent-coding-workflow
 ---
 
 # Vibe Coding as a Team Sport

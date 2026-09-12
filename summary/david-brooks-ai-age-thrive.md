@@ -5,6 +5,8 @@ author: David Brooks
 date_fetched: 2026-07-03
 date_published: 2026-06-28
 source: The Atlantic
+topics:
+  - ideas-and-culture
 ---
 
 Original URL: https://www.theatlantic.com/ideas/archive/2026/06/ai-cognition-volition-personal-identity/682506/

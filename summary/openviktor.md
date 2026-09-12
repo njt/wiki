@@ -5,6 +5,8 @@ author: Mateusz Jacniacki
 date_fetched: 2026-05-15
 date_published: unknown
 status: inaccessible
+topics:
+  - agent-architecture
 ---
 
 ## Fetch Notes

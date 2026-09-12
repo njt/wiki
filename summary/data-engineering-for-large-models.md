@@ -3,6 +3,9 @@ title: "Data Engineering for Large Models"
 url: https://github.com/datascale-ai/data_engineering_book/blob/main/README_en.md
 date_fetched: 2026-05-14
 section: "Databases and Data"
+topics:
+  - databases-and-data
+  - agent-architecture
 ---
 
 # Data Engineering for Large Models: Architecture, Algorithms & Projects

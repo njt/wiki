@@ -4,6 +4,8 @@ title: "The Private Capture of Public Genius"
 author: Cameron Russell Armstrong
 date_fetched: 2026-07-08
 date_published: 2026-07-02
+topics:
+  - ideas-and-culture
 ---
 
 Cameron Russell Armstrong argues that frontier AI labs are capturing public

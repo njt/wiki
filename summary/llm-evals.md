@@ -3,6 +3,8 @@ title: "LLM Evals"
 url: https://hamel.dev/blog/posts/evals-faq/
 date_fetched: 2026-05-14
 section: "LLMs"
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 # LLM Evals: Everything You Need to Know

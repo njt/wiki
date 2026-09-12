@@ -4,6 +4,8 @@ title: "Agentation — Visual feedback for agents"
 author: unknown
 date_fetched: 2026-09-11
 date_published: n.d.
+topics:
+  - agent-coding-workflow
 ---
 
 Agentation is a browser tool that turns UI annotations into structured context for AI coding agents. You click an element on a rendered page, write a note, and copy out formatted markdown that an agent can act on — or, with MCP, skip the copy-paste entirely and let the agent see what you're pointing at in real time.

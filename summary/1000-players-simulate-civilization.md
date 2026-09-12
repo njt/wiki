@@ -5,6 +5,8 @@ author: Ish (Alex Kisiel)
 date_fetched: 2026-05-15
 date_published: 2025-07-11
 tags: [minecraft, social-experiment, civilization, inequality, emergent-behavior]
+topics:
+  - misc
 ---
 
 A 2-hour-34-minute documentary-style Minecraft social experiment by YouTuber Ish (Alex Kisiel). From over 8,000 applicants, roughly 1,000-1,300 players were accepted and assigned to one of two islands without knowing their traits:

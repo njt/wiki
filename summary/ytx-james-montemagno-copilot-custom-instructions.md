@@ -7,6 +7,8 @@ date_published: unknown
 source_type: gist
 source_channel: James Montemagno (YouTube)
 source_url: https://www.youtube.com/watch?v=ZohAaUQBDbs
+topics:
+  - agent-coding-workflow
 ---
 
 # ytx: How To Get Better AI Responses from GitHub Copilot in Seconds! — James Montemagno

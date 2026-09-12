@@ -4,6 +4,9 @@ title: "The Vietnam of Computer Science"
 author: Ted Neward
 date: 2006-06-26
 date_fetched: 2026-08-08
+topics:
+  - databases-and-data
+  - software-engineering-craft
 ---
 
 Ted Neward's classic essay argues that Object/Relational Mapping (ORM) is "the Vietnam of Computer Science" — a quagmire that starts with early successes, gets more complicated as time passes, and entraps its users in a commitment with no clear demarcation point, no clear win conditions, and no clear exit strategy.

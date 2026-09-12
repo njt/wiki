@@ -3,6 +3,8 @@ title: "Handy"
 url: https://github.com/cjpais/Handy
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - misc
 ---
 
 # Handy: Offline Speech-to-Text

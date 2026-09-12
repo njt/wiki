@@ -4,6 +4,8 @@ title: "Agentic Testing: Where Agents Fit in the E2E Testing Stack"
 author: Sergii Gorbachov (Staff Software Engineer at Slack)
 date_fetched: 2026-06-21
 date_published: 2026-06-11
+topics:
+  - misc
 ---
 
 # Agentic Testing: Where Agents Fit in the E2E Testing Stack

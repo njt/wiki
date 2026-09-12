@@ -4,6 +4,8 @@ title: "Chatto"
 author: chattocorp (Hendrik Mans)
 date_fetched: 2026-07-11
 date_published: 2026-03-01
+topics:
+  - databases-and-data
 ---
 
 Chatto is a real-time chat application for teams and communities, built as a

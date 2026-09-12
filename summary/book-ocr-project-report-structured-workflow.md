@@ -20,6 +20,8 @@ aliases:
   - Structured Book OCR Full Project Report
   - Workflow Backed Book OCR
 repo: /home/manuel/workspaces/2026-05-20/book-ocr/2026-05-20--book-ocr
+topics:
+  - software-engineering-craft
 ---
 
 Full article text fetched via surf browser automation (JS-rendered Obsidian Publish page). WebFetch returned only site title "Retro Obsidian Publish" with no body content.

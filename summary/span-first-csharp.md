@@ -4,6 +4,8 @@ title: "Span-First C#: Designing Around Span<T>"
 author: unknown
 date_fetched: 2026-07-25
 date_published: unknown
+topics:
+  - software-engineering-craft
 ---
 
 An in-depth guide to `Span<T>` and its ecosystem in modern C#, advocating for

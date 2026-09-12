@@ -4,6 +4,8 @@ title: "Software 2.0: Planning and Verifying a Greenfield Project"
 author: Aaron Stannard
 date: 2026-03-13
 fetched: 2026-05-14
+topics:
+  - agent-coding-workflow
 ---
 
 # Software 2.0: Planning and Verifying a Greenfield Project

@@ -4,6 +4,8 @@ title: "A Smart Bear Skills"
 author: Jason Cohen
 date_fetched: 2026-08-21
 date_published: 2026-08-16
+topics:
+  - agent-coding-workflow
 ---
 
 Jason Cohen — founder of two unicorns (WP Engine, Smart Bear) and author of *Hidden Multipliers* — has packaged the frameworks from his A Smart Bear blog into a set of Claude Code skills ("asb-skills"). The site advertises both multi-step **workshops** (Find Yourself, Find Your Carol, Customer Interviews, Set Your Price) and **standalone** skills (Rude Q&A, Good Market?, Positioning, Needs Stack), all installed via `npx skills add asmartbear/asb-skills` (or as a Claude Code plugin, or a ZIP).

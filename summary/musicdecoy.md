@@ -4,6 +4,8 @@ title: "Music Decoy - Stop launching the Music app whenever you press ▶ Play"
 author: lowtechguys (Alex Panaitiu)
 date_fetched: 2026-06-09
 date_published: unknown
+topics:
+  - developer-tools
 ---
 
 # Music Decoy

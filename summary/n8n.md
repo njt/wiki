@@ -4,6 +4,8 @@ title: "n8n — Secure Workflow Automation for Technical Teams"
 author: n8n-io
 date_fetched: 2026-05-14
 date_published: unknown
+topics:
+  - developer-tools
 ---
 
 # n8n

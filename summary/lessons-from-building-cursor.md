@@ -6,6 +6,8 @@ channel: ByteByteGo
 speaker: Unnamed Cursor team member (Speaker B)
 date_fetched: 2026-07-04
 duration: 25m 33s
+topics:
+  - agent-coding-workflow
 ---
 
 # Lessons from Building Cursor

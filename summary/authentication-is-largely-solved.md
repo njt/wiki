@@ -3,6 +3,8 @@ url: https://www.technometria.com/p/authentication-is-largely-solved
 title: Authentication Is Largely Solved
 author: Phil Windley
 date_fetched: 2026-09-11
+topics:
+  - security-and-sandboxing
 ---
 
 Phil Windley — CIO of Utah in 2001, co-founder of the Internet Identity Workshop, author of *Digital Identity*, *The Live Web*, and *Learning Digital Identity* — announces his fourth book, *Authorization in Action* (Manning), with a thesis he says he didn't expect to be making: authentication is largely a solved problem, and authorization is not.

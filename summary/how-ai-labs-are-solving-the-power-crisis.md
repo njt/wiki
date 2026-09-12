@@ -4,6 +4,8 @@ title: "How AI Labs Are Solving the Power Crisis: The Onsite Gas Deep Dive"
 author: Ajey Pandey, Jeremie Eliahou Ontiveros, Dylan Patel
 date_fetched: 2026-05-14
 date_published: 2025-12-30
+topics:
+  - ai-infrastructure-and-hardware
 ---
 
 # How AI Labs Are Solving the Power Crisis: The Onsite Gas Deep Dive

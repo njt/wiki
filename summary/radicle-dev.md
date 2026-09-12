@@ -4,6 +4,8 @@ title: "Radicle: The Sovereign Code Forge"
 author: Radicle Team (Radworks)
 date_fetched: 2026-05-16
 date_published: 2026-04-23 (domain migration from radicle.xyz to radicle.dev)
+topics:
+  - databases-and-data
 ---
 
 # Radicle

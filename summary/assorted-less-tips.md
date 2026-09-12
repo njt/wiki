@@ -7,6 +7,8 @@ date_published: 2025-11-11
 hn_url: https://news.ycombinator.com/item?id=46464120
 hn_score: 238
 hn_comments: 55
+topics:
+  - software-engineering-craft
 ---
 
 # Assorted less(1) tips

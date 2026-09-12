@@ -4,6 +4,8 @@ title: "What Broke & Why: Practical Lessons from Reinforcement Learning Post-Tra
 author: Luv Verma
 date_fetched: 2026-07-11
 date_published: 2026-07-01
+topics:
+  - ai-research-and-models
 ---
 
 A practitioner's guide to RL post-training for LLMs, written from a failure-first perspective. Each lesson comes from a real training run that broke in a specific way, with every reported number grounded in actual evaluation logs. The target setup is modest: one to eight H100-80GB GPUs.

@@ -5,6 +5,8 @@ author: Fernando Lucktemberg
 site: Next Kick Labs (Substack)
 date_fetched: 2026-07-05
 date_published: 2026-07-01
+topics:
+  - security-and-sandboxing
 ---
 
 # The Agentic AI Security Stack

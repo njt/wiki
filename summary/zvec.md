@@ -3,6 +3,8 @@ title: "zvec"
 url: https://github.com/alibaba/zvec
 date_fetched: 2026-05-14
 section: "Databases and Data"
+topics:
+  - databases-and-data
 ---
 
 # Zvec: In-Process Vector Database (Alibaba)

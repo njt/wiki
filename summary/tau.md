@@ -4,6 +4,8 @@ title: "Tau (τ): An educational coding agent you read like a textbook"
 author: Alejandro Ao
 date_fetched: 2026-07-03
 date_published: 2025
+topics:
+  - agent-architecture
 ---
 
 # Tau (τ) — Educational Coding Agent

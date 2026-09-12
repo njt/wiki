@@ -4,6 +4,8 @@ title: "Why Rocq is better than Lean for program verification"
 author: Joomy Korkut
 date_fetched: 2026-08-01
 date_published: 2026-07-28
+topics:
+  - software-engineering-craft
 ---
 
 Joomy Korkut explains why he continues to use Rocq rather than switching to Lean for formal program verification, despite Lean's momentum in mathematics and AI-assisted proof. The "better" in the title is deliberately provocative — he means "a better fit for my work today."

@@ -3,6 +3,8 @@ url: https://www.standardwebhooks.com/
 title: Standard Webhooks
 author: Standard Webhooks Technical Steering Committee
 date_fetched: 2026-08-06
+topics:
+  - software-engineering-craft
 ---
 
 Standard Webhooks is an open-source initiative to bring consistency, security, and reliability to webhook delivery. It provides a specification, reference libraries, and tooling so that webhook providers don't have to reinvent the wheel — and consumers don't have to write a different integration for every service.

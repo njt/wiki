@@ -4,6 +4,8 @@ title: "Dippin: A Domain-Specific Language for AI Agent Workflows"
 author: 2389 Research
 date_fetched: 2026-05-31
 date_published: 2025
+topics:
+  - agent-architecture
 ---
 
 # Dippin Language — Full Architectural Analysis

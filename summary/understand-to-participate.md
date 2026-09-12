@@ -5,6 +5,8 @@ author: Simon Willison
 date_fetched: 2026-07-05
 date_published: 2026-07-02
 site: simonwillison.net
+topics:
+  - agent-coding-workflow
 ---
 
 # Understand to participate

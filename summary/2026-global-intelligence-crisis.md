@@ -6,6 +6,8 @@ date_fetched: 2026-05-15
 date_published: 2026-02-24
 series: Global Macro Strategy / Market Insights
 fetch_method: surf (browser automation)
+topics:
+  - ideas-and-culture
 ---
 
 # The 2026 Global Intelligence Crisis

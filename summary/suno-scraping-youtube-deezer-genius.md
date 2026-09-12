@@ -4,6 +4,8 @@ title: "Hack Reveals Suno AI Music Generator Scraped YouTube, Deezer, and Genius
 author: Jason Koebler
 date_fetched: 2026-07-25
 date_published: 2026-07-15
+topics:
+  - ai-research-and-models
 ---
 
 A hacker breached Suno and shared stolen source code and user data with 404

@@ -4,6 +4,8 @@ title: "Platform Engineering End-to-End"
 author: Luca Cavallin
 date_fetched: 2026-05-18
 date_published: 2026-05-06
+topics:
+  - software-engineering-craft
 ---
 
 # Platform Engineering End-to-End

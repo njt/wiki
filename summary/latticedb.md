@@ -4,6 +4,8 @@ title: LatticeDB
 author: Jeff Hajewski
 date_fetched: 2026-09-04
 version: 0.15.0
+topics:
+  - databases-and-data
 ---
 
 # LatticeDB

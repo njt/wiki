@@ -3,6 +3,9 @@ title: "Trycycle"
 url: https://github.com/danshapiro/trycycle
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - guardrails-and-feedback-loops
+  - specifications-as-the-product
 ---
 
 A skill for Claude Code, Codex CLI, Kimi CLI, and OpenCode that plans, strengthens, and reviews code automatically. By Dan Shapiro.

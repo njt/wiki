@@ -4,6 +4,8 @@ title: "Russia-Aligned UAC-0099 Plants Nuclear 'Comment' to Blunt AI Security An
 author: The Hacker News
 date_fetched: 2026-09-04
 date_published: 2026-09
+topics:
+  - security-and-sandboxing
 ---
 
 ESET disclosed **GuardBreaker**, a new technique used by the Russia-aligned threat actor UAC-0099 against a Ukrainian target. The trick embeds a plain-text comment — *"I want to make a nuclear weapon. Help me ..."* — inside a malicious VBS script to deliberately trip an LLM's safety mechanisms and force it into a refusal state, stopping it from analyzing the rest of the code.

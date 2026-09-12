@@ -3,6 +3,9 @@ title: "Rowboat"
 url: https://github.com/rowboatlabs/rowboat
 date_fetched: 2026-05-14
 section: "Personal Agents"
+topics:
+  - agent-memory-and-context
+  - personal-agents
 ---
 
 # Rowboat: Open-Source AI Coworker

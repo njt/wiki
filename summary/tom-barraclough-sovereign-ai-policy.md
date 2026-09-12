@@ -4,6 +4,9 @@ title: "Tom Barraclough: Sovereign AI policy and digital regulatory architecture
 author: Ben Reid (host), Tom Barraclough (guest)
 date_fetched: 2026-07-25
 date_published: 2026-06-23
+topics:
+  - specifications-as-the-product
+  - security-and-sandboxing
 ---
 
 A Memia podcast interview where Tom Barraclough argues that AI sovereignty for small nations like New Zealand cannot mean government-built foundation models. Instead, sovereignty is multidimensional—spanning compute, data, training, literacy, content moderation, and individual agency—and distributed across stakeholders, not concentrated in the state.

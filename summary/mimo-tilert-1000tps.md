@@ -4,6 +4,8 @@ title: "MiMo-V2.5-Pro-UltraSpeed: Pushing 1T-Parameter Model Generation Speed to
 author: Xiaomi MiMo Team
 date_fetched: 2026-06-09
 date_published: 2026-06-08
+topics:
+  - ai-infrastructure-and-hardware
 ---
 
 # MiMo-V2.5-Pro-UltraSpeed: Pushing 1T-Parameter Model Generation Speed to 1000 TPS

@@ -4,6 +4,8 @@ title: "HN: Don't fall into the anti-AI hype"
 author: todsacerdoti (linking to antirez.com/news/158)
 date_fetched: 2026-05-15
 date_published: ~2026-01 (4 months before fetch)
+topics:
+  - agent-coding-workflow
 ---
 
 Hacker News discussion (1,296 points, 1,631 comments) on antirez's essay pushing back against AI skepticism. The comment section is an accidental focus group on what LLMs actually are and what they're actually good for.

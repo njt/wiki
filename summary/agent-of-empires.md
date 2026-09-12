@@ -3,6 +3,8 @@ title: "Agent of Empires"
 url: https://github.com/njbrake/agent-of-empires
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-orchestration
 ---
 
 # Agent of Empires (AoE)

@@ -4,6 +4,8 @@ title: "jlens — Jacobian lens"
 author: Anthropic PBC
 date_fetched: 2026-07-08
 date_published: 2026-06
+topics:
+  - ai-research-and-models
 ---
 
 Reference implementation for the paper "Verbalizable Representations Form a

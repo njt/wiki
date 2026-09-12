@@ -4,6 +4,8 @@ title: "Prompting Claude Fable 5.1"
 author: Anthropic
 date_fetched: 2026-09-04
 date_published: 2026 (undated)
+topics:
+  - agent-coding-workflow
 ---
 
 Anthropic's field guide to the behavioral differences between Claude Fable 5.1 and its predecessor, and the prompting patterns that address them. The core claim: existing Fable 5 prompts should mostly work unchanged, but a handful of deltas are worth knowing — each mapped from a symptom you'd observe to a targeted fix.

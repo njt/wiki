@@ -4,6 +4,9 @@ title: Chiaro Methodology
 author: Y Assurance PLLC (Chiaro)
 date_published: 2026-07-28
 date_fetched: 2026-08-06
+topics:
+  - guardrails-and-feedback-loops
+  - security-and-sandboxing
 ---
 
 # Chiaro Methodology (Summary)

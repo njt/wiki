@@ -3,6 +3,8 @@ title: "What I learned building an opinionated and minimal coding agent"
 url: https://mariozechner.at/posts/2025-11-30-pi-coding-agent/
 date_fetched: 2026-05-14
 section: "LLMs"
+topics:
+  - agent-architecture
 ---
 
 # What I Learned Building an Opinionated and Minimal Coding Agent

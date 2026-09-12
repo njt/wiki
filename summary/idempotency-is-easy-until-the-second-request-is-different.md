@@ -4,6 +4,8 @@ title: "Idempotency Is Easy Until the Second Request Is Different"
 author: Dochia
 date_fetched: 2026-05-18
 date_published: 2026-05-07
+topics:
+  - software-engineering-craft
 ---
 
 # Idempotency Is Easy Until the Second Request Is Different

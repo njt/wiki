@@ -5,6 +5,8 @@ author: Karan (Kalra)
 date_fetched: 2026-07-05
 date_published: 2026-07-01
 site: Nanonets Blog
+topics:
+  - agent-memory-and-context
 ---
 
 # Context graphs: how AI agents remember why decisions were made

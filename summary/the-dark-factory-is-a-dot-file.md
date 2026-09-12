@@ -3,6 +3,9 @@ title: "The Dark Factory is a DOT File"
 url: https://2389.ai/posts/the-dark-factory-is-a-dot-file/
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - specifications-as-the-product
+  - agent-architecture
 ---
 
 AI-powered software development is converging on a three-layer architecture: LLM client, agent loop, pipeline engine. The pipeline specification files (DOT format) are the truly valuable, reusable artifacts -- not the runner implementations.

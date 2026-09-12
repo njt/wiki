@@ -4,6 +4,8 @@ title: "How We Scaled Notifications with Fanout"
 author: Lingene Yang (backend engineer at Patreon)
 date_fetched: 2026-07-18
 date_published: 2026-07-15
+topics:
+  - software-engineering-craft
 ---
 
 Patreon rebuilt their notification platform around a fanout architecture after the legacy system — a single async task handling millions of notifications for large creators — began timing out consistently by early 2025. The old design lacked horizontal scalability and tightly coupled in-app feed, push, and email delivery so that a failure in one channel could block the others.

@@ -3,6 +3,8 @@ url: https://stng.substack.com/p/rewrite-all-the-code-all-the-time
 title: "Rewrite All the Code, All the Time"
 author: Adam (stng.substack.com)
 date_fetched: 2026-08-07
+topics:
+  - specifications-as-the-product
 ---
 
 # Rewrite All the Code, All the Time — Précis

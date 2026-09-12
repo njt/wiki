@@ -5,6 +5,8 @@ author: schlarp
 date_fetched: 2026-08-25
 date_published: unknown
 site: schlarp.com
+topics:
+  - security-and-sandboxing
 ---
 
 ## What this is

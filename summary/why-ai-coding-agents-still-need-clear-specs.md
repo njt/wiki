@@ -4,6 +4,9 @@ title: "Why AI Coding Agents Still Need Clear Specs"
 author: Markus Eisele
 date_fetched: 2026-07-11
 date_published: 2026-07-08
+topics:
+  - agent-orchestration
+  - specifications-as-the-product
 ---
 
 # Why AI Coding Agents Still Need Clear Specs — Markus Eisele

@@ -4,6 +4,8 @@ title: "Introduction to recursive-mode"
 author: try-works
 date_fetched: 2026-05-14
 date_published: unknown
+topics:
+  - agent-coding-workflow
 ---
 
 # Introduction to recursive-mode

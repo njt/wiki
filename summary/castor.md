@@ -3,6 +3,8 @@ url: https://github.com/stupside/castor
 title: "Castor"
 author: stupside
 date_fetched: 2026-07-25
+topics:
+  - developer-tools
 ---
 
 Castor is a Go CLI (~10,640 lines, MIT) that casts web video to smart TVs at

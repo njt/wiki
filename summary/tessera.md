@@ -4,6 +4,8 @@ title: Tessera — Consent-gated remote access broker
 author: Emma Yusufu
 date_fetched: 2026-06-15
 date_published: 2025-06-01
+topics:
+  - misc
 ---
 
 # Tessera — Deep Architecture Analysis

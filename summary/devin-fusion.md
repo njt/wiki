@@ -4,6 +4,8 @@ title: "Devin Fusion: Frontier Performance at 35% Lower Cost"
 author: The Cognition Team
 date_fetched: 2026-07-18
 date_published: 2026-06-29
+topics:
+  - agent-architecture
 ---
 
 Cognition introduces **Devin Fusion**, a multi-model agent harness that routes coding tasks between a frontier model ("main agent") and a cheaper "sidekick" model, aiming to preserve frontier-quality results at lower cost.

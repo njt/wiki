@@ -4,6 +4,8 @@ title: DocumentDB — MongoDB-Compatible Open Source Document Database on Postgr
 author: Microsoft
 date_fetched: 2026-07-05
 date_published: 2025
+topics:
+  - databases-and-data
 ---
 
 # Raw Analysis: DocumentDB (GitHub Repository)

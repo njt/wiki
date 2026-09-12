@@ -5,6 +5,8 @@ author: antirez (Salvatore Sanfilippo), with GPT 5.5 assistance
 date_fetched: 2026-05-18
 date_published: 2026-05-14
 tags: [inference, c, metal, cuda, deepseek, gguf, quantization, local-ai]
+topics:
+  - misc
 ---
 
 ## Source Analysis

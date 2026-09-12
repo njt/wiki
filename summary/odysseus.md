@@ -5,6 +5,8 @@ author: pewdiepie-archdaemon
 date_fetched: 2026-06-05
 date_published: 2025
 tags: [ai, agent, self-hosted, chat, local-first, fastapi, python, mcp, tool-use]
+topics:
+  - misc
 ---
 
 # Odysseus — Full Repository Analysis

@@ -4,6 +4,8 @@ title: The Cult Of Vibe Coding Is Insane
 author: Bram Cohen
 date_fetched: 2026-05-15
 date_published: 2026-04-05
+topics:
+  - agent-coding-workflow
 ---
 
 # The Cult Of Vibe Coding Is Insane

@@ -3,6 +3,8 @@ title: "Process-Based Concurrency: Why BEAM and OTP Keep Being Right"
 url: https://variantsystems.io/blog/beam-otp-process-concurrency
 date_fetched: 2026-05-14
 section: "Distributed Systems"
+topics:
+  - agent-orchestration
 ---
 
 # BEAM OTP: Why Everyone Keeps Reinventing It

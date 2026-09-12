@@ -4,6 +4,8 @@ title: "Building Global Web Apps? Reduce Latency with Edge Computing"
 author: Manikanda Akash Munisamy
 date_fetched: 2026-07-18
 date_published: 2026-07-15
+topics:
+  - software-engineering-craft
 ---
 
 A practical, developer-facing introduction to edge computing — running lightweight application logic at hundreds of globally distributed points of presence rather than in a handful of centralized cloud regions.

@@ -3,6 +3,8 @@ title: "Elements of Code"
 url: https://elementsofcode.io/
 date_fetched: 2026-05-14
 section: "Producing and Operating Software"
+topics:
+  - software-engineering-craft
 ---
 
 By John Mark Wilkinson. A book that gives programmers a series of rules for writing software that future readers will understand.

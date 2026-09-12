@@ -4,6 +4,8 @@ title: "Bounding the Blast Radius: A Survey of Prompt-Injection Defenses for LLM
 author: Ibrahim Abdu
 date_fetched: 2026-07-08
 date_published: 2026-06-26
+topics:
+  - security-and-sandboxing
 ---
 
 A survey of prompt-injection defenses for LLM agents, arguing that no single

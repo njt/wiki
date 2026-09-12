@@ -4,6 +4,8 @@ title: Building Autonomous Goal Loops That Deliver
 author: Unknown
 date_fetched: 2026-09-04
 date_published: undated
+topics:
+  - agent-architecture
 ---
 
 # Building Autonomous Goal Loops That Deliver

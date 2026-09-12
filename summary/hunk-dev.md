@@ -3,6 +3,8 @@ url: https://www.hunk.dev/
 title: Hunk — Diff Viewer
 author: modem-dev
 date_fetched: 2026-08-08
+topics:
+  - developer-tools
 ---
 
 Hunk is a terminal-based diff viewer designed for code review in the agent era. It renders an entire changeset as one continuous stream in sidebar order, eliminating the single-file-flipping workflow of traditional diff tools. File counts are visible at a glance, and `[` / `]` keys jump between hunks.

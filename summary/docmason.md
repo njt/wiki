@@ -3,6 +3,8 @@ title: "docmason"
 url: https://github.com/jetxu-llm/docmason
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - developer-tools
 ---
 
 # DocMason: Local AI Knowledge Base for Office Documents

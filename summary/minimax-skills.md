@@ -3,6 +3,8 @@ title: "MinMax Skills"
 url: https://github.com/MiniMax-AI/skills
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - agent-coding-workflow
 ---
 
 # MiniMax Skills

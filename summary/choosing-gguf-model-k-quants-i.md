@@ -5,6 +5,8 @@ author: Benjamin Marie
 date_fetched: 2026-07-05
 date_published: 2025-10-13
 site: "The Kaitchup – AI on a Budget (Substack)"
+topics:
+  - ai-research-and-models
 ---
 
 ## What Is GGUF?

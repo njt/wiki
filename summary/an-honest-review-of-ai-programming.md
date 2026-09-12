@@ -4,6 +4,8 @@ title: An Honest Review of AI Programming
 author: Mathieu Ropert
 date_published: 2026-08-04
 date_fetched: 2026-08-06
+topics:
+  - agent-coding-workflow
 ---
 
 Mathieu Ropert, a C++ game developer and consultant, spent three months using Claude and other LLMs for programming work and came away with a nuanced, contrarian assessment: LLMs are genuinely useful as research assistants and codebase-exploration tools, but consistently mediocre at writing code. His review is structured around four domains — search, hallucinations, coding, and sustainability — and his thesis is that the tool's real value is in *finding and summarizing information*, not generating it.

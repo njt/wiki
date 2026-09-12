@@ -5,6 +5,8 @@ source: "https://dbmcco.github.io/2026/03/24/smart-models-dumb-pipes/"
 blog: "Means of Production"
 date_published: 2026-03-24
 date_fetched: 2026-05-14
+topics:
+  - ideas-and-culture
 ---
 
 # Smart Models, Dumb Pipes

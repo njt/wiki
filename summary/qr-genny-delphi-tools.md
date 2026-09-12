@@ -4,6 +4,8 @@ title: QR Generator – delphi.tools
 author: delphi.tools (site author unknown)
 date_fetched: 2026-05-18
 date_published: unknown
+topics:
+  - developer-tools
 ---
 
 # QR Generator – delphi.tools

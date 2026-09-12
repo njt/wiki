@@ -5,6 +5,8 @@ author: u/cyb3rofficial
 date_fetched: 2026-06-09
 date_published: 2026-06-05
 platform: Reddit (r/DeepSeek)
+topics:
+  - ai-research-and-models
 ---
 
 ## Original Post

@@ -4,6 +4,8 @@ title: "Minions: Stripe's One-Shot, End-to-End Coding Agents"
 author: Alistair Gray
 date_fetched: 2026-05-14
 date_published: 2026-02-09
+topics:
+  - agent-coding-workflow
 ---
 
 # Minions: Stripe's One-Shot, End-to-End Coding Agents

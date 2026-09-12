@@ -4,6 +4,8 @@ title: "Phoenix LiveView — Welcome"
 author: Phoenix Core Team / Chris McCord
 date_fetched: 2026-06-15
 date_published: 2019 (launch), continuously updated
+topics:
+  - developer-tools
 ---
 
 # Phoenix LiveView — Welcome

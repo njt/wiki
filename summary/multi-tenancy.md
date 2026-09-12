@@ -4,6 +4,8 @@ title: "Multi-Tenancy Isn't About Databases"
 author: Derek Comartin
 date_fetched: 2026-07-18
 date_published: 2026-07-08
+topics:
+  - software-engineering-craft
 ---
 
 Derek Comartin argues that multi-tenancy discussions start in the wrong place. The

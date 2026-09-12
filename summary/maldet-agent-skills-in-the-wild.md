@@ -4,6 +4,8 @@ title: '"Do Not Mention This to the User": Detecting and Understanding Malicious
 author: "Yi Liu, Zhihao Chen, Yanjun Zhang (Griffith University), Gelei Deng (Nanyang Technological University), Yuekang Li (UNSW), Jianting Ning (Zhejiang Sci-Tech University), Leo Yu Zhang (Griffith University)"
 date_fetched: 2026-07-21
 date_published: 2026-06-10
+topics:
+  - security-and-sandboxing
 ---
 
 A systematic security analysis of 98,380 skills from two community registries for LLM coding agents, using static pattern matching followed by sandboxed dynamic verification. The authors confirm 157 malicious skills containing 632 vulnerabilities across 13 attack techniques.

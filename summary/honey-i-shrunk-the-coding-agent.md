@@ -4,6 +4,9 @@ title: "Honey, I Shrunk the Coding Agent"
 author: Itay Inbar
 date_fetched: 2026-05-15
 date_published: 2026-04-19
+topics:
+  - agent-memory-and-context
+  - agent-architecture
 ---
 
 Coding Agent Adaptation Lets a 9B LLM Outperform 10x Larger Models on Aider Polyglot Benchmark

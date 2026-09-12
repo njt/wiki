@@ -4,6 +4,8 @@ title: "What you NEED to know before touching a video file"
 author: arch1t3cht
 date_fetched: 2026-05-15
 date_published: unknown (gist, ~303 stars, 22 forks, 54 revisions)
+topics:
+  - software-engineering-craft
 ---
 
 # What you NEED to know before touching a video file

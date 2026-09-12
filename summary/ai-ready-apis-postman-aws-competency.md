@@ -4,6 +4,8 @@ title: "AI is ready. Your APIs probably aren't."
 author: Matt Gray
 date_fetched: 2026-07-18
 date_published: 2026-07-09
+topics:
+  - agent-architecture
 ---
 
 Matt Gray announces Postman's achievement of the AWS AI Competency in Agentic AI Tools and uses the milestone to argue that API readiness — not model selection — is the real bottleneck for enterprise AI adoption.

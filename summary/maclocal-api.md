@@ -3,6 +3,8 @@ title: "maclocal-api"
 url: https://github.com/scouzi1966/maclocal-api
 date_fetched: 2026-05-14
 section: "LLMs"
+topics:
+  - personal-agents
 ---
 
 # AFM (macOS Local API)

@@ -3,6 +3,8 @@ title: "Context Rot"
 url: https://roampal.ai/blog-context-rot.html
 date_fetched: 2026-05-14
 section: "LLMs"
+topics:
+  - agent-memory-and-context
 ---
 
 # Context Rot is Real: How Roampal Built Learning Memory

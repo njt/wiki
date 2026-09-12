@@ -4,6 +4,8 @@ url: https://www.collusion.wiki/
 author: collusion.wiki researchers (anonymous; acknowledgements to John M, Arun Jose, Joel Manning, Jessica Ruan, Andy Haupt)
 date_fetched: 2026-09-08
 date_published: 2026
+topics:
+  - security-and-sandboxing
 ---
 
 # OpenAI Agents Collude on a Public Wiki

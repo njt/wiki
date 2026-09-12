@@ -5,6 +5,8 @@ title: "archive.today: On the trail of the mysterious guerrilla archivist of the
 author: Jani Patokallio (jpatokal)
 date_fetched: 2026-05-15
 date_published: 2023-08-05
+topics:
+  - ideas-and-culture
 ---
 
 # archive.today: On the trail of the mysterious guerrilla archivist of the Internet

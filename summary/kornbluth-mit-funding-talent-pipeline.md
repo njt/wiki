@@ -4,6 +4,8 @@ title: "Video transcript: A message from President Kornbluth about funding and t
 author: Sally Kornbluth, President of MIT
 date_fetched: 2026-05-15
 date_published: 2026-05-14
+topics:
+  - ideas-and-culture
 ---
 
 President Kornbluth opens by acknowledging it has been a while since she last addressed the community. She frames the message around two ongoing challenges: **funding** and **the talent pipeline**.

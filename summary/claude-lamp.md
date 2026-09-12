@@ -3,6 +3,8 @@ title: "Claude Lamp"
 url: https://github.com/bobek-balinek/claude-lamp
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - developer-tools
 ---
 
 # Claude Lamp: Physical Status Indicator for Claude Code

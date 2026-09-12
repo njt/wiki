@@ -4,6 +4,8 @@ title: Crabbox
 author: OpenClaw
 date_fetched: 2026-05-15
 date_published: unknown
+topics:
+  - security-and-sandboxing
 ---
 
 Crabbox is an open-source agent workspace control plane for software maintainers and AI agents. It lets you lease managed cloud capacity, point at an existing SSH host, or use an agent sandbox provider, then sync your dirty checkout, run commands remotely, stream output, collect evidence, and release. The tagline: "Warm a box, sync the diff, run the suite."

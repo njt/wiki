@@ -4,6 +4,8 @@ title: "acpx — Headless CLI client for stateful Agent Client Protocol (ACP) se
 author: OpenClaw
 date_fetched: 2026-05-14
 date_published: null
+topics:
+  - agent-orchestration
 ---
 
 # acpx

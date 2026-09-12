@@ -3,6 +3,8 @@ title: "surf-cli"
 url: https://github.com/wesen/surf-cli/
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - developer-tools
 ---
 
 # Surf CLI: Browser Automation for AI Agents

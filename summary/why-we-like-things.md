@@ -4,6 +4,8 @@ title: "Why We Like Things"
 author: Asterisk Magazine (unnamed byline)
 date_fetched: 2026-08-25
 date_published: 2026
+topics:
+  - ideas-and-culture
 ---
 
 # Why We Like Things

@@ -4,6 +4,8 @@ title: "AI Cybersecurity After Mythos: The Jagged Frontier"
 author: Stanislav Fort, Founder and Chief Scientist at AISLE
 date_fetched: 2026-05-15
 date_published: 2026-04-07
+topics:
+  - security-and-sandboxing
 ---
 
 # AI Cybersecurity After Mythos: The Jagged Frontier

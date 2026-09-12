@@ -4,6 +4,8 @@ title: Components and Hooks must be pure
 author: React.dev (Meta)
 date_published: 2025
 date_fetched: 2026-08-08
+topics:
+  - software-engineering-craft
 ---
 
 React's canonical reference on purity: the foundational rule that components and hooks must be idempotent, free of render-phase side effects, and must never mutate non-local values. The page covers what purity means in React's declarative model, why it matters for performance and correctness, and exactly where the boundaries sit — what's allowed (local mutation, lazy initialization) and what's forbidden (mutating props, state, hook arguments, or values after passing them to JSX).

@@ -4,6 +4,8 @@ title: "/swarm — Multi-Agent Swarm Orchestration Playbook"
 author: jleechanorg
 date_fetched: 2026-07-18
 date_published: 2026-07
+topics:
+  - agent-orchestration
 ---
 
 A playbook for running multi-agent swarms via Claude Code, distilled from real 2026-07 design-retro swarms (~180 agents, ~7M subagent tokens). It covers two fan-out engines — the Workflow tool (ultracode, the default) and Agent Teams (interactive lanes for mid-flight steering) — plus a mandatory sidekick durability layer that wraps every swarm for crash recovery.

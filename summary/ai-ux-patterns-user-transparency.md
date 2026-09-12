@@ -4,6 +4,8 @@ title: AI UX Patterns — User Transparency
 author: Kathryn Grayson Nanz
 site: Telerik (Progress)
 date_fetched: 2026-08-26
+topics:
+  - agent-architecture
 ---
 
 # AI UX Patterns — User Transparency

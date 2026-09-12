@@ -5,6 +5,8 @@ author: Jason Liu
 date_fetched: 2026-05-18
 date_published: 2026-05-10
 tags: [codex, agent-workflow, heartbeats, memory, voice, browser-automation]
+topics:
+  - agent-coding-workflow
 ---
 
 # Codex-maxxing

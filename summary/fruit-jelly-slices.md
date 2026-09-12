@@ -6,6 +6,8 @@ date_fetched: 2026-05-15
 date_published: 2016-05-05
 date_updated: 2023-03-29
 publication: The Forward
+topics:
+  - ideas-and-culture
 ---
 
 # The secret Jewish history of those kosher fruit-jelly slices

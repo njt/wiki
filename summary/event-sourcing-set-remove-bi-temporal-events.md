@@ -4,6 +4,8 @@ title: "Event Sourcing: set-and-remove-based bi-temporal events"
 author: Urs Enzler
 date_fetched: 2026-07-18
 date_published: 2026-07-07
+topics:
+  - software-engineering-craft
 ---
 
 Part twelve of Enzler's event sourcing series. It contrasts two kinds of

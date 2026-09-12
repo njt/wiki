@@ -4,6 +4,8 @@ title: Why "Build vs Buy" is the Wrong Question
 author: Chris James
 date_fetched: 2026-07-05
 date_published: 2026-07-02
+topics:
+  - software-engineering-craft
 ---
 
 # Why "Build vs Buy" is the Wrong Question

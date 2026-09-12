@@ -5,6 +5,8 @@ author: Marketing (Canopy Wave)
 date_fetched: 2026-07-05
 date_published: 2026-06-17
 site: Canopy Wave Blog
+topics:
+  - ai-infrastructure-and-hardware
 ---
 
 # NVIDIA B300 vs H200: GPU Specs & Performance Analysis

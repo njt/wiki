@@ -4,6 +4,9 @@ title: "Agent swarms and the new model economics"
 author: Wilson Lin
 date_fetched: 2026-07-21
 date_published: 2026-07-20
+topics:
+  - agent-orchestration
+  - specifications-as-the-product
 ---
 
 Cursor's blog post describes their agent swarm architecture, the engineering

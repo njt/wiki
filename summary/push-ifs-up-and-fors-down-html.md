@@ -4,6 +4,8 @@ title: Push Ifs Up And Fors Down
 author: Alex Kladov (matklad)
 date_published: 2023-11-15
 source_site: matklad.github.io
+topics:
+  - software-engineering-craft
 ---
 
 A short blog post articulating two related rules of thumb for code structure from Alex Kladov (matklad), the creator of rust-analyzer and a TigerBeetle engineer.

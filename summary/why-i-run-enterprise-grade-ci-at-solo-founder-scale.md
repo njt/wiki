@@ -4,6 +4,8 @@ title: "Why I run enterprise-grade CI at solo-founder scale"
 author: Lionshead
 date_fetched: 2026-07-08
 date_published: 2026-07-05
+topics:
+  - software-engineering-craft
 ---
 
 Lionshead, a solo founder, explains why they invest in a full enterprise CI pipeline despite being one person. Their pipeline covers four areas: build, test, security, and deploy — with security and preview environments standing out as unusual for a solo shop.

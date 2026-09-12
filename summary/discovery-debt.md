@@ -5,6 +5,8 @@ author: Benedikt Kantus
 date_fetched: 2026-07-05
 date_published: 2026-06-16
 site: Leading in Product (Substack)
+topics:
+  - software-engineering-craft
 ---
 
 # Discovery debt: why unvalidated assumptions are more expensive than technical debt

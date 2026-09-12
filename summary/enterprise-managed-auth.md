@@ -4,6 +4,8 @@ title: Centrally manage authorization for MCP connectors
 author: Anthropic (uncredited)
 date_fetched: 2026-06-21
 date_published: 2026-06-18
+topics:
+  - security-and-sandboxing
 ---
 
 # Centrally manage authorization for MCP connectors

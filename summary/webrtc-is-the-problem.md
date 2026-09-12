@@ -4,6 +4,8 @@ title: "WebRTC Is the Problem"
 author: "@kixelated"
 date_fetched: 2026-05-18
 date_published: 2026-05-06
+topics:
+  - software-engineering-craft
 ---
 
 # OpenAI's WebRTC Problem

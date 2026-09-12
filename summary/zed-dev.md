@@ -4,6 +4,8 @@ title: Zed — Code Editor for Speed and Collaboration
 author: Zed Industries (Nathan Sobo, Antonio Scandurra, Max Brunsfeld)
 date_fetched: 2026-05-15
 date_published: 2026-05-15
+topics:
+  - developer-tools
 ---
 
 # Zed — Code Editor

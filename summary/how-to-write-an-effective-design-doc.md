@@ -6,6 +6,8 @@ date_fetched: 2026-07-03
 date_published: 2026-06-24
 publication: "Refactoring English (refactoringenglish.com)"
 book: "Refactoring English: Effective Writing for Software Developers"
+topics:
+  - software-engineering-craft
 ---
 
 # How to Write an Effective Software Design Document

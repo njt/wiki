@@ -3,6 +3,9 @@ title: "Anomaly Detection"
 url: https://uriv.me/blog/anomaly-detection-with-welford-and-kv
 date_fetched: 2026-05-14
 section: "Databases and Data"
+topics:
+  - software-engineering-craft
+  - databases-and-data
 ---
 
 # Anomaly Detection with Welford's Algorithm and KV Storage

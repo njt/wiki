@@ -3,6 +3,8 @@ title: "onecli"
 url: https://github.com/onecli/onecli
 date_fetched: 2026-05-14
 section: "Security"
+topics:
+  - security-and-sandboxing
 ---
 
 # OneCLI: Credential Vault for AI Agents

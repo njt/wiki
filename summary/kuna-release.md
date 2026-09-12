@@ -4,6 +4,8 @@ title: "Kuna: Decompiler Development in the Age of Coding Agents"
 author: Zion Leonahenahe Basque
 date_fetched: 2026-08-01
 date_published: 2026-07-29
+topics:
+  - agent-coding-workflow
 ---
 
 Kuna is an experimental "agent-first decompiler designed for autonomous

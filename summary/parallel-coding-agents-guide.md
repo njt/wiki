@@ -4,6 +4,8 @@ title: "The Complete Guide to Running Parallel AI Coding Agents"
 author: Avi Peltz (Cofounder, Superset)
 date_fetched: 2026-05-15
 date_published: 2026-02-18
+topics:
+  - agent-orchestration
 ---
 
 # The Complete Guide to Running Parallel AI Coding Agents

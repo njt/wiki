@@ -4,6 +4,8 @@ title: "The New SDLC with Vibe Coding: From ad-hoc prompting to Agentic Engineer
 author: Addy Osmani, Shubham Saboo, and Sokratis Kartakis
 date_fetched: 2026-07-18
 date_published: 2026-05
+topics:
+  - agent-coding-workflow
 ---
 
 A paper by Addy Osmani, Shubham Saboo, and Sokratis Kartakis that maps the emerging landscape of AI-assisted software development. It defines a spectrum from casual "vibe coding" — prompting an AI and accepting whatever comes back with minimal verification — to disciplined "agentic engineering," where AI acts as an implementation engine inside structured systems of specifications, tests, guardrails, and human architectural oversight.

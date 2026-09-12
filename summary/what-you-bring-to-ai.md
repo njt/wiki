@@ -4,6 +4,8 @@ title: "What You Bring to AI Determines the Result"
 author: Tim O'Reilly
 date_fetched: 2026-07-05
 date_published: 2026-06-29
+topics:
+  - ideas-and-culture
 ---
 
 # What You Bring to AI Determines the Result

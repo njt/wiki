@@ -5,6 +5,8 @@ author: Bestmate
 date_fetched: 2026-09-04
 date_published: 2026
 site: Bestmate
+topics:
+  - agent-architecture
 ---
 
 # How I Actually Use Agents

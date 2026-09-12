@@ -3,6 +3,9 @@ title: "kata"
 url: https://github.com/wesm/kata
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-coding-workflow
+  - software-engineering-craft
 ---
 
 Local-first issue tracking for AI-assisted software work by Wes McKinney. Agent-friendly CLI and human-facing TUI.

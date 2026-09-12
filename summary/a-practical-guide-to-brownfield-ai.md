@@ -6,6 +6,8 @@ author: Daniel Pupius
 date_fetched: 2026-05-15
 date_published: 2026-02-04
 publication: The General Partnership (Substack)
+topics:
+  - agent-coding-workflow
 ---
 
 # A Practical Guide to Brownfield AI Development

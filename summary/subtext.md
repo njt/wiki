@@ -4,6 +4,8 @@ title: "Subtext — Live Jacobian-Lens Thought Streaming"
 author: ninjahawk
 date_fetched: 2026-07-08
 date_published: 2026-06
+topics:
+  - developer-tools
 ---
 
 Subtext is a real-time instrument for observing the pre-verbal workspace of a

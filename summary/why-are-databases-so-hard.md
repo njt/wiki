@@ -4,6 +4,8 @@ title: "Why are databases so hard?"
 author: gtowey
 date_fetched: 2026-08-01
 date_published: 2026-07-30
+topics:
+  - databases-and-data
 ---
 
 A database reliability engineer argues that databases are a perennial source of

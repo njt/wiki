@@ -1,3 +1,8 @@
+---
+topics:
+  - agent-orchestration
+  - guardrails-and-feedback-loops
+---
 # pi-observers
 
 File-defined observer agents for the [pi](https://pi.dev) coding agent — a TypeScript extension that lets users declare background observers as Markdown files with YAML frontmatter. Observers watch one axis of quality each (memory, skills, goals, verification), propose short advisories, and a central reconciler decides what reaches the main agent. They are read-only, fire-and-forget, and never answer on the agent's behalf. Published as `pi-observers` on npm; requires pi >= 0.83.

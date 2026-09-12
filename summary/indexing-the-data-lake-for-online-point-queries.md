@@ -4,6 +4,8 @@ title: Indexing the Data Lake for Online Point Queries
 author: Spotify Engineering
 date_fetched: 2026-08-21
 date_published: 2026-07
+topics:
+  - databases-and-data
 ---
 
 Spotify describes **Random Access Parquet (RAP)**, a technique for serving fast point queries (look up a key and its rows) directly from the Parquet files already sitting in the cloud data lake — no copy into a KV store like Bigtable or DynamoDB.

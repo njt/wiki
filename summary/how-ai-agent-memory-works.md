@@ -4,6 +4,8 @@ title: How AI Agent Memory Works
 author: Mert Cobanov
 date_fetched: 2026-05-15
 date_published: unknown
+topics:
+  - agent-memory-and-context
 ---
 
 Interactive illustrated technical essay on how memory systems work for AI agents — the orchestration layer around LLMs that carries information forward across turns. Covers context windows, working vs. long-term memory, memory lifecycle governance, vector embeddings, four memory types (episodic, semantic, procedural, working), the RAG loop with production tricks (HyDE, RRF), retrieval pipelines, six architecture tradeoffs, multi-agent memory, and production considerations. Includes live interactive demos (embedding visualization, timeline navigation, drag-and-drop memory cards, latency sliders, multi-agent permission lab).

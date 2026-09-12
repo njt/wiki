@@ -3,6 +3,8 @@ title: "Browser Use"
 url: https://docs.browser-use.com/llms-full.txt
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - developer-tools
 ---
 
 # Browser Use Cloud Documentation

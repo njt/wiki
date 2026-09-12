@@ -4,6 +4,8 @@ title: "Aurora DSQL: Scalable, Multi-Region OLTP"
 author: Marc Brooker, Marc Bowes, Mike Hershey, Zak van der Merwe, James Morle, Matthys Strydom
 date_fetched: 2026-07-21
 date_published: 2026-07-14
+topics:
+  - databases-and-data
 ---
 
 AWS paper describing the architecture of Aurora DSQL, a serverless,

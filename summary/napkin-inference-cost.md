@@ -4,6 +4,8 @@ title: "Inference cost at scale with napkin math"
 author: injuly.in (unnamed)
 date_fetched: 2026-06-21
 date_published: 2026-06-14
+topics:
+  - ai-infrastructure-and-hardware
 ---
 
 # Inference cost at scale with napkin math

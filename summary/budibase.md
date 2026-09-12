@@ -4,6 +4,8 @@ title: Budibase — Open-Source Low-Code Platform
 author: Budibase
 date_fetched: 2026-06-21
 date_published: 2023-06-21
+topics:
+  - misc
 ---
 
 # Budibase — Architectural Analysis (Deep Repo Clone)

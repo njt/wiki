@@ -4,6 +4,8 @@ title: "Execution-free Agentic Program Repair for Enterprise-Scale Development"
 author: Saurabh Bodhe, Sanjukta De, Subhayan Roy, Jaydip Pokiya, Indira Vats, Sehajpreet Kaur, Xuemeng Li, Lejin Varghese, Yonas Bedasso, Max Kiehn
 date_fetched: 2026-07-25
 date_published: 2026-04-12
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 PegasusAgent is an execution-free agentic automated program repair (APR) system built at AMD on top of the Claude Agent SDK. Its core innovation is replacing test-based validation — impractical for industrial C++ codebases with long build cycles and proprietary test environments — with static analysis (CppCheck) combined with LLM-as-a-judge semantic critique.

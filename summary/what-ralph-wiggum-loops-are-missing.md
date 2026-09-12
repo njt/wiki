@@ -5,6 +5,8 @@ author: xr0am
 date_fetched: 2026-05-15
 date_published: 2026-01-24
 source: Orchestrated Code (Substack)
+topics:
+  - agent-orchestration
 ---
 
 # What Ralph Wiggum Loops Are Missing (And When It Starts to Matter)

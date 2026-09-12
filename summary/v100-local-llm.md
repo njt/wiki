@@ -5,6 +5,8 @@ author: Oscar Molnar (Tymscar)
 date_fetched: 2026-06-02
 date_published: 2026-05-30
 tags: homelab, gpu, nixos, local-llm, hardware, debugging
+topics:
+  - local-and-open-source-inference
 ---
 
 # I Put a Datacenter GPU in My Gaming PC for £200

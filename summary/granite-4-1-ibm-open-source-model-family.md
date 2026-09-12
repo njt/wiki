@@ -5,6 +5,8 @@ author: Mohit Geryani
 date_fetched: 2026-05-15
 date_published: 2026-04-30
 source: Firethering
+topics:
+  - ai-research-and-models
 ---
 
 # Granite 4.1: IBM's 8B Model Competing With Models Four Times Its Size

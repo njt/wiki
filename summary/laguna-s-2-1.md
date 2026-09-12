@@ -4,6 +4,8 @@ title: "Introducing Laguna S 2.1"
 author: Poolside team
 date_fetched: 2026-07-25
 date_published: 2026-07-21
+topics:
+  - ai-research-and-models
 ---
 
 Laguna S 2.1 is Poolside's 118B-total-parameter Mixture-of-Experts coding model

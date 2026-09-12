@@ -4,6 +4,8 @@ title: Corsair: The Unified Integration Layer for Agents
 author: corsairdev
 date_fetched: 2026-08-14
 date_published: unknown
+topics:
+  - security-and-sandboxing
 ---
 
 # Corsair: The Unified Integration Layer for Agents

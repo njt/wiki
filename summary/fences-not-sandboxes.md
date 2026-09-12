@@ -5,6 +5,8 @@ author: Steve Yegge
 site: yegge.ai
 date_published: 2026
 date_fetched: 2026-08-25
+topics:
+  - security-and-sandboxing
 ---
 
 Steve Yegge reports from inside a future he says most of us won't reach for another year. He is running roughly 50–60 AI agents — 18 long-lived "officer" seats on Claude Fable 5, plus mostly-headless Sol and Opus fleets — at an equivalent of $122k/month of API spend (about $5k out of pocket, thanks to "sanctioned cheating" with the Claude Max discount), to build Wyvern, the game he has worked on for 30 years. His central claim is that the industry's obsession with *control* — guardrails, sandboxes, policy management — is a response to models that have "grade-school judgment," and that it will be fighting against the grain as soon as Fable-tier models become cheap.

@@ -3,6 +3,8 @@ title: "navaris"
 url: https://github.com/erans/navaris
 date_fetched: 2026-05-14
 section: "Security"
+topics:
+  - security-and-sandboxing
 ---
 
 # Navaris: Sandbox Control Plane

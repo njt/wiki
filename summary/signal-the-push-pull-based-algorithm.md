@@ -4,6 +4,8 @@ title: "Signals, the push-pull based algorithm"
 author: Willy Brauner
 date_fetched: 2026-06-21
 date_published: 2026-03-23
+topics:
+  - software-engineering-craft
 ---
 
 # Signals, the push-pull based algorithm

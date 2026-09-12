@@ -4,6 +4,8 @@ title: "Data Engineering Central Podcast – Wes McKinney on Pandas, Apache Arro
 author: Nat Torkington (njt)
 date_fetched: 2026-07-18
 date_published: 2026-07-18
+topics:
+  - databases-and-data
 ---
 
 Wes McKinney, creator of Pandas and co-creator of Apache Arrow, in conversation with Dan Beach on the Data Engineering Central Podcast. The episode covers Pandas' origin story, Arrow's slow adoption curve, the economics of open source trust, and the limits of AI for foundational data infrastructure.

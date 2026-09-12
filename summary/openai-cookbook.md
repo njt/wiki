@@ -3,6 +3,8 @@ url: https://developers.openai.com/cookbook
 title: "OpenAI Cookbook"
 author: OpenAI
 date_fetched: 2026-07-25
+topics:
+  - developer-tools
 ---
 
 The OpenAI Cookbook is a collection of example code and guides for the OpenAI API, maintained by OpenAI. It lives both as a website at developers.openai.com and as an open-source GitHub repository under the MIT License.

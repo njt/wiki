@@ -4,6 +4,9 @@ title: "Guardian Angels: LLM Personalization for Productivity and Security"
 author: Gwern Branwen
 date_fetched: 2026-07-18
 date_published: 2025-12-01
+topics:
+  - personal-agents
+  - ai-research-and-models
 ---
 
 Gwern proposes **Guardian Angels (GA)** — personalized "digital twin" LLMs that emulate a single user's personality, values, and preferences, rather than serving as generic assistant chatbots. The goal is to solve the principal-agent problem by unifying principal and agent: the human defines what is worth doing, and the GA handles execution.

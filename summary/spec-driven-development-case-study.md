@@ -4,6 +4,8 @@ title: "Spec-Driven Development Case Study: 13 Apps in 70 Days, Solo, with AI"
 author: Felipe Fontoura
 date_fetched: 2026-07-18
 date_published: 2026-06-11
+topics:
+  - agent-coding-workflow
 ---
 
 Felipe Fontoura describes building a production-grade crypto payment platform — a PIX

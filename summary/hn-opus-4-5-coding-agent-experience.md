@@ -4,6 +4,8 @@ title: "HN: Opus 4.5 is not the normal AI agent experience that I have had thus 
 author: tbassetto (via burkeholland.github.io)
 date_fetched: 2026-05-15
 date_published: ~2026-01 (4 months before fetch)
+topics:
+  - agent-coding-workflow
 ---
 
 Hacker News discussion (879 points, 1,353 comments) on a blog post by tbassetto describing their experience building applications with Claude Code + Opus 4.5. The OP created multiple apps (image converter, SVG editor, etc.) without understanding how they were assembled, claiming Opus 4.5 represents a qualitatively different tier of coding agent.

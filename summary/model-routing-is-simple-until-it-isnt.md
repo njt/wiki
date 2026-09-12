@@ -4,6 +4,8 @@ title: "Model Routing Is Simple. Until It Isn't."
 author: Yara Rizk, Eyal Shnarch, Jason Tsay, Merve Unuvar (IBM Research)
 date_fetched: 2026-07-18
 date_published: 2026-07-15
+topics:
+  - ai-research-and-models
 ---
 
 IBM Research argues that model routing — sending easy queries to cheap models and hard ones to expensive models — is not a classification problem but a systems optimization problem. Three dimensions complicate routing beyond the naive approach.

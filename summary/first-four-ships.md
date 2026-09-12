@@ -4,6 +4,8 @@ title: "First Four Ships"
 author: Wikipedia contributors
 date_fetched: 2026-05-15
 date_published: 2026-02-08
+topics:
+  - ideas-and-culture
 ---
 
 The **First Four Ships** were four sailing vessels chartered by the Canterbury Association that departed Plymouth, England, in September 1850, carrying the first English settlers to Canterbury, New Zealand. The colonists who arrived on these ships are known as the "Canterbury Pilgrims."

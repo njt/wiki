@@ -4,6 +4,8 @@ title: "How good a detective is an AI?"
 author: Alex Weil
 date_fetched: 2026-07-05
 date_published: 2026
+topics:
+  - misc
 ---
 
 # How good a detective is an AI?

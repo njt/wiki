@@ -4,6 +4,8 @@ title: "Nine Unusual Ways My Clients Use AI with SQL Server"
 author: Pinal Dave
 site: SQL Authority (blog.sqlauthority.com)
 date_published: 2026-08-06
+topics:
+  - databases-and-data
 ---
 
 Pinal Dave presents nine real consulting engagements where AI was used not to generate SQL queries, but to read, classify, and extract from existing database artifacts at volume — with human verification as the non-negotiable final step. Every case follows the same shape: the machine reads at scale and proposes; a human verifies and decides. The common thread is that none of these are hard problems — they are large, tedious, low-judgment reading tasks that a competent person *could* do given three months and no interruptions, a resource that has never existed.

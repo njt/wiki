@@ -4,6 +4,8 @@ title: KTX — Context Layer for Data Agents
 author: Kaelio
 date_fetched: 2026-05-31
 date_published: 2024
+topics:
+  - databases-and-data
 ---
 
 # KTX — Full Architecture Analysis

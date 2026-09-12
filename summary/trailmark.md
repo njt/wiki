@@ -3,6 +3,8 @@ title: "trailmark"
 url: https://github.com/trailofbits/trailmark
 date_fetched: 2026-05-14
 section: "Databases and Data"
+topics:
+  - developer-tools
 ---
 
 # Trailmark: Source Code Graph Analysis Tool

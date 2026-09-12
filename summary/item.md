@@ -5,6 +5,8 @@ author: unknown (Show HN)
 date_fetched: 2026-09-04
 date_published: unknown
 site: news.ycombinator.com
+topics:
+  - ai-research-and-models
 ---
 
 # Piano Autocomplete — On-Device Music Copilot (Show HN)

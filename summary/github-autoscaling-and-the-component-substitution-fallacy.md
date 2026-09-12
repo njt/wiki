@@ -4,6 +4,8 @@ title: Autoscaling and the Component Substitution Fallacy
 author: Lorin Hochstein
 date_fetched: 2026-09-04
 date_published: 2026-08-19
+topics:
+  - software-engineering-craft
 ---
 
 # Autoscaling and the Component Substitution Fallacy

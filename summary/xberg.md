@@ -1,3 +1,7 @@
+---
+topics:
+  - developer-tools
+---
 # Xberg — Document Intelligence Engine
 
 Xberg is the successor to Kreuzberg — a Rust document intelligence engine that extracts text, tables, structured data, and metadata from 101 file formats across 115 file extensions. Written by Na'aman Hirschfeld, it's available as a library, CLI (13 commands), REST API (`xberg serve`), and MCP server (9 tools), with Docker and Helm deployment support.

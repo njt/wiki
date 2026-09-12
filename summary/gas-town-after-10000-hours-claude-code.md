@@ -4,6 +4,8 @@ title: "My thoughts on Gas Town after 10,000 hours of Claude Code"
 author: Simon Hartcher
 date_fetched: 2026-05-15
 date_published: 2026-01-19
+topics:
+  - agent-coding-workflow
 ---
 
 # My thoughts on Gas Town after 10,000 hours of Claude Code

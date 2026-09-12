@@ -4,6 +4,8 @@ title: "Mirage: A Unified Virtual File System for AI Agents"
 author: "Zecheng Zhang / Strukto.AI"
 date_fetched: 2026-05-18
 date_published: 2026-05-01
+topics:
+  - agent-architecture
 ---
 
 # Mirage — Full Repo Analysis

@@ -4,6 +4,8 @@ title: "Techniques | StrongDM Software Factory"
 author: StrongDM (Justin McCarthy)
 date_fetched: 2026-05-15
 date_published: unknown
+topics:
+  - agent-architecture
 ---
 
 # Techniques | StrongDM Software Factory

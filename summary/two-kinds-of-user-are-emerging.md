@@ -3,6 +3,8 @@ title: "Two Kinds of User Are Emerging"
 url: https://martinalderson.com/posts/two-kinds-of-ai-users-are-emerging/
 date_fetched: 2026-05-14
 section: "Management/Business"
+topics:
+  - agent-coding-workflow
 ---
 
 # Two Kinds of AI Users Are Emerging - Martin Alderson

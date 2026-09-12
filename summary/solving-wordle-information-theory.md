@@ -8,6 +8,8 @@ journal: "Northeast Journal of Complex Systems (NEJCS), Vol. 8, No. 1, Article 6
 doi: "10.63562/2577-8439.1146"
 pdf: "https://orb.binghamton.edu/cgi/viewcontent.cgi?article=1146&context=nejcs"
 tags: ["information-theory", "shannon-entropy", "wordle", "game-strategy", "complex-systems", "search-space-reduction"]
+topics:
+  - misc
 ---
 
 # Solving Wordle Using Information Theory

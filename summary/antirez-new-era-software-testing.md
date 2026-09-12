@@ -4,6 +4,8 @@ title: "A new era for software testing"
 author: "antirez (Salvatore Sanfilippo)"
 date_fetched: 2026-06-12
 date_published: 2026-06-08
+topics:
+  - misc
 ---
 
 # A new era for software testing

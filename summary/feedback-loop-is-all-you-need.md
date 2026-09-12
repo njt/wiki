@@ -6,6 +6,8 @@ date_fetched: 2026-05-15
 date_published: 2026-03-27
 companion_repo: https://github.com/zernie/vigiles
 discussion: https://news.ycombinator.com/item?id=47618610
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 # The Feedback Loop Is All You Need

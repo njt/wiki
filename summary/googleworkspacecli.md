@@ -3,6 +3,8 @@ title: "Google Workspace CLI"
 url: https://github.com/googleworkspace/cli
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - developer-tools
 ---
 
 # Google Workspace CLI (gws)

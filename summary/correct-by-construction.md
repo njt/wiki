@@ -3,6 +3,9 @@ title: "Correct by Construction"
 url: https://minimalmodeling.substack.com/p/my-take-on-data-quality
 date_fetched: 2026-05-14
 section: "Databases and Data"
+topics:
+  - software-engineering-craft
+  - databases-and-data
 ---
 
 # Data Quality Framework: A Whitelist Approach

@@ -5,6 +5,8 @@ author: Unknown (sdpd.live)
 date_fetched: 2026-06-15
 date_published: Unknown
 capture_method: browser automation (surf)
+topics:
+  - misc
 ---
 
 # SDPD — Systems Design Police Department

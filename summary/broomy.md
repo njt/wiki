@@ -4,6 +4,8 @@ title: "Broomy — Your command center for AI coding agents"
 author: broomy-ai
 date_fetched: 2026-05-31
 date_published: unknown
+topics:
+  - developer-tools
 ---
 
 Broomy is an MIT-licensed Electron desktop app (TypeScript + React) that runs multiple terminal-based AI coding agents side-by-side in a single window. It combines a session dashboard, AI-guided code review, and a built-in IDE (file editing, git). Mac-only Public Preview. Works with Claude Code, Codex, Gemini CLI, and any terminal-based agent.

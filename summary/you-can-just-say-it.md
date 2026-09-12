@@ -4,6 +4,8 @@ title: "You Can Just Say It"
 author: Caleb Gross
 date_fetched: 2026-05-31
 date_published: 2026-05-28
+topics:
+  - ideas-and-culture
 ---
 
 # You Can Just Say It

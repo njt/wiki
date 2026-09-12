@@ -4,6 +4,8 @@ title: "Choice Notes from Notes and Queries (1858)"
 author: Ross MacFarlane (text); William Thoms (ed., original volume)
 date_fetched: 2026-07-18
 date_published: 2026-07-07
+topics:
+  - ideas-and-culture
 ---
 
 Ross MacFarlane's essay for The Public Domain Review examines a

@@ -10,6 +10,8 @@ tags:
   - ai-economics
   - distribution
   - saas
+topics:
+  - software-engineering-craft
 ---
 
 # Summary: The Golden Age of Open Source Applications

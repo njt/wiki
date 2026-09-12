@@ -3,6 +3,8 @@ url: https://blog.remijouan.net/posts/libzmq-vsock-pyzmq/
 title: "Use VSOCK with libzmq"
 author: Rémi Jouannet
 date_fetched: 2026-09-11
+topics:
+  - software-engineering-craft
 ---
 
 A how-to for using Linux's AF_VSOCK address family through ZeroMQ (libzmq), plus the author's own fork of pyzmq that makes it available before it lands in an official release. VSOCK is the socket family for guest↔hypervisor and guest↔guest communication on the same host — originally VMware's VMCI, in the kernel since 4.8. It looks and feels like a Unix socket with TCP/UDP-style addressing: 32-bit "context identifiers" (CIDs) instead of IPs, plus ports, with stream and datagram modes.

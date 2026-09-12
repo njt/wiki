@@ -4,6 +4,8 @@ title: "One Year of Keeping a Tada List"
 author: Aditya Bhargava
 date_fetched: 2026-05-14
 date_published: 2025-12-22
+topics:
+  - ideas-and-culture
 ---
 
 # One Year of Keeping a Tada List

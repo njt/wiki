@@ -4,6 +4,8 @@ title: "Team-Wide Agentic Harness"
 author: Ian Langworth
 date_fetched: 2026-07-18
 date_published: 2026-07-01
+topics:
+  - agent-coding-workflow
 ---
 
 Ian Langworth describes his emerging role as a "Harness Guy" — someone who

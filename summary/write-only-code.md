@@ -3,6 +3,9 @@ title: "Write Only Code"
 url: https://www.heavybit.com/library/article/write-only-code
 date_fetched: 2026-05-14
 section: "Producing and Operating Software"
+topics:
+  - guardrails-and-feedback-loops
+  - specifications-as-the-product
 ---
 
 Joseph Ruscio argues that AI-generated production code that humans never read -- "Write-Only Code" -- represents an inevitable shift as AI capabilities mature beyond requiring human review for each change.

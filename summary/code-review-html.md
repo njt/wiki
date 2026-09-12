@@ -5,6 +5,8 @@ author: unknown (unnamed in the post)
 date_fetched: 2026-08-14
 date_published: 2026 (undated)
 site: typesanitizer.com
+topics:
+  - software-engineering-craft
 ---
 
 # Reviewing code is a skill

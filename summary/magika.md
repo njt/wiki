@@ -3,6 +3,8 @@ title: "magika"
 url: https://github.com/google/magika
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - developer-tools
 ---
 
 # Magika: AI-Powered File Type Detection

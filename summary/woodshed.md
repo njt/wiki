@@ -3,6 +3,8 @@ title: "Woodshed"
 url: https://tangled.org/danabra.mov/woodshed
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 # Woodshed: Evals for Claude Skills

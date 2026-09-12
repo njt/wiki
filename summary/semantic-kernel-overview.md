@@ -5,6 +5,8 @@ author: Microsoft (sophialagerkranspandey)
 date_published: 2023-07-11
 date_fetched: 2026-05-14
 type: documentation
+topics:
+  - agent-architecture
 ---
 
 # Introduction to Semantic Kernel | Microsoft Learn

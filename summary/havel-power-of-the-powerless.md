@@ -4,6 +4,8 @@ title: "The Power of the Powerless"
 author: Václav Havel
 date_fetched: 2026-07-08
 date_published: 1978-10
+topics:
+  - ideas-and-culture
 ---
 
 Václav Havel's 1978 essay analyzes how post-totalitarian systems in the Soviet bloc sustain themselves not through overt violence but through the willing participation of ordinary citizens in ideological rituals they don't believe in. Havel calls this "living within the lie."

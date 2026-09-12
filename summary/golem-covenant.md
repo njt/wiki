@@ -4,6 +4,8 @@ title: The Golem Covenant
 author: Kristopher Kubicki
 date_fetched: 2026-05-31
 date_published: 2026-05-30
+topics:
+  - agent-architecture
 ---
 
 # The Golem Covenant — Full Analysis

@@ -4,6 +4,8 @@ title: mnemo — Local-first AI memory layer for any LLM
 author: zaydmulani09
 date_fetched: 2026-06-04
 date_published: 2025
+topics:
+  - agent-architecture
 ---
 
 # mnemo — Full Repo Analysis

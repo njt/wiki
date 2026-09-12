@@ -4,6 +4,8 @@ title: "Developing inside a Container"
 author: Microsoft / Visual Studio Code documentation team
 date_fetched: 2026-05-14
 date_published: 2026-05-13
+topics:
+  - developer-tools
 ---
 
 # Developing inside a Container

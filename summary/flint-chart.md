@@ -3,6 +3,8 @@ url: https://github.com/microsoft/flint-chart
 title: Flint — A Visualization Language for the AI Era
 author: Microsoft Research (with IDEAS Lab, Renmin University of China)
 date_published: 2026-07
+topics:
+  - developer-tools
 ---
 
 Flint is a visualization intermediate language (IL) that lets AI agents turn compact, human-editable chart specifications into polished visualizations across five rendering backends. Rather than requiring verbose, library-specific configuration for scales, axes, spacing, labels, and layout, Flint derives those decisions from the data, a 70+-entry semantic type registry, chart type, encodings, and an optional visual theme. The same input compiles to Vega-Lite, ECharts, Chart.js, Plotly, or native Excel charts.

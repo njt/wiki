@@ -5,6 +5,8 @@ author: Dennis Jackson (Senior Staff Cryptography Engineer, Mozilla)
 date_published: 2026-06-23
 date_fetched: 2026-06-24
 publication: Mozilla Hacks
+topics:
+  - ideas-and-culture
 ---
 
 # PACT: Anonymous Credentials for the Web

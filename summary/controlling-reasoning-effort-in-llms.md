@@ -4,6 +4,8 @@ title: "Controlling Reasoning Effort in LLMs"
 author: Sebastian Raschka
 date_fetched: 2026-07-21
 date_published: 2026-07-18
+topics:
+  - ai-research-and-models
 ---
 
 Raschka surveys how reasoning effort is controlled in LLMs, from definitions through training to concrete implementations across six open-weight model families. A "reasoning model" is defined by output format — it produces intermediate reasoning traces — not by any claim about human-like cognition.

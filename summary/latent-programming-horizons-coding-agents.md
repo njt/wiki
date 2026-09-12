@@ -4,6 +4,8 @@ title: "Latent Programming Horizons in Coding Agents"
 author: André Silva, Han Tu, Martin Monperrus
 date_fetched: 2026-07-18
 date_published: 2026-07
+topics:
+  - ai-research-and-models
 ---
 
 Silva et al. (KTH) probe the residual streams of two open-weight coding-agent

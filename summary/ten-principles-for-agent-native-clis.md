@@ -7,6 +7,8 @@ date_published: 2026-05-04
 source_type: x.com thread
 metrics: 53.4K Views, 233 reposts, 177 likes
 blog_version: https://trevinsays.com
+topics:
+  - agent-architecture
 ---
 
 Trevin Chow's expanded framework for designing CLIs that agents can use effectively. Builds on his earlier "7 Principles for Agent-Friendly CLIs" (replaced by this post) with practical experience from building his own CLI, Cloudflare's Wrangler rebuild, and HeyGen's CLI launch. Organized into two tiers: Table Stakes (don't break the agent) and Compounding (make the CLI better the more agents use it). The thesis: design for agents first, and humans benefit. Designing for humans first and bolting on agent support is what produces the inconsistent, prompt-prone, stdout-only CLIs these principles correct.

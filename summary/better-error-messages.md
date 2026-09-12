@@ -3,6 +3,8 @@ title: "Better Error Messages"
 url: https://wix-ux.com/when-life-gives-you-lemons-write-better-error-messages-46c5223e1a2f
 date_fetched: 2026-05-14
 section: "Producing and Operating Software"
+topics:
+  - software-engineering-craft
 ---
 
 # When Life Gives You Lemons, Write Better Error Messages

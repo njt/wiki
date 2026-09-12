@@ -6,6 +6,8 @@ date_fetched: 2026-05-15
 date_published: 2026-04-24
 publication: Scientific American
 editor: Lee Billings
+topics:
+  - ideas-and-culture
 ---
 
 Liam Price, a 23-year-old amateur with no advanced math training, used a ChatGPT Pro subscription (GPT-5.4 Pro) to solve a 60-year-old Erdős conjecture about primitive sets. He posted the solution to the Erdős Problems website. His occasional collaborator Kevin Barreto (Cambridge undergrad) recognized its significance and notified experts including Terence Tao (UCLA) and Jared Duker Lichtman (Stanford). Tao and Lichtman confirmed the solution was valid and have since shortened the proof.

@@ -4,6 +4,8 @@ title: North-Mini-Code-1.0-GGUF
 author: heimann
 date_fetched: 2026-07-05
 date_published: unknown
+topics:
+  - ai-research-and-models
 ---
 
 # North-Mini-Code-1.0-GGUF

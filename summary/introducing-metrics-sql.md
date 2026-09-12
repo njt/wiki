@@ -4,6 +4,8 @@ title: "Introducing Metrics SQL: A SQL-based semantic layer for humans and agent
 author: Nishant Bangarwa
 date_fetched: 2026-05-15
 date_published: 2026-04-08
+topics:
+  - databases-and-data
 ---
 
 # Introducing Metrics SQL: A SQL-based semantic layer for humans and agents

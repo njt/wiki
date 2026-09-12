@@ -4,6 +4,8 @@ title: AuK — An Open-Source Foundation Model for Speech Generation and Editing
 author: Tencent (Ziyang Ma, Zhikang Niu, et al.)
 date_fetched: 2026-09-11
 date_published: 2026-09-09
+topics:
+  - ai-research-and-models
 ---
 
 AuK is Tencent's 1.5B-parameter open-source foundation model for speech generation and editing, trained on millions of hours of diverse audio data. It exposes every task through a single natural-language instruction interface: zero-shot and instruction-based TTS, content and acoustic editing, paralinguistic editing, speech enhancement, and source separation.

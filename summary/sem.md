@@ -4,6 +4,8 @@ url: https://github.com/Ataraxy-Labs/sem
 author: Ataraxy Labs
 date_fetched: 2026-06-12
 date_published: 2025-06-01
+topics:
+  - developer-tools
 ---
 
 # sem: Deep Architectural Analysis

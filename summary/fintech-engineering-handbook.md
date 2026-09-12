@@ -4,6 +4,8 @@ title: "Fintech Engineering Handbook"
 author: Voytek Pitula
 date_fetched: 2026-07-11
 date_published: 2026-06-29
+topics:
+  - software-engineering-craft
 ---
 
 A patterns handbook for building software that handles money, organised around three principles: **no invented data** (idempotency, deduplication, reconciliation), **no lost data** (full precision, at-least-once delivery, event sourcing, immutability), and **no trust** (verify webhooks, cross-check data sources, fail loudly on broken assumptions).

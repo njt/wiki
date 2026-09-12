@@ -5,6 +5,8 @@ author: Igor Schwarzmann
 date_fetched: 2026-05-15
 date_published: unknown
 status: UNFETCHABLE
+topics:
+  - software-engineering-craft
 ---
 
 # Igor Schwarzmann's Design Systems Reference

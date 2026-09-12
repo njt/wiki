@@ -3,6 +3,8 @@ title: "Capybara"
 url: https://github.com/xgen-universe/Capybara
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - ai-research-and-models
 ---
 
 # Capybara: Unified Visual Creation Model

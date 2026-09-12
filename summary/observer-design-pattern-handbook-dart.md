@@ -4,6 +4,8 @@ title: "The Observer Design Pattern Handbook: Event-Driven Architecture & Domain
 author: Oluwaseyi Fatunmole
 date_fetched: 2026-07-18
 date_published: 2026-07-16
+topics:
+  - software-engineering-craft
 ---
 
 A hands-on tutorial building the Observer pattern from first principles in Dart, then connecting it to Event-Driven Architecture (EDA), Domain-Driven Design (DDD), and Riverpod in Flutter.

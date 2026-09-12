@@ -4,6 +4,8 @@ title: skill-load-bearing — Load-Bearing Assumptions Skill for AI Coding Agent
 author: Dan Shapiro (danshapiro)
 date_fetched: 2026-06-03
 date_published: 2026-05
+topics:
+  - agent-architecture
 ---
 
 # skill-load-bearing — Load-Bearing Assumptions

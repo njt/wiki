@@ -4,6 +4,8 @@ title: "How to Buy Cheap Claude Tokens in China"
 author: Zilan Qian
 date_fetched: 2026-05-14
 date_published: 2026-05-05
+topics:
+  - ideas-and-culture
 ---
 
 # How to Buy Cheap Claude Tokens in China

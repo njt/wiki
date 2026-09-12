@@ -4,6 +4,8 @@ title: "Microservices for the Benefits, Not the Hustle"
 author: Oliver Wolf
 date_fetched: 2026-05-15
 date_published: 2023-01-31
+topics:
+  - software-engineering-craft
 ---
 
 # Microservices for the Benefits, Not the Hustle

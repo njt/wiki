@@ -4,6 +4,8 @@ title: LongHorizon-Harness
 author: Ziyu Ma, Hailang Huang, Shun Zou, Yong Wang, Shidong Yang, Yiming Hu, Fei Wei, XiangXiang Chu (AMAP-ML)
 date_fetched: 2026-08-21
 date_published: 2026-08
+topics:
+  - agent-architecture
 ---
 
 # LongHorizon-Harness

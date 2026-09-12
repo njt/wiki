@@ -3,6 +3,8 @@ title: "AI Coding Weekly"
 url: https://aicodingweekly.datadriftpress.com/
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - ideas-and-culture
 ---
 
 # AI Coding Weekly

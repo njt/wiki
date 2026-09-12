@@ -4,6 +4,8 @@ title: "no-mistakes: AI-Driven Git Gate for Clean PRs"
 author: kunchenguid
 date_fetched: 2026-07-11
 date_published: 2025
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 `no-mistakes` is a Go CLI tool that inserts an AI-driven validation gate between your local repo and its remote. Instead of `git push origin`, you `git push no-mistakes` — the tool's bare-repo proxy runs a disposable worktree pipeline, and only forwards the branch after every check passes.

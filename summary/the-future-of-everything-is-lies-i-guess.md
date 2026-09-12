@@ -3,6 +3,8 @@ url: https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess
 author: Kyle Kingsbury (Aphyr)
 date: 2026-04-06 through 2026-04-16
 fetched: 2026-05-14
+topics:
+  - ideas-and-culture
 ---
 
 # The Future of Everything is Lies, I Guess

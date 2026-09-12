@@ -4,6 +4,8 @@ title: "Moats"
 author: Steph Ango
 date_fetched: 2026-08-21
 date_published: unknown
+topics:
+  - ideas-and-culture
 ---
 
 Steph Ango asks a single question — what creates an edge, an advantage, a moat in a competitive landscape? — and answers it with a taxonomy of eighty strategies, each described in a sentence and illustrated with examples drawn from both biology and business.

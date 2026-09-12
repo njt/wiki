@@ -3,6 +3,8 @@ title: "Dolphin"
 url: https://github.com/bytedance/Dolphin
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - developer-tools
 ---
 
 # Dolphin: Universal Document Parsing Model

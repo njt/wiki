@@ -3,6 +3,9 @@ url: https://data4sci.com/blog/building-an-advanced-agentic-harness
 title: Building an Advanced Agentic Harness
 site: Data for Science (data4sci.com)
 date_fetched: 2026-08-06
+topics:
+  - agent-orchestration
+  - agent-memory-and-context
 ---
 
 A technical deep-dive that upgrades a basic ~35-line agent loop into a production-shaped harness through seven composable primitives. Each primitive is motivated by a specific, predictable failure mode of naive agents, and each is built as a small, testable component rather than hidden behind a framework.

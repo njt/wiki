@@ -4,6 +4,8 @@ title: Polyglot Unit Testing Agent
 author: Microsoft .NET Team
 date_published: 2026-07
 date_fetched: 2026-08-07
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 Microsoft's open-source `code-testing-generator` plugin for GitHub Copilot and Claude Code generates unit tests across 12+ languages. It doesn't just write tests — it learns from the repository first (language, framework, conventions, build commands), plans the work at the right granularity (direct / single-pass / iterative), writes tests that follow local conventions, runs them as it works, and verifies the result through lightweight mutation testing, assertion quality checks, and full-suite integration.

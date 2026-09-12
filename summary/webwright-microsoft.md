@@ -4,6 +4,8 @@ title: "Webwright: A Terminal Is All You Need For Web Agents"
 author: "Yadong Lu, Lingrui Xu, Chao Huang, Ahmed Awadallah (Microsoft Research)"
 date_fetched: 2026-05-31
 date_published: 2026-05-04
+topics:
+  - developer-tools
 ---
 
 # Webwright — Repository Analysis

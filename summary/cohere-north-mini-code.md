@@ -4,6 +4,8 @@ title: "Cohere Open-Sources North Mini Code: A Coding Agent That Runs on a Singl
 author: VentureBeat (article behind paywall; sourced from Cohere blog post "Introducing North Mini Code" dated 2026-06-09)
 date_fetched: 2026-06-15
 date_published: 2026-06-09
+topics:
+  - ai-research-and-models
 ---
 
 ## Source Notes

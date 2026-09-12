@@ -3,6 +3,9 @@ title: "piclaw"
 url: https://github.com/rcarmo/piclaw
 date_fetched: 2026-05-14
 section: "LLMs"
+topics:
+  - personal-agents
+  - agent-architecture
 ---
 
 # PiClaw: Self-Hosted AI Workspace

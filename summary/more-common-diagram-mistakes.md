@@ -5,6 +5,8 @@ source: "https://www.ilograph.com/blog/posts/more-common-diagram-mistakes/"
 date_published: 2026-03-12
 date_fetched: 2026-05-14
 type: blog post
+topics:
+  - software-engineering-craft
 ---
 
 # 7 More Common Mistakes in Architecture Diagrams

@@ -5,6 +5,8 @@ author: Jamin Ball
 date_fetched: 2026-05-14
 date_published: 2025-12-12
 publication: Clouded Judgement (Substack)
+topics:
+  - databases-and-data
 ---
 
 # Clouded Judgement 12.12.25 - Long Live Systems of Record

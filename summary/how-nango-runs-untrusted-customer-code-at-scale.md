@@ -4,6 +4,8 @@ title: "How Nango runs untrusted customer code at scale"
 author: Ross McEwan
 date_fetched: 2026-07-05
 date_published: 2026-06-08
+topics:
+  - security-and-sandboxing
 ---
 
 # How Nango runs untrusted customer code at scale

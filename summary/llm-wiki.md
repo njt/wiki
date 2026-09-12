@@ -3,6 +3,9 @@ title: "llm-wiki"
 url: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
 date_fetched: 2026-05-14
 section: "LLMs"
+topics:
+  - agent-memory-and-context
+  - databases-and-data
 ---
 
 # LLM Wiki: Pattern for AI-Maintained Personal Knowledge Bases

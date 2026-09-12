@@ -4,6 +4,8 @@ title: "OtoDock — the agentic company OS"
 author: OtoDock
 date_fetched: 2026-09-11
 date_published: unknown
+topics:
+  - agent-architecture
 ---
 
 OtoDock is a self-hosted "agentic company OS": a multi-user, multi-agent platform that runs Claude Code or Codex as the engine underneath, working on *your* existing Anthropic or OpenAI subscription rather than reselling tokens. The pitch is a company brain — not a coding assistant, but departments of digital employees that persist memory, share workspaces, and act while no one is watching.

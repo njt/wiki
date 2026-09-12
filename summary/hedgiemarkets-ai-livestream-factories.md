@@ -4,6 +4,8 @@ title: AI avatars running 24/7 livestream shopping factories in China
 author: Hedgie (@HedgieMarkets)
 date_fetched: 2026-05-18
 date_published: 2026-01-20
+topics:
+  - ideas-and-culture
 ---
 
 Found this video and had to share. In China, AI-generated livestreams are selling products using synthetic video and voice. No humans on screen. Just AI avatars running 24/7, reportedly earning up to $100 per hour per stream.

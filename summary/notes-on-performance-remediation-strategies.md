@@ -4,6 +4,8 @@ title: The Wicked Reason Removing Code Beats Better Scheduling
 author: Alex Russell
 date: 2026-08
 date_fetched: 2026-08-25
+topics:
+  - software-engineering-craft
 ---
 
 Alex Russell responds to colleague Marko Ilić's post on scheduling work on the critical path, and surfaces the office discussion it kicked off. His thesis: when a team sets out to fix poor web performance, removing code should almost always be prioritized over reordering when that code loads.

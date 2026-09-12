@@ -4,6 +4,8 @@ title: "Petals — Decentralized LLM Inference at Home"
 author: BigScience Research Workshop
 date_fetched: 2026-07-25
 date_published: unknown
+topics:
+  - local-and-open-source-inference
 ---
 
 Petals lets people run large language models on consumer hardware by splitting the model across a peer-to-peer network. Instead of one machine holding the entire model, each participant serves a slice, and the network stitches responses together — the project calls it "BitTorrent-style" model serving.

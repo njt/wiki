@@ -4,6 +4,8 @@ title: Supported Languages | OpenRewrite Docs
 author: OpenRewrite / Moderne
 date_fetched: 2026-05-22
 date_published: unknown
+topics:
+  - developer-tools
 ---
 
 # Supported Languages

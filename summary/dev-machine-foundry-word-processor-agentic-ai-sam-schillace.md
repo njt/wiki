@@ -4,6 +4,8 @@ title: "How my dev machine built 1,111 word-processing features and forgot to ad
 author: Sam Schillace
 date_fetched: 2026-07-18
 date_published: 2026-07-08
+topics:
+  - agent-coding-workflow
 ---
 
 Sam Schillace (Deputy CTO at Microsoft) describes building a "dev machine" — an agentic loop that autonomously built a proof-of-concept Microsoft Word clone. Over 39 days it ran 565 sessions, made 3,706 commits, and produced roughly 350,000 lines of TypeScript.

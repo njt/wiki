@@ -5,6 +5,8 @@ author: Sachin
 date_fetched: 2026-05-14
 date_published: 2026-02-26
 publication: Technically (Substack)
+topics:
+  - ideas-and-culture
 ---
 
 # Vibe Coding and the Maker Movement

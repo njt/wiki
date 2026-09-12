@@ -4,6 +4,8 @@ title: "Grok 4.3"
 author: simianwords (submitter), sundarurfriend, michaelbuckbee, and 529 others
 date_fetched: 2026-05-15
 date_published: ~2026-05-01
+topics:
+  - ai-research-and-models
 ---
 
 # HN Discussion: Grok 4.3

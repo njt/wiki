@@ -4,6 +4,8 @@ title: "ascdraw — Native, keyboard-first diagram editor on a Unicode canvas"
 author: Przemysław Alexander Kamiński (exlee)
 date_fetched: 2026-07-25
 date_published: 2026
+topics:
+  - developer-tools
 ---
 
 ascdraw is a native macOS/Unix desktop application (~63K lines of Rust) for

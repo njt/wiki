@@ -6,6 +6,8 @@ site: Software Design: Tidy First? (newsletter.kentbeck.com)
 date_fetched: 2026-08-21
 date_published: unknown (not present in fetched source)
 tags: [testing, tdd, test-desiderata, kent-beck, software-design]
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 ## The Distinction

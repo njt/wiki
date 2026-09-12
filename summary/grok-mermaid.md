@@ -4,6 +4,8 @@ title: "Tool: Mermaid to Unicode box art (grok-mermaid)"
 author: Simon Willison
 date_fetched: 2026-07-18
 date_published: 2026-07-16
+topics:
+  - developer-tools
 ---
 
 Simon Willison built a browser-based tool that converts Mermaid diagram syntax into

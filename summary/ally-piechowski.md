@@ -4,6 +4,8 @@ title: "Ally Piechowski: How to Audit a Rails Codebase"
 author: Ally Piechowski (quoted by Simon Willison)
 date_fetched: 2026-07-11
 date_published: 2026-03-06
+topics:
+  - software-engineering-craft
 ---
 
 Ally Piechowski proposes a set of diagnostic questions for auditing a Rails

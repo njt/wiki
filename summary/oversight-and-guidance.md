@@ -6,6 +6,8 @@ date_published: 2025-07
 date_fetched: 2026-05-14
 type: blog
 tags: [llm, coding-agents, guidance, oversight, prompt-library, one-shotting, codebase-health, verification]
+topics:
+  - agent-coding-workflow
 ---
 
 # Scaling LLMs to larger codebases

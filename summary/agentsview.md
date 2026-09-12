@@ -3,6 +3,8 @@ title: "agentsview"
 url: https://github.com/wesm/agentsview
 date_fetched: 2026-05-14
 section: "LLMs"
+topics:
+  - developer-tools
 ---
 
 # AgentsView: Local-First Agent Session Intelligence

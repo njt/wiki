@@ -4,6 +4,8 @@ title: "Web Application and API Protection (WAAP) Guide"
 author: John Brawner
 date_fetched: 2026-07-18
 date_published: 2026-07-09
+topics:
+  - security-and-sandboxing
 ---
 
 A PreEmptive blog post explaining WAAP as a security category that bundles WAF, bot management, DDoS protection, and API security into one platform. It argues WAAP secures the network boundary well but leaves client-side code exposed — once binaries or JavaScript reach a device, they sit outside WAAP's field of view.

@@ -4,6 +4,8 @@ title: "RustDesk — Open Source Remote Desktop"
 author: "rustdesk (Purslane Tech Pte. Ltd.)"
 date_fetched: 2026-07-25
 date_published: 2021
+topics:
+  - developer-tools
 ---
 
 RustDesk is an open-source, self-hostable remote desktop application — the leading open alternative to TeamViewer and AnyDesk, with ~80K GitHub stars. The core is written in Rust (~23K lines), with a Flutter/Dart UI frontend linked via `flutter_rust_bridge`. It supports Windows, macOS, Linux, Android, iOS, and web.

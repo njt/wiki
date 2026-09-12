@@ -4,6 +4,8 @@ title: Public Domain Image Archive — Infinite View
 author: The Public Domain Review (Adam Green, Hunter Dukes, Brian Jones)
 date_fetched: 2026-06-09
 date_published: 2025-01-08
+topics:
+  - ideas-and-culture
 ---
 
 # Public Domain Image Archive — Infinite View

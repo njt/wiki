@@ -3,6 +3,8 @@ title: "Graft"
 url: https://graft.rs/
 date_fetched: 2026-05-14
 section: "Databases and Data"
+topics:
+  - databases-and-data
 ---
 
 # Graft: SQLite Replication at the Edge

@@ -5,6 +5,8 @@ author: German S.
 date_fetched: 2026-07-05
 date_published: 2026-04-13
 site: igerman.cc
+topics:
+  - ideas-and-culture
 ---
 
 # Dopamine Fracking

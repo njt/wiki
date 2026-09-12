@@ -4,6 +4,8 @@ title: "Celly — Native C#/.NET Implementation of Common Expression Language (C
 author: bsidio
 date_fetched: 2026-07-18
 date_published: 2026-07-17
+topics:
+  - developer-tools
 ---
 
 Celly is a pure managed C# implementation of Google's Common Expression

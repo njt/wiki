@@ -5,6 +5,8 @@ author: Ian Ye
 date_fetched: 2026-07-05
 date_published: 2026-07-03
 site: Wafer Blog
+topics:
+  - ai-infrastructure-and-hardware
 ---
 
 The article argues that AMD's MI355X GPUs offer a superior price-to-performance ratio for AI inference compared to NVIDIA's Blackwell (B300/B200) lineup, despite requiring more engineering effort to unlock that performance.

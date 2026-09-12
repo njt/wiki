@@ -4,6 +4,8 @@ title: Resident — Sandbox Runtime for ESP32 Devices
 author: INANIMATE (inanimate.tech)
 date_fetched: 2026-05-22
 date_published: 2026-05-20
+topics:
+  - security-and-sandboxing
 ---
 
 # Resident — Sandbox Runtime for ESP32 Devices

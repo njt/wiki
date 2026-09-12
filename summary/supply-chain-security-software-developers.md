@@ -4,6 +4,8 @@ title: "Supply Chain Security for Software Developers"
 author: lhl (GitHub)
 date_fetched: 2026-05-15
 date_published: 2026-04-02
+topics:
+  - security-and-sandboxing
 ---
 
 Practical layered defenses against package supply chain attacks, written after the March-April 2026 wave of compromises targeting Trivy (TeamPCP), LiteLLM, and axios (Sapphire Sleet/UNC1069).

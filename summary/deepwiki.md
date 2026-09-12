@@ -5,6 +5,8 @@ publication: AI Tidbits
 url: https://www.aitidbits.ai/p/deepwiki
 date_published: 2025-08-17
 date_fetched: 2026-05-14
+topics:
+  - developer-tools
 ---
 
 # DeepWiki: Understand Any Codebase

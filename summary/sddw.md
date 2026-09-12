@@ -4,6 +4,8 @@ title: SDDW — Spec-Driven Development Workflow for Claude Code
 author: Sergii (sermakarevich)
 date_fetched: 2026-06-15
 date_published: 2026-05
+topics:
+  - agent-coding-workflow
 ---
 
 # SDDW — Spec-Driven Development Workflow

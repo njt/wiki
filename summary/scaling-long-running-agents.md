@@ -3,6 +3,8 @@ title: "Scaling Long-Running Agents"
 url: https://cursor.com/blog/scaling-agents
 date_fetched: 2026-05-14
 section: "LLMs"
+topics:
+  - agent-orchestration
 ---
 
 # Scaling Long-Running Autonomous Coding

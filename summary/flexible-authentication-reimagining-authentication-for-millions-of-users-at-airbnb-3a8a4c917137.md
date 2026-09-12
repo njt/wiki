@@ -5,6 +5,8 @@ author: Jose Santos, Mike Barry
 site: Airbnb Engineering (Medium)
 date_published: 2026-08-13
 date_fetched: 2026-08-14
+topics:
+  - software-engineering-craft
 ---
 
 Airbnb rebuilt its login and signup flows around a paradigm called **Flexible Authentication**, reframing authentication as a product problem rather than a purely technical one. The trigger: on a two-sided marketplace, logins happen at irregular intervals — a guest books in January and may not return until summer — so a failed login means a lost booking, not a minor inconvenience.

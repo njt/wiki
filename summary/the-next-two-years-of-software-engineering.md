@@ -3,6 +3,8 @@ title: "The Next Two Years of Software Engineering"
 url: https://addyosmani.com/blog/next-two-years/
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-coding-workflow
 ---
 
 # The Next Two Years of Software Engineering - Addy Osmani

@@ -3,6 +3,8 @@ title: "poietic"
 url: https://poietic.life/
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - agent-orchestration
 ---
 
 # Poietic: Human-Machine Collaboration Made Legible

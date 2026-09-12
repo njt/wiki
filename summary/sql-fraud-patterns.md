@@ -4,6 +4,8 @@ title: Six SQL patterns I use to catch transaction fraud
 author: Fixel Smith
 date_fetched: 2026-05-22
 date_published: 2026-05-14
+topics:
+  - databases-and-data
 ---
 
 # Six SQL patterns I use to catch transaction fraud

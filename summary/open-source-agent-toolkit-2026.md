@@ -4,6 +4,8 @@ title: "The Open Source Agent Toolkit in 2026"
 author: Paolo Perrone
 date_fetched: 2026-07-18
 date_published: 2026-07-14
+topics:
+  - agent-architecture
 ---
 
 A survey of the 2026 open source AI agent ecosystem, organized into seven

@@ -5,6 +5,8 @@ author: Ansgar Becker
 date_fetched: 2026-05-31
 date_published: 2002 (initial release)
 section: "Developer Tools"
+topics:
+  - developer-tools
 ---
 
 # HeidiSQL: Free Open-Source Database Management Tool

@@ -3,6 +3,8 @@ title: "maestro"
 url: https://github.com/SnapdragonPartners/maestro
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-orchestration
 ---
 
 # Maestro App Factory

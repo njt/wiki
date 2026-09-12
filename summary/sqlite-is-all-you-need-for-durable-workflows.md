@@ -4,6 +4,8 @@ title: SQLite is All You Need for Durable Workflows
 author: Obelisk (obeli.sk)
 date_fetched: 2026-05-31
 date_published: 2026-05-29
+topics:
+  - databases-and-data
 ---
 
 # SQLite is All You Need for Durable Workflows

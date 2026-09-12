@@ -3,6 +3,8 @@ title: "Eye of the Master"
 url: https://www.versobooks.com/en-gb/products/735-the-eye-of-the-master
 date_fetched: 2026-05-14
 section: "LLMs"
+topics:
+  - ideas-and-culture
 ---
 
 # The Eye of the Master: A Social History of Artificial Intelligence

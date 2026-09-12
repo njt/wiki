@@ -3,6 +3,8 @@ title: "Nobody Knows How Large Software Projects Work"
 url: https://www.seangoedecke.com/nobody-knows-how-software-products-work/
 date_fetched: 2026-05-14
 section: "Producing and Operating Software"
+topics:
+  - software-engineering-craft
 ---
 
 Large software systems are so complex that even their creators often cannot answer basic questions about how they function. This isn't a failure of competence but an inherent characteristic of scaled systems.

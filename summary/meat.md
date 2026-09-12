@@ -3,6 +3,8 @@ url: https://github.com/boldsoftware/meat
 title: Meat — Reading Diff
 author: boldsoftware
 date_fetched: 2026-08-14
+topics:
+  - developer-tools
 ---
 
 Meat is a Go CLI that abridges a code diff into a **reading diff**: the same change, rewritten to keep only what a senior reviewer actually needs to read. The premise is that reviewing agent-written code no longer means sweating style, nil-checks, or imports — those are covered by the compiler and tests. What remains is the *change to the program*: what moved, where data came from, what new behavior appeared. Meat strips the mechanical noise and shows you the meat.

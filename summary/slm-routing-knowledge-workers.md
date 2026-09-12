@@ -5,6 +5,8 @@ author: Mukul Singh
 site: mukulsingh105.github.io
 date_fetched: 2026-07-05
 date_published: 2026-06
+topics:
+  - ai-research-and-models
 ---
 
 # Knowledge Workers Don't Need Frontier Models — They Need Smarter Routing

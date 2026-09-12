@@ -4,6 +4,9 @@ title: "Teaching the Agent Our Craft: Structured Agentic Development on a Real C
 author: Alex Haldeman
 date_fetched: 2026-07-18
 date_published: 2026-07-06
+topics:
+  - guardrails-and-feedback-loops
+  - agent-coding-workflow
 ---
 
 Alex Haldeman, Lead Engineer at 8th Light, describes how his team built a digital

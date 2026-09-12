@@ -6,6 +6,8 @@ date_fetched: "2026-06-09"
 date_published: "2026-05-12"
 source_type: "blog"
 company: "Unmeshed"
+topics:
+  - software-engineering-craft
 ---
 
 # Your Backend Is Full of Hidden Workflows

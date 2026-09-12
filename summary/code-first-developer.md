@@ -5,6 +5,8 @@ author: Khalil Stemmler
 site: khalilstemmler.com
 date_fetched: 2026-07-05
 date_published: 2024-01-10
+topics:
+  - software-engineering-craft
 ---
 
 # The Code-First Developer

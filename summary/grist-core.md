@@ -4,6 +4,8 @@ title: "Grist"
 author: Grist Labs Inc.
 date_fetched: 2026-07-29
 date_published: 2014
+topics:
+  - databases-and-data
 ---
 
 An architectural walkthrough of the Grist open-source codebase — a relational spreadsheet that combines the flexibility of a spreadsheet with the robustness of a database. The `grist-core` repository (~233K lines TypeScript, ~45K lines Python) is Apache 2.0 licensed, with contributions from the French government's ANCT and DINUM alongside Grist Labs (NYC).

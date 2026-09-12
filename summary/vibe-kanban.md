@@ -3,6 +3,8 @@ title: "vibe-kanban"
 url: https://github.com/BloopAI/vibe-kanban
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - agent-orchestration
 ---
 
 # Vibe Kanban

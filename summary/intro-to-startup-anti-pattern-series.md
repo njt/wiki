@@ -5,6 +5,8 @@ author: Itamar Novick & Simeon Simeonov
 site: itamarnovick.com
 date_fetched: 2026-09-04
 date_published: undated
+topics:
+  - ideas-and-culture
 ---
 
 An anti-pattern is a commonly used process, structure, or pattern of action that looks like a sensible response to a problem but produces more bad consequences than good ones. Simeon Simeonov first wrote about the value of startup anti-patterns in 2013; this post revives that framing as the launch of a series co-authored with Itamar Novick of Recursive Ventures, drawing on their combined experience across 100+ startups and their portfolio founders.

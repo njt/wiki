@@ -6,6 +6,8 @@ date_fetched: 2026-05-31
 date_published: 2026-05-26
 source_domain: mendral.com
 reading_time: 11 min
+topics:
+  - security-and-sandboxing
 ---
 
 # You should not update your dependencies in 2026

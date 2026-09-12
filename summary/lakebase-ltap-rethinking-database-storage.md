@@ -6,6 +6,8 @@ date_fetched: 2026-07-05
 date_published: 2026-06-30
 site: Databricks Blog
 category: Engineering
+topics:
+  - databases-and-data
 ---
 
 Reynold Xin recounts his journey from PhD skepticism about OLTP databases being "solved" through to Databricks' Lakebase architecture and the LTAP (Lake Transactional/Analytical Processing) paradigm. The core argument: traditional databases are fragile monoliths because the WAL and data files live on one machine. Lakebase fixes this by externalizing both into distributed cloud services (SafeKeeper for WAL, PageServer for data files), making Postgres compute stateless. LTAP goes further: it stores operational data once in open columnar formats (Delta/Iceberg as Parquet) so both Postgres and Lakehouse engines read the same fresh data — no CDC pipeline, no second copy, no performance penalty to transactions.

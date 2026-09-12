@@ -4,6 +4,9 @@ url: https://every.to/guides/compound-engineering
 date_fetched: 2026-05-14
 fetched_via: "web.archive.org (https://web.archive.org/web/20260417172052/https://every.to/guides/compound-engineering)"
 section: "AI-enhanced Coding"
+topics:
+  - agent-coding-workflow
+  - guardrails-and-feedback-loops
 ---
 
 # Compound Engineering: The AI-Native Engineering Philosophy

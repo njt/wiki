@@ -4,6 +4,8 @@ title: "razorgirl on 1000 Players Simulate Civilization: Rich & Poor"
 author: razorgirl (@razorgirl.diy)
 date_fetched: 2026-05-15
 date_published: 2025-12-26
+topics:
+  - ideas-and-culture
 ---
 
 ## Original Post

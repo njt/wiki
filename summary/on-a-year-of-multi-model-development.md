@@ -4,6 +4,8 @@ author: "Jason A. Hoffman"
 date: 2026-03-22
 url: https://fullhoffman.com/2026/03/22/on-a-year-of-multi-model-development/
 fetched: 2026-05-14
+topics:
+  - agent-coding-workflow
 ---
 
 # On a Year of Multi-Model Assisted Development

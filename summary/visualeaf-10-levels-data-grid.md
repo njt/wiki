@@ -4,6 +4,8 @@ title: "The 10 Levels of Building a Data Grid"
 author: Ly Jacky Nhiayi
 date_fetched: 2026-07-25
 date_published: 2026-07-17
+topics:
+  - software-engineering-craft
 ---
 
 Ly Jacky Nhiayi walks through the performance optimizations needed to build a data grid that handles large SQL and NoSQL datasets with rich features: type-aware cells (BSON, JSONB), nested document expansion, in-place editing, and drag-and-drop into a visual query builder.

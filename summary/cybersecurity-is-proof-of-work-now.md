@@ -4,6 +4,8 @@ title: "Cybersecurity Looks Like Proof of Work Now"
 author: David Breunig
 date_fetched: 2026-05-14
 date_published: 2026-04-14
+topics:
+  - security-and-sandboxing
 ---
 
 # Cybersecurity Looks Like Proof of Work Now

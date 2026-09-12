@@ -5,6 +5,8 @@ author: Frederic Lardinois
 date_fetched: 2026-05-15
 date_published: 2026-05-05
 publication: The New Stack
+topics:
+  - ai-research-and-models
 ---
 
 Article body not fully retrievable via WebFetch (truncated by page length). Content supplemented from SiliconANGLE coverage (https://siliconangle.com/2026/05/05/subquadratic-launches-29m-bring-12m-token-context-windows-ai/) and web search results.

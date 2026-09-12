@@ -4,6 +4,8 @@ title: "Beyond Zero: Enterprise security for the AI era"
 author: Joseph Valente, Michal Zalewski
 date_fetched: 2026-08-01
 date_published: 2026-07-20
+topics:
+  - security-and-sandboxing
 ---
 
 Google's vision for enterprise security in the age of AI agents. Joseph Valente and

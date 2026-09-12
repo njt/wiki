@@ -4,6 +4,8 @@ title: "We replaced Redis with MySQL for inventory reservations—and it scaled"
 author: Emilie Noel
 date_fetched: 2026-05-31
 date_published: 2026-05-12
+topics:
+  - databases-and-data
 ---
 
 Shopify replaced Redis with MySQL for inventory reservations and survived Black Friday 2025 at $5.1M/minute peak sales. The article walks through the technical decisions: one-row-per-unit design with SKIP LOCKED, bounded inventory pools capped at 1,000 rows per item/location, composite primary keys to reduce InnoDB row locks from two to one, READ COMMITTED isolation to avoid gap/supremum locks blocking replenishment, consistent lock ordering to prevent deadlocks, and UNION ALL batching for multi-item carts.

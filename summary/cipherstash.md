@@ -1,3 +1,7 @@
+---
+topics:
+  - databases-and-data
+---
 # CipherStash — Summary
 
 CipherStash is a data security platform providing **searchable field-level encryption** for PostgreSQL-backed applications. Its core innovation is making encrypted data queryable: you can run equality, range, ordering, and free-text search over ciphertext without decrypting it first. Encryption happens client-side, with unique keys per value derived on demand by ZeroKMS (a key management service that never stores keys). Identity-bound encryption ties decryption to end-user JWT claims, enforced cryptographically rather than by policy.

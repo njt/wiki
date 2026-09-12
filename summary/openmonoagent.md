@@ -4,6 +4,8 @@ title: OpenMonoAgent — Terminal-Native Local Coding Agent
 author: StartupHakk LLC
 date_fetched: 2026-07-05
 date_published: 2025
+topics:
+  - agent-architecture
 ---
 
 # OpenMonoAgent.ai

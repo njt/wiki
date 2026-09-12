@@ -3,6 +3,9 @@ title: "GraphRAG"
 url: https://microsoft.github.io/graphrag/
 date_fetched: 2026-05-14
 section: "Databases and Data"
+topics:
+  - agent-memory-and-context
+  - databases-and-data
 ---
 
 # GraphRAG: Structured Retrieval Augmented Generation (Microsoft)

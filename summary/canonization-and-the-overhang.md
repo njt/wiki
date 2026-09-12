@@ -4,6 +4,8 @@ title: "Canonization and the Overhang"
 author: Kellan Elliott-McCrea
 date_fetched: 2026-07-08
 date_published: 2026-06-30
+topics:
+  - software-engineering-craft
 ---
 
 Kellan Elliott-McCrea responds to David Bessis's "The fall of the theorem economy," drawing parallels between mathematics and software engineering through two borrowed terms.

@@ -6,6 +6,8 @@ date_fetched: 2026-05-14
 date_published: 2025-09-30
 tags: [definitions, ai, generative-ai, llms, ai-assisted-programming, ai-agents, coding-agents, async-coding-agents]
 series: "How I use LLMs and ChatGPT (entry #30)"
+topics:
+  - agent-coding-workflow
 ---
 
 # Designing agentic loops

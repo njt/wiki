@@ -4,6 +4,8 @@ title: Understand-Anything
 author: Lum1104
 date_fetched: 2026-05-18
 date_published: 2025-10-12
+topics:
+  - misc
 ---
 
 ## Full architectural analysis

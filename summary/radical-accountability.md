@@ -3,6 +3,9 @@ title: "Radical Accountability"
 url: https://wesm.spicytakes.org/post/2026-03-03-data-renegades-radical-accountability
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-coding-workflow
+  - personal-agents
 ---
 
 Wes McKinney argues AI has fundamentally shifted software creation economics. Engineering time constraints no longer provide legitimate excuses, so mediocre software vendors face displacement by individuals empowered to build superior alternatives.

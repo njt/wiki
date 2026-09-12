@@ -4,6 +4,8 @@ title: "brooks-lint: AI code reviews grounded in twelve classic engineering book
 author: hyhmrright
 date_fetched: 2026-06-15
 date_published: 2026-03-26
+topics:
+  - guardrails-and-feedback-loops
 ---
 
 # brooks-lint — Full Analysis

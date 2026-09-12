@@ -3,6 +3,9 @@ title: "Awesome Vibez"
 url: https://github.com/danshapiro/awesome-vibez
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - agent-coding-workflow
+  - personal-agents
 ---
 
 # Awesome Vibez

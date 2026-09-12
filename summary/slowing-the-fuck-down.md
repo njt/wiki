@@ -3,6 +3,8 @@ title: "Slowing the Fuck Down"
 url: https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
+topics:
+  - agent-coding-workflow
 ---
 
 # Thoughts on Slowing the Fuck Down - Mario Zechner

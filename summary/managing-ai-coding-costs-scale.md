@@ -5,6 +5,8 @@ site: Databricks Blog
 authors: Patrick Wendell, Akshat Bhatia, Vinay Gaba, Erich Elsen, Ivan Zhou
 date_published: 2026-08
 date_fetched: 2026-08-08
+topics:
+  - agent-coding-workflow
 ---
 
 Databricks engineers, drawing on their own experience and conversations with Stripe, Coinbase, Uber, and Ramp, present a playbook for taming the exponential growth of AI coding costs without sacrificing the productivity gains that make AI adoption worthwhile. The core argument: companies face a "dual mandate" — provide broad, low-friction access to AI tools while keeping costs inside a predictable per-user envelope — and the earliest large-scale adopters have converged on a set of proven techniques.

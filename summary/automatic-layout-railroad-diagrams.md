@@ -4,6 +4,8 @@ title: "Automatic Layout of Railroad Diagrams"
 author: Shardul Chiplunkar, Clément Pit-Claudel
 date_fetched: 2026-07-25
 date_published: 2025-09-19
+topics:
+  - software-engineering-craft
 ---
 
 An EPFL paper presenting the first formal treatment of railroad (syntax)

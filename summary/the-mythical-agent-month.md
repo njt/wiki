@@ -4,6 +4,8 @@ title: The Mythical Agent-Month
 author: Wes McKinney
 date_fetched: 2026-05-18
 date_published: 2026-02-17
+topics:
+  - agent-coding-workflow
 ---
 
 Like a lot of people, I've found that AI is terrible for my sleep schedule. In the past I'd wake up briefly at 4 or 4:30 in the morning to have a sip of water or use the bathroom; now I have trouble going back to sleep. I could be doing things. Before I would get a solid 7-8 hours a night; now I'm lucky when I get 6. I've largely stopped fighting it: now when I'm rolling around restlessly in bed at 5:07am with ideas to feed my AI coding agents, I just get up and start my day.

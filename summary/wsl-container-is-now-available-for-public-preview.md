@@ -4,6 +4,8 @@ title: WSL Container Is Now Available for Public Preview
 author: Microsoft Developer Blogs (Command Line team)
 date_published: 2026-05 (Microsoft Build 2026)
 date_fetched: 2026-08-07
+topics:
+  - developer-tools
 ---
 
 Microsoft announced at Build 2026 that WSL containers — a built-in, enterprise-ready way to create, run, and manage Linux containers on Windows through WSL — is now available as a public preview in the WSL pre-release channel.

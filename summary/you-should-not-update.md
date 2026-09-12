@@ -4,6 +4,8 @@ title: "You should not update your dependencies in 2026"
 author: Olivier Gambier
 date_fetched: 2026-05-31
 date_published: 2026-05-26
+topics:
+  - misc
 ---
 
 # You should not update your dependencies in 2026

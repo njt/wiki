@@ -4,6 +4,8 @@ title: "Sidekick Skill — Persistent Worker Agent for Claude Code"
 author: jleechanorg
 date_fetched: 2026-07-18
 date_published: 2025-2026
+topics:
+  - agent-architecture
 ---
 
 A Claude Code skill for spawning persistent, crash-recoverable worker agents ("sidekicks") that handle long-running missions. The default mode runs the sidekick as a named background `Agent` inside the invoking session's Agent Team, using `STATE.md` checkpoints and a resumption bead for durability — if the session crashes, a fresh one respawns from disk state. As a fallback, the sidekick can run in an external `tmux` session when work must survive the parent CLI exiting entirely; this mode sacrifices team-panel visibility.

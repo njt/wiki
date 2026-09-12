@@ -4,6 +4,8 @@ title: "Announcing VulnHunter: Capital One's open-source, agentic AI code securi
 author: Capital One Tech
 date_fetched: 2026-07-18
 date_published: 2026-07-16
+topics:
+  - security-and-sandboxing
 ---
 
 Capital One open-sourced VulnHunter, an agentic AI security tool that performs

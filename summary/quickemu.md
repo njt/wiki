@@ -3,6 +3,8 @@ title: "QuickEmu"
 url: https://github.com/quickemu-project/quickemu
 date_fetched: 2026-05-14
 section: "Random"
+topics:
+  - developer-tools
 ---
 
 # QuickEmu: Quick Virtual Machines

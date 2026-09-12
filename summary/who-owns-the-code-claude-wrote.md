@@ -5,6 +5,8 @@ author: Sena Evren
 date_fetched: 2026-07-05
 date_published: 2026-06-15
 source: O'Reilly Radar (originally appeared on Legal Layer newsletter)
+topics:
+  - agent-coding-workflow
 ---
 
 ## TL;DR

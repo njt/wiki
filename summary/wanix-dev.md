@@ -5,6 +5,8 @@ author: unknown (wanix.dev project)
 site: wanix.dev
 date_fetched: 2026-09-04
 date_published: unknown
+topics:
+  - security-and-sandboxing
 ---
 
 # Wanix — Wasm-Native Unix Sandboxing for the Web

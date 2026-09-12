@@ -4,6 +4,8 @@ title: "TabFM: Tabular Foundation Models"
 author: Google Research
 date_fetched: 2026-07-03
 date_published: 2026-06-29
+topics:
+  - misc
 ---
 
 # TabFM — Raw Ingest Analysis

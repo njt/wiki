@@ -5,6 +5,8 @@ author: Siddhi Sundar
 date_fetched: 2026-05-14
 date_published: 2025-06-16
 source: Siddhi | Helping Creatives Navigate AI (Substack)
+topics:
+  - ideas-and-culture
 ---
 
 Article by Siddhi Sundar introducing the concepts of the "Creative Firewall" and "Trojan Prompts" — the boundary between imitation and intention in AI-assisted creative work, and deeply personal prompts so rooted in lived experience that AI could never generate them independently.

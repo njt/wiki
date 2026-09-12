@@ -3,6 +3,8 @@ url: https://simonwillison.net/2026/Jul/31/stateless-mcp/
 title: Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)
 author: Simon Willison
 published: 2026-07-31
+topics:
+  - agent-architecture
 ---
 
 Simon Willison returns to MCP after the release of the 2026-07-28 stateless specification, arguing that MCP has become a meaningfully safer and simpler way to give agents tool access compared to the prevailing pattern of granting shell and `curl` access. The stateless redesign collapses the old two-request initialize-then-call protocol into a single HTTP request, eliminating server-side session state and making MCP servers deployable as standard web workloads.
