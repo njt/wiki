@@ -949,6 +949,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Diary of a CEO and the Success-Podcast Grift]] — Barry's Economics Today argues Diary of a CEO stops listeners succeeding on purpose: Tetlock's hedgehog/fox selection, Watts' Music Lab randomness, Gazzaniga's press-office brain, Wald's survivorship bias, and the anxiety-monetisation cycle
 - [[Engagement Is Not Wellbeing — Mosseri's Defense of the Instagram Algorithm]] — Adam Mosseri defends Instagram's ranking as a benefit (50% engagement drop, "satisfaction falls off a cliff"), while Australia's Duty of Care bill treats engagement and time-on-platform as the harm; the one number that would settle it — wellbeing — is never produced
 - [[The Cathedral, the Bazaar, and the Winchester Mystery House]] — Drew Breunig's third model of software development for the agentic era: when code is cheap and feedback isn't, developers build idiosyncratic, sprawling, fun personal tools; the bazaar drowns as machine-speed implementation hits human-speed coordination, and the new bottleneck is attention
+- [[Why Your City Feels Built For Cars, Not People]] — Winkless interviews the authors of *Transportation and the Shape of Cities*: space, not policy, is the binding constraint on urban transport, each of five modes has an inescapable geometry (a parked car gets 9×18 ft, an office worker 8×8), and the car network is only "complete" because law makes it so — capacity, not ideology, as the frame for reallocating street space
 
 ## Miscellany
 
