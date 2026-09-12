@@ -411,6 +411,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Software Engineering Craft]] — Engineering practice that predates and outlasts agents: simplicity, architecture, code review, testing, refactoring, debugging, technical writing, and how teams ship.
 
+- [[How SQLite Tests Software]] — D. Richard Hipp's 2026 talk on how a three-committer project earns world-scale reliability: 100% MCDC coverage against the deliverable object code, a test harness six times larger than the source, and design-for-testability seams that let every failure mode be injected on demand
 - [[Software Engineering Practice Atlas]] — 4,654-entry AI-generated reference map of software craft: five practice areas, 25 domain guides, and the "when not to use it" field as differentiator
 - [[The Ten Properties of Software Quality]] — Engineering Atlas's ten-property reframe of quality (Correctness through Compliance); the Correctness chapter reads Dijkstra's "testing shows the presence of bugs" as a design constraint and lands on mutation testing as the honest audit of a safety net
 - [[What Color is Your Function]] — Bob Nystrom's classic diagnosis of the "function coloring" problem: why async/await can't compose freely, why green threads are the real solution, and why Go, Lua, and Erlang got concurrency right while JavaScript, Dart, and C# painted themselves into a corner
