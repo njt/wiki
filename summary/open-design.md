@@ -6,6 +6,7 @@ date_fetched: 2026-05-18
 date_published: 2024-10 (initial), actively maintained
 tags: [agent-orchestration, local-first, design-system, plugin-architecture, coding-agent, sse-streaming]
 topics:
+  - coding-agents-and-frameworks
   - agent-architecture
 ---
 

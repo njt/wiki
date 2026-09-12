@@ -6,6 +6,7 @@ date_fetched: 2026-06-11
 date_published: 2026-06-10
 topics:
   - agent-architecture
+  - agent-memory-and-context
 ---
 
 # MiMo Code: Scaling Coding Agents to Long-Horizon Tasks

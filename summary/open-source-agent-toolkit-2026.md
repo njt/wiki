@@ -5,6 +5,7 @@ author: Paolo Perrone
 date_fetched: 2026-07-18
 date_published: 2026-07-14
 topics:
+  - coding-agents-and-frameworks
   - agent-architecture
 ---
 

@@ -5,6 +5,7 @@ author: latentsignal-org (Jesse Vincent / Prime Radiant)
 date_fetched: 2026-06-15
 date_published: 2026-06
 topics:
+  - personal-agents
   - agent-architecture
 ---
 

@@ -5,6 +5,7 @@ author: Can Bölük (fork of Mario Zechner's pi-mono)
 date_fetched: 2026-07-11
 date_published: 2025
 topics:
+  - coding-agents-and-frameworks
   - agent-architecture
 ---
 

@@ -5,7 +5,7 @@ author: OpenAI
 date_fetched: 2026-05-14
 date_published: 2024-08-06
 topics:
-  - agent-architecture
+  - mcp-and-tool-protocols
 ---
 
 # Structured Model Outputs

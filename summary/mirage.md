@@ -5,6 +5,7 @@ author: "Zecheng Zhang / Strukto.AI"
 date_fetched: 2026-05-18
 date_published: 2026-05-01
 topics:
+  - mcp-and-tool-protocols
   - agent-architecture
 ---
 

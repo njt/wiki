@@ -5,7 +5,8 @@ author: OtterMind
 date_fetched: 2026-07-05
 date_published: 2025-05
 topics:
-  - agent-architecture
+  - databases-and-data
+  - mcp-and-tool-protocols
 ---
 
 # Nubase — Full Source Analysis

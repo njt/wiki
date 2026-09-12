@@ -6,7 +6,8 @@ date_fetched: 2026-07-05
 date_published: 2025
 tags: [agents, coding, local-llm, dotnet, tools]
 topics:
-  - agent-architecture
+  - coding-agents-and-frameworks
+  - local-and-open-source-inference
 ---
 
 # OpenMono Agent — Full Analysis

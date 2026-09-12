@@ -5,7 +5,8 @@ author: Lajos Deme
 date_fetched: 2026-08-22
 date_published: 2026-08-13
 topics:
-  - agent-architecture
+  - coding-agents-and-frameworks
+  - guardrails-and-feedback-loops
 ---
 
 # Mole: Enforced-Budget Deep Research Agent

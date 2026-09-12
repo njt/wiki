@@ -5,7 +5,8 @@ author: Netlify
 date_fetched: 2026-07-08
 date_published: 2026-07-08
 topics:
-  - agent-architecture
+  - guardrails-and-feedback-loops
+  - agent-memory-and-context
 ---
 
 AXIS is an open-source scoring framework for Agent Experience (AX) — think Lighthouse, but for how well a platform or API serves AI agents rather than humans. Users supply a scenario (a JSON file with a prompt and scoring rubric), point AXIS at an agent, and it scores the run across four dimensions: Goal achievement, Service, Environment, and Agent. The output is a 0–100 score and an HTML report. It supports 22 agents natively.
