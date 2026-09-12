@@ -4,7 +4,7 @@ url: https://wesm.spicytakes.org/post/2026-03-03-data-renegades-radical-accounta
 date_fetched: 2026-05-14
 section: "AI-enhanced Coding"
 topics:
-  - agent-coding-workflow
+  - ai-product-and-business
   - personal-agents
 ---
 

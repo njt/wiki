@@ -7,6 +7,7 @@ date_published: 2026-06-06
 description: "A 41 TB filesystem, two kernels that didn't know about each other, and the ~320 KB of writes that brought it all back."
 topics:
   - agent-coding-workflow
+  - software-engineering-craft
 ---
 
 # 🎉 Mounted — bitter-FS better with Claude

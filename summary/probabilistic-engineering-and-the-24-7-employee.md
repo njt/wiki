@@ -6,6 +6,7 @@ date_fetched: 2026-05-15
 date_published: 2026-04-16
 topics:
   - agent-coding-workflow
+  - ai-product-and-business
 ---
 
 Software is quietly becoming a probabilistic system. The deterministic contract—write, test, ship, *know* it works—is breaking. Inside top AI-native companies, codebases are becoming things you *believe* work, "with a probability you can no longer precisely state."

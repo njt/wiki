@@ -6,6 +6,7 @@ date_fetched: 2026-08-25
 date_published: 2026
 topics:
   - agent-coding-workflow
+  - guardrails-and-feedback-loops
 ---
 
 # Principal Drift in Practice

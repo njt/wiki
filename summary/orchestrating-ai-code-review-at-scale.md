@@ -6,7 +6,8 @@ date_fetched: 2026-07-05
 date_published: 2026-04-20
 site: Cloudflare Blog
 topics:
-  - agent-coding-workflow
+  - ai-code-review
+  - agent-orchestration
 ---
 
 Cloudflare built a CI-native multi-agent code review system using OpenCode that launches up to seven specialized reviewers (security, performance, code quality, documentation, release management, compliance, AGENTS.md) with a coordinator agent that deduplicates, judges severity, and posts a single structured review. Key metrics from March 10–April 9, 2026: 131,246 review runs across 48,095 MRs in 5,169 repositories, median completion time of 3 minutes 39 seconds, median cost of $0.98 (average $1.19). The system uses risk-tiered review (trivial/lite/full), tiered model assignment (Opus for coordination, Sonnet for workhorses, Kimi K2.5 for lightweight tasks), circuit breakers with failback chains, shared context optimization (85.7% cache hit rate), and a plugin architecture with configuration via Cloudflare Workers + KV. Not a replacement for human code review, but a scaling strategy for when human review capacity is the binding constraint.
