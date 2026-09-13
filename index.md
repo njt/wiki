@@ -381,6 +381,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Security and Sandboxing]] — Threats and containment for agents and the software they touch: sandboxing, permissions, prompt injection, supply chain, secrets, zero trust, and incident write-ups.
 
+- [[LLM01 Prompt Injection (OWASP)]] — The OWASP Top 10's canonical prompt-injection entry: direct vs indirect injections, the injection/jailbreak split, seven mitigations (least privilege, deterministic output validation, human approval), nine attack scenarios, and the candid admission that fool-proof prevention may not exist
 - [[Cloudflare Security Audit Skill]] — Cloudflare's open-source Claude Code skill: six-phase parallel-agent pipeline (recon → hunt → adversarial validation → structured output → independent verification) for finding exploitable vulnerabilities. The skill that seeded their internal Glasswing vulnerability harness
 - [[Building Agents That Don't Break Themselves]] — Daniel Botha's brains-vs-hands architecture: the agent reasoning loop lives on durable infra, but execution happens in disposable nested sandboxes with copy-on-write checkpointing as a reflex
 - [[Zeroclaw]] — Rust agent runtime: trait-based, 30+ channels, OS-level sandboxing. 31k stars
