@@ -437,6 +437,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Software Engineering Craft]] — Engineering practice that predates and outlasts agents: simplicity, architecture, code review, testing, refactoring, debugging, technical writing, and how teams ship.
 
+- [[The Rise and Fall of eBay Velocity]] — Randy Shoup's Craft 2025 post-mortem of eBay's Velocity program: a textbook continuous-delivery transformation (medium→high DORA performer, 5x deploy frequency and lead time, doubled engineering productivity) that still couldn't save the company, because strategy, technology dead ends, and above all a pathological culture ate the gains
 - [[Real-World Roslyn Analyzer Examples in C#]] — Nick Cosentino's three production-ready Roslyn analyzers (async naming, null-guard, structured-log validation) with full DiagnosticAnalyzer/CodeFixProvider code, edge-case handling, and packaging into a shared NuGet
 - [[How SQLite Tests Software]] — D. Richard Hipp's 2026 talk on how a three-committer project earns world-scale reliability: 100% MCDC coverage against the deliverable object code, a test harness six times larger than the source, and design-for-testability seams that let every failure mode be injected on demand
 - [[Software Engineering Practice Atlas]] — 4,654-entry AI-generated reference map of software craft: five practice areas, 25 domain guides, and the "when not to use it" field as differentiator
