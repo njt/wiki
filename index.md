@@ -273,6 +273,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 [[MCP and Tool Protocols]] — How agents reach tools and services: MCP servers and gateways, tool and function calling, agent-facing APIs and CLIs, structured outputs, and authentication for tools.
 
 - [[rdc — Remote Desktop Control for AI Agents]] — One Rust binary, three roles (daemon/CLI/MCP server), that lets an agent screenshot and drive another computer's desktop over Tailscale — auth via tailscaled whois instead of tokens, capability-scoped grants, JSON-lines audit log, screenshot-pixel coordinates.
+- [[TX Text Control AI — Private AI for Document Workflows]] — Text Control's six-package preview wiring local llama.cpp inference, private RAG, and a deterministic document engine via an MCP document server: the model proposes structured tool calls, the engine touches the files, and three independently deployable hosts keep prompts, documents, and knowledge inside the org boundary
 
 ## Agent Orchestration
 
