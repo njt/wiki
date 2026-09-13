@@ -1001,6 +1001,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Macro, Not Notaries (Nicolas Colin)]] — Germany's startup capital starvation as macroeconomics, not bureaucracy: Hartz wage repression and export surpluses lock national savings in corporate/state balance sheets that fund manufacturing competitiveness rather than startups, while the US "overflow mechanism" crowds domestic capital into VC — and by balance-of-payments identity, US reshoring would starve the very inflows that feed Silicon Valley
 - [[Building Resilience — Tricia Broderick (Craft 2025)]] — Tricia Broderick's day-one keynote: resilience has no checklist, only four puzzle pieces (compassion, confidence, courage, complexity); the relay-race test that exposes groups masquerading as teams, the hub audit for indispensable leaders, "manipulation is not leadership and it's not trust," and an 18-month handstand journey that hit its goal once and proved "there is no done"
 
+- [[Two Languages — Complexity Bounds Systems Thinking]] — A conference panel (ytx gist, very likely Craft 2026) with Dave Snowden, Diana Montalion and Daniel North under moderator Nigel Thurlow: complexity science bounds systems thinking the way quantum bounded Newton, root cause is domain-dependent (RCA in complex systems manufactures retrospective coherence), Agile borrowed complexity's language without its practice, Ashby's Law is a design constraint rather than gravity, and AI adds complication, not complexity — with the gist's own honest digest of everything the panel left unanswered
+
 ## Miscellany
 
 [[Miscellany]] — Anything that fits none of the above. Reviewed periodically for topics that want to exist.
