@@ -31,6 +31,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Agent Coding Workflow]] — How practitioners actually work with coding agents day to day: the loop, prompting habits, planning rituals, verification over generation, maturity models, team and org practice, and what changes about the craft. Tool-specific Claude Code material goes to claude-code; review automation goes to ai-code-review.
 
+- [[Own the Outer Loop]] — Addy Osmani's accountability essay: agents run the inner loop while engineers own the outer loop — Quality produces evidence, evidence licenses a Verdict, and the Verdict demands Answerability; the three hidden costs (cognitive surrender, cognitive debt, orchestration tax) and the four loops (constraints, sampling, audit, ownership) where human judgment actually lives
+
 - [[Dmitry Sotnikov's LLM Workflow]] — Dmitry Sotnikov's (yogthos, Jolt) practical workflow for LLM-assisted development: the agentic loop as a genetic algorithm with tests as selection pressure, the evil-genie naive-implementation trap, revert-don't-debug, and Behavior Trees demoting the model to a leaf node in a deterministic control structure
 - [[The End of Code Review]] — Martin Monperrus argues coding agents have crossed the threshold where mandatory human code review is indefensible; the review bottleneck, rubber-stamp collapse, and agent-in-the-loop verification as resolution
 - [[Agentic Code Review]] — Addy Osmani's definitive 2026 field guide: the bottleneck shifted from writing code to trusting it (861% churn, 441% longer reviews), human-on-the-loop as the resolution, and seven concrete practices for teams
