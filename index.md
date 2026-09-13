@@ -265,6 +265,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Lessons from Building Vercel v0 and the d0 Agent]] — Malte Ubl on Dzero's two-tool architecture (bash + SQL, ~50 lines), V0's four-stage evolution driven by model leaps, the "make it look like coding" pattern, optimistic locking for shipping, and why teams make things go slower
 - [[Guiding Opus 4.8 Back to Sanity]] — valis diagnoses Opus 4.8's pedantic pushback as structural: obligation-voiced agentic layers overwhelm permission-voiced conversational guidance. The fix: an Object Floor that defines structural invalidity rather than prescribing virtues
 - [[Umans Code for Organizations]] — Umans' org-tier docs: seat/service-account billing split (flat-rate humans, metered automations), 50% capacity pooling across seats, four-model tiered routing with per-token pricing from $0.15/M input, and the platform lock-in play hiding in the pricing page
+- [[Intelligence as Infrastructure — Igor Sevo (Craft 2025)]] — HTEC's Head of AI runs from proactive UI-shaping chatbots and routing-agent RAG without vector databases to prompts-as-code with two CI/CD pipelines, an experimental agentic runtime that treats humans as function endpoints, and four claims about intelligence — landing on "your company is already the agentic runtime"
 
 ## Coding Agents and Frameworks
 
