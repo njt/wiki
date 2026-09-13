@@ -700,6 +700,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Tailport]] — Go TUI that lists locally listening TCP ports and toggles `tailscale serve`/`funnel` (or a Caddy-edge publish) per port, making a dev server tailnet- or publicly reachable in one keystroke. Reachability derived from bind scope; conflict-safe Caddy edge via optimistic concurrency and byte-faithful undo
 - [[Tunnet]] — Open-source mesh VPN platform bundling mesh networking, serve, tunnel, send, and SSH under one identity system and policy engine. Rust (~26K lines) on iroh/QUIC, two modes (Managed with control plane, Direct with CRDT membership), self-hosted relay
 - [[Tailcat]] — Tailscale's data plane with the control plane deleted: a netcat-like encrypted pipe (WireGuard + magicsock NAT traversal + DERP relay) addressed by a compact `tc…` bearer-capability address. Go library + CLI serving pipes, ports, exit nodes, SSH, and SFTP, plus a WASM web demo
+- [[Kage (Design-to-Prompt Gallery)]] — Design-inspiration gallery of landing pages from real products (ynab, wealthfront, venmo, Raycast 2.0, phantom.com…): 240 designs / 1,265 components / 135 products / 17 skills, with a one-button pitch that turns any design into a prompt for Claude Code, Codex or Cursor — visual reference sold as an agent-consumable input
 
 ## Local and Open Source Inference
 
