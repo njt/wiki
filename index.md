@@ -587,6 +587,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Distributed Systems]] — Consensus, replication, failure modes, networking, event-driven versus polling designs, and the operational realities of systems spread over many machines.
 
+- [[Durable Execution Without History Replay]] — Trigora's TCC proposal: commit the live continuation at durable boundaries and restore it on failure instead of replaying history, so recovery cost tracks live state rather than accumulated past (~0.6–0.9 ms flat vs Temporal's 61 ms→1.7 s in their 4 KB-state benchmark)
+
 ## Developer Tools
 
 [[Developer Tools]] — Tools a developer picks up and uses: editors, terminals, CLIs, build systems, version control, and standalone utilities. A tool is filed here when the interesting thing is the tool itself rather than the idea behind it.
