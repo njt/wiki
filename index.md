@@ -703,6 +703,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Tunnet]] — Open-source mesh VPN platform bundling mesh networking, serve, tunnel, send, and SSH under one identity system and policy engine. Rust (~26K lines) on iroh/QUIC, two modes (Managed with control plane, Direct with CRDT membership), self-hosted relay
 - [[Tailcat]] — Tailscale's data plane with the control plane deleted: a netcat-like encrypted pipe (WireGuard + magicsock NAT traversal + DERP relay) addressed by a compact `tc…` bearer-capability address. Go library + CLI serving pipes, ports, exit nodes, SSH, and SFTP, plus a WASM web demo
 - [[Kage (Design-to-Prompt Gallery)]] — Design-inspiration gallery of landing pages from real products (ynab, wealthfront, venmo, Raycast 2.0, phantom.com…): 240 designs / 1,265 components / 135 products / 17 skills, with a one-button pitch that turns any design into a prompt for Claude Code, Codex or Cursor — visual reference sold as an agent-consumable input
+- [[OpenDisplay]] — Free open-source Mac app that turns a spare iPhone, iPad, or old Mac into a true extended second monitor over USB (native usbmuxd client) or WiFi/Bonjour: private-API CGVirtualDisplay → ScreenCaptureKit → VideoToolbox H.264 over one TCP connection, with frame-drop backpressure, a UDP cursor side channel, NTP-style clock sync, and a normative wire protocol spec that third-party Android/Linux clients implement
 
 ## Local and Open Source Inference
 
