@@ -293,6 +293,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[bb — The Agent Orchestrator as Normalizer]] — Open-source orchestrator wrapping Claude Code, Codex, Pi, Cursor, and other ACP agents behind a unified JSON-RPC interface with a two-shape adapter architecture (in-process protocol adapters + bridge-process SDK/ACP adapters). Normalizes heterogeneous harness output into a shared thread-event timeline
 - [[Paperclip]] — Open-source (MIT), self-hosted control plane that runs teams of heterogeneous agent CLIs as a "company": org chart, per-agent budgets, heartbeat execution with atomic checkout/coalescing, board-level governance, multi-company isolation, and a provider-neutral run-outcome transcript. Website and repo
 - [[Orca]] — Open-source Electron desktop orchestrator running 20+ CLI coding agents in parallel git worktrees with SSH remote access, mobile companion, and crash-surviving persistent terminals. 590K lines TypeScript, MIT licensed by stablyai
+- [[How to Build an AI Software Factory]] — Firecrawl's synthesis of every published factory architecture (Stripe Minions, Spotify Honk, Shopify River, Ramp Inspect, Faire, Uber uReview) into a five-stage control plane — intake, isolation, tools, verification, merge gate — with a gate at each stage, the unflattering numbers (agent PRs merge 67.9% vs 87.1% human, METR's ~24-point grader gap, GitClear's eightfold duplication rise), the review-capacity bottleneck as the whole design problem, and the advice to start with one gate, not a fleet
 
 ## Agent Memory and Context
 
