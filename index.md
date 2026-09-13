@@ -126,6 +126,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 [[Claude Code]] — Claude Code the product: skills, hooks, plugins, CLAUDE.md and steering files, subagents, prompting Claude models, cost and context management inside it, and write-ups of how people configure it. Generic agent-coding practice that would apply to any tool goes to agent-coding-workflow.
 
 - [[Cross-Session Messaging]] — Anthropic's official docs for peer messaging between independent Claude Code sessions: ListAgents/SendMessage, per-session inbox sockets that never touch Anthropic servers (same-machine), Remote Control for cross-machine, delivered/held/refused inbound controls computed from permission-mode classes, the rule that peer messages never count as user consent, one-shot idle notices without polling, and loop-killing throttles (burst refusal, repeat-drop, 50-message queue cap)
+- [[Diagram Design]] — Cathryn Lavery's Agent Skill (Claude Code/Codex/Copilot/Droid/Pi/Kiro/OpenCode) generating 40 editorial diagram types as self-contained HTML+SVG: progressive disclosure with a 40 KB SKILL.md cap, semantic patterns routed to nearest existing type, brand onboarding from a URL into a single style-guide token source, redraw-don't-convert importers for draw.io/Mermaid/Excalidraw, and ~40 deterministic CI gates (paint-order geometry, pixel-diff clipping, pinned motion controller)
 
 ## AI Code Review
 
