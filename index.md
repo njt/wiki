@@ -359,6 +359,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Parse Don't Validate]] — Alexis King's 2019 essay distilling type-driven design into "parse, don't validate": parsing preserves information in the type system, validation throws it away; the boundary principle, shotgun parsing, and making illegal states unrepresentable
 - [[CI Forge (ciforge)]] — Zero-dependency Python CI tool bundling ~25 scanners: code quality, secrets, IaC, dead code, CVE, cloud cost, AI review across 3 providers, and an MCP server. AGPLv3, replaces Snyk/SonarQube for solo devs
 - [[Lean Software Scaling Laws]] — Gwern's research proposal: measure LLM perplexity over codebases as a proxy for language design quality, predicting that formally-strong languages like Lean have worse baselines but better scaling exponents than dynamic languages
+- [[Minority Report (Instruction Audit Skill)]] — Matt Galligan's skill that audits agent instructions for conflicts, unnecessary work, and unintended consequences: `discover.py` maps the scoped instruction estate (fingerprints, provenance, exclusions), subagent reviewers own per-file JSON against a bundled rubric, a coordinator adjudicates, and `consolidate.py` enforces a deterministic floor (schema, exact quotations, fingerprints, coverage) before `findings.json` ships. Discipline: no finding quota ("do not manufacture dissent"), audited instructions are data never executed, and safeguard changes stay `decision_required`
 
 ## Specifications as the Product
 
