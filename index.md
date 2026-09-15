@@ -277,6 +277,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 [[Coding Agents and Frameworks]] — Specific agents, harnesses, frameworks, runtimes and SDKs as projects: what they are, how they are built, and how they compare. File a source here when the interesting thing is the project itself rather than a general design principle.
 
 - [[Lightpanda Browser]] — Headless browser written from scratch in Zig (v8 + html5ever, no rendering engine) as an agent runtime: one 28-tool text surface feeds an in-process LLM agent, a session-isolated MCP server, CDP/BiDi, WebMCP, and PandaScript — deterministic, token-free replay of recorded sessions
+- [[Obscura]] — Rust headless browser engine built from scratch (V8 via deno_core, real DOM, own CSS layout/paint via vendored Taffy + tiny-skia) as a drop-in CDP replacement for headless Chrome: parallel scrape workers, a 38-tool MCP server, a default-on SSRF guard enforced at DNS-resolution time, and a stealth build pairing a consistent Chrome 145 TLS fingerprint with per-session JS fingerprint randomization
 - [[Makefaster.dev]] — Makefaster.dev is a landing page for an autonomous performance-optimization skill: an AI agent, installed with a single `npx` command, that loops forever over your website — researching issues, testing hypotheses in…
 
 ## MCP and Tool Protocols
