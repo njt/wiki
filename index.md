@@ -125,6 +125,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Handing the Agent the Whole Job]] — Adam Bertram's Telerik essay separating step automation from workflow automation: human handoffs were unwritten controls, so write the finish line and a four-part limit set (budget, write paths, credentials, approvals) before the first run, keep the model only in the judgment steps, and measure DORA delivery — not model output
 - [[You Shall Not Pass — Where Developers Draw the Line on AI Autonomy]] — A 448-developer Microsoft survey classifying 1,535 task responses onto the L1–L5 autonomy scale: the median is L3 (AI produces, human approves), accountability gates the action boundary while identity and workload gate the decision-making boundary in opposite directions, and tool defaults left alone ratchet autonomy up via ten named anti-patterns
 - [[What Matters After the Software Factory Works]] — A six-month field report from someone who built an autonomous software factory in February, let it merge around 1,700 pull requests by June, and then wrote the memoir of what actually mattered — which turns out to be…
+- [[Brownfield Agentic Engineering (Osmani)]] — Addy Osmani's essay on bringing coding agents into legacy codebases argues that the real work is making hidden constraints visible and cheap changes trustworthy — through a zone map that governs agent autonomy,…
 
 ## Claude Code
 
