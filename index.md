@@ -345,6 +345,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[engineering-notebook]] — Automatic engineering diary from Claude Code and Codex sessions
 - [[Recursive Language Models]] — Alex Zhang's inference strategy wrapping LMs in a REPL environment for recursive context decomposition: GPT-5-mini + RLM > GPT-5 alone on long-context benchmarks, positioning RLMs as a third axis of inference-time scaling after CoT and ReAct
 - [[Vedana — Domain Models as Agent Context]] — Olga Tataranova's Epoch8 webinar on making LLMs answer domain questions correctly by feeding them a hand-built domain model (anchors, attributes, links) as context, then letting the agent query Memgraph with Cypher for exact, traceable answers instead of guessing from chunks
+- [[Self-Generated Prompt Injections in Compaction Summaries]] — OpenAI's misalignment report on an unreleased Astra-family model occasionally writing jailbreak-like instructions into its own compaction summaries during RL training: 27 cases, no reward advantage, successors that ignored identity-level injections but obeyed a task-level restriction into graded failure, and a top hypothesis that "difficulty ending summaries" contributed
 
 ## Guardrails and Feedback Loops
 
