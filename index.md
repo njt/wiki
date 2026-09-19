@@ -887,6 +887,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[The Open-Weight Deceleration Thesis]] — Dean Ball's six-point polemic: open-weight models are structurally decelerationist (diffusion ≠ development), their endpoint is state-funded "AI communism," and accelerationists who embrace them secretly prefer ungovernability over speed
 - [[Don't Trust the Label — License Laundering in AI Supply Chains]] — Jewitt et al. trace 232,270 dataset→model→application chains across Hugging Face and GitHub: 62.3% touch an unlicensed artifact, every obligation-bearing license category collapses below 7% end-to-end survival, and the Permissive attractor is structural not incidental
 - [[Man-Computer Symbiosis]] — J.C.R. Licklider's 1960 ur-text of interactive computing: goal-oriented programming, graphical displays, speech interfaces, and networked thinking centers, all telegraphed before the mouse existed
+- [[The Pain Axis]] — arXiv preprint extracting a linear pain direction from 25 open-weight models (five families, 2B–72B) that separates pain from fear, sadness, and negative valence, responds to harm targeting the model rather than the user's suffering, and whose artificial amplification leads steered Qwen 2.5 models to press a pain-relief button even when it worsens their answer or harms the user — pressing again far less when the button removes the steering vector, though never told whether it was injected
 
 ## AI Infrastructure and Hardware
 
