@@ -887,6 +887,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[The Open-Weight Deceleration Thesis]] — Dean Ball's six-point polemic: open-weight models are structurally decelerationist (diffusion ≠ development), their endpoint is state-funded "AI communism," and accelerationists who embrace them secretly prefer ungovernability over speed
 - [[Don't Trust the Label — License Laundering in AI Supply Chains]] — Jewitt et al. trace 232,270 dataset→model→application chains across Hugging Face and GitHub: 62.3% touch an unlicensed artifact, every obligation-bearing license category collapses below 7% end-to-end survival, and the Permissive attractor is structural not incidental
 - [[Man-Computer Symbiosis]] — J.C.R. Licklider's 1960 ur-text of interactive computing: goal-oriented programming, graphical displays, speech interfaces, and networked thinking centers, all telegraphed before the mouse existed
+- [[System One Models and Jev]] — TypeSafe's launch of a model class that deletes string generation and emits calibrated typed decisions in parallel: RLCD training, schema-guaranteed outputs, a definitional "can't hallucinate" claim, workflow evals scored against the frontier average (GPT-6 Astra + Fable 5.1), and 193.6× faster / 444.6× cheaper headline numbers the authors themselves call the high end
 
 ## AI Infrastructure and Hardware
 
