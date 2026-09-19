@@ -893,6 +893,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Don't Trust the Label — License Laundering in AI Supply Chains]] — Jewitt et al. trace 232,270 dataset→model→application chains across Hugging Face and GitHub: 62.3% touch an unlicensed artifact, every obligation-bearing license category collapses below 7% end-to-end survival, and the Permissive attractor is structural not incidental
 - [[Man-Computer Symbiosis]] — J.C.R. Licklider's 1960 ur-text of interactive computing: goal-oriented programming, graphical displays, speech interfaces, and networked thinking centers, all telegraphed before the mouse existed
 - [[You Could Have Built Jev]] — sgnt.ai's first-principles teardown of TypeSafe's Jev classifier: read the logits for the answer tokens and softmax over just the options — one forward pass, no generated text; four open-source clones shipped mid-article (a Qwen3.5-4B clone hits 84.5% vs Jev's 88.3%), "no hallucinations" means answer-shaped not correct, and the open question is whether secret architecture + RLCD + parallel sampling constitute a moat
+- [[System One Models and Jev]] — TypeSafe's launch of a model class that deletes string generation and emits calibrated typed decisions in parallel: RLCD training, schema-guaranteed outputs, a definitional "can't hallucinate" claim, workflow evals scored against the frontier average (GPT-6 Astra + Fable 5.1), and 193.6× faster / 444.6× cheaper headline numbers the authors themselves call the high end
 
 ## AI Infrastructure and Hardware
 
