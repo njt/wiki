@@ -1,0 +1,17 @@
+---
+url: https://minimallysufficient.com/posts/llm-classification-is-feature-extraction/
+title: "LLM Classification is Feature Extraction"
+author: author not stated (minimallysufficient.com)
+date_fetched: 2026-09-19
+topics:
+  - ai-research-and-models
+  - guardrails-and-feedback-loops
+---
+
+The post opens with a complaint: LLMs-as-classifiers — prompts applied to a context, returning a label — "suck to work with," precisely because they often perform decently. Judged against classical classifier desiderata they fail on three counts: **calibration/threshold control** (verdicts are hard labels; token logprobs and self-reported confidence have no reason to be calibrated, so precision/recall can't be traded off principledly); **incorporating all available information** (structured covariates pasted into the prompt may simply be ignored, and the LLM's baked-in prior about class base rates won't match your population); and **interpretability** (the prompt is prose, but which parts the model actually follows is opaque). The author is careful to say these are not the LLM's fault — it was never designed as a classifier and has no mechanism for any of it.
+
+The fix is a reframing: treat the LLM verdict as a **feature**, not a prediction. Wrap it in a logistic regression, p(y=1|x) = σ(α + β·LLM(x)); the pure LLM classifier is just the degenerate β→∞ case, which the author calls "a dumb parameter selection policy." Fit on training data, the regression yields probabilities calibrated in expectation, a real operating threshold for precision/recall trade-offs, the ability to add structured covariates and reweight for different base rates, and coefficients that show how much the verdict actually contributes to the decision. The second half extends this to the full ML playbook for getting better: collect more data (you needed a test set anyway), screen and evaluate features as secondary targets, generate more features (verdict logprobs, multiple runs, subverdicts), and treat architecture as plug-and-play (xgboost, a neural net, even rules). Prompt-tinkering is demoted from the only lever to an "arcane undertaking about which advice abounds on the internet but wisdom is scarce."
+
+The case study is SemEval-2018 Task 3 irony detection (4,618 expert-labeled tweets), run as a batch job over gemini-3.1-flash-lite with structured JSON output at temperature 0. The hard label alone achieves TPR 0.965 and F1 0.747 — but a Brier score of 0.259, barely better than random guessing (0.25), because the model is wildly overconfident. Logistic-regression calibration cuts Brier to 0.175 (F1 unchanged, since ordering doesn't change). Adding 19 LLM-answered sub-questions — mined from inspecting the misclassifications — plus 9 deterministic tweet features (hashtags, emoji, caps, replies) brings Brier to 0.127 and F1 to 0.779, overlapping confidence intervals with the post-competition SOTA (NTUA-SLP, 0.786) and beating the 2018 competition winner (0.705) with the hard label alone.
+
+The conclusion positions this in a growing literature that uses LLMs for classification at scale (the "How People Use ChatGPT" study, the Hugging Face "slop-vestigation"), cites a 2024 research line converging on the same framing (Han et al. at ICML 2024; Balek et al.; FELIX at ECML PKDD), and ends with a speculative next step: **agentic classifiers**, where the LLM investigates rather than answers once, and properties of its own investigative process become features — "essentially grading itself on the rigor and comprehensiveness of the investigation."
