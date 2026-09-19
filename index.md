@@ -126,6 +126,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[You Shall Not Pass — Where Developers Draw the Line on AI Autonomy]] — A 448-developer Microsoft survey classifying 1,535 task responses onto the L1–L5 autonomy scale: the median is L3 (AI produces, human approves), accountability gates the action boundary while identity and workload gate the decision-making boundary in opposite directions, and tool defaults left alone ratchet autonomy up via ten named anti-patterns
 - [[What Matters After the Software Factory Works]] — A six-month field report from someone who built an autonomous software factory in February, let it merge around 1,700 pull requests by June, and then wrote the memoir of what actually mattered — which turns out to be…
 - [[Brownfield Agentic Engineering (Osmani)]] — Addy Osmani's essay on bringing coding agents into legacy codebases argues that the real work is making hidden constraints visible and cheap changes trustworthy — through a zone map that governs agent autonomy,…
+- [[Towards Self-Driving Codebases]] — Detail's environment-first essay from the post-tokenmaxxing trough: agents fail where they can't see, so the limiting factor for dev agents is the dev environment, not the models; names three missing primitives (agent-legible environments, toolchain-wide global memory, rot prevention) and argues the engineer's durable job is having good ideas while loops commodify into CI/CD-grade infrastructure
 
 ## Claude Code
 

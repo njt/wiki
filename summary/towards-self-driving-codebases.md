@@ -1,0 +1,18 @@
+---
+url: https://blog.detail.dev/posts/towards-self-driving-codebases/
+title: "Towards Self-Driving Codebases"
+author: Detail (company blog; author not stated)
+date_fetched: 2026-09-19
+date_published: unknown
+topics:
+  - agent-coding-workflow
+  - agent-memory-and-context
+---
+
+Detail's essay opens in the trough of disillusionment: the first half of the year's strategy of throwing armies of agents and adversarial loops at engineering work produced "mountains of dubious code, but no tsunami of incredible software," with sketchy ROI on the tokens. Its diagnostic question is what engineers will actually do when software mostly drives itself — and its answer rejects the fashionable one. Setting up agent loops is not where engineering time will go, because once the toolchain matures those loops will be as easy to set up as CI/CD is today. The durable, high-value work is *having good ideas*: company-making features that require problem intimacy and domain expertise, and high-leverage architecture whose simplifications compound into fewer bugs and easier iteration.
+
+The essay then maps the concerns that should be handed to machines whole: detecting and fixing most bugs (most have "obvious intended semantics" — no human adjudication, maybe no spec needed), debugging production errors by correlating commits, traffic, and infrastructure (backends should "basically never throw 500s"), optimizing agents (eval platforms proposing, backtesting, and shipping prompt updates), frontend consistency via self-bootstrapping design systems, application polish (the dozens of quality-of-life expectations users already assume), and growth playbooks run as real experiments against users. The framing: Copilot gave us autocomplete for lines of code; agents will give us autocomplete for entire products.
+
+Getting there needs three new primitives the dev stack does not have. **Agent-legible dev environments**, because bugs overwhelmingly come from where agents can't see — third-party integrations they can't exercise end-to-end, frontends with no browser setup, data shapes they're ignorant of. **Global memory**, because a correction issued to one agent must reach every future agent, the review bot, and the SRE bot, or the human is back in the loop for low-level work; the bet is an open standard or consolidated all-in-one suites. **Codebase rot prevention**, because agents leave dead code, five ways to do one thing, and drift between the data model and the product. Older primitives survive but reconfigured for machine operators: APM queried by agents reading logs, CI with better merge queues, A/B testing operable by agents.
+
+The central claim: "the limiting factor for dev agents is the environment they operate in, not the models and harnesses themselves." Blind spots make mistakes; mistakes limit trust; limited trust forces heavier review; heavier review limits handoff. Making dev environments agent-friendly is currently a bottomless pit of schlep and one-offs, codebase-specific and an art few can do well — which is why so many software factories disappoint. Detail's own proposal is to make it measurable: mine codebases for bugs that matter, fix them, and use the traces of what made fixes hard to validate to prioritize agent-readiness work — effectively a benchmark for how agent-ready a repo is. The piece is also a product launch, and it leans twice on the same historical analogy: cloud abstracted away where software runs after a messy transition full of missing primitives; CI/CD went from a multi-month project to an afternoon; "an analogous transition will happen with loops."
