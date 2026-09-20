@@ -659,6 +659,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Microsoft Fabric Mirroring for SQL Server]] — Redgate's complete guide to Fabric mirroring: SQL Server 2016–2022 replicate via CDC while 2025 switches to a Fabric change feed that is on-premises-only and requires Azure Arc, managed identities, and a gateway; the full blocker matrix (Synapse Link, 1,000 tables, no JSON/VECTOR columns, no RLS/OLS/DDM replication) and troubleshooting down to `log_reuse_wait_desc = REPLICATION`
 - [[Supabase — The Postgres Development Platform]] — The open source Firebase-alternative monorepo (Studio dashboard, docs, self-hosting compose) where Postgres is the kernel; most interesting here is the production answer to "what may an LLM run": branded `SafeSqlFragment` taint types with LLM output named as untrusted, and an approval-gated AI assistant whose human-approval gesture is the type-system promotion function
 - [[Making Your Data Ready for Agentic AI]] — This article argues that the entire discipline of data architecture was shaped for a consumer that no longer dominates: the human analyst, who supplies context, judgment, and skepticism for free.
+- [[Cutting SQL Server on AWS Costs by a Third]] — A field report from a database operations manager who cut a 27-instance SQL Server estate on AWS from $60,000 to $40,000 a month in two weeks — not through any clever engineering, but through inventory, edition hygiene,…
 
 ## Distributed Systems
 
