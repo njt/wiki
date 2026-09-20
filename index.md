@@ -592,6 +592,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Crew Resource Management, Second Take — Joseph Pelrine (Craft 2025)]] — a second ytx transcription of Pelrine's Craft 2025 CRM talk whose transcript is byte-identical to the sibling ingest; the value is the regenerated digest, which sharpens the critique — the bootstrapping problem (CRM demands speaking up, which itself needs baseline safety), the self-organization contradiction (anti-self-organization rhetoric from Scrum's own first trainer), hiring raised then abandoned, and the reindeer-antler lesson that systemic barriers decay and must be metabolized
 - [[Domain Events Are Not Your Public API]] — Derek Comartin's CodeOpinion post argues that the common advice "stop publishing CRUD events, publish domain events instead" is a trap if taken literally: domain events are internal to a boundary, and publishing all of…
 - [[dllog — Replay-on-Failure Logging for Go]] — arhuman's Go library that buffers below-level log records in a bounded per-operation ring and replays them, marked and with original timestamps, only when the operation fails, keeping successes as quiet as Info; a generic no-logging-imports engine drives both a slog handler and a zap core from one shared buffer
+- [[The Engineer Manager Pendulum]] — Charity Majors' 2017 essay argues that the engineer/manager split into permanent "lanes" is a mistake, and that the strongest technical leaders deliberately swing between the two roles like a pendulum — because each…
 
 ## Databases and Data
 
