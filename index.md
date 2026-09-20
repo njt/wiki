@@ -399,6 +399,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[LLM Judge Decision Tree]] — Doug Turnbull measures a local LLM as a pairwise search-relevance judge against human labels on the WANDS dataset: attribute-level prompts with "Neither" abstention and LHS/RHS swap double-checks trade recall for precision, then a scikit-learn decision tree treats the LLM judgments as features and the human preference as the label — local LLMs as cheap, cacheable ML feature generators
 - [[Bend — A Proof-Gated Language for AI-Written Code]] — bend-lang.com's pitch for a Python-shaped, affine, proof-carrying language built for AI-written code: the human writes LAWS.bend stating what must never break, the AI writes the code and PROOF.bend, and a sub-second proof checker gates every commit — LAWS.bend is AGENTS.md backed by proof, and merging a bug becomes a theorem rather than a review opinion
 - [[Your Agent Should Run Its Own Observability Stack]] — Kin Lane's piece argues that agents generating real work should run their own observability stack — Prometheus, OpenTelemetry, Tempo inside the agent's own boundary — and that the reason is not the one usually given.
+- [[What a Useful AI Trace Should Actually Contain]] — Nikolay Iliev's Progress/Telerik post is an implementation walkthrough with a thesis attached: standard OpenTelemetry observability, designed for request latency and error codes, cannot answer the questions that matter…
 
 ## Specifications as the Product
 
