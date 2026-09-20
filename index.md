@@ -667,6 +667,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 - [[Durable Execution Without History Replay]] — Trigora's TCC proposal: commit the live continuation at durable boundaries and restore it on failure instead of replaying history, so recovery cost tracks live state rather than accumulated past (~0.6–0.9 ms flat vs Temporal's 61 ms→1.7 s in their 4 KB-state benchmark)
 - [[Predicting the Future of Distributed Systems — Colin Breck (Tesla)]] — A Tesla principal engineer's conference talk reading distributed systems' future through Bezos's one-way/two-way door lens: object storage as the two-way-door substrate (S3 API ubiquity, database disaggregation via Aurora/Snowflake/WarpStream/SlateDB/InfluxDB, Parquet + catalogs, DuckDB/DataFusion), durable-execution programming models (Akka, Temporal, wasmCloud, Golem, Unison) as one-way doors, and operationalizing AI as the risk-tolerant forcing function that may get them adopted
+- [[Event-Driven Does Not Mean Decoupled]] — Derek Comartin's CodeOpinion post attacks the most common self-deception in event-driven architecture: that putting a message broker between services decouples them.
 
 ## Developer Tools
 
