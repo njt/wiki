@@ -946,6 +946,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 ## AI Product and Business
 
 [[AI Product and Business]] — Pricing, unit economics, adoption inside organisations, strategy, competition, labour and market effects, and how AI products get built and sold.
+- [[When Your Buyer Is an AI Agent]] — This O'Reilly Radar article argues that the significant commercial disruption from AI agents is happening on the **buy side** of enterprise B2B, not the sell side — and that sellers' commercial infrastructure (pricing,…
 
 ## Ideas and Culture
 
