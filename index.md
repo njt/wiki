@@ -325,6 +325,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Tork — A Distributed Workflow Engine]] — Arik Cohen's ~15K-line Go workflow engine: jobs of container-executed tasks over a leaderless coordinator/worker split with RabbitMQ or an in-memory broker, Postgres state behind transactional functional updates, progressive task materialization, parallel/each/subjob composites with a database-backed concurrency semaphore, the hidden `/tork` volume for output capture, and redelivery-based crash recovery — the workflow/orchestration layer in readable concrete form
 - [[Deterministic Spine, Agentic Leaves]] — A Microsoft Foundry blog post that names the failure mode nobody demos: multi-agent systems where every agent behaves reasonably and the process still fails, because no deterministic component owns state, transitions,…
 - [[Self-Improving Software Factories]] — Warp's case that agentic engineering only becomes tractable when the whole SDLC runs as a cloud-hosted, code-defined factory that measures its own agents and edits its own configuration.
+- [[Reporting Becomes a View Over the Work]] — This note analyses an essay on AI in complex programme delivery, arguing that the real prize is not faster slide decks but reporting that emerges from the work itself — with particular weight on the author's six…
 
 ## Agent Memory and Context
 
