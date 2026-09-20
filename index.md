@@ -470,6 +470,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Reverse Engineering the Tesla Firmware Update Process]] — Pen Test Partners' expert-weeks teardown of the Model S firmware update pipeline: a per-vehicle OpenVPN as the only strong boundary around a soft centre (root-running install.sh, CRC32s mislabelled "signatures", a truncated SHA-512, fixed UDS seeds, any-VIN handshake requests), plus the A/B dual-bank update engineering that kept the car working and a pre-agent baseline for what firmware RE used to cost
 - [[MAccConc — Exploring Linux Kernel Race Condition Interleavings]] — Google Project Zero's tooling for pinning down Linux kernel race conditions: memory accesses recorded via KCOV and named by count-augmented stack traces (required an LLVM 23.1.0 SanitizerCoverage feature), a `KCOV_SET_DI` delay-injection ioctl to force specific interleavings, and three frontends — automatic A-B-A tester, TUI, GUI
 - [[How to Fix a Leaked API Key]] — A step-by-step incident-response tutorial from freeCodeCamp on what to do when an API key ends up in a Git repository — arguing that the order of operations matters more than the tooling, and that revocation must always…
+- [[Machine-to-Machine Authentication (IdentitySuite)]] — IdentitySuite's tutorial on the OAuth 2.0 Client Credentials flow: how services authenticate to each other when no user is present, walked through end-to-end in .NET with a token-caching client, Bearer attachment, and…
 
 ## Software Engineering Craft
 
