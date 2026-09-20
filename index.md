@@ -276,6 +276,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Umans Code for Organizations]] — Umans' org-tier docs: seat/service-account billing split (flat-rate humans, metered automations), 50% capacity pooling across seats, four-model tiered routing with per-token pricing from $0.15/M input, and the platform lock-in play hiding in the pricing page
 - [[Intelligence as Infrastructure — Igor Sevo (Craft 2025)]] — HTEC's Head of AI runs from proactive UI-shaping chatbots and routing-agent RAG without vector databases to prompts-as-code with two CI/CD pipelines, an experimental agentic runtime that treats humans as function endpoints, and four claims about intelligence — landing on "your company is already the agentic runtime"
 - [[Your AI Agent Is Only as Good as the Harness Around It]] — An anonymous New Stack piece (with Oracle's fingerprints visible in the conclusion) makes the now-familiar but still-underpriced argument that an agent in production is mostly *not* the model: it is the scaffolding of…
+- [[AI UX Patterns — Meaningful User Benefit]] — Kathryn Grayson Nanz's second article in her AI UX patterns series (Progress/Telerik) argues that the battle for AI adoption is won or lost on whether users perceive a meaningful benefit — and that most AI features fail…
 
 ## Coding Agents and Frameworks
 
