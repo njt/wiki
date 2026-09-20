@@ -128,6 +128,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Brownfield Agentic Engineering (Osmani)]] — Addy Osmani's essay on bringing coding agents into legacy codebases argues that the real work is making hidden constraints visible and cheap changes trustworthy — through a zone map that governs agent autonomy,…
 - [[Towards Self-Driving Codebases]] — Detail's environment-first essay from the post-tokenmaxxing trough: agents fail where they can't see, so the limiting factor for dev agents is the dev environment, not the models; names three missing primitives (agent-legible environments, toolchain-wide global memory, rot prevention) and argues the engineer's durable job is having good ideas while loops commodify into CI/CD-grade infrastructure
 - [[How Much Code Do Developers Really Let Agents Write (JetBrains 2026)]] — JetBrains' Developer Ecosystem Survey 2026 asked over 15,000 professional developers what percentage of last month's work code was fully agent-generated, AI-assisted, or fully manual.
+- [[Nobody Could Have Written the Ticket]] — James Randall — forty-two years a programmer, solo builder of a WebGPU 4X strategy game — argues that the dominant model of agentic development (backlog in, tickets to agents, PRs out) quietly assumes the ticket is a…
 
 ## Claude Code
 
