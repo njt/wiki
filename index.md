@@ -396,6 +396,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Architectural Guardrails for AI-Generated Code]] — An O'Reilly Radar essay that names a failure mode most teams have felt but few have named: architectural drift, where individually sound agent-generated code collectively pulls a codebase away from decisions the team…
 - [[LLM Judge Decision Tree]] — Doug Turnbull measures a local LLM as a pairwise search-relevance judge against human labels on the WANDS dataset: attribute-level prompts with "Neither" abstention and LHS/RHS swap double-checks trade recall for precision, then a scikit-learn decision tree treats the LLM judgments as features and the human preference as the label — local LLMs as cheap, cacheable ML feature generators
 - [[Bend — A Proof-Gated Language for AI-Written Code]] — bend-lang.com's pitch for a Python-shaped, affine, proof-carrying language built for AI-written code: the human writes LAWS.bend stating what must never break, the AI writes the code and PROOF.bend, and a sub-second proof checker gates every commit — LAWS.bend is AGENTS.md backed by proof, and merging a bug becomes a theorem rather than a review opinion
+- [[Your Agent Should Run Its Own Observability Stack]] — Kin Lane's piece argues that agents generating real work should run their own observability stack — Prometheus, OpenTelemetry, Tempo inside the agent's own boundary — and that the reason is not the one usually given.
 
 ## Specifications as the Product
 
