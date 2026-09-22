@@ -1,0 +1,17 @@
+---
+url: https://www.oreilly.com/radar/software-factories-light-and-dark/
+title: "Software Factories, Light and Dark"
+author: Addy Osmani
+date_fetched: 2026-09-22
+topics:
+  - agent-coding-workflow
+  - guardrails-and-feedback-loops
+---
+
+Addy Osmani's essay (republished on O'Reilly Radar from his blog) revisits the software-factory dream — dating to Bob Bemer's 1968 paper on program production — now that coding agents make it plausible. The scaffold is three stacked concepts: the **loop** (one agent doing one job on repeat — gather context, act, check), the **harness** (the walls around the loop: sandbox, tools, memory, and the gates that define "done"), and the **software factory** (many harnessed loops running at once, fed by a queue, drained through a review gate into production, humans owning the whole from above). "It isn't a bigger agent; it's an org chart made of loops."
+
+The **dark factory** — a term borrowed from lights-out manufacturing (FANUC has run one since 2001; Xiaomi opened one in 2024) — ships code no human has read, verified only by the machines that built it. It feels easy at first because removing the review step makes throughput seem to break the sound barrier. The core evidence is Dex Horthy's report from HumanLayer's four-month fully automated run: token utilization was maximized while human understanding of the system collapsed, and only painstaking manual debugging found the failures. The failing metric is **comprehension debt** — the widening gap between how much code exists and how much any human still understands — and models alone lose that battle because RL cannot reward maintainability: architecture's cost function is measured in months and years, so no tidy gradient exists to train on.
+
+The essay's economic center: every box in the factory pipeline (generation, tests, scanning) is nearly free except one — the review gate, "that shiny amber box" of judgment. The bottleneck was never generation; it's verification. **Back pressure** is the rule: you can hand a loop only as much autonomy as you can cheaply and reliably verify, and not one inch more. High volume without trustworthy gates produces a surplus of bad PRs. Turning the lights back on means moving judgment upstream — review a two-hundred-line plan instead of chasing a two-thousand-line diff — and leaning on unglamorous architecture (types, test seams, short call stacks, small blast radii, dependency injection) doing a second job as a cheap, hard-to-fake safety net the model will not supply itself. A few tight low-risk loops can run unattended (Horthy's nightly cron that fixes one anti-pattern and opens one small PR); high-stakes loops stay lit.
+
+What earns a loop the dark: checks that are cheap, run at high frequency, and can't be easily faked — green-or-red oracles, type gates, property tests, rubric-coupled review agents. Short loops verify cheap; agents hold up for three to ten steps and lose the thread past twenty. On structure: the rediscovery of predefined graphs over free-running loops is really the return of the flowchart — owning your control flow means walking the graph back around the loop (LangGraph, LlamaIndex Workflows, and the actor model all reappear here). The human never left the factory; they moved. Engineers own the **outer loop** — deciding what's worth doing, verifying soundness, approving, carrying consequences — while agents run the inner loop. The hard, skilled job is deciding where each light switch goes.
