@@ -95,8 +95,4 @@
 - https://xcancel.com/i/article/2072610863664501129 — backfill thin/empty (0 chars) via HTTP; retry with surf (theoretical-llm-inference-bottlenecks) 2026-07-05
 - https://youtu.be/ef568d0CrRY — backfill thin/empty (124 chars) via HTTP; retry with surf (1000-players-simulate-civilization) 2026-07-05
 - https://youtu.be/ef568d0CrRY — backfill thin/empty (124 chars) via HTTP; retry with surf (ish-1000-players-civilization-youtube) 2026-07-05
-- https://youtu.be/2n41YjR5QfU — backfill thin/empty (124 chars) via HTTP; retry with surf (software-engineering-at-the-tipping-point) 2026-07-05
-- https://www.youtube.com/watch?v=NMs8C2_3M0w — backfill thin/empty (124 chars) via HTTP; retry with surf (ramp-lessons-building-ai-product) 2026-07-05
-- https://www.youtube.com/watch?v=JMA9D8J9EyI — backfill thin/empty (124 chars) via HTTP; retry with surf (ytx-linus-lee-context-engineering) 2026-07-05
-- https://www.youtube.com/watch?v=i1tZN41VKcE — backfill thin/empty (124 chars) via HTTP; retry with surf (ytx-uber-agentic-shift) 2026-07-05
 - http://bair.berkeley.edu/blog/2026/07/26/abbel/ — fetch empty (exit 3); surf navigate: tab reaches URL but 'Content script not loaded' for 60 s; curl TCP connect times out (20 s) on http and https — host unreachable from here; retry later 2026-09-13
