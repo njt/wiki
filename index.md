@@ -427,6 +427,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[BESSER]] — Open-source low-code platform combining model-driven engineering with AI: model a system once, generate APIs, databases, and AI agents across 15+ technology stacks. MIT-licensed, academic-led (LIST / University of Luxembourg)
 - [[Tom Barraclough — Sovereign AI Policy]] — Tom Barraclough dismantles "sovereign AI = government builds a foundation model," replacing it with a multidimensional framework spanning compute, data, literacy, and agency — and argues the real infrastructure play is turning law from PDFs into structured, versioned datasets
 - [[When Spec-Driven Development Pays Off]] — A GAISS 2026-accepted controlled study of specification governance: an approved spec+HLD+LLD baseline did not raise drift-review recall (0.525 vs 0.518, p=0.69) but took findings from 0% to 81% attributable (p=0.043) at a 48-vs-27-minute cost; delivery beats presence, easy-task spec gains are mostly a reasoning effect, and the targeting rule spends governance only on hard, multi-constraint, regulated work
+- [[Spec Kit]] — GitHub's spec-driven development toolkit: a ~60k-line Python CLI that installs ~3k lines of markdown process templates as native commands into 40+ coding agents, runs constitution → specify → plan → tasks → implement → converge per feature, and wraps it all in hash-tracked manifests and a YAML workflow engine with resumable human gates
 
 ## Security and Sandboxing
 

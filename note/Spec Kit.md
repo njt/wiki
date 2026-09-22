@@ -1,0 +1,48 @@
+# Spec Kit
+
+GitHub's open-source toolkit for Spec-Driven Development, and the most concrete artifact the wiki has of the "specs as the product" thesis: a ~60k-line Python CLI whose entire job is to install ~3k lines of markdown templates into 40+ coding agents and then get out of the way. The agent is the runtime; the templates are the program; the CLI is the package manager, installer, and orchestrator around them. Reading it is instructive precisely because it takes the methodology seriously enough to build industrial-strength delivery infrastructure for what is, at bottom, a stack of prompts.
+
+---
+
+## Architecture
+
+The system has three layers with a sharp division of labor:
+
+**1. The Specify CLI (`src/specify_cli/`, Python 3.11+, Typer + Rich, ~60k lines, 207 test files).** Entry point `src/specify_cli/__init__.py` is a thin Typer app that registers command groups from subpackages: `commands/init.py` (1173 lines), `integrations/_commands.py`, `extensions/_commands.py`, `presets/_commands.py`, `workflows/_commands.py`, `commands/bundle/`, and read-only artifact introspection. Its real work is `shared_infra.py`, which copies `.specify/scripts/<variant>/` and `.specify/templates/` into a project and tracks everything in `speckit.manifest.json`.
+
+**2. The integration layer (`src/specify_cli/integrations/`, 42 subpackages).** `base.py` (1910 lines) defines the core abstraction: `IntegrationBase` with four concrete flavors — `MarkdownIntegration` (slash-command `.md` files, the common case), `TomlIntegration` (Gemini, Tabnine), `YamlIntegration` (recipe files), and `SkillsIntegration` (`speckit-<name>/SKILL.md` directories for skills-mode agents like Claude Code). Per AGENTS.md, most agents need "a minimal subclass with zero method overrides." The key method is `dispatch_command()`: it builds the agent's native invocation (`/speckit.specify` vs `/speckit-specify`) and shells out to the agent's CLI via `subprocess.run` — the workflow engine drives agents as ordinary processes.
+
+**3. The templates (`templates/`, 3,037 lines).** Ten command templates plus five artifact templates. `templates/commands/specify.md`, `plan.md`, `tasks.md`, `implement.md`, `converge.md`, `analyze.md`, `clarify.md`, `constitution.md`, `checklist.md`, `taskstoissues.md` are the actual behavioral programs: frontmatter carries `scripts:` (deterministic helpers like `check-prerequisites.sh --json`) and `handoffs:` (command-to-command chaining, e.g. plan → tasks), the body is instructions the LLM follows.
+
+Supporting this: a YAML **workflow engine** (`workflows/engine.py`, 1831 lines) with 12 step types registered in a `STEP_REGISTRY` — command, prompt, shell, init, slot, **gate** (human approval), if, switch, while, do-while, fan-out, fan-in — plus a Jinja-like expression engine (`expressions.py`, 1277 lines) with `from_json`, `map`, and `contains` filters. Run state persists to `.specify/workflows/runs/<run_id>/state.json` after every step, with an append-only `log.jsonl`, so a paused gate resumes exactly. The three flagship processes (SDD, bug fixing, idea assessment) are each defined as workflow YAML with review gates between stages.
+
+## Key techniques
+
+- **Markdown as executable process, LLM as interpreter.** The CLI never interprets the SDD process; it rewrites `__SPECKIT_COMMAND_SPECIFY__` placeholders at install time into the target agent's invocation syntax (`.` separator for markdown agents, `-` for skills agents) and lets the agent execute the markdown. Deterministic glue is fenced off into scripts the agent calls via frontmatter. The split is deliberate: anything an LLM might fumble (branch naming, prerequisite JSON) is a script; anything requiring judgment stays prose.
+- **Bounded elicitation.** `specify.md` caps `[NEEDS CLARIFICATION]` markers at 3, ordered by priority: scope > security/privacy > user experience > technical details. Everything else gets a documented default in an Assumptions section. This is a working answer to the unbounded-questions failure mode of spec generation.
+- **The agent audits itself.** After writing a spec, the command instructs the model to generate a quality checklist file (`checklists/requirements.md`), validate the spec against it, and iterate up to 3 times. The checklist is a *file*, so `implement.md` can later treat unchecked boxes as a read-only gate and refuse to proceed.
+- **Convergence as fixpoint.** `converge.md` assesses the codebase against spec/plan/tasks "as the sole sources of truth," appends unbuilt work as *new tasks in tasks.md*, and the README's loop is literally "repeat implement → converge until convergence reports Converged" — discrepancy resolution expressed as an iteration loop, not a one-shot.
+- **Hash-tracked installs.** `IntegrationManifest` stores a SHA-256 per installed file; uninstall and upgrade only touch files whose hash still matches, so user edits are detected and preserved (`refresh_managed` mode re-installs only unmodified files). The same trick package managers use, applied to prompt files.
+- **Supply-chain hardening as a first-class module.** `_download_security.py` (1275 lines) implements SSRF defenses (loopback detection, redirect validation), HTTPS enforcement, byte-limited response reads, zip-member path normalization, and ZIP64 preflight for extension/workflow catalog downloads; ruff config locks rules S602/S604/S605 so `shell=True` cannot return without an explicit `# noqa`. Path-traversal tests for `extension add` exist alongside.
+- **Governance as a resolved artifact.** The constitution (`/memory/constitution.md`, seeded once at init) has nine articles — library-first, CLI-interface, test-first (NON-NEGOTIABLE), then three project-defined slots, then simplicity and anti-abstraction — and the plan template's "Phase -1 gates" enforce them before design. The template resolution stack (project overrides > presets by priority > extension templates > core) is walked at runtime on every lookup, so customization never forks core files.
+
+## Design decisions
+
+- **Portability over enforcement.** Supporting 40+ agents means the process contract can only be *advisory prose plus scripts*; nothing technically forces the agent to run the checklist or respect the 3-marker cap. Spec Kit accepts this and spends its rigor where determinism is possible: scripts, manifests, state files, gates.
+- **Hooks: two execution models.** Extension hooks are declared in `.specify/extensions.yml` and the *agent* is the primary HookExecutor — but the templates explicitly refuse to let the LLM evaluate hook `condition` expressions ("leave condition evaluation to the HookExecutor implementation"), and `events.py` (2621 lines) installs deterministic native hooks (e.g. Claude Code settings hooks) with a shared dispatcher script. The boundary between "LLM-follows-instructions" and "deterministic dispatcher" is drawn carefully, and the conditional/mandatory cases are pushed to the deterministic side.
+- **Artifact addressing decoupled from git.** `.specify/feature.json` records the resolved feature directory so downstream commands don't depend on branch-name conventions — spec directory and git branch are explicitly independent. A small decision that removes a whole class of naming collisions.
+- **The weight is in the wrapper.** Sixty thousand lines of Python to deliver three thousand lines of markdown looks absurd until you enumerate what the wrapper must do: agent-format matrix, manifest safety, three script variants (bash/PowerShell/Python) for every helper, version-gated workflow compatibility (`requires: speckit_version`), catalog caching, self-update. The methodology is cheap; trustworthy distribution of it is not.
+- **Known wart, acknowledged in-tree:** workflow resume tracking is top-level step index only — a pause inside a nested `if`/`while` re-runs the parent's whole body; a nested step-path stack is a "planned enhancement."
+
+## Comparison notes
+
+- [[When Spec-Driven Development Pays Off]] found that a spec baseline improves *attribution* (findings traceable to approved requirements, 0% → 81%) rather than *detection* (recall unchanged). Spec Kit is the tooling embodiment of exactly that finding: its checklists, constitution checks, and `analyze` cross-artifact consistency pass are attribution machinery, not detection machinery — and the empirical result suggests the tooling is aimed at the benefit that actually replicates.
+- [[The Plan Is the Program]] argues the plan becomes the executable artifact; Spec Kit operationalizes the claim mechanically — `plan.md`, `tasks.md`, `data-model.md`, and `contracts/` are files in the repo that `implement` and `converge` consume, and the README's tagline is that the spec is "carried through planning, implementation, and convergence."
+- [[The Coming Need for Formal Specification]] and [[Rewrite All the Code All the Time]] both argue natural-language specifications are too ambiguous to support safe wholesale regeneration, and that formal methods are the missing piece. Spec Kit's bet is the opposite direction: keep the lingua franca natural language, and compensate with process — bounded clarification, generated checklists, human gates, convergence loops. Whether prose-plus-gates is enough for "rewrite all the code" is the live dispute between this project and that argument.
+- Compared with [[DSPy — Programming Not Prompting]], which compiles prompts into optimized artifacts in Python, Spec Kit keeps prompts hand-written and invests in *delivery and governance* instead of optimization — two different answers to the same "prompts are unwieldy" problem.
+
+Tags: #tool #project #agents #specifications #process
+
+---
+*Sources: [[raw/spec-kit]], [[summary/spec-kit]]*
+*Last updated: 2026-09-22*
