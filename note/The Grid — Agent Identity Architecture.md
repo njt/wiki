@@ -89,5 +89,5 @@ This creates a productive tension. The soul file says be brief. The identity dis
 
 ---
 
-*Sources: [[raw/9fa26f431b301c6dc384bd522240d466]], [[summary/9fa26f431b301c6dc384bd522240d466]]*
+*Sources: [[raw/how-grid-patch-instructions-shaped-agent-research-depth]], [[summary/how-grid-patch-instructions-shaped-agent-research-depth]]*
 *Last updated: 2026-08-08*

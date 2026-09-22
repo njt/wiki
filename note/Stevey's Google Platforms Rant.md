@@ -68,5 +68,5 @@ The synthesis. Yegge argues that no single product team can predict what every u
 
 ---
 
-*Sources: [[raw/1281611]], [[summary/1281611]]*
+*Sources: [[raw/stevey-s-google-platforms-rant]], [[summary/stevey-s-google-platforms-rant]]*
 *Last updated: 2026-08-08*

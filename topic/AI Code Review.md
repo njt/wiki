@@ -68,5 +68,5 @@ There is also no agreed measure of review quality itself. FrontierCode measures 
 
 ---
 
-*Compiled from 11 sources: [[summary/adam-jacob-reducing-token-spend]], [[summary/agentic-code-review]], [[summary/aviator-verify]], [[summary/b678d6a9967bc3dffe43dff825db5967]], [[summary/fable-nanoclaw-pr-factory]], [[summary/frontiercode]], [[summary/kenton-varda]], [[summary/orchestrating-ai-code-review-at-scale]], [[summary/the-end-of-code-review]], [[summary/the-knowledge-chipper]], [[summary/you-should-not-update]]*
+*Compiled from 11 sources: [[summary/adam-jacob-reducing-token-spend]], [[summary/agentic-code-review]], [[summary/aviator-verify]], [[summary/building-a-production-ai-pr-review-agent]], [[summary/fable-nanoclaw-pr-factory]], [[summary/frontiercode]], [[summary/kenton-varda]], [[summary/orchestrating-ai-code-review-at-scale]], [[summary/the-end-of-code-review]], [[summary/the-knowledge-chipper]], [[summary/you-should-not-update]]*
 *Last compiled: 2026-09-12*

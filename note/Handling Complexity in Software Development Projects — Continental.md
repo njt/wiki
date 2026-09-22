@@ -77,5 +77,5 @@ The relationship to Kent Beck's framing is the most interesting tension here. Be
 - [[Architecture Is Designing Knowledge Flow]] — strengthens it from the industrial side. Montalion argues architecture is the flow of knowledge between minds; Árpád uses architecture as the instrument that maps teams onto complexity — two versions of "architecture is an organizational act," with this talk supplying the scale, the safety constraints, and the failure mode (alignment through irreplaceable people) that framing implies but never costs.
 
 ---
-*Sources: [[raw/f599af9c05c7919a54bc0de408421f9f]], [[summary/f599af9c05c7919a54bc0de408421f9f]]*
+*Sources: [[raw/handling-complexity-in-software-development-projects]], [[summary/handling-complexity-in-software-development-projects]]*
 *Last updated: 2026-09-13*

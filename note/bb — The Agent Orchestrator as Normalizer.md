@@ -75,5 +75,5 @@ The daemon is the boundary between bb's world (projects, environments, permissio
 - [[Paperclip]] — normalizes one level up from bb: where bb translates in-thread provider events into a shared timeline, Paperclip translates whole-run outcomes (done/blocked/needs_review/yielded) and layers org charts, budgets, and governance on top
 
 ---
-*Sources: [[raw/73beb12a47851dc0b3ce34aef4d8d529]], [[summary/73beb12a47851dc0b3ce34aef4d8d529]]*
+*Sources: [[raw/bb-architecture-research-notes]], [[summary/bb-architecture-research-notes]]*
 *Last updated: 2026-08-07*

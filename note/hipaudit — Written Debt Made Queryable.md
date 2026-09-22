@@ -69,5 +69,5 @@ The closing caveat is load-bearing, not boilerplate. The entire apparatus — ex
 Related: [[Guardrails and Feedback Loops]], [[Migrations — The Sole Scalable Fix to Tech Debt]], [[Backlog Hierarchy Problem]], [[Pre-Commit Lint Checks]]
 
 ---
-*Sources: [[raw/audit]], [[summary/audit]]*
+*Sources: [[raw/hipengine-audit-readme-for-the-hipaudit-debt-management-subsystem]], [[summary/hipengine-audit-readme-for-the-hipaudit-debt-management-subsystem]]*
 *Last updated: 2026-09-22*

@@ -67,5 +67,5 @@ Still, half the title is never defined: resilience is implied by distribution an
 - [[Lean Software Production]] — Wynne says methodology is existential in the AI era; Snowden's Hexi is a concrete mechanism for that claim: decompose every method into its lowest coherent unit and recombine (a sprint peeled out of Scrum, replaced by a DSDM timebox) instead of adopting a single vendor's framework.
 
 ---
-*Sources: [[raw/32277ae1542fa41909835a4ee1c04743]], [[summary/32277ae1542fa41909835a4ee1c04743]]*
+*Sources: [[raw/reducing-risk-in-projects-increasing-resilience-dave-snowden-craft-2025]], [[summary/reducing-risk-in-projects-increasing-resilience-dave-snowden-craft-2025]]*
 *Last updated: 2026-09-13*

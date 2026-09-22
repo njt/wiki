@@ -62,5 +62,5 @@ The geo-explorer app weaves dynamic quiz questions, adaptive difficulty, sentime
 
 ---
 
-*Sources: [[raw/85282efdbb67eb9e1219bdf1078d184a]], [[summary/85282efdbb67eb9e1219bdf1078d184a]]*
+*Sources: [[raw/ai-powered-gamification-for-the-web]], [[summary/ai-powered-gamification-for-the-web]]*
 *Last updated: 2026-08-07*

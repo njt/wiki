@@ -104,5 +104,5 @@ Token discipline as a personal ethic, and the reason he instructs the coding age
 
 ---
 
-*Sources: [[raw/b678d6a9967bc3dffe43dff825db5967]], [[summary/b678d6a9967bc3dffe43dff825db5967]]*
+*Sources: [[raw/building-a-production-ai-pr-review-agent]], [[summary/building-a-production-ai-pr-review-agent]]*
 *Last updated: 2026-08-21*

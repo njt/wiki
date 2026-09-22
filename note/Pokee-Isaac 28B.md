@@ -60,5 +60,5 @@ The clarification thread. The Apache 2.0 base means commercial use is permitted,
 
 ---
 
-*Sources: [[raw/2084682445648216383]], [[summary/2084682445648216383]]*
+*Sources: [[raw/pokee-isaac-28b-world-s-first-10m-token-context-agentic-model-on-a-single-gpu]], [[summary/pokee-isaac-28b-world-s-first-10m-token-context-agentic-model-on-a-single-gpu]]*
 *Last updated: 2026-08-06*

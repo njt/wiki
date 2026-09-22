@@ -55,5 +55,5 @@ Ward's warm take on the future of the function. Recruiters used to beg engineers
 
 ---
 
-*Sources: [[raw/3914ec4f6872fd4884daadadbe45e86f]], [[summary/3914ec4f6872fd4884daadadbe45e86f]]*
+*Sources: [[raw/the-funnel-of-doom-adam-ward-on-hiring-for-talent-density]], [[summary/the-funnel-of-doom-adam-ward-on-hiring-for-talent-density]]*
 *Last updated: 2026-08-14*

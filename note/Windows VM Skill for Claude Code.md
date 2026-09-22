@@ -51,5 +51,5 @@ Positioned against the wiki: [[Windows in Docker]] is the narrative derived from
 
 ---
 
-*Sources: [[raw/4fc6e77c99df6bd2c8e19f68576b4e0b]], [[summary/4fc6e77c99df6bd2c8e19f68576b4e0b]]*
+*Sources: [[raw/windows-vm-claude-code-command]], [[summary/windows-vm-claude-code-command]]*
 *Last updated: 2026-09-22*

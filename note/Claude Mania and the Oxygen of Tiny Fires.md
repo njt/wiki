@@ -50,5 +50,5 @@ The management-expectations warning. Claude Mania produces demos that "look incr
 
 ---
 
-*Sources: [[raw/d4b2116bae2c74f3ffc458a130c4a4fc]], [[summary/d4b2116bae2c74f3ffc458a130c4a4fc]]*
+*Sources: [[raw/claude-mania-and-the-oxygen-of-tiny-fires-developer-voices-james-brown]], [[summary/claude-mania-and-the-oxygen-of-tiny-fires-developer-voices-james-brown]]*
 *Last updated: 2026-08-14*

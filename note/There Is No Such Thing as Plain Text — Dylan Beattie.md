@@ -68,5 +68,5 @@ Windows refuses country-flag emoji entirely — supporting only the pride flag, 
 - [[Hostnames and Usernames to Reserve]] — the missing link: that note flags absent IDN-homograph guidance, and Beattie proves lookalike text is trivially constructible without ever drawing the security consequence — the two omissions line up exactly.
 
 ---
-*Sources: [[raw/deace87a9d4ff6f3d2de3c48d9a21e4a]], [[summary/deace87a9d4ff6f3d2de3c48d9a21e4a]]*
+*Sources: [[raw/there-is-no-such-thing-as-plain-text]], [[summary/there-is-no-such-thing-as-plain-text]]*
 *Last updated: 2026-09-13*

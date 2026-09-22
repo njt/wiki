@@ -64,5 +64,5 @@ From this wiki's vantage, two things sharpen the talk. First, its "shift technic
 - [[DDD Matters More When AI Writes Your Code]] — complements: both argue DDD's value is strategic (cohesive areas, bounded contexts, ubiquitous language) rather than tactical ceremony; MJ adds the boundary-evolution warning ("trucks into cars") and the workshop pipeline (event storming, [[Domain Storytelling]]) that Smółka stops short of specifying.
 
 ---
-*Sources: [[raw/178d71dd271ddba3a22bd71c5ce45cba]], [[summary/178d71dd271ddba3a22bd71c5ce45cba]]*
+*Sources: [[raw/evolutionary-architecture-the-what-the-why-the-how]], [[summary/evolutionary-architecture-the-what-the-why-the-how]]*
 *Last updated: 2026-09-13*

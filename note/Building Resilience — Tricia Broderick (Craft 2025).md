@@ -60,5 +60,5 @@ A 2026 reading adds a wrinkle the talk predates: the relay race is becoming the 
 - [[Smart But Scattered — Peg Dawson on Executive Skills]] — Dawson's parents as "surrogate frontal lobes who gradually hand over the controls" is the developmental twin of Broderick's intentional teaching situations; both argue competence transfers through scaffolded handoffs rather than declarations of trust, and both name staying-the-expert as the failure mode.
 
 ---
-*Sources: [[raw/ce4ef91dba0f9b55b0b1db13ee726933]], [[summary/ce4ef91dba0f9b55b0b1db13ee726933]]*
+*Sources: [[raw/building-resilience-tricia-broderick-craft-2025]], [[summary/building-resilience-tricia-broderick-craft-2025]]*
 *Last updated: 2026-09-13*

@@ -71,5 +71,5 @@ The MCP moment is the talk's most revealing evasion: the most obvious applicatio
 - [[The Log is the Agent]] — extends: Breck says agentic AI "looks a lot like durable actors" and stops; ActiveGraph's log-as-substrate design is what you get by applying the Aurora move — the log is the database — to agents, with determinism as reconstructability rather than reproducibility.
 
 ---
-*Sources: [[raw/bcf1ef513c3568f976567e1400589b63]], [[summary/bcf1ef513c3568f976567e1400589b63]]*
+*Sources: [[raw/predicting-the-future-of-distributed-systems]], [[summary/predicting-the-future-of-distributed-systems]]*
 *Last updated: 2026-09-13*

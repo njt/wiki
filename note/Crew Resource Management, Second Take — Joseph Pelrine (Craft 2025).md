@@ -56,5 +56,5 @@ The second-digest lens also catches the talk's biographical irony. The man who s
 - [[Retrospectives, Shifting Towards Value — Tricia Broderick (Craft 2025)]] — strengthens the practical bridge: Pelrine's adoption method (one habit, sunset date, review in retrospectives, "how did our system defenses mess up?") makes the retrospective the installation point for CRM ground rules — the same meeting Broderick wants rebuilt around value.
 
 ---
-*Sources: [[raw/0ab1d6367c20d57ec6cceb5a68b98315]], [[summary/0ab1d6367c20d57ec6cceb5a68b98315]]*
+*Sources: [[raw/crm-the-real-secret-to-high-performing-teams-joseph-pelrine-craft-2025]], [[summary/crm-the-real-secret-to-high-performing-teams-joseph-pelrine-craft-2025]]*
 *Last updated: 2026-09-13*

@@ -62,5 +62,5 @@ For the AI industry specifically, the thread reads as a weather report: Europe's
 
 ---
 
-*Sources: [[raw/2094408262124810728]], [[summary/2094408262124810728]]*
+*Sources: [[raw/macro-not-notaries-why-global-capital-doesn-t-flow-into-the-german-tech]], [[summary/macro-not-notaries-why-global-capital-doesn-t-flow-into-the-german-tech]]*
 *Last updated: 2026-09-13*

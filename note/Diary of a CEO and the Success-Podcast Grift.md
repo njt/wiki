@@ -64,5 +64,5 @@ The prescription gap is the tell. When the speaker gets to "what should we do," 
 - **[[AI Will Not Make You Rich]]** — this source complicates Neumann's supply-side argument with its demand-side: if the value won't flow to founders, why does the public keep consuming their success formulas? Because the stories are survivorship-biased press-office narratives, and the audience has been sold that a formula exists.
 
 ---
-*Sources: [[raw/c82ed94621372ad39a7fc2604ff07d05]], [[summary/c82ed94621372ad39a7fc2604ff07d05]]*
+*Sources: [[raw/diary-of-a-ceo-and-the-success-podcast-grift]], [[summary/diary-of-a-ceo-and-the-success-podcast-grift]]*
 *Last updated: 2026-09-13*

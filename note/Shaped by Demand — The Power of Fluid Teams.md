@@ -68,5 +68,5 @@ The quiet best idea is the on-call→kaizen loop from the Q&A: on-call signals b
 - [[Martin Fowler and Kent Beck on Reinventing Software]] — North's jabs at the "big A agile industrial complex" selling certifications read as a practitioner's coda to the Agile founders' own ambivalence about what their movement became.
 
 ---
-*Sources: [[raw/d7f5f9c706eb1ca1b81c2c5894149081]], [[summary/d7f5f9c706eb1ca1b81c2c5894149081]]*
+*Sources: [[raw/shaped-by-demand-the-power-of-fluid-teams-dan-terhorst-north-craft-2025]], [[summary/shaped-by-demand-the-power-of-fluid-teams-dan-terhorst-north-craft-2025]]*
 *Last updated: 2026-09-13*

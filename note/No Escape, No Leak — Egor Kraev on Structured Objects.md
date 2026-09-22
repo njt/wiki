@@ -80,5 +80,5 @@ The "model doesn't matter" claim is asserted, not shown, and sits in tension wit
 - [[Guardrails and Feedback Loops]] — the validator-as-only-exit loop is this topic's purest instance: a deterministic check gating the only path to production, with failure surfaced as `None` instead of plausible garbage.
 
 ---
-*Sources: [[raw/3ef64cb852dadd4e90234c69b82252bb]], [[summary/3ef64cb852dadd4e90234c69b82252bb]]*
+*Sources: [[raw/dr-egor-kraev-on-structured-objects-no-escape-no-leak]], [[summary/dr-egor-kraev-on-structured-objects-no-escape-no-leak]]*
 *Last updated: 2026-09-13*

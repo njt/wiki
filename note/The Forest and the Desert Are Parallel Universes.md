@@ -71,5 +71,5 @@ The 87-government-agency story, where Beck refused for a year to give a date for
 - [[In Praise of Normal Engineers]] — strengthens it. Charity Majors' talk from the same Craft 2025 stage (teams own software, orgs are defined by their floor) is forest rhetoric in practice; Beck supplies the meta-framework for why it lands with some audiences and bounces off others.
 
 ---
-*Sources: [[raw/ab2c84a1df41714224db8588fc825116]], [[summary/ab2c84a1df41714224db8588fc825116]]*
+*Sources: [[raw/the-forest-the-desert-are-parallel-universes-kent-beck-craft-2025]], [[summary/the-forest-the-desert-are-parallel-universes-kent-beck-craft-2025]]*
 *Last updated: 2026-09-13*

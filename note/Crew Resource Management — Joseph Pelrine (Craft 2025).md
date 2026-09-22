@@ -75,5 +75,5 @@ But the talk leans on borrowed credibility and knows it. The headline numbers (7
 - [[Shaped by Demand — The Power of Fluid Teams]] — complicates it from the other side: Dan North demolishes Tuckman's stable-team orthodoxy, and Pelrine's Lufthansa evidence (never fly with the same crew twice, high performance *with strangers*) shows stable-team formation isn't just unnecessary, it's deliberately engineered away in the highest-stakes teams that exist.
 
 ---
-*Sources: [[raw/7a244cff090307fefc55d6ad285bc8d0]], [[summary/7a244cff090307fefc55d6ad285bc8d0]]*
+*Sources: [[raw/crew-resource-management-the-real-secret-to-high-performing-teams-joseph]], [[summary/crew-resource-management-the-real-secret-to-high-performing-teams-joseph]]*
 *Last updated: 2026-09-13*

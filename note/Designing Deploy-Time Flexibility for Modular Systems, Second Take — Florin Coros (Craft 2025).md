@@ -6,7 +6,7 @@ A second ytx digest of Florin Coros's Craft 2025 talk on deploy-time flexibility
 
 ## Two digests, one talk
 
-The transcript here is byte-identical to `raw/3bb805c5ca7cd00d365ee18d23cdb38a`; only the digest differs. The first digest led with "decide after compiling, not while designing"; this one leads with "decompose first; decide monolith-vs-microservices at deploy time" — a framing that is arguably truer to the talk's causal order, since Coros's whole point is that decomposition must be settled on contract terms before the deployment question even becomes askable. Two independent digest generations converging on the same core claims (three pillars, the bank story, the ~10-services cost curve) is decent evidence the talk's content is stable; the divergences are in emphasis, not substance.
+The transcript here is byte-identical to `raw/designing-deploy-time-flexibility-for-modular-systems-florin-coros-craft-2025-2`; only the digest differs. The first digest led with "decide after compiling, not while designing"; this one leads with "decompose first; decide monolith-vs-microservices at deploy time" — a framing that is arguably truer to the talk's causal order, since Coros's whole point is that decomposition must be settled on contract terms before the deployment question even becomes askable. Two independent digest generations converging on the same core claims (three pillars, the bank story, the ~10-services cost curve) is decent evidence the talk's content is stable; the divergences are in emphasis, not substance.
 
 ## Key quotes
 
@@ -53,5 +53,5 @@ The digest also makes explicit what the first note had to infer: the two elephan
 - [[Evolutionary Architecture — Maciej Jedrzejewski (Craft Budapest)]] — Jedrzejewski defers the same decisions up a ladder ("leverage what you have," extract only when teams step on toes) while Coros builds the flexibility in advance; the two are the same deference principle implemented at different layers, and both digests share the identical blind spot: data, transactions, and consistency are never addressed.
 
 ---
-*Sources: [[raw/1f92f48318eb627c1f789e6c619ab9e1]], [[summary/1f92f48318eb627c1f789e6c619ab9e1]]*
+*Sources: [[raw/designing-deploy-time-flexibility-for-modular-systems-florin-coros-craft-2025]], [[summary/designing-deploy-time-flexibility-for-modular-systems-florin-coros-craft-2025]]*
 *Last updated: 2026-09-13*

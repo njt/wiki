@@ -79,5 +79,5 @@ Brown closes with a summary of all ten patterns from the three-part series:
 
 ---
 
-*Sources: [[raw/336262]], [[summary/336262]]*
+*Sources: [[raw/linux-kernel-design-patterns-part-3]], [[summary/linux-kernel-design-patterns-part-3]]*
 *Last updated: 2026-08-08*

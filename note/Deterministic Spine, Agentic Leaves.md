@@ -48,4 +48,4 @@ What is left out: any discussion of what happens when the deterministic spine it
 - [[Operating Mode as Runtime State]] — Complicates it productively: both insist governance live in the runtime rather than in prompts or memory, but the O'Reilly contract for exception modes (scope, authority, expiry, status as authoritative input) addresses the temporary-elevation cases this post's rigid spine handles least gracefully.
 
 ---
-*Sources: [[raw/4550068]], [[summary/4550068]]*
+*Sources: [[raw/stop-letting-agents-run-the-workflow]], [[summary/stop-letting-agents-run-the-workflow]]*

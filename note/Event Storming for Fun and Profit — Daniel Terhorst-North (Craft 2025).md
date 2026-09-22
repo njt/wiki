@@ -84,5 +84,5 @@ Still, the durable contributions here are portable well beyond event storming: s
 - [[Essentials from a Real-World Microservices Journey — Sander Hoogendoorn (Craft 2025)]] — same conference, and Hoogendoorn's no-ceremonies way of working cites event storming among the few practices he kept; North explains why it survives when sprints and retrospectives don't.
 
 ---
-*Sources: [[raw/cb925de126d43663196746706037dacd]], [[summary/cb925de126d43663196746706037dacd]]*
+*Sources: [[raw/event-storming-for-fun-and-profit-daniel-terhorst-north-craft-2025]], [[summary/event-storming-for-fun-and-profit-daniel-terhorst-north-craft-2025]]*
 *Last updated: 2026-09-13*

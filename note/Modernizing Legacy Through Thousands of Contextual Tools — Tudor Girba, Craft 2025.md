@@ -86,5 +86,5 @@ The staged-demo admission, delivered cheerfully mid-demo. Credit for honesty; th
 See also [[How SQLite Tests Software]] for another testing-at-absurd-scale identity story, and [[A New Era for Software Testing]] for the agent-side answer to the same expense.
 
 ---
-*Sources: [[raw/9857dcc8613863cd1e59b573a022952f]], [[summary/9857dcc8613863cd1e59b573a022952f]]*
+*Sources: [[raw/modernizing-legacy-through-thousands-of-contextual-tools-tudor-girba-craft-2025]], [[summary/modernizing-legacy-through-thousands-of-contextual-tools-tudor-girba-craft-2025]]*
 *Last updated: 2026-09-13*

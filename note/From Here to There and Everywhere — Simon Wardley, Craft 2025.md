@@ -71,5 +71,5 @@ Where the talk is genuinely ahead of most 2025 commentary: "the most important a
 - [[The Forest and the Desert Are Parallel Universes]] — Beck (same stage, same conference) shows the desert's gravity; Wardley shows the specific mechanism of a past-success trap: Blockbuster out-innovated everyone and died of late-fee-shaped inertia anyway — inertia is not diffuse resistance but a revenue model defending itself.
 
 ---
-*Sources: [[raw/cf7f212e9c25b0de15e4de40e706cfcc]], [[summary/cf7f212e9c25b0de15e4de40e706cfcc]]*
+*Sources: [[raw/from-here-to-there-and-everywhere-simon-wardley-craft-2025]], [[summary/from-here-to-there-and-everywhere-simon-wardley-craft-2025]]*
 *Last updated: 2026-09-13*

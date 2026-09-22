@@ -47,5 +47,5 @@ The factory economics made vivid: AI work is cheap, so discard is fine — *if* 
 **Verdict:** the category is useful and the implementation is real, but the talk is stronger on taxonomy than on failure modes. Continuous AI explains *where* AI automation should live and *how* to bound it; it's conspicuously quiet on what happens when bounded, gate-passing automation is subtly wrong. That's the frontier [[Lean Software Production]] points at — the work shifts from producing code to engineering the system that produces it, and the hard part is judging the system's output, not producing it.
 
 ---
-*Sources: [[raw/022cc46bcfca6d72131b198e9075ba0c]], [[summary/022cc46bcfca6d72131b198e9075ba0c]]*
+*Sources: [[raw/continuous-ai-with-don-syme]], [[summary/continuous-ai-with-don-syme]]*
 *Last updated: 2026-08-26*

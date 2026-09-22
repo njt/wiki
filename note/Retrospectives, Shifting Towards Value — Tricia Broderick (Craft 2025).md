@@ -61,5 +61,5 @@ One wiki-era observation, extrapolated and not hers: this is the human counterpa
 - [[Two Languages — Complexity Bounds Systems Thinking]] — Snowden's charge that Agile "borrowed complexity's language without its practice" and his warning about "retrospective coherence" bracket this talk: it is the practice-side counterexample, a designed reflection loop with staged depth — while his concept names the failure her method never guards against, the retro that converges on a comfortable narrative instead of an uncomfortable insight.
 
 ---
-*Sources: [[raw/f34025b56a4c6a18438d697ec5f5eadd]], [[summary/f34025b56a4c6a18438d697ec5f5eadd]]*
+*Sources: [[raw/retrospectives-shifting-towards-value-tricia-broderick-craft-2025]], [[summary/retrospectives-shifting-towards-value-tricia-broderick-craft-2025]]*
 *Last updated: 2026-09-13*

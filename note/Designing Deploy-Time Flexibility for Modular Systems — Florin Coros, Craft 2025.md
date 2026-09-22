@@ -50,5 +50,5 @@ What survives scrutiny is worth keeping. Contract-only dependencies enforced by 
 - [[The Wrong Abstraction]] — Sandi Metz prices the wrong abstraction; Coros names the wrong *axis* of decomposition (servers instead of contracts) as how you end up "here or here without knowing it" on the cost curve.
 
 ---
-*Sources: [[raw/3bb805c5ca7cd00d365ee18d23cdb38a]], [[summary/3bb805c5ca7cd00d365ee18d23cdb38a]]*
+*Sources: [[raw/designing-deploy-time-flexibility-for-modular-systems-florin-coros-craft-2025-2]], [[summary/designing-deploy-time-flexibility-for-modular-systems-florin-coros-craft-2025-2]]*
 *Last updated: 2026-09-13*

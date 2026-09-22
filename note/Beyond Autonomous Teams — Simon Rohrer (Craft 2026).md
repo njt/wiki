@@ -69,5 +69,5 @@ Novo Nordisk post-incident: the confession that some constraints must be governi
 - [[Multi-Agent AI Systems Are Organizations]] — Rohrer's "five agent tabs open — what value is each delivering? how are you making that all coherent?" is the value-center question pointed at agent fleets; it strengthens the orgs-of-agents thesis with real org-design vocabulary (coordination, fit, identity) rather than metaphor.
 
 ---
-*Sources: [[raw/fd17a41b0eb5af024b552a9cec6f0d8e]], [[summary/fd17a41b0eb5af024b552a9cec6f0d8e]]*
+*Sources: [[raw/beyond-autonomous-teams-essence-and-accidents-in-organizations-delivering-value]], [[summary/beyond-autonomous-teams-essence-and-accidents-in-organizations-delivering-value]]*
 *Last updated: 2026-09-13*

@@ -93,5 +93,5 @@ Montalion gets steamrolled throughout, and that is the recording's real lesson a
 - [[Optimizing for Decision Points]] — that page builds agent-workflow guidance on Meadows' leverage points; Snowden's "I have huge respect for what Meadows wrote in the context of when she wrote it. But I have less respect now" complicates its premise directly. His substitute — many distributed micro feedback loops Meadows "could never have accounted for" — is arguably what that page's decision-point framing already practices, which suggests the critique lands on the vocabulary more than the method.
 
 ---
-*Sources: [[raw/ac7d7c59e0742df5b628c3260e839ea8]], [[summary/ac7d7c59e0742df5b628c3260e839ea8]]*
+*Sources: [[raw/two-languages-complexity-science-bounded-systems-thinking-and-agile-is-next]], [[summary/two-languages-complexity-science-bounded-systems-thinking-and-agile-is-next]]*
 *Last updated: 2026-09-13*

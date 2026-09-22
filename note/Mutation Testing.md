@@ -39,5 +39,5 @@ The weakest part is the "no false positives" claim. Mutating only source code do
 
 ---
 
-*Sources: [[raw/docs]], [[summary/docs]]*
+*Sources: [[raw/what-is-mutation-testing]], [[summary/what-is-mutation-testing]]*
 *Last updated: 2026-09-13*

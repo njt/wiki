@@ -42,5 +42,5 @@ The remediation layer, kept separate from the positioning cues. Chin tucks come 
 **The bottom line.** Worth the two minutes if you've spent a lifetime being told to stop slouching. The crown-and-pelvis cues are physiologically sensible and free to try at a desk today; treat the chi running packaging as provenance, not authority.
 
 ---
-*Sources: [[raw/item-news-ycombinator]], [[summary/item-news-ycombinator]]*
+*Sources: [[raw/fixing-bad-posture-crown-core-and-chin-tucks]], [[summary/fixing-bad-posture-crown-core-and-chin-tucks]]*
 *Last updated: 2026-09-13*

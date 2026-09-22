@@ -78,5 +78,5 @@ The agentic-era reading is why this talk belongs in this wiki now. Agents make s
 - [[Shaped by Demand — The Power of Fluid Teams]] — the sibling Craft 2025 talk with a convergent constraint: North fixes demand and varies team composition, Vacanti fixes capacity-as-concurrent-work and varies headcount not at all; both relocate the binding constraint from people to the system of work.
 
 ---
-*Sources: [[raw/263ffed107e2c5886cf8cabff0495cb2]], [[summary/263ffed107e2c5886cf8cabff0495cb2]]*
+*Sources: [[raw/mind-your-p-s-and-queues-daniel-vacanti-craft-2025]], [[summary/mind-your-p-s-and-queues-daniel-vacanti-craft-2025]]*
 *Last updated: 2026-09-13*

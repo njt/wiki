@@ -57,5 +57,5 @@ The indictment landing. A 2017 study she cites found the biggest predictor for *
 *In passing:* her account of supervision replacing creation gives [[Human-in-the-Loop is Tired]] its philosophical shadow — Summers's "the satisfying part shrank, the exhausting part grew" is the felt experience of a field that traded theory-building for output.
 
 ---
-*Sources: [[raw/e8210aebcc4c56c60d5c9f769f471330]], [[summary/e8210aebcc4c56c60d5c9f769f471330]]*
+*Sources: [[raw/ai-made-me-doubt-everything-about-programming]], [[summary/ai-made-me-doubt-everything-about-programming]]*
 *Last updated: 2026-09-13*

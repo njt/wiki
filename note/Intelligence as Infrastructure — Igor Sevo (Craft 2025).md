@@ -71,5 +71,5 @@ And yet the headline thesis earns its place. Most AI-transformation talk treats 
 - [[Just Brute Force Your Embeddings]] — the same anti-infrastructure instinct from opposite ends: Turnbull says skip the vector database because brute force is enough; Sevo says skip it because a routing-agent tree lets traditional engineers build retrieval without ML vernacular. Both locate the failure in the default stack, not the technique.
 
 ---
-*Sources: [[raw/2d88786d2f22b98db9e9b316484fb4ca]], [[summary/2d88786d2f22b98db9e9b316484fb4ca]]*
+*Sources: [[raw/intelligence-as-infrastructure-igor-sevo-craft-2025]], [[summary/intelligence-as-infrastructure-igor-sevo-craft-2025]]*
 *Last updated: 2026-09-13*

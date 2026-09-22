@@ -84,5 +84,5 @@ The framework-abandonment verdict deserves a sympathetic reading, though. It is 
 - [[OpenAI Structured Outputs]] — nuances the structured-I/O block: the speaker's "LLMs are really bad at structured outputs" is the pragmatist's answer (Instructor + Pydantic enforcement); OpenAI's protocol-level schema guarantee is the platform answer. Same problem, two layers of the stack.
 
 ---
-*Sources: [[raw/0c5a1403d53cba38e9f14b8f24f89230]], [[summary/0c5a1403d53cba38e9f14b8f24f89230]]*
+*Sources: [[raw/architectural-blueprints-for-ai-agents]], [[summary/architectural-blueprints-for-ai-agents]]*
 *Last updated: 2026-09-13*

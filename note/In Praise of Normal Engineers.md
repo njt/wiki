@@ -75,5 +75,5 @@ The loudest omission is AI. A 2025 talk on productivity, hiring, and "doing the 
 - [[The Three Pillars of Observability]] — Majors' other hat. Her "poor sense-making is the dark matter of software engineering" is the org-level case for the observability her company sells; this talk is what the vendor-CTO says when she's not selling storage.
 
 ---
-*Sources: [[raw/4b54b6eaeaa7e23f21391945687baa72]], [[summary/4b54b6eaeaa7e23f21391945687baa72]]*
+*Sources: [[raw/in-praise-of-normal-engineers]], [[summary/in-praise-of-normal-engineers]]*
 *Last updated: 2026-09-13*

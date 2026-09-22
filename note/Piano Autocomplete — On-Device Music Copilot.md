@@ -49,5 +49,5 @@ This is the most interesting move in the post. Gjerdingen's galant-schema / part
 
 ---
 
-*Sources: [[raw/item]], [[summary/item]]*
+*Sources: [[raw/piano-autocomplete-on-device-music-copilot-show-hn]], [[summary/piano-autocomplete-on-device-music-copilot-show-hn]]*
 *Last updated: 2026-09-04*

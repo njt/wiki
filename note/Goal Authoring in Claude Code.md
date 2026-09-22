@@ -56,5 +56,5 @@ The closing move reframes goal authoring as craft: the prompt as a function with
 
 ---
 
-*Sources: [[raw/2094337553683878204]], [[summary/2094337553683878204]]*
+*Sources: [[raw/goal-is-perfect-for-bug-bounties]], [[summary/goal-is-perfect-for-bug-bounties]]*
 *Last updated: 2026-09-13*

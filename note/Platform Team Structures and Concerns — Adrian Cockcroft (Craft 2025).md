@@ -61,5 +61,5 @@ The gaps are real and the digest enumerates them well: no adoption story (the cl
 - [[In Praise of Normal Engineers]] — Majors prescribes platform engineering for humans (short deploy intervals, engineers own their code in production); Cockcroft supplies the organizational mechanism that makes such a platform a product rather than an internal charity, with a hired PM owning the roadmap.
 
 ---
-*Sources: [[raw/16a182951174292648870ac987f65415]], [[summary/16a182951174292648870ac987f65415]]*
+*Sources: [[raw/platform-team-structures-and-concerns-adrian-cockcroft-craft-2025]], [[summary/platform-team-structures-and-concerns-adrian-cockcroft-craft-2025]]*
 *Last updated: 2026-09-13*

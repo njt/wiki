@@ -65,5 +65,5 @@ The transcript itself is machine-generated and rough — names, numbers, and one
 - [[Two Languages — Complexity Bounds Systems Thinking]] shares the genre — another ytx digest honest enough to list what its talk left open — and its complexity-versus-complication distinction quietly challenges Huston's implied model that a career is a plannable system you can set objectives for.
 
 ---
-*Sources: [[raw/627e6ace7938bb0d691e8c24fdc44e65]], [[summary/627e6ace7938bb0d691e8c24fdc44e65]]*
+*Sources: [[raw/dri-ing-your-career]], [[summary/dri-ing-your-career]]*
 *Last updated: 2026-09-13*

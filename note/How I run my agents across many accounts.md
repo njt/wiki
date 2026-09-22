@@ -54,4 +54,4 @@ What is left out: cost. There is no token or dollar accounting anywhere, despite
 - [[no-mistakes]] — Strengthens the shared conviction that no producer should land its own code: no-mistakes gates a single push through a validation pipeline, while Mujin generalizes it to a single-writer lander with bounce-as-retry across eight repos.
 
 ---
-*Sources: [[raw/53165f08d3f68ceafe9a5ab9]], [[summary/53165f08d3f68ceafe9a5ab9]]*
+*Sources: [[raw/how-i-run-my-agents-across-many-accounts]], [[summary/how-i-run-my-agents-across-many-accounts]]*

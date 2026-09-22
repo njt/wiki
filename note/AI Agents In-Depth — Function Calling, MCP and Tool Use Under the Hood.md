@@ -60,5 +60,5 @@ A rare practitioner's comparison of the two Microsoft agent frameworks. Smith's 
 
 ---
 
-*Sources: [[raw/98f0d215f58d9356776deb03ee41e044]], [[summary/98f0d215f58d9356776deb03ee41e044]]*
+*Sources: [[raw/ai-agents-in-depth-function-calling-mcp-and-tool-use-under-the-hood]], [[summary/ai-agents-in-depth-function-calling-mcp-and-tool-use-under-the-hood]]*
 *Last updated: 2026-08-07*

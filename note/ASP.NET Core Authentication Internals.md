@@ -91,5 +91,5 @@ The demos are deliberately insecure (in-memory cache, no load balancing, no prop
 **Relationship to [[Flexible Authentication (Airbnb)]]:** Klug's `Challenge`/`ForwardChallenge` machinery is the framework-level ancestor of Airbnb's "Identify first, then Challenge" — both hand the *server* the decision of which challenge to present. The difference is altitude: ASP.NET gives you the plumbing to forward a challenge between schemes per request, while Airbnb builds the product layer (policy engine, Challenge Picker, server-driven screens) that decides *per person, per context* which challenge should lead. Airbnb's "the client never decides" is the product-scale expression of the forwarding instinct Klug reads in the source.
 
 ---
-*Sources: [[raw/23c08df43340b155bc4a706d1aaaa937]], [[summary/23c08df43340b155bc4a706d1aaaa937]]*
+*Sources: [[raw/asp-net-core-authentication-the-dirty-details-chris-klug-ndc-copenhagen-2026]], [[summary/asp-net-core-authentication-the-dirty-details-chris-klug-ndc-copenhagen-2026]]*
 *Last updated: 2026-08-07*

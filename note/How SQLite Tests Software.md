@@ -64,5 +64,5 @@ The AI coda is where the talk speaks most directly to this wiki. Hipp's stance i
 - [[Agent Swarm Model Economics]] — the SQLite reimplementation scored against Hipp's own test suite is the strongest available data point on "tests as the durable artifact"; Hipp's closing skepticism about agent-written code reads as a direct challenge to that experiment's framing.
 
 ---
-*Sources: [[raw/b7d09e2d36ba4636bd48091e7fe9d13e]], [[summary/b7d09e2d36ba4636bd48091e7fe9d13e]]*
+*Sources: [[raw/how-sqlite-tests-software]], [[summary/how-sqlite-tests-software]]*
 *Last updated: 2026-09-13*

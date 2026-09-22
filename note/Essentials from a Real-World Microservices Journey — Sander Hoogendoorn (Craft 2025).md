@@ -72,5 +72,5 @@ And the observability gap is the one that would actually hurt: the next-bus stra
 - [[The Forest and the Desert Are Parallel Universes]] — Hoogendoorn borrows Beck's keynote explicitly ("we're in the forest, not in the desert") and his Dee Hock / traffic-lights section is that metaphor made operational: remove the rules and people start making eye contact.
 
 ---
-*Sources: [[raw/9972636213519ecf3551adf4aa6d835f]], [[summary/9972636213519ecf3551adf4aa6d835f]]*
+*Sources: [[raw/essentials-from-a-real-world-microservices-journey-sander-hoogendoorn-craft-2025]], [[summary/essentials-from-a-real-world-microservices-journey-sander-hoogendoorn-craft-2025]]*
 *Last updated: 2026-09-13*

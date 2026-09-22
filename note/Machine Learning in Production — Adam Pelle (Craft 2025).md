@@ -68,5 +68,5 @@ Still, the honest parts carry it. The Q&A confession is the actual sequence at m
 - [[A New Era for Software Testing]] — parallels: antirez hands QA checklists to agents and Pelle experiments with agents propagating template tests across every model; and Pelle's backtesting-by-replay is the classic-ML sibling of antirez's regression checks — verification as the response to cheap generation.
 
 ---
-*Sources: [[raw/11c02e99ecb56a27626abd5af023d8c3]], [[summary/11c02e99ecb56a27626abd5af023d8c3]]*
+*Sources: [[raw/machine-learning-in-production-adam-pelle-marshmallow-craft-2025]], [[summary/machine-learning-in-production-adam-pelle-marshmallow-craft-2025]]*
 *Last updated: 2026-09-13*

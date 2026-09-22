@@ -64,5 +64,5 @@ For an agent-era wiki this is uncomfortably current: agent fleets are WIP-explos
 - [[Probabilistic Engineering and the 24-7 Employee]] — Davis declares the industry's contract now probabilistic ("correctness is a belief with a widening confidence interval"); this panel complicates that by showing the communication layer such a world presumes — executives who understand "15% chance it's later" — does not exist even among risk professionals.
 
 ---
-*Sources: [[raw/cbd20e6710fb93d7e4790e18d672ac8e]], [[summary/cbd20e6710fb93d7e4790e18d672ac8e]]*
+*Sources: [[raw/monte-carlo-on-trial-the-probabilistic-forecasting-panel]], [[summary/monte-carlo-on-trial-the-probabilistic-forecasting-panel]]*
 *Last updated: 2026-09-13*

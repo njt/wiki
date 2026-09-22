@@ -68,5 +68,5 @@ Also skipped: the strongest counterargument to capability reframing, which is th
 - [[Engineering for Bounded Cognition]] — the iceberg's deepest layer is mental models, and bounded cognition explains why that layer moves so slowly: minds that hold four things can't re-derive their own assumptions on demand. Williams designs for the constrained mind; Montalion asks why the constraint is treated as a hiring problem rather than a design material.
 
 ---
-*Sources: [[raw/4c9d71b034e5c365636cd3dceacfefe6]], [[summary/4c9d71b034e5c365636cd3dceacfefe6]]*
+*Sources: [[raw/architecture-is-designing-knowledge-flow-diana-montalion-craft-2025]], [[summary/architecture-is-designing-knowledge-flow-diana-montalion-craft-2025]]*
 *Last updated: 2026-09-13*

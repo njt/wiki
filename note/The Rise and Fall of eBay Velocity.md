@@ -60,5 +60,5 @@ Finally, the sting for this wiki: a 2025 talk about doubling engineering product
 - [[Who Does What — Team Topologies for the Agentic Platform]] — "your impediments are exactly my team's backlog" and the embedding model are Team Topologies' platform-as-product in operation years before the agentic version; this source complicates it by showing what platform-as-product is up against when the surrounding culture is pathological.
 
 ---
-*Sources: [[raw/543b7452f77cdf08c2f2749de3d1c6c5]], [[summary/543b7452f77cdf08c2f2749de3d1c6c5]]*
+*Sources: [[raw/platform-engineering-lessons-from-the-rise-and-fall-of-ebay]], [[summary/platform-engineering-lessons-from-the-rise-and-fall-of-ebay]]*
 *Last updated: 2026-09-13*
