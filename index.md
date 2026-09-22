@@ -605,6 +605,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Migrations — The Sole Scalable Fix to Tech Debt]] — Will Larson's essay on running large-scale software migrations, anchored in his experience leading Uber's shift from Puppet-managed services to two-click self-service provisioning, argues that migrations are the only…
 - [[The Engineer Manager Pendulum]] — Charity Majors' 2017 essay argues that the engineer/manager split into permanent "lanes" is a mistake, and that the strongest technical leaders deliberately swing between the two roles like a pendulum — because each…
 - [[My Life Before & After Automated Testing]] — Dan Lew's 2026 post is a conversion narrative: a developer who once thought automated testing was a waste of time explains, via one feature built twice, why he now considers it the practice that most improved his coding.
+- [[Computers Are Bad, Actually (Kyle Kingsbury, Jepsen)]] — Kingsbury's Antithesis talk distills 13 years of Jepsen consulting (243 public bugs across ~50 systems) into five testing tactics — fault injection, closed worlds, indefinite ok/fail/unknown outcomes, recorded concurrency structure under an explicitly named consistency model, and generative/property-based testing — then argues that shipping AI-generated code three times a day without reading it forfeits the context and metis that programming builds, making the correctness "complete breakfast" (designs, proofs, types, tests, simulation, chaos) more urgent, not less.
 
 ## Databases and Data
 
