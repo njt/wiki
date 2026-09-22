@@ -49,5 +49,5 @@ Weaknesses worth naming: it is a tour, not a how-to; the tactics are expensive (
 - Nuances [[State-Oriented Consistency]]: that piece says to ask which consistency each piece of state needs; Kingsbury's frozen-account example shows requirements documents rarely name any model at all — and his testing tactic makes naming one a precondition of testability.
 
 ---
-*Sources: [[raw/watch]], [[summary/watch]]*
+*Sources: [[raw/computers-are-bad-actually-kyle-kingsbury-jepsen]], [[summary/computers-are-bad-actually-kyle-kingsbury-jepsen]]*
 *Last updated: 2026-09-22*
