@@ -414,6 +414,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Your Agent Should Run Its Own Observability Stack]] — Kin Lane's piece argues that agents generating real work should run their own observability stack — Prometheus, OpenTelemetry, Tempo inside the agent's own boundary — and that the reason is not the one usually given.
 - [[What a Useful AI Trace Should Actually Contain]] — Nikolay Iliev's Progress/Telerik post is an implementation walkthrough with a thesis attached: standard OpenTelemetry observability, designed for request latency and error codes, cannot answer the questions that matter…
 - [[Using LLM-as-a-Judge Scoring to Measure Your Software Factory]] — Warp's six-primitive playbook for grading past agent sessions with LLM-as-a-judge scorers: full-trace storage, single-dimension scorers, 3%-of-spend sampling, a scored corpus, an observer self-improvement loop, and benchmarking — with the grader itself left unvalidated
+- [[hipaudit — Written Debt Made Queryable]] — hipEngine's audit/ README: an exhaustively documented but unqueryable debt corpus (396 REFACTOR headings, 10,590 worklog entries, 747 flags) made workable via inventory extractors (signals, never verdicts) and findings checks that name their closing edit, durable triage decisions that rebind across rescans and report their own staleness, and a budget gate that only ratchets down — with read-only triage agents split from code-editing fix agents so a cleanup commit cannot also change behaviour
 
 ## Specifications as the Product
 

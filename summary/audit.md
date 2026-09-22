@@ -1,0 +1,19 @@
+---
+url: https://github.com/shisa-ai/hipEngine/tree/main/audit
+title: "hipEngine audit/ — README for the hipaudit debt-management subsystem"
+author: shisa-ai (hipEngine project)
+date_fetched: 2026-09-22
+topics:
+  - guardrails-and-feedback-loops
+  - agent-coding-workflow
+---
+
+The README of hipEngine's `audit/` subsystem (`hipaudit`), a Python CLI that turns an already-written-down technical-debt corpus into a queryable, gated workflow. The premise is stated in the opening lines: hipEngine's debt was documented exhaustively by agents over months — 396 headings in `docs/REFACTOR.md`, 10,590 worklog entries, 747 environment flags, 255 kernel sources, 62 campaign records, and 151 one-off `*audit*` scripts — but "The problem was never discovery. None of it was queryable, so nothing could be worked through, and new debt landed faster than old debt retired."
+
+Two surfaces share one decision store. **Inventory** is the standing catalogue of debt somebody already wrote down, produced by five extractor kinds — ledger entries, `HIPENGINE_*` flags, kernel sources, campaign candidates, and worklog entries declaring unfinished business — where each row carries machine-readable evidence, signals ("observations, never verdicts"), and match hints for identity across rescans. You *triage* inventory rows. **Findings** are the active queue from code checks (`torch-hot-path`, `axis-branch`, `unguarded-hip-test`, `doc-path-drift`, `ungoverned-flag-branch`, `stub`, `marker`), each naming the edit that closes it; you *fix* findings. Some checks cross-reference the inventory, e.g. `ungoverned-flag-branch` reads `inventory/flags.json` to flag runtime branches on default-off flags with no recorded removal condition.
+
+`refresh` is the whole workflow: it rescans the catalogue, re-runs the checks, re-matches decisions onto rows whose text changed (via match hints, reporting the similarity score and setting `rebound_from`), regenerates the `docs/` indexes, ratchets the budget **down**, writes a dated report, and finishes with a "needs a human" section. The budget is the anti-laziness gate: `budget.json` records untriaged counts per kind, `check` fails when a count rises, and the budget never rises automatically — "Never raise the budget to get past the gate. Lowering it is the point." A `select` block narrows the gate for kinds whose population grows with ordinary work (only `blocked`/`handoff` worklog rows set the ceiling), because "a permanently red gate is a gate nobody reads."
+
+Triage discipline carries the design. Decisions live in `triage/*.jsonl`, keyed by content-derived row ids, recording a hash of the evidence they were made against; when evidence moves, rows come back `stale`, `--expires` returns conditional calls on a schedule, and orphans are reported, not dropped. Every decision requires a note carrying evidence — "a note that restates the tag is not a note." Severity is consequence, not confidence. Triage decides; it does not fix. Two tool-neutral agent assignments encode the split: `agents/triage.md` is read-only and writes only the triage store; `agents/fix.md` takes a whole queue group, fixes the shared cause, commits, and closes rows out — "keeping them apart is what stops a cleanup commit from also changing behaviour."
+
+Three tags compile prose rules from `AGENTS.md` and `docs/OPTIMIZATION.md` into executable checks: `GATE-CATCH22` (a restriction with no command that could lift it is a bug in the gate), `LOST-OPT` (a measured, non-regressive win belongs on the default path unless a concrete blocker is recorded), and `EXACTNESS-REJECT` (exactness is a debugging oracle, not the promotion bar). The closing caveat does real work: "The inventory says what is catalogued, not what is true... The counts in any report are a floor. Nothing here replaces reading the code."
