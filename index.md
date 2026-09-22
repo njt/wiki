@@ -135,6 +135,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 - [[Code Standards That Survive the Next Agent]] — Adam Bertram's Telerik argument that the coding standard must survive the next agent: don't standardize the tool, standardize what every change must prove — AGENTS.md for what agents interpret, CI for what machines enforce (including requiring new tests to fail pre-change), PR evidence for the rest; the broken-proxies diagnosis (polish no longer implies care) backed by Stack Overflow 2025, GitClear and Veracode data
 
+- [[Ask for What You Want (Robin Sloan)]] — Robin Sloan's sequel to "apps as home-cooked meals": a one-month exploratory program for building personal software with a top-tier agent — write a loose, exhaustive VISION.md, ask for a PLAN.md, co-build over coffee, never look at the code — with "Battlestar Galactica engineering" as the durability standard, patience and diligence (not intelligence) as the models' real superpower, and rules against posting or distributing what you build
+
 ## Claude Code
 
 [[Claude Code]] — Claude Code the product: skills, hooks, plugins, CLAUDE.md and steering files, subagents, prompting Claude models, cost and context management inside it, and write-ups of how people configure it. Generic agent-coding practice that would apply to any tool goes to agent-coding-workflow.
