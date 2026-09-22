@@ -414,6 +414,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Your Agent Should Run Its Own Observability Stack]] — Kin Lane's piece argues that agents generating real work should run their own observability stack — Prometheus, OpenTelemetry, Tempo inside the agent's own boundary — and that the reason is not the one usually given.
 - [[What a Useful AI Trace Should Actually Contain]] — Nikolay Iliev's Progress/Telerik post is an implementation walkthrough with a thesis attached: standard OpenTelemetry observability, designed for request latency and error codes, cannot answer the questions that matter…
 - [[Using LLM-as-a-Judge Scoring to Measure Your Software Factory]] — Warp's six-primitive playbook for grading past agent sessions with LLM-as-a-judge scorers: full-trace storage, single-dimension scorers, 3%-of-spend sampling, a scored corpus, an observer self-improvement loop, and benchmarking — with the grader itself left unvalidated
+- [[Recursive Constraint Accretion (wg Postmortem)]] — Poietic PBC's computational ethnography of its own agent organization: 312 governance constraints added and 1 removed over nine months of agents dogfooding their own coordination system (worksgood, formerly workgraph), the July week where multi-dispatch share stepped 2.6%→26.8% while organic completion still read 93%, and the September subtraction arc that restored throughput by demobilizing the rules while keeping the knowledge — "keep the knowledge, not the rules"
 
 ## Specifications as the Product
 
