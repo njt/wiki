@@ -989,6 +989,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Ideas and Culture]] — Essays and arguments about how we think and work: philosophy, history, creativity, organisations, learning, and the culture around technology.
 
+- [[Why Generalists Could Thrive in the Age of AI]] — A two-minute Isaac Levin clip, via David Epstein's *Range*: when AI makes single-domain execution cheap, the valuable skill is connecting dots across domains — an intuition-level version of the T-shaped-developer argument
 - [[Smart Models Dumb Pipes]] — LLMs as judgment machines, not Q&A machines. The end-to-end principle applied to AI: smart models own decisions, dumb pipes own execution
 - [[AI, Tools and Transformation]] — Benedict Evans on why "AI will sweep away enterprise software" misunderstands how companies change: the hard part was never making tools but knowing you need one, software lives on an institutionalised-to-improvised spectrum, and "give everyone the model" produces pilots, not transformation
 - [[A Pattern Language (Christopher Alexander)]] — Christopher Alexander's 253 composable design patterns for towns, buildings, and construction; Clayton Dorge's Twitter-summarization as a compression experiment that reveals the provocative core of each pattern
