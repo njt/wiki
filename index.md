@@ -135,6 +135,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 - [[Code Standards That Survive the Next Agent]] — Adam Bertram's Telerik argument that the coding standard must survive the next agent: don't standardize the tool, standardize what every change must prove — AGENTS.md for what agents interpret, CI for what machines enforce (including requiring new tests to fail pre-change), PR evidence for the rest; the broken-proxies diagnosis (polish no longer implies care) backed by Stack Overflow 2025, GitClear and Veracode data
 
+- [[Where Do AI Norms Come From]] — Charity Majors' dialogue opener with Dr Cat Hicks: write AI norms by listening first — opt-in discussion hours capped at ten, open questions like "What AI-related thing has annoyed you lately?" — so the norms document lands after the anger has been vented, not on top of it
 - [[Ask for What You Want (Robin Sloan)]] — Robin Sloan's sequel to "apps as home-cooked meals": a one-month exploratory program for building personal software with a top-tier agent — write a loose, exhaustive VISION.md, ask for a PLAN.md, co-build over coffee, never look at the code — with "Battlestar Galactica engineering" as the durability standard, patience and diligence (not intelligence) as the models' real superpower, and rules against posting or distributing what you build
 
 ## Claude Code
