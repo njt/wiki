@@ -153,6 +153,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Windows VM Skill for Claude Code]] — Jesse Vincent's raw Claude Code command for managing a headless Windows 11 VM in Docker over SSH: dockur/windows with KVM, an ISO cache kept outside the wiped-on-recreate storage volume, Node + Claude Code installed inside via stdin-piped PowerShell, and the Windows-only gotchas (sshd PATH semantics, execution policy scopes, broken winget, rotated host keys) that justify the skill's existence
 - [[Go Skills for Claude Code]] — spf13's six Agent Skills for Go as a Claude Code plugin marketplace: idiomatic Go, Cobra/Viper CLI architecture, pre-implementation spec review, release engineering, Wails desktop apps, and safe file operations — a pure-prose repo where the frontmatter description is the trigger surface (CI-enforced at ≥40 chars), a 197-line invariant checker makes CONTRIBUTING.md executable, and the only deterministic checks guard the packaging rather than the guidance
 
+- [[Claude Remote Control Server (Lhotka)]] — Lhotka's progression from SSH-piloted Claude Code to Remote Control: `/rc` to expose live sessions, `claude remote-control` as a boot-time session-spawning server on Windows via an S4U scheduled task with a supervisor script handling self-heal, hourly update staging, and transcript-mtime idle detection — plus the honest inventory of headless problems that survive (Credential Manager, Docker Desktop, non-prompting Git/gh credentials)
+
 ## AI Code Review
 
 [[AI Code Review]] — Review done by or with agents: PR review bots, review-at-scale systems, AI-written change descriptions, standards enforcement in the review path, and arguments about what review becomes when agents write the code.
