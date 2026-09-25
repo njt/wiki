@@ -874,6 +874,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 [[AI Research and Models]] — Papers, model releases and evaluations: architectures, training, reasoning, benchmarks, and what the frontier labs and researchers are finding.
 
 - [[Continuous Diffusion Language Models]] — Sander Dieleman's insider survey of continuous vs. discrete diffusion for language: the late-2023 "continuous extinction," the 2026 flow-map comeback, and the distillability advantage (few-step sampling that captures token correlations) as the reason continuous methods returned — with the caveat that the field's GenPPL evaluation is gameable
+
+- [[What Is RLCD — The Secret Behind Jev]] — Di Zhang's technical deconstruction of Jev: a schema-conditioned Plackett–Luce reward model promoted into the product, with RLCD adding Brier-score calibration, the "parallel sampler" deflated to sequence packing plus tree attention, and RLCD redefined by output contract rather than reward source — plus five falsifiable predictions
 - [[Apertus 1.5]] — Swiss AI's fully open 8B/70B model release from ETH/EPFL: image understanding, switchable reasoning, 262K context, open weights + data + methodology. Continued pretraining of Apertus 1.0
 - [[The Hitchhiker's Guide to Agentic AI]] — Haggai Roitman's 603-page practitioner's reference: the full agentic AI stack from transformer architecture through production deployment, with theory + implementation + code for every layer
 - [[Holding the LLM Stack in Your Head]] — Nick Gustafson's ~84-post dependency-ordered walk through the entire modern LLM stack, from linear algebra to agent protocols, written as a public learning exercise with Claude Opus 4.8
