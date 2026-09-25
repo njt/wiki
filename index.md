@@ -659,6 +659,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Databases and Data]] — Storage engines, query systems, data modelling, file formats, data pipelines, and how data systems are designed and operated.
 
+- [[Hash Slots and the Redis Batching Tax]] — A delivery-app engineer discovers Redis cluster hash slots via traces showing one read exploded into scores of single-key MGETs, then fixes it with brute-forced hash tags, slot-aware batching, EVAL-based expiry, and CSV values — and concludes the post-Claude era removes the excuse for skipping the benchmark harness.
 - [[The Oracle Is the Asset]] — Sam Ruby's Drucker inversion: the test suite is the durable asset, not the compiler. Frameworks will become transpilers, and you'll own the spec the compiler answers to
 - [[DAB]] — Microsoft's Data API Builder: REST, GraphQL, and MCP over any database
 - [[Data Engineering for Large Models]] — Open-source textbook: complete LLM data pipeline, 28 chapters
