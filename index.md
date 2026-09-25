@@ -31,6 +31,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Agent Coding Workflow]] — How practitioners actually work with coding agents day to day: the loop, prompting habits, planning rituals, verification over generation, maturity models, team and org practice, and what changes about the craft. Tool-specific Claude Code material goes to claude-code; review automation goes to ai-code-review.
 
+- [[How We Made Claude AI Faster]] — Anthropic's two-week sprint making claude.ai ~3x faster via a Slack-channel Claude running 150+ threads: measurement as step one of the climb, benchmark ratchets that only ratchet down, ~200 feature flags, and a human loop reduced to ambition, taste, and direction
+
 - [[Software Factories, Light and Dark]] — Addy Osmani's Radar synthesis of Dex Horthy's factory thesis: the loop/harness/factory stack, the dark factory as a comprehension-debt machine (a four-month no-human-reads run with tests green the whole way), back pressure as the rule that autonomy can't exceed cheap and unfakeable verification, and a per-loop light switch deciding where human judgment stays
 
 - [[Own the Outer Loop]] — Addy Osmani's accountability essay: agents run the inner loop while engineers own the outer loop — Quality produces evidence, evidence licenses a Verdict, and the Verdict demands Answerability; the three hidden costs (cognitive surrender, cognitive debt, orchestration tax) and the four loops (constraints, sampling, audit, ownership) where human judgment actually lives
