@@ -1,0 +1,89 @@
+---
+url: https://christophermeiklejohn.com/ai/agents/distributed/zabriskie/2026/03/30/multi-agent-systems-have-a-distributed-systems-problem.html
+date_fetched: 2026-09-25
+---
+
+# Multi-Agent Systems Have a Distributed Systems Problem
+
+I watched two Claude Code instances step on each other’s database migrations last month. One created migration 267. The other, running in a different worktree, also created migration 267. Different schemas, same filename. The second one silently overwrote the first.
+
+I stared at it for a minute before I started laughing. This is a lost update — the exact same problem that distributed databases have been solving since the 1970s. A lost update playing out in a directory of SQL files instead of a network of processes. The kind of problem CRDTs were invented to solve: two independent writers, no coordination, and the system needs to merge their work without losing either update.
+
+I’ve been building an app with Claude Code as my only collaborator for about two months now. One human, one agent, one codebase — it works. But I’m hitting problems now that a single agent can’t solve efficiently: bugs from real users coming in while I’m trying to ship features, tests that need writing, infrastructure that needs maintaining, all at the same time. The obvious answer is more agents. And the moment you have multiple agents working on the same codebase, you have a distributed system.
+
+The migration collision wasn’t an isolated incident. I’ve seen agents make contradictory assumptions about the state of the codebase. I’ve seen an agent “fix” a bug by reverting a change that another agent made intentionally. I’ve seen context windows fill up with stale information because no one told the agent that the world had changed since it last looked. These aren’t prompt engineering problems. They’re coordination problems. And I’d spent the last ten years of my life studying coordination problems — just in a completely different context.
+
+## It’s Not Just Me
+
+Once I started looking, I saw the same gaps everywhere. Take the ChatDev paper.
+
+ChatDev is a multi-agent system where LLM agents play different roles — CEO, CTO, programmer, reviewer, tester, art designer — and collaborate through structured dialogues to build software. The role decomposition is smart. The dialogue structure is well-designed. But when I got to the section on how agents coordinate around shared state, I paused.
+
+ChatDev agents do share artifacts — code, design documents — and it has a mechanism called “communicative dehallucination” where agents reverse roles during code review, with the assistant asking the instructor for clarification before generating code. It’s a clever error-reduction heuristic. But it’s not concurrency control on those shared artifacts. No causal ordering across chat chains — no way to know whether agent A’s modification happened before or after agent B’s, or whether agent A had seen agent B’s earlier change when it made its own. It’s the same problem I saw with my migrations, just wearing different clothes: two agents with stale views of shared state, no mechanism to detect the divergence, and no recovery path when things go wrong. Distributed databases like Riak and Antidote solved this with version vectors decades ago.
+
+MetaGPT goes further — it introduces a shared message pool where agents publish structured outputs (PRDs, system designs, task lists) and subscribe to relevant messages based on their role profiles. That’s a real step forward over ChatDev’s dialogue-only coordination. But a publish-subscribe message pool is not concurrency control. It tells you what other agents produced; it doesn’t tell you whether you’re reading a stale version, or whether two agents are about to write conflicting changes to the same artifact. AutoGen stays closer to ChatDev’s model — agents coordinate through multi-turn conversations with no persistent shared state at all.
+
+Across this field, the pattern is the same: shared mutable state with no formal concurrency control. No fault model. No reasoning about what happens when agents disagree.
+
+None of this diminishes their work — these systems made real breakthroughs on the agent layer. Role specialization, structured dialogue, tool use patterns, task decomposition. The agents themselves are impressive. It’s just that the coordination layer underneath kept reminding me of problems I’d spent years thinking about in a completely different field.
+
+## Why It Felt Familiar
+
+In 2015, I was building eventually consistent databases at Basho Technologies. The hard part was never the database engine — it was the merging. How do you take two independent streams of updates and combine them into something consistent without throwing data away?
+
+That question spawned an entire research program. The foundational work on Conflict-Free Replicated Data Types by Shapiro et al. showed that certain data structures are mathematically guaranteed to merge correctly regardless of the order updates arrive or whether the network partitions — no consensus protocol, no leader election, no locking. The EU’s SyncFree project built on that foundation, bringing together researchers across Europe to make CRDTs practical for large-scale systems — producing Antidote, a CRDT-native database, and a body of work on highly available transactions over replicated state.
+
+I spent my PhD working on Lasp, which tried to take the CRDT thinking a step further: instead of just using CRDTs as data structures, Lasp made them the basis for coordination-free distributed programming. Programs in Lasp computed over CRDTs directly — maps, filters, folds — so the entire application inherited their convergence guarantees. As part of SyncFree’s partnership with Rovio Entertainment, we demonstrated that CRDTs could be used at scale in controlled experiments with real outcomes, running Lasp on over 1,000 nodes on AWS — at the time, one of the largest CRDT deployments in academic research. That work received the PPDP 10-year most influential paper award last year.
+
+Then came Partisan, a distributed runtime that gave us control over the network layer: swap topologies, interpose on every message, inject faults directly into the runtime. And then Filibuster, which extracted those fault injection ideas and applied them to microservices — systematically injecting timeouts, connection errors, and unexpected responses into HTTP and gRPC calls to catch bugs during development instead of production.
+
+I didn’t plan for any of this to be relevant to AI. But the thread connecting all of this work is a single question — how do independent processes coordinate in the presence of partial failure? — and that’s exactly the question that multi-agent systems are now running into.
+
+## Why This Is Inevitable
+
+Here’s what I think people are missing about multi-agent systems: the distributed systems problems aren’t a bug. They’re not an artifact of bad architecture or missing features. They’re an inevitable consequence of having multiple autonomous processes that share state. Every multi-agent system, no matter how it’s built, will hit the same categories of failure.
+
+- 
+    **Conflicts and stale reads.**Two agents modify the same file concurrently — one’s changes get silently lost. Or worse: an agent reads the issue tracker, picks a bug, starts coding a fix, but another agent resolved that bug ten minutes ago. Redundant work based on stale state. In distributed databases, this is why we have version vectors and causal consistency. In multi-agent systems, nobody’s even tracking it.
+- 
+    **Failure and recovery.**Any node can crash at any time — that’s the foundational assumption of distributed systems. In a multi-agent system, an agent can hit a context window limit, hallucinate a fix, or just stop responding mid-task. The other agents have to detect this, recover in-progress work, and continue without it. This is the crash-recovery model, applied to LLM processes instead of database replicas.
+- 
+    **Ordering without a clock.**Lamport’s 1978 paper established that you can reason about event ordering using happened-before relations even without a shared clock. Consider: a user files a bug report, a triage agent assigns it to agent A, but agent B sees the original report before the assignment arrives and starts fixing it independently. Two agents working the same issue because the system can’t express causal ordering. Vector clocks solve this. The multi-agent world hasn’t noticed yet.
+- 
+    **Partition tolerance.**Communication failures — API timeouts, rate limits, one agent buried in a long task — split agents into groups that can’t coordinate. They diverge. When they reconnect, their states need to merge without losing either side’s work. CRDTs were designed for exactly this.
+- 
+    **Byzantine faults.**In distributed systems, a Byzantine fault is a process that doesn’t just crash — it produces incorrect output while appearing to function normally. LLM agents do this constantly. An agent hallucinates a fix that looks plausible, passes its own tests, and ships it. A downstream agent trusts it and builds on top of it. Now you have a chain of work built on a foundation that was wrong from the start. In multi-agent systems, every agent is a potential Byzantine actor every time it responds.
+
+These aren’t hypothetical concerns. I’ve hit every one of them building Zabriskie with multiple Claude Code instances. And they emerge in any multi-agent architecture regardless of how clever the prompt engineering is, because they’re properties of the architecture itself — multiple writers, no shared clock, partial failure.
+
+What fascinates me is that these are all problems with known solutions — or at least, known solutions in the distributed systems world. Fifty years of research on formal models for concurrent access, data structures that merge automatically, techniques for systematically testing every failure mode. None of this has made it into the multi-agent stack yet. And I’m genuinely not sure how much of it transfers cleanly. LLM agents aren’t database replicas — they hallucinate, they lose context, they make confident decisions based on incomplete information. The structural parallels are strong, but whether the techniques actually carry over, and what has to change when they do, is an open question. It’s also the most interesting question I’ve encountered in a long time.
+
+*I’m going to keep exploring this space. If you’re thinking about these problems too, I’d love to hear from you.*
+
+Fidge, Colin J. 1988. "Timestamps in Message-Passing Systems That Preserve the Partial Ordering." *Proceedings of the 11th Australian Computer Science Conference* 10 (1): 56–66.
+
+Lamport, Leslie, Robert Shostak, and Marshall Pease. 1982. "The Byzantine Generals Problem." *ACM Transactions on Programming Languages and Systems* 4 (3): 382–401.
+
+Hong, Sirui, Xiawu Zheng, Jonathan Chen, Yuheng Cheng, Jinlin Wang, Ceyao Zhang, Zili Wang, et al. 2023. "MetaGPT: Meta Programming for Multi-Agent Collaborative Framework." *arXiv Preprint arXiv:2308.00352*. https://arxiv.org/abs/2308.00352.
+
+Lamport, Leslie. 1978. "Time, Clocks, and the Ordering of Events in a Distributed System." *Communications of the ACM* 21 (7): 558–65.
+
+Mattern, Friedemann. 1989. "Virtual Time and Global States of Distributed Systems." *Parallel and Distributed Algorithms* 1 (23): 215–26.
+
+Meiklejohn, Christopher. 2018. "Partisan: Enabling Cloud-Scale Erlang Applications." *Technical Report*. Université catholique de Louvain. https://arxiv.org/abs/1802.02652.
+
+Meiklejohn, Christopher, and Peter Van Roy. 2015. "Lasp: A Language for Distributed, Eventually Consistent Computations with CRDTs." In *Proceedings of the First Workshop on Principles and Practice of Consistency for Distributed Data*, 7. ACM.
+
+Meiklejohn, Christopher. 2022. "Service-Level Fault Injection Testing." Ph.D. dissertation, Carnegie Mellon University.
+
+Qian, Chen, Xin Cong, Cheng Yang, Weize Chen, Yusheng Su, Juyuan Xu, Zhiyuan Liu, and Maosong Sun. 2023. "Communicative Agents for Software Development." *arXiv Preprint arXiv:2307.07924*. https://arxiv.org/abs/2307.07924.
+
+Shapiro, Marc, Nuno Preguiça, Carlos Baquero, and Marek Zawirski. 2011. "A Comprehensive Study of Convergent and Commutative Replicated Data Types." *INRIA Technical Report* 7506. https://hal.inria.fr/inria-00555588.
+
+Wu, Qingyun, Gagan Bansal, Jieyu Zhang, Yiran Wu, Shaokun Zhang, Erkang Zhu, Beibin Li, Li Jiang, Xiaoyun Zhang, and Chi Wang. 2023. "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation." *arXiv Preprint arXiv:2308.08155*. https://arxiv.org/abs/2308.08155.
+
+## Discussion on Bluesky
+
+Replies to this post on Bluesky appear below. Reply there to join the conversation.
+
+Loading discussion…
