@@ -974,6 +974,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[AI Infrastructure and Hardware]] — The physical and platform layer: chips, data centres, energy, serving infrastructure, cloud platforms, and the economics of compute.
 
+- [[Tokens Too Cheap to Meter]] — jyn's evidence-stacked case that per-task AI cost falls ~2.5 orders of magnitude/year (GPUs, MoE, Mamba hybrids, inference engines, Jev-class classifiers), making intelligence infrastructure and quality/access the new bottleneck
 - [[In-House LLM Serving at Netflix]] — Netflix's production LLM stack: vLLM inside Triton with dual gRPC/OpenAI frontends, constrained decoding rewritten from per-request Python to batch-level C++, and the operational gaps between vendor tooling and production reality
 - [[The Tokens You Can't Wait For]] — Text diffusion models as the fix for the GPU hangover: when batching is impossible, parallel generation turns idle owned compute into saturated assets
 - [[KV Cache Locality]] — Round-robin load balancing wastes 20–40% of GPU compute on redundant prefill; prefix-aware routing flips cache hit rate from 12.5% to 97.5%
