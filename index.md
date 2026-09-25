@@ -332,6 +332,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Agent Orchestration]] — Many agents working together: multi-agent topologies, delegation, subagents, queues and schedulers, coordination protocols, and the control planes that run fleets of agents.
 
+- [[Towards a Science of Scaling Agent Systems]]
+
 - [[AI Agents Need Clear Specs]] — Markus Eisele's economic analysis of the spec debate: the U-shaped cost curve where the minimum sits at structured acceptance criteria, not zero spec; spec validation as a distinct and non-zero cost category; why multi-agent pipelines push the breakeven decisively right
 - [[The Grid — Agent Identity Architecture]] — Matt Galligan's personal agent workspace uses file-based "identity disks" with numeric temperament dials (`context_hunger: 19/20`, `delegation_reflex: 16/20`) to give 12 role-specialized programs distinct behavioral profiles; identity as configuration, not just memory
 - [[Warp Agent CLI]] — Warp's standalone terminal coding agent with PTY-level multiplexing, cross-harness orchestration (delegates to Claude Code and Codex as workers), cloud agent handoff, and built-in model auto-routing. The mux architecture as a new dimension in coding agent harness design
