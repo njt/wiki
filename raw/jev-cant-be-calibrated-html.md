@@ -1,0 +1,26 @@
+---
+url: https://www.alexmolas.com/2026/09/23/jev-cant-be-calibrated.html
+date_fetched: 2026-09-25
+---
+
+# Jev can't be calibrated
+
+Unless you’ve been living under a rock, you’ve probably heard about Jev. Simon Willison’s post is a good overview, and this one shows how to implement it in a few lines of Python. In short, Jev is TypeSafe’s first “System One Model”: instead of generating text, it takes unstructured input and returns typed decisions from a set of outputs you define in advance, each with a probability attached. One of its selling points is that “all answers are accompanied with calibrated probabilities and confidence scores”. In this post I argue that Jev is useful, but that the calibration claim can’t hold in general, and that you should treat its outputs as scores rather than probabilities.
+
+## Useful without training data
+
+You can throw it at any classification problem without collecting training data first and get reasonable results. Many people on Twitter said, “This is just a fine-tuned BERT”, but fine-tuning a BERT requires data. If you don’t have data, Jev is a great alternative. Also, Jev is a **universal classifier**, whereas a fine-tuned BERT is only useful for the task it has been trained for. However, this comes with a cost, and being useful without data is exactly why its probabilities can’t be calibrated for you
+
+## Uncalibrated probabilities
+
+TypeSafe says Jev was trained using RLCD (reinforcement learning for **calibrated** decisions), and that the probabilities it produces are calibrated. I don’t think that’s true. A model can be calibrated on TypeSafe’s data and still be miscalibrated on yours.
+
+A model is calibrated when for any predicted probability $p$ the true probability of the positive class given that prediction is $p$. This is $P(Y = 1 \mid \hat{p} = p) = p$, where $\hat{p}$ is the probability predicted by the model. Intuitively it means if you group all the instances where your model predicts X% then approximately X% of those actual cases turn out to be true (eg: if you take the emails where Jev said `spam_probability=0.7` you should expect about 70% of them to actually be spam).
+
+The important point is that calibration is not just a property of the model, but also of your data distribution. The same model can be calibrated on one dataset but not on another. Different companies can define spam the same way but have different data distributions. However, for the same input and prompt, Jev will provide the same probabilities to both companies, regardless of their different underlying data distributions. Therefore, the model may be calibrated for one company but not for the other. Even if RLCD successfully trains Jev to be calibrated on its training/evaluation distribution, its probabilities may not remain calibrated on your production distribution.
+
+There is some evidence the failure is worse than just a distribution shift. While writing this post I found these tweets, where Jev says a fair coin lands heads with probability 0.92. That is worse than the drift explained above. The true probability is in the prompt, and the model still does not report it. This recent experiment also finds that `Noul` is much better calibrated than `Choice` on the same problem. If Jev’s probabilities have different semantics depending on which primitive I use, what exactly do “calibrated probabilities” mean?
+
+If you want calibrated probabilities you’ll still need to recalibrate Jev’s probabilities on your own data. The good news is that is cheap. A few hundred labeled examples from your actual data can be enough to fit a Platt scaling on top of Jev’s scores.
+
+My take is to treat Jev’s outputs as good scores (they rank examples well) rather than good probabilities. If your system depends on the actual number, like thresholds, expected costs or combining it with other models, measure calibration on your data before trusting it.
