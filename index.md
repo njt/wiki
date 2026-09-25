@@ -335,6 +335,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 - [[Silo-Bench — The Communication-Reasoning Gap]] — Jiang et al.'s 30-task benchmark (54 configs, 1,620 experiments) isolating a Communication-Reasoning Gap: multi-agent LLMs form good topologies and exchange information well but systematically fail at the reasoning-integration stage, with coordination overhead compounding until it erases parallelization gains — naively scaling agent count cannot circumvent context limits
 - [[Towards a Science of Scaling Agent Systems]]
+- [[The Right Abstraction Is the Interaction]] — Ayush Chopra's MIT Media Lab manifesto: LLM-era "multi-agent systems" are agent-centric mislabels — smart objects with workflows — while genuine distributed intelligence lives in emergent interaction patterns; the abstraction should be the interaction, not the agent
 
 - [[AI Agents Need Clear Specs]] — Markus Eisele's economic analysis of the spec debate: the U-shaped cost curve where the minimum sits at structured acceptance criteria, not zero spec; spec validation as a distinct and non-zero cost category; why multi-agent pipelines push the breakeven decisively right
 - [[LLM-as-Scheduler — Agentic Workflow Dynamic Scheduling]] — Xiang et al.'s ACL 2026 paper: a two-stage cascade (lightweight gate on agent outputs, then an LLM scheduler using query features and gate signals) that picks the lightest sufficient workflow per query — −43% tokens, −36% latency, ≤1.4pp accuracy versus a fixed workflow
