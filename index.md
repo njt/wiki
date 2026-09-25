@@ -333,6 +333,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Agent Orchestration]] — Many agents working together: multi-agent topologies, delegation, subagents, queues and schedulers, coordination protocols, and the control planes that run fleets of agents.
 
+- [[Multi-Agent Systems Have a Distributed Systems Problem]] — CRDT researcher Christopher Meiklejohn's argument that multi-agent LLM systems reproduce every classic distributed-systems failure (lost updates, stale reads, no causal ordering, Byzantine agents) by construction, grounded in two Claude Code instances colliding on migration 267 and a survey finding no concurrency control in ChatDev, MetaGPT, or AutoGen
 - [[Silo-Bench — The Communication-Reasoning Gap]] — Jiang et al.'s 30-task benchmark (54 configs, 1,620 experiments) isolating a Communication-Reasoning Gap: multi-agent LLMs form good topologies and exchange information well but systematically fail at the reasoning-integration stage, with coordination overhead compounding until it erases parallelization gains — naively scaling agent count cannot circumvent context limits
 - [[Towards a Science of Scaling Agent Systems]]
 
