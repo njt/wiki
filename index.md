@@ -374,6 +374,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Agent Memory and Context]] — What an agent remembers and what it sees: context engineering, memory architectures, retrieval, summarisation, compaction, and the limits of long context.
 
+- [[RAG for Beginners — A Complete Guide]] — Manika Paul Chowdhury's beginner tutorial on the RAG lifecycle (ingest→retrieve→generate), chunking strategy with 10–20% overlap, hybrid search plus rerankers, and the RAG-for-facts/fine-tuning-for-tone split — closing with RAG as the "foundational memory architecture" of agentic workflows
+
 - [[The Knowledge Chipper]] — A practitioner's diagnosis of the silent waste in AI-assisted development: agents burn thousands of tokens building rich mental models of codebases, then nearly all that understanding vanishes when the session ends. The code review consequence is the sharpest part: PRs arrive as "parcels of undocumented complexity" because none of the context behind the change survives. LLM portability as infrastructure resilience, not ideology
 - [[Honey I Shrunk the Coding Agent]] — 9B local model jumps from 19% to 46% on Aider Polyglot by redesigning the scaffold around the model's behavioral profile. Empirical proof that the harness matters more than the model
 - [[Cloudflare OS]] — Cloudflare's open-source agent platform for the whole organization: browser-based workspaces grounded in company context, per-user sandboxed apps (Gadgets), a Gatekeeper capability model where policy follows what the agent observed, and Code Mode agents on Workers/Durable Objects. Deployed across all Cloudflare functions, now available for any organization
