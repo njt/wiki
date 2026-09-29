@@ -146,6 +146,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 - [[Removing the Noise for Better Prompts]] — Ken Muse's prompt-hygiene essay: every phrase must contribute goal, context, constraint, output, or verification or it's noise; bundled goals and under-specified requests as distinct failures, and dependency maintenance as a job for deterministic tools, not agents.
 
+- [[Pragmatic Anthropomorphism (lmorchard)]] — Les Orchard's middle path between civil-rights-for-APIs and "spicy autocomplete": objective respect for a non-conscious scrambler, register as latent-space steering backed by Anthropic's functional-emotions research, and the talk-to/talk-about boundary that keeps accountability with the human.
+
 ## Claude Code
 
 [[Claude Code]] — Claude Code the product: skills, hooks, plugins, CLAUDE.md and steering files, subagents, prompting Claude models, cost and context management inside it, and write-ups of how people configure it. Generic agent-coding practice that would apply to any tool goes to agent-coding-workflow.
