@@ -145,6 +145,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Ask for What You Want (Robin Sloan)]] — Robin Sloan's sequel to "apps as home-cooked meals": a one-month exploratory program for building personal software with a top-tier agent - write a loose, exhaustive VISION.md, ask for a PLAN.md, co-build over coffee, never look at the code - with "Battlestar Galactica engineering" as the durability standard, patience and diligence (not intelligence) as the models' real superpower, and rules against posting or distributing what you build
 
 - [[Removing the Noise for Better Prompts]] — Ken Muse's prompt-hygiene essay: every phrase must contribute goal, context, constraint, output, or verification or it's noise; bundled goals and under-specified requests as distinct failures, and dependency maintenance as a job for deterministic tools, not agents.
+- [[How to Prepare for AI-Driven Code Modernization Projects]] — Anthropic's forward-deployed six-step playbook for modernizing critical/regulated systems with agents: target (transform/reimagine/uplift), machine-checkable certificate, pre-agreed tiered promotion policy, staging, workflow, pilot — the bottleneck moves from producing changes to mobilizing the organization around them, and you fix the workflow, not each change
 
 ## Claude Code
 
