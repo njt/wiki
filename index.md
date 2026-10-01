@@ -175,6 +175,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[AI Code Review]] — Review done by or with agents: PR review bots, review-at-scale systems, AI-written change descriptions, standards enforcement in the review path, and arguments about what review becomes when agents write the code.
 
+- [[Whiteboard (dev.fast)]] — dev.fast's MIT-licensed desktop canvas where agents author typed, source-linked architecture documents via MCP: Zod-validated diagram blocks, a Rust AST diff viewer, vendored patchless Code-OSS, and Agent-Session commit trailers enabling trace archaeology back to the tool call that wrote each line
 - [[6 Learnings from 12,000 Agentic Code Reviews]] — Watson Labs' metrics from "The Mandible", a Gymwasp software factory run on the Swamp harness where no human reads code: seven isolated reviewer lanes gate merges worst-of-seven, 65% of 372 issues merge-ready after one round, round 4 is the elbow where loops oscillate rather than converge, 29% ship on warn, and the CI/CD instrument–measure–retune discipline applied to review loops
 
 ## Agent Architecture
