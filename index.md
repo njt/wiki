@@ -682,6 +682,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Databases and Data]] — Storage engines, query systems, data modelling, file formats, data pipelines, and how data systems are designed and operated.
 
+- [[AI Generated ETL Went Well, and That Was Worse]] — Pinal Dave's AI rewrite of a legacy ETL job ran clean on day one, then spent six weeks revealing that the old job's odd checks were nine years of undocumented incidents (late Monday files, resent files, all-zero amounts, encoding drift); his fix is failure-mode enumeration plus tribal-knowledge interviews before generating code
+
 - [[RIP Vector Database]] — turbopuffer's v3 rework demotes the ANN index from primary key to secondary index, fixing storage/write amplification and cluster-size-capped vectorization; a rare public, mid-migration storage-engine narrative
 - [[Hash Slots and the Redis Batching Tax]] — A delivery-app engineer discovers Redis cluster hash slots via traces showing one read exploded into scores of single-key MGETs, then fixes it with brute-forced hash tags, slot-aware batching, EVAL-based expiry, and CSV values — and concludes the post-Claude era removes the excuse for skipping the benchmark harness.
 - [[The Oracle Is the Asset]] — Sam Ruby's Drucker inversion: the test suite is the durable asset, not the compiler. Frameworks will become transpilers, and you'll own the spec the compiler answers to
