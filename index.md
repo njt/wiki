@@ -1046,6 +1046,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 [[AI Product and Business]] — Pricing, unit economics, adoption inside organisations, strategy, competition, labour and market effects, and how AI products get built and sold.
 - [[A Serious AI Product]] — Glyph's specification-by-negation for AI tools: if the disclaimer admits mistakes, verification must be first-class UI (claim checkboxes, citations as primary artifacts, provenance, context visibility, a real sandbox), and years of shipping none of it suggests labs fear what honest measurement would reveal.
 - [[When Your Buyer Is an AI Agent]] — This O'Reilly Radar article argues that the significant commercial disruption from AI agents is happening on the **buy side** of enterprise B2B, not the sell side — and that sellers' commercial infrastructure (pricing,…
+- [[Modeling Software's Business Impact (James Shore)]] — Shore's case that value, not cost, is what to model: NPV "product bets" with Pirate-Metrics proxies, customer attention as the AI-era bottleneck, milestone-and-ceiling funding, and prioritization as the realization of company strategy.
 
 - [[Becoming a Frontier Firm (Second Edition)]] — Microsoft's second-edition Frontier Playbook for enterprise AI transformation: five elements from business ambition to security, a diffusion engine of three recipes, private evals as the moat, and a four-layer adoption-to-impact measurement pipeline.
 
