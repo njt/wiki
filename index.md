@@ -916,6 +916,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[AI Research and Models]] — Papers, model releases and evaluations: architectures, training, reasoning, benchmarks, and what the frontier labs and researchers are finding.
 
+- [[AstaBrief-8B]] — Ai2's open-weight Qwen3-8B SFT+DPO fine-tune that distills the multi-agent Asta ScholarQA pipeline into a single 8B model: trained on reports from frontier models (Claude, o3/o4-mini, GPT-4.1, DeepSeek), DPO-ranked by human-validated LLM judges, 87.0 on ScholarQA-CS2 and a 72% win rate vs ScholarQA on test
 - [[Continuous Diffusion Language Models]] — Sander Dieleman's insider survey of continuous vs. discrete diffusion for language: the late-2023 "continuous extinction," the 2026 flow-map comeback, and the distillability advantage (few-step sampling that captures token correlations) as the reason continuous methods returned — with the caveat that the field's GenPPL evaluation is gameable
 
 - [[What Is RLCD — The Secret Behind Jev]] — Di Zhang's technical deconstruction of Jev: a schema-conditioned Plackett–Luce reward model promoted into the product, with RLCD adding Brier-score calibration, the "parallel sampler" deflated to sequence packing plus tree attention, and RLCD redefined by output contract rather than reward source — plus five falsifiable predictions
