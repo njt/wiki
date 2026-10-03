@@ -154,6 +154,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Pragmatic Anthropomorphism (lmorchard)]] — Les Orchard's middle path between civil-rights-for-APIs and "spicy autocomplete": objective respect for a non-conscious scrambler, register as latent-space steering backed by Anthropic's functional-emotions research, and the talk-to/talk-about boundary that keeps accountability with the human.
 - [[How to Prepare for AI-Driven Code Modernization Projects]] — Anthropic's forward-deployed six-step playbook for modernizing critical/regulated systems with agents: target (transform/reimagine/uplift), machine-checkable certificate, pre-agreed tiered promotion policy, staging, workflow, pilot — the bottleneck moves from producing changes to mobilizing the organization around them, and you fix the workflow, not each change
 
+- [[Teaching AI to Work Like a Senior Engineer (Motta)]] — Jefferson S. Motta's six-month field report on writing a skill about *himself*: jefferson-senior-dev encodes rules of engagement (assume shared code is correct, flag security always, flag his known blind spot), Cursor prompts became prescriptive, skills graduated to CLI-executed units of work across seven platforms — and calibrated speed made his own scoping mistakes more expensive
+
 ## Claude Code
 
 [[Claude Code]] — Claude Code the product: skills, hooks, plugins, CLAUDE.md and steering files, subagents, prompting Claude models, cost and context management inside it, and write-ups of how people configure it. Generic agent-coding practice that would apply to any tool goes to agent-coding-workflow.
