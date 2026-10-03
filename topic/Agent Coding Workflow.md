@@ -141,7 +141,7 @@ The tools are proliferating: [[happy]] solves the "I started a session and need 
 - [[Cyborgs Will Kill the Corporation]] — When transaction costs collapse, the firm decomposes into excorporations
 - [[The Claude Code Playbook]] — Five beginner-to-intermediate tips
 - [[There Is No Spoon]] — ML primer built on physical analogies
-- [[Anatomy of the .claude/ Folder]] — Structural reference for every file in .claude/
+- [[Anatomy of the .claude Folder]] — Structural reference for every file in .claude/
 - [[claude-code-config (Trail of Bits)]] — Security-conscious Claude Code defaults
 - [[MinMax Skills]] — Skills library for frontend, mobile, Flutter, media
 - [[Binary RE]] — Binary reverse-engineering skills for Claude Code

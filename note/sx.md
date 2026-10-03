@@ -54,7 +54,7 @@ sx's biggest risk is timing. It's a package manager for a package format that do
 - [[2389 Plugin Marketplace]] — Current plugin distribution model (centralized registry). sx is the decentralized alternative (per-team vaults)
 - [[MinMax Skills]] — Skills library at 11.8k stars. sx would manage distribution of exactly this kind of collection
 - [[Claude Code is a Beast — Tips from 6 Months of Hardcore Use]] — Skills auto-activation via hooks; sx solves the distribution side of the same problem
-- [[Anatomy of the .claude/ Folder]] — Understanding what sx is managing and where assets land
+- [[Anatomy of the .claude Folder]] — Understanding what sx is managing and where assets land
 - [[Intent Layer]] — Hierarchical context at folder boundaries; sx's scoping (org/repo/path) mirrors this structure
 - [[Writing a Good CLAUDE.md]] — What gets distributed via sx; the asset that needs versioning and team governance
 - [[claude-ctrl]] — Enforcement hooks distributed via sx; "an instruction in context is not a constraint"

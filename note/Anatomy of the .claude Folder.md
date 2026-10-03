@@ -1,4 +1,4 @@
-# Anatomy of the .claude/ Folder
+# Anatomy of the .claude Folder
 
 Avi Chawla's tour of every directory and file in the `.claude/` folder, from CLAUDE.md to agents/, with concrete examples and a five-step setup progression. The best single-page reference for the folder's full structure — what each piece does, where it lives, and whether it's shared or personal.
 

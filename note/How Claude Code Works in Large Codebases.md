@@ -90,7 +90,7 @@ The fastest rollouts didn't start with broad access. They started with a small t
 - [[Components of a Coding Agent]] — The harness-matters-more-than-the-model taxonomy this article operationalizes
 - [[CLAUDE.md (Universal)]] — Token-efficient CLAUDE.md rules for the "lean and layered" approach
 - [[Writing a Good CLAUDE.md]] — HumanLayer's guide to brevity as an instruction budget
-- [[Anatomy of the .claude/ Folder]] — Every directory and file, including the settings.json for `.ignore` rules
+- [[Anatomy of the .claude Folder]] — Every directory and file, including the settings.json for `.ignore` rules
 - [[Intent Layer]] — Hierarchical AGENTS.md at folder boundaries: the same layering concept
 - [[Harness Engineering]] — Böckeler's feedforward/feedback framework: the theory behind "linters beat prompts"
 - [[Harness Engineering (OpenAI)]] — The original experiment: 1M lines, zero handwritten code, 12 concrete practices
