@@ -153,6 +153,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 - [[Pragmatic Anthropomorphism (lmorchard)]] — Les Orchard's middle path between civil-rights-for-APIs and "spicy autocomplete": objective respect for a non-conscious scrambler, register as latent-space steering backed by Anthropic's functional-emotions research, and the talk-to/talk-about boundary that keeps accountability with the human.
 - [[How to Prepare for AI-Driven Code Modernization Projects]] — Anthropic's forward-deployed six-step playbook for modernizing critical/regulated systems with agents: target (transform/reimagine/uplift), machine-checkable certificate, pre-agreed tiered promotion policy, staging, workflow, pilot — the bottleneck moves from producing changes to mobilizing the organization around them, and you fix the workflow, not each change
+- [[Review Fatigue and Pair Validation]] — A team's replacement for PR review under agent-generated code volume: pair planning (two humans evaluate the agent's proposed options before any code exists, thinking before reading agent output to avoid anchoring), structural prompt committing to preserve decision data, and pair validation starting from tests — "we are all validators more than implementers." The fully-human counterpoint to automation-first review fixes
 
 ## Claude Code
 
