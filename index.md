@@ -420,6 +420,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Guardrails and Feedback Loops]] — Keeping agents honest: linters and deterministic checks over instructions, evaluation and testing of agent output, review gates, observability, and the loops that make quality self-correcting.
 
+- [[Your Coding Agent Needs Observability Too]] — Mitchel Sellers on GitHub Copilot's new OpenTelemetry export: adoption metrics are not execution telemetry, content capture should stay off and locked, and dashboards must answer named operational questions rather than rank developers.
+
 - [[Oversight Degrades the Overseer]] — An arXiv position paper arguing current agent design defeats human oversight and that supervising itself erodes the cognitive skills oversight requires, proposing developer-side cognitive scaffolding (strategic friction, batch review, canaries) and deployer-side protocols (rotations, breaks, role separation), plus the warning that degraded approval signals feed back into training as reward hacking of the human rater
 
 - [[No Escape, No Leak — Egor Kraev on Structured Objects]] — Egor Kraev's talk on guaranteed validation of LLM structured output: every standard approach leaks (JSON mode, function calling, retries, validator-as-tool), so make the validator the only exit ("no escape, no leak"), keep objects outside the LLM with semantically natural action tools (ship in a bottle), generate semantic-layer queries instead of SQL, and treat the LLM as a small box among boxes
