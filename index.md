@@ -344,6 +344,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Uno Platform's Two MCP Servers]] — Uno Platform's engineering team describes how they gave AI agents both grounding and verification for cross-platform .NET development: two MCP servers split by the lifetime of what they know, a Skills library for…
 - [[MCPs Aren't APIs — Stop Treating Them Like One]] — This piece reframes MCP server design as a context-economics problem rather than an integration problem.
 - [[Machine-to-Machine Authentication]] — IdentitySuite's tutorial on the OAuth 2.0 Client Credentials flow argues that service-to-service authentication is a solved, almost boring problem — three steps, no user, no browser — and demonstrates it end-to-end in…
+- [[Your Agentic Identity Problem Probably Isn't New]] — Joe DeCock (Duende) argues agentic identity is OAuth as usual — agent-for-user is a client, autonomous agent is a workload — and maps the three newly mainstream problems to three specs: CIMD for unregistered clients, ID-JAG for cross-org authority, OAuth SPIFFE Client Authentication for credential-free workloads
 
 ## Agent Orchestration
 
