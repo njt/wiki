@@ -1,7 +1,7 @@
 ---
 url: https://jerf.org/iri/post/2026/what_value_code_in_ai_era/
 title: "How Do We Value Code In A World Of Free Code?"
-author: jerf (John E. R. Ferrell-style pseudonymous Go community figure)
+author: Jeremy Bowers (jerf)
 date_fetched: 2026-10-03
 date_published: 2026 (2026)
 topics:
