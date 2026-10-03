@@ -160,6 +160,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[How to Prepare for AI-Driven Code Modernization Projects]] — Anthropic's forward-deployed six-step playbook for modernizing critical/regulated systems with agents: target (transform/reimagine/uplift), machine-checkable certificate, pre-agreed tiered promotion policy, staging, workflow, pilot — the bottleneck moves from producing changes to mobilizing the organization around them, and you fix the workflow, not each change
 - [[Review Fatigue and Pair Validation]] — A team's replacement for PR review under agent-generated code volume: pair planning (two humans evaluate the agent's proposed options before any code exists, thinking before reading agent output to avoid anchoring), structural prompt committing to preserve decision data, and pair validation starting from tests — "we are all validators more than implementers." The fully-human counterpoint to automation-first review fixes
 
+- [[Teaching AI to Work Like a Senior Engineer (Motta)]] — Jefferson S. Motta's six-month field report on writing a skill about *himself*: jefferson-senior-dev encodes rules of engagement (assume shared code is correct, flag security always, flag his known blind spot), Cursor prompts became prescriptive, skills graduated to CLI-executed units of work across seven platforms — and calibrated speed made his own scoping mistakes more expensive
+
 ## Claude Code
 
 [[Claude Code]] — Claude Code the product: skills, hooks, plugins, CLAUDE.md and steering files, subagents, prompting Claude models, cost and context management inside it, and write-ups of how people configure it. Generic agent-coding practice that would apply to any tool goes to agent-coding-workflow.
