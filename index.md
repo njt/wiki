@@ -765,6 +765,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Developer Tools]] — Tools a developer picks up and uses: editors, terminals, CLIs, build systems, version control, and standalone utilities. A tool is filed here when the interesting thing is the tool itself rather than the idea behind it.
 
+- [[WSLC Architecture Deep Dive]] — Microsoft's companion to WSL Containers GA: wslservice creates the VM but a less-privileged per-user wslcsession.exe owns it, per-session VHDs with virtiofs (2× plan9) volumes, and Consommé networking that routes container egress through a per-user process so it inherits Windows VPN/firewall policy
 - [[aispace]] — Go CLI for bot-friendly temporary file sharing: streaming uploads, expiring links, stable exit codes 0–5, and optional local age X25519 encryption — a file drop designed for AI agents first
 - [[ascdraw]] — Native Rust desktop app for drawing diagrams on an infinite Unicode text grid: keyboard-first, sparse BTreeMap canvas with layered editing, Skia rendering at 120+ FPS, and line routing via direction-bit connection calculus
 - [[Draw Your Font]] — Node.js CLI and Claude Code skill turning photos of handwriting into real fonts (TTF/WOFF/WOFF2): adaptive threshold binarization, potrace vectorization, per-character em-square metrics, winding correction, zero system dependencies. AI only labels and judges — it never draws
