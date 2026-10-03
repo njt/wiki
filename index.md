@@ -1059,6 +1059,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 - [[Becoming a Frontier Firm (Second Edition)]] — Microsoft's second-edition Frontier Playbook for enterprise AI transformation: five elements from business ambition to security, a diffusion engine of three recipes, private evals as the moat, and a four-layer adoption-to-impact measurement pipeline.
 - [[The Harness Is the Company]] — Shrivu Shankar's strategy essay: companies climb a four-rung ladder until harnesses orchestrate individuals and the business itself becomes the harness around the model; taste-holders are where human attention is spent, owning the top-level harness becomes the core competency, and any business whose outer loop a third party can run is commoditized.
+- [[Organizations Need Decision-Grade Knowledge]] — Stack Overflow's case that AI solved retrieval but not the decision problem: consequential answers need provenance, applicability, permissions, visible conflicts, and a named resolver — the spec behind the Stack Internal launch.
 
 ## Ideas and Culture
 
