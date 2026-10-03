@@ -1048,6 +1048,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[When Your Buyer Is an AI Agent]] — This O'Reilly Radar article argues that the significant commercial disruption from AI agents is happening on the **buy side** of enterprise B2B, not the sell side — and that sellers' commercial infrastructure (pricing,…
 
 - [[Becoming a Frontier Firm (Second Edition)]] — Microsoft's second-edition Frontier Playbook for enterprise AI transformation: five elements from business ambition to security, a diffusion engine of three recipes, private evals as the moat, and a four-layer adoption-to-impact measurement pipeline.
+- [[Organizations Need Decision-Grade Knowledge]] — Stack Overflow's case that AI solved retrieval but not the decision problem: consequential answers need provenance, applicability, permissions, visible conflicts, and a named resolver — the spec behind the Stack Internal launch.
 
 ## Ideas and Culture
 
