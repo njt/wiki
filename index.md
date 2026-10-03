@@ -916,6 +916,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[AI Research and Models]] — Papers, model releases and evaluations: architectures, training, reasoning, benchmarks, and what the frontier labs and researchers are finding.
 
+- [[Hobson — Brooker's Home-Built Jev-Class Classifier]] — Marc Brooker builds a ~2B calibrated decision model (Qwen3.5-2B torso + pointer head, LoRA + self-distillation) on a home 3090: top of his JevBench size class, 100ms p50, generalization "useful but not great", and an honest account of agent-tutored learning where agents wrote every line but the ideas had to be his
 - [[Continuous Diffusion Language Models]] — Sander Dieleman's insider survey of continuous vs. discrete diffusion for language: the late-2023 "continuous extinction," the 2026 flow-map comeback, and the distillability advantage (few-step sampling that captures token correlations) as the reason continuous methods returned — with the caveat that the field's GenPPL evaluation is gameable
 
 - [[What Is RLCD — The Secret Behind Jev]] — Di Zhang's technical deconstruction of Jev: a schema-conditioned Plackett–Luce reward model promoted into the product, with RLCD adding Brier-score calibration, the "parallel sampler" deflated to sequence packing plus tree attention, and RLCD redefined by output contract rather than reward source — plus five falsifiable predictions
