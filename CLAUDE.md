@@ -166,9 +166,13 @@ Periodic maintenance (do when asked, or suggest when the wiki grows):
 
 ## Relationship to the Rest of the Vault
 
-This wiki is one section of a larger Obsidian vault. Other folders exist (`Agent Journals/`, `AI/`, `Band/`, `Ontempo/`, `Spain 2026/`). Wiki pages may link to content in those folders using `[[../folder/page]]` but the LLM only writes to `Wiki/`. Those other folders are Nat's space.
+This wiki is one section of a larger Obsidian vault. Other folders exist (`Agent Journals/`, `AI/`, `Band/`, `Ontempo/`, `Family/`, `Spain 2026/`). Those other folders are Nat's private space. The LLM only writes to `Wiki/`.
 
-`Agent Journals/` are a natural source for wiki synthesis — session insights, thread summaries, and weekly digests can all feed the wiki.
+**This wiki is public.** The `njt/wiki` repo is public on GitHub and the reader at `https://wikichat.gnat.co` is open to anyone (since 2026-10-03). So:
+
+- Never link from a wiki page to another vault folder (`[[../folder/page]]` or similar) — even a link leaks the private page's name.
+- Never quote, summarise or synthesise content from `Agent Journals/` or any other private folder into the wiki. The wiki's sources are the public articles and repos it ingests.
+- `Agent Journals/` must never be written inside `Wiki/`; it is in `.gitignore` here as a backstop.
 
 ## Principles
 
