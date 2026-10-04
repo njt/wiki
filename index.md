@@ -1088,8 +1088,10 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 ## Ideas and Culture
 
+
 [[Ideas and Culture]] — Essays and arguments about how we think and work: philosophy, history, creativity, organisations, learning, and the culture around technology.
 
+- [[Social Cohesion in New Zealand 2026 (Helen Clark Foundation)]] — The Helen Clark Foundation's second annual cohesion survey: cohesion drifting lower on every dimension, "Three New Zealands" (30% connected, 41% ambivalent, 28% alienated), financial stress as the dominant predictor, and isolation shifting participation toward oppositional forms
 - [[Fool's Expertise (Cantrill)]] — Bryan Cantrill coins "Fool's Expertise" for AI experts claiming authority over domains they don't know: the Hinton radiology forecast as falsified case, catastrophe as multi-domain chains where per-link expertise doesn't transfer, and the demand that doom scenarios consult the experts on each real-world pathway- [[Why Generalists Could Thrive in the Age of AI]] — A two-minute Isaac Levin clip, via David Epstein's *Range*: when AI makes single-domain execution cheap, the valuable skill is connecting dots across domains — an intuition-level version of the T-shaped-developer argument
 - [[It's Time to Investigate the AI Labs]] — Cal Newport's post behind his NYT op-ed calling on Congress to investigate the frontier labs: the summer of doom announcements was ideology marketing that backfired, and the response is fact-finding into the systems, the safety procedures, and the apocalyptic ideology driving the pace
 - [[Why Generalists Could Thrive in the Age of AI]] — A two-minute Isaac Levin clip, via David Epstein's *Range*: when AI makes single-domain execution cheap, the valuable skill is connecting dots across domains — an intuition-level version of the T-shaped-developer argument
