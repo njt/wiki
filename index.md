@@ -1067,6 +1067,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Personal Agents]] — Agents that work for one person: assistants, personal automation, home and life management, messaging integrations, and the local-first tools people build for themselves.
 
+- [[Odysseus (odysseus-dev)]] — The matured odysseus-dev packaging of the self-hosted AI workspace: CI-built Docker images, a 6.5K-line agent loop, layered tool/prompt-injection security, and Claude Code/Codex skill integrations
 - [[Chief of Staff]] — AI chief of staff: rule-based scanning + daily LLM classification cut costs 80%
 - [[clawdBot]] — Open-source personal AI on every messaging platform. One-line install, runs locally
 - [[PiClaw]] — Self-hosted AI workspace in a single Docker container with web UI
