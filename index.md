@@ -1074,6 +1074,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[MimiClaw]] — AI assistant on a $5 ESP32 microcontroller. Pure C, Telegram, ReAct loop
 - [[CopilotKit Channels SDK]] — Open-source SDK that connects any AG-UI-compatible agent to Slack, Teams, Discord, and more with platform-native interactive UI, using JSX-to-IR compilation and a managed cloud tier for credential-free deployment
 - [[Guardian Angels]] — Gwern Branwen's vision for personalized "digital twin" LLMs that emulate a single user's personality, solving the principal-agent problem through continual learning, dynamic evaluation, and an append-only-log UX; the $1,000/month startup playbook for building an AI that substitutes for its principal- [[A Home for Personal Context (Duncan Davidson)]] — Duncan Davidson's O'Reilly Radar pointer post: every agent builds a model of you but keeps it inside its vendor's walls; the fix is a canonical, user-controlled context repository any agent can request permission to use — the question is trust boundary, not disk
+- [[Television (Agent GUI)]] — "The missing GUI for personal agents": a Mac/browser workspace where agents pin output as persistent artifacts organized into channels, driven by any agent that can run commands and write files — a durable visual surface instead of the chat scroll
 
 ## AI Product and Business
 
