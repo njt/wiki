@@ -946,6 +946,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[AI Research and Models]] — Papers, model releases and evaluations: architectures, training, reasoning, benchmarks, and what the frontier labs and researchers are finding.
 
+- [[Apex Flash-1 — Cantina's Open-Weights Security Worker Model]] — Cantina/Yeta's open-weights GLM-5.3-Flash fine-tune for security research: GRPO on 150 tasks from 50 real vulnerability cases, 66.7% vs 60.0% base Pass@1 at $2.38/run vs $74.68 Opus, positioned as an orchestrated worker model with an open-weights-for-defenders policy argument
+
 - [[AstaBrief 8B (Ai2)]] — Ai2's open-weights Qwen3-8B fine-tune turning research questions into cited scientific reports in one pass: 3.5× faster than its Claude pipeline at competitive quality, with the sharpest lesson that citation-density filtering of SFT data beat elaborate filters and RL — and an unusually honest admission that its evals can't detect subtle overstatement of evidentiary scope
 
 - [[Hobson — Brooker's Home-Built Jev-Class Classifier]] — Marc Brooker builds a ~2B calibrated decision model (Qwen3.5-2B torso + pointer head, LoRA + self-distillation) on a home 3090: top of his JevBench size class, 100ms p50, generalization "useful but not great", and an honest account of agent-tutored learning where agents wrote every line but the ideas had to be his
