@@ -191,6 +191,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Agent Architecture]] — How a single agent is built, as principles and patterns: harness design, control loops, state, delegation inside one agent, error handling, agent UX, and design essays. Specific agents and frameworks as projects go to coding-agents-and-frameworks; tool protocols go to mcp-and-tool-protocols.
 
+- [[Harness Engineering — Anatomy of Eleven Coding Agents]] — arXiv source-code anatomy of eleven production coding harnesses: seven subsystems, 29 design patterns, twin absences (no agentic frameworks, no vector RAG over code) surviving a 4M-line audit, a ninety-day longitudinal diff, and the platform-turn thesis
+
 - [[What a Burger Combo Taught Me About Agents]] — kinfey's two-path burger-ordering demo: a Jev harness in front of the Copilot SDK/GPT-6-astra agent loop cuts 113s to 35s and input tokens by half, with the allocation thesis "let the LLM handle open-ended work, let Jev handle bounded judgments, let code hold the permissions" — and the honesty to refuse its own 68.7% causal claim
 
 - [[Stop Asking the Reasoning Model to Decide Everything]] — Jeremy Daly's Kahneman routing table for agent pipelines: code, retrieval, System 1 judgment, System 2 reasoning — tested against Jev and Laya on release-readiness and memory-promotion fixtures, with honest calibration-instability findings and a three-step prepare-your-system playbook
