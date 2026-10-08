@@ -403,6 +403,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Agent Memory and Context]] — What an agent remembers and what it sees: context engineering, memory architectures, retrieval, summarisation, compaction, and the limits of long context.
 
+- [[Connecting AI Agents to Enterprise Knowledge (MIT TR)]] — MIT TR Insights' Neo4j-sponsored survey of 300 executives: only 34% of agentic projects reach production, and the report pins the gap on knowledge — data understood in organizational context — with leaders worrying about security (72%) where everyone else still fights fragmentation (55%)
+
 - [[RAG for Beginners — A Complete Guide]] — Manika Paul Chowdhury's beginner tutorial on the RAG lifecycle (ingest→retrieve→generate), chunking strategy with 10–20% overlap, hybrid search plus rerankers, and the RAG-for-facts/fine-tuning-for-tone split — closing with RAG as the "foundational memory architecture" of agentic workflows
 
 - [[The Knowledge Chipper]] — A practitioner's diagnosis of the silent waste in AI-assisted development: agents burn thousands of tokens building rich mental models of codebases, then nearly all that understanding vanishes when the session ends. The code review consequence is the sharpest part: PRs arrive as "parcels of undocumented complexity" because none of the context behind the change survives. LLM portability as infrastructure resilience, not ideology
