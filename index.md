@@ -442,6 +442,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Guardrails and Feedback Loops]] — Keeping agents honest: linters and deterministic checks over instructions, evaluation and testing of agent output, review gates, observability, and the loops that make quality self-correcting.
 
+- [[Kantar LINK AI Content Optimizer]] — Microsoft's Frontier Company case study on turning Kantar's 35-year ad-testing database into an agentic SCORE→RECOMMEND→GENERATE→RE-EVALUATE loop: rubrics-as-graders at scene level, skills as governed proprietary IP, vLLM/Dapr infrastructure making repeated grading fast enough to loop, and paired SME/automated evals where each checks the other
 - [[deeper-research]] — Retrieval-first research skill for Claude Code/Codex: hard evidence gate before synthesis, mechanical number-provenance sweep, citation-shape detection, and a fail-closed money ledger — grounding gates that can't be sweet-talked
 - [[Your Coding Agent Needs Observability Too]] — Mitchel Sellers on GitHub Copilot's new OpenTelemetry export: adoption metrics are not execution telemetry, content capture should stay off and locked, and dashboards must answer named operational questions rather than rank developers.
 
