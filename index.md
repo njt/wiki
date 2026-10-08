@@ -963,6 +963,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 [[AI Research and Models]] — Papers, model releases and evaluations: architectures, training, reasoning, benchmarks, and what the frontier labs and researchers are finding.
 
 - [[Beam — Reflection's 501B Open-Weight Model]] — Reflection's first open-weight model: 501B/23B-active MoE competitive with GLM 5.2 at 3–4× less inference compute, built on a 100M-rollout asynchronous RL run and 92.3%-goodput pretraining; Apache 2.0 weights promised within the month
+- [[Radar Trends to Watch — October 2026]] — O'Reilly's September 2026 digest: price and specialization displacing benchmark leadership, agents coordinating with agents (Claude Code delegation, Muse Code messaging, Google's AX orchestrator), agent identity as security table stakes, and 10,000+ sandbox-escape investigations
+
 - [[Apex Flash-1 — Cantina's Open-Weights Security Worker Model]] — Cantina/Yeta's open-weights GLM-5.3-Flash fine-tune for security research: GRPO on 150 tasks from 50 real vulnerability cases, 66.7% vs 60.0% base Pass@1 at $2.38/run vs $74.68 Opus, positioned as an orchestrated worker model with an open-weights-for-defenders policy argument
 
 - [[AstaBrief 8B (Ai2)]] — Ai2's open-weights Qwen3-8B fine-tune turning research questions into cited scientific reports in one pass: 3.5× faster than its Claude pipeline at competitive quality, with the sharpest lesson that citation-density filtering of SFT data beat elaborate filters and RL — and an unusually honest admission that its evals can't detect subtle overstatement of evidentiary scope
