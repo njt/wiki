@@ -1086,6 +1086,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[AI Product and Business]] — Pricing, unit economics, adoption inside organisations, strategy, competition, labour and market effects, and how AI products get built and sold.
 - [[A Serious AI Product]] — Glyph's specification-by-negation for AI tools: if the disclaimer admits mistakes, verification must be first-class UI (claim checkboxes, citations as primary artifacts, provenance, context visibility, a real sandbox), and years of shipping none of it suggests labs fear what honest measurement would reveal.
+- [[AI in the Firm — Bottlenecks in Software Production]] — Chen & Stratton's Harvard JMP on 300M Jellyfish work events across 718 firms: agents raise coding output 30% but Jira output and employment don't move (declines >2.9% ruled out), because a code-review bottleneck absorbs the gain — review time +49%, changes-requested share nearly doubled, labour shifts toward review and never toward coding.
 - [[When Your Buyer Is an AI Agent]] — This O'Reilly Radar article argues that the significant commercial disruption from AI agents is happening on the **buy side** of enterprise B2B, not the sell side — and that sellers' commercial infrastructure (pricing,…
 - [[Modeling Software's Business Impact (James Shore)]] — Shore's case that value, not cost, is what to model: NPV "product bets" with Pirate-Metrics proxies, customer attention as the AI-era bottleneck, milestone-and-ceiling funding, and prioritization as the realization of company strategy.
 
