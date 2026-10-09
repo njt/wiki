@@ -810,6 +810,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Distributed Systems]] — Consensus, replication, failure modes, networking, event-driven versus polling designs, and the operational realities of systems spread over many machines.
 
+- [[Celld — Durable Objects on Your Own Storage]] — Lockney's AI-assisted book on Deno's celld v0.6.0: bucket-claimed ownership with epochs, bucket vs fleet proofs for RPO=0, self-fencing leases, and the Durable Objects model on your own machines with no consensus service
 - [[Distributed Databases with Peter Mattis (Pragmatic Engineer)]] — Cockroach Labs' CTO on Colossus, erasure coding, B-trees everywhere, three-replica consensus — and returning to coding in the Opus era with a firm-hand discipline for agent testing
 - [[Cloudflare K2 — Serverless Event Streams]] — Cloudflare's serverless durable event stream on R2: a partitioned log that offloads replication and consensus to object storage because edge machines are too small and ephemeral to run Kafka, trading ~1s p99 produce latency for durability, cheap retention, and independent compute/storage scaling
 - [[Durable Execution Without History Replay]] — Trigora's TCC proposal: commit the live continuation at durable boundaries and restore it on failure instead of replaying history, so recovery cost tracks live state rather than accumulated past (~0.6–0.9 ms flat vs Temporal's 61 ms→1.7 s in their 4 KB-state benchmark)
