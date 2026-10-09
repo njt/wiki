@@ -722,6 +722,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Databases and Data]] — Storage engines, query systems, data modelling, file formats, data pipelines, and how data systems are designed and operated.
 
+- [[MotherDuck Customer-Facing Analytics]] — MotherDuck's vendor case that embedded analytics for external users needs per-tenant DuckDB instances (hypertenancy) and browser-side DuckDB-Wasm (dual execution), with three implementation patterns (Embedded Dives, 3-tier, 1.5-tier) and honest ceilings on each
+
 - [[AI Generated ETL Went Well, and That Was Worse]] — Pinal Dave's AI rewrite of a legacy ETL job ran clean on day one, then spent six weeks revealing that the old job's odd checks were nine years of undocumented incidents (late Monday files, resent files, all-zero amounts, encoding drift); his fix is failure-mode enumeration plus tribal-knowledge interviews before generating code
 - [[Event Sourcing — Fun with Bi-Temporal Timelines]] — Urs Enzler's series instalment on consuming bi-temporal projections: the `Existent`/`NonExistent` timeline as a discriminated union, the inversion of "current value" to "value at *t*" as the default query, and slicing and folding over phases to drive state machines
 
