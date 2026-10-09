@@ -724,6 +724,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 [[Databases and Data]] — Storage engines, query systems, data modelling, file formats, data pipelines, and how data systems are designed and operated.
 
 - [[MotherDuck Getting Started]] — MotherDuck's landing docs: a serverless DuckDB warehouse with per-agent "hypertenancy" compute isolation, a remote MCP server for talking to data, and prompt-generated Dives dashboards — a database pitched at agents as a first-class customer segment.
+- [[MotherDuck Data Warehousing Overview]] — MotherDuck's docs pitch: serverless DuckDB cloud warehouse with "hypertenancy" per-principal isolated compute, Postgres-wire serving, and agents as a first-class load class via MCP server, Guides, and agent-maintained Flights
 - [[AI Generated ETL Went Well, and That Was Worse]] — Pinal Dave's AI rewrite of a legacy ETL job ran clean on day one, then spent six weeks revealing that the old job's odd checks were nine years of undocumented incidents (late Monday files, resent files, all-zero amounts, encoding drift); his fix is failure-mode enumeration plus tribal-knowledge interviews before generating code
 - [[Event Sourcing — Fun with Bi-Temporal Timelines]] — Urs Enzler's series instalment on consuming bi-temporal projections: the `Existent`/`NonExistent` timeline as a discriminated union, the inversion of "current value" to "value at *t*" as the default query, and slicing and folding over phases to drive state machines
 
