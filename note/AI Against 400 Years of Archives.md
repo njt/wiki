@@ -45,3 +45,7 @@ The deeper point is Waites's closing line: "An archive doesn't give anything up 
 
 *Sources: [[raw/i-pointed-ai-at-400-years-of-archives]], [[summary/i-pointed-ai-at-400-years-of-archives]]*
 *Last updated: 2026-10-10*
+
+## Related pages
+
+- [[Antiquity]] — the repo behind this run: the agent-as-runtime scaffold whose conventions (recall checks, image verification, budget caps) implement the pipeline described here.

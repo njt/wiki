@@ -28,6 +28,7 @@ The central trade-off: **scaffold everything, run nothing.** Instead of building
 
 ## Comparison notes
 
+- [[AI Against 400 Years of Archives]] — the author's write-up of running this scaffold over 4.35 million archive pages: the seat assignment (cheap triage model, frontier model on the survivors) that this repo encodes as conventions.
 - This is the domain-research sibling of [[The Dark Factory is a DOT File]]: both argue the durable artifact is the convention file, not pipeline code — but Antiquity's AGENTS.md is an epistemology (controls, novelty, evidence) rather than a workflow graph.
 - Its "cheap judge, expensive reader, human-on-scan-last" funnel is a concrete instance of [[Deterministic When Possible, Probabilistic When Necessary, Human When Cheaper]], with the page-image rule standing in for the deterministic tier.
 - Where [[LLM-as-a-Verifier]] treats verification as a model pass, Antiquity goes further: model output is never verification — the original scan is.
