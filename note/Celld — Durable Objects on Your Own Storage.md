@@ -41,6 +41,7 @@ Two caveats worth holding onto. First, the book is AI-generated from curated mat
 **Tags:** #concept #tool #pattern
 
 **Related:**
+- [[celld]] — the project note for celld itself (from the repo and celld.dev); this book is the long-form guide to the same v0.6 daemon.
 - [[Durable Actors — Open-Source Durable Objects]] — the near-twin project (Rust, gVisor, GCS): celld's book strengthens its case with a fully specified proof mechanism and reveals how much of the design is convergent evolution.
 - [[Durable Execution Without History Replay]] — celld's Workflows use classic replay discipline; TCC's continuation-commit proposal is the alternative celld explicitly does not take, making this a useful contrast.
 - [[SQLite Is All You Need for Durable Workflows]] — celld is the strongest production-grade confirmation of that thesis: SQLite in every cell, WAL shipped to the bucket, alarms and queues built on it.
