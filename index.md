@@ -946,6 +946,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Local and Open Source Inference]] — Running models yourself: open-weight models, local inference engines, quantisation, hardware for inference at home or on the edge, and how open models track the frontier.
 
+- [[DeepSeek 4.1 Flash Is a Frontier Model at Marginal Cost]] — A month of heavy use: DeepSeek 4.1 Flash is behaviourally indistinguishable from Opus at ~$0.003/task, thanks to a ~437× KV-cache reduction — and cheapness changes how you work
 - [[Grimmory]] — Self-hosted digital library (community fork of Booklore) exposing one catalog over OPDS, Komga, Kobo, and KOReader protocols, with brute-force hashed-embedding recommendations — no vector database
 - [[Datacenter GPU in a Gaming PC]] — £200 eBay V100 in a gaming rig: hardware hacking, NixOS driver archaeology, and Qwen3.6-27B at 32 tok/s
 - [[Dual GPU RTX 5080 + RTX 3090 Qwen 3.6 Setup]] — iMil's field report: RTX 5080 + RTX 3090 running Qwen 3.6 27B Q8 at 80+ tok/s via tensor-split speculative decoding on an Asus X570-Pro
