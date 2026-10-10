@@ -1320,6 +1320,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Akmon]] — Tamper-evident evidence layer for AI agents: content-addressed, cryptographically signed session records verifiable offline with openssl. 95K LoC Rust workspace, 14 crates, built-in coding agent as reference producer
 - [[Tessera]] — Consent-gated remote access broker: 5K lines of Go, three binaries, human-approve-at-terminal flow with mTLS, end-to-end encryption, and append-only audit log. MIT-licensed alternative to Teleport for small-team just-in-time access
 - [[Queues Don't Fix Overload]] — Fred Hebert's 2014 classic on why queues treat symptoms not causes: identify the bottleneck, then back-pressure or load-shed; everything else makes failures rarer but more catastrophic
+- [[I Tested 11 HTTP Resilience Libraries]] — Koos's 21-scenario conformance suite against eleven fetch wrappers: basics are commodity, combinations (abort during backoff, queued cancellation, stale circuit successes) produce 25 failures sharing one pattern
+
 - [[21 Years and Counting of Eight Fallacies of Distributed Computing]] — The canonical list of network lies developers tell themselves, born at Sun Microsystems, still sharper after 21 years of Internet evolution
 - [[The Minimum Viable Unit of Saleable Software]] — Brandur's buy-vs-build economics in the LLM era: Jira's 37-month break-even, the zone of viability, and why "cheap != zero" when humans still cost $96/hour
 - [[Product-Minded Engineers in an AI-Native World]] — Thomas Pauls (Linear), Drew, and Michelle (Flint) on product engineering as motivation not role, taste as trainable craft, Quality Wednesdays, and AI as product-skill multiplier
