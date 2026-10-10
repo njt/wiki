@@ -166,6 +166,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Architecture as Code for Agents]] — Dotneteers' short essay: code tells an agent what a system does but not why boundaries exist, so architecture-as-code (FINOS CALM) supplies machine-readable intent validated before changes are accepted — "does this change still conform to the architecture we intended?"
 - [[Teaching AI to Work Like a Senior Engineer (Motta)]] — Jefferson S. Motta's six-month field report on writing a skill about *himself*: jefferson-senior-dev encodes rules of engagement (assume shared code is correct, flag security always, flag his known blind spot), Cursor prompts became prescriptive, skills graduated to CLI-executed units of work across seven platforms — and calibrated speed made his own scoping mistakes more expensive
 
+- [[REA — Reverse Engineering with Your Coding Agent]] — REA (rea.tools) gives a coding agent RE tooling over native binaries, JS/Electron/ASAR and browser runtime activity, installed by the agent itself via `npx rea-agents@latest setup`; its landing-page demos recover Chrome dinosaur's speed rule and Windows Calculator's %-button branch logic from live JS and x86-64 assembly, each verified against the running original before a rebuilt artifact keeps the recovered rule.
+
 ## Claude Code
 
 [[Claude Code]] — Claude Code the product: skills, hooks, plugins, CLAUDE.md and steering files, subagents, prompting Claude models, cost and context management inside it, and write-ups of how people configure it. Generic agent-coding practice that would apply to any tool goes to agent-coding-workflow.
