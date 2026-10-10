@@ -26,6 +26,7 @@ Reverse engineering tooling is old (IDA, Ghidra). What is new is the *interface*
 
 ## Related pages
 
+- [[REA (morluto-rea) — MCP Server for Agent-Driven Reverse Engineering]] — the source behind this landing page: an MCP server over Hopper/Ghidra/IDA whose showcases are checked against the original binaries, which answers this note's question of whether verification is enforced or merely demoed.
 - [[Kuna — Agent-First Decompiler]] — the closest cousin: Kuna rebuilds the decompiler itself around an LLM, while REA keeps classic RE tooling and hands it to a general agent; together they bracket the question of whether the model lives inside the tool or beside it.
 - [[Understand to Participate]] — Litt's argument that understanding is the prerequisite for remaining an active collaborator; REA operationalises exactly that for code you don't have the source to.
 - [[The Archaeologist's Copilot]] — brownfield archaeology on codebases you *do* have; REA extends the same instinct across the binary boundary.
