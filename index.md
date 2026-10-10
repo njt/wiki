@@ -1144,6 +1144,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Ideas and Culture]] — Essays and arguments about how we think and work: philosophy, history, creativity, organisations, learning, and the culture around technology.
 
+- [[Digital and Sexual Citizenship in an Age of Social Media Bans]] — Conference notes on Australia's under-16 social media ban after rollout: regulatory theatre built on Haidt and an ad campaign, 85% evasion, zero fines, shame-based governance, and digital paternalism critiqued against a rights-based alternative
 - [[Four Writing Humans (No Wait, Five)]] — Rands' genealogy of the five writers who built his voice (Fulghum, Parker, Cringely, Coupland, Sippey), one ingredient each: hope, dialogue, legend, storytelling, and the discipline of stating the obvious
 - [[How Technology Empowers and Imperils Dictators]] — Schneier and Gunitsky's Foreign Affairs essay: AI promises autocrats escape from the principal–agent dilemma of dictatorship but merely relocates dependence onto a small, opaque, indispensable engineer class — a new digital Praetorian Guard whose leverage is delivered through the dashboards the ruler depends on
 - [[Programming Isnt Special — Its Art]] — Glyph Lefkowitz argues programming is Art, so the creative industries' organised resistance to AI applies to software too: erasing mundane creative work destroys the practice pipeline where craft develops, and "slop is slop, no matter the medium"
