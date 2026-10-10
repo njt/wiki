@@ -829,6 +829,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Developer Tools]] — Tools a developer picks up and uses: editors, terminals, CLIs, build systems, version control, and standalone utilities. A tool is filed here when the interesting thing is the tool itself rather than the idea behind it.
 
+- [[The Day of a New Command-Line Interface Shell]] — Arcan's 2022 design essay dismantling the terminal stack: in-band escape sequences as executing random instructions against a fragile state machine, the shell split into a job/window-manager role and an unnecessary scripting role, and a rebuild on display-server IPC with handover allocation, live migration, per-job connections, and pure-data stdio.
+
 - [[Meadows — a System-Dynamics DSL in PureScript]] — A tiny text language for stock-and-flow diagrams (Thinking in Systems): a ~900-line PureScript compiler to graph JSON plus a d3 playground whose dependency-free simulator infers goal-seeking/reinforcing semantics from the shape of drawn arrows.
 - [[Rewind VM — Deterministic Replay Debugging]] — A deterministic KVM VM where a run is a pure function of its inputs, so failures can be scrubbed and forked step-by-step; `rewind check` hunts flaky builds under perturbed schedules and names the deciding step.
 - [[Undertone — Taste Elicitation as a Creative Brief]] — A web tool that turns visual instincts into a written creative brief via budgeted pairwise comparisons with held-out prediction checks, whose UI copy publishes its own epistemic limits: explanations are "provisional, not calibrated confidence," and the user's written notes take precedence in the brief.
