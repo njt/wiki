@@ -41,7 +41,7 @@ The weak spot: he is, unavoidably, an interested party. His claims about video g
 
 - [[Fool's Expertise (Cantrill)]] — the mirror image: Cantrill warns of non-experts claiming authority over expert domains; Affleck documents credentialed AI engineers lacking domain expertise in film, and wins the argument by reading the data. Complicates the "just defer to domain experts" heuristic in both directions.
 - [[Unit Economics of AI Software]] — Affleck's "heat the convenience store by burning the register's cash" line is the same token-subsidy argument: inference costs were masked by investor money, and a business plan built on that is a burn, not a strategy.
-- [[It's Time to Investigate the AI Labs]] — both sources read doom-forecasting as marketing with a click-value incentive structure; Affleck adds the evolutionary framing (we're tuned to lion-noises) and the counterweight of liability.
+- [[Its Time to Investigate the AI Labs]] — both sources read doom-forecasting as marketing with a click-value incentive structure; Affleck adds the evolutionary framing (we're tuned to lion-noises) and the counterweight of liability.
 
 ---
 *Sources: [[raw/ben-affleck-s-turbulent-year-navigating-grief-the-art-of-not-caring]], [[summary/ben-affleck-s-turbulent-year-navigating-grief-the-art-of-not-caring]]*

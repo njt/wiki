@@ -32,9 +32,9 @@ Three layers, each small:
 ## Comparison notes
 
 - [[Self-Hosted Sandboxed Agentic Software Factory]] builds a homelab automation factory on a sacrificial box with no external ingress; this project is the CI counterpart — same "one beefy home machine, infrastructure-as-code, everything self-heals" philosophy, but for Actions runners rather than agent sandboxes.
-- [[How Nango Runs Untrusted Customer Code at Scale]] treats job code as hostile and builds layers of isolation; this project explicitly assumes the opposite — trusted org workflows — and its security story is about credential hygiene (environment unsetting, mode-600, short-lived tokens) rather than containment. The two define opposite ends of the self-hosted-runner trust spectrum.
+- [[Nango — Running Untrusted Customer Code at Scale]] treats job code as hostile and builds layers of isolation; this project explicitly assumes the opposite — trusted org workflows — and its security story is about credential hygiene (environment unsetting, mode-600, short-lived tokens) rather than containment. The two define opposite ends of the self-hosted-runner trust spectrum.
 - [[We Built a Scalable Agent Sandbox]] optimizes for running unknown agent code safely in cloud infrastructure; github-runners shows what the trusted-code version looks like when you care more about idle-fleet burst capacity than isolation.
-- [[Why I Run Enterprise-Grade CI at Solo-Founder Scale]] makes the argument for heavy self-hosted CI practice at tiny scale; this repo is the concrete Terraform-able artifact behind that argument.
+- [[Enterprise-Grade CI at Solo Founder Scale]] makes the argument for heavy self-hosted CI practice at tiny scale; this repo is the concrete Terraform-able artifact behind that argument.
 
 ---
 *Sources: [[raw/github-runners]], [[summary/github-runners]]*
