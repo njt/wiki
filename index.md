@@ -1278,6 +1278,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 - [[Two Languages — Complexity Bounds Systems Thinking]] — A conference panel (ytx gist, very likely Craft 2026) with Dave Snowden, Diana Montalion and Daniel North under moderator Nigel Thurlow: complexity science bounds systems thinking the way quantum bounded Newton, root cause is domain-dependent (RCA in complex systems manufactures retrospective coherence), Agile borrowed complexity's language without its practice, Ashby's Law is a design constraint rather than gravity, and AI adds complication, not complexity — with the gist's own honest digest of everything the panel left unanswered
 - [[DRI'ing Your Career — Cate Huston]] — A ytx-gist digest plus transcript of Cate Huston's careers talk (the machine transcript renders her "Kate Houston"; the intro's bio — client engineering at DuckDuckGo, author of The Engineering Leader, coach — is hers): tech workers were pampered Instagram raccoons and "we live in Toronto now," so be the DRI of your career — proximate objectives you actually control, planted opportunities, a raccoon squad instead of one manager, coachability as receptiveness × actionability, feedback triage, and quitting from power rather than confusion, with the digest's own honest audit of what the advice leaves open
+- [[Adam Conover — How Hollywood Killed the Sitcom]] — Adam Conover's video essay takes a question that is usually answered with culture-war mush — "why did TV comedies get bad?" — and answers it with industrial economics.
 
 ## Miscellany
 
