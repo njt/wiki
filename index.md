@@ -1144,6 +1144,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Ideas and Culture]] — Essays and arguments about how we think and work: philosophy, history, creativity, organisations, learning, and the culture around technology.
 
+- [[Puritans Wouldnt Eat Pussy So They Made Up Stories About Savages]] — Renee's essay reads colonial women who chose Native life over Puritan society as a referendum on women's autonomy, and the captivity narrative as the minister-edited propaganda built to explain away their choice
 - [[Four Writing Humans (No Wait, Five)]] — Rands' genealogy of the five writers who built his voice (Fulghum, Parker, Cringely, Coupland, Sippey), one ingredient each: hope, dialogue, legend, storytelling, and the discipline of stating the obvious
 - [[How Technology Empowers and Imperils Dictators]] — Schneier and Gunitsky's Foreign Affairs essay: AI promises autocrats escape from the principal–agent dilemma of dictatorship but merely relocates dependence onto a small, opaque, indispensable engineer class — a new digital Praetorian Guard whose leverage is delivered through the dashboards the ruler depends on
 - [[Programming Isnt Special — Its Art]] — Glyph Lefkowitz argues programming is Art, so the creative industries' organised resistance to AI applies to software too: erasing mundane creative work destroys the practice pipeline where craft develops, and "slop is slop, no matter the medium"
