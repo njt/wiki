@@ -33,9 +33,9 @@ Optimization-for-readability shows in odd places: `//` replaced `#` as the comme
 ## Comparison notes
 
 - [[ascdraw]] occupies the adjacent niche of text-to-diagram; reladraw differs by making relative placement the primitive rather than auto-layout, so the source fully determines the picture.
-- [[automatic-layout-railroad-diagrams]] and [[grok-mermaid]] cover the auto-layout tradition reladraw positions itself against: there the arrangement is an output you cannot predict; here it is an input.
-- [[diagram-design]] and [[more-common-diagram-mistakes]] discuss what makes diagrams readable; reladraw encodes several of those judgments into the tool itself (lanes, turn charges, separation along the least-overlap axis) rather than leaving them to the author.
-- [[skill-load-bearing]] argues skills are load-bearing infrastructure; reladraw is a clean example — `npx skills add reladraw/reladraw` ships the skill in-repo (`.claude/skills/reladraw/SKILL.md`) and installs across Claude Code, Codex, Cursor and Copilot, with the skill's framing ("you cannot see the SVG you produced") written specifically for an agent's verification constraints.
+- [[Automatic Layout of Railroad Diagrams]] and [[grok-mermaid — Terminal Mermaid Renderer via WebAssembly]] cover the auto-layout tradition reladraw positions itself against: there the arrangement is an output you cannot predict; here it is an input.
+- [[Diagram Design]] and [[Common Diagram Mistakes]] discuss what makes diagrams readable; reladraw encodes several of those judgments into the tool itself (lanes, turn charges, separation along the least-overlap axis) rather than leaving them to the author.
+- [[Load-Bearing Assumptions]] argues skills are load-bearing infrastructure; reladraw is a clean example — `npx skills add reladraw/reladraw` ships the skill in-repo (`.claude/skills/reladraw/SKILL.md`) and installs across Claude Code, Codex, Cursor and Copilot, with the skill's framing ("you cannot see the SVG you produced") written specifically for an agent's verification constraints.
 
 ---
 
