@@ -441,6 +441,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 - [[Connecting AI Agents to Enterprise Knowledge (MIT TR)]] — MIT TR Insights' Neo4j-sponsored survey of 300 executives: only 34% of agentic projects reach production, and the report pins the gap on knowledge — data understood in organizational context — with leaders worrying about security (72%) where everyone else still fights fragmentation (55%)
 
+- [[cross-encoder ms-marco-MiniLM-L6-v2]] — The Hugging Face model card for the 6-layer MS MARCO cross-encoder: retrieve-then-rerank usage, and a benchmark table where L6 matches L12's accuracy (74.30 vs 74.31 NDCG@10) at twice the throughput
+
 - [[RAG for Beginners — A Complete Guide]] — Manika Paul Chowdhury's beginner tutorial on the RAG lifecycle (ingest→retrieve→generate), chunking strategy with 10–20% overlap, hybrid search plus rerankers, and the RAG-for-facts/fine-tuning-for-tone split — closing with RAG as the "foundational memory architecture" of agentic workflows
 - [[Devin Memory and Dreaming]] — Cognition's memory system for Devin: a personal Git-backed Memory Drive of markdown lesson notes indexed by MEMORY.md at session start, git-merge concurrency for parallel sessions, and "Dreaming" — a daily async consolidation session that dedupes, prunes, and harvests un-captured lessons, with the memory/skill lifecycle split and an open-sourced standard
 
