@@ -374,7 +374,10 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 ## Agent Orchestration
 
+
 [[Agent Orchestration]] — Many agents working together: multi-agent topologies, delegation, subagents, queues and schedulers, coordination protocols, and the control planes that run fleets of agents.
+
+- [[Sixteen Agents and a Byte-Exact Oracle]] — momo5502's three-month, ~650B-token decompilation of a popular FPS with 16 autonomous agents: readable-but-wrong first month, a byte-matching verification oracle that eliminated the reviewer and made cheap models excellent, hourly instruction re-injection against drift, and CI-hashing to stop agents editing their own acceptance script
 
 - [[AI Against 400 Years of Archives]] — Jesse Waites industrialises Breen's dodo discovery into a tiered research pipeline over 4.35M pages of Dutch East India Company transcriptions — embeddings, a $3 Jev filter pass, Haiku close-reading, agent verification against page scans, and positive controls before any null result — surfacing an unrecorded 1812 meteorite, three lost Kandy rhinos, and three eruptions missing from the Smithsonian list
 - [[Nobody Is Ready for the AI-Agent Flood]] — Herrman on consumer agents (Muse, Instinct) calling businesses and flooding government portals: "agentic flooding" as frictions-as-rate-limits disappear, agent passports, and lotteries for tennis slots.
