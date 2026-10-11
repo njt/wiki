@@ -199,6 +199,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Agent Architecture]] — How a single agent is built, as principles and patterns: harness design, control loops, state, delegation inside one agent, error handling, agent UX, and design essays. Specific agents and frameworks as projects go to coding-agents-and-frameworks; tool protocols go to mcp-and-tool-protocols.
 
+- [[Reliability Is Outside the Model (O'Reilly)]] — Agentic AI Foundation essay on production agent reliability: the model proposes while deterministic layers enforce — policy services, narrow expiring capabilities, runtime stop conditions, checkpoint/idempotency recovery, inspectable evidence, and MCP-gateway authorization as the portable enforcement point
+
 - [[Harness Engineering — Anatomy of Eleven Coding Agents]] — arXiv source-code anatomy of eleven production coding harnesses: seven subsystems, 29 design patterns, twin absences (no agentic frameworks, no vector RAG over code) surviving a 4M-line audit, a ninety-day longitudinal diff, and the platform-turn thesis
 
 - [[What a Burger Combo Taught Me About Agents]] — kinfey's two-path burger-ordering demo: a Jev harness in front of the Copilot SDK/GPT-6-astra agent loop cuts 113s to 35s and input tokens by half, with the allocation thesis "let the LLM handle open-ended work, let Jev handle bounded judgments, let code hold the permissions" — and the honesty to refuse its own 68.7% causal claim
