@@ -859,6 +859,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Developer Tools]] — Tools a developer picks up and uses: editors, terminals, CLIs, build systems, version control, and standalone utilities. A tool is filed here when the interesting thing is the tool itself rather than the idea behind it.
 
+- [[Neovim's Forgotten 10 Bitcoin Donation]] — An HN post finds a 10 BTC (~$800k) donation sitting untouched in Neovim's public bitcoin address since 2023: open source funding inertia, verifiable on the ledger but apparently invisible to the project
+
 - [[Self-Hosted HTTP Tunnels with SSH and nginx]] — Vincent Bernat builds a self-hosted ngrok replacement from OpenSSH reverse forwarding, an nginx wildcard-subdomain proxy, and `secure_link` signed expiring URLs, with a helper script that mints shareable links in one command.
 
 - [[The Day of a New Command-Line Interface Shell]] — Arcan's 2022 design essay dismantling the terminal stack: in-band escape sequences as executing random instructions against a fragile state machine, the shell split into a job/window-manager role and an unnecessary scripting role, and a rebuild on display-server IPC with handover allocation, live migration, per-job connections, and pure-data stdio.
