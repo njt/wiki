@@ -1020,6 +1020,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[AI Research and Models]] — Papers, model releases and evaluations: architectures, training, reasoning, benchmarks, and what the frontier labs and researchers are finding.
 
+- [[Domain-Specific Hallucination Detection in Large Language Models]] — A multi-signal pipeline (fine-tuned DeBERTa-v3 + MC Dropout + calibration) hitting F1=0.915 on HaluEval, then reused as a DPO reward to cut a small Qwen generator's hallucination rate by 55.9% — with a sobering HaluEval→SciFact transfer cliff showing domain-matched fine-tuning is the strongest adaptation.
 - [[The 70–75% Ceiling in Automated Deception Detection]] — A 25-year meta-analysis of 3,653 deception-detection models finds pooled accuracy of 74.4%, converging with manual methods at a ceiling that embeddings, transformers, and LLMs (which actually score *below* logistic regression when prompted) have not moved; methodological quality — verifiable ground truth (12.46% of reports) and independent evaluation (23.96% of models) — dominates model choice
 - [[Microsoft-Decision-1 and the Foundry Decision Play]] — Microsoft's entry into the decision-model category: a Qwen3.5-9B post-trained structured-output scorer at 85 ms p50, $0.042/M input with output free, first on 36 blind benchmarks and second on calibration — the incumbent validation of the System One thesis and a pricing shot at the Jev-class vendors
 
