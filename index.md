@@ -1200,6 +1200,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Ideas and Culture]] — Essays and arguments about how we think and work: philosophy, history, creativity, organisations, learning, and the culture around technology.
 
+- [[The Human Premium for Human-Made Art]] — BBC InDepth essay on the premium forming around human-made art (Deezer: 44% AI tracks, 97% can't tell, but most still care) — Susskind's Sistine Chapel argument, Chayka's messiness-as-signal, and the author's doubt that the premium holds once algorithmic curation is the accepted precedent
 - [[This Is What Having a Popular Open Source Project Feels Like]] — Matt Pocock's one-line video tweet: popularity means fielding, not building, ~50% of the time — the felt version of the open-source maintenance crisis
 - [[Rawls on Free Speech and Political Donations]] — Morgan Davie recommends an Origin Story episode on Rawls's theory of justice, flagging its argument about the limits of a 'free speech' lens on political donations against New Zealand's Taxpayers Union controversy
 - [[Puritans Wouldnt Eat Pussy So They Made Up Stories About Savages]] — Renee's essay reads colonial women who chose Native life over Puritan society as a referendum on women's autonomy, and the captivity narrative as the minister-edited propaganda built to explain away their choice
