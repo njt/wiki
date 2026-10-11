@@ -599,6 +599,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Software Engineering Craft]] — Engineering practice that predates and outlasts agents: simplicity, architecture, code review, testing, refactoring, debugging, technical writing, and how teams ship.
 
+- [[Transaction-Oriented Programming]] — btmc's proposal to structure software around user-relevant units of work implemented as ACID transactions: all error-handling mechanisms reduce to "abort the transaction and inform the user," OOP as database-less distributed software, Functional Core as a trivially transactional core, and a sketch of a transaction-oriented language
 - [[Push Ifs Up and Fors Down — The Algebra of Code Motion]] — Debasish Ghosh gives the TigerBeetle/matklad idiom an algebraic reading: if-up as subobject restriction (`Walrus` instead of `Option<Walrus>`), fors-down as batch-shaped cost, the filter/map law from naturality of `catMaybes`, and the thesis that the algebra tells you which rewrites are legal — each code motion carries a validity condition, not a vibe
 
 - [[Shipping Is the Foundation]] — Sean Goedecke's aggro framing: shipping is the baseline strategy every other engineering skill must beat, leaders who can't ship produce predictable dysfunctions, and AI doesn't close the gap because shipping was never just writing the code
