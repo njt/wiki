@@ -1178,6 +1178,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Ideas and Culture]] — Essays and arguments about how we think and work: philosophy, history, creativity, organisations, learning, and the culture around technology.
 
+- [[Rawls on Free Speech and Political Donations]] — Morgan Davie recommends an Origin Story episode on Rawls's theory of justice, flagging its argument about the limits of a 'free speech' lens on political donations against New Zealand's Taxpayers Union controversy
 - [[Puritans Wouldnt Eat Pussy So They Made Up Stories About Savages]] — Renee's essay reads colonial women who chose Native life over Puritan society as a referendum on women's autonomy, and the captivity narrative as the minister-edited propaganda built to explain away their choice
 - [[Digital and Sexual Citizenship in an Age of Social Media Bans]] — Conference notes on Australia's under-16 social media ban after rollout: regulatory theatre built on Haidt and an ad campaign, 85% evasion, zero fines, shame-based governance, and digital paternalism critiqued against a rights-based alternative
 - [[Four Writing Humans (No Wait, Five)]] — Rands' genealogy of the five writers who built his voice (Fulghum, Parker, Cringely, Coupland, Sippey), one ingredient each: hope, dialogue, legend, storytelling, and the discipline of stating the obvious
