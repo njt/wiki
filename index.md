@@ -30,6 +30,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 ## Agent Coding Workflow
 
 [[Agent Coding Workflow]] — How practitioners actually work with coding agents day to day: the loop, prompting habits, planning rituals, verification over generation, maturity models, team and org practice, and what changes about the craft. Tool-specific Claude Code material goes to claude-code; review automation goes to ai-code-review.
+- [[Decompiling MW2 with Four Claude Agents]] — Four weeks of three Claude Code workers plus an overseer decompiling MW2: 7,000 commits and 199.8B tokens in, with a catalogue of multi-week failure modes (compaction amnesia, quick-win avoidance, redundant testing, context paranoia) and the fixes that partially work
 
 - [[Design Language in Three Days (curiosity.ai)]] — curiosity.ai's brand rebuild with agents: 22 full-site design directions judged in a replayable pairwise showdown, a BRAND.md spec written for a reader with no eyes, a 3-day/200-commit rebuild, and the lesson that a checker which can't tell "looked and found nothing" from "did not look" is worse than none
 - [[Turning Your AI Into a World-Class Designer (Chimala)]] — Apple R&D design lead's three-stage process for escaping AI design slop: seed strings for imported randomness, a fresh-context design-critic subagent loop, image/video generation, and subtraction as a human-only contribution
