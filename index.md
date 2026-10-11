@@ -376,6 +376,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Agent Orchestration]] — Many agents working together: multi-agent topologies, delegation, subagents, queues and schedulers, coordination protocols, and the control planes that run fleets of agents.
 
+- [[Pullboard]] — Local-first coordination queue for coding agents: spec-frozen criteria, worktree lanes, a git-hook gate, and a different-agent verifier before work counts — the board lives in one SQLite file inside .git
 - [[AI Against 400 Years of Archives]] — Jesse Waites industrialises Breen's dodo discovery into a tiered research pipeline over 4.35M pages of Dutch East India Company transcriptions — embeddings, a $3 Jev filter pass, Haiku close-reading, agent verification against page scans, and positive controls before any null result — surfacing an unrecorded 1812 meteorite, three lost Kandy rhinos, and three eruptions missing from the Smithsonian list
 - [[Nobody Is Ready for the AI-Agent Flood]] — Herrman on consumer agents (Muse, Instinct) calling businesses and flooding government portals: "agentic flooding" as frictions-as-rate-limits disappear, agent passports, and lotteries for tennis slots.
 - [[Build the Factory, Let It Run, Go Kayaking (Warp, Fall 2026)]] — Warp's offsite post marks Warp Factories' GA and the company's explicit pivot from product to agent-infrastructure company: SRE-shaped mandate (reliability, cost, latency), multi-agent orchestration and computer-use verification as the load-bearing layers, and a dogfooded 70% cost-per-PR reduction
