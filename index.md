@@ -151,7 +151,6 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Nobody Could Have Written the Ticket]] — James Randall — forty-two years a programmer, solo builder of a WebGPU 4X strategy game — argues that the dominant model of agentic development (backlog in, tickets to agents, PRs out) quietly assumes the ticket is a…
 - [[Trying the Software Factory Pattern (Larson)]] — Will Larson's field report on adopting the software factory pattern at Imprint via a `/linear-project-loop` skill that audits a Linear project's goal scaffolding, syncs issues, works non-blocked tasks, and re-audits when the description stales — plus the January–July adoption arc (Claude Code daily → workspace-level dev → Jira→Linear migration → Agent Fleet harness) that had to exist first
 - [[Crawl, Walk, Run to the Software Factory]] — Warp's adoption roadmap for moving from scattered cloud-agent automations to a full cloud software factory: crawl with point automations, walk by deploying one complete agentic loop on a simple product, run by scaling…
-
 - [[Code Standards That Survive the Next Agent]] — Adam Bertram's Telerik argument that the coding standard must survive the next agent: don't standardize the tool, standardize what every change must prove - AGENTS.md for what agents interpret, CI for what machines enforce (including requiring new tests to fail pre-change), PR evidence for the rest; the broken-proxies diagnosis (polish no longer implies care) backed by Stack Overflow 2025, GitClear and Veracode data
 
 - [[Where Do AI Norms Come From]] — Charity Majors' dialogue opener with Dr Cat Hicks: write AI norms by listening first — opt-in discussion hours capped at ten, open questions like "What AI-related thing has annoyed you lately?" — so the norms document lands after the anger has been vented, not on top of it
@@ -628,6 +627,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 ## Software Engineering Craft
 
 [[Software Engineering Craft]] — Engineering practice that predates and outlasts agents: simplicity, architecture, code review, testing, refactoring, debugging, technical writing, and how teams ship.
+
+- [[Anecdotally Programmers Dislike Reduce]] — Evan Hahn's short observation that `map` and `filter` pass code review silently while `reduce` reliably draws "hard to read" — readability as social idiom rather than code property, and the fading pushback as evidence review is getting less thorough
 
 - [[The Awesome Power of Constraint Solvers]] — btmc's hands-on tutorial: model a NAND-only full-adder as a CSP/optimization problem with CPMpy + CP-SAT, unroll the ∀ over inputs, break symmetry, and watch the solver prove optimality (and UNSAT for 8 gates) in milliseconds
 
