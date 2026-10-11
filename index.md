@@ -345,6 +345,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Coding Agents and Frameworks]] — Specific agents, harnesses, frameworks, runtimes and SDKs as projects: what they are, how they are built, and how they compare. File a source here when the interesting thing is the project itself rather than a general design principle.
 
+- [[Paseo]] — paseo.sh, an Apache-2.0 single-maintainer desktop/web/mobile client unifying every coding agent as a swappable provider, with MCP/CLI/SDK automation, per-worktree issue fan-out, a three-layer plugin system (UI, agent lifecycle, providers), and a no-investors, code-stays-local philosophy
+
 - [[Agent Standup]] — atoll92's free open-source tool rendering a Claude Code session as a live standup call: sub-agents join, share screens, and report one status each, with a context gauge, token counts, and replay — multi-agent-run observability at zero token cost, sold as a joke
 - [[Agent Standup Internals]] — the repo's code: a 607-line zero-dependency Node server that incrementally parses Claude Code's JSONL transcripts into an event timeline, reconstructs the delegation tree from tool-use ids, and derives board state from tail reads — observation at zero tokens, model calls only opt-in
 - [[TEHAS — A Pi Software Factory]] — A live control-room site for a self-hosted software factory on the Pi coding agent and pi-rukas: GitHub issues in, reviewed PRs out, sandbox builds on self-hosted models, a person merges — with energy metering (watts, kWh) and a host/model table as first-class UI.
