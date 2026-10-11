@@ -550,6 +550,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Security and Sandboxing]] — Threats and containment for agents and the software they touch: sandboxing, permissions, prompt injection, supply chain, secrets, zero trust, and incident write-ups.
 
+- [[JPEG XL in Chrome — A Rust Decoder Story]] — Chrome 155 ships JPEG XL with a pure-Rust decoder (`jxl-rs`): memory safety at the source over sandbox containment, safe SIMD via `target_feature_11` and a quarantined-unsafe abstraction layer, fuzzing plus AI review as verification, and Interop-driven standards process.
 - [[Kernel Recipes 2026 — Security in the LLM Age]] — Greg Kroah-Hartman's field report from the kernel security team: the Mythos "79 bugs" decompose to 20 real fixes (an hour of development), half of LLM-generated patches are wrong, everything uploaded leaks, and the answer is procedural — threat-model docs, patches-first, pushback, local models, and grinding it out like the fuzzer flood
 - [[Securing MCP Servers — Database Access Control]] — Redgate's guide to the five MCP-database failure modes (confused deputy, token passthrough, in-query prompt injection, over-scoped credentials, session hijacking) and the fix: OAuth 2.1 resource-server auth, identity propagated down to row-level security, agents as non-human principals, and governed change control for writes
 - [[Identity Management for Agentic AI (OpenID Foundation)]] — The OpenID Foundation's October 2025 whitepaper on agent auth: OAuth 2.1 + MCP with externalized authorization solves the single-trust-domain case, while recursive delegation, offline revocation, consent fatigue, browser-use agents, and multi-user shared agents remain open
@@ -758,6 +759,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 ## Databases and Data
 
 [[Databases and Data]] — Storage engines, query systems, data modelling, file formats, data pipelines, and how data systems are designed and operated.
+
+- [[JPEG XL in Chrome — A Rust Decoder Story]] — Chrome 155 ships the JPEG XL image format (30–50% better JPEG compression, lossless, HDR, JPEG transcoding); the interesting part is the format as browser attack surface and the file-format story of AVIF-vs-JXL portfolio pragmatism.
 
 - [[MotherDuck Getting Started]] — MotherDuck's landing docs: a serverless DuckDB warehouse with per-agent "hypertenancy" compute isolation, a remote MCP server for talking to data, and prompt-generated Dives dashboards — a database pitched at agents as a first-class customer segment.
 - [[MotherDuck Data Warehousing Overview]] — MotherDuck's docs pitch: serverless DuckDB cloud warehouse with "hypertenancy" per-principal isolated compute, Postgres-wire serving, and agents as a first-class load class via MCP server, Guides, and agent-maintained Flights
