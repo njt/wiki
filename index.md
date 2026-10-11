@@ -994,6 +994,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Local Qwen Is Not a Worse Opus]] — Alex Ellis's founder field report: local models are a different tool from frontier models, not a worse version. Revenue recovery that paid for a $12K GPU, the looping problem, and the "analysis not interpretation" boundary
 - [[Wall-Clock Time and the Qwen3.8-27B Daily Driver]] — A solo founder's three-day field report running Qwen3.8-27B on a budget dual-GPU rig: wall-clock time to a correct result — not tokens-per-second — is the metric that matters, because a "slower" model that finishes unattended beats a faster one that keeps you in the loop
 - [[BookOrbit]] — Open-source (AGPL-3.0) self-hosted reading server for ebooks, audiobooks, comics, and PDFs: one Compose file, per-user libraries with OIDC/SSO, Kobo/KOReader sync, OPDS catalog — "your files stay on your hardware, no subscription"
+- [[Tiny Audio]] — Alex Kroman's trainable-for-$25 ASR system: frozen speech encoder + frozen LLM joined by a ~80M-param MLP projector at 1.84% LibriSpeech WER, with measured findings on projector norms, LoRA perturbation vs full fine-tuning, and encoder random-walk — plus a batched HTTP server and a 3.5-hour course
 - [[When Smaller Models Win]] — An essay arguing that frontier general models are frequently the wrong tool for narrow tasks, and that small fine-tuned, self-hosted models — with control over the whole inference pipeline — are both cheaper and better…
 
 ## AI Research and Models
