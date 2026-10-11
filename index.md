@@ -1014,6 +1014,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Local and Open Source Inference]] — Running models yourself: open-weight models, local inference engines, quantisation, hardware for inference at home or on the edge, and how open models track the frontier.
 
+- [[Singing on Two DGX Sparks]] — Gary Lau's viral meme with a payload: an AI-generated video made locally on two NVIDIA DGX Sparks running MiniMax H3.1, with the joke about RAM prices aimed at the people causing the hardware squeeze
 - [[DeepSeek 4.1 Flash Is a Frontier Model at Marginal Cost]] — A month of heavy use: DeepSeek 4.1 Flash is behaviourally indistinguishable from Opus at ~$0.003/task, thanks to a ~437× KV-cache reduction — and cheapness changes how you work
 - [[Grimmory]] — Self-hosted digital library (community fork of Booklore) exposing one catalog over OPDS, Komga, Kobo, and KOReader protocols, with brute-force hashed-embedding recommendations — no vector database
 - [[Datacenter GPU in a Gaming PC]] — £200 eBay V100 in a gaming rig: hardware hacking, NixOS driver archaeology, and Qwen3.6-27B at 32 tok/s
