@@ -202,6 +202,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 ## Agent Architecture
 
 [[Agent Architecture]] — How a single agent is built, as principles and patterns: harness design, control loops, state, delegation inside one agent, error handling, agent UX, and design essays. Specific agents and frameworks as projects go to coding-agents-and-frameworks; tool protocols go to mcp-and-tool-protocols.
+- [[GPT-6 Astra Ascends NetHack]] — The first recorded LLM ascension of NetHack (GPT-6 Astra, 37,140 turns on Hardfought), won by an agent that built its own harness: terminal observations, checked-batching guards, route helpers, and Markdown file memory it wrote and repaired itself
 
 - [[Reliability Is Outside the Model (O'Reilly)]] — Agentic AI Foundation essay on production agent reliability: the model proposes while deterministic layers enforce — policy services, narrow expiring capabilities, runtime stop conditions, checkpoint/idempotency recovery, inspectable evidence, and MCP-gateway authorization as the portable enforcement point
 
