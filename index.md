@@ -862,6 +862,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Making Your Data Ready for Agentic AI]] — This article argues that the entire discipline of data architecture was shaped for a consumer that no longer dominates: the human analyst, who supplies context, judgment, and skepticism for free.
 - [[Cutting SQL Server on AWS Costs by a Third]] — A field report from a database operations manager who cut a 27-instance SQL Server estate on AWS from $60,000 to $40,000 a month in two weeks — not through any clever engineering, but through inventory, edition hygiene,…
 - [[Why AI Cannot Save an Enterprise That Doesn't Understand Its Data]] — Younss (co-authored with Mustapha Fonsau, CIO at Talentys) argues that AI does not fix enterprises that lack an explicit understanding of their own data — it accelerates their mistakes and removes the human pause in…
+- [[ClueCDC]] — Open-source control plane (FastAPI + Next.js) wrapping Debezium/Kafka/Kafka Connect: CDC readiness validation, per-table resnapshot signalling, Fernet-encrypted secrets via a Connect ConfigProvider, and lease-based reconcile jobs. CDC records never touch its API.
 
 ## Distributed Systems
 
