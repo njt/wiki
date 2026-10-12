@@ -777,6 +777,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 - [[JPEG XL in Chrome — A Rust Decoder Story]] — Chrome 155 ships the JPEG XL image format (30–50% better JPEG compression, lossless, HDR, JPEG transcoding); the interesting part is the format as browser attack surface and the file-format story of AVIF-vs-JXL portfolio pragmatism.
 
+- [[What Is Columnar Storage (MotherDuck)]] — MotherDuck's measured guide to columnar vs row storage: five stacked mechanisms (pruning, skipping, compression, vectorization, late materialisation), the Parquet/Arrow/table-format taxonomy, and unusually honest anti-advice on when columnar loses.
+
 - [[MotherDuck Getting Started]] — MotherDuck's landing docs: a serverless DuckDB warehouse with per-agent "hypertenancy" compute isolation, a remote MCP server for talking to data, and prompt-generated Dives dashboards — a database pitched at agents as a first-class customer segment.
 - [[MotherDuck Data Warehousing Overview]] — MotherDuck's docs pitch: serverless DuckDB cloud warehouse with "hypertenancy" per-principal isolated compute, Postgres-wire serving, and agents as a first-class load class via MCP server, Guides, and agent-maintained Flights
 - [[MotherDuck Customer-Facing Analytics]] — MotherDuck's vendor case that embedded analytics for external users needs per-tenant DuckDB instances (hypertenancy) and browser-side DuckDB-Wasm (dual execution), with three implementation patterns (Embedded Dives, 3-tier, 1.5-tier) and honest ceilings on each
