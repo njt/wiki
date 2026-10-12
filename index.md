@@ -625,6 +625,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[How to Fix a Leaked API Key]] — A step-by-step incident-response tutorial from freeCodeCamp on what to do when an API key ends up in a Git repository — arguing that the order of operations matters more than the tooling, and that revocation must always…
 - [[Understanding Device Bound Session Credentials]] — Andrew Lock's walkthrough of Device Bound Session Credentials (DBSC) argues that the web's most entrenched authentication weakness — the bearer-token nature of session cookies — can finally be fixed at the browser…
 
+- [[Passkeys Are a Trap, Do Not Use Them]] — Polemic whose real contribution is the WebAuthn taxonomy — copyable, transferable, hardware-backed, user-present/verified, attested — arguing "passkey" brands many unlike credentials and that remote attestation turns login security into a lever for controlling which software you may run; conclusion treated critically, its own addendum recommends hardware passkeys
+
 ## Software Engineering Craft
 
 [[Software Engineering Craft]] — Engineering practice that predates and outlasts agents: simplicity, architecture, code review, testing, refactoring, debugging, technical writing, and how teams ship.
