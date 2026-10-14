@@ -1209,7 +1209,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 
 [[Ideas and Culture]] — Essays and arguments about how we think and work: philosophy, history, creativity, organisations, learning, and the culture around technology.
-
+- [[What I've Been Seeing Lately — In Software]] — mei's field report from the self-consciously post-LLM corner of software culture: handmade output as moral stance ("the master's tools will never dismantle the master's house"), small aligned communities like Polyphony as the unit of resistance, and a class reading of slop — with institutional hope in Dutch Forgejo and French NixOS
 - [[LLMs Are Not Tools (Rich Hickey)]] — Hickey's definitional strike: a tool is something you wield — control, feedback, continuous direction, expertise — and LLMs fail every test; they are automation you abdicate to, with voodoo.md incantations replacing skill
 - [[The Human Premium for Human-Made Art]] — BBC InDepth essay on the premium forming around human-made art (Deezer: 44% AI tracks, 97% can't tell, but most still care) — Susskind's Sistine Chapel argument, Chayka's messiness-as-signal, and the author's doubt that the premium holds once algorithmic curation is the accepted precedent
 - [[This Is What Having a Popular Open Source Project Feels Like]] — Matt Pocock's one-line video tweet: popularity means fielding, not building, ~50% of the time — the felt version of the open-source maintenance crisis
