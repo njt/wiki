@@ -204,6 +204,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 ## Agent Architecture
 
 [[Agent Architecture]] — How a single agent is built, as principles and patterns: harness design, control loops, state, delegation inside one agent, error handling, agent UX, and design essays. Specific agents and frameworks as projects go to coding-agents-and-frameworks; tool protocols go to mcp-and-tool-protocols.
+- [[AsiBackbone Learning — Governed Execution for .NET]] — An open .NET architecture curriculum teaching governed execution: proposed actions become explicit, receipt-producing decisions before real-world execution, with an AI Integration path applying the same Intent→Decision→host-owned-execution flow to agent tool calls.
 - [[Jev's 10-Step Control Blueprint]] — 0xwhrrari's thread distilling Diogo Almeida's 12-page Jev PDF into a 10-step blueprint: typed decision primitives (Choice/Score/Noul), Jev before and after the LLM, confidence-gated routing, batched decisions over shared state, and complete decision receipts
 - [[GPT-6 Astra Ascends NetHack]] — The first recorded LLM ascension of NetHack (GPT-6 Astra, 37,140 turns on Hardfought), won by an agent that built its own harness: terminal observations, checked-batching guards, route helpers, and Markdown file memory it wrote and repaired itself
 
