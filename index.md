@@ -889,6 +889,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Developer Tools]] — Tools a developer picks up and uses: editors, terminals, CLIs, build systems, version control, and standalone utilities. A tool is filed here when the interesting thing is the tool itself rather than the idea behind it.
 
+- [[CI Speedup — Linear's CI Optimizations as Agent Prompts]] — StarSling remixes Linear's CI write-up into 15 copyable agent prompts plus a 70-optimization skill: infra/toolchain wins, critical-path gating, deleted setup costs, and an opt-in `isolate: false` Vitest project worth 17% of monthly savings at the cost of correctness risk
 - [[Neovim's Forgotten 10 Bitcoin Donation]] — An HN post finds a 10 BTC (~$800k) donation sitting untouched in Neovim's public bitcoin address since 2023: open source funding inertia, verifiable on the ledger but apparently invisible to the project
 
 - [[Self-Hosted HTTP Tunnels with SSH and nginx]] — Vincent Bernat builds a self-hosted ngrok replacement from OpenSSH reverse forwarding, an nginx wildcard-subdomain proxy, and `secure_link` signed expiring URLs, with a helper script that mints shareable links in one command.
