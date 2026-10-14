@@ -643,6 +643,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Software Engineering Craft]] — Engineering practice that predates and outlasts agents: simplicity, architecture, code review, testing, refactoring, debugging, technical writing, and how teams ship.
 
+- [[Releasing AI-Generated Software (Seemann)]] — Mark Seemann takes Uncle Bob's "I don't read agent code" premise to its conclusion: human review was never foolproof, the self-driving-car standard (better than the baseline, not perfect) applies, and when AI-generated defects get serious, courts sentence the person who signed off — "Are you ready to go to prison for an AI?"
 - [[Anecdotally Programmers Dislike Reduce]] — Evan Hahn's short observation that `map` and `filter` pass code review silently while `reduce` reliably draws "hard to read" — readability as social idiom rather than code property, and the fading pushback as evidence review is getting less thorough
 
 - [[The Awesome Power of Constraint Solvers]] — btmc's hands-on tutorial: model a NAND-only full-adder as a CSP/optimization problem with CPMpy + CP-SAT, unroll the ∀ over inputs, break symmetry, and watch the solver prove optimality (and UNSAT for 8 gates) in milliseconds
