@@ -12,7 +12,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[MCP and Tool Protocols]] — How agents reach tools and services: MCP servers and gateways, tool and function calling, agent-facing APIs and CLIs, structured outputs, and authentication for tools.
 - [[Agent Orchestration]] — Many agents working together: multi-agent topologies, delegation, subagents, queues and schedulers, coordination protocols, and the control planes that run fleets of agents.
 - [[Agent Memory and Context]] — What an agent remembers and what it sees: context engineering, memory architectures, retrieval, summarisation, compaction, and the limits of long context.
-- [[Guardrails and Feedback Loops]] — Keeping agents honest: linters and deterministic checks over instructions, evaluation and testing of agent output, review gates, observability, and the loops that make quality self-correcting.
+[[Guardrails and Feedback Loops]] — Keeping agents honest: linters and deterministic checks over instructions, evaluation and testing of agent output, review gates, observability, and the loops that make quality self-correcting.
 - [[Specifications as the Product]] — Specs, plans and requirements as the durable artifact: spec-driven development, planning before coding, design documents, and the economics of disposable code.
 - [[Security and Sandboxing]] — Threats and containment for agents and the software they touch: sandboxing, permissions, prompt injection, supply chain, secrets, zero trust, and incident write-ups.
 - [[Software Engineering Craft]] — Engineering practice that predates and outlasts agents: simplicity, architecture, code review, testing, refactoring, debugging, technical writing, and how teams ship.
@@ -487,6 +487,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 ## Guardrails and Feedback Loops
 
+[[The Flight Recorder — Replaying What an AI Agent Did on My SQL Server]] — AgentDBA's "flight recorder": one row per decision (code vs. model, reason, action, latency), with raw resultsets stored behind each step so any run can be replayed and audited with a SELECT
 [[Guardrails and Feedback Loops]] — Keeping agents honest: linters and deterministic checks over instructions, evaluation and testing of agent output, review gates, observability, and the loops that make quality self-correcting.
 
 - [[Loop Engineering Optimizing Code Generation and Verification]] — Bradley Gibbs' three-loop architecture for the verification bottleneck: human-approved conformance contracts, an independent evaluator outside the builder's authority, inner-loop error sources (environmental vs agent failure modes), and a learning loop that treats each check as a mechanism with a detection rate, a correction rate and a cost.
