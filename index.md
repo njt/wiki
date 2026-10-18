@@ -792,6 +792,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Databases and Data]] — Storage engines, query systems, data modelling, file formats, data pipelines, and how data systems are designed and operated.
 
+- [[Zero-Downtime PostgreSQL Migrations — A Production Playbook]] — BoundLayer's expand-contract playbook for safe Postgres schema change: lock-queue awareness with short lock_timeouts, NOT VALID + separate VALIDATE, concurrent indexes, batched idempotent backfills via SKIP LOCKED, forward repair over blind rollback, and per-migration ownership with abort authority
 - [[JPEG XL in Chrome — A Rust Decoder Story]] — Chrome 155 ships the JPEG XL image format (30–50% better JPEG compression, lossless, HDR, JPEG transcoding); the interesting part is the format as browser attack surface and the file-format story of AVIF-vs-JXL portfolio pragmatism.
 
 - [[What Is Columnar Storage (MotherDuck)]] — MotherDuck's measured guide to columnar vs row storage: five stacked mechanisms (pruning, skipping, compression, vectorization, late materialisation), the Parquet/Arrow/table-format taxonomy, and unusually honest anti-advice on when columnar loses.
