@@ -487,6 +487,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 ## Guardrails and Feedback Loops
 
+- [[Open Policy Agent]] — CNCF policy engine evaluating declarative Rego against JSON input; its homepage example turns the same tool-call constraints practitioners write in CLAUDE.md prose (no Bash, HTTPS-only WebFetch, result caps) into deny rules evaluated before execution, with replayable decision logs
 [[The Flight Recorder — Replaying What an AI Agent Did on My SQL Server]] — AgentDBA's "flight recorder": one row per decision (code vs. model, reason, action, latency), with raw resultsets stored behind each step so any run can be replayed and audited with a SELECT
 [[Guardrails and Feedback Loops]] — Keeping agents honest: linters and deterministic checks over instructions, evaluation and testing of agent output, review gates, observability, and the loops that make quality self-correcting.
 
