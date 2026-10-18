@@ -1233,6 +1233,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 ## AI Product and Business
 
+- [[Scaling Intent, Quality, and Artistry (Katie Dill)]] — Stripe's head of design on the AI building boom's zombie-UI risk: have a point of view, encode standards into a design-system CLI that scales intent rather than consistency, don't confuse done with good, and use AI to raise the ceiling not just the floor.
 [[AI Product and Business]] — Pricing, unit economics, adoption inside organisations, strategy, competition, labour and market effects, and how AI products get built and sold.
 - [[A Serious AI Product]] — Glyph's specification-by-negation for AI tools: if the disclaimer admits mistakes, verification must be first-class UI (claim checkboxes, citations as primary artifacts, provenance, context visibility, a real sandbox), and years of shipping none of it suggests labs fear what honest measurement would reveal.
 - [[AI in the Firm — Bottlenecks in Software Production]] — Chen & Stratton's Harvard JMP on 300M Jellyfish work events across 718 firms: agents raise coding output 30% but Jira output and employment don't move (declines >2.9% ruled out), because a code-review bottleneck absorbs the gain — review time +49%, changes-requested share nearly doubled, labour shifts toward review and never toward coding.
