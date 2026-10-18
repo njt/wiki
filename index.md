@@ -792,6 +792,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Databases and Data]] — Storage engines, query systems, data modelling, file formats, data pipelines, and how data systems are designed and operated.
 
+- [[chDB]] — ClickHouse as an embedded in-process OLAP library (Python, Go, Rust, Node, C++), with the new DataStore pandas-compatible API: 630+ methods, lazy evaluation, SQL pushdown, and a claimed 20× over pandas — ClickHouse's bid for DuckDB's embedded-OLAP niche and pandas' user base at once.
+
 - [[JPEG XL in Chrome — A Rust Decoder Story]] — Chrome 155 ships the JPEG XL image format (30–50% better JPEG compression, lossless, HDR, JPEG transcoding); the interesting part is the format as browser attack surface and the file-format story of AVIF-vs-JXL portfolio pragmatism.
 
 - [[What Is Columnar Storage (MotherDuck)]] — MotherDuck's measured guide to columnar vs row storage: five stacked mechanisms (pruning, skipping, compression, vectorization, late materialisation), the Parquet/Arrow/table-format taxonomy, and unusually honest anti-advice on when columnar loses.
