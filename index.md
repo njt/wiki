@@ -357,6 +357,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Coding Agents and Frameworks]] — Specific agents, harnesses, frameworks, runtimes and SDKs as projects: what they are, how they are built, and how they compare. File a source here when the interesting thing is the project itself rather than a general design principle.
 
+- [[Agentic-PBT (Repository)]] — The code behind Anthropic's agentic property-based testing paper: a 300-line Claude Code prompt (`hypo.md`) that mines claimed properties and files Hypothesis-based bug reports, wrapped in a 507-line stdlib harness with permission-allowlisted sandboxes, JSONL resumability, and a rubric-based API scorer
 - [[Paseo]] — paseo.sh, an Apache-2.0 single-maintainer desktop/web/mobile client unifying every coding agent as a swappable provider, with MCP/CLI/SDK automation, per-worktree issue fan-out, a three-layer plugin system (UI, agent lifecycle, providers), and a no-investors, code-stays-local philosophy
 - [[Creating Spec Kit Presets (Jesse Liberty)]] — Jesse Liberty's eight-step tutorial on authoring, testing, validating, and publishing presets for Spec Kit: a versioned package of template overrides, prompt text, and localization layered by priority at runtime, with a `preset.yml` manifest, `--dev` local iteration, CI manifest validation, and a supply-chain caution on third-party catalogs
 
