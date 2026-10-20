@@ -567,6 +567,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Specifications as the Product]] — Specs, plans and requirements as the durable artifact: spec-driven development, planning before coding, design documents, and the economics of disposable code.
 
+- [[Ontology Development 101 (Noy & McGuinness 2001)]] — The canonical 2001 ontology tutorial's abstract: Gruber's "explicit formal specifications" and a Web built so "electronic agents" can read it — the ancestor of today's spec-first and memory architectures, and a cautionary tale about ontology maintenance. 
 - [[Unit Economics of AI Software]] — Software's zero-marginal-cost superpower is eroding as LLM inference costs introduce real per-user variable costs. Margins compress from 75-85% to ~52%, pricing shifts to usage-based, and the SaaS playbook stops working
 - [[Rewrite All the Code All the Time]] — Formal methods as the missing piece: why natural-language specs can never support fully automatic code regeneration, and the two-contractor thought experiment that operationalizes "good enough" specification
 - [[DSPy — Programming Not Prompting]] — Stanford NLP's Python framework that replaces hand-written prompts with typed signatures compiled into optimized prompts: signatures define tasks, modules control execution, optimizers tune automatically. The structural answer to [[Prompt Debt]]
