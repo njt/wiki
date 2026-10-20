@@ -1088,6 +1088,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[AI Research and Models]] — Papers, model releases and evaluations: architectures, training, reasoning, benchmarks, and what the frontier labs and researchers are finding.
 
+- [[Hybrid Reasoning Agents]] — arXiv paper proposing agents that interleave latent-space reasoning with text-based tool interaction via a HybridLink module and lossless continuous working memory, with HybridSFT/HybridRL post-training learning when to think versus act — +10.4% over frontier agents at 2.7–3.7× lower cost.
 - [[Pinterest's LLM User Journey Inference]] — Pinterest replaced a five-stage clustering pipeline with a fine-tuned 4B Qwen3 that generates ranked user-journey names from activity logs, distilled from frontier teachers and served at ~775 req/s on ~100 GPUs.
 - [[Bag of Decisions (Doug Turnbull)]] — Reranking as rubric scoring: an LLM generates ~10 yes/no relevance criteria per query, Jev scores each individually, and summed probabilities beat both BM25 and single-question Jev reranking on Wayfair WANDS and Amazon ESCI — per-query feature creation with the biggest gains on the harder dataset.
 - [[Domain-Specific Hallucination Detection in Large Language Models]] — A multi-signal pipeline (fine-tuned DeBERTa-v3 + MC Dropout + calibration) hitting F1=0.915 on HaluEval, then reused as a DPO reward to cut a small Qwen generator's hallucination rate by 55.9% — with a sobering HaluEval→SciFact transfer cliff showing domain-matched fine-tuning is the strongest adaptation.
