@@ -494,6 +494,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 ## Guardrails and Feedback Loops
 
+- [[datapitfalls]] — Ben Jones's LLM-powered linter for data work: an LLM-as-a-judge that can only cite rules from a hand-built pitfall taxonomy (active vs latent findings, catalog-validated rule ids), shipped as a CLI, a web app, and a keyless read-only MCP server.
 - [[Agentic Monitoring (Benjamin Congdon)]] — Congdon's practitioner essay: Anthropic's "superfan" Claudes as the path forward for ops, change-point monitoring as the case study where agents dissolve the precision/latency tradeoff, and the spec-writer + deterministic-runner harness as the right shape — fleet-wide monitoring at ~$100/day.
 - [[Ontology-Driven Observability at Netflix]] — Netflix's RDF/OWL knowledge graph unifying MELT telemetry, incidents and incident-chat reasoning into typed triples, with the entropy-ladder trick that makes stochastic LLM enrichment deterministic and AutoRCA specialist agents coordinating through the graph as their shared interface.
 - [[Open Policy Agent]] — CNCF policy engine evaluating declarative Rego against JSON input; its homepage example turns the same tool-call constraints practitioners write in CLAUDE.md prose (no Bash, HTTPS-only WebFetch, result caps) into deny rules evaluated before execution, with replayable decision logs
