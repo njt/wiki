@@ -497,6 +497,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 ## Guardrails and Feedback Loops
 
+- [[Uber AutoClean — Agentic Tech Debt Cleanup]] — Uber's AutoClean autonomously deletes stale feature flags: deterministic PolyglotPiranha rewrites via MCP, tiered CI fixers scoped by file type, and CodeCourt's parallel single-property reviewer agents gating every diff before human review — 16K flags and 1M+ lines removed.
 - [[datapitfalls]] — Ben Jones's LLM-powered linter for data work: an LLM-as-a-judge that can only cite rules from a hand-built pitfall taxonomy (active vs latent findings, catalog-validated rule ids), shipped as a CLI, a web app, and a keyless read-only MCP server.
 - [[Agentic Monitoring (Benjamin Congdon)]] — Congdon's practitioner essay: Anthropic's "superfan" Claudes as the path forward for ops, change-point monitoring as the case study where agents dissolve the precision/latency tradeoff, and the spec-writer + deterministic-runner harness as the right shape — fleet-wide monitoring at ~$100/day.
 - [[Ontology-Driven Observability at Netflix]] — Netflix's RDF/OWL knowledge graph unifying MELT telemetry, incidents and incident-chat reasoning into typed triples, with the entropy-ladder trick that makes stochastic LLM enrichment deterministic and AutoRCA specialist agents coordinating through the graph as their shared interface.
