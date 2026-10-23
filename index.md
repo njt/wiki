@@ -409,6 +409,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Agent Orchestration]] — Many agents working together: multi-agent topologies, delegation, subagents, queues and schedulers, coordination protocols, and the control planes that run fleets of agents.
 
+- [[Mycelium — Shared Workspace for Peer Agent Swarms]] — Orchestrator-free peer-agent coordination: markdown board with clock-draining custody leases, a shared markdown memory store with local embedding search, and an aligner engine that drives real NEGMAS SAO negotiations over an MLS-encrypted SLIM channel until agents converge
 - [[Autonomous Delivery (Evan Boyle)]] — Evan Boyle's open-source Agent Skill encoding an adaptive orchestrator-worker methodology: model selection by leverage, delegation that narrows but never widens envelopes, recurring-work cycles with watermarks and idempotency, and a reflection loop that reshapes the organization itself mid-run
 - [[Sixteen Agents and a Byte-Exact Oracle]] — momo5502's three-month, ~650B-token decompilation of a popular FPS with 16 autonomous agents: readable-but-wrong first month, a byte-matching verification oracle that eliminated the reviewer and made cheap models excellent, hourly instruction re-injection against drift, and CI-hashing to stop agents editing their own acceptance script
 
