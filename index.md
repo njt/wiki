@@ -30,6 +30,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 ## Agent Coding Workflow
 
 [[Agent Coding Workflow]] — How practitioners actually work with coding agents day to day: the loop, prompting habits, planning rituals, verification over generation, maturity models, team and org practice, and what changes about the craft. Tool-specific Claude Code material goes to claude-code; review automation goes to ai-code-review.
+- [[Who Maintains the Code Agents Write (arXiv Empirical Study)]] — arXiv study of 508 agent-created files vs 508 human files across 100 repos: agent code gets half the maintenance commits, dominated by feature extensions rather than bug fixes, and humans perform 83% of it — with the caveat that low churn may mean unowned or unused, not stable.
 - [[How to Be More Ambitious (Rieseberg)]] — Felix Rieseberg's four-type taxonomy of AI ambition (Speed, Altitude, Depth, Range) with concrete techniques for each, grounded in self-efficacy psychology.
 - [[Agentic Verification]] — Addy Osmani's essay on the verification bottleneck: agents make checking cheap, so build loops they can run themselves — E2E as ground truth, property tests as constraints, differential testing with the old system as oracle, and loop speed/determinism as incentive design.
 - [[The New Unit of Work for Document Collaboration]] — The agent run (prompt + lint + compile + test) as a checkpoint finer than a commit, with author, approver and reason attached to the character itself via tracked-change provenance for contract drafting
