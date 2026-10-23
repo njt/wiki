@@ -823,6 +823,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Databases and Data]] — Storage engines, query systems, data modelling, file formats, data pipelines, and how data systems are designed and operated.
 
+- [[Infino — Search Index on Object Storage]] — Infino's retrieval engine keeps its BM25/vector index on S3 and redesigns the storage layer around one insight: on object storage the scarcest resource is round trips, not CPU. Single-object Parquet "superfiles", an inlining manifest, a term index that prunes thousands of superfiles without opening them, and background disk caching.
 - [[Fluree DB]] — ~50-crate Rust temporal graph database: content-addressed CIDv1 storage, four covering index permutations with per-column compressed leaflets, time travel via history sidecars, triple-level policies, integrated BM25/HNSW, and an agent surface (MCP server, Agent JSON, git-committable Fluree Memory) — benchmarked faster than engines with none of its features.
 - [[chDB]] — ClickHouse as an embedded in-process OLAP library (Python, Go, Rust, Node, C++), with the new DataStore pandas-compatible API: 630+ methods, lazy evaluation, SQL pushdown, and a claimed 20× over pandas — ClickHouse's bid for DuckDB's embedded-OLAP niche and pandas' user base at once.
 
