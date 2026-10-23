@@ -1104,6 +1104,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 ## AI Research and Models
 
+- [[OvisOCR3]] — ATH-MaaS's open-weight 0.8B multimodal model unifying document parsing, OCR, KIE, figure captioning and cross-page table reconstruction via task prompts; SOTA at its size, with unusually honest output-handling and security docs.
+
 [[AI Research and Models]] — Papers, model releases and evaluations: architectures, training, reasoning, benchmarks, and what the frontier labs and researchers are finding.
 
 - [[Timestral]] — Mistral's first time-series foundation model family (5M–209M): first on GIFT-Eval/TIME/fev-bench at two-thirds the SOTA's parameters, CPU-only inference, synthetic-first pre-training, covariate-aware attention, and on-prem/air-gapped deployment via Forge.
