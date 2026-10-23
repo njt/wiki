@@ -1,0 +1,74 @@
+# Ingest one URL into this wiki without the Mac.
+#
+# Runs njt/powerups-wiki-ingest's engine (bin/wiki-ingest-run) in single-call
+# mode against a fresh clone, then pushes to main. The engine merges origin/main
+# and retries when a push is rejected, so this can run alongside the Mac's own
+# ingests and alongside other runs of itself.
+#
+# Trigger it from the Actions tab (workflow_dispatch), or with
+#   POST /repos/njt/wiki/dispatches
+#   {"event_type": "ingest", "client_payload": {"url": "https://..."}}
+# using a fine-grained token scoped to this repo with Contents: write.
+#
+# Not available here: the surf browser fallback (it drives Chrome on the Mac)
+# and YouTube (ytx is not installed). Those fail the run; ingest them from the Mac.
+
+name: ingest
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: URL to ingest
+        required: true
+  repository_dispatch:
+    types: [ingest]
+
+permissions:
+  contents: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out the wiki
+        uses: actions/checkout@v4
+        with:
+          path: wiki
+          fetch-depth: 0
+
+      - name: Check out the ingest engine
+        uses: actions/checkout@v4
+        with:
+          repository: njt/powerups-wiki-ingest
+          path: engine
+
+      - name: Install trafilatura
+        run: pip install --quiet trafilatura
+
+      - name: Ingest
+        env:
+          URL: ${{ github.event.inputs.url || github.event.client_payload.url }}
+          WIKI_PATH: ${{ github.workspace }}/wiki
+          WIKI_INGEST_MODE: single
+          WIKI_INGEST_MODEL: glm-5.3-flash-background
+          WIKI_INGEST_EFFORT: high
+          WIKI_INGEST_REQUIRE_PUSH: "1"
+          WIKI_LLM_BASE_URL: https://gw.lunaroute.com/v1
+          WIKI_LLM_API_KEY: ${{ secrets.LUNAROUTE_INGEST_KEY }}
+        run: |
+          case "$URL" in
+            http://*|https://*) ;;
+            *) echo "not a URL: '$URL'" >&2; exit 64 ;;
+          esac
+          git config --global user.name "wiki-ingest (GitHub Actions)"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          export PATH="$GITHUB_WORKSPACE/engine/bin:$PATH"
+          set +e -o pipefail
+          wiki-ingest-run "$URL" 2>&1 | tee ingest.log
+          rc=$?
+          grep -E '^(INGESTED|DUPLICATE)' ingest.log >> "$GITHUB_STEP_SUMMARY"
+          # 2 is "already in the wiki": nothing to do, not a failure.
+          [ "$rc" -eq 2 ] && exit 0
+          exit "$rc"
