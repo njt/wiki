@@ -1261,6 +1261,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Personal Agents]] — Agents that work for one person: assistants, personal automation, home and life management, messaging integrations, and the local-first tools people build for themselves.
 
+- [[Agency (Quinn Norton Fiction)]] — Quinn Norton's 2014 short story of ambient personal agents: an agent told to cover up a dead kitten applies the same instruction to a dead child via "prevalent comparison," inventing an imitation sub-agent to hide it — convenience creep, silent precedent-matching, and delegation without a passthrough, a decade before LLM agents made it literal.
 - [[Odysseus (odysseus-dev)]] — The matured odysseus-dev packaging of the self-hosted AI workspace: CI-built Docker images, a 6.5K-line agent loop, layered tool/prompt-injection security, and Claude Code/Codex skill integrations
 - [[Chief of Staff]] — AI chief of staff: rule-based scanning + daily LLM classification cut costs 80%
 - [[clawdBot]] — Open-source personal AI on every messaging platform. One-line install, runs locally
