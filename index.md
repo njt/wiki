@@ -1084,6 +1084,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Rootshell Terminal]] — Kit Knox's free MIT-licensed Metal-accelerated terminal (libghostty fork, ~460K lines of Swift) for iPhone/iPad/Vision Pro/Mac: native SSH with post-quantum KEX and Secure Enclave keys, a from-scratch Swift mosh (SSP), tmux control mode, a WASI sandbox for user-compiled CLI tools, and an on-device Agent Inbox that detects Claude Code/Codex/Cursor/Copilot in any pane by screen-scraping (herdr-derived rules engine, wrap-tolerant and multiplexer-aware) and routes HPKE X-Wing end-to-end-encrypted push when an agent needs input
 - [[Ditch the Token Headache — SSH Just Works]] — A short, practical post by Shan Kuehn arguing that developers doing day-to-day Git work should abandon Personal Access Tokens in favour of SSH keys, with a five-minute setup guide.
 - [[ttmux]] — Rust client-server terminal multiplexer written entirely by Claude Code: floating panes, per-pane coding-agent state detection (patterns + OSC 7501), JSON wire protocol with live session `upgrade`, and an ARCHITECTURE.md written as a module contract
+- [[Petal — Screensharing as Native Windows]] — Kiruna Labs' ~247K-line Rust/Tauri screensharing app where each shared window is a real borderless native window (zero-copy CVPixelBuffer→display-layer path over LiveKit), with capability-token consent-gated remote control and a Gemini Live AI chat whose window-control gate is dark until PETAL_AI_CONTROL=1 with single-use grants and sticky refusals
 
 ## Local and Open Source Inference
 
