@@ -360,6 +360,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[AI UX Patterns — Meaningful User Benefit]] — Kathryn Grayson Nanz's second article in her AI UX patterns series (Progress/Telerik) argues that the battle for AI adoption is won or lost on whether users perceive a meaningful benefit — and that most AI features fail…
 
 ## Coding Agents and Frameworks
+- [[Shop — a Design Canvas Built on Code (html.moldandyeast.com)]] — Structural archive of Shop, a 696 KB single-file design canvas where humans and agents co-design with every edit staying reviewable code: grammar→IR→DAG→runtime core, canvas-to-code edits keyed by stable paths, a streaming semantic UI language with a hand-wired taste model whose scorer disagreement is honest doubt, reviewable agent turns, and local-first projects.
 - [[StaffDeck]] — OpenBMB's AGPL enterprise "digital employee" platform: state-machine SOP skills distilled from natural language, OKF hierarchical knowledge retrieval, WeChat/WeCom channel routing with intent stickiness, and team task-bidding with HP-elimination and a governed blackboard.
 
 [[Coding Agents and Frameworks]] — Specific agents, harnesses, frameworks, runtimes and SDKs as projects: what they are, how they are built, and how they compare. File a source here when the interesting thing is the project itself rather than a general design principle.
