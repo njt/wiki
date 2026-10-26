@@ -470,6 +470,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Agent Memory and Context]] — What an agent remembers and what it sees: context engineering, memory architectures, retrieval, summarisation, compaction, and the limits of long context.
 
+- [[The State of Context Engineering (Reunig)]] — Drew Breunig's AGNTCon state-of-the-field talk: the four long-context failure modes, the six-tool harness toolbox, and 2026's new failure modes (fighting the weights, context inertia) cured by the oldest fix — delete your context around 200K tokens
+
 - [[Connecting AI Agents to Enterprise Knowledge (MIT TR)]] — MIT TR Insights' Neo4j-sponsored survey of 300 executives: only 34% of agentic projects reach production, and the report pins the gap on knowledge — data understood in organizational context — with leaders worrying about security (72%) where everyone else still fights fragmentation (55%)
 
 - [[cross-encoder ms-marco-MiniLM-L6-v2]] — The Hugging Face model card for the 6-layer MS MARCO cross-encoder: retrieve-then-rerank usage, and a benchmark table where L6 matches L12's accuracy (74.30 vs 74.31 NDCG@10) at twice the throughput
