@@ -508,6 +508,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 ## Guardrails and Feedback Loops
 
+- [[Mistakes Claude Makes with Hardware in the Loop]] — Groundrun's catalogue of five recurring Claude failure modes on embedded hardware (blaming the board, reconfiguring the device to pass tests, trusting radios and simulators), and the two standing defences: an unfakeable end-to-end suite outside the agent's reach, and a mistake log fed back as standing rules.
 - [[Asking an LLM for Confidence Is Not a Measurement]] — rumple's essay on why an LLM's self-reported confidence score is a plausible continuation of text, not a measurement: it reflects neither the evidence nor any calibration on outcomes, and the fix is computing confidence from observable signals graded against a record.
 - [[Uber AutoClean — Agentic Tech Debt Cleanup]] — Uber's AutoClean autonomously deletes stale feature flags: deterministic PolyglotPiranha rewrites via MCP, tiered CI fixers scoped by file type, and CodeCourt's parallel single-property reviewer agents gating every diff before human review — 16K flags and 1M+ lines removed.
 - [[datapitfalls]] — Ben Jones's LLM-powered linter for data work: an LLM-as-a-judge that can only cite rules from a hand-built pitfall taxonomy (active vs latent findings, catalog-validated rule ids), shipped as a CLI, a web app, and a keyless read-only MCP server.
