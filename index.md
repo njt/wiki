@@ -585,6 +585,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Specifications as the Product]] — Specs, plans and requirements as the durable artifact: spec-driven development, planning before coding, design documents, and the economics of disposable code.
 
+- [[ADRs4AI (Deliberative Programming)]] — A method making the human-AI thinking the durable artifact: ADRs staked as `### QST:` questions the AI answers with options, confidence and a falsifier, and the human rules in one line — the record keeps the why, work is resumable, no memory claims.
 - [[Ontology Development 101 (Noy & McGuinness 2001)]] — The canonical 2001 ontology tutorial's abstract: Gruber's "explicit formal specifications" and a Web built so "electronic agents" can read it — the ancestor of today's spec-first and memory architectures, and a cautionary tale about ontology maintenance. 
 - [[Ontologies Come of Age (McGuinness 2003)]] — McGuinness's 2003 Spinning the Semantic Web chapter record: the Web took off via authoring tools but its pages remain aimed at human consumption, so search still needs human eyes — the wager that formal semantics would fix that, and why it lost to statistics.
 - [[Unit Economics of AI Software]] — Software's zero-marginal-cost superpower is eroding as LLM inference costs introduce real per-user variable costs. Margins compress from 75-85% to ~52%, pricing shifts to usage-based, and the SaaS playbook stops working
