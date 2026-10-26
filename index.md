@@ -414,6 +414,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 
 [[Agent Orchestration]] — Many agents working together: multi-agent topologies, delegation, subagents, queues and schedulers, coordination protocols, and the control planes that run fleets of agents.
+- [[The New Set of Problems for Engineers to Solve (Katelyn Lesse)]] — Lesse's map of the new engineering problem space opened by serious multiagent systems: Kubernetes-mismatched infrastructure, OBO identity and consent, injection as lateral movement with real blast radius, and monitoring and halting for a system whose diligence looks like malice.
 
 - [[AI Agent Teams That Don't Loop (AWFlow)]] — AWFlow's multi-agent team runtime: three enforced topologies (lead-routes, pipeline, open-table), a handoff map that removes delegate_to when no target is permitted, budgets checked before each handoff, merge-only-stricter rules, and one-level-deep asks — coordination enforced in code, not prompts.
 - [[MOLT Sinai — Teaching Hospital for Coding Agents]] — Cockroach Labs' teaching-hospital factory: label-driven GitHub Actions pipeline, plan-review and discharge gates, $84/issue, and honest failure data on review loops and prompt rot
