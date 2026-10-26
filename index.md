@@ -30,6 +30,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 ## Agent Coding Workflow
 
 [[Agent Coding Workflow]] — How practitioners actually work with coding agents day to day: the loop, prompting habits, planning rituals, verification over generation, maturity models, team and org practice, and what changes about the craft. Tool-specific Claude Code material goes to claude-code; review automation goes to ai-code-review.
+- [[How I Work with Agents (Thorsten Ball, October 2026)]] — Thorsten Ball's thirteen working habits as of Oct 2026: frontier models only, prompt the What, make the whole SDLC legible to the agent, demand irrefutable proof, go async, stop managing context by hand, and review only high-blast-radius code.
 - [[Who Maintains the Code Agents Write (arXiv Empirical Study)]] — arXiv study of 508 agent-created files vs 508 human files across 100 repos: agent code gets half the maintenance commits, dominated by feature extensions rather than bug fixes, and humans perform 83% of it — with the caveat that low churn may mean unowned or unused, not stable.
 - [[How to Be More Ambitious (Rieseberg)]] — Felix Rieseberg's four-type taxonomy of AI ambition (Speed, Altitude, Depth, Range) with concrete techniques for each, grounded in self-efficacy psychology.
 - [[Ship Your Interpreter (Basis)]] — Basis's agents prove in Lean that a compiled C interpreter refines an LLM-written formal semantics, making the binary itself the ground truth that testing can never be.
