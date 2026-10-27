@@ -1288,6 +1288,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 ## AI Product and Business
 
+- [[Who Owns the Roadmap — Six Ways to Position an FDE Business]] — Van den Veld's six-position taxonomy of Forward Deployed Engineer businesses, ranked by roadmap ownership and value capture: from commoditised time-and-materials through the VAR, open-source, strategic-partner and Palantir positions to the "engineer at the gate" whose moats are decision rights, a client-owned control layer, an ontology, and accountability.
 - [[Scaling Intent, Quality, and Artistry (Katie Dill)]] — Stripe's head of design on the AI building boom's zombie-UI risk: have a point of view, encode standards into a design-system CLI that scales intent rather than consistency, don't confuse done with good, and use AI to raise the ceiling not just the floor.
 [[AI Product and Business]] — Pricing, unit economics, adoption inside organisations, strategy, competition, labour and market effects, and how AI products get built and sold.
 - [[A Serious AI Product]] — Glyph's specification-by-negation for AI tools: if the disclaimer admits mistakes, verification must be first-class UI (claim checkboxes, citations as primary artifacts, provenance, context visibility, a real sandbox), and years of shipping none of it suggests labs fear what honest measurement would reveal.
