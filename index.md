@@ -415,6 +415,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 ## Agent Orchestration
 
+- [[Memdoor team-solve Workflow]] — Five small-model agents (planner, two ideators, solver, manager, repair worker) with fresh contexts talking only through files on disk, rebuilt as eight YAML files in Memdoor with a script as the verdict; parity with the GVS5H paper's harness (9.8 vs 9.6 on 10 LiveCodeBench Hard problems) at $0.39 a run, with unusually honest caveats.
+
 
 [[Agent Orchestration]] — Many agents working together: multi-agent topologies, delegation, subagents, queues and schedulers, coordination protocols, and the control planes that run fleets of agents.
 - [[The New Set of Problems for Engineers to Solve (Katelyn Lesse)]] — Lesse's map of the new engineering problem space opened by serious multiagent systems: Kubernetes-mismatched infrastructure, OBO identity and consent, injection as lateral movement with real blast radius, and monitoring and halting for a system whose diligence looks like malice.
