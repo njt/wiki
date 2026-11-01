@@ -959,6 +959,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Developer Tools]] — Tools a developer picks up and uses: editors, terminals, CLIs, build systems, version control, and standalone utilities. A tool is filed here when the interesting thing is the tool itself rather than the idea behind it.
 
+- [[Keplearn — Deterministic Symbolic Regression]] — owls-on-wires' ~7k-line Rust engine that recovers closed-form equations from tabular data by best-first recursive reduction: invertible chains of div/shell/affine reductions, log-linear monomial fits, constant snapping to rationals/π/e with holdout verification, and byte-exact deterministic output — 64.7% Feynman symbolic recovery at a fraction of AIFeynman's compute.
+
 - [[WinForms Designer]] — macauhome's standalone Visual Studio-style WinForms designer on .NET 10 with no design-time assemblies: a model-painted canvas, regex-based `.designer.cs` round-tripping, and a code generator emitting VS-identical files — and, per its own README, entirely AI-generated.
 - [[Redesigning Source Control (Anthropic)]] — Anthropic's Scion: an in-house VCS built and migrated to in five months after agent-driven merges hit 30,000/day; always-online clients, server-side everything, sparse-by-design checkouts, and merge queues abandoned as an agent-scale anachronism.
 - [[Paper — the Connected Canvas for Teams Shipping with Agents]] — Marketing page for an agent-native design tool: HTML/CSS canvas wired to IDE/CLI agents over MCP, bidirectional token/component sync with the codebase, real data on the canvas, and a $34M Series A bet that the design artifact becomes a shared human-agent substrate
