@@ -1,0 +1,39 @@
+# Robo Refine and Polish (jesserobbins)
+
+`refine-and-polish` is Jesse Robbins' Claude Code skill for running multi-iteration code-review loops with multiple independent reviewer agents until they genuinely converge. It has no code: the entire product is a 531-line `SKILL.md` (a process specification) and a worked-example ledger, packaged as a self-hosted Claude Code plugin marketplace. Its thesis is that the hard part of an agent review loop isn't running reviewers — it's the bookkeeping that keeps a review-fix-rereview cycle from cycling forever: repeated fixes, unnoticed regressions, and re-litigated design decisions.
+
+---
+
+## Architecture
+
+- **A skill, not software.** The repo is `skills/roborev-refine-and-polish/SKILL.md` (531 lines), `docs/example-ledger.md`, and two plugin manifests (`.claude-plugin/marketplace.json`, `plugin.json`). Installation is two slash commands (`/plugin marketplace add`, `/plugin install`); the skill auto-activates on multi-iteration roborev refine runs. All behavior is prose instructions consumed by the Claude Code harness.
+- **Layering.** It sits *on top of* `/roborev-refine`, which runs the review-fix-rereview cycle using the external `roborev` CLI (a continuous code-review daemon with `review`, `check-agents`, `log <job>`, `show <job>` commands). This skill adds the multi-reviewer policy and the ledger.
+- **The ledger is the state machine.** One private Markdown file per loop (`reviews/<pr-slug>.md`), held in a gitignored `private/` subdir or a sibling private repo — never committed to the public repo, never linked from a PR. It holds a loop header (with live-reviewer status and the convergence criterion, fixed at start), the finding ledger table, open design questions, per-iteration report rows, and the pushback list.
+
+## Key techniques
+
+- **A typed finding taxonomy that encodes loop diagnostics.** Each row is `NEW`, `PRE`, `REGRESSION of <iter>.<agent>.<sev>`, `REPEAT`, or `LOOP`. The distinctions are precise and operational: REGRESSION means *your own fix broke it* (precedence over NEW, and it demands a regression test at the broken boundary); LOOP means the same finding recurs in the *first review by that agent against the fix* — meaning the fix and the reviewer disagree on what "fixed" means, so stop patching and reconcile; REPEAT means the finding recurs after that agent already reviewed the fix — investigate stale snapshots or a different commit's regression, don't re-patch. Cross-agent cases are handled: codex first-flagging something claude-code already had fixed is a LOOP on codex's row, because codex has never confirmed the fix.
+- **Two independent reviewers as the actual bug detector.** Reviewers run as separate roborev jobs (`--agent claude-code`, `--agent codex`) against one pre-resolved commit range. The skill is emphatic about the mechanics: use positional `<start> <end>` args resolved once via `git merge-base` + `git rev-list --reverse ... | head -1`, never relative selectors — sequential `--branch --wait` calls can review different ranges if anything lands mid-loop. The worked example pays this off: codex catches a broken slash command claude-code missed in all three iterations. Reviewer disagreement is treated as signal, and each agent's roborev job id is recorded so the ledger stays a one-line index into full job logs.
+- **Honest degradation.** A dead reviewer gets an `N/A` row with the actual error, one retry as a `1b` sub-iteration, then a waiver plus a **coverage caveat** in the closing caption. Two hard rules: never revive a subscription reviewer via `OPENAI_API_KEY`/`ANTHROPIC_API_KEY` ("a single-agent pass honestly captioned beats a two-agent pass faked with an API key"), and fix model-slug mismatches first (`400 ... not supported with a ChatGPT account` usually means the plan doesn't serve the requested model, not a dead subscription).
+- **The deliberate-pushback list as the convergence mechanism.** Findings you won't fix get at least two written reasons (one about the code, one about future direction), plus an explicit pre-declaration that iteration N+1 will re-raise them verbatim and that this is not a failure. The convergence criterion — "zero findings outside the pushback list" — is the only way reviewers that can't see prior turns can converge at all. Verified-false findings land on the same list as evidence records, not code changes.
+- **The Low tail and the budget stop.** A motivated reviewer generates a roughly steady stream of new Lows each iteration (observed: 5, 3, 4, 4) because each fix is itself new surface to critique — often the reviewer's own suggested one-liner draws the next finding. The skill's stop rule is budget-based (five iterations default, ten max), not "no findings," and insists the closing caption say "the remaining Lows are a reviewer tail," never "no Lows remain." A variant makes Lows pushback-by-default so a clean H/M run genuinely converges.
+- **Anti-Goodhart hygiene.** roborev's own verdict (Fail on any finding, even one Low) is explicitly demoted to "a mechanical gate, not your convergence criterion"; confirmatory passes are read on their merits because they surface real bugs; past iteration rows are never rewritten, only appended to, so the trajectory stays a diagnostic (rising regression rate → commits too coarse).
+
+## Design decisions
+
+- **Markdown over tooling.** The ledger is a plain file rather than a database or dashboard, because its reader is the next agent context window and its commit history is the diagnostic. The trade: no querying, no enforcement — every rule in the SKILL.md is honor-system for the agent following it.
+- **Private by design.** The ledger lives where it can never be published, and the skill forbids linking it from PRs — the reasoning trajectory is internal working state, not a public artifact. This is a deliberate split between the review *process* (private, honest about false positives and pushbacks) and the review *result* (public PR discussion written fresh).
+- **Subscription-only reviewers.** A cost/auth constraint elevated to a correctness principle: API-key fallback would silently change which model reviews what, so it's banned outright rather than permitted as a fallback. Unusual and arguably overly rigid, but it keeps coverage claims auditable.
+- **Process as a product.** The author's bet is that a well-specified *procedure* is distributable and installable the same way code is — the skill is essentially a runbook that Claude Code can be trusted to execute, which only works because every rule is written against observed failure modes from real loops.
+
+## Comparison notes
+
+- Where [[Poor Man's Loop Engineering]] describes hand-rolled loop bookkeeping as an ad-hoc practice, this repo is that practice formalized into an installable skill with a typed taxonomy — it's essentially the missing spec for what Poor Man's Loop Engineering does informally.
+- [[RADAR — Meta's Risk-Aware Diff Auto Review]] automates review gating in the pipeline; refine-and-polish instead assumes a human-agent driving the loop and invests entirely in the state that survives between review rounds — the two solve different halves of review-at-scale.
+- Compared with [[Matt Pocock Skills — Skills for Real Engineers]], which ships a broad composable skill library with multi-axis parallel review, refine-and-polish is a single deep skill focused on one problem (loop convergence), and its pushback-list convergence criterion is a sharper answer to "when do we stop" than reranking ever addresses.
+- Its insistence on captioning degraded coverage honestly is the same reflex as [[Getting Claude to QA Its Own Work]] — the checker must be able to distinguish "looked and found nothing" from "did not look"; here that distinction is an explicit `—` vs `N/A` cell in the ledger.
+
+---
+
+*Sources: [[raw/refine-and-polish]], [[summary/refine-and-polish]]*
+*Last updated: 2026-11-02*
