@@ -488,6 +488,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 - [[The State of Context Engineering (Reunig)]] — Drew Breunig's AGNTCon state-of-the-field talk: the four long-context failure modes, the six-tool harness toolbox, and 2026's new failure modes (fighting the weights, context inertia) cured by the oldest fix — delete your context around 200K tokens
 
+- [[Context as Infrastructure (Knowledge Compilation for Agentic Retrieval)]] — RAGFlow team's arXiv paper: a BM25+grep harness with no vector index already hits 91% on FRAMES, so retrieval's marginal value moves from finding to supplying — claim–evidence compilation cuts query tokens 38% on average while structural artifacts (trees, wikis, graphs) show no accuracy gain; the five-station harness and the agent-native database framing.
+
 - [[Connecting AI Agents to Enterprise Knowledge (MIT TR)]] — MIT TR Insights' Neo4j-sponsored survey of 300 executives: only 34% of agentic projects reach production, and the report pins the gap on knowledge — data understood in organizational context — with leaders worrying about security (72%) where everyone else still fights fragmentation (55%)
 
 - [[cross-encoder ms-marco-MiniLM-L6-v2]] — The Hugging Face model card for the 6-layer MS MARCO cross-encoder: retrieve-then-rerank usage, and a benchmark table where L6 matches L12's accuracy (74.30 vs 74.31 NDCG@10) at twice the throughput
