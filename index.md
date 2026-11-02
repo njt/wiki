@@ -625,6 +625,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 ## Security and Sandboxing
 
 [[Security and Sandboxing]] — Threats and containment for agents and the software they touch: sandboxing, permissions, prompt injection, supply chain, secrets, zero trust, and incident write-ups.
+- [[SandVault — Sandboxed Agent User Accounts]] — A ~8,500-line Bash toolkit that sandboxes YOLO-mode AI coding agents in a dedicated macOS user account plus a root-owned sandbox-exec profile, with CDP browser and iOS Simulator localhost bridges — VM-free containment for one developer's Mac.
 
 - [[Cloud Agents as OIDC Workloads (Formal)]] — Formal dogfoods OIDC federation to give Cursor/Devin cloud agents short-lived, policy-controlled production access: session-scoped tokens, Slack approval gates, and human-identity attestation reused from the Metabase BI pattern — with the honest caveat that the human identity is asserted, not proven.
 - [[Poisoning Attacks Need a Near-constant Number of Poison Samples]] — arXiv paper showing poisoning attacks against LLM pretraining need only ~250 poisoned documents regardless of model or dataset size (600M–13B params, 6B–260B tokens), upending the percentage-based threat model and making backdoors easier for large models than believed.
