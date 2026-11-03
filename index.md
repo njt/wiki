@@ -987,6 +987,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Developer Tools]] — Tools a developer picks up and uses: editors, terminals, CLIs, build systems, version control, and standalone utilities. A tool is filed here when the interesting thing is the tool itself rather than the idea behind it.
 
+- [[Grist 101 Webinar]] — Verbatim transcript of Grist's onboarding webinar: reference columns and "you never want data to repeat" as the pitch for a database disguised as a spreadsheet, plus access inheritance, linked widgets, and column-wide Python formulas — with telling omissions on access rules, pricing, and self-hosting.
 - [[Keplearn — Deterministic Symbolic Regression]] — owls-on-wires' ~7k-line Rust engine that recovers closed-form equations from tabular data by best-first recursive reduction: invertible chains of div/shell/affine reductions, log-linear monomial fits, constant snapping to rationals/π/e with holdout verification, and byte-exact deterministic output — 64.7% Feynman symbolic recovery at a fraction of AIFeynman's compute.
 
 - [[WinForms Designer]] — macauhome's standalone Visual Studio-style WinForms designer on .NET 10 with no design-time assemblies: a model-painted canvas, regex-based `.designer.cs` round-tripping, and a code generator emitting VS-identical files — and, per its own README, entirely AI-generated.
