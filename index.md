@@ -1173,6 +1173,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Tiny Audio]] — Alex Kroman's trainable-for-$25 ASR system: frozen speech encoder + frozen LLM joined by a ~80M-param MLP projector at 1.84% LibriSpeech WER, with measured findings on projector norms, LoRA perturbation vs full fine-tuning, and encoder random-walk — plus a batched HTTP server and a 3.5-hour course
 - [[When Smaller Models Win]] — An essay arguing that frontier general models are frequently the wrong tool for narrow tasks, and that small fine-tuned, self-hosted models — with control over the whole inference pipeline — are both cheaper and better…
 
+- [[Local Inference with Large Language Models (Mattheij)]] — Jacques Mattheij's practitioner guide to a $25k/8-GPU/240GB-VRAM local rig built for NDA-bound confidential proofreading: production-tested engine picks (llama.cpp over vLLM/SGLang), an all-Chinese open-weight model stable (Qwen 3.8 27B, DeepSeek, GLM 5.3), GPU-by-GPU hardware opinions, and PCIe switch boards for scaling past one case — ending at 3kW of "fancy space heater."
 ## AI Research and Models
 
 - [[OvisOCR3]] — ATH-MaaS's open-weight 0.8B multimodal model unifying document parsing, OCR, KIE, figure captioning and cross-page table reconstruction via task prompts; SOTA at its size, with unusually honest output-handling and security docs.
