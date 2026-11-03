@@ -189,6 +189,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 ## Claude Code
 
+- [[Grill-with-docs (Pocock Skills)]] — Matt Pocock's grilling + domain-modeling composition: a round-based design-tree interview with facts/decisions split and sub-agent fact-finding, plus inline GLOSSARY.md and three-test-gated ADRs as the session's durable output.
 [[Claude Code]] — Claude Code the product: skills, hooks, plugins, CLAUDE.md and steering files, subagents, prompting Claude models, cost and context management inside it, and write-ups of how people configure it. Generic agent-coding practice that would apply to any tool goes to agent-coding-workflow.
 
 - [[Greenroom and the Refine Ledger (jesserobbins-skills)]] — Jesse Robbins' two-skill marketplace on private scaffolding around public work: greenroom's wrapper layout keeping a private notes repo beside every public repo with script-enforced leak hygiene, and the roborev refine ledger's typed findings (NEW/REGRESSION/REPEAT/LOOP), deliberate-pushback list, and budget-based convergence discipline
