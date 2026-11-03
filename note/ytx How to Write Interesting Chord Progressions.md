@@ -1,6 +1,6 @@
 # ytx How to Write Interesting Chord Progressions
 
-Michael Keithson's radial mental model for harmony: a key centre with seven independent "strands" of harmonic options radiating outward. A 25-minute YouTube video, distilled by njt into a reference gist that prioritizes function over theory and practical shortcuts over memorization.
+Michael Keithson's radial mental model for harmony: a key centre with seven independent "strands" of harmonic options radiating outward. A 25-minute YouTube video, distilled by an automated ytx digest that prioritizes function over theory and practical shortcuts over memorization.
 
 ---
 

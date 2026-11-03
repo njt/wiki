@@ -1,7 +1,7 @@
 ---
 url: https://gist.github.com/njt/022cc46bcfca6d72131b198e9075ba0c
 title: "Continuous AI (with Don Syme)"
-author: Nat Torkington
+author: Don Syme (guest), Guy Podjarny and Simon Maple (hosts, AI Native Dev)
 date_fetched: 2026-08-26
 site: gist.github.com
 topics:

@@ -139,7 +139,7 @@ Notes from this theme not woven into the argument above.
 - [[20-20-20 Rule — Digital Eye Strain Study]] — the popular eye-break rule tested and found to have no measurable effect.
 - [[AI Coding Weekly]] — a newsletter tracking AI development tooling news.
 - [[All of Me Jazz Standard Analysis]] — harmonic analysis and scale choices for the 1931 standard.
-- [[ytx How to Write Interesting Chord Progressions]] — Michael Keithson's "strands from a key centre" model of harmony, with Nat's list of what it leaves out.
+- [[ytx How to Write Interesting Chord Progressions]] — Michael Keithson's "strands from a key centre" model of harmony, with the automated digest's list of what it leaves out.
 - [[Ben Vereen on Questlove Supreme]] — an episode on identity and self-knowledge; transcript not captured.
 - [[First Four Ships]] — the 1850 Canterbury settlers, for the New Zealand context.
 - [[Goeckerman Regimen]] — the 1925 tar-and-UVB psoriasis protocol that still outperforms biologics.

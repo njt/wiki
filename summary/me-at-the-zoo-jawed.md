@@ -1,7 +1,7 @@
 ---
 url: https://gist.github.com/ecfd5dc62e60a4aafd19f51e63502334
 title: "Me at the zoo — jawed"
-author: njt (gist), jawed / Jawed Karim (speaker)
+author: jawed (Jawed Karim)
 date_fetched: 2026-07-04
 date_published: 2026-05-14
 source: ytx gist (YouTube transcript + LLM summary)

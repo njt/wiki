@@ -1,6 +1,6 @@
 # Retail 2026 From AI Pilots to Execution
 
-Nat's critical summary of an iVendNext vendor webinar pitching AI for mid-market retail (10–100+ stores). The diagnosis is sharper than the prescription: $1.77T in retail losses from stock-outs and overstocks is framed as a data-fragmentation problem, not a supply-chain problem, and the 80% AI project failure rate is pinned on architecture rather than model capability. The demoed MCP server connecting Claude Desktop to retail data is the most technically interesting piece — a real instance of "build an MCP server, get an AI interface for free."
+An iVendNext vendor webinar pitching AI for mid-market retail (10–100+ stores). The diagnosis is sharper than the prescription: $1.77T in retail losses from stock-outs and overstocks is framed as a data-fragmentation problem, not a supply-chain problem, and the 80% AI project failure rate is pinned on architecture rather than model capability. The demoed MCP server connecting Claude Desktop to retail data is the most technically interesting piece — a real instance of "build an MCP server, get an AI interface for free."
 
 ---
 
@@ -38,7 +38,7 @@ The most practically useful advice in the webinar. Fast/Slow/Non-moving classifi
 
 - #pattern **ARIMA > Prophet for retail forecasting** — Default model is ARIMA, with Prophet and classical regression as options. ARIMA's strength on time-series with clear seasonal patterns (retail) makes it the pragmatic first choice. Prophet is better when you have holiday effects and trend changes.
 
-- #concept **The vendor omission checklist** — Nat's list of nine things the webinar didn't cover is more valuable than the content: data migration reality, change management, black swan limitations, competitive landscape, detailed ROI/cost, dynamic pricing roadmap, data privacy/compliance, scalability beyond mid-market, offline capability. This is a reusable template for evaluating any AI vendor pitch.
+- #concept **The vendor omission checklist** — The automated digest's list of nine things the webinar didn't cover is more valuable than the content: data migration reality, change management, black swan limitations, competitive landscape, detailed ROI/cost, dynamic pricing roadmap, data privacy/compliance, scalability beyond mid-market, offline capability. This is a reusable template for evaluating any AI vendor pitch.
 
 ---
 
@@ -50,7 +50,7 @@ The most practically useful advice in the webinar. Fast/Slow/Non-moving classifi
 
 **The 300% ROI / 18 months claim is vendor math.** Without published case studies or third-party validation, treat it as directional at best. The 15–30% stock-out reduction and 20% lower carrying costs are plausible first-order effects; the compounding ROI number smells like spreadsheet optimism.
 
-**The omission list is the real content.** Nat's nine gaps — especially the absence of change management, data migration reality, and black swan limitations — are exactly what separates a vendor pitch from a deployment plan. Any retailer considering this platform should answer those six unresolved questions before signing.
+**The omission list is the real content.** The digest's nine gaps — especially the absence of change management, data migration reality, and black swan limitations — are exactly what separates a vendor pitch from a deployment plan. Any retailer considering this platform should answer those six unresolved questions before signing.
 
 **N8N and AI agents got name-checked but not demoed.** The N8N node for workflow automation and AI agents for autonomous multi-step tasks are on the roadmap, not the product. This is a common vendor pattern: mention the ambitious thing to sound visionary, demo the thing that actually works.
 

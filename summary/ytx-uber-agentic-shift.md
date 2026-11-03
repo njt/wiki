@@ -7,7 +7,6 @@ date_fetched: 2026-07-04
 date_published: 2026-05-18
 channel: The Pragmatic Engineer
 duration: 37m 39s
-ytx_by: njt (Nick Tomlin)
 topics:
   - agent-coding-workflow
   - agent-orchestration

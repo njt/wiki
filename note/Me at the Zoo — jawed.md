@@ -28,7 +28,7 @@ The most consequential line in YouTube history. No hedging, no padding, no "like
 
 ## Critical Analysis
 
-The gist (by njt) treats this video through an LLM-summary lens, and the friction between the two is the most interesting thing here. An LLM, asked to summarize this video, produced sections on "Tools, Practices, and Methodologies" (none) and "Significant Omissions" (everything). The summary format itself — key points, quotes, next steps — is a structure designed for content that *has* structure. Applying it to 19 seconds of "really really really long fronts" exposes the format's assumptions: that content should have takeaways, that omissions are deficits, that there should be a methodology to extract.
+The gist, an automated ytx digest, treats this video through an LLM-summary lens, and the friction between the two is the most interesting thing here. An LLM, asked to summarize this video, produced sections on "Tools, Practices, and Methodologies" (none) and "Significant Omissions" (everything). The summary format itself — key points, quotes, next steps — is a structure designed for content that *has* structure. Applying it to 19 seconds of "really really really long fronts" exposes the format's assumptions: that content should have takeaways, that omissions are deficits, that there should be a methodology to extract.
 
 But the video's power is precisely that it resists extraction. You can't summarize it better than the transcript. The summary is longer than the source material. The LLM's "Significant Omissions" section — noting the absence of elephant facts, zoo context, the word "trunk" — misses that the omissions *are* the content. This isn't a failed educational video. It's a successful demonstration that you don't need to educate to be worth watching.
 
@@ -49,4 +49,4 @@ The enthusiasm is the thing. "And that's cool" — said without irony, without p
 
 ---
 
-*Source: [ytx gist](https://gist.github.com/ecfd5dc62e60a4aafd19f51e63502334) by njt, summarizing [Me at the zoo](https://www.youtube.com/watch?v=jNQXAC9IVRw) by jawed (Jawed Karim), the first video uploaded to YouTube (April 23, 2005). Gist transcribed 2026-05-14. Wiki page created 2026-07-04.*
+*Source: [ytx gist](https://gist.github.com/ecfd5dc62e60a4aafd19f51e63502334) published by njt: an automated ytx summary of [Me at the zoo](https://www.youtube.com/watch?v=jNQXAC9IVRw) by jawed (Jawed Karim), the first video uploaded to YouTube (April 23, 2005). Gist transcribed 2026-05-14. Wiki page created 2026-07-04.*

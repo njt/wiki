@@ -1,7 +1,7 @@
 ---
 url: https://gist.github.com/njt/23c08df43340b155bc4a706d1aaaa937
 title: "ASP.NET Core Authentication — The Dirty Details — Chris Klug — NDC Copenhagen 2026"
-author: Chris Klug (summary by Nat Torkington)
+author: Chris Klug
 date: 2026-08-07
 source_date: 2026
 topics:

@@ -1,10 +1,10 @@
 ---
 url: https://gist.github.com/njt/6f01cc4ac4835314dabf86b50c06947c
 title: "Your Coding Agent Should Do AI System Engineering (Ben Burtenshaw, Hugging Face)"
-author: njt (notes), Ben Burtenshaw (speaker, Hugging Face)
+author: Ben Burtenshaw (Hugging Face)
 date_fetched: 2026-06-04
 date_published: 2026-06-04
-source: AI Engineer Conference talk, transcribed by njt
+source: AI Engineer Conference talk, transcribed and summarized automatically by ytx
 topics:
   - agent-coding-workflow
 ---
@@ -13,7 +13,7 @@ topics:
 
 Notes and transcript from Ben Burtenshaw's (Hugging Face) talk at the AI Engineer conference. The core thesis: coding agents can tackle the hardest AI engineering problems — CUDA kernel writing, zero-shot fine-tuning, and multi-agent auto-research labs — and standard repos on the Hub are the enabling infrastructure.
 
-## Key Points (per njt's notes)
+## Key Points (per the automated digest)
 
 1. **Coding agents tackle hard AI engineering** — systems-level work like custom CUDA kernels, fine-tuning LLMs, and autonomous research loops. Framed as a way to stay contemporary and move "closer to the silicon."
 
@@ -58,7 +58,7 @@ Notes and transcript from Ben Burtenshaw's (Hugging Face) talk at the AI Enginee
 
 Implemented in Open Code (also works with Codex and Claude Code). Uses git branches for experiments, a data structure on main for scores, and agent-to-agent communication via tables.
 
-## Unanswered Questions (per njt)
+## Unanswered Questions (per the automated digest)
 
 - Reliability/safety of agent-generated kernels (no correctness verification beyond benchmarking)
 - Real cost of auto-research lab (no cost controls or experiment pruning discussed)

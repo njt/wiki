@@ -1,7 +1,7 @@
 ---
 url: https://gist.github.com/njt/7c5d303e0820ea20985408039d8f57f8
 title: "Data Engineering Central Podcast – Wes McKinney on Pandas, Apache Arrow & Data Infrastructure"
-author: Nat Torkington (njt)
+author: Wes McKinney (guest), Dan Beach (host)
 date_fetched: 2026-07-18
 date_published: 2026-07-18
 topics:
@@ -16,4 +16,4 @@ Apache Arrow, started at Cloudera in 2016, is described as category-defining tec
 
 The conversation touches persistent data problems — moving data between systems, format conversion, the "last mile" — and the shift from the data-engineering boom toward AI tooling. Wes is cautiously optimistic about AI: it rewards people with agency, taste, and judgment, but risks turning those without into "slop cannons." He advises new engineers to study software architecture and data systems, not just coding.
 
-**Source:** A Nat Torkington gist containing a structured summary and full transcript of the podcast episode.
+**Source:** A ytx gist containing an automated LLM summary and full transcript of the podcast episode.

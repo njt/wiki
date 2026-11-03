@@ -1,7 +1,7 @@
 ---
 url: https://gist.github.com/njt/b2fa5bcb48df9d7dfe09f24e3446af72
 title: "ytx: How to write interesting chord progressions — Michael Keithson"
-author: njt (Nat Torkington)
+author: Michael Keithson
 date_fetched: 2026-05-15
 date_published: 2026-05-14
 source_type: gist
@@ -13,7 +13,7 @@ topics:
 
 # ytx: How to write interesting chord progressions — Michael Keithson
 
-Gist by njt containing a summary and full transcript of Michael Keithson's 25-minute YouTube video on harmonic theory for songwriters and improvisers.
+A ytx gist containing an automated LLM summary and full transcript of Michael Keithson's 25-minute YouTube video on harmonic theory for songwriters and improvisers.
 
 ## summary.md — Key Points
 
