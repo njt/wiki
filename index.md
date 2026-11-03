@@ -987,6 +987,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Developer Tools]] — Tools a developer picks up and uses: editors, terminals, CLIs, build systems, version control, and standalone utilities. A tool is filed here when the interesting thing is the tool itself rather than the idea behind it.
 
+- [[Satellite-Grade Traceability in Grist (Dotphoton Webinar)]] — Dotphoton's CTO on delivering ESA-grade V-model requirements traceability with Grist + GitHub + LaTeX/Typst + Docker: the repo as the release, Word/Notion/Doors rejected on reproducibility and price, doc-to-execution ratio cut from 5:1 to 2:1–3:1
+
 - [[Keplearn — Deterministic Symbolic Regression]] — owls-on-wires' ~7k-line Rust engine that recovers closed-form equations from tabular data by best-first recursive reduction: invertible chains of div/shell/affine reductions, log-linear monomial fits, constant snapping to rationals/π/e with holdout verification, and byte-exact deterministic output — 64.7% Feynman symbolic recovery at a fraction of AIFeynman's compute.
 
 - [[WinForms Designer]] — macauhome's standalone Visual Studio-style WinForms designer on .NET 10 with no design-time assemblies: a model-painted canvas, regex-based `.designer.cs` round-tripping, and a code generator emitting VS-identical files — and, per its own README, entirely AI-generated.
