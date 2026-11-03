@@ -875,6 +875,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Databases and Data]] — Storage engines, query systems, data modelling, file formats, data pipelines, and how data systems are designed and operated.
 - [[DuckLake — SQL as a Lakehouse Format]] — DuckDB's open lakehouse format that replaces Iceberg/Delta file-based metadata with a plain SQL database as catalog: one ACID transaction per change, inlined small writes, millions of snapshots, and a DuckDB extension turning it into a client-server warehouse.
+- [[DuckLake Performance Tuning (MotherDuck Webinar)]] — MotherDuck webinar on making DuckLake faster and cheaper: the "metadata in the wrong spot" case against Iceberg, the three-bucket tuning framework (catalog/storage/compute), partitioning and Hilbert-curve sorting, inlining for small writes, and agent-driven design-of-experiments parquet tuning worth ~40%.
 
 - [[DuckRouting]] — DuckDB community extension bringing pgRouting's semantics to SQL: Dijkstra/A*/ksp/flow/spanning-tree/centrality/map-matching as table functions over any edges query, verified differentially against pgRouting's own test output.
 - [[Infino — Search Index on Object Storage]] — Infino's retrieval engine keeps its BM25/vector index on S3 and redesigns the storage layer around one insight: on object storage the scarcest resource is round trips, not CPU. Single-object Parquet "superfiles", an inlining manifest, a term index that prunes thousands of superfiles without opening them, and background disk caching.
