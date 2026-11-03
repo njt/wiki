@@ -493,6 +493,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Agent Memory and Context]] — What an agent remembers and what it sees: context engineering, memory architectures, retrieval, summarisation, compaction, and the limits of long context.
 
+- [[Vedana Webinar — Minimal Modeling in Grist]] — Epoch8/Grist webinar transcript: expert-authored "minimal modeling" domains (anchors, attributes, links) stored as three Grist tables serve as agent context so Vedana can query exact values from Memgraph instead of guessing from chunks — with the vendor caveat that the evidence is anecdotal and "no AI can help you here" is asserted, not tested.
 - [[TinyContext — Local SQLite Memory for Agents]] — TinySuite tutorial adding long-term memory via MCP or a 60-line Python loop: two tools (save/recall) plus steering instructions, profile vs episodic facts, BM25+embedding recall under a token budget in one local SQLite file, and an honest comparison table against chat history, summaries, memory files, vector DBs and Mem0/Zep
 - [[The State of Context Engineering (Reunig)]] — Drew Breunig's AGNTCon state-of-the-field talk: the four long-context failure modes, the six-tool harness toolbox, and 2026's new failure modes (fighting the weights, context inertia) cured by the oldest fix — delete your context around 200K tokens
 
