@@ -974,6 +974,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Why AI Cannot Save an Enterprise That Doesn't Understand Its Data]] — Younss (co-authored with Mustapha Fonsau, CIO at Talentys) argues that AI does not fix enterprises that lack an explicit understanding of their own data — it accelerates their mistakes and removes the human pause in…
 - [[ClueCDC]] — Open-source control plane (FastAPI + Next.js) wrapping Debezium/Kafka/Kafka Connect: CDC readiness validation, per-table resnapshot signalling, Fernet-encrypted secrets via a Connect ConfigProvider, and lease-based reconcile jobs. CDC records never touch its API.
 
+- [[Cassis Ontology Skills]] — GetCassis's Claude Code skills + Python bootstrap kit that assembles an analytics agent's ontology (domains, tables, columns, metrics, joins) from schema/dbt/dashboard material, with deterministic evidence mining, eight verification gates, an LLM judge over claim/SQL pairs, four human checkpoints, and a structured open-questions tier system with a publish gate.
+
 ## Distributed Systems
 
 [[Distributed Systems]] — Consensus, replication, failure modes, networking, event-driven versus polling designs, and the operational realities of systems spread over many machines.
