@@ -1005,6 +1005,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 ## Developer Tools
 
+- [[Hyperbutler]] — An Apache-2.0 Docker-compatible engine for Windows 11 that boots an Alpine VM via Hyper-V's Host Compute Service with no WSL and no admin rights, pairing a FUSE-over-hvsock file server and gVisor egress-policed network stack with an untrusted-text-quarantining MCP server for AI agents
+
 [[Developer Tools]] — Tools a developer picks up and uses: editors, terminals, CLIs, build systems, version control, and standalone utilities. A tool is filed here when the interesting thing is the tool itself rather than the idea behind it.
 
 - [[Grist 101 Webinar]] — Verbatim transcript of Grist's onboarding webinar: reference columns and "you never want data to repeat" as the pitch for a database disguised as a spreadsheet, plus access inheritance, linked widgets, and column-wide Python formulas — with telling omissions on access rules, pricing, and self-hosting.
