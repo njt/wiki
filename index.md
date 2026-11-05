@@ -382,6 +382,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 - [[Droid 1.0 — Building a Frontier Harness (Factory)]] — Factory's engineering paper disguised as a product launch: Script-mode programmatic tool calling (312 tool calls in 2 requests), an Agent Factory tuning against every model family, 98% prompt-cache reuse, a 37% smaller base prompt, and careful-but-self-reported head-to-head numbers vs Claude Code and Codex.
 
+- [[Nidra]] — Sophia Labs' fork of Auto Ontology with Postgres removed: the catalog lives as RDF in a gardend graph via a mechanical W3C Direct Mapping of the SQLAlchemy metadata, DAL reads become SPARQL ports graded against NVIDIA's own 1,068-read golden captures plus a write-diff harness, and the vector index hangs as triples off the catalog rows with a locally-embedded e5-small model.
 - [[NVIDIA Auto Ontology]] — NVIDIA's open-source semantic/ontology context layer for analytics agents: metadata compiled into certified terms and SQL attributes in Postgres/pgvector, a ~25-node LangGraph text-to-SQL pipeline with validated reconstruction loops, and a deliberately curated read-only MCP server that refuses to expose raw schemas.
 
 - [[CAVE — Compressed Atomic Verb Expressions]] — Mirek Rusin's plain-text claim language and CLI: append-only belief store with sources, confidence, rules and lineage, plus an MCP server and governed-write actions so agents get a vocabulary of allowed writes instead of free-form appends.
