@@ -650,6 +650,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 ## Security and Sandboxing
 
 [[Security and Sandboxing]] — Threats and containment for agents and the software they touch: sandboxing, permissions, prompt injection, supply chain, secrets, zero trust, and incident write-ups.
+- [[NIST Design Tenets for Agentic Identity]] — NIST/NCCoE's ten design tenets for agent IAM: distinct identities, attenuating delegation, zero standing privilege, JIT access, signed mandates, architectural separation of policy from reasoning, deterministic access decisions, and independent append-only audit — with a comment thread surfacing the device-bound-credential hole at the root of the chain of trust.
 - [[SandVault — Sandboxed Agent User Accounts]] — A ~8,500-line Bash toolkit that sandboxes YOLO-mode AI coding agents in a dedicated macOS user account plus a root-owned sandbox-exec profile, with CDP browser and iOS Simulator localhost bridges — VM-free containment for one developer's Mac.
 
 - [[Cloud Agents as OIDC Workloads (Formal)]] — Formal dogfoods OIDC federation to give Cursor/Devin cloud agents short-lived, policy-controlled production access: session-scoped tokens, Slack approval gates, and human-identity attestation reused from the Metabase BI pattern — with the honest caveat that the human identity is asserted, not proven.
