@@ -96,3 +96,4 @@
 - https://youtu.be/ef568d0CrRY — backfill thin/empty (124 chars) via HTTP; retry with surf (1000-players-simulate-civilization) 2026-07-05
 - https://youtu.be/ef568d0CrRY — backfill thin/empty (124 chars) via HTTP; retry with surf (ish-1000-players-civilization-youtube) 2026-07-05
 - http://bair.berkeley.edu/blog/2026/07/26/abbel/ — fetch empty (exit 3); surf navigate: tab reaches URL but 'Content script not loaded' for 60 s; curl TCP connect times out (20 s) on http and https — host unreachable from here; retry later 2026-09-13
+- https://x.com/addyosmani/status/2117512471930167377 — X Article "Critical thinking when agents do the work" (Addy Osmani): curl/trafilatura empty, xcancel suspended, surf page text truncated at 50 KB by inlined CSS and surf js refused on the tab ("Cannot control this page"); grab the article text by hand and ingest with --content (2026-11-06)
