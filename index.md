@@ -1187,6 +1187,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 ## AI Research and Models
 
 - [[OvisOCR3]] — ATH-MaaS's open-weight 0.8B multimodal model unifying document parsing, OCR, KIE, figure captioning and cross-page table reconstruction via task prompts; SOTA at its size, with unusually honest output-handling and security docs.
+- [[Piston v0.1 — A Causal Model That Knows When It Cannot Answer]] — OlynkAI's 12M-parameter open-weight causal time-series model that estimates intervention effects in context and refuses via a trained `p_answerable`; 27.6% better than classical and foundation-model baselines on its frozen synthetic benchmark, with a limitations section that admits a home advantage and no real-data evaluation.
 
 [[AI Research and Models]] — Papers, model releases and evaluations: architectures, training, reasoning, benchmarks, and what the frontier labs and researchers are finding.
 
