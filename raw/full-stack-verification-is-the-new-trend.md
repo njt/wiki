@@ -1,0 +1,34 @@
+---
+url: https://wiki.alcidesfonseca.com/blog/full-stack-verification-is-the-new-trend/
+date_fetched: 2026-11-06
+---
+
+There have been several recent announcements about formal verification of software and hardware, both using AI and for AI systems:
+
+- Harmonic announced last week that they are using their agent Aristotle for scalable verification of both software and hardware. For example, in a C library for big-number arithmetic, it was able to fix bugs and prove that a faster version was equivalent to the original. The person whose work I particularly follow in this area is Satnam Singh, who has worked on hardware verification for several years.
+- SF-Tensor announced that they were formalizing NVIDIA’s PTX language in Lean to prove the correctness of GPU kernels. SF-Tensor was founded by three brothers at the age of 19, after they had completed their BSc degrees at 16 while attending high school.
+- &Truth came out of stealth, announcing plans to use Lean to prove the correctness of AI-generated software. Key people involved include Clark Barrett, known for his work on cvc5 and CSLib; Ilya Sergey, known for Veil and his work on verification using separation logic; and Sebastian Ullrich, Lean’s second-in-command.
+- Theorem. and Anthropic worked together on verifying open-source software running on a RISC-V processor. Their work covered encode–decode round-tripping, idempotence, algebraic laws, differential testing, self-consistency, and equivalence to reference implementations. They also proved isolation properties of a sandbox built on the xv6 academic kernel.
+- AutoResearch.inc has also announced they have verified 7 web assembly tools down to ELF and sys calls (on x86-64 and RISC-V).
+
+The common factor in these announcements is the goal of achieving full-stack formalization, either across the software stack or across a combination of software and hardware. In the past, verification was performed only on a small core of the software or on a simplified model of the actual software.
+
+For reference, AWS’s access-control language, Cedar, had a Rust implementation running in production and a reference implementation—first in Dafny and later in Lean—that was verified for correctness.
+
+One approach would be to develop Cedar entirely in Lean, compile to C, and deploy the generated C code in production. In addition to the formal model, we would write an optimized and full-featured implementation (which handles errors and messages more carefully, provides parsers for various formats, etc.) in Lean, and then prove the two equivalent. A key benefit of this approach is that we would formally verify—rather than just test—the equivalence of the deployed code and model. But there are significant downsides to writing production applications in Lean and deploying its generated C code. Lean is a new programming language, so it has a limited developer pool and lacks useful libraries available in mainstream languages. Debugging a failure might necessitate stepping through the generated C code and mapping it back to the Lean source, requiring expertise in C and Lean. Doing so could be particularly difficult if the failure is due to an interaction between handwritten code and Lean-generated C code. In addition, C is a memory-unsafe language, so a bug in the Lean compiler could lead to security issues.
+
+
+— How We Built Cedar: A Verification-Guided Approach (April 2024)
+
+Over the past year, I have been talking about liquid types as my personal preference for program verification. Liquid types are a restricted form of value-dependent types whose constraints can be checked automatically using SMT solvers. This is my sweet spot: you get much of the benefit of an expressive type system in which you can express properties such as typestate, preventing methods from being called when an object is in the wrong state—for example, calling `read()` after `close()`. And it comes at a much lower cost, especially because you do not have to write the proofs: the SMT solver takes care of that.1
+
+Until a few months ago, this trade-off was very important: very few people in the world had the expertise and time to undertake the full verification of a large open-source project (props to the seL4 folks!). Frontier models’ superhuman ability to generate proofs has since eroded this moat, and subsidized token prices make this the perfect time to conduct these experiments. I have to admit that the image above, which I used in my recent slides, might no longer make sense. It might become relevant again when token prices rise—probably to reflect their actual costs—and we need to save time and tokens while still verifying properties we care about, without going all the way down to the machine-code level.2
+
+Right now, if we pursue full-stack verification, we might need to write code in a verification-first language like Lean. Dafny and my own aeon could be candidates, but Lean’s functional programming model and the substantial funding the project receives make it the ideal candidate. Rocq enthusiasts might not like it, but extracting executable code to OCaml is not such a significant advantage in the real world.
+
+But we need Lean to improve. Above all, we need faster type checking and a much better optimizer. That’s the part that Bend2 got right from the start—the next mainstream language will require both verification and speed.
+
+- 
+Using proof combinators, you can use LiquidHaskell to achieve the same expressive power as Lean. Conversely, you can use Lean with only the `grind`tactic to achieve the same lower cost as liquid types. Here, I am considering each as it is typically used. ↩
+- 
+I am convinced that people will not read the source code and will instead rely on new techniques to establish confidence in the generated code. ↩
