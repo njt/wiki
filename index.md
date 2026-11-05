@@ -380,6 +380,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Coding Agents and Frameworks]] — Specific agents, harnesses, frameworks, runtimes and SDKs as projects: what they are, how they are built, and how they compare. File a source here when the interesting thing is the project itself rather than a general design principle.
 
+- [[Nidra]] — Sophia Labs' fork of Auto Ontology with Postgres removed: the catalog lives as RDF in a gardend graph via a mechanical W3C Direct Mapping of the SQLAlchemy metadata, DAL reads become SPARQL ports graded against NVIDIA's own 1,068-read golden captures plus a write-diff harness, and the vector index hangs as triples off the catalog rows with a locally-embedded e5-small model.
 - [[NVIDIA Auto Ontology]] — NVIDIA's open-source semantic/ontology context layer for analytics agents: metadata compiled into certified terms and SQL attributes in Postgres/pgvector, a ~25-node LangGraph text-to-SQL pipeline with validated reconstruction loops, and a deliberately curated read-only MCP server that refuses to expose raw schemas.
 
 - [[CAVE — Compressed Atomic Verb Expressions]] — Mirek Rusin's plain-text claim language and CLI: append-only belief store with sources, confidence, rules and lineage, plus an MCP server and governed-write actions so agents get a vocabulary of allowed writes instead of free-form appends.
