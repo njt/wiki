@@ -384,6 +384,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Coding Agents and Frameworks]] — Specific agents, harnesses, frameworks, runtimes and SDKs as projects: what they are, how they are built, and how they compare. File a source here when the interesting thing is the project itself rather than a general design principle.
 
+- [[ASE — Man-Page Discipline for Agent Skills]] — Dr. Ralf S. Engelschall's ASE catalog: 147 agent skills documented as Unix man pages and running as a plugin across Claude Code, Copilot CLI, and Codex CLI, with a task-plan spec lifecycle, deterministic alias expansion, and a self-test that rates how faithfully the host model can execute the skills' control language.
 - [[Droid 1.0 — Building a Frontier Harness (Factory)]] — Factory's engineering paper disguised as a product launch: Script-mode programmatic tool calling (312 tool calls in 2 requests), an Agent Factory tuning against every model family, 98% prompt-cache reuse, a 37% smaller base prompt, and careful-but-self-reported head-to-head numbers vs Claude Code and Codex.
 
 - [[Nidra]] — Sophia Labs' fork of Auto Ontology with Postgres removed: the catalog lives as RDF in a gardend graph via a mechanical W3C Direct Mapping of the SQLAlchemy metadata, DAL reads become SPARQL ports graded against NVIDIA's own 1,068-read golden captures plus a write-diff harness, and the vector index hangs as triples off the catalog rows with a locally-embedded e5-small model.
