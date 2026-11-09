@@ -190,6 +190,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 ## Claude Code
 
+- [[Tokens per Merged PR — Measuring Agent Fleet Efficiency]] — Alex Marquardt's ten-week transcript-based accounting of a Claude Code agent fleet: tokens per merged PR down 5.5x via one task per agent with a hook-enforced context ceiling, warm prompt caches (idle expiry was 31% of usage), and a program replacing the AI coordinator — measured per unit of work, with a candid negative-results table.
 - [[Grill-with-docs (Pocock Skills)]] — Matt Pocock's grilling + domain-modeling composition: a round-based design-tree interview with facts/decisions split and sub-agent fact-finding, plus inline GLOSSARY.md and three-test-gated ADRs as the session's durable output.
 [[Claude Code]] — Claude Code the product: skills, hooks, plugins, CLAUDE.md and steering files, subagents, prompting Claude models, cost and context management inside it, and write-ups of how people configure it. Generic agent-coding practice that would apply to any tool goes to agent-coding-workflow.
 
