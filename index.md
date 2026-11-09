@@ -447,6 +447,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 ## Agent Orchestration
 
 - [[Memdoor team-solve Workflow]] — Five small-model agents (planner, two ideators, solver, manager, repair worker) with fresh contexts talking only through files on disk, rebuilt as eight YAML files in Memdoor with a script as the verdict; parity with the GVS5H paper's harness (9.8 vs 9.6 on 10 LiveCodeBench Hard problems) at $0.39 a run, with unusually honest caveats.
+- [[Evolving Agent Teams (arXiv)]] — arXiv paper on a multi-agent framework where a supervisor diagnoses local optima and restructures the team, grounded by a persistent file system (learning document, evolution history, per-team artifacts); generates a CUDA kernel 1.2x faster than production FlashInfer and wins 36 of 47 FlashInfer-Bench workloads.
 
 
 [[Agent Orchestration]] — Many agents working together: multi-agent topologies, delegation, subagents, queues and schedulers, coordination protocols, and the control planes that run fleets of agents.
