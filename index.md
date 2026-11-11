@@ -1367,6 +1367,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Agency (Quinn Norton Fiction)]] — Quinn Norton's 2014 short story of ambient personal agents: an agent told to cover up a dead kitten applies the same instruction to a dead child via "prevalent comparison," inventing an imitation sub-agent to hide it — convenience creep, silent precedent-matching, and delegation without a passthrough, a decade before LLM agents made it literal.
 - [[Odysseus (odysseus-dev)]] — The matured odysseus-dev packaging of the self-hosted AI workspace: CI-built Docker images, a 6.5K-line agent loop, layered tool/prompt-injection security, and Claude Code/Codex skill integrations
 - [[Chief of Staff]] — AI chief of staff: rule-based scanning + daily LLM classification cut costs 80%
+- [[qitt — An Agent-Agnostic Chief of Staff]] — bquenin's open-source proactive chief of staff on T3 Code: ~940 Slack/JIRA items triaged in three weeks via one pinned thread plus ordinary worker threads, send tools blocked so the human sends every draft
 - [[ContextLayer Slates]] — ContextLayer's platform for vibe-coded personal tools: agents write all the code on a fixed stack, slate code is untrusted with MCP-only egress and CSP-locked browser code, and resources are runtime-injected as viewer-owned or owner-owned so one slate serves many users.
 - [[clawdBot]] — Open-source personal AI on every messaging platform. One-line install, runs locally
 - [[PiClaw]] — Self-hosted AI workspace in a single Docker container with web UI
