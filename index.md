@@ -526,6 +526,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Agent Memory and Context]] — What an agent remembers and what it sees: context engineering, memory architectures, retrieval, summarisation, compaction, and the limits of long context.
 
+- [[The New Knowledge Artifacts of the AI Economy]] — Tim O'Reilly's Radar essay arguing source code is being displaced by "context bundles" (specs, skills, MCP servers, agent traces, evals) as software's primary shareable artifact, with the coordinating institutions for the context era still unbuilt
 - [[TinyContext — Local SQLite Memory for Agents]] — TinySuite tutorial adding long-term memory via MCP or a 60-line Python loop: two tools (save/recall) plus steering instructions, profile vs episodic facts, BM25+embedding recall under a token budget in one local SQLite file, and an honest comparison table against chat history, summaries, memory files, vector DBs and Mem0/Zep
 - [[The State of Context Engineering (Reunig)]] — Drew Breunig's AGNTCon state-of-the-field talk: the four long-context failure modes, the six-tool harness toolbox, and 2026's new failure modes (fighting the weights, context inertia) cured by the oldest fix — delete your context around 200K tokens
 
