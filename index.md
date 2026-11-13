@@ -1041,6 +1041,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 ## Developer Tools
 
+- [[AWS Emulator (Repository Anatomy)]] — AWS's own local emulator of the AWS APIs: 437 Smithy-model-driven Rust service crates (~1.16M lines) behind one claim-based router, an in-process embedded mode that drops into the SDK as an HttpClient, honest 501-until-implemented semantics, and public fidelity scores with ~6,900 tracked gaps.
 - [[Astryx]] — Meta's open source design system (React 19 + StyleX, 150+ components) rebuilt for humans and coding agents: a CLI-first discovery surface with typed JSON envelopes, hash-managed agent-doc injection, spec-record review governance, and vibe tests that empirically validate API naming against LLMs.
 - [[EventCatalog]] — Self-hosted architecture documentation tool: domains/services/messages as one connected model with schemas and owners, an MCP server so agents can query architecture context, and agent-written doc updates kept current under human review.
 - [[Hyperbutler]] — An Apache-2.0 Docker-compatible engine for Windows 11 that boots an Alpine VM via Hyper-V's Host Compute Service with no WSL and no admin rights, pairing a FUSE-over-hvsock file server and gVisor egress-policed network stack with an untrusted-text-quarantining MCP server for AI agents
