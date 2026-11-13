@@ -933,6 +933,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[What Is Columnar Storage (MotherDuck)]] — MotherDuck's measured guide to columnar vs row storage: five stacked mechanisms (pruning, skipping, compression, vectorization, late materialisation), the Parquet/Arrow/table-format taxonomy, and unusually honest anti-advice on when columnar loses.
 
 - [[MotherDuck Getting Started]] — MotherDuck's landing docs: a serverless DuckDB warehouse with per-agent "hypertenancy" compute isolation, a remote MCP server for talking to data, and prompt-generated Dives dashboards — a database pitched at agents as a first-class customer segment.
+
+- [[Dispelling LTAP Myths]] — Databricks rebuts four misreadings of LTAP (it's CDC, two formats = two copies, analytics is stale, just decode WAL in parallel) with the tier-vs-replica test, single-LSN consistent reads, and page-level rather than log-record parallelism: the lake is the database's durable tier, not a second database.
 - [[MotherDuck Data Warehousing Overview]] — MotherDuck's docs pitch: serverless DuckDB cloud warehouse with "hypertenancy" per-principal isolated compute, Postgres-wire serving, and agents as a first-class load class via MCP server, Guides, and agent-maintained Flights
 - [[MotherDuck Customer-Facing Analytics]] — MotherDuck's vendor case that embedded analytics for external users needs per-tenant DuckDB instances (hypertenancy) and browser-side DuckDB-Wasm (dual execution), with three implementation patterns (Embedded Dives, 3-tier, 1.5-tier) and honest ceilings on each
 
