@@ -1419,6 +1419,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 ## Ideas and Culture
 
+[[All 178 Notes I Took on Writing Fiction]] — Cristina White's two-year MFA fiction notebook typed out and sorted: 178 aphorisms on character-as-action, revision as the real art, and tolerating your own bad writing.
 
 [[Ideas and Culture]] — Essays and arguments about how we think and work: philosophy, history, creativity, organisations, learning, and the culture around technology.
 - [[Introspection Tax]] — Igor Schwarzmann's concept note naming the disproportionate time, space and attention cost of the self-articulation AI-augmented work demands: the limiter is "time, not talent", the tax is recurring and unequally affordable, introspection is real as a cost but unreliable as an investment, and the remedy is external behavioral feedback over navel-gazing.
