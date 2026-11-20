@@ -782,6 +782,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 [[Software Engineering Craft]] — Engineering practice that predates and outlasts agents: simplicity, architecture, code review, testing, refactoring, debugging, technical writing, and how teams ship.
 
 - [[The Future of AI Coding is Boring]] — A pessimistic essay on AI coding's three unsolved problems: collapsed learning loops, inevitable codebase erosion under LGTM review, and AI slop plus accelerated management — the engineer as caretaker of code nobody understands.
+
+- [[Why Notification Systems Are a Nightmare]] — How a one-line "send a receipt email" ticket accretes into a 25-line notify() plus a workflow engine, with each step anchored to a real incident (Salesloft, Zoho, Buttondown, HBO Max, Everbridge) and the lesson that no piece is hard but they all touch each other.
 - [[Why Lisp Thrives in the Age of AI (Cameron Barr)]] — Developer Voices interview arguing Clojure is matched to the agent era twice over: the REPL gives agents a live verification loop, and a DSL like Grain gives them code-level constraints markdown specs can't — with the Rails-to-Grain rewrite as the worked example.
 - [[Building a Music Engraving System (Note Universe)]] — A solo pianist's two-year music engraving engine: decoupled layout/rendering via a Renderables abstraction, ASCII-fixture unit tests plus 200+ dual-purpose screenshot goldens, a year of development handed entirely to Claude Code, and LLM-composed MusicXML as a content pipeline.
 - [[Amundsen's Maxim]] — The four models of an API — data, object, resource, message — must be designed independently; a page collecting and explaining the maxim's three separations and their REST/DDD lineage.
