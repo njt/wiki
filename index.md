@@ -782,6 +782,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Software Engineering Craft]] — Engineering practice that predates and outlasts agents: simplicity, architecture, code review, testing, refactoring, debugging, technical writing, and how teams ship.
 
+- [[Quebec (Yarn's Forced Aligner)]] — Yarn built a forced aligner reaching 77% of word edges within 20 ms of human labels (next best 54%, human agreement ~79%): a fenced exact decoder over MFA, a 19 MB boundary net, and Gemini-generated training labels validated three ways — measure-first ML engineering, constraints over model size.
+
 - [[The Future of AI Coding is Boring]] — A pessimistic essay on AI coding's three unsolved problems: collapsed learning loops, inevitable codebase erosion under LGTM review, and AI slop plus accelerated management — the engineer as caretaker of code nobody understands.
 
 - [[Why Notification Systems Are a Nightmare]] — How a one-line "send a receipt email" ticket accretes into a 25-line notify() plus a workflow engine, with each step anchored to a real incident (Salesloft, Zoho, Buttondown, HBO Max, Everbridge) and the lesson that no piece is hard but they all touch each other.
