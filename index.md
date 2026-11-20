@@ -202,6 +202,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 ## Claude Code
 
+- [[Toolsmith (Prime Radiant)]] — prime-radiant-inc's Claude Code plugin that stops agents writing throwaway helper scripts: hooks and a skill steer working agents to search a git-backed tools catalog or call a toolsmith subagent, which builds reusable tools via a 909-line tested bash plumbing binary with lock-and-rollback installs and enforced `toolsmith-v1:` catalog headers.
 - [[Tokens per Merged PR — Measuring Agent Fleet Efficiency]] — Alex Marquardt's ten-week transcript-based accounting of a Claude Code agent fleet: tokens per merged PR down 5.5x via one task per agent with a hook-enforced context ceiling, warm prompt caches (idle expiry was 31% of usage), and a program replacing the AI coordinator — measured per unit of work, with a candid negative-results table.
 - [[Grill-with-docs (Pocock Skills)]] — Matt Pocock's grilling + domain-modeling composition: a round-based design-tree interview with facts/decisions split and sub-agent fact-finding, plus inline GLOSSARY.md and three-test-gated ADRs as the session's durable output.
 - [[Agentics Spotlight — Skills, Harnesses & Agent Identity (Part 1)]] — Jesse Vincent fireside with Amol Kapoor (Nori Agentic): the Superpowers origin story (front-running Anthropic's Agent Skills by a week), skills as encoded management, graphviz process representations, rationalization tables, and what survives when frontier models can follow process "in the weights".
