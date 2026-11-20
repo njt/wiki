@@ -399,6 +399,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 
 [[Coding Agents and Frameworks]] — Specific agents, harnesses, frameworks, runtimes and SDKs as projects: what they are, how they are built, and how they compare. File a source here when the interesting thing is the project itself rather than a general design principle.
+- [[Mastra Factory (Getting Started)]] — Mastra's open-source software factory: issues in, plans, implementations, and reviewed PRs out, with three distinct human gates (accept, approve plan, merge) and a separate review session per PR; the productised counterpart to hand-rolled factory harnesses.
 
 - [[ASE — Man-Page Discipline for Agent Skills]] — Dr. Ralf S. Engelschall's ASE catalog: 147 agent skills documented as Unix man pages and running as a plugin across Claude Code, Copilot CLI, and Codex CLI, with a task-plan spec lifecycle, deterministic alias expansion, and a self-test that rates how faithfully the host model can execute the skills' control language.
 - [[How We Built Lovable and Why We Keep Rebuilding It]] — Osika's Lovable retrospective: deleting the autonomous-agent code for a predictable tool chain, knowledge files + retrieval instead of fine-tuning, and sandboxes that checkpoint whole machines so agents can fork running application environments.
