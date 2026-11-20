@@ -1,0 +1,68 @@
+---
+url: https://underwood.network/http/scots.html
+date_fetched: 2026-11-20
+---
+
+| 100 | AYE ON YE GO | 
+    | 101 | RIGHT WE'RE SWAPPIN | 
+    | 102 | AYE HAUD ON | 
+    | 103 | HERE'S A WEE CLUE | 
+    | 200 | NAE BOTHER | 
+    | 201 | THAT'S IT MADE | 
+    | 202 | AYE AH'LL SEE TAE IT | 
+    | 203 | DINNAE QUOTE ME | 
+    | 204 | HEHAW | 
+    | 205 | CLEAR THAT AFF AN START AGAIN | 
+    | 206 | HERE'S A WEE BIT | 
+    | 207 | BIT O THIS BIT O THAT | 
+    | 208 | AH TELT YE AWREADY YA WEE SCUNNER | 
+    | 226 | HERE'S WHIT'S CHANGED | 
+    | 300 | TAKE YER PICK | 
+    | 301 | WE'VE FLITTED | 
+    | 302 | WE'RE OWER THERE THE NOO | 
+    | 303 | ASK HIM OWER THERE | 
+    | 304 | SAME AULD SHITE | 
+    | 305 | GO THROUGH HIM | 
+    | 306 | NAE USE TAE ANYBODY | 
+    | 307 | FUCK OFF OWER THERE FOR NOO | 
+    | 308 | FUCK OFF OWER THERE FOR GUID | 
+    | 400 | WHIT THE FUCK'S THIS | 
+    | 401 | WHO THE FUCK ARE YOU | 
+    | 402 | GIE'S YER MONEY | 
+    | 403 | GET TAE FUCK | 
+    | 404 | NO FUCKIN HERE PAL | 
+    | 405 | YE CANNAE DAE THAT | 
+    | 406 | WE'VE NANE O THAT KIND | 
+    | 407 | AN WHO'S YER PAL | 
+    | 408 | AH'VE BEEN STAUNIN HERE AGES | 
+    | 409 | PICK A FUCKIN LANE | 
+    | 410 | DEID AN BURIED | 
+    | 411 | HOW LANG IS IT THEN | 
+    | 412 | THAT'S NO WHIT WE AGREED | 
+    | 413 | THAT'S FUCKIN MASSIVE | 
+    | 414 | AH'M NO READIN ALL THAT | 
+    | 415 | NAE IDEA WHIT THAT IS | 
+    | 416 | IT DISNAE GO THAT FAR | 
+    | 417 | AYE YE WISH | 
+    | 418 | AH'M A FUCKIN TEAPOT | 
+    | 421 | WRONG CUNT | 
+    | 422 | AH KEN WHIT YE MEAN BUT NAW | 
+    | 423 | IT'S SNIBBED | 
+    | 424 | THE LAST WAN WENT TITS UP | 
+    | 425 | HAUD YER HORSES | 
+    | 426 | GET YERSEL A NEW WAN | 
+    | 428 | CHECK FIRST YA CHANCER | 
+    | 429 | SLOW DOON | 
+    | 431 | TOO MUCH PISH | 
+    | 444 | AWAY YE CLATTY WEE BASTARD | 
+    | 451 | THE COUNCIL SAYS NAW | 
+    | 500 | AH'VE FUCKED IT | 
+    | 501 | AH DINNAE DAE THAT | 
+    | 502 | THE OTHER BAMPOT'S BROKEN | 
+    | 503 | WE'RE FUCKIN SHUT | 
+    | 504 | THE BASTARD'S NO ANSWERIN | 
+    | 505 | WHIT FUCKIN CENTURY ARE YE IN | 
+    | 507 | AH'M STAPPIT FU | 
+    | 508 | ROUND AN ROUND YA DAFT TWAT | 
+    | 510 | YE'LL NEED MAIR THAN THAT | 
+    | 511 | LOG IN TAE THE WIFI PAL |
