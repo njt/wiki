@@ -401,6 +401,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Jesse Vincent on Harnesses, AI Colleagues, and the End of Per-Token Billing]] — Jesse Vincent — creator of Superpowers, now building the Evener harness and the upcoming "Superpowers Z" product — sits down for a second interview covering where agentic coding actually is: harness design as the new…
 
 ## Coding Agents and Frameworks
+- [[Cobalt — GraphQL from TypeScript]] — Cobalt's pitch page: a TS framework inferring GraphQL schemas and typed SDKs, explicitly architected for agent context windows — dense, collocated code as a token-cost strategy rather than an afterthought.
 
 
 [[Coding Agents and Frameworks]] — Specific agents, harnesses, frameworks, runtimes and SDKs as projects: what they are, how they are built, and how they compare. File a source here when the interesting thing is the project itself rather than a general design principle.
