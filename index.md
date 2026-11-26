@@ -466,6 +466,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[MCP and Tool Protocols]] — How agents reach tools and services: MCP servers and gateways, tool and function calling, agent-facing APIs and CLIs, structured outputs, and authentication for tools.
 
+- [[The Pipe Test — Agents Are Your Tool's Users (Ayush)]] — Ayush mines 20,000 agent invocations: 83% of pipes are the same cut-down repeated, the workaround is the bug report, skill.md is the interface, and transcripts are the product analytics nobody reads.
 - [[Building Apps in Grist with the MCP Connector (Webinar)]] — Grist webinar transcript: three-part prompts for greenfield builds vs a two-phase plan-then-build harness for migrations, "building a castle" as the failure mode, five architectural reasons Grist suits agent-built apps, and honest gaps (no cost accounting, no staging story).
 - [[MotherDuck Remote MCP Server]] — MotherDuck's hosted MCP getting-started guide: connector auth, per-tool permissions, natural-language querying, and shareable Dives — plus the vendor's own admission that for terminal agents its CLI beats MCP on tokens.
 - [[Uber's MCP Gateway]] — Uber's centralized MCP platform: AutoCrawler auto-generates tools from existing IDL APIs (800+ servers, 5,000+ tools), disabled-by-default governance with owner-approved diffs, tool-level authz and PII redaction — and the twist that Code Mode via the aifx CLI is now the company default, bypassing MCP-in-context for coding agents.
