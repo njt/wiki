@@ -677,6 +677,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Specifications as the Product]] — Specs, plans and requirements as the durable artifact: spec-driven development, planning before coding, design documents, and the economics of disposable code.
 
+- [[Software Too Complex for Humans (Madhavapeddy)]] — Madhavapeddy's polemic that software was always beyond human comprehension: better harnesses alone yield "mountains of slop code," and the fix is deriving all software from formal specifications plus deliberately engineered diversity across code, models and harnesses — specs as security infrastructure, not documentation
 - [[SLCR Launches]] — Wack's launch of SLCR (Sliceable, Linked, Checkable Requirements): an open requirements format for both people and coding agents, built because their agents kept drifting from the spec over time, with a CLI, an agent skill, and an open repo at launch
 - [[ADR (GitHub adr Organization)]] — The canonical hub page defining the ADR vocabulary: AD, ASR, ADR and decision log, grounded in Zdun et al.'s Y-statements and Nygard's 2011 post, now mainstreamed into Azure and AWS guidance.
 - [[ADRs4AI (Deliberative Programming)]] — A method making the human-AI thinking the durable artifact: ADRs staked as `### QST:` questions the AI answers with options, confidence and a falsifier, and the human rules in one line — the record keeps the why, work is resumable, no memory claims.
