@@ -946,6 +946,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[I Don't Want the Details]] — Michael Heap turns an SVP's "I don't want the details" into a critique of why-did-this-happen postmortems: understanding an issue is not fixing it, blameless explanations can dissolve the urgency to change, and corrective actions that depend on people remembering are "organizational folklore" — the real questions are "what are we changing so this class of failure is less likely?" and "would the fix still work if everyone left?"
 - [[It Sounds Easy]] — Dan Luu's "It Sounds Easy" is an argument against the most durable form of tech-industry armchair expertise: the claim that some large company's product could be built by a handful of people, and that its thousands of…
 
+- [[A Contemporary Vocabulary for Testing (Keleş)]] — Replaces the vibes-based unit/integration/E2E taxonomy with a three-axis design space: test scope, falsified hypothesis, and oracle — with oracles cleanly split from input-generating methods, uniting snapshot tests, type systems, fuzzing, and DST in one frame.
 ## Databases and Data
 
 [[Databases and Data]] — Storage engines, query systems, data modelling, file formats, data pipelines, and how data systems are designed and operated.
