@@ -1457,6 +1457,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 ## Ideas and Culture
 
+- [[Five Kinds of Organizational Debt (Bond)]] — Suzan Bond's Constellary taxonomy splitting org debt into leadership, relational, structural, systems and reality debt, each with "org smells", plus the reinforcing cycles (reality → leadership → relational) and phase-predictable combinations — and the prescription that org-chart fixes are "new structures for old behaviors" unless leadership changes first.
 [[UI Style Guides (Wichary)]] — Marcin Wichary's archive of 69 preserved UI style guides from 1980 to today, from the Amiga and CUA to Liquid Glass — a fossil record of interface authority, including the ghost platforms.
 
 [[All 178 Notes I Took on Writing Fiction]] — Cristina White's two-year MFA fiction notebook typed out and sorted: 178 aphorisms on character-as-action, revision as the real art, and tolerating your own bad writing.
