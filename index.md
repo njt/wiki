@@ -790,6 +790,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 [[Software Engineering Craft]] — Engineering practice that predates and outlasts agents: simplicity, architecture, code review, testing, refactoring, debugging, technical writing, and how teams ship.
 
+- [[The Explorer Pattern (Larson)]] — Will Larson names the "Explorer Pattern" (Imprint's former "tech-led development"): one small group builds a working implementation that minimizes cross-team impact, then reconciles afterwards, on the premise that cheap rework broke process designed to avoid it — replication-style consistency at a primary, replicas that may be delayed but can't be wrong, and rules (sponsor, ≤5 people, public progress, narrowest viable changes, ship behind an internal flag) that guard against exploration drifting into unowned work.
 - [[Quebec (Yarn's Forced Aligner)]] — Yarn built a forced aligner reaching 77% of word edges within 20 ms of human labels (next best 54%, human agreement ~79%): a fenced exact decoder over MFA, a 19 MB boundary net, and Gemini-generated training labels validated three ways — measure-first ML engineering, constraints over model size.
 
 - [[The Future of AI Coding is Boring]] — A pessimistic essay on AI coding's three unsolved problems: collapsed learning loops, inevitable codebase erosion under LGTM review, and AI slop plus accelerated management — the engineer as caretaker of code nobody understands.
