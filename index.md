@@ -480,6 +480,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 ## Agent Orchestration
 
+- [[Online Harvey Agent Platform (Joey Wang)]] — Joey Wang on Spectre, Harvey's internal agent platform: host engineers' favourite agents rather than replace them, build the follow-up loop from alert to reviewed PR, expose every action as a CLI so any agent can drive it, and survive alert storms (~900 duplicate agents on one bug) with dedup plus queue-based admission control — ending unresolved at merge contention on a moving main branch.
 - [[Multiagent Coding Is the Future (Kalzumeus)]] — McKenzie's month inside Grimm, a hedge-fund orchestrator of 2–100+ Claude instances: fire yourself from coding and manage unbounded agent headcount, trust agents the way banks trust humans (controls, not virtue), and expect competitors to push everyone toward million-dollar inference months.
 
 - [[Memdoor team-solve Workflow]] — Five small-model agents (planner, two ideators, solver, manager, repair worker) with fresh contexts talking only through files on disk, rebuilt as eight YAML files in Memdoor with a script as the verdict; parity with the GVS5H paper's harness (9.8 vs 9.6 on 10 LiveCodeBench Hard problems) at $0.39 a run, with unusually honest caveats.
