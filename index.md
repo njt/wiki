@@ -1624,6 +1624,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 ## Miscellany
 
 [[Miscellany]] — Anything that fits none of the above. Reviewed periodically for topics that want to exist.
+- [[Physlib — Digitalizing Physics in Lean 4]] — Open-source community project formalizing theoretical physics in Lean 4, notable for its signed, verifiable contribution reports that give checkable credit for reviewing, refactoring, and maintenance work.
 
 - [[Engineering Atlas Articles]] — The atlas's article corpus: 5,172 crawled engineering reports classified by outcome (Win/Migration/Lesson/Outage/Postmortem), phase, and quality attribute — the evidence layer beneath the practice cards, where lessons dominate and correctness is the most-tagged attribute
 - [[State-Oriented Consistency]] — Consistency is a property of individual pieces of state, not the system. A practitioner's framework for asking each piece what it actually requires, and the anti-pattern (Uniform Consistency) of defaulting to one answer for everything
