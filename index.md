@@ -477,6 +477,8 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 ## Agent Orchestration
 
+- [[Multiagent Coding Is the Future (Kalzumeus)]] — McKenzie's month inside Grimm, a hedge-fund orchestrator of 2–100+ Claude instances: fire yourself from coding and manage unbounded agent headcount, trust agents the way banks trust humans (controls, not virtue), and expect competitors to push everyone toward million-dollar inference months.
+
 - [[Memdoor team-solve Workflow]] — Five small-model agents (planner, two ideators, solver, manager, repair worker) with fresh contexts talking only through files on disk, rebuilt as eight YAML files in Memdoor with a script as the verdict; parity with the GVS5H paper's harness (9.8 vs 9.6 on 10 LiveCodeBench Hard problems) at $0.39 a run, with unusually honest caveats.
 - [[Evolving Agent Teams (arXiv)]] — arXiv paper on a multi-agent framework where a supervisor diagnoses local optima and restructures the team, grounded by a persistent file system (learning document, evolution history, per-team artifacts); generates a CUDA kernel 1.2x faster than production FlashInfer and wins 36 of 47 FlashInfer-Bench workloads.
 
