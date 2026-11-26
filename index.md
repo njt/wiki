@@ -401,6 +401,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[Jesse Vincent on Harnesses, AI Colleagues, and the End of Per-Token Billing]] — Jesse Vincent — creator of Superpowers, now building the Evener harness and the upcoming "Superpowers Z" product — sits down for a second interview covering where agentic coding actually is: harness design as the new…
 
 ## Coding Agents and Frameworks
+- [[Agentic Algorithm Engineering (AAE)]] — Heidelberg's AAE skill for Claude Code/Codex runs the algorithm-engineering cycle autonomously: falsifiable hypothesis per experiment, correctness assertions after every change, keep-or-revert, one patch per accepted change — 8.9x on VieCut with identical output.
 
 
 [[Coding Agents and Frameworks]] — Specific agents, harnesses, frameworks, runtimes and SDKs as projects: what they are, how they are built, and how they compare. File a source here when the interesting thing is the project itself rather than a general design principle.
