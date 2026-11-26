@@ -247,6 +247,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 - [[RevEngine]] — Laude's open-source GitHub Action for AI PR review: minimal harness + strong model topped ReviewBench at 59.6% F1 (~$1, 3 min per PR), with ablations showing the model sets the baseline while the harness adds thoroughness — and Sonnet nearly matching Opus under the harness at half the cost
 - [[Whiteboard (dev.fast)]] — dev.fast's MIT-licensed desktop canvas where agents author typed, source-linked architecture documents via MCP: Zod-validated diagram blocks, a Rust AST diff viewer, vendored patchless Code-OSS, and Agent-Session commit trailers enabling trace archaeology back to the tool call that wrote each line
 - [[6 Learnings from 12,000 Agentic Code Reviews]] — Watson Labs' metrics from "The Mandible", a Gymwasp software factory run on the Swamp harness where no human reads code: seven isolated reviewer lanes gate merges worst-of-seven, 65% of 372 issues merge-ready after one round, round 4 is the elbow where loops oscillate rather than converge, 29% ship on warn, and the CI/CD instrument–measure–retune discipline applied to review loops
+- [[Tracetune — Better PRs from Agent Traces and an Evidence Graph]] — AI Engineer SF 2026 talk: AI PRs fail on description accuracy because agents narrate their own compressed session logs; Tracetune reconstructs PRs from session traces via a Rust embedded evidence graph (Relate), halving tokens with the counterintuitive split of a quality writer over cheap reviewers
 
 ## Agent Architecture
 
