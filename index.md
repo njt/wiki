@@ -481,6 +481,7 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 ## Agent Orchestration
 
+- [[Software Factories and the Five Horsemen (Steve Yegge)]] — Yegge's talk after a year running ~50 Claude agents on his MUD via Gas Town and Wheelhouse: the five horsemen (work, fuel, context, people, welfare), garbage-mountain burn cycles per model generation, trust as a token saver, and the conclusion that more agents means more humans.
 - [[Multiagent Coding Is the Future (Kalzumeus)]] — McKenzie's month inside Grimm, a hedge-fund orchestrator of 2–100+ Claude instances: fire yourself from coding and manage unbounded agent headcount, trust agents the way banks trust humans (controls, not virtue), and expect competitors to push everyone toward million-dollar inference months.
 
 - [[Memdoor team-solve Workflow]] — Five small-model agents (planner, two ideators, solver, manager, repair worker) with fresh contexts talking only through files on disk, rebuilt as eight YAML files in Memdoor with a script as the verdict; parity with the GVS5H paper's harness (9.8 vs 9.6 on 10 LiveCodeBench Hard problems) at $0.39 a run, with unusually honest caveats.
