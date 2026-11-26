@@ -1457,6 +1457,10 @@ Every source has a note, listed here under its primary topic. The topics are the
 
 ## Ideas and Culture
 
+[[Ideas and Culture]]
+
+[[The Usefulness of Useless Knowledge (Flexner)]] — Flexner's 1939 Harper's essay: Maxwell and Hertz, not Marconi, made radio; curiosity rather than utility drives the discoveries that later prove most useful — and the IAS was built to protect exactly that freedom.
+
 [[UI Style Guides (Wichary)]] — Marcin Wichary's archive of 69 preserved UI style guides from 1980 to today, from the Amiga and CUA to Liquid Glass — a fossil record of interface authority, including the ghost platforms.
 
 [[All 178 Notes I Took on Writing Fiction]] — Cristina White's two-year MFA fiction notebook typed out and sorted: 178 aphorisms on character-as-action, revision as the real art, and tolerating your own bad writing.
